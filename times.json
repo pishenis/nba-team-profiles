@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "updated": "2026-03-22",
+  "updated": "2026-03-23",
   "teams": {
     "ATL": {
       "name": "Atlanta Hawks",
@@ -112,7 +112,7 @@
           "freq": 28.9,
           "freq_rank": 12,
           "efg": 66.4,
-          "efg_rank": 18
+          "efg_rank": 17
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
@@ -133,7 +133,7 @@
           "freq": 11.5,
           "freq_rank": 9,
           "efg": 60.0,
-          "efg_rank": 7
+          "efg_rank": 8
         },
         {
           "name": "Acima do arco",
@@ -156,14 +156,14 @@
           "freq": 18.2,
           "freq_rank": 9,
           "efg": 44.8,
-          "efg_rank": 17
+          "efg_rank": 18
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 9.4,
           "freq_rank": 8,
           "efg": 41.7,
-          "efg_rank": 15
+          "efg_rank": 14
         },
         {
           "name": "Corner 3",
@@ -175,7 +175,7 @@
         {
           "name": "Acima do arco",
           "freq": 30.5,
-          "freq_rank": 14,
+          "freq_rank": 13,
           "efg": 51.6,
           "efg_rank": 15
         }
@@ -204,6 +204,27 @@
       },
       "play_types": [
         {
+          "name": "Spot Up",
+          "freq": 22.5,
+          "ppp": 1.1,
+          "freq_rank": 20,
+          "eff_rank": 5
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 21.9,
+          "ppp": 1.14,
+          "freq_rank": 4,
+          "eff_rank": 16
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 14.1,
+          "ppp": 0.82,
+          "freq_rank": 17,
+          "eff_rank": 27
+        },
+        {
           "name": "Cortes",
           "freq": 7.9,
           "ppp": 1.28,
@@ -222,7 +243,14 @@
           "freq": 5.7,
           "ppp": 0.98,
           "freq_rank": 3,
-          "eff_rank": 13
+          "eff_rank": 14
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.9,
+          "ppp": 1.03,
+          "freq_rank": 19,
+          "eff_rank": 25
         },
         {
           "name": "Isolamento",
@@ -232,38 +260,10 @@
           "eff_rank": 30
         },
         {
-          "name": "Transi\u00e7\u00e3o",
-          "freq": 0,
-          "ppp": 1.14,
-          "freq_rank": 29,
-          "eff_rank": 16
-        },
-        {
-          "name": "Pick & Roll (arm.)",
-          "freq": 0,
-          "ppp": 0.82,
-          "freq_rank": 29,
-          "eff_rank": 27
-        },
-        {
-          "name": "Pick & Roll (piv\u00f4)",
-          "freq": 0,
-          "ppp": 1.03,
-          "freq_rank": 29,
-          "eff_rank": 25
-        },
-        {
-          "name": "Spot Up",
-          "freq": 0,
-          "ppp": 1.1,
-          "freq_rank": 29,
-          "eff_rank": 5
-        },
-        {
           "name": "Post Up",
-          "freq": 0,
+          "freq": 2.8,
           "ppp": 1.08,
-          "freq_rank": 29,
+          "freq_rank": 16,
           "eff_rank": 5
         }
       ]
@@ -271,7 +271,7 @@
     "BOS": {
       "name": "Boston Celtics",
       "abbreviation": "BOS",
-      "rec": "47-23",
+      "rec": "47-24",
       "conf_rank": 2,
       "conf": "Leste",
       "clutch": {
@@ -282,29 +282,29 @@
       },
       "ratings": {
         "ortg": {
-          "value": 119.7,
+          "value": 119.3,
           "rank": 2
         },
         "drtg": {
-          "value": 111.7,
+          "value": 111.5,
           "rank": 4
         },
         "netrtg": {
-          "value": 8.0,
-          "rank": 2
+          "value": 7.8,
+          "rank": 3
         }
       },
       "four_factors_off": {
         "efg": {
-          "value": 54.9,
-          "rank": 12
+          "value": 54.7,
+          "rank": 14
         },
         "tov": {
           "value": 12.8,
           "rank": 2
         },
         "oreb": {
-          "value": 33.9,
+          "value": 33.8,
           "rank": 5
         },
         "ftr": {
@@ -314,7 +314,7 @@
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 52.2,
+          "value": 52.1,
           "rank": 3
         },
         "opp_tov": {
@@ -336,7 +336,7 @@
           "rank": 30
         },
         "pts_fb": {
-          "value": 11.5,
+          "value": 11.6,
           "rank": 30
         },
         "pts_paint": {
@@ -350,49 +350,49 @@
           "rank": 30
         },
         "opp_pts_fb": {
-          "value": 13.5,
+          "value": 13.7,
           "rank": 5
         },
         "opp_pts_paint": {
-          "value": 40.0,
+          "value": 40.1,
           "rank": 1
         }
       },
       "hustle": {
         "deflections": {
-          "value": 15.6,
-          "rank": 24
+          "value": 15.7,
+          "rank": 23
         },
         "charges": {
           "value": 0.34,
           "rank": 10
         },
         "loose_balls": {
-          "value": 4.2,
+          "value": 4.1,
           "rank": 19
         }
       },
       "shot_zones_off": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 20.6,
+          "freq": 20.8,
           "freq_rank": 30,
-          "efg": 71.7,
+          "efg": 71.4,
           "efg_rank": 2
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 19.6,
-          "freq_rank": 17,
-          "efg": 48.9,
-          "efg_rank": 2
+          "freq": 19.7,
+          "freq_rank": 16,
+          "efg": 48.0,
+          "efg_rank": 4
         },
         {
           "name": "Meia dist\u00e2ncia",
-          "freq": 12.9,
-          "freq_rank": 4,
-          "efg": 41.0,
-          "efg_rank": 20
+          "freq": 12.8,
+          "freq_rank": 5,
+          "efg": 40.5,
+          "efg_rank": 21
         },
         {
           "name": "Corner 3",
@@ -403,92 +403,92 @@
         },
         {
           "name": "Acima do arco",
-          "freq": 38.8,
+          "freq": 38.7,
           "freq_rank": 1,
-          "efg": 52.4,
-          "efg_rank": 14
+          "efg": 52.1,
+          "efg_rank": 16
         }
       ],
       "shot_zones_def": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 21.1,
+          "freq": 21.2,
           "freq_rank": 1,
-          "efg": 65.6,
+          "efg": 65.8,
           "efg_rank": 9
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 22.0,
-          "freq_rank": 23,
-          "efg": 41.9,
-          "efg_rank": 5
+          "freq": 22.1,
+          "freq_rank": 24,
+          "efg": 41.7,
+          "efg_rank": 4
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 11.6,
           "freq_rank": 29,
           "efg": 42.6,
-          "efg_rank": 20
+          "efg_rank": 19
         },
         {
           "name": "Corner 3",
-          "freq": 9.9,
-          "freq_rank": 7,
-          "efg": 54.1,
-          "efg_rank": 3
+          "freq": 9.8,
+          "freq_rank": 6,
+          "efg": 54.7,
+          "efg_rank": 4
         },
         {
           "name": "Acima do arco",
           "freq": 35.3,
           "freq_rank": 30,
           "efg": 52.9,
-          "efg_rank": 22
+          "efg_rank": 21
         }
       ],
       "drives": {
         "per_game": 47.3,
         "rank": 16,
         "pizza": {
-          "shots": 49.3,
+          "shots": 49.5,
           "passes": 35.9,
           "tov": 5.9,
           "fouls": 5.9,
-          "other": 3.0
+          "other": 2.7
         }
       },
       "postups": {
-        "per_game": 2.0,
+        "per_game": 1.9,
         "rank": 27,
         "pizza": {
-          "shots": 40.0,
-          "passes": 30.0,
-          "tov": 10.0,
-          "fouls": 5.0,
-          "other": 15.0
+          "shots": 42.1,
+          "passes": 31.6,
+          "tov": 10.5,
+          "fouls": 5.3,
+          "other": 10.5
         }
       },
       "play_types": [
         {
           "name": "Spot Up",
-          "freq": 23.0,
+          "freq": 22.9,
           "ppp": 1.09,
           "freq_rank": 17,
           "eff_rank": 7
         },
         {
           "name": "Pick & Roll (arm.)",
-          "freq": 18.2,
-          "ppp": 0.94,
+          "freq": 18.3,
+          "ppp": 0.93,
           "freq_rank": 4,
-          "eff_rank": 4
+          "eff_rank": 5
         },
         {
           "name": "Transi\u00e7\u00e3o",
-          "freq": 15.1,
+          "freq": 15.3,
           "ppp": 1.16,
           "freq_rank": 28,
-          "eff_rank": 6
+          "eff_rank": 8
         },
         {
           "name": "Isolamento",
@@ -501,7 +501,7 @@
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.8,
           "ppp": 1.13,
-          "freq_rank": 10,
+          "freq_rank": 9,
           "eff_rank": 9
         },
         {
@@ -509,51 +509,51 @@
           "freq": 5.4,
           "ppp": 0.93,
           "freq_rank": 8,
-          "eff_rank": 17
+          "eff_rank": 18
         },
         {
           "name": "Cortes",
           "freq": 5.4,
-          "ppp": 1.34,
+          "ppp": 1.33,
           "freq_rank": 24,
-          "eff_rank": 8
+          "eff_rank": 10
         },
         {
           "name": "Off Screen",
-          "freq": 5.2,
-          "ppp": 0.97,
+          "freq": 5.1,
+          "ppp": 0.96,
           "freq_rank": 4,
           "eff_rank": 17
         },
         {
           "name": "Post Up",
           "freq": 1.9,
-          "ppp": 0.98,
-          "freq_rank": 25,
-          "eff_rank": 16
+          "ppp": 0.97,
+          "freq_rank": 26,
+          "eff_rank": 17
         }
       ]
     },
     "BKN": {
       "name": "Brooklyn Nets",
       "abbreviation": "BKN",
-      "rec": "17-53",
+      "rec": "17-54",
       "conf_rank": 13,
       "conf": "Leste",
       "clutch": {
         "w": 6,
-        "l": 24,
-        "wpct": 20.0,
+        "l": 25,
+        "wpct": 19.4,
         "rank": 30
       },
       "ratings": {
         "ortg": {
-          "value": 108.7,
+          "value": 109.0,
           "rank": 30
         },
         "drtg": {
-          "value": 117.9,
-          "rank": 26
+          "value": 118.1,
+          "rank": 27
         },
         "netrtg": {
           "value": -9.1,
@@ -562,16 +562,16 @@
       },
       "four_factors_off": {
         "efg": {
-          "value": 52.1,
+          "value": 52.2,
           "rank": 30
         },
         "tov": {
-          "value": 16.4,
+          "value": 16.2,
           "rank": 29
         },
         "oreb": {
-          "value": 29.8,
-          "rank": 18
+          "value": 29.7,
+          "rank": 19
         },
         "ftr": {
           "value": 0.27,
@@ -580,7 +580,7 @@
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 56.5,
+          "value": 56.6,
           "rank": 28
         },
         "opp_tov": {
@@ -588,7 +588,7 @@
           "rank": 18
         },
         "opp_oreb": {
-          "value": 10.3,
+          "value": 10.4,
           "rank": 3
         },
         "opp_ftr": {
@@ -602,11 +602,11 @@
           "rank": 27
         },
         "pts_fb": {
-          "value": 12.2,
-          "rank": 28
+          "value": 12.3,
+          "rank": 27
         },
         "pts_paint": {
-          "value": 43.7,
+          "value": 43.9,
           "rank": 28
         }
       },
@@ -616,22 +616,22 @@
           "rank": 27
         },
         "opp_pts_fb": {
-          "value": 17.3,
-          "rank": 29
+          "value": 17.1,
+          "rank": 28
         },
         "opp_pts_paint": {
-          "value": 53.1,
+          "value": 53.0,
           "rank": 25
         }
       },
       "hustle": {
         "deflections": {
-          "value": 17.6,
-          "rank": 13
+          "value": 17.7,
+          "rank": 12
         },
         "charges": {
-          "value": 0.19,
-          "rank": 24
+          "value": 0.18,
+          "rank": 26
         },
         "loose_balls": {
           "value": 4.0,
@@ -641,24 +641,24 @@
       "shot_zones_off": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 29.4,
-          "freq_rank": 8,
-          "efg": 64.3,
-          "efg_rank": 27
+          "freq": 29.1,
+          "freq_rank": 11,
+          "efg": 64.6,
+          "efg_rank": 26
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 17.1,
-          "freq_rank": 25,
-          "efg": 40.7,
+          "freq": 17.6,
+          "freq_rank": 23,
+          "efg": 40.9,
           "efg_rank": 26
         },
         {
           "name": "Meia dist\u00e2ncia",
-          "freq": 7.3,
+          "freq": 7.2,
           "freq_rank": 26,
-          "efg": 35.5,
-          "efg_rank": 29
+          "efg": 36.1,
+          "efg_rank": 28
         },
         {
           "name": "Corner 3",
@@ -671,38 +671,38 @@
           "name": "Acima do arco",
           "freq": 34.6,
           "freq_rank": 6,
-          "efg": 49.7,
+          "efg": 49.8,
           "efg_rank": 29
         }
       ],
       "shot_zones_def": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 32.6,
+          "freq": 32.4,
           "freq_rank": 30,
-          "efg": 67.6,
-          "efg_rank": 18
+          "efg": 67.8,
+          "efg_rank": 19
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 20.0,
-          "freq_rank": 10,
-          "efg": 45.0,
-          "efg_rank": 22
+          "freq": 20.4,
+          "freq_rank": 14,
+          "efg": 44.8,
+          "efg_rank": 19
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 8.9,
           "freq_rank": 5,
-          "efg": 40.8,
-          "efg_rank": 9
+          "efg": 42.1,
+          "efg_rank": 17
         },
         {
           "name": "Corner 3",
-          "freq": 10.7,
-          "freq_rank": 15,
-          "efg": 59.3,
-          "efg_rank": 24
+          "freq": 10.6,
+          "freq_rank": 14,
+          "efg": 60.0,
+          "efg_rank": 27
         },
         {
           "name": "Acima do arco",
@@ -713,14 +713,14 @@
         }
       ],
       "drives": {
-        "per_game": 46.5,
+        "per_game": 46.8,
         "rank": 18,
         "pizza": {
-          "shots": 45.4,
-          "passes": 36.6,
+          "shots": 45.5,
+          "passes": 36.3,
           "tov": 7.1,
-          "fouls": 8.6,
-          "other": 2.4
+          "fouls": 8.3,
+          "other": 2.8
         }
       },
       "postups": {
@@ -737,8 +737,8 @@
       "play_types": [
         {
           "name": "Spot Up",
-          "freq": 28.5,
-          "ppp": 0.98,
+          "freq": 28.6,
+          "ppp": 0.99,
           "freq_rank": 3,
           "eff_rank": 26
         },
@@ -746,19 +746,19 @@
           "name": "Transi\u00e7\u00e3o",
           "freq": 16.0,
           "ppp": 1.09,
-          "freq_rank": 24,
-          "eff_rank": 27
+          "freq_rank": 25,
+          "eff_rank": 24
         },
         {
           "name": "Pick & Roll (arm.)",
           "freq": 12.3,
-          "ppp": 0.8,
+          "ppp": 0.81,
           "freq_rank": 26,
           "eff_rank": 30
         },
         {
           "name": "Handoff",
-          "freq": 8.9,
+          "freq": 9.0,
           "ppp": 0.86,
           "freq_rank": 1,
           "eff_rank": 29
@@ -773,29 +773,29 @@
         {
           "name": "Isolamento",
           "freq": 5.6,
-          "ppp": 0.92,
+          "ppp": 0.91,
           "freq_rank": 24,
           "eff_rank": 16
         },
         {
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 4.2,
-          "ppp": 1.0,
+          "ppp": 1.01,
           "freq_rank": 25,
           "eff_rank": 27
         },
         {
           "name": "Off Screen",
           "freq": 3.4,
-          "ppp": 0.94,
-          "freq_rank": 16,
+          "ppp": 0.95,
+          "freq_rank": 15,
           "eff_rank": 20
         },
         {
           "name": "Post Up",
           "freq": 2.1,
           "ppp": 0.94,
-          "freq_rank": 23,
+          "freq_rank": 24,
           "eff_rank": 22
         }
       ]
@@ -847,7 +847,7 @@
       "four_factors_def": {
         "opp_efg": {
           "value": 54.0,
-          "rank": 10
+          "rank": 9
         },
         "opp_tov": {
           "value": 12.7,
@@ -924,7 +924,7 @@
           "freq": 6.0,
           "freq_rank": 29,
           "efg": 35.8,
-          "efg_rank": 28
+          "efg_rank": 29
         },
         {
           "name": "Corner 3",
@@ -952,7 +952,7 @@
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 20.2,
-          "freq_rank": 13,
+          "freq_rank": 12,
           "efg": 42.7,
           "efg_rank": 8
         },
@@ -961,7 +961,7 @@
           "freq": 9.8,
           "freq_rank": 10,
           "efg": 40.7,
-          "efg_rank": 7
+          "efg_rank": 8
         },
         {
           "name": "Corner 3",
@@ -1019,8 +1019,8 @@
           "name": "Transi\u00e7\u00e3o",
           "freq": 16.1,
           "ppp": 1.09,
-          "freq_rank": 21,
-          "eff_rank": 24
+          "freq_rank": 22,
+          "eff_rank": 25
         },
         {
           "name": "Pick & Roll (piv\u00f4)",
@@ -1054,15 +1054,15 @@
           "name": "Off Screen",
           "freq": 2.8,
           "ppp": 1.1,
-          "freq_rank": 21,
+          "freq_rank": 20,
           "eff_rank": 3
         },
         {
           "name": "Post Up",
           "freq": 1.8,
           "ppp": 1.05,
-          "freq_rank": 27,
-          "eff_rank": 8
+          "freq_rank": 28,
+          "eff_rank": 7
         }
       ]
     },
@@ -1095,7 +1095,7 @@
       "four_factors_off": {
         "efg": {
           "value": 54.9,
-          "rank": 13
+          "rank": 12
         },
         "tov": {
           "value": 14.7,
@@ -1183,7 +1183,7 @@
           "freq": 16.5,
           "freq_rank": 27,
           "efg": 45.0,
-          "efg_rank": 15
+          "efg_rank": 13
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -1227,7 +1227,7 @@
           "freq": 9.2,
           "freq_rank": 6,
           "efg": 41.9,
-          "efg_rank": 17
+          "efg_rank": 16
         },
         {
           "name": "Corner 3",
@@ -1271,7 +1271,7 @@
           "name": "Spot Up",
           "freq": 27.6,
           "ppp": 1.05,
-          "freq_rank": 6,
+          "freq_rank": 5,
           "eff_rank": 15
         },
         {
@@ -1320,14 +1320,14 @@
           "name": "Post Up",
           "freq": 2.4,
           "ppp": 0.84,
-          "freq_rank": 21,
+          "freq_rank": 22,
           "eff_rank": 29
         },
         {
           "name": "Off Screen",
           "freq": 1.8,
           "ppp": 0.94,
-          "freq_rank": 30,
+          "freq_rank": 28,
           "eff_rank": 21
         }
       ]
@@ -1355,7 +1355,7 @@
         },
         "netrtg": {
           "value": 4.3,
-          "rank": 6
+          "rank": 7
         }
       },
       "four_factors_off": {
@@ -1373,17 +1373,17 @@
         },
         "ftr": {
           "value": 0.26,
-          "rank": 16
+          "rank": 17
         }
       },
       "four_factors_def": {
         "opp_efg": {
           "value": 54.1,
-          "rank": 12
+          "rank": 11
         },
         "opp_tov": {
           "value": 15.4,
-          "rank": 11
+          "rank": 10
         },
         "opp_oreb": {
           "value": 11.4,
@@ -1401,7 +1401,7 @@
         },
         "pts_fb": {
           "value": 14.6,
-          "rank": 17
+          "rank": 16
         },
         "pts_paint": {
           "value": 51.1,
@@ -1433,7 +1433,7 @@
         },
         "loose_balls": {
           "value": 4.6,
-          "rank": 9
+          "rank": 8
         }
       },
       "shot_zones_off": [
@@ -1493,7 +1493,7 @@
           "freq": 11.6,
           "freq_rank": 28,
           "efg": 41.7,
-          "efg_rank": 16
+          "efg_rank": 15
         },
         {
           "name": "Corner 3",
@@ -1507,7 +1507,7 @@
           "freq": 30.8,
           "freq_rank": 17,
           "efg": 53.1,
-          "efg_rank": 23
+          "efg_rank": 22
         }
       ],
       "drives": {
@@ -1544,14 +1544,14 @@
           "name": "Transi\u00e7\u00e3o",
           "freq": 18.1,
           "ppp": 1.15,
-          "freq_rank": 15,
-          "eff_rank": 13
+          "freq_rank": 16,
+          "eff_rank": 12
         },
         {
           "name": "Pick & Roll (arm.)",
           "freq": 16.4,
           "ppp": 0.89,
-          "freq_rank": 12,
+          "freq_rank": 11,
           "eff_rank": 12
         },
         {
@@ -1586,14 +1586,14 @@
           "name": "Off Screen",
           "freq": 2.6,
           "ppp": 0.99,
-          "freq_rank": 22,
+          "freq_rank": 21,
           "eff_rank": 12
         },
         {
           "name": "Post Up",
           "freq": 2.0,
           "ppp": 0.99,
-          "freq_rank": 24,
+          "freq_rank": 25,
           "eff_rank": 14
         }
       ]
@@ -1613,7 +1613,7 @@
       "ratings": {
         "ortg": {
           "value": 110.0,
-          "rank": 26
+          "rank": 27
         },
         "drtg": {
           "value": 115.0,
@@ -1645,7 +1645,7 @@
       "four_factors_def": {
         "opp_efg": {
           "value": 54.3,
-          "rank": 14
+          "rank": 15
         },
         "opp_tov": {
           "value": 13.1,
@@ -1736,7 +1736,7 @@
           "freq": 24.3,
           "freq_rank": 29,
           "efg": 50.5,
-          "efg_rank": 24
+          "efg_rank": 25
         }
       ],
       "shot_zones_def": [
@@ -1745,14 +1745,14 @@
           "freq": 30.0,
           "freq_rank": 21,
           "efg": 67.7,
-          "efg_rank": 19
+          "efg_rank": 18
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 21.3,
-          "freq_rank": 20,
+          "freq_rank": 21,
           "efg": 45.0,
-          "efg_rank": 21
+          "efg_rank": 22
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -1803,14 +1803,14 @@
           "name": "Spot Up",
           "freq": 21.5,
           "ppp": 0.97,
-          "freq_rank": 23,
+          "freq_rank": 24,
           "eff_rank": 29
         },
         {
           "name": "Transi\u00e7\u00e3o",
           "freq": 19.8,
           "ppp": 1.2,
-          "freq_rank": 6,
+          "freq_rank": 7,
           "eff_rank": 2
         },
         {
@@ -1825,7 +1825,7 @@
           "freq": 7.3,
           "ppp": 0.88,
           "freq_rank": 12,
-          "eff_rank": 24
+          "eff_rank": 23
         },
         {
           "name": "Cortes",
@@ -1838,7 +1838,7 @@
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.2,
           "ppp": 1.08,
-          "freq_rank": 15,
+          "freq_rank": 14,
           "eff_rank": 18
         },
         {
@@ -1846,7 +1846,7 @@
           "freq": 4.8,
           "ppp": 0.92,
           "freq_rank": 7,
-          "eff_rank": 24
+          "eff_rank": 25
         },
         {
           "name": "Handoff",
@@ -1867,7 +1867,7 @@
     "DEN": {
       "name": "Denver Nuggets",
       "abbreviation": "DEN",
-      "rec": "43-28",
+      "rec": "44-28",
       "conf_rank": 4,
       "conf": "Oeste",
       "clutch": {
@@ -1878,21 +1878,21 @@
       },
       "ratings": {
         "ortg": {
-          "value": 120.1,
+          "value": 120.2,
           "rank": 1
         },
         "drtg": {
-          "value": 115.9,
+          "value": 115.8,
           "rank": 21
         },
         "netrtg": {
-          "value": 4.2,
-          "rank": 7
+          "value": 4.4,
+          "rank": 6
         }
       },
       "four_factors_off": {
         "efg": {
-          "value": 57.2,
+          "value": 57.3,
           "rank": 1
         },
         "tov": {
@@ -1900,29 +1900,29 @@
           "rank": 3
         },
         "oreb": {
-          "value": 28.2,
+          "value": 28.1,
           "rank": 26
         },
         "ftr": {
           "value": 0.3,
-          "rank": 2
+          "rank": 4
         }
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 54.3,
-          "rank": 15
+          "value": 54.2,
+          "rank": 14
         },
         "opp_tov": {
           "value": 12.0,
           "rank": 30
         },
         "opp_oreb": {
-          "value": 11.2,
-          "rank": 10
+          "value": 11.3,
+          "rank": 13
         },
         "opp_ftr": {
-          "value": 0.26,
+          "value": 0.25,
           "rank": 12
         }
       },
@@ -1932,11 +1932,11 @@
           "rank": 20
         },
         "pts_fb": {
-          "value": 14.9,
+          "value": 15.1,
           "rank": 15
         },
         "pts_paint": {
-          "value": 49.1,
+          "value": 49.2,
           "rank": 19
         }
       },
@@ -1946,17 +1946,17 @@
           "rank": 20
         },
         "opp_pts_fb": {
-          "value": 15.8,
+          "value": 15.7,
           "rank": 21
         },
         "opp_pts_paint": {
-          "value": 50.3,
+          "value": 50.2,
           "rank": 14
         }
       },
       "hustle": {
         "deflections": {
-          "value": 14.6,
+          "value": 14.5,
           "rank": 27
         },
         "charges": {
@@ -1964,7 +1964,7 @@
           "rank": 13
         },
         "loose_balls": {
-          "value": 3.7,
+          "value": 3.6,
           "rank": 30
         }
       },
@@ -1981,7 +1981,7 @@
           "freq": 20.8,
           "freq_rank": 12,
           "efg": 48.1,
-          "efg_rank": 4
+          "efg_rank": 3
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -1999,16 +1999,16 @@
         },
         {
           "name": "Acima do arco",
-          "freq": 30.0,
+          "freq": 30.1,
           "freq_rank": 17,
-          "efg": 56.9,
+          "efg": 56.7,
           "efg_rank": 1
         }
       ],
       "shot_zones_def": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 26.1,
+          "freq": 26.0,
           "freq_rank": 6,
           "efg": 70.0,
           "efg_rank": 27
@@ -2022,89 +2022,61 @@
         },
         {
           "name": "Meia dist\u00e2ncia",
-          "freq": 11.0,
+          "freq": 10.9,
           "freq_rank": 25,
-          "efg": 41.0,
-          "efg_rank": 12
+          "efg": 41.4,
+          "efg_rank": 13
         },
         {
           "name": "Corner 3",
           "freq": 11.9,
           "freq_rank": 26,
           "efg": 54.2,
-          "efg_rank": 4
+          "efg_rank": 3
         },
         {
           "name": "Acima do arco",
-          "freq": 30.4,
-          "freq_rank": 13,
-          "efg": 51.6,
-          "efg_rank": 14
+          "freq": 30.5,
+          "freq_rank": 15,
+          "efg": 51.3,
+          "efg_rank": 11
         }
       ],
       "drives": {
-        "per_game": 33.9,
+        "per_game": 33.8,
         "rank": 30,
         "pizza": {
-          "shots": 48.1,
-          "passes": 36.6,
+          "shots": 47.9,
+          "passes": 36.4,
           "tov": 6.2,
           "fouls": 7.4,
-          "other": 1.8
+          "other": 2.1
         }
       },
       "postups": {
-        "per_game": 8.7,
+        "per_game": 8.6,
         "rank": 1,
         "pizza": {
-          "shots": 47.1,
-          "passes": 31.0,
-          "tov": 6.9,
-          "fouls": 9.2,
-          "other": 5.7
+          "shots": 46.5,
+          "passes": 31.4,
+          "tov": 7.0,
+          "fouls": 9.3,
+          "other": 5.8
         }
       },
       "play_types": [
-        {
-          "name": "Spot Up",
-          "freq": 19.3,
-          "ppp": 1.12,
-          "freq_rank": 28,
-          "eff_rank": 3
-        },
-        {
-          "name": "Transi\u00e7\u00e3o",
-          "freq": 15.9,
-          "ppp": 1.18,
-          "freq_rank": 25,
-          "eff_rank": 4
-        },
-        {
-          "name": "Pick & Roll (arm.)",
-          "freq": 13.8,
-          "ppp": 0.9,
-          "freq_rank": 19,
-          "eff_rank": 8
-        },
         {
           "name": "Cortes",
           "freq": 8.9,
           "ppp": 1.31,
           "freq_rank": 4,
-          "eff_rank": 14
-        },
-        {
-          "name": "Post Up",
-          "freq": 6.8,
-          "ppp": 1.09,
-          "freq_rank": 1,
-          "eff_rank": 3
+          "eff_rank": 13
         },
         {
           "name": "Isolamento",
-          "freq": 6.7,
+          "freq": 6.6,
           "ppp": 1.01,
-          "freq_rank": 14,
+          "freq_rank": 16,
           "eff_rank": 3
         },
         {
@@ -2115,17 +2087,45 @@
           "eff_rank": 4
         },
         {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 0,
+          "ppp": 1.18,
+          "freq_rank": 29,
+          "eff_rank": 3
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 0,
+          "ppp": 0.9,
+          "freq_rank": 29,
+          "eff_rank": 9
+        },
+        {
           "name": "Pick & Roll (piv\u00f4)",
-          "freq": 6.0,
-          "ppp": 1.22,
-          "freq_rank": 9,
+          "freq": 0,
+          "ppp": 1.23,
+          "freq_rank": 29,
           "eff_rank": 2
         },
         {
+          "name": "Spot Up",
+          "freq": 0,
+          "ppp": 1.12,
+          "freq_rank": 29,
+          "eff_rank": 3
+        },
+        {
+          "name": "Post Up",
+          "freq": 0,
+          "ppp": 1.09,
+          "freq_rank": 29,
+          "eff_rank": 3
+        },
+        {
           "name": "Off Screen",
-          "freq": 4.3,
-          "ppp": 1.24,
-          "freq_rank": 9,
+          "freq": 0,
+          "ppp": 1.23,
+          "freq_rank": 29,
           "eff_rank": 1
         }
       ]
@@ -2153,7 +2153,7 @@
         },
         "netrtg": {
           "value": 8.0,
-          "rank": 3
+          "rank": 2
         }
       },
       "four_factors_off": {
@@ -2185,7 +2185,7 @@
         },
         "opp_oreb": {
           "value": 11.3,
-          "rank": 13
+          "rank": 14
         },
         "opp_ftr": {
           "value": 0.32,
@@ -2222,7 +2222,7 @@
       },
       "hustle": {
         "deflections": {
-          "value": 20.9,
+          "value": 21.0,
           "rank": 1
         },
         "charges": {
@@ -2268,7 +2268,7 @@
           "freq": 24.5,
           "freq_rank": 28,
           "efg": 51.1,
-          "efg_rank": 22
+          "efg_rank": 23
         }
       ],
       "shot_zones_def": [
@@ -2335,15 +2335,15 @@
           "name": "Spot Up",
           "freq": 21.3,
           "ppp": 1.02,
-          "freq_rank": 25,
+          "freq_rank": 26,
           "eff_rank": 20
         },
         {
           "name": "Transi\u00e7\u00e3o",
           "freq": 19.5,
           "ppp": 1.15,
-          "freq_rank": 7,
-          "eff_rank": 14
+          "freq_rank": 8,
+          "eff_rank": 13
         },
         {
           "name": "Pick & Roll (arm.)",
@@ -2370,14 +2370,14 @@
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.0,
           "ppp": 1.21,
-          "freq_rank": 17,
+          "freq_rank": 16,
           "eff_rank": 3
         },
         {
           "name": "Post Up",
           "freq": 4.3,
           "ppp": 1.12,
-          "freq_rank": 7,
+          "freq_rank": 6,
           "eff_rank": 2
         },
         {
@@ -2411,7 +2411,7 @@
       "ratings": {
         "ortg": {
           "value": 113.8,
-          "rank": 18
+          "rank": 19
         },
         "drtg": {
           "value": 113.6,
@@ -2425,7 +2425,7 @@
       "four_factors_off": {
         "efg": {
           "value": 54.8,
-          "rank": 14
+          "rank": 13
         },
         "tov": {
           "value": 15.5,
@@ -2465,7 +2465,7 @@
         },
         "pts_fb": {
           "value": 12.3,
-          "rank": 27
+          "rank": 28
         },
         "pts_paint": {
           "value": 44.6,
@@ -2527,7 +2527,7 @@
           "freq": 13.4,
           "freq_rank": 3,
           "efg": 58.8,
-          "efg_rank": 10
+          "efg_rank": 11
         },
         {
           "name": "Acima do arco",
@@ -2564,7 +2564,7 @@
           "freq": 10.0,
           "freq_rank": 8,
           "efg": 59.0,
-          "efg_rank": 22
+          "efg_rank": 21
         },
         {
           "name": "Acima do arco",
@@ -2598,6 +2598,27 @@
       },
       "play_types": [
         {
+          "name": "Spot Up",
+          "freq": 27.1,
+          "ppp": 1.07,
+          "freq_rank": 6,
+          "eff_rank": 11
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.2,
+          "ppp": 1.09,
+          "freq_rank": 21,
+          "eff_rank": 27
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 12.9,
+          "ppp": 0.85,
+          "freq_rank": 22,
+          "eff_rank": 17
+        },
+        {
           "name": "Cortes",
           "freq": 9.4,
           "ppp": 1.39,
@@ -2619,6 +2640,13 @@
           "eff_rank": 12
         },
         {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.7,
+          "ppp": 1.08,
+          "freq_rank": 22,
+          "eff_rank": 19
+        },
+        {
           "name": "Handoff",
           "freq": 3.9,
           "ppp": 1.04,
@@ -2626,38 +2654,10 @@
           "eff_rank": 3
         },
         {
-          "name": "Transi\u00e7\u00e3o",
-          "freq": 0,
-          "ppp": 1.09,
-          "freq_rank": 30,
-          "eff_rank": 26
-        },
-        {
-          "name": "Pick & Roll (arm.)",
-          "freq": 0,
-          "ppp": 0.85,
-          "freq_rank": 30,
-          "eff_rank": 17
-        },
-        {
-          "name": "Pick & Roll (piv\u00f4)",
-          "freq": 0,
-          "ppp": 1.08,
-          "freq_rank": 30,
-          "eff_rank": 19
-        },
-        {
-          "name": "Spot Up",
-          "freq": 0,
-          "ppp": 1.07,
-          "freq_rank": 30,
-          "eff_rank": 11
-        },
-        {
           "name": "Post Up",
-          "freq": 0,
+          "freq": 2.5,
           "ppp": 0.91,
-          "freq_rank": 30,
+          "freq_rank": 19,
           "eff_rank": 26
         }
       ]
@@ -2666,7 +2666,7 @@
       "name": "Houston Rockets",
       "abbreviation": "HOU",
       "rec": "43-27",
-      "conf_rank": 5,
+      "conf_rank": 6,
       "conf": "Oeste",
       "clutch": {
         "w": 19,
@@ -2681,7 +2681,7 @@
         },
         "drtg": {
           "value": 112.3,
-          "rank": 8
+          "rank": 7
         },
         "netrtg": {
           "value": 4.2,
@@ -2703,13 +2703,13 @@
         },
         "ftr": {
           "value": 0.26,
-          "rank": 17
+          "rank": 18
         }
       },
       "four_factors_def": {
         "opp_efg": {
           "value": 53.1,
-          "rank": 5
+          "rank": 6
         },
         "opp_tov": {
           "value": 13.5,
@@ -2731,7 +2731,7 @@
         },
         "pts_fb": {
           "value": 13.8,
-          "rank": 21
+          "rank": 20
         },
         "pts_paint": {
           "value": 52.4,
@@ -2759,7 +2759,7 @@
         },
         "charges": {
           "value": 0.19,
-          "rank": 25
+          "rank": 24
         },
         "loose_balls": {
           "value": 5.3,
@@ -2786,7 +2786,7 @@
           "freq": 14.0,
           "freq_rank": 2,
           "efg": 40.8,
-          "efg_rank": 21
+          "efg_rank": 20
         },
         {
           "name": "Corner 3",
@@ -2816,7 +2816,7 @@
           "freq": 22.9,
           "freq_rank": 29,
           "efg": 44.8,
-          "efg_rank": 16
+          "efg_rank": 17
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -2837,7 +2837,7 @@
           "freq": 31.2,
           "freq_rank": 19,
           "efg": 51.5,
-          "efg_rank": 11
+          "efg_rank": 12
         }
       ],
       "drives": {
@@ -2867,21 +2867,21 @@
           "name": "Spot Up",
           "freq": 22.2,
           "ppp": 1.03,
-          "freq_rank": 21,
+          "freq_rank": 22,
           "eff_rank": 18
         },
         {
           "name": "Transi\u00e7\u00e3o",
           "freq": 16.1,
           "ppp": 1.16,
-          "freq_rank": 22,
+          "freq_rank": 23,
           "eff_rank": 9
         },
         {
           "name": "Pick & Roll (arm.)",
           "freq": 13.2,
           "ppp": 0.87,
-          "freq_rank": 22,
+          "freq_rank": 21,
           "eff_rank": 14
         },
         {
@@ -2902,14 +2902,14 @@
           "name": "Post Up",
           "freq": 6.0,
           "ppp": 0.96,
-          "freq_rank": 2,
+          "freq_rank": 1,
           "eff_rank": 19
         },
         {
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.4,
           "ppp": 1.01,
-          "freq_rank": 12,
+          "freq_rank": 11,
           "eff_rank": 26
         },
         {
@@ -2923,7 +2923,7 @@
           "name": "Off Screen",
           "freq": 2.4,
           "ppp": 0.84,
-          "freq_rank": 25,
+          "freq_rank": 24,
           "eff_rank": 29
         }
       ]
@@ -2947,7 +2947,7 @@
         },
         "drtg": {
           "value": 118.0,
-          "rank": 27
+          "rank": 26
         },
         "netrtg": {
           "value": -8.8,
@@ -2983,7 +2983,7 @@
         },
         "opp_oreb": {
           "value": 11.3,
-          "rank": 14
+          "rank": 15
         },
         "opp_ftr": {
           "value": 0.29,
@@ -3045,7 +3045,7 @@
           "freq": 19.8,
           "freq_rank": 15,
           "efg": 44.9,
-          "efg_rank": 16
+          "efg_rank": 15
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -3066,7 +3066,7 @@
           "freq": 32.0,
           "freq_rank": 10,
           "efg": 52.1,
-          "efg_rank": 16
+          "efg_rank": 17
         }
       ],
       "shot_zones_def": [
@@ -3096,7 +3096,7 @@
           "freq": 9.7,
           "freq_rank": 5,
           "efg": 58.6,
-          "efg_rank": 20
+          "efg_rank": 19
         },
         {
           "name": "Acima do arco",
@@ -3140,7 +3140,7 @@
           "name": "Transi\u00e7\u00e3o",
           "freq": 19.0,
           "ppp": 1.09,
-          "freq_rank": 11,
+          "freq_rank": 12,
           "eff_rank": 23
         },
         {
@@ -3161,7 +3161,7 @@
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.4,
           "ppp": 1.13,
-          "freq_rank": 13,
+          "freq_rank": 12,
           "eff_rank": 10
         },
         {
@@ -3175,8 +3175,8 @@
           "name": "Off Screen",
           "freq": 4.3,
           "ppp": 0.92,
-          "freq_rank": 10,
-          "eff_rank": 23
+          "freq_rank": 9,
+          "eff_rank": 24
         },
         {
           "name": "Handoff",
@@ -3189,7 +3189,7 @@
           "name": "Post Up",
           "freq": 3.7,
           "ppp": 0.97,
-          "freq_rank": 14,
+          "freq_rank": 13,
           "eff_rank": 18
         }
       ]
@@ -3204,7 +3204,7 @@
         "w": 13,
         "l": 17,
         "wpct": 43.3,
-        "rank": 21
+        "rank": 22
       },
       "ratings": {
         "ortg": {
@@ -3235,7 +3235,7 @@
         },
         "ftr": {
           "value": 0.3,
-          "rank": 3
+          "rank": 2
         }
       },
       "four_factors_def": {
@@ -3263,7 +3263,7 @@
         },
         "pts_fb": {
           "value": 13.6,
-          "rank": 23
+          "rank": 22
         },
         "pts_paint": {
           "value": 49.4,
@@ -3332,7 +3332,7 @@
           "freq": 29.9,
           "freq_rank": 18,
           "efg": 52.4,
-          "efg_rank": 15
+          "efg_rank": 14
         }
       ],
       "shot_zones_def": [
@@ -3360,7 +3360,7 @@
         {
           "name": "Corner 3",
           "freq": 10.3,
-          "freq_rank": 9,
+          "freq_rank": 10,
           "efg": 56.7,
           "efg_rank": 9
         },
@@ -3399,22 +3399,22 @@
           "name": "Spot Up",
           "freq": 22.0,
           "ppp": 1.1,
-          "freq_rank": 22,
+          "freq_rank": 23,
           "eff_rank": 6
         },
         {
           "name": "Transi\u00e7\u00e3o",
           "freq": 16.1,
           "ppp": 1.18,
-          "freq_rank": 23,
-          "eff_rank": 3
+          "freq_rank": 24,
+          "eff_rank": 4
         },
         {
           "name": "Pick & Roll (arm.)",
           "freq": 14.5,
           "ppp": 0.93,
-          "freq_rank": 16,
-          "eff_rank": 5
+          "freq_rank": 15,
+          "eff_rank": 4
         },
         {
           "name": "Isolamento",
@@ -3428,7 +3428,7 @@
           "freq": 6.9,
           "ppp": 1.36,
           "freq_rank": 14,
-          "eff_rank": 7
+          "eff_rank": 6
         },
         {
           "name": "Pick & Roll (piv\u00f4)",
@@ -3441,7 +3441,7 @@
           "name": "Post Up",
           "freq": 5.8,
           "ppp": 1.13,
-          "freq_rank": 3,
+          "freq_rank": 2,
           "eff_rank": 1
         },
         {
@@ -3455,7 +3455,7 @@
           "name": "Off Screen",
           "freq": 2.2,
           "ppp": 1.03,
-          "freq_rank": 28,
+          "freq_rank": 26,
           "eff_rank": 8
         }
       ]
@@ -3529,11 +3529,11 @@
         },
         "pts_fb": {
           "value": 14.6,
-          "rank": 18
+          "rank": 17
         },
         "pts_paint": {
           "value": 51.8,
-          "rank": 9
+          "rank": 8
         }
       },
       "defense_style": {
@@ -3553,7 +3553,7 @@
       "hustle": {
         "deflections": {
           "value": 16.9,
-          "rank": 19
+          "rank": 18
         },
         "charges": {
           "value": 0.8,
@@ -3561,7 +3561,7 @@
         },
         "loose_balls": {
           "value": 4.4,
-          "rank": 12
+          "rank": 13
         }
       },
       "shot_zones_off": [
@@ -3612,9 +3612,9 @@
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 20.1,
-          "freq_rank": 12,
+          "freq_rank": 11,
           "efg": 44.1,
-          "efg_rank": 13
+          "efg_rank": 14
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -3633,7 +3633,7 @@
         {
           "name": "Acima do arco",
           "freq": 30.1,
-          "freq_rank": 10,
+          "freq_rank": 11,
           "efg": 52.1,
           "efg_rank": 16
         }
@@ -3665,7 +3665,7 @@
           "name": "Spot Up",
           "freq": 20.1,
           "ppp": 1.05,
-          "freq_rank": 27,
+          "freq_rank": 28,
           "eff_rank": 13
         },
         {
@@ -3700,14 +3700,14 @@
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.7,
           "ppp": 1.15,
-          "freq_rank": 11,
+          "freq_rank": 10,
           "eff_rank": 7
         },
         {
           "name": "Post Up",
           "freq": 5.5,
           "ppp": 0.98,
-          "freq_rank": 5,
+          "freq_rank": 4,
           "eff_rank": 15
         },
         {
@@ -3755,11 +3755,11 @@
       "four_factors_off": {
         "efg": {
           "value": 53.5,
-          "rank": 20
+          "rank": 21
         },
         "tov": {
           "value": 14.8,
-          "rank": 20
+          "rank": 19
         },
         "oreb": {
           "value": 31.1,
@@ -3767,7 +3767,7 @@
         },
         "ftr": {
           "value": 0.26,
-          "rank": 20
+          "rank": 21
         }
       },
       "four_factors_def": {
@@ -3819,7 +3819,7 @@
       "hustle": {
         "deflections": {
           "value": 17.6,
-          "rank": 12
+          "rank": 13
         },
         "charges": {
           "value": 0.23,
@@ -3836,7 +3836,7 @@
           "freq": 25.1,
           "freq_rank": 26,
           "efg": 64.5,
-          "efg_rank": 26
+          "efg_rank": 27
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
@@ -3857,14 +3857,14 @@
           "freq": 10.7,
           "freq_rank": 15,
           "efg": 57.2,
-          "efg_rank": 17
+          "efg_rank": 16
         },
         {
           "name": "Acima do arco",
           "freq": 32.1,
           "freq_rank": 9,
           "efg": 52.1,
-          "efg_rank": 17
+          "efg_rank": 18
         }
       ],
       "shot_zones_def": [
@@ -3878,7 +3878,7 @@
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 20.4,
-          "freq_rank": 14,
+          "freq_rank": 13,
           "efg": 44.3,
           "efg_rank": 15
         },
@@ -3887,21 +3887,21 @@
           "freq": 8.3,
           "freq_rank": 2,
           "efg": 42.7,
-          "efg_rank": 22
+          "efg_rank": 21
         },
         {
           "name": "Corner 3",
           "freq": 11.0,
           "freq_rank": 21,
           "efg": 60.0,
-          "efg_rank": 26
+          "efg_rank": 25
         },
         {
           "name": "Acima do arco",
           "freq": 31.7,
           "freq_rank": 23,
           "efg": 51.6,
-          "efg_rank": 13
+          "efg_rank": 14
         }
       ],
       "drives": {
@@ -3938,21 +3938,21 @@
           "name": "Transi\u00e7\u00e3o",
           "freq": 20.5,
           "ppp": 1.08,
-          "freq_rank": 5,
+          "freq_rank": 6,
           "eff_rank": 28
         },
         {
           "name": "Pick & Roll (arm.)",
           "freq": 16.2,
           "ppp": 0.85,
-          "freq_rank": 14,
+          "freq_rank": 13,
           "eff_rank": 21
         },
         {
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.4,
           "ppp": 1.18,
-          "freq_rank": 14,
+          "freq_rank": 13,
           "eff_rank": 6
         },
         {
@@ -3973,14 +3973,14 @@
           "name": "Post Up",
           "freq": 4.1,
           "ppp": 0.94,
-          "freq_rank": 9,
+          "freq_rank": 8,
           "eff_rank": 21
         },
         {
           "name": "Off Screen",
           "freq": 3.1,
           "ppp": 1.1,
-          "freq_rank": 20,
+          "freq_rank": 19,
           "eff_rank": 4
         },
         {
@@ -4029,7 +4029,7 @@
         },
         "oreb": {
           "value": 29.8,
-          "rank": 19
+          "rank": 18
         },
         "ftr": {
           "value": 0.27,
@@ -4158,7 +4158,7 @@
         {
           "name": "Corner 3",
           "freq": 10.6,
-          "freq_rank": 14,
+          "freq_rank": 15,
           "efg": 56.6,
           "efg_rank": 8
         },
@@ -4205,7 +4205,7 @@
           "freq": 24.8,
           "ppp": 1.09,
           "freq_rank": 1,
-          "eff_rank": 25
+          "eff_rank": 26
         },
         {
           "name": "Isolamento",
@@ -4232,14 +4232,14 @@
           "name": "Post Up",
           "freq": 4.0,
           "ppp": 0.95,
-          "freq_rank": 11,
+          "freq_rank": 10,
           "eff_rank": 20
         },
         {
           "name": "Off Screen",
           "freq": 3.7,
           "ppp": 0.95,
-          "freq_rank": 12,
+          "freq_rank": 11,
           "eff_rank": 18
         },
         {
@@ -4313,11 +4313,11 @@
         },
         "opp_oreb": {
           "value": 11.2,
-          "rank": 11
+          "rank": 10
         },
         "opp_ftr": {
           "value": 0.27,
-          "rank": 18
+          "rank": 19
         }
       },
       "attack_style": {
@@ -4355,7 +4355,7 @@
         },
         "charges": {
           "value": 0.19,
-          "rank": 26
+          "rank": 25
         },
         "loose_balls": {
           "value": 3.8,
@@ -4368,7 +4368,7 @@
           "freq": 26.1,
           "freq_rank": 23,
           "efg": 70.0,
-          "efg_rank": 4
+          "efg_rank": 5
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
@@ -4382,7 +4382,7 @@
           "freq": 13.5,
           "freq_rank": 3,
           "efg": 42.6,
-          "efg_rank": 9
+          "efg_rank": 11
         },
         {
           "name": "Corner 3",
@@ -4403,14 +4403,14 @@
         {
           "name": "\u00c1rea restrita",
           "freq": 27.2,
-          "freq_rank": 12,
+          "freq_rank": 11,
           "efg": 69.2,
-          "efg_rank": 25
+          "efg_rank": 26
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 17.2,
-          "freq_rank": 4,
+          "freq_rank": 5,
           "efg": 39.5,
           "efg_rank": 1
         },
@@ -4424,9 +4424,9 @@
         {
           "name": "Corner 3",
           "freq": 11.0,
-          "freq_rank": 19,
+          "freq_rank": 18,
           "efg": 60.3,
-          "efg_rank": 29
+          "efg_rank": 28
         },
         {
           "name": "Acima do arco",
@@ -4477,7 +4477,7 @@
           "name": "Transi\u00e7\u00e3o",
           "freq": 16.5,
           "ppp": 1.07,
-          "freq_rank": 20,
+          "freq_rank": 19,
           "eff_rank": 29
         },
         {
@@ -4498,7 +4498,7 @@
           "name": "Post Up",
           "freq": 5.6,
           "ppp": 1.03,
-          "freq_rank": 4,
+          "freq_rank": 3,
           "eff_rank": 10
         },
         {
@@ -4506,7 +4506,7 @@
           "freq": 5.2,
           "ppp": 1.31,
           "freq_rank": 27,
-          "eff_rank": 13
+          "eff_rank": 14
         },
         {
           "name": "Handoff",
@@ -4519,16 +4519,16 @@
           "name": "Off Screen",
           "freq": 2.1,
           "ppp": 0.91,
-          "freq_rank": 29,
-          "eff_rank": 25
+          "freq_rank": 27,
+          "eff_rank": 26
         }
       ]
     },
     "MIN": {
       "name": "Minnesota Timberwolves",
       "abbreviation": "MIN",
-      "rec": "43-28",
-      "conf_rank": 6,
+      "rec": "44-28",
+      "conf_rank": 5,
       "conf": "Oeste",
       "clutch": {
         "w": 16,
@@ -4538,21 +4538,21 @@
       },
       "ratings": {
         "ortg": {
-          "value": 116.2,
+          "value": 116.0,
           "rank": 12
         },
         "drtg": {
-          "value": 112.7,
+          "value": 112.4,
           "rank": 9
         },
         "netrtg": {
-          "value": 3.5,
+          "value": 3.6,
           "rank": 10
         }
       },
       "four_factors_off": {
         "efg": {
-          "value": 56.3,
+          "value": 56.2,
           "rank": 4
         },
         "tov": {
@@ -4560,7 +4560,7 @@
           "rank": 17
         },
         "oreb": {
-          "value": 30.5,
+          "value": 30.4,
           "rank": 12
         },
         "ftr": {
@@ -4570,12 +4570,12 @@
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 53.1,
-          "rank": 6
+          "value": 52.9,
+          "rank": 5
         },
         "opp_tov": {
-          "value": 14.9,
-          "rank": 12
+          "value": 14.8,
+          "rank": 13
         },
         "opp_oreb": {
           "value": 11.6,
@@ -4596,7 +4596,7 @@
           "rank": 11
         },
         "pts_paint": {
-          "value": 50.1,
+          "value": 50.0,
           "rank": 15
         }
       },
@@ -4606,7 +4606,7 @@
           "rank": 9
         },
         "opp_pts_fb": {
-          "value": 14.2,
+          "value": 14.3,
           "rank": 8
         },
         "opp_pts_paint": {
@@ -4617,7 +4617,7 @@
       "hustle": {
         "deflections": {
           "value": 16.9,
-          "rank": 17
+          "rank": 19
         },
         "charges": {
           "value": 0.08,
@@ -4625,7 +4625,7 @@
         },
         "loose_balls": {
           "value": 4.4,
-          "rank": 13
+          "rank": 12
         }
       },
       "shot_zones_off": [
@@ -4638,24 +4638,24 @@
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 18.4,
+          "freq": 18.5,
           "freq_rank": 22,
-          "efg": 45.1,
-          "efg_rank": 14
+          "efg": 44.8,
+          "efg_rank": 16
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 10.3,
           "freq_rank": 15,
           "efg": 42.9,
-          "efg_rank": 8
+          "efg_rank": 9
         },
         {
           "name": "Corner 3",
-          "freq": 10.9,
+          "freq": 10.8,
           "freq_rank": 12,
-          "efg": 57.8,
-          "efg_rank": 15
+          "efg": 56.8,
+          "efg_rank": 19
         },
         {
           "name": "Acima do arco",
@@ -4668,31 +4668,31 @@
       "shot_zones_def": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 30.4,
+          "freq": 30.5,
           "freq_rank": 23,
-          "efg": 63.7,
+          "efg": 63.5,
           "efg_rank": 5
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 20.4,
-          "freq_rank": 15,
-          "efg": 42.6,
+          "freq": 20.5,
+          "freq_rank": 16,
+          "efg": 42.4,
           "efg_rank": 7
         },
         {
           "name": "Meia dist\u00e2ncia",
-          "freq": 10.3,
+          "freq": 10.2,
           "freq_rank": 16,
-          "efg": 41.3,
-          "efg_rank": 14
+          "efg": 40.2,
+          "efg_rank": 6
         },
         {
           "name": "Corner 3",
           "freq": 9.5,
-          "freq_rank": 4,
+          "freq_rank": 3,
           "efg": 60.0,
-          "efg_rank": 27
+          "efg_rank": 26
         },
         {
           "name": "Acima do arco",
@@ -4703,19 +4703,19 @@
         }
       ],
       "drives": {
-        "per_game": 43.6,
+        "per_game": 43.5,
         "rank": 25,
         "pizza": {
-          "shots": 47.9,
-          "passes": 34.2,
+          "shots": 47.8,
+          "passes": 34.3,
           "tov": 6.0,
-          "fouls": 9.6,
-          "other": 2.3
+          "fouls": 9.4,
+          "other": 2.5
         }
       },
       "postups": {
         "per_game": 5.2,
-        "rank": 7,
+        "rank": 8,
         "pizza": {
           "shots": 40.4,
           "passes": 40.4,
@@ -4727,29 +4727,29 @@
       "play_types": [
         {
           "name": "Spot Up",
-          "freq": 23.3,
-          "ppp": 1.13,
-          "freq_rank": 15,
+          "freq": 23.2,
+          "ppp": 1.12,
+          "freq_rank": 16,
           "eff_rank": 2
         },
         {
           "name": "Transi\u00e7\u00e3o",
-          "freq": 19.2,
-          "ppp": 1.16,
-          "freq_rank": 10,
-          "eff_rank": 8
+          "freq": 19.3,
+          "ppp": 1.17,
+          "freq_rank": 11,
+          "eff_rank": 6
         },
         {
           "name": "Pick & Roll (arm.)",
           "freq": 12.7,
           "ppp": 0.89,
-          "freq_rank": 24,
+          "freq_rank": 23,
           "eff_rank": 11
         },
         {
           "name": "Isolamento",
           "freq": 9.7,
-          "ppp": 0.97,
+          "ppp": 0.96,
           "freq_rank": 4,
           "eff_rank": 8
         },
@@ -4762,7 +4762,7 @@
         },
         {
           "name": "Cortes",
-          "freq": 5.4,
+          "freq": 5.3,
           "ppp": 1.18,
           "freq_rank": 26,
           "eff_rank": 30
@@ -4770,16 +4770,16 @@
         {
           "name": "Off Screen",
           "freq": 4.8,
-          "ppp": 1.01,
+          "ppp": 1.0,
           "freq_rank": 8,
-          "eff_rank": 9
+          "eff_rank": 10
         },
         {
           "name": "Post Up",
           "freq": 4.2,
-          "ppp": 1.02,
-          "freq_rank": 8,
-          "eff_rank": 11
+          "ppp": 1.01,
+          "freq_rank": 7,
+          "eff_rank": 12
         },
         {
           "name": "Pick & Roll (piv\u00f4)",
@@ -4919,16 +4919,16 @@
         {
           "name": "Corner 3",
           "freq": 8.7,
-          "freq_rank": 27,
+          "freq_rank": 28,
           "efg": 57.0,
-          "efg_rank": 19
+          "efg_rank": 18
         },
         {
           "name": "Acima do arco",
           "freq": 27.4,
           "freq_rank": 25,
           "efg": 50.4,
-          "efg_rank": 25
+          "efg_rank": 26
         }
       ],
       "shot_zones_def": [
@@ -4965,7 +4965,7 @@
           "freq": 32.6,
           "freq_rank": 27,
           "efg": 50.3,
-          "efg_rank": 3
+          "efg_rank": 2
         }
       ],
       "drives": {
@@ -4995,21 +4995,21 @@
           "name": "Spot Up",
           "freq": 22.5,
           "ppp": 1.01,
-          "freq_rank": 20,
+          "freq_rank": 21,
           "eff_rank": 22
         },
         {
           "name": "Transi\u00e7\u00e3o",
           "freq": 19.4,
           "ppp": 1.12,
-          "freq_rank": 8,
+          "freq_rank": 9,
           "eff_rank": 20
         },
         {
           "name": "Pick & Roll (arm.)",
           "freq": 14.4,
           "ppp": 0.84,
-          "freq_rank": 17,
+          "freq_rank": 16,
           "eff_rank": 23
         },
         {
@@ -5024,20 +5024,20 @@
           "freq": 6.7,
           "ppp": 1.34,
           "freq_rank": 15,
-          "eff_rank": 10
+          "eff_rank": 9
         },
         {
           "name": "Handoff",
           "freq": 5.3,
           "ppp": 0.93,
           "freq_rank": 9,
-          "eff_rank": 18
+          "eff_rank": 17
         },
         {
           "name": "Post Up",
           "freq": 4.1,
           "ppp": 0.94,
-          "freq_rank": 10,
+          "freq_rank": 9,
           "eff_rank": 23
         },
         {
@@ -5051,7 +5051,7 @@
           "name": "Off Screen",
           "freq": 2.6,
           "ppp": 0.95,
-          "freq_rank": 23,
+          "freq_rank": 22,
           "eff_rank": 19
         }
       ]
@@ -5059,7 +5059,7 @@
     "NYK": {
       "name": "New York Knicks",
       "abbreviation": "NYK",
-      "rec": "46-25",
+      "rec": "47-25",
       "conf_rank": 3,
       "conf": "Leste",
       "clutch": {
@@ -5070,7 +5070,7 @@
       },
       "ratings": {
         "ortg": {
-          "value": 118.2,
+          "value": 118.5,
           "rank": 3
         },
         "drtg": {
@@ -5078,13 +5078,13 @@
           "rank": 5
         },
         "netrtg": {
-          "value": 6.5,
+          "value": 6.9,
           "rank": 5
         }
       },
       "four_factors_off": {
         "efg": {
-          "value": 55.4,
+          "value": 55.5,
           "rank": 9
         },
         "tov": {
@@ -5092,7 +5092,7 @@
           "rank": 12
         },
         "oreb": {
-          "value": 32.8,
+          "value": 32.9,
           "rank": 7
         },
         "ftr": {
@@ -5102,7 +5102,7 @@
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 53.6,
+          "value": 53.8,
           "rank": 8
         },
         "opp_tov": {
@@ -5128,7 +5128,7 @@
           "rank": 13
         },
         "pts_paint": {
-          "value": 47.4,
+          "value": 47.6,
           "rank": 22
         }
       },
@@ -5142,13 +5142,13 @@
           "rank": 7
         },
         "opp_pts_paint": {
-          "value": 43.6,
+          "value": 43.5,
           "rank": 4
         }
       },
       "hustle": {
         "deflections": {
-          "value": 16.9,
+          "value": 16.8,
           "rank": 20
         },
         "charges": {
@@ -5157,7 +5157,7 @@
         },
         "loose_balls": {
           "value": 4.6,
-          "rank": 8
+          "rank": 9
         }
       },
       "shot_zones_off": [
@@ -5165,15 +5165,15 @@
           "name": "\u00c1rea restrita",
           "freq": 28.1,
           "freq_rank": 15,
-          "efg": 65.6,
+          "efg": 66.0,
           "efg_rank": 22
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 17.4,
-          "freq_rank": 23,
-          "efg": 45.2,
-          "efg_rank": 12
+          "freq": 17.5,
+          "freq_rank": 24,
+          "efg": 44.9,
+          "efg_rank": 14
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -5184,9 +5184,9 @@
         },
         {
           "name": "Corner 3",
-          "freq": 13.7,
+          "freq": 13.5,
           "freq_rank": 2,
-          "efg": 63.4,
+          "efg": 63.9,
           "efg_rank": 4
         },
         {
@@ -5202,15 +5202,15 @@
           "name": "\u00c1rea restrita",
           "freq": 28.0,
           "freq_rank": 15,
-          "efg": 64.3,
+          "efg": 63.9,
           "efg_rank": 6
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 16.5,
+          "freq": 16.4,
           "freq_rank": 3,
-          "efg": 45.1,
-          "efg_rank": 23
+          "efg": 44.7,
+          "efg_rank": 16
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -5228,21 +5228,21 @@
         },
         {
           "name": "Acima do arco",
-          "freq": 32.3,
+          "freq": 32.4,
           "freq_rank": 26,
-          "efg": 52.3,
+          "efg": 52.2,
           "efg_rank": 17
         }
       ],
       "drives": {
-        "per_game": 48.8,
+        "per_game": 48.9,
         "rank": 12,
         "pizza": {
-          "shots": 47.7,
-          "passes": 36.7,
+          "shots": 47.9,
+          "passes": 36.4,
           "tov": 5.9,
-          "fouls": 7.4,
-          "other": 2.3
+          "fouls": 7.6,
+          "other": 2.2
         }
       },
       "postups": {
@@ -5252,14 +5252,14 @@
           "shots": 47.4,
           "passes": 26.3,
           "tov": 10.5,
-          "fouls": 5.3,
-          "other": 10.5
+          "fouls": 7.9,
+          "other": 7.9
         }
       },
       "play_types": [
         {
           "name": "Spot Up",
-          "freq": 29.2,
+          "freq": 29.0,
           "ppp": 1.06,
           "freq_rank": 2,
           "eff_rank": 12
@@ -5273,22 +5273,22 @@
         },
         {
           "name": "Pick & Roll (arm.)",
-          "freq": 13.7,
-          "ppp": 0.9,
-          "freq_rank": 21,
-          "eff_rank": 9
+          "freq": 13.8,
+          "ppp": 0.91,
+          "freq_rank": 19,
+          "eff_rank": 8
         },
         {
           "name": "Isolamento",
           "freq": 6.7,
           "ppp": 0.9,
-          "freq_rank": 15,
+          "freq_rank": 14,
           "eff_rank": 18
         },
         {
           "name": "Cortes",
           "freq": 5.2,
-          "ppp": 1.42,
+          "ppp": 1.43,
           "freq_rank": 28,
           "eff_rank": 1
         },
@@ -5296,28 +5296,28 @@
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.0,
           "ppp": 1.11,
-          "freq_rank": 18,
-          "eff_rank": 15
+          "freq_rank": 17,
+          "eff_rank": 14
         },
         {
           "name": "Handoff",
           "freq": 4.8,
-          "ppp": 1.09,
+          "ppp": 1.08,
           "freq_rank": 12,
           "eff_rank": 1
         },
         {
           "name": "Post Up",
           "freq": 3.3,
-          "ppp": 0.84,
-          "freq_rank": 16,
+          "ppp": 0.83,
+          "freq_rank": 15,
           "eff_rank": 30
         },
         {
           "name": "Off Screen",
           "freq": 2.5,
-          "ppp": 1.04,
-          "freq_rank": 24,
+          "ppp": 1.05,
+          "freq_rank": 23,
           "eff_rank": 7
         }
       ]
@@ -5387,11 +5387,11 @@
       "attack_style": {
         "pace": {
           "value": 100.5,
-          "rank": 15
+          "rank": 14
         },
         "pts_fb": {
           "value": 13.6,
-          "rank": 24
+          "rank": 23
         },
         "pts_paint": {
           "value": 49.5,
@@ -5401,7 +5401,7 @@
       "defense_style": {
         "opp_pace": {
           "value": 100.5,
-          "rank": 15
+          "rank": 14
         },
         "opp_pts_fb": {
           "value": 11.7,
@@ -5432,7 +5432,7 @@
           "freq": 27.9,
           "freq_rank": 16,
           "efg": 68.1,
-          "efg_rank": 9
+          "efg_rank": 8
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
@@ -5474,14 +5474,14 @@
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 20.1,
-          "freq_rank": 11,
+          "freq_rank": 10,
           "efg": 40.1,
           "efg_rank": 2
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 10.5,
-          "freq_rank": 21,
+          "freq_rank": 20,
           "efg": 37.6,
           "efg_rank": 1
         },
@@ -5490,14 +5490,14 @@
           "freq": 13.4,
           "freq_rank": 30,
           "efg": 59.7,
-          "efg_rank": 25
+          "efg_rank": 24
         },
         {
           "name": "Acima do arco",
           "freq": 30.8,
           "freq_rank": 18,
           "efg": 52.9,
-          "efg_rank": 21
+          "efg_rank": 20
         }
       ],
       "drives": {
@@ -5563,27 +5563,27 @@
           "freq": 6.2,
           "ppp": 1.11,
           "freq_rank": 7,
-          "eff_rank": 14
+          "eff_rank": 15
         },
         {
           "name": "Handoff",
           "freq": 4.2,
           "ppp": 0.94,
           "freq_rank": 18,
-          "eff_rank": 13
+          "eff_rank": 14
         },
         {
           "name": "Off Screen",
           "freq": 2.4,
           "ppp": 1.06,
-          "freq_rank": 26,
+          "freq_rank": 25,
           "eff_rank": 6
         },
         {
           "name": "Post Up",
           "freq": 1.9,
           "ppp": 1.09,
-          "freq_rank": 26,
+          "freq_rank": 27,
           "eff_rank": 4
         }
       ]
@@ -5603,7 +5603,7 @@
       "ratings": {
         "ortg": {
           "value": 114.1,
-          "rank": 16
+          "rank": 15
         },
         "drtg": {
           "value": 113.2,
@@ -5611,7 +5611,7 @@
         },
         "netrtg": {
           "value": 0.9,
-          "rank": 15
+          "rank": 16
         }
       },
       "four_factors_off": {
@@ -5629,17 +5629,17 @@
         },
         "ftr": {
           "value": 0.3,
-          "rank": 4
+          "rank": 3
         }
       },
       "four_factors_def": {
         "opp_efg": {
           "value": 54.0,
-          "rank": 11
+          "rank": 10
         },
         "opp_tov": {
           "value": 14.9,
-          "rank": 13
+          "rank": 12
         },
         "opp_oreb": {
           "value": 10.8,
@@ -5675,7 +5675,7 @@
         },
         "opp_pts_paint": {
           "value": 50.8,
-          "rank": 18
+          "rank": 17
         }
       },
       "hustle": {
@@ -5685,7 +5685,7 @@
         },
         "charges": {
           "value": 0.27,
-          "rank": 18
+          "rank": 17
         },
         "loose_balls": {
           "value": 4.4,
@@ -5719,7 +5719,7 @@
           "freq": 10.9,
           "freq_rank": 11,
           "efg": 58.8,
-          "efg_rank": 9
+          "efg_rank": 10
         },
         {
           "name": "Acima do arco",
@@ -5742,19 +5742,19 @@
           "freq": 22.3,
           "freq_rank": 26,
           "efg": 44.9,
-          "efg_rank": 19
+          "efg_rank": 20
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 11.5,
           "freq_rank": 27,
           "efg": 42.6,
-          "efg_rank": 21
+          "efg_rank": 20
         },
         {
           "name": "Corner 3",
           "freq": 9.5,
-          "freq_rank": 3,
+          "freq_rank": 4,
           "efg": 57.8,
           "efg_rank": 16
         },
@@ -5800,14 +5800,14 @@
           "name": "Transi\u00e7\u00e3o",
           "freq": 19.4,
           "ppp": 1.14,
-          "freq_rank": 9,
+          "freq_rank": 10,
           "eff_rank": 15
         },
         {
           "name": "Pick & Roll (arm.)",
           "freq": 16.0,
           "ppp": 0.84,
-          "freq_rank": 15,
+          "freq_rank": 14,
           "eff_rank": 25
         },
         {
@@ -5828,7 +5828,7 @@
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.0,
           "ppp": 1.1,
-          "freq_rank": 19,
+          "freq_rank": 18,
           "eff_rank": 16
         },
         {
@@ -5842,14 +5842,14 @@
           "name": "Post Up",
           "freq": 3.4,
           "ppp": 1.07,
-          "freq_rank": 15,
+          "freq_rank": 14,
           "eff_rank": 6
         },
         {
           "name": "Off Screen",
           "freq": 3.4,
           "ppp": 1.0,
-          "freq_rank": 17,
+          "freq_rank": 16,
           "eff_rank": 11
         }
       ]
@@ -5869,7 +5869,7 @@
       "ratings": {
         "ortg": {
           "value": 114.1,
-          "rank": 17
+          "rank": 16
         },
         "drtg": {
           "value": 114.6,
@@ -5901,7 +5901,7 @@
       "four_factors_def": {
         "opp_efg": {
           "value": 54.4,
-          "rank": 17
+          "rank": 16
         },
         "opp_tov": {
           "value": 15.6,
@@ -5947,7 +5947,7 @@
       "hustle": {
         "deflections": {
           "value": 20.6,
-          "rank": 4
+          "rank": 3
         },
         "charges": {
           "value": 0.24,
@@ -5969,7 +5969,7 @@
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 17.4,
-          "freq_rank": 24,
+          "freq_rank": 25,
           "efg": 41.7,
           "efg_rank": 25
         },
@@ -6015,21 +6015,21 @@
           "freq": 9.8,
           "freq_rank": 12,
           "efg": 42.5,
-          "efg_rank": 19
+          "efg_rank": 18
         },
         {
           "name": "Corner 3",
           "freq": 11.5,
           "freq_rank": 24,
           "efg": 58.8,
-          "efg_rank": 21
+          "efg_rank": 20
         },
         {
           "name": "Acima do arco",
           "freq": 30.5,
-          "freq_rank": 15,
+          "freq_rank": 14,
           "efg": 51.5,
-          "efg_rank": 12
+          "efg_rank": 13
         }
       ],
       "drives": {
@@ -6059,14 +6059,14 @@
           "name": "Spot Up",
           "freq": 23.3,
           "ppp": 1.03,
-          "freq_rank": 16,
+          "freq_rank": 15,
           "eff_rank": 17
         },
         {
           "name": "Transi\u00e7\u00e3o",
           "freq": 18.1,
           "ppp": 1.16,
-          "freq_rank": 16,
+          "freq_rank": 17,
           "eff_rank": 7
         },
         {
@@ -6094,15 +6094,15 @@
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 4.8,
           "ppp": 0.97,
-          "freq_rank": 22,
+          "freq_rank": 21,
           "eff_rank": 30
         },
         {
           "name": "Post Up",
           "freq": 3.9,
           "ppp": 1.05,
-          "freq_rank": 12,
-          "eff_rank": 9
+          "freq_rank": 11,
+          "eff_rank": 8
         },
         {
           "name": "Handoff",
@@ -6115,7 +6115,7 @@
           "name": "Off Screen",
           "freq": 3.3,
           "ppp": 0.98,
-          "freq_rank": 18,
+          "freq_rank": 17,
           "eff_rank": 15
         }
       ]
@@ -6123,7 +6123,7 @@
     "PHX": {
       "name": "Phoenix Suns",
       "abbreviation": "PHX",
-      "rec": "39-32",
+      "rec": "40-32",
       "conf_rank": 7,
       "conf": "Oeste",
       "clutch": {
@@ -6134,40 +6134,40 @@
       },
       "ratings": {
         "ortg": {
-          "value": 113.8,
-          "rank": 19
+          "value": 113.9,
+          "rank": 18
         },
         "drtg": {
-          "value": 113.0,
+          "value": 112.8,
           "rank": 10
         },
         "netrtg": {
-          "value": 0.8,
-          "rank": 16
+          "value": 1.1,
+          "rank": 15
         }
       },
       "four_factors_off": {
         "efg": {
-          "value": 53.5,
-          "rank": 21
+          "value": 53.6,
+          "rank": 20
         },
         "tov": {
-          "value": 14.7,
-          "rank": 19
+          "value": 14.8,
+          "rank": 20
         },
         "oreb": {
           "value": 33.0,
           "rank": 6
         },
         "ftr": {
-          "value": 0.23,
+          "value": 0.22,
           "rank": 29
         }
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 54.2,
-          "rank": 13
+          "value": 54.1,
+          "rank": 12
         },
         "opp_tov": {
           "value": 16.3,
@@ -6188,7 +6188,7 @@
           "rank": 26
         },
         "pts_fb": {
-          "value": 14.5,
+          "value": 14.4,
           "rank": 19
         },
         "pts_paint": {
@@ -6212,7 +6212,7 @@
       },
       "hustle": {
         "deflections": {
-          "value": 20.4,
+          "value": 20.5,
           "rank": 5
         },
         "charges": {
@@ -6220,38 +6220,38 @@
           "rank": 22
         },
         "loose_balls": {
-          "value": 4.9,
+          "value": 4.8,
           "rank": 5
         }
       },
       "shot_zones_off": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 22.2,
+          "freq": 22.5,
           "freq_rank": 28,
-          "efg": 66.5,
-          "efg_rank": 17
+          "efg": 66.3,
+          "efg_rank": 18
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 20.1,
+          "freq": 19.9,
           "freq_rank": 14,
-          "efg": 44.2,
+          "efg": 44.1,
           "efg_rank": 18
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 12.2,
           "freq_rank": 9,
-          "efg": 41.8,
-          "efg_rank": 14
+          "efg": 42.7,
+          "efg_rank": 10
         },
         {
           "name": "Corner 3",
           "freq": 10.0,
           "freq_rank": 24,
-          "efg": 58.3,
-          "efg_rank": 12
+          "efg": 60.0,
+          "efg_rank": 9
         },
         {
           "name": "Acima do arco",
@@ -6264,60 +6264,60 @@
       "shot_zones_def": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 27.1,
-          "freq_rank": 11,
-          "efg": 69.4,
-          "efg_rank": 26
+          "freq": 27.3,
+          "freq_rank": 12,
+          "efg": 69.1,
+          "efg_rank": 25
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 21.1,
+          "freq": 20.9,
           "freq_rank": 19,
-          "efg": 45.0,
-          "efg_rank": 20
+          "efg": 44.9,
+          "efg_rank": 21
         },
         {
           "name": "Meia dist\u00e2ncia",
-          "freq": 10.5,
-          "freq_rank": 20,
+          "freq": 10.6,
+          "freq_rank": 21,
           "efg": 43.3,
           "efg_rank": 25
         },
         {
           "name": "Corner 3",
-          "freq": 11.6,
+          "freq": 11.5,
           "freq_rank": 25,
-          "efg": 54.5,
+          "efg": 55.1,
           "efg_rank": 5
         },
         {
           "name": "Acima do arco",
           "freq": 29.7,
           "freq_rank": 8,
-          "efg": 50.2,
-          "efg_rank": 2
+          "efg": 50.4,
+          "efg_rank": 3
         }
       ],
       "drives": {
-        "per_game": 47.7,
+        "per_game": 47.6,
         "rank": 15,
         "pizza": {
-          "shots": 44.0,
-          "passes": 39.8,
+          "shots": 44.1,
+          "passes": 39.9,
           "tov": 6.7,
-          "fouls": 6.5,
+          "fouls": 6.3,
           "other": 2.9
         }
       },
       "postups": {
-        "per_game": 2.1,
+        "per_game": 2.0,
         "rank": 26,
         "pizza": {
-          "shots": 52.4,
-          "passes": 28.6,
-          "tov": 4.8,
-          "fouls": 4.8,
-          "other": 9.5
+          "shots": 55.0,
+          "passes": 30.0,
+          "tov": 10.0,
+          "fouls": 5.0,
+          "other": 0.0
         }
       },
       "play_types": [
@@ -6331,7 +6331,7 @@
         {
           "name": "Pick & Roll (arm.)",
           "freq": 20.3,
-          "ppp": 0.86,
+          "ppp": 0.87,
           "freq_rank": 2,
           "eff_rank": 15
         },
@@ -6340,13 +6340,13 @@
           "freq": 15.8,
           "ppp": 1.15,
           "freq_rank": 27,
-          "eff_rank": 12
+          "eff_rank": 14
         },
         {
           "name": "Isolamento",
           "freq": 6.7,
           "ppp": 0.95,
-          "freq_rank": 16,
+          "freq_rank": 15,
           "eff_rank": 11
         },
         {
@@ -6357,31 +6357,31 @@
           "eff_rank": 28
         },
         {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.9,
+          "ppp": 1.08,
+          "freq_rank": 20,
+          "eff_rank": 21
+        },
+        {
           "name": "Handoff",
-          "freq": 5.0,
-          "ppp": 0.96,
+          "freq": 4.9,
+          "ppp": 0.95,
           "freq_rank": 10,
           "eff_rank": 11
         },
         {
-          "name": "Pick & Roll (piv\u00f4)",
-          "freq": 4.9,
-          "ppp": 1.07,
-          "freq_rank": 21,
-          "eff_rank": 21
-        },
-        {
           "name": "Off Screen",
           "freq": 3.5,
-          "ppp": 0.91,
+          "ppp": 0.93,
           "freq_rank": 14,
-          "eff_rank": 26
+          "eff_rank": 22
         },
         {
           "name": "Post Up",
           "freq": 2.5,
           "ppp": 0.93,
-          "freq_rank": 19,
+          "freq_rank": 20,
           "eff_rank": 24
         }
       ]
@@ -6389,7 +6389,7 @@
     "POR": {
       "name": "Portland Trail Blazers",
       "abbreviation": "POR",
-      "rec": "35-36",
+      "rec": "35-37",
       "conf_rank": 9,
       "conf": "Oeste",
       "clutch": {
@@ -6400,15 +6400,15 @@
       },
       "ratings": {
         "ortg": {
-          "value": 112.6,
+          "value": 112.5,
           "rank": 23
         },
         "drtg": {
-          "value": 114.6,
+          "value": 114.8,
           "rank": 17
         },
         "netrtg": {
-          "value": -2.0,
+          "value": -2.2,
           "rank": 20
         }
       },
@@ -6418,34 +6418,34 @@
           "rank": 23
         },
         "tov": {
-          "value": 16.9,
+          "value": 16.8,
           "rank": 30
         },
         "oreb": {
-          "value": 35.2,
+          "value": 35.1,
           "rank": 4
         },
         "ftr": {
           "value": 0.28,
-          "rank": 11
+          "rank": 12
         }
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 54.3,
-          "rank": 16
+          "value": 54.4,
+          "rank": 17
         },
         "opp_tov": {
-          "value": 15.5,
-          "rank": 10
+          "value": 15.4,
+          "rank": 11
         },
         "opp_oreb": {
-          "value": 12.2,
+          "value": 12.1,
           "rank": 27
         },
         "opp_ftr": {
           "value": 0.27,
-          "rank": 19
+          "rank": 18
         }
       },
       "attack_style": {
@@ -6454,11 +6454,11 @@
           "rank": 7
         },
         "pts_fb": {
-          "value": 13.7,
-          "rank": 22
+          "value": 13.6,
+          "rank": 24
         },
         "pts_paint": {
-          "value": 48.5,
+          "value": 48.4,
           "rank": 21
         }
       },
@@ -6468,41 +6468,41 @@
           "rank": 7
         },
         "opp_pts_fb": {
-          "value": 17.0,
-          "rank": 28
+          "value": 17.1,
+          "rank": 29
         },
         "opp_pts_paint": {
-          "value": 50.7,
-          "rank": 16
+          "value": 50.8,
+          "rank": 18
         }
       },
       "hustle": {
         "deflections": {
-          "value": 16.3,
+          "value": 16.2,
           "rank": 22
         },
         "charges": {
-          "value": 0.42,
+          "value": 0.43,
           "rank": 8
         },
         "loose_balls": {
           "value": 4.0,
-          "rank": 21
+          "rank": 22
         }
       },
       "shot_zones_off": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 31.5,
+          "freq": 31.4,
           "freq_rank": 5,
-          "efg": 66.7,
+          "efg": 66.5,
           "efg_rank": 16
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 15.2,
           "freq_rank": 30,
-          "efg": 38.7,
+          "efg": 38.4,
           "efg_rank": 29
         },
         {
@@ -6521,10 +6521,10 @@
         },
         {
           "name": "Acima do arco",
-          "freq": 34.8,
+          "freq": 34.9,
           "freq_rank": 5,
-          "efg": 51.0,
-          "efg_rank": 23
+          "efg": 51.3,
+          "efg_rank": 22
         }
       ],
       "shot_zones_def": [
@@ -6532,35 +6532,35 @@
           "name": "\u00c1rea restrita",
           "freq": 28.1,
           "freq_rank": 16,
-          "efg": 66.0,
-          "efg_rank": 12
+          "efg": 66.4,
+          "efg_rank": 13
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 21.4,
-          "freq_rank": 21,
-          "efg": 44.8,
-          "efg_rank": 18
+          "freq": 21.2,
+          "freq_rank": 20,
+          "efg": 45.0,
+          "efg_rank": 23
         },
         {
           "name": "Meia dist\u00e2ncia",
-          "freq": 11.0,
+          "freq": 10.9,
           "freq_rank": 26,
-          "efg": 42.4,
-          "efg_rank": 18
+          "efg": 42.9,
+          "efg_rank": 22
         },
         {
           "name": "Corner 3",
-          "freq": 10.9,
-          "freq_rank": 18,
-          "efg": 58.2,
-          "efg_rank": 18
+          "freq": 11.0,
+          "freq_rank": 20,
+          "efg": 57.6,
+          "efg_rank": 14
         },
         {
           "name": "Acima do arco",
-          "freq": 28.6,
+          "freq": 28.7,
           "freq_rank": 4,
-          "efg": 52.5,
+          "efg": 52.9,
           "efg_rank": 19
         }
       ],
@@ -6568,8 +6568,8 @@
         "per_game": 58.3,
         "rank": 3,
         "pizza": {
-          "shots": 38.1,
-          "passes": 42.9,
+          "shots": 37.9,
+          "passes": 43.1,
           "tov": 8.2,
           "fouls": 7.5,
           "other": 3.3
@@ -6588,32 +6588,11 @@
       },
       "play_types": [
         {
-          "name": "Spot Up",
-          "freq": 27.7,
-          "ppp": 1.0,
-          "freq_rank": 5,
-          "eff_rank": 24
-        },
-        {
-          "name": "Transi\u00e7\u00e3o",
-          "freq": 17.9,
-          "ppp": 1.1,
-          "freq_rank": 17,
-          "eff_rank": 21
-        },
-        {
-          "name": "Pick & Roll (arm.)",
-          "freq": 17.0,
-          "ppp": 0.82,
-          "freq_rank": 11,
-          "eff_rank": 29
-        },
-        {
           "name": "Isolamento",
           "freq": 7.5,
           "ppp": 0.89,
           "freq_rank": 11,
-          "eff_rank": 23
+          "eff_rank": 22
         },
         {
           "name": "Cortes",
@@ -6623,13 +6602,6 @@
           "eff_rank": 24
         },
         {
-          "name": "Pick & Roll (piv\u00f4)",
-          "freq": 5.0,
-          "ppp": 1.1,
-          "freq_rank": 20,
-          "eff_rank": 17
-        },
-        {
           "name": "Handoff",
           "freq": 3.4,
           "ppp": 0.87,
@@ -6637,50 +6609,78 @@
           "eff_rank": 27
         },
         {
-          "name": "Off Screen",
-          "freq": 2.3,
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 0,
+          "ppp": 1.11,
+          "freq_rank": 30,
+          "eff_rank": 21
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 0,
           "ppp": 0.81,
-          "freq_rank": 27,
-          "eff_rank": 30
+          "freq_rank": 30,
+          "eff_rank": 29
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 0,
+          "ppp": 1.1,
+          "freq_rank": 30,
+          "eff_rank": 17
+        },
+        {
+          "name": "Spot Up",
+          "freq": 0,
+          "ppp": 1.0,
+          "freq_rank": 30,
+          "eff_rank": 24
         },
         {
           "name": "Post Up",
-          "freq": 1.6,
-          "ppp": 0.89,
-          "freq_rank": 28,
+          "freq": 0,
+          "ppp": 0.9,
+          "freq_rank": 30,
           "eff_rank": 28
+        },
+        {
+          "name": "Off Screen",
+          "freq": 0,
+          "ppp": 0.82,
+          "freq_rank": 30,
+          "eff_rank": 30
         }
       ]
     },
     "SAC": {
       "name": "Sacramento Kings",
       "abbreviation": "SAC",
-      "rec": "18-53",
+      "rec": "19-53",
       "conf_rank": 15,
       "conf": "Oeste",
       "clutch": {
-        "w": 12,
+        "w": 13,
         "l": 16,
-        "wpct": 42.9,
-        "rank": 22
+        "wpct": 44.8,
+        "rank": 21
       },
       "ratings": {
         "ortg": {
-          "value": 109.9,
-          "rank": 27
+          "value": 110.2,
+          "rank": 26
         },
         "drtg": {
-          "value": 119.7,
+          "value": 119.8,
           "rank": 28
         },
         "netrtg": {
-          "value": -9.8,
+          "value": -9.6,
           "rank": 29
         }
       },
       "four_factors_off": {
         "efg": {
-          "value": 52.2,
+          "value": 52.3,
           "rank": 29
         },
         "tov": {
@@ -6688,12 +6688,12 @@
           "rank": 14
         },
         "oreb": {
-          "value": 29.0,
+          "value": 29.3,
           "rank": 20
         },
         "ftr": {
           "value": 0.26,
-          "rank": 21
+          "rank": 20
         }
       },
       "four_factors_def": {
@@ -6702,12 +6702,12 @@
           "rank": 29
         },
         "opp_tov": {
-          "value": 14.1,
+          "value": 14.0,
           "rank": 20
         },
         "opp_oreb": {
-          "value": 11.3,
-          "rank": 15
+          "value": 11.2,
+          "rank": 11
         },
         "opp_ftr": {
           "value": 0.28,
@@ -6716,12 +6716,12 @@
       },
       "attack_style": {
         "pace": {
-          "value": 100.5,
-          "rank": 14
+          "value": 100.4,
+          "rank": 15
         },
         "pts_fb": {
-          "value": 13.9,
-          "rank": 20
+          "value": 13.8,
+          "rank": 21
         },
         "pts_paint": {
           "value": 50.2,
@@ -6730,25 +6730,25 @@
       },
       "defense_style": {
         "opp_pace": {
-          "value": 100.5,
-          "rank": 14
+          "value": 100.4,
+          "rank": 15
         },
         "opp_pts_fb": {
-          "value": 15.3,
+          "value": 15.4,
           "rank": 19
         },
         "opp_pts_paint": {
-          "value": 53.3,
+          "value": 53.4,
           "rank": 27
         }
       },
       "hustle": {
         "deflections": {
-          "value": 15.7,
-          "rank": 23
+          "value": 15.6,
+          "rank": 24
         },
         "charges": {
-          "value": 0.34,
+          "value": 0.33,
           "rank": 11
         },
         "loose_balls": {
@@ -6759,24 +6759,24 @@
       "shot_zones_off": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 22.2,
+          "freq": 22.1,
           "freq_rank": 29,
-          "efg": 69.7,
-          "efg_rank": 5
+          "efg": 70.1,
+          "efg_rank": 4
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 27.5,
+          "freq": 27.7,
           "freq_rank": 1,
-          "efg": 46.1,
+          "efg": 46.2,
           "efg_rank": 9
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 16.6,
           "freq_rank": 1,
-          "efg": 42.6,
-          "efg_rank": 11
+          "efg": 41.9,
+          "efg_rank": 14
         },
         {
           "name": "Corner 3",
@@ -6787,25 +6787,25 @@
         },
         {
           "name": "Acima do arco",
-          "freq": 25.3,
+          "freq": 25.2,
           "freq_rank": 27,
-          "efg": 50.0,
-          "efg_rank": 27
+          "efg": 50.7,
+          "efg_rank": 24
         }
       ],
       "shot_zones_def": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 24.2,
+          "freq": 23.9,
           "freq_rank": 3,
-          "efg": 70.8,
+          "efg": 71.0,
           "efg_rank": 28
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 25.1,
+          "freq": 25.4,
           "freq_rank": 30,
-          "efg": 50.4,
+          "efg": 50.7,
           "efg_rank": 30
         },
         {
@@ -6818,15 +6818,15 @@
         {
           "name": "Corner 3",
           "freq": 9.8,
-          "freq_rank": 6,
+          "freq_rank": 7,
           "efg": 56.2,
           "efg_rank": 7
         },
         {
           "name": "Acima do arco",
-          "freq": 30.8,
+          "freq": 30.6,
           "freq_rank": 16,
-          "efg": 55.6,
+          "efg": 55.8,
           "efg_rank": 30
         }
       ],
@@ -6834,56 +6834,56 @@
         "per_game": 47.8,
         "rank": 13,
         "pizza": {
-          "shots": 42.7,
-          "passes": 40.8,
+          "shots": 42.5,
+          "passes": 40.6,
           "tov": 6.9,
           "fouls": 7.7,
-          "other": 1.9
+          "other": 2.3
         }
       },
       "postups": {
-        "per_game": 5.2,
-        "rank": 8,
+        "per_game": 5.3,
+        "rank": 7,
         "pizza": {
-          "shots": 44.2,
-          "passes": 36.5,
-          "tov": 5.8,
-          "fouls": 7.7,
-          "other": 5.8
+          "shots": 43.4,
+          "passes": 37.7,
+          "tov": 5.7,
+          "fouls": 7.5,
+          "other": 5.7
         }
       },
       "play_types": [
         {
           "name": "Spot Up",
-          "freq": 23.0,
+          "freq": 22.9,
           "ppp": 0.98,
           "freq_rank": 18,
           "eff_rank": 27
         },
         {
           "name": "Transi\u00e7\u00e3o",
-          "freq": 16.6,
+          "freq": 16.5,
           "ppp": 1.1,
-          "freq_rank": 19,
+          "freq_rank": 20,
           "eff_rank": 22
         },
         {
           "name": "Pick & Roll (arm.)",
-          "freq": 16.4,
+          "freq": 16.3,
           "ppp": 0.82,
-          "freq_rank": 13,
+          "freq_rank": 12,
           "eff_rank": 28
         },
         {
           "name": "Isolamento",
-          "freq": 8.4,
+          "freq": 8.5,
           "ppp": 0.89,
           "freq_rank": 10,
           "eff_rank": 21
         },
         {
           "name": "Cortes",
-          "freq": 7.3,
+          "freq": 7.4,
           "ppp": 1.22,
           "freq_rank": 10,
           "eff_rank": 29
@@ -6899,21 +6899,21 @@
           "name": "Post Up",
           "freq": 4.4,
           "ppp": 1.02,
-          "freq_rank": 6,
-          "eff_rank": 12
+          "freq_rank": 5,
+          "eff_rank": 11
         },
         {
           "name": "Handoff",
-          "freq": 3.8,
+          "freq": 3.9,
           "ppp": 0.94,
           "freq_rank": 23,
-          "eff_rank": 14
+          "eff_rank": 12
         },
         {
           "name": "Off Screen",
           "freq": 3.3,
-          "ppp": 1.1,
-          "freq_rank": 19,
+          "ppp": 1.12,
+          "freq_rank": 18,
           "eff_rank": 2
         }
       ]
@@ -6959,7 +6959,7 @@
         },
         "ftr": {
           "value": 0.28,
-          "rank": 12
+          "rank": 11
         }
       },
       "four_factors_def": {
@@ -7035,7 +7035,7 @@
           "freq": 17.1,
           "freq_rank": 26,
           "efg": 45.1,
-          "efg_rank": 13
+          "efg_rank": 12
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -7049,14 +7049,14 @@
           "freq": 13.8,
           "freq_rank": 1,
           "efg": 58.5,
-          "efg_rank": 11
+          "efg_rank": 12
         },
         {
           "name": "Acima do arco",
           "freq": 28.5,
           "freq_rank": 23,
           "efg": 51.8,
-          "efg_rank": 18
+          "efg_rank": 19
         }
       ],
       "shot_zones_def": [
@@ -7070,7 +7070,7 @@
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 20.5,
-          "freq_rank": 16,
+          "freq_rank": 15,
           "efg": 43.5,
           "efg_rank": 10
         },
@@ -7079,12 +7079,12 @@
           "freq": 12.9,
           "freq_rank": 30,
           "efg": 41.0,
-          "efg_rank": 13
+          "efg_rank": 12
         },
         {
           "name": "Corner 3",
           "freq": 11.0,
-          "freq_rank": 20,
+          "freq_rank": 19,
           "efg": 52.5,
           "efg_rank": 1
         },
@@ -7130,7 +7130,7 @@
           "name": "Transi\u00e7\u00e3o",
           "freq": 21.2,
           "ppp": 1.14,
-          "freq_rank": 4,
+          "freq_rank": 5,
           "eff_rank": 17
         },
         {
@@ -7179,15 +7179,15 @@
           "name": "Post Up",
           "freq": 2.5,
           "ppp": 0.97,
-          "freq_rank": 20,
-          "eff_rank": 17
+          "freq_rank": 21,
+          "eff_rank": 16
         }
       ]
     },
     "TOR": {
       "name": "Toronto Raptors",
       "abbreviation": "TOR",
-      "rec": "39-30",
+      "rec": "39-31",
       "conf_rank": 7,
       "conf": "Leste",
       "clutch": {
@@ -7198,15 +7198,15 @@
       },
       "ratings": {
         "ortg": {
-          "value": 114.3,
-          "rank": 15
+          "value": 114.1,
+          "rank": 17
         },
         "drtg": {
-          "value": 112.2,
-          "rank": 7
+          "value": 112.3,
+          "rank": 8
         },
         "netrtg": {
-          "value": 2.1,
+          "value": 1.8,
           "rank": 12
         }
       },
@@ -7216,22 +7216,22 @@
           "rank": 17
         },
         "tov": {
-          "value": 13.7,
+          "value": 13.8,
           "rank": 8
         },
         "oreb": {
-          "value": 30.1,
+          "value": 30.0,
           "rank": 17
         },
         "ftr": {
           "value": 0.26,
-          "rank": 18
+          "rank": 16
         }
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 53.9,
-          "rank": 9
+          "value": 54.1,
+          "rank": 13
         },
         "opp_tov": {
           "value": 15.9,
@@ -7256,8 +7256,8 @@
           "rank": 1
         },
         "pts_paint": {
-          "value": 51.9,
-          "rank": 8
+          "value": 51.8,
+          "rank": 9
         }
       },
       "defense_style": {
@@ -7270,18 +7270,18 @@
           "rank": 2
         },
         "opp_pts_paint": {
-          "value": 47.5,
+          "value": 47.4,
           "rank": 8
         }
       },
       "hustle": {
         "deflections": {
           "value": 20.6,
-          "rank": 3
+          "rank": 4
         },
         "charges": {
-          "value": 0.28,
-          "rank": 17
+          "value": 0.27,
+          "rank": 18
         },
         "loose_balls": {
           "value": 4.0,
@@ -7291,16 +7291,16 @@
       "shot_zones_off": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 29.2,
-          "freq_rank": 11,
-          "efg": 68.3,
-          "efg_rank": 8
+          "freq": 29.3,
+          "freq_rank": 8,
+          "efg": 68.1,
+          "efg_rank": 9
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 21.4,
+          "freq": 21.3,
           "freq_rank": 10,
-          "efg": 43.7,
+          "efg": 43.9,
           "efg_rank": 20
         },
         {
@@ -7315,44 +7315,44 @@
           "freq": 10.0,
           "freq_rank": 23,
           "efg": 57.3,
-          "efg_rank": 16
+          "efg_rank": 15
         },
         {
           "name": "Acima do arco",
           "freq": 27.1,
           "freq_rank": 26,
-          "efg": 49.8,
+          "efg": 50.0,
           "efg_rank": 28
         }
       ],
       "shot_zones_def": [
         {
           "name": "\u00c1rea restrita",
-          "freq": 30.0,
+          "freq": 30.2,
           "freq_rank": 22,
-          "efg": 66.4,
-          "efg_rank": 13
+          "efg": 66.2,
+          "efg_rank": 12
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 17.3,
-          "freq_rank": 5,
-          "efg": 44.3,
-          "efg_rank": 14
+          "freq": 17.2,
+          "freq_rank": 4,
+          "efg": 43.9,
+          "efg_rank": 13
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 10.7,
           "freq_rank": 22,
-          "efg": 39.1,
-          "efg_rank": 6
+          "efg": 40.2,
+          "efg_rank": 7
         },
         {
           "name": "Corner 3",
           "freq": 10.3,
           "freq_rank": 11,
-          "efg": 57.3,
-          "efg_rank": 14
+          "efg": 59.0,
+          "efg_rank": 22
         },
         {
           "name": "Acima do arco",
@@ -7363,14 +7363,14 @@
         }
       ],
       "drives": {
-        "per_game": 47.3,
+        "per_game": 47.2,
         "rank": 17,
         "pizza": {
-          "shots": 42.7,
-          "passes": 40.6,
-          "tov": 6.3,
+          "shots": 42.6,
+          "passes": 40.9,
+          "tov": 6.4,
           "fouls": 7.6,
-          "other": 2.7
+          "other": 2.5
         }
       },
       "postups": {
@@ -7388,22 +7388,22 @@
         {
           "name": "Spot Up",
           "freq": 24.3,
-          "ppp": 0.97,
+          "ppp": 0.98,
           "freq_rank": 12,
           "eff_rank": 28
         },
         {
           "name": "Transi\u00e7\u00e3o",
           "freq": 22.4,
-          "ppp": 1.14,
+          "ppp": 1.13,
           "freq_rank": 3,
           "eff_rank": 19
         },
         {
           "name": "Pick & Roll (arm.)",
-          "freq": 12.8,
+          "freq": 12.7,
           "ppp": 0.84,
-          "freq_rank": 23,
+          "freq_rank": 24,
           "eff_rank": 24
         },
         {
@@ -7411,14 +7411,14 @@
           "freq": 8.6,
           "ppp": 1.34,
           "freq_rank": 5,
-          "eff_rank": 9
+          "eff_rank": 8
         },
         {
           "name": "Isolamento",
-          "freq": 5.9,
-          "ppp": 0.89,
+          "freq": 6.0,
+          "ppp": 0.88,
           "freq_rank": 23,
-          "eff_rank": 22
+          "eff_rank": 24
         },
         {
           "name": "Pick & Roll (piv\u00f4)",
@@ -7430,9 +7430,9 @@
         {
           "name": "Off Screen",
           "freq": 4.2,
-          "ppp": 1.01,
-          "freq_rank": 11,
-          "eff_rank": 10
+          "ppp": 1.02,
+          "freq_rank": 10,
+          "eff_rank": 9
         },
         {
           "name": "Handoff",
@@ -7443,10 +7443,10 @@
         },
         {
           "name": "Post Up",
-          "freq": 3.8,
-          "ppp": 1.05,
-          "freq_rank": 13,
-          "eff_rank": 7
+          "freq": 3.9,
+          "ppp": 1.04,
+          "freq_rank": 12,
+          "eff_rank": 9
         }
       ]
     },
@@ -7537,7 +7537,7 @@
         },
         "opp_pts_paint": {
           "value": 50.7,
-          "rank": 17
+          "rank": 16
         }
       },
       "hustle": {
@@ -7551,7 +7551,7 @@
         },
         "loose_balls": {
           "value": 4.0,
-          "rank": 22
+          "rank": 21
         }
       },
       "shot_zones_off": [
@@ -7567,7 +7567,7 @@
           "freq": 24.3,
           "freq_rank": 3,
           "efg": 48.9,
-          "efg_rank": 3
+          "efg_rank": 2
         },
         {
           "name": "Meia dist\u00e2ncia",
@@ -7581,14 +7581,14 @@
           "freq": 11.7,
           "freq_rank": 7,
           "efg": 57.1,
-          "efg_rank": 18
+          "efg_rank": 17
         },
         {
           "name": "Acima do arco",
           "freq": 29.7,
           "freq_rank": 20,
           "efg": 50.0,
-          "efg_rank": 26
+          "efg_rank": 27
         }
       ],
       "shot_zones_def": [
@@ -7602,7 +7602,7 @@
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
           "freq": 22.1,
-          "freq_rank": 24,
+          "freq_rank": 23,
           "efg": 49.7,
           "efg_rank": 29
         },
@@ -7618,7 +7618,7 @@
           "freq": 12.5,
           "freq_rank": 29,
           "efg": 58.4,
-          "efg_rank": 19
+          "efg_rank": 18
         },
         {
           "name": "Acima do arco",
@@ -7655,14 +7655,14 @@
           "name": "Spot Up",
           "freq": 21.4,
           "ppp": 1.04,
-          "freq_rank": 24,
+          "freq_rank": 25,
           "eff_rank": 16
         },
         {
           "name": "Transi\u00e7\u00e3o",
           "freq": 18.7,
           "ppp": 1.15,
-          "freq_rank": 12,
+          "freq_rank": 13,
           "eff_rank": 10
         },
         {
@@ -7684,7 +7684,7 @@
           "freq": 7.4,
           "ppp": 0.92,
           "freq_rank": 1,
-          "eff_rank": 22
+          "eff_rank": 23
         },
         {
           "name": "Isolamento",
@@ -7698,20 +7698,20 @@
           "freq": 6.2,
           "ppp": 0.94,
           "freq_rank": 3,
-          "eff_rank": 12
+          "eff_rank": 13
         },
         {
           "name": "Pick & Roll (piv\u00f4)",
           "freq": 5.2,
           "ppp": 0.99,
-          "freq_rank": 16,
+          "freq_rank": 15,
           "eff_rank": 29
         },
         {
           "name": "Post Up",
           "freq": 2.4,
           "ppp": 0.99,
-          "freq_rank": 22,
+          "freq_rank": 23,
           "eff_rank": 13
         }
       ]
@@ -7719,7 +7719,7 @@
     "WAS": {
       "name": "Washington Wizards",
       "abbreviation": "WAS",
-      "rec": "16-54",
+      "rec": "16-55",
       "conf_rank": 14,
       "conf": "Leste",
       "clutch": {
@@ -7734,17 +7734,17 @@
           "rank": 28
         },
         "drtg": {
-          "value": 120.7,
+          "value": 121.0,
           "rank": 30
         },
         "netrtg": {
-          "value": -11.2,
+          "value": -11.5,
           "rank": 30
         }
       },
       "four_factors_off": {
         "efg": {
-          "value": 53.3,
+          "value": 53.4,
           "rank": 22
         },
         "tov": {
@@ -7762,7 +7762,7 @@
       },
       "four_factors_def": {
         "opp_efg": {
-          "value": 55.4,
+          "value": 55.5,
           "rank": 25
         },
         "opp_tov": {
@@ -7784,11 +7784,11 @@
           "rank": 6
         },
         "pts_fb": {
-          "value": 14.7,
-          "rank": 16
+          "value": 14.6,
+          "rank": 18
         },
         "pts_paint": {
-          "value": 46.9,
+          "value": 46.8,
           "rank": 23
         }
       },
@@ -7798,21 +7798,21 @@
           "rank": 6
         },
         "opp_pts_fb": {
-          "value": 16.8,
+          "value": 16.7,
           "rank": 27
         },
         "opp_pts_paint": {
-          "value": 54.6,
+          "value": 54.7,
           "rank": 28
         }
       },
       "hustle": {
         "deflections": {
           "value": 16.9,
-          "rank": 18
+          "rank": 17
         },
         "charges": {
-          "value": 0.46,
+          "value": 0.45,
           "rank": 7
         },
         "loose_balls": {
@@ -7830,31 +7830,31 @@
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 19.8,
-          "freq_rank": 16,
-          "efg": 38.8,
+          "freq": 19.6,
+          "freq_rank": 17,
+          "efg": 39.2,
           "efg_rank": 28
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 12.8,
-          "freq_rank": 5,
-          "efg": 42.6,
-          "efg_rank": 10
+          "freq_rank": 4,
+          "efg": 43.5,
+          "efg_rank": 8
         },
         {
           "name": "Corner 3",
-          "freq": 8.7,
-          "freq_rank": 28,
-          "efg": 59.6,
-          "efg_rank": 8
+          "freq": 8.8,
+          "freq_rank": 27,
+          "efg": 60.8,
+          "efg_rank": 7
         },
         {
           "name": "Acima do arco",
           "freq": 31.9,
           "freq_rank": 12,
-          "efg": 51.7,
-          "efg_rank": 19
+          "efg": 52.3,
+          "efg_rank": 15
         }
       ],
       "shot_zones_def": [
@@ -7867,31 +7867,31 @@
         },
         {
           "name": "Garraf\u00e3o (n\u00e3o-RA)",
-          "freq": 18.0,
+          "freq": 18.1,
           "freq_rank": 7,
-          "efg": 41.6,
-          "efg_rank": 4
+          "efg": 41.9,
+          "efg_rank": 5
         },
         {
           "name": "Meia dist\u00e2ncia",
           "freq": 9.3,
           "freq_rank": 7,
           "efg": 40.7,
-          "efg_rank": 8
+          "efg_rank": 9
         },
         {
           "name": "Corner 3",
-          "freq": 10.3,
-          "freq_rank": 10,
-          "efg": 60.0,
-          "efg_rank": 28
+          "freq": 10.2,
+          "freq_rank": 9,
+          "efg": 60.6,
+          "efg_rank": 29
         },
         {
           "name": "Acima do arco",
-          "freq": 30.2,
-          "freq_rank": 11,
-          "efg": 52.7,
-          "efg_rank": 20
+          "freq": 30.1,
+          "freq_rank": 10,
+          "efg": 53.4,
+          "efg_rank": 23
         }
       ],
       "drives": {
@@ -7899,10 +7899,10 @@
         "rank": 21,
         "pizza": {
           "shots": 48.8,
-          "passes": 33.6,
+          "passes": 33.9,
           "tov": 7.6,
           "fouls": 7.3,
-          "other": 2.7
+          "other": 2.4
         }
       },
       "postups": {
@@ -7921,20 +7921,20 @@
           "name": "Spot Up",
           "freq": 20.8,
           "ppp": 0.95,
-          "freq_rank": 26,
+          "freq_rank": 27,
           "eff_rank": 30
         },
         {
           "name": "Transi\u00e7\u00e3o",
-          "freq": 18.6,
-          "ppp": 1.02,
-          "freq_rank": 13,
+          "freq": 18.5,
+          "ppp": 1.03,
+          "freq_rank": 15,
           "eff_rank": 30
         },
         {
           "name": "Pick & Roll (arm.)",
-          "freq": 18.3,
-          "ppp": 0.91,
+          "freq": 18.4,
+          "ppp": 0.92,
           "freq_rank": 3,
           "eff_rank": 7
         },
@@ -7954,24 +7954,24 @@
         },
         {
           "name": "Cortes",
-          "freq": 5.7,
-          "ppp": 1.37,
+          "freq": 5.6,
+          "ppp": 1.36,
           "freq_rank": 23,
-          "eff_rank": 6
+          "eff_rank": 7
         },
         {
           "name": "Handoff",
           "freq": 5.5,
-          "ppp": 0.88,
+          "ppp": 0.89,
           "freq_rank": 7,
           "eff_rank": 26
         },
         {
           "name": "Off Screen",
-          "freq": 3.5,
-          "ppp": 0.98,
-          "freq_rank": 15,
-          "eff_rank": 14
+          "freq": 3.6,
+          "ppp": 0.99,
+          "freq_rank": 12,
+          "eff_rank": 13
         },
         {
           "name": "Post Up",
