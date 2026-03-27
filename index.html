@@ -15,6 +15,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 .bp-brand{display:flex;align-items:center;gap:6px}
 .bp-logo{width:24px;height:24px;border-radius:4px;object-fit:cover}
 .bp-text{font-size:12px;color:#86868b}
+.site-nav{display:flex;align-items:center;gap:6px;margin-left:auto}
+.nav-btn{font-size:13px;color:#86868b;background:none;border:none;cursor:pointer;padding:4px 10px;border-radius:6px;font-family:inherit}
+.nav-btn:hover{background:#f5f5f7;color:#1d1d1f}
+.nav-btn.active{color:#1d1d1f;font-weight:500}
 .site-sub{font-size:14px;color:#6e6e73;line-height:1.6;max-width:500px;margin-bottom:2rem}
 .conf-label{font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin:1.75rem 0 0.6rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea}
 .div-label{font-size:11px;color:#86868b;margin:1rem 0 0.5rem}
@@ -28,10 +32,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 .profile-topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:8px}
 .back-btn{display:inline-flex;align-items:center;gap:4px;font-size:13px;color:#86868b;cursor:pointer;background:none;border:none;padding:0;font-family:inherit}
 .back-btn:hover{color:#1d1d1f}
-.team-header{display:flex;align-items:center;gap:16px;padding-bottom:1.25rem;border-bottom:0.5px solid #e5e5ea;margin-bottom:1rem}
+.team-header{display:flex;align-items:center;gap:16px;padding-bottom:1.25rem;border-bottom:0.5px solid #e5e5ea;margin-bottom:0.75rem}
 .team-logo-hdr{width:56px;height:56px;object-fit:contain;flex-shrink:0}
 .team-name-h{font-size:20px;font-weight:600;letter-spacing:-0.4px}
 .team-meta{font-size:13px;color:#86868b;margin-top:3px}
+.period-selector{display:flex;gap:6px;margin-bottom:1.25rem;padding-bottom:1.25rem;border-bottom:0.5px solid #e5e5ea}
+.period-btn{font-size:12px;padding:5px 14px;border-radius:20px;border:0.5px solid #e5e5ea;background:#fff;cursor:pointer;color:#6e6e73;font-family:inherit;transition:all 0.1s}
+.period-btn:hover{background:#f5f5f7;border-color:#d2d2d7}
+.period-btn.sel{background:#1d1d1f;color:#fff;border-color:#1d1d1f}
 .sec-head{display:flex;align-items:center;gap:8px;margin:1.75rem 0 0.75rem}
 .sec-line{width:3px;height:14px;border-radius:2px;flex-shrink:0}
 .sec-name{font-size:13px;font-weight:500;color:#1d1d1f}
@@ -59,9 +67,28 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 .scatter-fill{margin-top:10px;position:relative;width:100%;flex:1;min-height:180px}
 .scatter-fixed{margin-top:10px;position:relative;width:100%;height:290px}
 .footer-note{margin-top:2.5rem;padding-top:1rem;border-top:0.5px solid #e5e5ea;font-size:11px;color:#86868b}
+.rk-cat-label{font-size:10px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin:1.25rem 0 0.5rem}
+.rk-cat-label:first-child{margin-top:0}
+.rk-btns{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:0.25rem}
+.rk-btn{font-size:12px;padding:5px 12px;border-radius:20px;border:0.5px solid #e5e5ea;background:#fff;cursor:pointer;color:#1d1d1f;font-family:inherit;transition:all 0.1s}
+.rk-btn:hover{background:#f5f5f7;border-color:#d2d2d7}
+.rk-btn.sel{background:#1d1d1f;color:#fff;border-color:#1d1d1f}
+.rk-divider{height:0.5px;background:#e5e5ea;margin:1.25rem 0}
+.rk-table{width:100%;border-collapse:collapse;margin-top:1rem}
+.rk-table td{padding:9px 8px;border-bottom:0.5px solid #e5e5ea;vertical-align:middle}
+.rk-table tr:last-child td{border-bottom:none}
+.rk-pos{font-family:ui-monospace,monospace;font-size:13px;color:#86868b;width:28px;text-align:right}
+.rk-logo{width:28px;text-align:center}
+.rk-name{font-size:13px;color:#1d1d1f}
+.rk-value{font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right;color:#1d1d1f}
+.rk-bar-cell{width:140px;padding-left:12px}
+.rk-bar-track{height:5px;background:#e5e5ea;border-radius:3px;overflow:hidden}
+.rk-bar-fill{height:100%;border-radius:3px}
+.rk-period-bar{display:flex;gap:6px;margin-bottom:1rem}
 </style>
 </head>
 <body>
+
 <div id="home" class="page active">
 <div class="wrap">
   <div class="site-header">
@@ -71,10 +98,40 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
       <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
       <span class="bp-text">um projeto Bola Presa</span>
     </div>
+    <div class="site-nav">
+      <button class="nav-btn active" onclick="showHome()">Times</button>
+      <button class="nav-btn" onclick="showRankings()">Rankings</button>
+    </div>
   </div>
-  <div class="site-sub">Perfil estatístico completo de cada time da NBA. <br> <a href="bolapresa.com.br"> Bola Presa </a> - bolapresa@gmail.com</div>
+  <div class="site-sub">Perfil tático completo de cada time da NBA. Clique em qualquer time para ver como ele joga.</div>
   <div id="teams-list"></div>
   <div class="footer-home"><span id="updated-home"></span></div>
+</div>
+</div>
+
+<div id="rankings" class="page">
+<div class="wrap">
+  <div class="site-header">
+    <span class="site-name">NBA Team Profiles</span>
+    <span class="bp-sep">·</span>
+    <div class="bp-brand">
+      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
+      <span class="bp-text">um projeto Bola Presa</span>
+    </div>
+    <div class="site-nav">
+      <button class="nav-btn" onclick="showHome()">Times</button>
+      <button class="nav-btn active" onclick="showRankings()">Rankings</button>
+    </div>
+  </div>
+  <div class="rk-period-bar">
+    <button class="period-btn sel" onclick="setRkPeriod('full',this)">Temporada completa</button>
+    <button class="period-btn" onclick="setRkPeriod('30d',this)">Últimos 30 dias</button>
+    <button class="period-btn" onclick="setRkPeriod('14d',this)">Últimas 2 semanas</button>
+  </div>
+  <div id="rk-filters"></div>
+  <div class="rk-divider"></div>
+  <div id="rk-table-wrap"></div>
+  <div class="footer-note"><span id="updated-rk"></span></div>
 </div>
 </div>
 
@@ -103,15 +160,166 @@ const ZONE_RENAME={"Acima do arco":"Above the break 3","Corner 3":"Zona Morta"};
 const PT_RENAME={"Isolamento":"Isolação","Off Screen":"Após corta-luz"};
 const PT_COLORS=["#007AFF","#E03A3E","#EF9F27","#1D9E75","#8B2BE2","#D4537E","#1d1d1f","#639922","#D85A30"];
 
-function logoUrl(abbr){return`https://cdn.nba.com/logos/nba/${TID[abbr]}/global/L/logo.svg`;}
+function logoUrl(a){return`https://cdn.nba.com/logos/nba/${TID[a]}/global/L/logo.svg`;}
 
-let DATA=null;
+const STATS=[
+  {cat:"Gerais",id:"ortg",   label:"Offensive Rating", get:t=>t.ratings.ortg.value,   unit:"",   hi:true},
+  {cat:"Gerais",id:"drtg",   label:"Defensive Rating", get:t=>t.ratings.drtg.value,   unit:"",   hi:false},
+  {cat:"Gerais",id:"netrtg", label:"Net Rating",        get:t=>t.ratings.netrtg.value, unit:"",   hi:true},
+  {cat:"Gerais",id:"clutch", label:"Clutch %",          get:t=>t.clutch.wpct,          unit:"%",  hi:true},
+  {cat:"Four Factors ofensivo",id:"ff_efg",  label:"eFG%",        get:t=>t.four_factors_off.efg.value,  unit:"%", hi:true},
+  {cat:"Four Factors ofensivo",id:"ff_tov",  label:"TOV%",        get:t=>t.four_factors_off.tov.value,  unit:"%", hi:false},
+  {cat:"Four Factors ofensivo",id:"ff_oreb", label:"ORB%",        get:t=>t.four_factors_off.oreb.value, unit:"%", hi:true},
+  {cat:"Four Factors ofensivo",id:"ff_ftr",  label:"FT Rate",     get:t=>t.four_factors_off.ftr.value,  unit:"",  hi:true},
+  {cat:"Four Factors defensivo",id:"ff_oefg",  label:"Opp. eFG%",    get:t=>t.four_factors_def.opp_efg.value,  unit:"%", hi:false},
+  {cat:"Four Factors defensivo",id:"ff_otov",  label:"Opp. TOV%",    get:t=>t.four_factors_def.opp_tov.value,  unit:"",  hi:true},
+  {cat:"Four Factors defensivo",id:"ff_ooreb", label:"Opp. ORB%",    get:t=>t.four_factors_def.opp_oreb.value, unit:"",  hi:false},
+  {cat:"Four Factors defensivo",id:"ff_oftr",  label:"Opp. FT Rate", get:t=>t.four_factors_def.opp_ftr.value,  unit:"",  hi:false},
+  {cat:"Estilo de ataque",id:"pace",      label:"Pace",                   get:t=>t.attack_style.pace.value,      unit:"", hi:true},
+  {cat:"Estilo de ataque",id:"pts_fb",    label:"Pts contra-ataque/jogo", get:t=>t.attack_style.pts_fb.value,    unit:"", hi:true},
+  {cat:"Estilo de ataque",id:"pts_paint", label:"Pts no garrafão/jogo",   get:t=>t.attack_style.pts_paint.value, unit:"", hi:true},
+  {cat:"Estilo de defesa",id:"opp_pace",      label:"Pace adversário",             get:t=>t.defense_style.opp_pace.value,      unit:"", hi:false},
+  {cat:"Estilo de defesa",id:"opp_pts_fb",    label:"Pts contra-ataque adv./jogo", get:t=>t.defense_style.opp_pts_fb.value,    unit:"", hi:false},
+  {cat:"Estilo de defesa",id:"opp_pts_paint", label:"Pts no garrafão adv./jogo",   get:t=>t.defense_style.opp_pts_paint.value, unit:"", hi:false},
+  {cat:"Drives e post-ups",id:"drives",  label:"Drives/jogo",   get:t=>t.drives.per_game,  unit:"", hi:true},
+  {cat:"Drives e post-ups",id:"postups", label:"Post-ups/jogo", get:t=>t.postups.per_game, unit:"", hi:true},
+  {cat:"Hustle",id:"defl",  label:"Bolas desviadas/jogo",          get:t=>t.hustle.deflections.value, unit:"", hi:true},
+  {cat:"Hustle",id:"charg", label:"Faltas de ataque cavadas/jogo", get:t=>t.hustle.charges.value,     unit:"", hi:true},
+  {cat:"Hustle",id:"loose", label:"Bolas soltas recuperadas/jogo", get:t=>t.hustle.loose_balls.value, unit:"", hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_ra_freq",  label:"Área restrita",    get:t=>t.shot_zones_off.find(z=>z.name==="Área restrita")?.freq||0,    unit:"%", hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_nra_freq", label:"Garrafão (não-RA)",get:t=>t.shot_zones_off.find(z=>z.name==="Garrafão (não-RA)")?.freq||0, unit:"%", hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_mid_freq", label:"Meia distância",   get:t=>t.shot_zones_off.find(z=>z.name==="Meia distância")?.freq||0,   unit:"%", hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_c3_freq",  label:"Zona Morta",       get:t=>t.shot_zones_off.find(z=>z.name==="Zona Morta")?.freq||0,       unit:"%", hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_ab3_freq", label:"Above the break 3",get:t=>t.shot_zones_off.find(z=>z.name==="Above the break 3")?.freq||0, unit:"%", hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_ra_efg",  label:"Área restrita",    get:t=>t.shot_zones_off.find(z=>z.name==="Área restrita")?.efg||0,    unit:"%", hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_nra_efg", label:"Garrafão (não-RA)",get:t=>t.shot_zones_off.find(z=>z.name==="Garrafão (não-RA)")?.efg||0, unit:"%", hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_mid_efg", label:"Meia distância",   get:t=>t.shot_zones_off.find(z=>z.name==="Meia distância")?.efg||0,   unit:"%", hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_c3_efg",  label:"Zona Morta",       get:t=>t.shot_zones_off.find(z=>z.name==="Zona Morta")?.efg||0,       unit:"%", hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_ab3_efg", label:"Above the break 3",get:t=>t.shot_zones_off.find(z=>z.name==="Above the break 3")?.efg||0, unit:"%", hi:true},
+  {cat:"Perfil defensivo · frequência",id:"def_ra_freq",  label:"Área restrita",    get:t=>t.shot_zones_def.find(z=>z.name==="Área restrita")?.freq||0,    unit:"%", hi:false},
+  {cat:"Perfil defensivo · frequência",id:"def_nra_freq", label:"Garrafão (não-RA)",get:t=>t.shot_zones_def.find(z=>z.name==="Garrafão (não-RA)")?.freq||0, unit:"%", hi:false},
+  {cat:"Perfil defensivo · frequência",id:"def_mid_freq", label:"Meia distância",   get:t=>t.shot_zones_def.find(z=>z.name==="Meia distância")?.freq||0,   unit:"%", hi:false},
+  {cat:"Perfil defensivo · frequência",id:"def_c3_freq",  label:"Zona Morta",       get:t=>t.shot_zones_def.find(z=>z.name==="Zona Morta")?.freq||0,       unit:"%", hi:false},
+  {cat:"Perfil defensivo · frequência",id:"def_ab3_freq", label:"Above the break 3",get:t=>t.shot_zones_def.find(z=>z.name==="Above the break 3")?.freq||0, unit:"%", hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_ra_efg",  label:"Área restrita",    get:t=>t.shot_zones_def.find(z=>z.name==="Área restrita")?.efg||0,    unit:"%", hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_nra_efg", label:"Garrafão (não-RA)",get:t=>t.shot_zones_def.find(z=>z.name==="Garrafão (não-RA)")?.efg||0, unit:"%", hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_mid_efg", label:"Meia distância",   get:t=>t.shot_zones_def.find(z=>z.name==="Meia distância")?.efg||0,   unit:"%", hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_c3_efg",  label:"Zona Morta",       get:t=>t.shot_zones_def.find(z=>z.name==="Zona Morta")?.efg||0,       unit:"%", hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_ab3_efg", label:"Above the break 3",get:t=>t.shot_zones_def.find(z=>z.name==="Above the break 3")?.efg||0, unit:"%", hi:false},
+];
+
+const PERIODS_META={
+  full:{label:"Temporada completa",file:"times_full.json"},
+  "30d":{label:"Últimos 30 dias",file:"times_30d.json"},
+  "14d":{label:"Últimas 2 semanas",file:"times_14d.json"},
+};
+
+let DATA={};
+let currentPeriod="full";
+let currentProfileAbbr=null;
+let currentStat=STATS[0];
+let currentRkPeriod="full";
 const CI={};
 
 function rk(r){return r<=10?"#1D9E75":r<=20?"#BA7517":"#D85A30";}
 function statRow(l,v,r,d=1){return`<div class="stat-row"><span class="stat-label">${l}</span><span class="stat-val">${v}</span><span class="stat-rank" style="color:${d?rk(r):"#86868b"}">${r}º</span></div>`;}
 function rz(n){return ZONE_RENAME[n]||n;}
 function rp(n){return PT_RENAME[n]||n;}
+
+function loadPeriod(key){
+  if(DATA[key]) return Promise.resolve(DATA[key]);
+  return fetch(PERIODS_META[key].file).then(r=>r.json()).then(d=>{DATA[key]=d;return d;});
+}
+
+Promise.all(Object.keys(PERIODS_META).map(k=>loadPeriod(k))).then(()=>{
+  const d=DATA["full"];
+  document.getElementById("updated-home").textContent="Temporada "+d.season+" · Atualizado em "+d.updated+" · Dados: NBA Stats";
+  buildHome();
+});
+
+function buildHome(){
+  const list=document.getElementById("teams-list");list.innerHTML="";
+  ["East","Oeste"].forEach(conf=>{
+    const cl=document.createElement("div");cl.className="conf-label";
+    cl.textContent=conf==="East"?"Conferência Leste":"Conferência Oeste";list.appendChild(cl);
+    Object.entries(DIV[conf]).forEach(([div,abbrs])=>{
+      const dl=document.createElement("div");dl.className="div-label";dl.textContent=div;list.appendChild(dl);
+      const grid=document.createElement("div");grid.className="teams-grid";
+      abbrs.forEach(a=>{
+        const btn=document.createElement("button");btn.className="team-btn";
+        btn.innerHTML=`<img class="team-logo-img" src="${logoUrl(a)}" alt="${a}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div style="display:none;width:42px;height:42px;border-radius:50%;background:${TC[a]};align-items:center;justify-content:center;font-size:10px;font-weight:600;color:#fff">${a}</div><span class="team-abbr-txt">${a}</span><span class="team-city-txt">${CITY[a]}</span>`;
+        btn.onclick=()=>showProfile(a,"full");grid.appendChild(btn);
+      });list.appendChild(grid);
+    });
+  });
+}
+
+function showHome(){
+  document.getElementById("home").classList.add("active");
+  document.getElementById("rankings").classList.remove("active");
+  document.getElementById("profile").classList.remove("active");
+}
+
+function showRankings(){
+  document.getElementById("home").classList.remove("active");
+  document.getElementById("rankings").classList.add("active");
+  document.getElementById("profile").classList.remove("active");
+  buildRankingsFilters();
+  buildRankingsTable();
+}
+
+function setRkPeriod(key,btn){
+  currentRkPeriod=key;
+  document.querySelectorAll('.rk-period-bar .period-btn').forEach(b=>b.classList.remove('sel'));
+  btn.classList.add('sel');
+  buildRankingsTable();
+  const d=DATA[key];
+  if(d) document.getElementById("updated-rk").textContent="Temporada "+d.season+" · "+d.period+" · Atualizado em "+d.updated+" · Dados: NBA Stats";
+}
+
+function buildRankingsFilters(){
+  const cats=[...new Set(STATS.map(s=>s.cat))];
+  let html='';
+  cats.forEach(cat=>{
+    const stats=STATS.filter(s=>s.cat===cat);
+    html+=`<div class="rk-cat-label">${cat}</div><div class="rk-btns">`;
+    stats.forEach(s=>{html+=`<button class="rk-btn${s.id===currentStat.id?' sel':''}" onclick="selectStat('${s.id}')">${s.label}</button>`;});
+    html+=`</div>`;
+  });
+  document.getElementById('rk-filters').innerHTML=html;
+  const d=DATA[currentRkPeriod];
+  if(d) document.getElementById("updated-rk").textContent="Temporada "+d.season+" · "+d.period+" · Atualizado em "+d.updated+" · Dados: NBA Stats";
+}
+
+function selectStat(id){
+  currentStat=STATS.find(s=>s.id===id);
+  buildRankingsFilters();
+  buildRankingsTable();
+}
+
+function buildRankingsTable(){
+  const d=DATA[currentRkPeriod];if(!d)return;
+  const teams=Object.entries(d.teams).map(([abbr,t])=>({abbr,name:t.name,value:currentStat.get(t)||0}));
+  teams.sort((a,b)=>currentStat.hi?b.value-a.value:a.value-b.value);
+  const max=Math.max(...teams.map(t=>t.value));
+  const min=Math.min(...teams.map(t=>t.value));
+  const range=max-min||1;
+  let rows='';
+  teams.forEach((t,i)=>{
+    const barPct=currentStat.hi?((t.value-min)/range*100).toFixed(0):(((max-t.value)/range)*100).toFixed(0);
+    const color=TC[t.abbr]||'#888';
+    rows+=`<tr>
+      <td class="rk-pos">${i+1}</td>
+      <td class="rk-logo"><img src="${logoUrl(t.abbr)}" alt="${t.abbr}" style="width:24px;height:24px;object-fit:contain"></td>
+      <td class="rk-name" style="cursor:pointer;color:#007AFF" onclick="showProfile('${t.abbr}','${currentRkPeriod}')">${t.name}</td>
+      <td class="rk-value">${t.value}${currentStat.unit}</td>
+      <td class="rk-bar-cell"><div class="rk-bar-track"><div class="rk-bar-fill" style="width:${barPct}%;background:${color}"></div></div></td>
+    </tr>`;
+  });
+  document.getElementById('rk-table-wrap').innerHTML=`
+    <p style="font-size:12px;color:#86868b;margin-bottom:8px">${currentStat.label} · ${currentStat.hi?'maior = melhor':'menor = melhor'}</p>
+    <table class="rk-table"><tbody>${rows}</tbody></table>`;
+}
 
 function zoneTable(zones){
   return`<div class="zone-grid" style="padding:5px 0;border-bottom:0.5px solid #d2d2d7">
@@ -268,46 +476,32 @@ function ptTable(pts){
   </div>`).join('')}`;
 }
 
-fetch("times.json").then(r=>r.json()).then(d=>{
-  DATA=d;
-  document.getElementById("updated-home").textContent="Temporada "+d.season+" · Atualizado em "+d.updated+" · Dados: NBA Stats";
-  buildHome();
-});
-
-function buildHome(){
-  const list=document.getElementById("teams-list");list.innerHTML="";
-  ["East","Oeste"].forEach(conf=>{
-    const cl=document.createElement("div");cl.className="conf-label";
-    cl.textContent=conf==="East"?"Conferência Leste":"Conferência Oeste";list.appendChild(cl);
-    Object.entries(DIV[conf]).forEach(([div,abbrs])=>{
-      const dl=document.createElement("div");dl.className="div-label";dl.textContent=div;list.appendChild(dl);
-      const grid=document.createElement("div");grid.className="teams-grid";
-      abbrs.forEach(a=>{
-        const btn=document.createElement("button");btn.className="team-btn";
-        btn.innerHTML=`<img class="team-logo-img" src="${logoUrl(a)}" alt="${a}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div style="display:none;width:42px;height:42px;border-radius:50%;background:${TC[a]};align-items:center;justify-content:center;font-size:10px;font-weight:600;color:#fff">${a}</div><span class="team-abbr-txt">${a}</span><span class="team-city-txt">${CITY[a]}</span>`;
-        btn.onclick=()=>showProfile(a);grid.appendChild(btn);
-      });list.appendChild(grid);
-    });
-  });
+function showProfile(abbr, periodKey){
+  currentProfileAbbr=abbr;
+  currentPeriod=periodKey||"full";
+  document.getElementById("home").classList.remove("active");
+  document.getElementById("rankings").classList.remove("active");
+  document.getElementById("profile").classList.add("active");
+  renderProfile(abbr, currentPeriod);
 }
 
-function showHome(){document.getElementById("home").classList.add("active");document.getElementById("profile").classList.remove("active");}
-
-function showProfile(abbr){
-  document.getElementById("home").classList.remove("active");
-  document.getElementById("profile").classList.add("active");
-  const t=DATA.teams[abbr];if(!t)return;
+function renderProfile(abbr, periodKey){
+  const d=DATA[periodKey];if(!d)return;
+  const t=d.teams[abbr];if(!t)return;
   const color=TC[abbr]||"#888";
   const cl=t.clutch||{};const hu=t.hustle||{};
   const dr=t.drives||{};const pu=t.postups||{};
   const szo=t.shot_zones_off||[];const szd=t.shot_zones_def||[];
   const pts=t.play_types||[];
 
+  const periodBtns=["full","30d","14d"].map(k=>`<button class="period-btn${k===periodKey?' sel':''}" onclick="switchProfilePeriod('${k}')">${PERIODS_META[k].label}</button>`).join('');
+
   document.getElementById("profile-content").innerHTML=`
     <div class="team-header">
       <img class="team-logo-hdr" src="${logoUrl(abbr)}" alt="${abbr}" onerror="this.style.display='none'">
       <div><div class="team-name-h">${t.name}</div><div class="team-meta">${t.rec} · ${t.conf_rank}º no ${t.conf}</div></div>
     </div>
+    <div class="period-selector">${periodBtns}</div>
 
     <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Números gerais</span></div>
     <div>
@@ -407,12 +601,17 @@ function showProfile(abbr){
       </div>
     </div>
 
-    <div class="footer-note">Dados: NBA Stats · Temporada ${DATA.season} · Atualizado em ${DATA.updated}</div>`;
+    <div class="footer-note">Dados: NBA Stats · Temporada ${d.season} · ${d.period} · Atualizado em ${d.updated}</div>`;
 
   setTimeout(()=>{
     buildScatterZones('sc-off',szo,color);
     buildScatterPT('sc-pt',pts);
   },50);
+}
+
+function switchProfilePeriod(key){
+  currentPeriod=key;
+  renderProfile(currentProfileAbbr,key);
 }
 </script>
 </body>

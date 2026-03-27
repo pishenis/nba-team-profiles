@@ -1,0 +1,7987 @@
+{
+  "season": "2025-26",
+  "period": "\u00daltimos 30 dias",
+  "updated": "2026-03-26",
+  "teams": {
+    "ATL": {
+      "name": "Atlanta Hawks",
+      "abbreviation": "ATL",
+      "rec": "13-1",
+      "conf_rank": 1,
+      "conf": "Leste",
+      "clutch": {
+        "w": 3,
+        "l": 0,
+        "wpct": 100.0,
+        "rank": 1
+      },
+      "ratings": {
+        "ortg": {
+          "value": 120.7,
+          "rank": 5
+        },
+        "drtg": {
+          "value": 106.1,
+          "rank": 1
+        },
+        "netrtg": {
+          "value": 14.5,
+          "rank": 2
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 57.0,
+          "rank": 6
+        },
+        "tov": {
+          "value": 13.8,
+          "rank": 15
+        },
+        "oreb": {
+          "value": 34.5,
+          "rank": 5
+        },
+        "ftr": {
+          "value": 0.24,
+          "rank": 20
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 53.7,
+          "rank": 10
+        },
+        "opp_tov": {
+          "value": 18.0,
+          "rank": 1
+        },
+        "opp_oreb": {
+          "value": 8.9,
+          "rank": 2
+        },
+        "opp_ftr": {
+          "value": 0.25,
+          "rank": 10
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 102.3,
+          "rank": 4
+        },
+        "pts_fb": {
+          "value": 19.6,
+          "rank": 3
+        },
+        "pts_paint": {
+          "value": 56.4,
+          "rank": 4
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 102.3,
+          "rank": 4
+        },
+        "opp_pts_fb": {
+          "value": 14.8,
+          "rank": 15
+        },
+        "opp_pts_paint": {
+          "value": 49.1,
+          "rank": 11
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 22.0,
+          "rank": 1
+        },
+        "charges": {
+          "value": 0.29,
+          "rank": 14
+        },
+        "loose_balls": {
+          "value": 4.1,
+          "rank": 5
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 30.0,
+          "freq_rank": 11,
+          "efg": 70.8,
+          "efg_rank": 5
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 18.5,
+          "freq_rank": 18,
+          "efg": 48.6,
+          "efg_rank": 6
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 7.6,
+          "freq_rank": 22,
+          "efg": 40.8,
+          "efg_rank": 17
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.6,
+          "freq_rank": 9,
+          "efg": 60.6,
+          "efg_rank": 12
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 32.3,
+          "freq_rank": 13,
+          "efg": 51.7,
+          "efg_rank": 19
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 32.1,
+          "freq_rank": 25,
+          "efg": 65.5,
+          "efg_rank": 7
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 17.5,
+          "freq_rank": 8,
+          "efg": 44.0,
+          "efg_rank": 12
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.8,
+          "freq_rank": 17,
+          "efg": 41.7,
+          "efg_rank": 15
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.9,
+          "freq_rank": 12,
+          "efg": 51.2,
+          "efg_rank": 4
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 30.8,
+          "freq_rank": 13,
+          "efg": 52.3,
+          "efg_rank": 17
+        }
+      ],
+      "drives": {
+        "per_game": 47.8,
+        "rank": 16,
+        "pizza": {
+          "shots": 44.8,
+          "passes": 42.1,
+          "tov": 4.8,
+          "fouls": 6.3,
+          "other": 2.1
+        }
+      },
+      "postups": {
+        "per_game": 3.0,
+        "rank": 18,
+        "pizza": {
+          "shots": 46.7,
+          "passes": 30.0,
+          "tov": 10.0,
+          "fouls": 3.3,
+          "other": 10.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 22.6,
+          "ppp": 1.1,
+          "freq_rank": 21,
+          "eff_rank": 6
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 21.8,
+          "ppp": 1.15,
+          "freq_rank": 4,
+          "eff_rank": 12
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 14.1,
+          "ppp": 0.83,
+          "freq_rank": 18,
+          "eff_rank": 27
+        },
+        {
+          "name": "Cortes",
+          "freq": 7.8,
+          "ppp": 1.28,
+          "freq_rank": 8,
+          "eff_rank": 19
+        },
+        {
+          "name": "Handoff",
+          "freq": 5.9,
+          "ppp": 0.96,
+          "freq_rank": 5,
+          "eff_rank": 9
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 5.7,
+          "ppp": 0.98,
+          "freq_rank": 3,
+          "eff_rank": 15
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.0,
+          "ppp": 1.02,
+          "freq_rank": 18,
+          "eff_rank": 25
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 4.1,
+          "ppp": 0.78,
+          "freq_rank": 29,
+          "eff_rank": 30
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.8,
+          "ppp": 1.08,
+          "freq_rank": 17,
+          "eff_rank": 4
+        }
+      ]
+    },
+    "BOS": {
+      "name": "Boston Celtics",
+      "abbreviation": "BOS",
+      "rec": "11-5",
+      "conf_rank": 2,
+      "conf": "Leste",
+      "clutch": {
+        "w": 2,
+        "l": 2,
+        "wpct": 50.0,
+        "rank": 13
+      },
+      "ratings": {
+        "ortg": {
+          "value": 116.5,
+          "rank": 13
+        },
+        "drtg": {
+          "value": 109.1,
+          "rank": 5
+        },
+        "netrtg": {
+          "value": 7.4,
+          "rank": 7
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 52.9,
+          "rank": 27
+        },
+        "tov": {
+          "value": 13.5,
+          "rank": 12
+        },
+        "oreb": {
+          "value": 34.1,
+          "rank": 7
+        },
+        "ftr": {
+          "value": 0.23,
+          "rank": 28
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 51.5,
+          "rank": 4
+        },
+        "opp_tov": {
+          "value": 10.5,
+          "rank": 29
+        },
+        "opp_oreb": {
+          "value": 9.6,
+          "rank": 4
+        },
+        "opp_ftr": {
+          "value": 0.23,
+          "rank": 2
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 94.7,
+          "rank": 30
+        },
+        "pts_fb": {
+          "value": 9.9,
+          "rank": 30
+        },
+        "pts_paint": {
+          "value": 41.6,
+          "rank": 28
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 94.7,
+          "rank": 30
+        },
+        "opp_pts_fb": {
+          "value": 15.4,
+          "rank": 16
+        },
+        "opp_pts_paint": {
+          "value": 36.5,
+          "rank": 1
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 13.1,
+          "rank": 28
+        },
+        "charges": {
+          "value": 0.06,
+          "rank": 28
+        },
+        "loose_balls": {
+          "value": 3.0,
+          "rank": 24
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 22.8,
+          "freq_rank": 28,
+          "efg": 68.7,
+          "efg_rank": 13
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 18.5,
+          "freq_rank": 17,
+          "efg": 42.9,
+          "efg_rank": 19
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 10.6,
+          "freq_rank": 13,
+          "efg": 38.7,
+          "efg_rank": 23
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.6,
+          "freq_rank": 22,
+          "efg": 56.5,
+          "efg_rank": 19
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 38.5,
+          "freq_rank": 2,
+          "efg": 51.3,
+          "efg_rank": 20
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 20.8,
+          "freq_rank": 1,
+          "efg": 65.9,
+          "efg_rank": 10
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 19.6,
+          "freq_rank": 14,
+          "efg": 37.9,
+          "efg_rank": 1
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 13.5,
+          "freq_rank": 30,
+          "efg": 48.3,
+          "efg_rank": 26
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.2,
+          "freq_rank": 5,
+          "efg": 51.3,
+          "efg_rank": 5
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 36.9,
+          "freq_rank": 30,
+          "efg": 51.9,
+          "efg_rank": 14
+        }
+      ],
+      "drives": {
+        "per_game": 48.6,
+        "rank": 14,
+        "pizza": {
+          "shots": 46.5,
+          "passes": 37.9,
+          "tov": 6.0,
+          "fouls": 6.6,
+          "other": 3.1
+        }
+      },
+      "postups": {
+        "per_game": 2.6,
+        "rank": 19,
+        "pizza": {
+          "shots": 34.6,
+          "passes": 26.9,
+          "tov": 11.5,
+          "fouls": 7.7,
+          "other": 19.2
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 23.0,
+          "ppp": 1.09,
+          "freq_rank": 18,
+          "eff_rank": 7
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 18.3,
+          "ppp": 0.93,
+          "freq_rank": 4,
+          "eff_rank": 5
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 15.1,
+          "ppp": 1.16,
+          "freq_rank": 30,
+          "eff_rank": 8
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 9.4,
+          "ppp": 0.97,
+          "freq_rank": 6,
+          "eff_rank": 6
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.7,
+          "ppp": 1.14,
+          "freq_rank": 10,
+          "eff_rank": 9
+        },
+        {
+          "name": "Handoff",
+          "freq": 5.4,
+          "ppp": 0.92,
+          "freq_rank": 7,
+          "eff_rank": 20
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.4,
+          "ppp": 1.33,
+          "freq_rank": 24,
+          "eff_rank": 9
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 5.1,
+          "ppp": 0.97,
+          "freq_rank": 4,
+          "eff_rank": 17
+        },
+        {
+          "name": "Post Up",
+          "freq": 1.9,
+          "ppp": 0.97,
+          "freq_rank": 28,
+          "eff_rank": 16
+        }
+      ]
+    },
+    "BKN": {
+      "name": "Brooklyn Nets",
+      "abbreviation": "BKN",
+      "rec": "2-15",
+      "conf_rank": 13,
+      "conf": "Leste",
+      "clutch": {
+        "w": 1,
+        "l": 7,
+        "wpct": 12.5,
+        "rank": 29
+      },
+      "ratings": {
+        "ortg": {
+          "value": 105.4,
+          "rank": 30
+        },
+        "drtg": {
+          "value": 119.8,
+          "rank": 23
+        },
+        "netrtg": {
+          "value": -14.4,
+          "rank": 29
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 52.0,
+          "rank": 30
+        },
+        "tov": {
+          "value": 17.2,
+          "rank": 30
+        },
+        "oreb": {
+          "value": 27.4,
+          "rank": 24
+        },
+        "ftr": {
+          "value": 0.28,
+          "rank": 13
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 57.9,
+          "rank": 25
+        },
+        "opp_tov": {
+          "value": 15.9,
+          "rank": 9
+        },
+        "opp_oreb": {
+          "value": 10.9,
+          "rank": 11
+        },
+        "opp_ftr": {
+          "value": 0.36,
+          "rank": 30
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 99.2,
+          "rank": 17
+        },
+        "pts_fb": {
+          "value": 13.2,
+          "rank": 21
+        },
+        "pts_paint": {
+          "value": 46.0,
+          "rank": 23
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 99.2,
+          "rank": 17
+        },
+        "opp_pts_fb": {
+          "value": 15.8,
+          "rank": 20
+        },
+        "opp_pts_paint": {
+          "value": 52.0,
+          "rank": 21
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 18.8,
+          "rank": 8
+        },
+        "charges": {
+          "value": 0.24,
+          "rank": 19
+        },
+        "loose_balls": {
+          "value": 3.9,
+          "rank": 7
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 32.2,
+          "freq_rank": 8,
+          "efg": 60.9,
+          "efg_rank": 30
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 21.3,
+          "freq_rank": 9,
+          "efg": 38.6,
+          "efg_rank": 26
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 5.0,
+          "freq_rank": 29,
+          "efg": 41.5,
+          "efg_rank": 14
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.9,
+          "freq_rank": 8,
+          "efg": 59.7,
+          "efg_rank": 13
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.7,
+          "freq_rank": 18,
+          "efg": 51.2,
+          "efg_rank": 22
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 32.2,
+          "freq_rank": 26,
+          "efg": 68.0,
+          "efg_rank": 17
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 21.2,
+          "freq_rank": 23,
+          "efg": 45.1,
+          "efg_rank": 18
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.0,
+          "freq_rank": 6,
+          "efg": 43.2,
+          "efg_rank": 20
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.9,
+          "freq_rank": 13,
+          "efg": 60.4,
+          "efg_rank": 18
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 27.6,
+          "freq_rank": 2,
+          "efg": 59.9,
+          "efg_rank": 29
+        }
+      ],
+      "drives": {
+        "per_game": 55.2,
+        "rank": 4,
+        "pizza": {
+          "shots": 44.7,
+          "passes": 37.9,
+          "tov": 7.4,
+          "fouls": 7.6,
+          "other": 2.4
+        }
+      },
+      "postups": {
+        "per_game": 1.2,
+        "rank": 27,
+        "pizza": {
+          "shots": 50.0,
+          "passes": 41.7,
+          "tov": 0.0,
+          "fouls": 8.3,
+          "other": 0.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 28.5,
+          "ppp": 0.99,
+          "freq_rank": 3,
+          "eff_rank": 27
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.1,
+          "ppp": 1.08,
+          "freq_rank": 24,
+          "eff_rank": 27
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 12.4,
+          "ppp": 0.81,
+          "freq_rank": 27,
+          "eff_rank": 30
+        },
+        {
+          "name": "Handoff",
+          "freq": 9.0,
+          "ppp": 0.87,
+          "freq_rank": 1,
+          "eff_rank": 29
+        },
+        {
+          "name": "Cortes",
+          "freq": 6.9,
+          "ppp": 1.32,
+          "freq_rank": 13,
+          "eff_rank": 12
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 5.6,
+          "ppp": 0.92,
+          "freq_rank": 24,
+          "eff_rank": 16
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.2,
+          "ppp": 1.01,
+          "freq_rank": 27,
+          "eff_rank": 27
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.4,
+          "ppp": 0.95,
+          "freq_rank": 17,
+          "eff_rank": 20
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.0,
+          "ppp": 0.94,
+          "freq_rank": 25,
+          "eff_rank": 22
+        }
+      ]
+    },
+    "CHA": {
+      "name": "Charlotte Hornets",
+      "abbreviation": "CHA",
+      "rec": "11-3",
+      "conf_rank": 3,
+      "conf": "Leste",
+      "clutch": {
+        "w": 1,
+        "l": 1,
+        "wpct": 50.0,
+        "rank": 14
+      },
+      "ratings": {
+        "ortg": {
+          "value": 122.8,
+          "rank": 1
+        },
+        "drtg": {
+          "value": 106.7,
+          "rank": 2
+        },
+        "netrtg": {
+          "value": 16.1,
+          "rank": 1
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 57.7,
+          "rank": 5
+        },
+        "tov": {
+          "value": 15.4,
+          "rank": 22
+        },
+        "oreb": {
+          "value": 35.5,
+          "rank": 3
+        },
+        "ftr": {
+          "value": 0.22,
+          "rank": 29
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 50.2,
+          "rank": 1
+        },
+        "opp_tov": {
+          "value": 13.9,
+          "rank": 17
+        },
+        "opp_oreb": {
+          "value": 10.4,
+          "rank": 8
+        },
+        "opp_ftr": {
+          "value": 0.25,
+          "rank": 14
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 97.2,
+          "rank": 26
+        },
+        "pts_fb": {
+          "value": 15.4,
+          "rank": 14
+        },
+        "pts_paint": {
+          "value": 42.6,
+          "rank": 27
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 97.2,
+          "rank": 26
+        },
+        "opp_pts_fb": {
+          "value": 12.2,
+          "rank": 5
+        },
+        "opp_pts_paint": {
+          "value": 45.9,
+          "rank": 7
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 14.5,
+          "rank": 24
+        },
+        "charges": {
+          "value": 0.57,
+          "rank": 4
+        },
+        "loose_balls": {
+          "value": 3.6,
+          "rank": 14
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 24.2,
+          "freq_rank": 26,
+          "efg": 66.1,
+          "efg_rank": 24
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 17.2,
+          "freq_rank": 24,
+          "efg": 44.5,
+          "efg_rank": 14
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 6.1,
+          "freq_rank": 27,
+          "efg": 30.9,
+          "efg_rank": 30
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.2,
+          "freq_rank": 20,
+          "efg": 62.0,
+          "efg_rank": 9
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 42.2,
+          "freq_rank": 1,
+          "efg": 61.3,
+          "efg_rank": 1
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 28.4,
+          "freq_rank": 16,
+          "efg": 65.2,
+          "efg_rank": 6
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.2,
+          "freq_rank": 16,
+          "efg": 41.0,
+          "efg_rank": 5
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 8.9,
+          "freq_rank": 5,
+          "efg": 31.6,
+          "efg_rank": 1
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 8.6,
+          "freq_rank": 1,
+          "efg": 52.7,
+          "efg_rank": 7
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 33.9,
+          "freq_rank": 27,
+          "efg": 47.4,
+          "efg_rank": 2
+        }
+      ],
+      "drives": {
+        "per_game": 40.9,
+        "rank": 27,
+        "pizza": {
+          "shots": 48.9,
+          "passes": 37.4,
+          "tov": 5.1,
+          "fouls": 5.4,
+          "other": 3.2
+        }
+      },
+      "postups": {
+        "per_game": 1.9,
+        "rank": 22,
+        "pizza": {
+          "shots": 52.6,
+          "passes": 31.6,
+          "tov": 5.3,
+          "fouls": 5.3,
+          "other": 5.3
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 24.3,
+          "ppp": 1.12,
+          "freq_rank": 13,
+          "eff_rank": 4
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 20.3,
+          "ppp": 0.86,
+          "freq_rank": 1,
+          "eff_rank": 16
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.2,
+          "ppp": 1.09,
+          "freq_rank": 22,
+          "eff_rank": 25
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 7.0,
+          "ppp": 1.18,
+          "freq_rank": 2,
+          "eff_rank": 4
+        },
+        {
+          "name": "Handoff",
+          "freq": 6.1,
+          "ppp": 0.91,
+          "freq_rank": 3,
+          "eff_rank": 22
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 5.4,
+          "ppp": 0.89,
+          "freq_rank": 26,
+          "eff_rank": 20
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.4,
+          "ppp": 1.39,
+          "freq_rank": 25,
+          "eff_rank": 3
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.9,
+          "ppp": 1.12,
+          "freq_rank": 21,
+          "eff_rank": 3
+        },
+        {
+          "name": "Post Up",
+          "freq": 1.8,
+          "ppp": 1.06,
+          "freq_rank": 29,
+          "eff_rank": 7
+        }
+      ]
+    },
+    "CHI": {
+      "name": "Chicago Bulls",
+      "abbreviation": "CHI",
+      "rec": "5-9",
+      "conf_rank": 11,
+      "conf": "Leste",
+      "clutch": {
+        "w": 3,
+        "l": 2,
+        "wpct": 60.0,
+        "rank": 10
+      },
+      "ratings": {
+        "ortg": {
+          "value": 111.6,
+          "rank": 25
+        },
+        "drtg": {
+          "value": 116.8,
+          "rank": 22
+        },
+        "netrtg": {
+          "value": -5.2,
+          "rank": 22
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 55.2,
+          "rank": 12
+        },
+        "tov": {
+          "value": 15.9,
+          "rank": 24
+        },
+        "oreb": {
+          "value": 27.8,
+          "rank": 22
+        },
+        "ftr": {
+          "value": 0.25,
+          "rank": 17
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 54.7,
+          "rank": 15
+        },
+        "opp_tov": {
+          "value": 12.9,
+          "rank": 25
+        },
+        "opp_oreb": {
+          "value": 11.7,
+          "rank": 21
+        },
+        "opp_ftr": {
+          "value": 0.25,
+          "rank": 8
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 104.4,
+          "rank": 1
+        },
+        "pts_fb": {
+          "value": 15.9,
+          "rank": 10
+        },
+        "pts_paint": {
+          "value": 54.0,
+          "rank": 8
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 104.4,
+          "rank": 1
+        },
+        "opp_pts_fb": {
+          "value": 14.7,
+          "rank": 14
+        },
+        "opp_pts_paint": {
+          "value": 52.1,
+          "rank": 23
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 14.0,
+          "rank": 25
+        },
+        "charges": {
+          "value": 0.5,
+          "rank": 6
+        },
+        "loose_balls": {
+          "value": 3.7,
+          "rank": 11
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 33.0,
+          "freq_rank": 5,
+          "efg": 63.9,
+          "efg_rank": 28
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 18.1,
+          "freq_rank": 19,
+          "efg": 48.2,
+          "efg_rank": 8
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 3.7,
+          "freq_rank": 30,
+          "efg": 41.2,
+          "efg_rank": 15
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.0,
+          "freq_rank": 7,
+          "efg": 56.4,
+          "efg_rank": 20
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 33.2,
+          "freq_rank": 11,
+          "efg": 51.8,
+          "efg_rank": 18
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 27.7,
+          "freq_rank": 12,
+          "efg": 66.4,
+          "efg_rank": 12
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 18.7,
+          "freq_rank": 11,
+          "efg": 47.5,
+          "efg_rank": 22
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.4,
+          "freq_rank": 11,
+          "efg": 48.9,
+          "efg_rank": 28
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.5,
+          "freq_rank": 18,
+          "efg": 48.0,
+          "efg_rank": 1
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 33.6,
+          "freq_rank": 26,
+          "efg": 52.8,
+          "efg_rank": 20
+        }
+      ],
+      "drives": {
+        "per_game": 62.7,
+        "rank": 1,
+        "pizza": {
+          "shots": 36.5,
+          "passes": 45.9,
+          "tov": 8.0,
+          "fouls": 6.9,
+          "other": 2.7
+        }
+      },
+      "postups": {
+        "per_game": 1.5,
+        "rank": 24,
+        "pizza": {
+          "shots": 40.0,
+          "passes": 33.3,
+          "tov": 6.7,
+          "fouls": 6.7,
+          "other": 13.3
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 27.5,
+          "ppp": 1.05,
+          "freq_rank": 6,
+          "eff_rank": 14
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 23.1,
+          "ppp": 1.16,
+          "freq_rank": 2,
+          "eff_rank": 10
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 17.6,
+          "ppp": 0.85,
+          "freq_rank": 6,
+          "eff_rank": 19
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 6.7,
+          "ppp": 1.06,
+          "freq_rank": 5,
+          "eff_rank": 24
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.7,
+          "ppp": 1.28,
+          "freq_rank": 21,
+          "eff_rank": 21
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 3.6,
+          "ppp": 0.92,
+          "freq_rank": 30,
+          "eff_rank": 15
+        },
+        {
+          "name": "Handoff",
+          "freq": 2.7,
+          "ppp": 0.91,
+          "freq_rank": 27,
+          "eff_rank": 23
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.4,
+          "ppp": 0.84,
+          "freq_rank": 23,
+          "eff_rank": 30
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 1.8,
+          "ppp": 0.94,
+          "freq_rank": 30,
+          "eff_rank": 22
+        }
+      ]
+    },
+    "CLE": {
+      "name": "Cleveland Cavaliers",
+      "abbreviation": "CLE",
+      "rec": "9-6",
+      "conf_rank": 6,
+      "conf": "Leste",
+      "clutch": {
+        "w": 6,
+        "l": 3,
+        "wpct": 66.7,
+        "rank": 8
+      },
+      "ratings": {
+        "ortg": {
+          "value": 119.2,
+          "rank": 7
+        },
+        "drtg": {
+          "value": 116.7,
+          "rank": 21
+        },
+        "netrtg": {
+          "value": 2.5,
+          "rank": 13
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 56.2,
+          "rank": 8
+        },
+        "tov": {
+          "value": 12.6,
+          "rank": 6
+        },
+        "oreb": {
+          "value": 29.6,
+          "rank": 16
+        },
+        "ftr": {
+          "value": 0.3,
+          "rank": 3
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 55.3,
+          "rank": 20
+        },
+        "opp_tov": {
+          "value": 13.4,
+          "rank": 20
+        },
+        "opp_oreb": {
+          "value": 10.0,
+          "rank": 6
+        },
+        "opp_ftr": {
+          "value": 0.27,
+          "rank": 21
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 96.7,
+          "rank": 28
+        },
+        "pts_fb": {
+          "value": 10.9,
+          "rank": 28
+        },
+        "pts_paint": {
+          "value": 50.4,
+          "rank": 15
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 96.7,
+          "rank": 28
+        },
+        "opp_pts_fb": {
+          "value": 13.0,
+          "rank": 6
+        },
+        "opp_pts_paint": {
+          "value": 47.9,
+          "rank": 10
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 17.3,
+          "rank": 13
+        },
+        "charges": {
+          "value": 0.2,
+          "rank": 20
+        },
+        "loose_balls": {
+          "value": 3.9,
+          "rank": 9
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 29.5,
+          "freq_rank": 14,
+          "efg": 67.2,
+          "efg_rank": 19
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 19.0,
+          "freq_rank": 16,
+          "efg": 50.3,
+          "efg_rank": 3
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 6.6,
+          "freq_rank": 23,
+          "efg": 36.8,
+          "efg_rank": 26
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.0,
+          "freq_rank": 15,
+          "efg": 59.0,
+          "efg_rank": 14
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 33.9,
+          "freq_rank": 7,
+          "efg": 53.1,
+          "efg_rank": 10
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 28.9,
+          "freq_rank": 18,
+          "efg": 70.3,
+          "efg_rank": 22
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 16.6,
+          "freq_rank": 6,
+          "efg": 45.5,
+          "efg_rank": 19
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 11.7,
+          "freq_rank": 25,
+          "efg": 40.6,
+          "efg_rank": 10
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.7,
+          "freq_rank": 26,
+          "efg": 61.9,
+          "efg_rank": 21
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 30.1,
+          "freq_rank": 11,
+          "efg": 49.8,
+          "efg_rank": 10
+        }
+      ],
+      "drives": {
+        "per_game": 49.3,
+        "rank": 11,
+        "pizza": {
+          "shots": 41.8,
+          "passes": 42.0,
+          "tov": 6.3,
+          "fouls": 6.7,
+          "other": 3.2
+        }
+      },
+      "postups": {
+        "per_game": 2.6,
+        "rank": 20,
+        "pizza": {
+          "shots": 42.3,
+          "passes": 30.8,
+          "tov": 11.5,
+          "fouls": 15.4,
+          "other": 0.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 22.8,
+          "ppp": 1.07,
+          "freq_rank": 19,
+          "eff_rank": 10
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 18.0,
+          "ppp": 1.14,
+          "freq_rank": 17,
+          "eff_rank": 16
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 16.4,
+          "ppp": 0.89,
+          "freq_rank": 12,
+          "eff_rank": 11
+        },
+        {
+          "name": "Cortes",
+          "freq": 9.1,
+          "ppp": 1.28,
+          "freq_rank": 3,
+          "eff_rank": 24
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 7.7,
+          "ppp": 1.08,
+          "freq_rank": 1,
+          "eff_rank": 19
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.9,
+          "ppp": 1.01,
+          "freq_rank": 13,
+          "eff_rank": 4
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.2,
+          "ppp": 0.93,
+          "freq_rank": 15,
+          "eff_rank": 18
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.7,
+          "ppp": 0.99,
+          "freq_rank": 22,
+          "eff_rank": 12
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.0,
+          "ppp": 0.98,
+          "freq_rank": 26,
+          "eff_rank": 13
+        }
+      ]
+    },
+    "DAL": {
+      "name": "Dallas Mavericks",
+      "abbreviation": "DAL",
+      "rec": "3-14",
+      "conf_rank": 13,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 1,
+        "l": 5,
+        "wpct": 16.7,
+        "rank": 27
+      },
+      "ratings": {
+        "ortg": {
+          "value": 110.3,
+          "rank": 27
+        },
+        "drtg": {
+          "value": 120.8,
+          "rank": 26
+        },
+        "netrtg": {
+          "value": -10.5,
+          "rank": 26
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 53.1,
+          "rank": 26
+        },
+        "tov": {
+          "value": 15.1,
+          "rank": 21
+        },
+        "oreb": {
+          "value": 29.1,
+          "rank": 18
+        },
+        "ftr": {
+          "value": 0.29,
+          "rank": 11
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 58.3,
+          "rank": 26
+        },
+        "opp_tov": {
+          "value": 11.8,
+          "rank": 27
+        },
+        "opp_oreb": {
+          "value": 10.9,
+          "rank": 12
+        },
+        "opp_ftr": {
+          "value": 0.22,
+          "rank": 1
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 101.7,
+          "rank": 7
+        },
+        "pts_fb": {
+          "value": 16.3,
+          "rank": 8
+        },
+        "pts_paint": {
+          "value": 52.4,
+          "rank": 11
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 101.7,
+          "rank": 7
+        },
+        "opp_pts_fb": {
+          "value": 17.6,
+          "rank": 26
+        },
+        "opp_pts_paint": {
+          "value": 57.6,
+          "rank": 28
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 13.2,
+          "rank": 27
+        },
+        "charges": {
+          "value": 0.29,
+          "rank": 15
+        },
+        "loose_balls": {
+          "value": 3.1,
+          "rank": 22
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 28.7,
+          "freq_rank": 15,
+          "efg": 69.0,
+          "efg_rank": 11
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 21.9,
+          "freq_rank": 7,
+          "efg": 43.8,
+          "efg_rank": 17
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 14.4,
+          "freq_rank": 2,
+          "efg": 34.4,
+          "efg_rank": 29
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.7,
+          "freq_rank": 21,
+          "efg": 62.8,
+          "efg_rank": 7
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 25.3,
+          "freq_rank": 28,
+          "efg": 49.6,
+          "efg_rank": 24
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 29.6,
+          "freq_rank": 20,
+          "efg": 72.2,
+          "efg_rank": 28
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 19.7,
+          "freq_rank": 15,
+          "efg": 47.6,
+          "efg_rank": 23
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.1,
+          "freq_rank": 8,
+          "efg": 49.4,
+          "efg_rank": 29
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.2,
+          "freq_rank": 16,
+          "efg": 65.6,
+          "efg_rank": 26
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 31.4,
+          "freq_rank": 19,
+          "efg": 51.5,
+          "efg_rank": 12
+        }
+      ],
+      "drives": {
+        "per_game": 49.0,
+        "rank": 13,
+        "pizza": {
+          "shots": 49.2,
+          "passes": 33.1,
+          "tov": 7.1,
+          "fouls": 8.4,
+          "other": 2.2
+        }
+      },
+      "postups": {
+        "per_game": 3.8,
+        "rank": 16,
+        "pizza": {
+          "shots": 52.6,
+          "passes": 36.8,
+          "tov": 5.3,
+          "fouls": 2.6,
+          "other": 2.6
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 21.5,
+          "ppp": 0.97,
+          "freq_rank": 25,
+          "eff_rank": 29
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 19.7,
+          "ppp": 1.21,
+          "freq_rank": 7,
+          "eff_rank": 1
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 17.9,
+          "ppp": 0.84,
+          "freq_rank": 5,
+          "eff_rank": 25
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 7.3,
+          "ppp": 0.88,
+          "freq_rank": 12,
+          "eff_rank": 24
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.7,
+          "ppp": 1.24,
+          "freq_rank": 22,
+          "eff_rank": 26
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.2,
+          "ppp": 1.1,
+          "freq_rank": 15,
+          "eff_rank": 17
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 4.8,
+          "ppp": 0.91,
+          "freq_rank": 8,
+          "eff_rank": 24
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.2,
+          "ppp": 0.95,
+          "freq_rank": 16,
+          "eff_rank": 12
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.7,
+          "ppp": 0.91,
+          "freq_rank": 18,
+          "eff_rank": 26
+        }
+      ]
+    },
+    "DEN": {
+      "name": "Denver Nuggets",
+      "abbreviation": "DEN",
+      "rec": "10-6",
+      "conf_rank": 4,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 6,
+        "l": 4,
+        "wpct": 60.0,
+        "rank": 11
+      },
+      "ratings": {
+        "ortg": {
+          "value": 119.1,
+          "rank": 8
+        },
+        "drtg": {
+          "value": 115.6,
+          "rank": 16
+        },
+        "netrtg": {
+          "value": 3.5,
+          "rank": 12
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 57.8,
+          "rank": 4
+        },
+        "tov": {
+          "value": 12.5,
+          "rank": 4
+        },
+        "oreb": {
+          "value": 26.2,
+          "rank": 28
+        },
+        "ftr": {
+          "value": 0.3,
+          "rank": 5
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 54.7,
+          "rank": 16
+        },
+        "opp_tov": {
+          "value": 10.4,
+          "rank": 30
+        },
+        "opp_oreb": {
+          "value": 9.8,
+          "rank": 5
+        },
+        "opp_ftr": {
+          "value": 0.26,
+          "rank": 15
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 101.2,
+          "rank": 9
+        },
+        "pts_fb": {
+          "value": 16.7,
+          "rank": 5
+        },
+        "pts_paint": {
+          "value": 51.0,
+          "rank": 13
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 101.2,
+          "rank": 9
+        },
+        "opp_pts_fb": {
+          "value": 16.8,
+          "rank": 25
+        },
+        "opp_pts_paint": {
+          "value": 51.3,
+          "rank": 20
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 14.0,
+          "rank": 26
+        },
+        "charges": {
+          "value": 0.31,
+          "rank": 12
+        },
+        "loose_balls": {
+          "value": 2.2,
+          "rank": 29
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 25.9,
+          "freq_rank": 22,
+          "efg": 69.2,
+          "efg_rank": 9
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 23.0,
+          "freq_rank": 6,
+          "efg": 48.5,
+          "efg_rank": 7
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.0,
+          "freq_rank": 19,
+          "efg": 43.0,
+          "efg_rank": 13
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.4,
+          "freq_rank": 5,
+          "efg": 72.9,
+          "efg_rank": 1
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.7,
+          "freq_rank": 19,
+          "efg": 53.4,
+          "efg_rank": 7
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 24.9,
+          "freq_rank": 4,
+          "efg": 70.4,
+          "efg_rank": 23
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.6,
+          "freq_rank": 19,
+          "efg": 49.5,
+          "efg_rank": 27
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 11.1,
+          "freq_rank": 24,
+          "efg": 42.2,
+          "efg_rank": 16
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.8,
+          "freq_rank": 21,
+          "efg": 49.5,
+          "efg_rank": 3
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 31.6,
+          "freq_rank": 20,
+          "efg": 52.1,
+          "efg_rank": 15
+        }
+      ],
+      "drives": {
+        "per_game": 32.4,
+        "rank": 30,
+        "pizza": {
+          "shots": 48.8,
+          "passes": 34.6,
+          "tov": 6.8,
+          "fouls": 8.6,
+          "other": 1.2
+        }
+      },
+      "postups": {
+        "per_game": 9.5,
+        "rank": 1,
+        "pizza": {
+          "shots": 45.3,
+          "passes": 30.5,
+          "tov": 9.5,
+          "fouls": 6.3,
+          "other": 8.4
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 19.3,
+          "ppp": 1.14,
+          "freq_rank": 30,
+          "eff_rank": 2
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.1,
+          "ppp": 1.18,
+          "freq_rank": 25,
+          "eff_rank": 4
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 13.7,
+          "ppp": 0.9,
+          "freq_rank": 21,
+          "eff_rank": 9
+        },
+        {
+          "name": "Cortes",
+          "freq": 8.9,
+          "ppp": 1.31,
+          "freq_rank": 4,
+          "eff_rank": 13
+        },
+        {
+          "name": "Post Up",
+          "freq": 6.7,
+          "ppp": 1.08,
+          "freq_rank": 1,
+          "eff_rank": 5
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.6,
+          "ppp": 1.02,
+          "freq_rank": 17,
+          "eff_rank": 3
+        },
+        {
+          "name": "Handoff",
+          "freq": 6.4,
+          "ppp": 1.03,
+          "freq_rank": 2,
+          "eff_rank": 4
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 6.0,
+          "ppp": 1.23,
+          "freq_rank": 9,
+          "eff_rank": 2
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 4.3,
+          "ppp": 1.22,
+          "freq_rank": 9,
+          "eff_rank": 1
+        }
+      ]
+    },
+    "DET": {
+      "name": "Detroit Pistons",
+      "abbreviation": "DET",
+      "rec": "10-6",
+      "conf_rank": 5,
+      "conf": "Leste",
+      "clutch": {
+        "w": 3,
+        "l": 4,
+        "wpct": 42.9,
+        "rank": 19
+      },
+      "ratings": {
+        "ortg": {
+          "value": 118.7,
+          "rank": 9
+        },
+        "drtg": {
+          "value": 111.6,
+          "rank": 9
+        },
+        "netrtg": {
+          "value": 7.1,
+          "rank": 9
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 54.3,
+          "rank": 17
+        },
+        "tov": {
+          "value": 13.7,
+          "rank": 14
+        },
+        "oreb": {
+          "value": 35.9,
+          "rank": 1
+        },
+        "ftr": {
+          "value": 0.3,
+          "rank": 7
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 52.8,
+          "rank": 6
+        },
+        "opp_tov": {
+          "value": 16.2,
+          "rank": 6
+        },
+        "opp_oreb": {
+          "value": 11.1,
+          "rank": 15
+        },
+        "opp_ftr": {
+          "value": 0.29,
+          "rank": 25
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 98.3,
+          "rank": 23
+        },
+        "pts_fb": {
+          "value": 16.6,
+          "rank": 7
+        },
+        "pts_paint": {
+          "value": 61.1,
+          "rank": 1
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 98.3,
+          "rank": 23
+        },
+        "opp_pts_fb": {
+          "value": 11.8,
+          "rank": 3
+        },
+        "opp_pts_paint": {
+          "value": 45.4,
+          "rank": 6
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 20.8,
+          "rank": 2
+        },
+        "charges": {
+          "value": 0.19,
+          "rank": 21
+        },
+        "loose_balls": {
+          "value": 4.1,
+          "rank": 4
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 37.2,
+          "freq_rank": 1,
+          "efg": 68.0,
+          "efg_rank": 17
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.5,
+          "freq_rank": 10,
+          "efg": 42.9,
+          "efg_rank": 20
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.9,
+          "freq_rank": 16,
+          "efg": 37.1,
+          "efg_rank": 25
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.9,
+          "freq_rank": 16,
+          "efg": 56.6,
+          "efg_rank": 18
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 21.4,
+          "freq_rank": 30,
+          "efg": 48.4,
+          "efg_rank": 26
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 25.3,
+          "freq_rank": 6,
+          "efg": 65.6,
+          "efg_rank": 9
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 21.8,
+          "freq_rank": 25,
+          "efg": 44.7,
+          "efg_rank": 15
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.6,
+          "freq_rank": 15,
+          "efg": 41.0,
+          "efg_rank": 13
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.2,
+          "freq_rank": 15,
+          "efg": 61.4,
+          "efg_rank": 20
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 33.1,
+          "freq_rank": 25,
+          "efg": 48.9,
+          "efg_rank": 5
+        }
+      ],
+      "drives": {
+        "per_game": 44.8,
+        "rank": 22,
+        "pizza": {
+          "shots": 44.2,
+          "passes": 40.8,
+          "tov": 5.1,
+          "fouls": 7.8,
+          "other": 2.0
+        }
+      },
+      "postups": {
+        "per_game": 6.7,
+        "rank": 3,
+        "pizza": {
+          "shots": 46.3,
+          "passes": 28.4,
+          "tov": 6.0,
+          "fouls": 13.4,
+          "other": 6.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 21.3,
+          "ppp": 1.03,
+          "freq_rank": 27,
+          "eff_rank": 18
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 19.4,
+          "ppp": 1.14,
+          "freq_rank": 8,
+          "eff_rank": 14
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 13.9,
+          "ppp": 0.84,
+          "freq_rank": 19,
+          "eff_rank": 24
+        },
+        {
+          "name": "Cortes",
+          "freq": 9.5,
+          "ppp": 1.3,
+          "freq_rank": 1,
+          "eff_rank": 16
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.2,
+          "ppp": 0.96,
+          "freq_rank": 21,
+          "eff_rank": 8
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.0,
+          "ppp": 1.21,
+          "freq_rank": 19,
+          "eff_rank": 3
+        },
+        {
+          "name": "Post Up",
+          "freq": 4.4,
+          "ppp": 1.12,
+          "freq_rank": 6,
+          "eff_rank": 2
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.2,
+          "ppp": 0.73,
+          "freq_rank": 17,
+          "eff_rank": 30
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.6,
+          "ppp": 0.87,
+          "freq_rank": 13,
+          "eff_rank": 28
+        }
+      ]
+    },
+    "GSW": {
+      "name": "Golden State Warriors",
+      "abbreviation": "GSW",
+      "rec": "5-11",
+      "conf_rank": 12,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 4,
+        "l": 5,
+        "wpct": 44.4,
+        "rank": 18
+      },
+      "ratings": {
+        "ortg": {
+          "value": 111.6,
+          "rank": 26
+        },
+        "drtg": {
+          "value": 116.6,
+          "rank": 20
+        },
+        "netrtg": {
+          "value": -5.0,
+          "rank": 21
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 53.3,
+          "rank": 24
+        },
+        "tov": {
+          "value": 16.8,
+          "rank": 28
+        },
+        "oreb": {
+          "value": 34.1,
+          "rank": 8
+        },
+        "ftr": {
+          "value": 0.23,
+          "rank": 26
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 56.5,
+          "rank": 22
+        },
+        "opp_tov": {
+          "value": 16.4,
+          "rank": 4
+        },
+        "opp_oreb": {
+          "value": 12.0,
+          "rank": 23
+        },
+        "opp_ftr": {
+          "value": 0.25,
+          "rank": 13
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 99.1,
+          "rank": 19
+        },
+        "pts_fb": {
+          "value": 10.9,
+          "rank": 29
+        },
+        "pts_paint": {
+          "value": 50.3,
+          "rank": 16
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 99.1,
+          "rank": 19
+        },
+        "opp_pts_fb": {
+          "value": 15.6,
+          "rank": 18
+        },
+        "opp_pts_paint": {
+          "value": 53.0,
+          "rank": 26
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 18.1,
+          "rank": 11
+        },
+        "charges": {
+          "value": 0.5,
+          "rank": 7
+        },
+        "loose_balls": {
+          "value": 4.2,
+          "rank": 3
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 30.2,
+          "freq_rank": 10,
+          "efg": 71.1,
+          "efg_rank": 4
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 16.4,
+          "freq_rank": 25,
+          "efg": 38.5,
+          "efg_rank": 27
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 6.3,
+          "freq_rank": 25,
+          "efg": 35.1,
+          "efg_rank": 27
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.2,
+          "freq_rank": 6,
+          "efg": 53.2,
+          "efg_rank": 24
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 35.0,
+          "freq_rank": 4,
+          "efg": 47.9,
+          "efg_rank": 29
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 28.3,
+          "freq_rank": 15,
+          "efg": 70.7,
+          "efg_rank": 24
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.8,
+          "freq_rank": 21,
+          "efg": 48.6,
+          "efg_rank": 26
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 10.1,
+          "freq_rank": 22,
+          "efg": 43.8,
+          "efg_rank": 21
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.5,
+          "freq_rank": 9,
+          "efg": 67.9,
+          "efg_rank": 29
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 31.2,
+          "freq_rank": 17,
+          "efg": 49.6,
+          "efg_rank": 8
+        }
+      ],
+      "drives": {
+        "per_game": 42.9,
+        "rank": 26,
+        "pizza": {
+          "shots": 37.3,
+          "passes": 47.1,
+          "tov": 7.2,
+          "fouls": 5.8,
+          "other": 2.6
+        }
+      },
+      "postups": {
+        "per_game": 7.5,
+        "rank": 2,
+        "pizza": {
+          "shots": 29.3,
+          "passes": 54.7,
+          "tov": 5.3,
+          "fouls": 4.0,
+          "other": 6.7
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 26.9,
+          "ppp": 1.07,
+          "freq_rank": 9,
+          "eff_rank": 11
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.2,
+          "ppp": 1.09,
+          "freq_rank": 23,
+          "eff_rank": 26
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 12.9,
+          "ppp": 0.85,
+          "freq_rank": 24,
+          "eff_rank": 20
+        },
+        {
+          "name": "Cortes",
+          "freq": 9.4,
+          "ppp": 1.39,
+          "freq_rank": 2,
+          "eff_rank": 2
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 6.5,
+          "ppp": 0.9,
+          "freq_rank": 2,
+          "eff_rank": 26
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 5.6,
+          "ppp": 0.94,
+          "freq_rank": 25,
+          "eff_rank": 12
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.6,
+          "ppp": 1.08,
+          "freq_rank": 25,
+          "eff_rank": 21
+        },
+        {
+          "name": "Handoff",
+          "freq": 3.9,
+          "ppp": 1.05,
+          "freq_rank": 21,
+          "eff_rank": 2
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.6,
+          "ppp": 0.93,
+          "freq_rank": 19,
+          "eff_rank": 24
+        }
+      ]
+    },
+    "HOU": {
+      "name": "Houston Rockets",
+      "abbreviation": "HOU",
+      "rec": "8-8",
+      "conf_rank": 9,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 5,
+        "l": 6,
+        "wpct": 45.5,
+        "rank": 17
+      },
+      "ratings": {
+        "ortg": {
+          "value": 114.2,
+          "rank": 17
+        },
+        "drtg": {
+          "value": 114.7,
+          "rank": 13
+        },
+        "netrtg": {
+          "value": -0.5,
+          "rank": 19
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 54.3,
+          "rank": 18
+        },
+        "tov": {
+          "value": 16.7,
+          "rank": 27
+        },
+        "oreb": {
+          "value": 35.7,
+          "rank": 2
+        },
+        "ftr": {
+          "value": 0.25,
+          "rank": 19
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 55.2,
+          "rank": 19
+        },
+        "opp_tov": {
+          "value": 13.5,
+          "rank": 19
+        },
+        "opp_oreb": {
+          "value": 11.4,
+          "rank": 17
+        },
+        "opp_ftr": {
+          "value": 0.25,
+          "rank": 9
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 97.4,
+          "rank": 25
+        },
+        "pts_fb": {
+          "value": 13.8,
+          "rank": 19
+        },
+        "pts_paint": {
+          "value": 54.1,
+          "rank": 7
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 97.4,
+          "rank": 25
+        },
+        "opp_pts_fb": {
+          "value": 15.6,
+          "rank": 19
+        },
+        "opp_pts_paint": {
+          "value": 50.5,
+          "rank": 17
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 14.9,
+          "rank": 23
+        },
+        "charges": {
+          "value": 0.19,
+          "rank": 22
+        },
+        "loose_balls": {
+          "value": 3.3,
+          "rank": 20
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 27.1,
+          "freq_rank": 18,
+          "efg": 67.4,
+          "efg_rank": 18
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 23.8,
+          "freq_rank": 4,
+          "efg": 52.4,
+          "efg_rank": 1
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 13.6,
+          "freq_rank": 4,
+          "efg": 43.3,
+          "efg_rank": 10
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.5,
+          "freq_rank": 23,
+          "efg": 42.9,
+          "efg_rank": 30
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 26.0,
+          "freq_rank": 26,
+          "efg": 53.1,
+          "efg_rank": 11
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 28.2,
+          "freq_rank": 14,
+          "efg": 67.5,
+          "efg_rank": 15
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 22.3,
+          "freq_rank": 28,
+          "efg": 42.6,
+          "efg_rank": 10
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.2,
+          "freq_rank": 9,
+          "efg": 37.0,
+          "efg_rank": 6
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 8.9,
+          "freq_rank": 2,
+          "efg": 62.7,
+          "efg_rank": 22
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 31.4,
+          "freq_rank": 18,
+          "efg": 55.8,
+          "efg_rank": 24
+        }
+      ],
+      "drives": {
+        "per_game": 40.8,
+        "rank": 28,
+        "pizza": {
+          "shots": 54.2,
+          "passes": 31.4,
+          "tov": 5.9,
+          "fouls": 5.9,
+          "other": 2.7
+        }
+      },
+      "postups": {
+        "per_game": 5.1,
+        "rank": 6,
+        "pizza": {
+          "shots": 52.9,
+          "passes": 27.5,
+          "tov": 9.8,
+          "fouls": 5.9,
+          "other": 3.9
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 22.2,
+          "ppp": 1.03,
+          "freq_rank": 23,
+          "eff_rank": 20
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.1,
+          "ppp": 1.16,
+          "freq_rank": 26,
+          "eff_rank": 11
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 13.3,
+          "ppp": 0.87,
+          "freq_rank": 23,
+          "eff_rank": 15
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 9.6,
+          "ppp": 0.93,
+          "freq_rank": 5,
+          "eff_rank": 14
+        },
+        {
+          "name": "Cortes",
+          "freq": 8.3,
+          "ppp": 1.24,
+          "freq_rank": 6,
+          "eff_rank": 27
+        },
+        {
+          "name": "Post Up",
+          "freq": 5.9,
+          "ppp": 0.97,
+          "freq_rank": 2,
+          "eff_rank": 17
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.3,
+          "ppp": 1.02,
+          "freq_rank": 14,
+          "eff_rank": 26
+        },
+        {
+          "name": "Handoff",
+          "freq": 3.9,
+          "ppp": 0.93,
+          "freq_rank": 22,
+          "eff_rank": 19
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.5,
+          "ppp": 0.82,
+          "freq_rank": 24,
+          "eff_rank": 29
+        }
+      ]
+    },
+    "IND": {
+      "name": "Indiana Pacers",
+      "abbreviation": "IND",
+      "rec": "1-14",
+      "conf_rank": 14,
+      "conf": "Leste",
+      "clutch": {
+        "w": 1,
+        "l": 3,
+        "wpct": 25.0,
+        "rank": 24
+      },
+      "ratings": {
+        "ortg": {
+          "value": 113.2,
+          "rank": 18
+        },
+        "drtg": {
+          "value": 127.0,
+          "rank": 30
+        },
+        "netrtg": {
+          "value": -13.8,
+          "rank": 28
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 55.2,
+          "rank": 13
+        },
+        "tov": {
+          "value": 13.9,
+          "rank": 16
+        },
+        "oreb": {
+          "value": 25.2,
+          "rank": 29
+        },
+        "ftr": {
+          "value": 0.24,
+          "rank": 22
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 59.4,
+          "rank": 30
+        },
+        "opp_tov": {
+          "value": 12.4,
+          "rank": 26
+        },
+        "opp_oreb": {
+          "value": 11.3,
+          "rank": 16
+        },
+        "opp_ftr": {
+          "value": 0.25,
+          "rank": 11
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 100.3,
+          "rank": 14
+        },
+        "pts_fb": {
+          "value": 13.9,
+          "rank": 18
+        },
+        "pts_paint": {
+          "value": 47.3,
+          "rank": 22
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 100.3,
+          "rank": 14
+        },
+        "opp_pts_fb": {
+          "value": 15.9,
+          "rank": 21
+        },
+        "opp_pts_paint": {
+          "value": 59.2,
+          "rank": 29
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 12.9,
+          "rank": 29
+        },
+        "charges": {
+          "value": 0.33,
+          "rank": 11
+        },
+        "loose_balls": {
+          "value": 2.8,
+          "rank": 26
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 26.9,
+          "freq_rank": 20,
+          "efg": 68.9,
+          "efg_rank": 12
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 17.9,
+          "freq_rank": 20,
+          "efg": 47.8,
+          "efg_rank": 9
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 12.0,
+          "freq_rank": 11,
+          "efg": 41.0,
+          "efg_rank": 16
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.6,
+          "freq_rank": 17,
+          "efg": 58.1,
+          "efg_rank": 16
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 32.6,
+          "freq_rank": 12,
+          "efg": 52.6,
+          "efg_rank": 15
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 33.7,
+          "freq_rank": 28,
+          "efg": 71.2,
+          "efg_rank": 27
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 18.5,
+          "freq_rank": 10,
+          "efg": 44.7,
+          "efg_rank": 16
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.8,
+          "freq_rank": 18,
+          "efg": 45.6,
+          "efg_rank": 24
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.5,
+          "freq_rank": 8,
+          "efg": 65.5,
+          "efg_rank": 25
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 28.5,
+          "freq_rank": 3,
+          "efg": 58.0,
+          "efg_rank": 28
+        }
+      ],
+      "drives": {
+        "per_game": 52.1,
+        "rank": 7,
+        "pizza": {
+          "shots": 42.0,
+          "passes": 41.5,
+          "tov": 6.0,
+          "fouls": 7.1,
+          "other": 3.5
+        }
+      },
+      "postups": {
+        "per_game": 5.6,
+        "rank": 4,
+        "pizza": {
+          "shots": 53.6,
+          "passes": 28.6,
+          "tov": 8.9,
+          "fouls": 1.8,
+          "other": 7.1
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 25.6,
+          "ppp": 0.99,
+          "freq_rank": 11,
+          "eff_rank": 25
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 19.2,
+          "ppp": 1.11,
+          "freq_rank": 12,
+          "eff_rank": 21
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 16.9,
+          "ppp": 0.94,
+          "freq_rank": 10,
+          "eff_rank": 4
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.8,
+          "ppp": 1.28,
+          "freq_rank": 20,
+          "eff_rank": 18
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.4,
+          "ppp": 1.12,
+          "freq_rank": 13,
+          "eff_rank": 12
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 5.3,
+          "ppp": 0.85,
+          "freq_rank": 27,
+          "eff_rank": 29
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 4.2,
+          "ppp": 0.91,
+          "freq_rank": 10,
+          "eff_rank": 25
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.1,
+          "ppp": 0.87,
+          "freq_rank": 18,
+          "eff_rank": 28
+        },
+        {
+          "name": "Post Up",
+          "freq": 3.8,
+          "ppp": 0.98,
+          "freq_rank": 13,
+          "eff_rank": 14
+        }
+      ]
+    },
+    "LAC": {
+      "name": "LA Clippers",
+      "abbreviation": "LAC",
+      "rec": "10-6",
+      "conf_rank": 5,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 3,
+        "l": 5,
+        "wpct": 37.5,
+        "rank": 20
+      },
+      "ratings": {
+        "ortg": {
+          "value": 120.8,
+          "rank": 4
+        },
+        "drtg": {
+          "value": 113.4,
+          "rank": 11
+        },
+        "netrtg": {
+          "value": 7.4,
+          "rank": 8
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 58.1,
+          "rank": 1
+        },
+        "tov": {
+          "value": 12.4,
+          "rank": 3
+        },
+        "oreb": {
+          "value": 27.8,
+          "rank": 23
+        },
+        "ftr": {
+          "value": 0.3,
+          "rank": 4
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 54.6,
+          "rank": 14
+        },
+        "opp_tov": {
+          "value": 16.1,
+          "rank": 7
+        },
+        "opp_oreb": {
+          "value": 12.2,
+          "rank": 26
+        },
+        "opp_ftr": {
+          "value": 0.23,
+          "rank": 4
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 98.5,
+          "rank": 21
+        },
+        "pts_fb": {
+          "value": 15.9,
+          "rank": 11
+        },
+        "pts_paint": {
+          "value": 55.4,
+          "rank": 6
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 98.5,
+          "rank": 21
+        },
+        "opp_pts_fb": {
+          "value": 10.3,
+          "rank": 1
+        },
+        "opp_pts_paint": {
+          "value": 51.1,
+          "rank": 18
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 20.4,
+          "rank": 4
+        },
+        "charges": {
+          "value": 0.13,
+          "rank": 25
+        },
+        "loose_balls": {
+          "value": 2.6,
+          "rank": 27
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 33.3,
+          "freq_rank": 4,
+          "efg": 70.1,
+          "efg_rank": 6
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 19.3,
+          "freq_rank": 15,
+          "efg": 47.3,
+          "efg_rank": 10
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.8,
+          "freq_rank": 17,
+          "efg": 40.5,
+          "efg_rank": 19
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.0,
+          "freq_rank": 27,
+          "efg": 58.4,
+          "efg_rank": 15
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 28.6,
+          "freq_rank": 24,
+          "efg": 57.8,
+          "efg_rank": 2
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 28.1,
+          "freq_rank": 13,
+          "efg": 70.2,
+          "efg_rank": 21
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 21.9,
+          "freq_rank": 26,
+          "efg": 42.5,
+          "efg_rank": 9
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.5,
+          "freq_rank": 13,
+          "efg": 38.1,
+          "efg_rank": 7
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.1,
+          "freq_rank": 14,
+          "efg": 60.7,
+          "efg_rank": 19
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 30.5,
+          "freq_rank": 12,
+          "efg": 51.9,
+          "efg_rank": 13
+        }
+      ],
+      "drives": {
+        "per_game": 44.1,
+        "rank": 24,
+        "pizza": {
+          "shots": 50.6,
+          "passes": 34.9,
+          "tov": 4.3,
+          "fouls": 8.6,
+          "other": 1.6
+        }
+      },
+      "postups": {
+        "per_game": 4.8,
+        "rank": 10,
+        "pizza": {
+          "shots": 47.9,
+          "passes": 35.4,
+          "tov": 8.3,
+          "fouls": 8.3,
+          "other": 0.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 22.0,
+          "ppp": 1.1,
+          "freq_rank": 24,
+          "eff_rank": 5
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.1,
+          "ppp": 1.19,
+          "freq_rank": 27,
+          "eff_rank": 3
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 14.7,
+          "ppp": 0.94,
+          "freq_rank": 16,
+          "eff_rank": 3
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 12.0,
+          "ppp": 0.98,
+          "freq_rank": 1,
+          "eff_rank": 5
+        },
+        {
+          "name": "Cortes",
+          "freq": 6.8,
+          "ppp": 1.37,
+          "freq_rank": 14,
+          "eff_rank": 6
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 6.1,
+          "ppp": 1.0,
+          "freq_rank": 8,
+          "eff_rank": 28
+        },
+        {
+          "name": "Post Up",
+          "freq": 5.8,
+          "ppp": 1.13,
+          "freq_rank": 3,
+          "eff_rank": 1
+        },
+        {
+          "name": "Handoff",
+          "freq": 3.1,
+          "ppp": 0.9,
+          "freq_rank": 26,
+          "eff_rank": 25
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.2,
+          "ppp": 1.04,
+          "freq_rank": 27,
+          "eff_rank": 8
+        }
+      ]
+    },
+    "LAL": {
+      "name": "Los Angeles Lakers",
+      "abbreviation": "LAL",
+      "rec": "13-4",
+      "conf_rank": 2,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 6,
+        "l": 4,
+        "wpct": 60.0,
+        "rank": 12
+      },
+      "ratings": {
+        "ortg": {
+          "value": 120.9,
+          "rank": 3
+        },
+        "drtg": {
+          "value": 113.2,
+          "rank": 10
+        },
+        "netrtg": {
+          "value": 7.7,
+          "rank": 6
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 58.0,
+          "rank": 2
+        },
+        "tov": {
+          "value": 12.8,
+          "rank": 9
+        },
+        "oreb": {
+          "value": 29.1,
+          "rank": 19
+        },
+        "ftr": {
+          "value": 0.31,
+          "rank": 1
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 54.0,
+          "rank": 11
+        },
+        "opp_tov": {
+          "value": 14.9,
+          "rank": 13
+        },
+        "opp_oreb": {
+          "value": 10.9,
+          "rank": 13
+        },
+        "opp_ftr": {
+          "value": 0.23,
+          "rank": 3
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 98.4,
+          "rank": 22
+        },
+        "pts_fb": {
+          "value": 15.2,
+          "rank": 16
+        },
+        "pts_paint": {
+          "value": 53.8,
+          "rank": 9
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 98.4,
+          "rank": 22
+        },
+        "opp_pts_fb": {
+          "value": 13.9,
+          "rank": 11
+        },
+        "opp_pts_paint": {
+          "value": 52.0,
+          "rank": 22
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 16.6,
+          "rank": 16
+        },
+        "charges": {
+          "value": 0.65,
+          "rank": 3
+        },
+        "loose_balls": {
+          "value": 3.5,
+          "rank": 17
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 26.2,
+          "freq_rank": 21,
+          "efg": 73.3,
+          "efg_rank": 1
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 23.4,
+          "freq_rank": 5,
+          "efg": 51.7,
+          "efg_rank": 2
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 10.3,
+          "freq_rank": 14,
+          "efg": 43.2,
+          "efg_rank": 11
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.4,
+          "freq_rank": 18,
+          "efg": 50.6,
+          "efg_rank": 27
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.7,
+          "freq_rank": 20,
+          "efg": 57.6,
+          "efg_rank": 3
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 29.7,
+          "freq_rank": 21,
+          "efg": 71.0,
+          "efg_rank": 26
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.2,
+          "freq_rank": 17,
+          "efg": 41.6,
+          "efg_rank": 7
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 10.0,
+          "freq_rank": 19,
+          "efg": 50.0,
+          "efg_rank": 30
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.4,
+          "freq_rank": 17,
+          "efg": 52.2,
+          "efg_rank": 6
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.7,
+          "freq_rank": 9,
+          "efg": 47.5,
+          "efg_rank": 3
+        }
+      ],
+      "drives": {
+        "per_game": 36.8,
+        "rank": 29,
+        "pizza": {
+          "shots": 50.3,
+          "passes": 34.0,
+          "tov": 5.2,
+          "fouls": 8.2,
+          "other": 2.4
+        }
+      },
+      "postups": {
+        "per_game": 5.4,
+        "rank": 5,
+        "pizza": {
+          "shots": 57.4,
+          "passes": 25.9,
+          "tov": 5.6,
+          "fouls": 5.6,
+          "other": 5.6
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 19.8,
+          "ppp": 1.06,
+          "freq_rank": 29,
+          "eff_rank": 13
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 17.4,
+          "ppp": 1.14,
+          "freq_rank": 19,
+          "eff_rank": 15
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 17.2,
+          "ppp": 1.0,
+          "freq_rank": 7,
+          "eff_rank": 1
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 8.6,
+          "ppp": 1.04,
+          "freq_rank": 9,
+          "eff_rank": 2
+        },
+        {
+          "name": "Cortes",
+          "freq": 7.6,
+          "ppp": 1.38,
+          "freq_rank": 9,
+          "eff_rank": 4
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.7,
+          "ppp": 1.16,
+          "freq_rank": 11,
+          "eff_rank": 6
+        },
+        {
+          "name": "Post Up",
+          "freq": 5.5,
+          "ppp": 0.97,
+          "freq_rank": 4,
+          "eff_rank": 19
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 5.1,
+          "ppp": 1.07,
+          "freq_rank": 5,
+          "eff_rank": 5
+        },
+        {
+          "name": "Handoff",
+          "freq": 2.2,
+          "ppp": 0.98,
+          "freq_rank": 29,
+          "eff_rank": 8
+        }
+      ]
+    },
+    "MEM": {
+      "name": "Memphis Grizzlies",
+      "abbreviation": "MEM",
+      "rec": "3-13",
+      "conf_rank": 14,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 1,
+        "l": 3,
+        "wpct": 25.0,
+        "rank": 25
+      },
+      "ratings": {
+        "ortg": {
+          "value": 112.8,
+          "rank": 21
+        },
+        "drtg": {
+          "value": 122.6,
+          "rank": 27
+        },
+        "netrtg": {
+          "value": -9.8,
+          "rank": 25
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 53.6,
+          "rank": 22
+        },
+        "tov": {
+          "value": 14.6,
+          "rank": 18
+        },
+        "oreb": {
+          "value": 28.8,
+          "rank": 20
+        },
+        "ftr": {
+          "value": 0.26,
+          "rank": 16
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 58.4,
+          "rank": 27
+        },
+        "opp_tov": {
+          "value": 16.9,
+          "rank": 2
+        },
+        "opp_oreb": {
+          "value": 13.8,
+          "rank": 29
+        },
+        "opp_ftr": {
+          "value": 0.3,
+          "rank": 27
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 100.9,
+          "rank": 11
+        },
+        "pts_fb": {
+          "value": 16.0,
+          "rank": 9
+        },
+        "pts_paint": {
+          "value": 45.3,
+          "rank": 25
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 100.9,
+          "rank": 11
+        },
+        "opp_pts_fb": {
+          "value": 15.4,
+          "rank": 17
+        },
+        "opp_pts_paint": {
+          "value": 56.8,
+          "rank": 27
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 19.2,
+          "rank": 7
+        },
+        "charges": {
+          "value": 0.13,
+          "rank": 26
+        },
+        "loose_balls": {
+          "value": 4.0,
+          "rank": 6
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 25.6,
+          "freq_rank": 24,
+          "efg": 64.6,
+          "efg_rank": 27
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.0,
+          "freq_rank": 12,
+          "efg": 44.1,
+          "efg_rank": 16
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 8.2,
+          "freq_rank": 21,
+          "efg": 38.4,
+          "efg_rank": 24
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.5,
+          "freq_rank": 11,
+          "efg": 52.4,
+          "efg_rank": 25
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 34.6,
+          "freq_rank": 6,
+          "efg": 55.3,
+          "efg_rank": 5
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 36.1,
+          "freq_rank": 29,
+          "efg": 69.0,
+          "efg_rank": 19
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 14.6,
+          "freq_rank": 1,
+          "efg": 49.6,
+          "efg_rank": 28
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 6.1,
+          "freq_rank": 1,
+          "efg": 40.7,
+          "efg_rank": 11
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.0,
+          "freq_rank": 23,
+          "efg": 58.0,
+          "efg_rank": 15
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 31.2,
+          "freq_rank": 16,
+          "efg": 53.8,
+          "efg_rank": 23
+        }
+      ],
+      "drives": {
+        "per_game": 53.7,
+        "rank": 5,
+        "pizza": {
+          "shots": 42.1,
+          "passes": 41.3,
+          "tov": 7.3,
+          "fouls": 6.3,
+          "other": 3.0
+        }
+      },
+      "postups": {
+        "per_game": 0.5,
+        "rank": 30,
+        "pizza": {
+          "shots": 60.0,
+          "passes": 20.0,
+          "tov": 20.0,
+          "fouls": 0.0,
+          "other": 0.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 28.0,
+          "ppp": 1.01,
+          "freq_rank": 4,
+          "eff_rank": 22
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 20.5,
+          "ppp": 1.08,
+          "freq_rank": 6,
+          "eff_rank": 28
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 16.4,
+          "ppp": 0.85,
+          "freq_rank": 13,
+          "eff_rank": 18
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.5,
+          "ppp": 1.16,
+          "freq_rank": 12,
+          "eff_rank": 7
+        },
+        {
+          "name": "Cortes",
+          "freq": 4.9,
+          "ppp": 1.29,
+          "freq_rank": 29,
+          "eff_rank": 17
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 4.6,
+          "ppp": 0.89,
+          "freq_rank": 28,
+          "eff_rank": 23
+        },
+        {
+          "name": "Post Up",
+          "freq": 4.0,
+          "ppp": 0.94,
+          "freq_rank": 10,
+          "eff_rank": 23
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.1,
+          "ppp": 1.11,
+          "freq_rank": 20,
+          "eff_rank": 4
+        },
+        {
+          "name": "Handoff",
+          "freq": 2.6,
+          "ppp": 0.9,
+          "freq_rank": 28,
+          "eff_rank": 24
+        }
+      ]
+    },
+    "MIA": {
+      "name": "Miami Heat",
+      "abbreviation": "MIA",
+      "rec": "8-7",
+      "conf_rank": 8,
+      "conf": "Leste",
+      "clutch": {
+        "w": 3,
+        "l": 5,
+        "wpct": 37.5,
+        "rank": 21
+      },
+      "ratings": {
+        "ortg": {
+          "value": 117.5,
+          "rank": 10
+        },
+        "drtg": {
+          "value": 115.6,
+          "rank": 17
+        },
+        "netrtg": {
+          "value": 1.9,
+          "rank": 15
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 54.5,
+          "rank": 15
+        },
+        "tov": {
+          "value": 12.3,
+          "rank": 2
+        },
+        "oreb": {
+          "value": 29.9,
+          "rank": 13
+        },
+        "ftr": {
+          "value": 0.29,
+          "rank": 8
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 54.7,
+          "rank": 17
+        },
+        "opp_tov": {
+          "value": 15.1,
+          "rank": 12
+        },
+        "opp_oreb": {
+          "value": 11.4,
+          "rank": 18
+        },
+        "opp_ftr": {
+          "value": 0.27,
+          "rank": 19
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 102.8,
+          "rank": 3
+        },
+        "pts_fb": {
+          "value": 18.3,
+          "rank": 4
+        },
+        "pts_paint": {
+          "value": 53.7,
+          "rank": 10
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 102.8,
+          "rank": 3
+        },
+        "opp_pts_fb": {
+          "value": 13.0,
+          "rank": 7
+        },
+        "opp_pts_paint": {
+          "value": 51.1,
+          "rank": 19
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 16.4,
+          "rank": 18
+        },
+        "charges": {
+          "value": 0.53,
+          "rank": 5
+        },
+        "loose_balls": {
+          "value": 3.5,
+          "rank": 18
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 25.9,
+          "freq_rank": 23,
+          "efg": 68.1,
+          "efg_rank": 16
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 24.5,
+          "freq_rank": 2,
+          "efg": 48.9,
+          "efg_rank": 5
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 6.5,
+          "freq_rank": 24,
+          "efg": 39.0,
+          "efg_rank": 22
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.4,
+          "freq_rank": 24,
+          "efg": 54.7,
+          "efg_rank": 23
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 33.8,
+          "freq_rank": 8,
+          "efg": 51.3,
+          "efg_rank": 21
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 25.9,
+          "freq_rank": 8,
+          "efg": 65.5,
+          "efg_rank": 8
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 23.1,
+          "freq_rank": 29,
+          "efg": 48.3,
+          "efg_rank": 25
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.5,
+          "freq_rank": 12,
+          "efg": 44.2,
+          "efg_rank": 22
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.6,
+          "freq_rank": 20,
+          "efg": 55.7,
+          "efg_rank": 12
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.9,
+          "freq_rank": 10,
+          "efg": 53.1,
+          "efg_rank": 22
+        }
+      ],
+      "drives": {
+        "per_game": 59.4,
+        "rank": 2,
+        "pizza": {
+          "shots": 41.6,
+          "passes": 44.1,
+          "tov": 5.9,
+          "fouls": 6.6,
+          "other": 1.9
+        }
+      },
+      "postups": {
+        "per_game": 3.9,
+        "rank": 15,
+        "pizza": {
+          "shots": 43.6,
+          "passes": 43.6,
+          "tov": 2.6,
+          "fouls": 10.3,
+          "other": 0.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 34.2,
+          "ppp": 1.04,
+          "freq_rank": 1,
+          "eff_rank": 15
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 24.8,
+          "ppp": 1.09,
+          "freq_rank": 1,
+          "eff_rank": 24
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 9.1,
+          "ppp": 0.94,
+          "freq_rank": 8,
+          "eff_rank": 13
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 5.3,
+          "ppp": 0.86,
+          "freq_rank": 30,
+          "eff_rank": 17
+        },
+        {
+          "name": "Cortes",
+          "freq": 4.9,
+          "ppp": 1.25,
+          "freq_rank": 30,
+          "eff_rank": 25
+        },
+        {
+          "name": "Post Up",
+          "freq": 3.9,
+          "ppp": 0.95,
+          "freq_rank": 12,
+          "eff_rank": 20
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.7,
+          "ppp": 0.96,
+          "freq_rank": 12,
+          "eff_rank": 18
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 2.1,
+          "ppp": 1.08,
+          "freq_rank": 30,
+          "eff_rank": 20
+        },
+        {
+          "name": "Handoff",
+          "freq": 1.4,
+          "ppp": 0.94,
+          "freq_rank": 30,
+          "eff_rank": 13
+        }
+      ]
+    },
+    "MIL": {
+      "name": "Milwaukee Bucks",
+      "abbreviation": "MIL",
+      "rec": "5-12",
+      "conf_rank": 12,
+      "conf": "Leste",
+      "clutch": {
+        "w": 4,
+        "l": 2,
+        "wpct": 66.7,
+        "rank": 9
+      },
+      "ratings": {
+        "ortg": {
+          "value": 108.3,
+          "rank": 29
+        },
+        "drtg": {
+          "value": 122.8,
+          "rank": 28
+        },
+        "netrtg": {
+          "value": -14.5,
+          "rank": 30
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 55.5,
+          "rank": 10
+        },
+        "tov": {
+          "value": 15.9,
+          "rank": 25
+        },
+        "oreb": {
+          "value": 24.8,
+          "rank": 30
+        },
+        "ftr": {
+          "value": 0.22,
+          "rank": 30
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 58.7,
+          "rank": 29
+        },
+        "opp_tov": {
+          "value": 13.4,
+          "rank": 21
+        },
+        "opp_oreb": {
+          "value": 11.6,
+          "rank": 20
+        },
+        "opp_ftr": {
+          "value": 0.26,
+          "rank": 16
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 98.2,
+          "rank": 24
+        },
+        "pts_fb": {
+          "value": 11.1,
+          "rank": 27
+        },
+        "pts_paint": {
+          "value": 35.5,
+          "rank": 30
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 98.2,
+          "rank": 24
+        },
+        "opp_pts_fb": {
+          "value": 16.6,
+          "rank": 24
+        },
+        "opp_pts_paint": {
+          "value": 44.7,
+          "rank": 5
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 16.5,
+          "rank": 17
+        },
+        "charges": {
+          "value": 0.18,
+          "rank": 24
+        },
+        "loose_balls": {
+          "value": 3.2,
+          "rank": 21
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 22.3,
+          "freq_rank": 29,
+          "efg": 71.8,
+          "efg_rank": 3
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 13.8,
+          "freq_rank": 29,
+          "efg": 36.2,
+          "efg_rank": 29
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 15.5,
+          "freq_rank": 1,
+          "efg": 47.3,
+          "efg_rank": 5
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 15.1,
+          "freq_rank": 1,
+          "efg": 61.4,
+          "efg_rank": 10
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 33.3,
+          "freq_rank": 9,
+          "efg": 53.4,
+          "efg_rank": 8
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 25.1,
+          "freq_rank": 5,
+          "efg": 70.9,
+          "efg_rank": 25
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 16.5,
+          "freq_rank": 5,
+          "efg": 46.2,
+          "efg_rank": 21
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.6,
+          "freq_rank": 14,
+          "efg": 45.2,
+          "efg_rank": 23
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.5,
+          "freq_rank": 25,
+          "efg": 64.1,
+          "efg_rank": 23
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 36.3,
+          "freq_rank": 29,
+          "efg": 56.9,
+          "efg_rank": 27
+        }
+      ],
+      "drives": {
+        "per_game": 45.8,
+        "rank": 19,
+        "pizza": {
+          "shots": 39.5,
+          "passes": 44.3,
+          "tov": 6.8,
+          "fouls": 6.1,
+          "other": 3.3
+        }
+      },
+      "postups": {
+        "per_game": 4.0,
+        "rank": 14,
+        "pizza": {
+          "shots": 42.5,
+          "passes": 37.5,
+          "tov": 10.0,
+          "fouls": 5.0,
+          "other": 5.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 27.0,
+          "ppp": 1.14,
+          "freq_rank": 7,
+          "eff_rank": 1
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 17.1,
+          "ppp": 0.85,
+          "freq_rank": 8,
+          "eff_rank": 21
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.4,
+          "ppp": 1.07,
+          "freq_rank": 21,
+          "eff_rank": 29
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 6.7,
+          "ppp": 1.18,
+          "freq_rank": 6,
+          "eff_rank": 5
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.0,
+          "ppp": 0.97,
+          "freq_rank": 22,
+          "eff_rank": 7
+        },
+        {
+          "name": "Post Up",
+          "freq": 5.4,
+          "ppp": 1.02,
+          "freq_rank": 5,
+          "eff_rank": 10
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.1,
+          "ppp": 1.31,
+          "freq_rank": 28,
+          "eff_rank": 15
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.7,
+          "ppp": 0.92,
+          "freq_rank": 13,
+          "eff_rank": 21
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.0,
+          "ppp": 0.89,
+          "freq_rank": 29,
+          "eff_rank": 27
+        }
+      ]
+    },
+    "MIN": {
+      "name": "Minnesota Timberwolves",
+      "abbreviation": "MIN",
+      "rec": "10-5",
+      "conf_rank": 6,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 4,
+        "l": 1,
+        "wpct": 80.0,
+        "rank": 6
+      },
+      "ratings": {
+        "ortg": {
+          "value": 112.4,
+          "rank": 23
+        },
+        "drtg": {
+          "value": 110.8,
+          "rank": 8
+        },
+        "netrtg": {
+          "value": 1.6,
+          "rank": 16
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 55.1,
+          "rank": 14
+        },
+        "tov": {
+          "value": 15.8,
+          "rank": 23
+        },
+        "oreb": {
+          "value": 29.7,
+          "rank": 15
+        },
+        "ftr": {
+          "value": 0.28,
+          "rank": 12
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 50.9,
+          "rank": 2
+        },
+        "opp_tov": {
+          "value": 14.3,
+          "rank": 16
+        },
+        "opp_oreb": {
+          "value": 13.1,
+          "rank": 27
+        },
+        "opp_ftr": {
+          "value": 0.29,
+          "rank": 24
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 100.4,
+          "rank": 13
+        },
+        "pts_fb": {
+          "value": 15.8,
+          "rank": 12
+        },
+        "pts_paint": {
+          "value": 49.2,
+          "rank": 20
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 100.4,
+          "rank": 13
+        },
+        "opp_pts_fb": {
+          "value": 13.1,
+          "rank": 8
+        },
+        "opp_pts_paint": {
+          "value": 50.1,
+          "rank": 16
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 16.9,
+          "rank": 15
+        },
+        "charges": {
+          "value": 0,
+          "rank": 29
+        },
+        "loose_balls": {
+          "value": 4.3,
+          "rank": 2
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 29.8,
+          "freq_rank": 12,
+          "efg": 66.5,
+          "efg_rank": 21
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 19.6,
+          "freq_rank": 14,
+          "efg": 44.4,
+          "efg_rank": 15
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 12.2,
+          "freq_rank": 10,
+          "efg": 45.7,
+          "efg_rank": 7
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 7.9,
+          "freq_rank": 29,
+          "efg": 55.1,
+          "efg_rank": 22
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 30.4,
+          "freq_rank": 17,
+          "efg": 54.4,
+          "efg_rank": 6
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 32.7,
+          "freq_rank": 27,
+          "efg": 61.8,
+          "efg_rank": 2
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 19.1,
+          "freq_rank": 13,
+          "efg": 40.4,
+          "efg_rank": 4
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 10.4,
+          "freq_rank": 23,
+          "efg": 36.6,
+          "efg_rank": 5
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.0,
+          "freq_rank": 3,
+          "efg": 53.7,
+          "efg_rank": 8
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 28.9,
+          "freq_rank": 6,
+          "efg": 49.2,
+          "efg_rank": 6
+        }
+      ],
+      "drives": {
+        "per_game": 43.5,
+        "rank": 25,
+        "pizza": {
+          "shots": 48.7,
+          "passes": 33.1,
+          "tov": 6.2,
+          "fouls": 9.0,
+          "other": 3.0
+        }
+      },
+      "postups": {
+        "per_game": 5.1,
+        "rank": 7,
+        "pizza": {
+          "shots": 41.2,
+          "passes": 39.2,
+          "tov": 5.9,
+          "fouls": 9.8,
+          "other": 3.9
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 23.1,
+          "ppp": 1.12,
+          "freq_rank": 17,
+          "eff_rank": 3
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 19.3,
+          "ppp": 1.16,
+          "freq_rank": 9,
+          "eff_rank": 9
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 12.8,
+          "ppp": 0.88,
+          "freq_rank": 25,
+          "eff_rank": 13
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 9.7,
+          "ppp": 0.96,
+          "freq_rank": 3,
+          "eff_rank": 9
+        },
+        {
+          "name": "Handoff",
+          "freq": 5.5,
+          "ppp": 1.01,
+          "freq_rank": 6,
+          "eff_rank": 5
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.3,
+          "ppp": 1.17,
+          "freq_rank": 26,
+          "eff_rank": 30
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 4.9,
+          "ppp": 1.0,
+          "freq_rank": 6,
+          "eff_rank": 11
+        },
+        {
+          "name": "Post Up",
+          "freq": 4.2,
+          "ppp": 1.01,
+          "freq_rank": 8,
+          "eff_rank": 12
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.0,
+          "ppp": 1.13,
+          "freq_rank": 28,
+          "eff_rank": 10
+        }
+      ]
+    },
+    "NOP": {
+      "name": "New Orleans Pelicans",
+      "abbreviation": "NOP",
+      "rec": "9-6",
+      "conf_rank": 7,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 2,
+        "l": 5,
+        "wpct": 28.6,
+        "rank": 23
+      },
+      "ratings": {
+        "ortg": {
+          "value": 117.5,
+          "rank": 11
+        },
+        "drtg": {
+          "value": 113.4,
+          "rank": 12
+        },
+        "netrtg": {
+          "value": 4.1,
+          "rank": 10
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 54.5,
+          "rank": 16
+        },
+        "tov": {
+          "value": 14.6,
+          "rank": 19
+        },
+        "oreb": {
+          "value": 33.2,
+          "rank": 9
+        },
+        "ftr": {
+          "value": 0.3,
+          "rank": 6
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 52.9,
+          "rank": 8
+        },
+        "opp_tov": {
+          "value": 13.9,
+          "rank": 18
+        },
+        "opp_oreb": {
+          "value": 13.3,
+          "rank": 28
+        },
+        "opp_ftr": {
+          "value": 0.26,
+          "rank": 18
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 100.3,
+          "rank": 15
+        },
+        "pts_fb": {
+          "value": 16.7,
+          "rank": 6
+        },
+        "pts_paint": {
+          "value": 56.7,
+          "rank": 3
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 100.3,
+          "rank": 15
+        },
+        "opp_pts_fb": {
+          "value": 17.9,
+          "rank": 28
+        },
+        "opp_pts_paint": {
+          "value": 52.1,
+          "rank": 24
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 17.9,
+          "rank": 12
+        },
+        "charges": {
+          "value": 0,
+          "rank": 30
+        },
+        "loose_balls": {
+          "value": 3.5,
+          "rank": 15
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 35.8,
+          "freq_rank": 2,
+          "efg": 65.3,
+          "efg_rank": 25
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 19.9,
+          "freq_rank": 13,
+          "efg": 43.2,
+          "efg_rank": 18
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 6.2,
+          "freq_rank": 26,
+          "efg": 34.5,
+          "efg_rank": 28
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.2,
+          "freq_rank": 26,
+          "efg": 55.6,
+          "efg_rank": 21
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 28.9,
+          "freq_rank": 23,
+          "efg": 53.3,
+          "efg_rank": 9
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 30.3,
+          "freq_rank": 22,
+          "efg": 66.2,
+          "efg_rank": 11
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 17.3,
+          "freq_rank": 7,
+          "efg": 50.3,
+          "efg_rank": 29
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.4,
+          "freq_rank": 10,
+          "efg": 34.1,
+          "efg_rank": 2
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.2,
+          "freq_rank": 24,
+          "efg": 55.4,
+          "efg_rank": 11
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 30.9,
+          "freq_rank": 14,
+          "efg": 45.9,
+          "efg_rank": 1
+        }
+      ],
+      "drives": {
+        "per_game": 49.2,
+        "rank": 12,
+        "pizza": {
+          "shots": 48.8,
+          "passes": 30.5,
+          "tov": 7.9,
+          "fouls": 9.6,
+          "other": 3.3
+        }
+      },
+      "postups": {
+        "per_game": 5.0,
+        "rank": 8,
+        "pizza": {
+          "shots": 50.0,
+          "passes": 30.0,
+          "tov": 10.0,
+          "fouls": 6.0,
+          "other": 4.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 22.6,
+          "ppp": 1.02,
+          "freq_rank": 22,
+          "eff_rank": 21
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 19.3,
+          "ppp": 1.12,
+          "freq_rank": 10,
+          "eff_rank": 20
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 14.5,
+          "ppp": 0.84,
+          "freq_rank": 17,
+          "eff_rank": 23
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 9.4,
+          "ppp": 0.95,
+          "freq_rank": 7,
+          "eff_rank": 11
+        },
+        {
+          "name": "Cortes",
+          "freq": 6.6,
+          "ppp": 1.34,
+          "freq_rank": 16,
+          "eff_rank": 8
+        },
+        {
+          "name": "Handoff",
+          "freq": 5.3,
+          "ppp": 0.94,
+          "freq_rank": 9,
+          "eff_rank": 15
+        },
+        {
+          "name": "Post Up",
+          "freq": 4.1,
+          "ppp": 0.93,
+          "freq_rank": 9,
+          "eff_rank": 25
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.0,
+          "ppp": 1.12,
+          "freq_rank": 29,
+          "eff_rank": 13
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.6,
+          "ppp": 0.95,
+          "freq_rank": 23,
+          "eff_rank": 19
+        }
+      ]
+    },
+    "NYK": {
+      "name": "New York Knicks",
+      "abbreviation": "NYK",
+      "rec": "11-4",
+      "conf_rank": 4,
+      "conf": "Leste",
+      "clutch": {
+        "w": 5,
+        "l": 2,
+        "wpct": 71.4,
+        "rank": 7
+      },
+      "ratings": {
+        "ortg": {
+          "value": 119.6,
+          "rank": 6
+        },
+        "drtg": {
+          "value": 108.4,
+          "rank": 4
+        },
+        "netrtg": {
+          "value": 11.3,
+          "rank": 4
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 56.5,
+          "rank": 7
+        },
+        "tov": {
+          "value": 15.0,
+          "rank": 20
+        },
+        "oreb": {
+          "value": 34.7,
+          "rank": 4
+        },
+        "ftr": {
+          "value": 0.23,
+          "rank": 27
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 53.6,
+          "rank": 9
+        },
+        "opp_tov": {
+          "value": 14.4,
+          "rank": 15
+        },
+        "opp_oreb": {
+          "value": 8.4,
+          "rank": 1
+        },
+        "opp_ftr": {
+          "value": 0.24,
+          "rank": 5
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 97.2,
+          "rank": 27
+        },
+        "pts_fb": {
+          "value": 15.2,
+          "rank": 17
+        },
+        "pts_paint": {
+          "value": 49.9,
+          "rank": 17
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 97.2,
+          "rank": 27
+        },
+        "opp_pts_fb": {
+          "value": 12.0,
+          "rank": 4
+        },
+        "opp_pts_paint": {
+          "value": 39.1,
+          "rank": 2
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 15.7,
+          "rank": 22
+        },
+        "charges": {
+          "value": 0.67,
+          "rank": 1
+        },
+        "loose_balls": {
+          "value": 3.1,
+          "rank": 23
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 29.6,
+          "freq_rank": 13,
+          "efg": 66.3,
+          "efg_rank": 22
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 17.8,
+          "freq_rank": 22,
+          "efg": 49.0,
+          "efg_rank": 4
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 12.3,
+          "freq_rank": 8,
+          "efg": 48.6,
+          "efg_rank": 2
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.6,
+          "freq_rank": 4,
+          "efg": 60.8,
+          "efg_rank": 11
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 27.7,
+          "freq_rank": 25,
+          "efg": 52.7,
+          "efg_rank": 14
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 26.3,
+          "freq_rank": 11,
+          "efg": 61.4,
+          "efg_rank": 1
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 15.8,
+          "freq_rank": 2,
+          "efg": 45.5,
+          "efg_rank": 20
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 12.2,
+          "freq_rank": 27,
+          "efg": 43.1,
+          "efg_rank": 19
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 13.6,
+          "freq_rank": 28,
+          "efg": 64.5,
+          "efg_rank": 24
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 32.1,
+          "freq_rank": 22,
+          "efg": 50.4,
+          "efg_rank": 11
+        }
+      ],
+      "drives": {
+        "per_game": 47.3,
+        "rank": 17,
+        "pizza": {
+          "shots": 45.2,
+          "passes": 38.7,
+          "tov": 6.1,
+          "fouls": 7.4,
+          "other": 2.5
+        }
+      },
+      "postups": {
+        "per_game": 3.7,
+        "rank": 17,
+        "pizza": {
+          "shots": 51.4,
+          "passes": 29.7,
+          "tov": 10.8,
+          "fouls": 2.7,
+          "other": 5.4
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 29.0,
+          "ppp": 1.06,
+          "freq_rank": 2,
+          "eff_rank": 12
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 18.5,
+          "ppp": 1.17,
+          "freq_rank": 15,
+          "eff_rank": 5
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 13.7,
+          "ppp": 0.91,
+          "freq_rank": 22,
+          "eff_rank": 8
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.8,
+          "ppp": 0.91,
+          "freq_rank": 14,
+          "eff_rank": 18
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.3,
+          "ppp": 1.45,
+          "freq_rank": 27,
+          "eff_rank": 1
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.0,
+          "ppp": 1.12,
+          "freq_rank": 20,
+          "eff_rank": 14
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.8,
+          "ppp": 1.07,
+          "freq_rank": 12,
+          "eff_rank": 1
+        },
+        {
+          "name": "Post Up",
+          "freq": 3.4,
+          "ppp": 0.84,
+          "freq_rank": 15,
+          "eff_rank": 29
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.5,
+          "ppp": 1.06,
+          "freq_rank": 25,
+          "eff_rank": 6
+        }
+      ]
+    },
+    "OKC": {
+      "name": "Oklahoma City Thunder",
+      "abbreviation": "OKC",
+      "rec": "13-2",
+      "conf_rank": 3,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 7,
+        "l": 1,
+        "wpct": 87.5,
+        "rank": 3
+      },
+      "ratings": {
+        "ortg": {
+          "value": 114.9,
+          "rank": 16
+        },
+        "drtg": {
+          "value": 106.9,
+          "rank": 3
+        },
+        "netrtg": {
+          "value": 8.0,
+          "rank": 5
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 54.3,
+          "rank": 19
+        },
+        "tov": {
+          "value": 12.0,
+          "rank": 1
+        },
+        "oreb": {
+          "value": 26.6,
+          "rank": 26
+        },
+        "ftr": {
+          "value": 0.24,
+          "rank": 24
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 51.7,
+          "rank": 5
+        },
+        "opp_tov": {
+          "value": 16.1,
+          "rank": 8
+        },
+        "opp_oreb": {
+          "value": 11.0,
+          "rank": 14
+        },
+        "opp_ftr": {
+          "value": 0.24,
+          "rank": 6
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 99.6,
+          "rank": 16
+        },
+        "pts_fb": {
+          "value": 13.0,
+          "rank": 23
+        },
+        "pts_paint": {
+          "value": 45.7,
+          "rank": 24
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 99.6,
+          "rank": 16
+        },
+        "opp_pts_fb": {
+          "value": 11.1,
+          "rank": 2
+        },
+        "opp_pts_paint": {
+          "value": 42.0,
+          "rank": 3
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 18.5,
+          "rank": 10
+        },
+        "charges": {
+          "value": 0.67,
+          "rank": 2
+        },
+        "loose_balls": {
+          "value": 3.7,
+          "rank": 10
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 28.4,
+          "freq_rank": 16,
+          "efg": 66.3,
+          "efg_rank": 23
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 15.5,
+          "freq_rank": 26,
+          "efg": 42.4,
+          "efg_rank": 23
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 12.2,
+          "freq_rank": 9,
+          "efg": 50.0,
+          "efg_rank": 1
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.2,
+          "freq_rank": 25,
+          "efg": 63.3,
+          "efg_rank": 6
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 34.6,
+          "freq_rank": 5,
+          "efg": 48.7,
+          "efg_rank": 25
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 24.9,
+          "freq_rank": 3,
+          "efg": 62.4,
+          "efg_rank": 3
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.4,
+          "freq_rank": 18,
+          "efg": 39.8,
+          "efg_rank": 3
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 10.0,
+          "freq_rank": 20,
+          "efg": 34.8,
+          "efg_rank": 3
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 13.8,
+          "freq_rank": 29,
+          "efg": 59.8,
+          "efg_rank": 17
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 30.9,
+          "freq_rank": 15,
+          "efg": 52.4,
+          "efg_rank": 18
+        }
+      ],
+      "drives": {
+        "per_game": 53.1,
+        "rank": 6,
+        "pizza": {
+          "shots": 45.6,
+          "passes": 38.6,
+          "tov": 5.5,
+          "fouls": 6.8,
+          "other": 3.6
+        }
+      },
+      "postups": {
+        "per_game": 1.5,
+        "rank": 25,
+        "pizza": {
+          "shots": 46.7,
+          "passes": 20.0,
+          "tov": 0.0,
+          "fouls": 20.0,
+          "other": 13.3
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 26.2,
+          "ppp": 1.03,
+          "freq_rank": 10,
+          "eff_rank": 19
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 17.1,
+          "ppp": 1.0,
+          "freq_rank": 9,
+          "eff_rank": 2
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 15.8,
+          "ppp": 1.19,
+          "freq_rank": 28,
+          "eff_rank": 2
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 9.8,
+          "ppp": 1.04,
+          "freq_rank": 2,
+          "eff_rank": 1
+        },
+        {
+          "name": "Cortes",
+          "freq": 7.1,
+          "ppp": 1.28,
+          "freq_rank": 11,
+          "eff_rank": 20
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 6.2,
+          "ppp": 1.11,
+          "freq_rank": 7,
+          "eff_rank": 16
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.3,
+          "ppp": 0.94,
+          "freq_rank": 14,
+          "eff_rank": 16
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.4,
+          "ppp": 1.05,
+          "freq_rank": 26,
+          "eff_rank": 7
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.0,
+          "ppp": 1.09,
+          "freq_rank": 27,
+          "eff_rank": 3
+        }
+      ]
+    },
+    "ORL": {
+      "name": "Orlando Magic",
+      "abbreviation": "ORL",
+      "rec": "8-8",
+      "conf_rank": 9,
+      "conf": "Leste",
+      "clutch": {
+        "w": 5,
+        "l": 5,
+        "wpct": 50.0,
+        "rank": 15
+      },
+      "ratings": {
+        "ortg": {
+          "value": 117.5,
+          "rank": 12
+        },
+        "drtg": {
+          "value": 115.4,
+          "rank": 15
+        },
+        "netrtg": {
+          "value": 2.1,
+          "rank": 14
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 53.5,
+          "rank": 23
+        },
+        "tov": {
+          "value": 13.0,
+          "rank": 10
+        },
+        "oreb": {
+          "value": 31.6,
+          "rank": 11
+        },
+        "ftr": {
+          "value": 0.31,
+          "rank": 2
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 54.4,
+          "rank": 12
+        },
+        "opp_tov": {
+          "value": 13.0,
+          "rank": 23
+        },
+        "opp_oreb": {
+          "value": 10.4,
+          "rank": 9
+        },
+        "opp_ftr": {
+          "value": 0.29,
+          "rank": 26
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 99.1,
+          "rank": 18
+        },
+        "pts_fb": {
+          "value": 12.9,
+          "rank": 24
+        },
+        "pts_paint": {
+          "value": 49.4,
+          "rank": 18
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 99.1,
+          "rank": 18
+        },
+        "opp_pts_fb": {
+          "value": 13.9,
+          "rank": 12
+        },
+        "opp_pts_paint": {
+          "value": 49.8,
+          "rank": 14
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 16.4,
+          "rank": 19
+        },
+        "charges": {
+          "value": 0.19,
+          "rank": 23
+        },
+        "loose_balls": {
+          "value": 3.5,
+          "rank": 16
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 31.5,
+          "freq_rank": 9,
+          "efg": 68.5,
+          "efg_rank": 15
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 17.6,
+          "freq_rank": 23,
+          "efg": 35.9,
+          "efg_rank": 30
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 10.1,
+          "freq_rank": 15,
+          "efg": 47.8,
+          "efg_rank": 3
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.3,
+          "freq_rank": 13,
+          "efg": 66.0,
+          "efg_rank": 4
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.5,
+          "freq_rank": 21,
+          "efg": 45.2,
+          "efg_rank": 30
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 25.8,
+          "freq_rank": 7,
+          "efg": 74.8,
+          "efg_rank": 30
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.7,
+          "freq_rank": 20,
+          "efg": 43.6,
+          "efg_rank": 11
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 12.3,
+          "freq_rank": 29,
+          "efg": 42.6,
+          "efg_rank": 17
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.5,
+          "freq_rank": 7,
+          "efg": 56.0,
+          "efg_rank": 13
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 31.7,
+          "freq_rank": 21,
+          "efg": 48.2,
+          "efg_rank": 4
+        }
+      ],
+      "drives": {
+        "per_game": 50.3,
+        "rank": 8,
+        "pizza": {
+          "shots": 44.5,
+          "passes": 39.0,
+          "tov": 5.6,
+          "fouls": 8.7,
+          "other": 2.2
+        }
+      },
+      "postups": {
+        "per_game": 4.1,
+        "rank": 13,
+        "pizza": {
+          "shots": 41.5,
+          "passes": 34.1,
+          "tov": 2.4,
+          "fouls": 19.5,
+          "other": 2.4
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 24.2,
+          "ppp": 1.01,
+          "freq_rank": 14,
+          "eff_rank": 23
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 19.3,
+          "ppp": 1.14,
+          "freq_rank": 11,
+          "eff_rank": 17
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 16.0,
+          "ppp": 0.85,
+          "freq_rank": 15,
+          "eff_rank": 22
+        },
+        {
+          "name": "Cortes",
+          "freq": 7.1,
+          "ppp": 1.33,
+          "freq_rank": 12,
+          "eff_rank": 11
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.7,
+          "ppp": 0.88,
+          "freq_rank": 16,
+          "eff_rank": 26
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.0,
+          "ppp": 1.11,
+          "freq_rank": 21,
+          "eff_rank": 15
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.1,
+          "ppp": 0.93,
+          "freq_rank": 19,
+          "eff_rank": 17
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.5,
+          "ppp": 1.01,
+          "freq_rank": 14,
+          "eff_rank": 9
+        },
+        {
+          "name": "Post Up",
+          "freq": 3.4,
+          "ppp": 1.07,
+          "freq_rank": 16,
+          "eff_rank": 6
+        }
+      ]
+    },
+    "PHI": {
+      "name": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "rec": "9-7",
+      "conf_rank": 7,
+      "conf": "Leste",
+      "clutch": {
+        "w": 5,
+        "l": 1,
+        "wpct": 83.3,
+        "rank": 4
+      },
+      "ratings": {
+        "ortg": {
+          "value": 113.2,
+          "rank": 19
+        },
+        "drtg": {
+          "value": 115.9,
+          "rank": 19
+        },
+        "netrtg": {
+          "value": -2.7,
+          "rank": 20
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 53.2,
+          "rank": 25
+        },
+        "tov": {
+          "value": 13.4,
+          "rank": 11
+        },
+        "oreb": {
+          "value": 29.8,
+          "rank": 14
+        },
+        "ftr": {
+          "value": 0.25,
+          "rank": 18
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 55.0,
+          "rank": 18
+        },
+        "opp_tov": {
+          "value": 15.5,
+          "rank": 10
+        },
+        "opp_oreb": {
+          "value": 12.0,
+          "rank": 24
+        },
+        "opp_ftr": {
+          "value": 0.26,
+          "rank": 17
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 102.3,
+          "rank": 5
+        },
+        "pts_fb": {
+          "value": 19.8,
+          "rank": 2
+        },
+        "pts_paint": {
+          "value": 57.0,
+          "rank": 2
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 102.3,
+          "rank": 5
+        },
+        "opp_pts_fb": {
+          "value": 15.9,
+          "rank": 22
+        },
+        "opp_pts_paint": {
+          "value": 49.3,
+          "rank": 13
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 20.2,
+          "rank": 5
+        },
+        "charges": {
+          "value": 0.25,
+          "rank": 17
+        },
+        "loose_balls": {
+          "value": 3.6,
+          "rank": 12
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 32.2,
+          "freq_rank": 6,
+          "efg": 69.3,
+          "efg_rank": 8
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.5,
+          "freq_rank": 11,
+          "efg": 42.6,
+          "efg_rank": 22
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.4,
+          "freq_rank": 18,
+          "efg": 44.2,
+          "efg_rank": 9
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 8.6,
+          "freq_rank": 28,
+          "efg": 45.6,
+          "efg_rank": 28
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.3,
+          "freq_rank": 22,
+          "efg": 48.0,
+          "efg_rank": 28
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 31.0,
+          "freq_rank": 24,
+          "efg": 68.5,
+          "efg_rank": 18
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 16.0,
+          "freq_rank": 3,
+          "efg": 38.2,
+          "efg_rank": 2
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 7.3,
+          "freq_rank": 2,
+          "efg": 40.9,
+          "efg_rank": 12
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.9,
+          "freq_rank": 27,
+          "efg": 65.9,
+          "efg_rank": 28
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 32.9,
+          "freq_rank": 24,
+          "efg": 49.7,
+          "efg_rank": 9
+        }
+      ],
+      "drives": {
+        "per_game": 45.2,
+        "rank": 21,
+        "pizza": {
+          "shots": 52.4,
+          "passes": 29.4,
+          "tov": 6.9,
+          "fouls": 8.0,
+          "other": 3.3
+        }
+      },
+      "postups": {
+        "per_game": 4.2,
+        "rank": 12,
+        "pizza": {
+          "shots": 42.9,
+          "passes": 33.3,
+          "tov": 7.1,
+          "fouls": 7.1,
+          "other": 9.5
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 23.4,
+          "ppp": 1.04,
+          "freq_rank": 16,
+          "eff_rank": 16
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 18.2,
+          "ppp": 1.16,
+          "freq_rank": 16,
+          "eff_rank": 6
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 13.8,
+          "ppp": 0.9,
+          "freq_rank": 20,
+          "eff_rank": 10
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 9.7,
+          "ppp": 0.92,
+          "freq_rank": 4,
+          "eff_rank": 17
+        },
+        {
+          "name": "Cortes",
+          "freq": 6.1,
+          "ppp": 1.28,
+          "freq_rank": 17,
+          "eff_rank": 22
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.7,
+          "ppp": 0.97,
+          "freq_rank": 24,
+          "eff_rank": 29
+        },
+        {
+          "name": "Post Up",
+          "freq": 4.0,
+          "ppp": 1.06,
+          "freq_rank": 11,
+          "eff_rank": 8
+        },
+        {
+          "name": "Handoff",
+          "freq": 3.9,
+          "ppp": 1.0,
+          "freq_rank": 23,
+          "eff_rank": 6
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.4,
+          "ppp": 0.98,
+          "freq_rank": 18,
+          "eff_rank": 14
+        }
+      ]
+    },
+    "PHX": {
+      "name": "Phoenix Suns",
+      "abbreviation": "PHX",
+      "rec": "7-8",
+      "conf_rank": 10,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 2,
+        "l": 6,
+        "wpct": 25.0,
+        "rank": 26
+      },
+      "ratings": {
+        "ortg": {
+          "value": 116.5,
+          "rank": 14
+        },
+        "drtg": {
+          "value": 115.1,
+          "rank": 14
+        },
+        "netrtg": {
+          "value": 1.5,
+          "rank": 17
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 54.3,
+          "rank": 20
+        },
+        "tov": {
+          "value": 12.7,
+          "rank": 7
+        },
+        "oreb": {
+          "value": 31.7,
+          "rank": 10
+        },
+        "ftr": {
+          "value": 0.24,
+          "rank": 21
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 54.5,
+          "rank": 13
+        },
+        "opp_tov": {
+          "value": 14.5,
+          "rank": 14
+        },
+        "opp_oreb": {
+          "value": 11.4,
+          "rank": 19
+        },
+        "opp_ftr": {
+          "value": 0.28,
+          "rank": 23
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 95.4,
+          "rank": 29
+        },
+        "pts_fb": {
+          "value": 12.9,
+          "rank": 25
+        },
+        "pts_paint": {
+          "value": 36.0,
+          "rank": 29
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 95.4,
+          "rank": 29
+        },
+        "opp_pts_fb": {
+          "value": 13.5,
+          "rank": 9
+        },
+        "opp_pts_paint": {
+          "value": 47.7,
+          "rank": 8
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 17.3,
+          "rank": 14
+        },
+        "charges": {
+          "value": 0.07,
+          "rank": 27
+        },
+        "loose_balls": {
+          "value": 3.6,
+          "rank": 13
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 24.0,
+          "freq_rank": 27,
+          "efg": 62.4,
+          "efg_rank": 29
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 13.8,
+          "freq_rank": 28,
+          "efg": 40.5,
+          "efg_rank": 24
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 13.2,
+          "freq_rank": 5,
+          "efg": 44.8,
+          "efg_rank": 8
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.6,
+          "freq_rank": 10,
+          "efg": 69.1,
+          "efg_rank": 3
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 37.3,
+          "freq_rank": 3,
+          "efg": 52.8,
+          "efg_rank": 12
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 28.7,
+          "freq_rank": 17,
+          "efg": 67.5,
+          "efg_rank": 16
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 20.9,
+          "freq_rank": 22,
+          "efg": 44.0,
+          "efg_rank": 13
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.7,
+          "freq_rank": 16,
+          "efg": 46.9,
+          "efg_rank": 25
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 12.0,
+          "freq_rank": 22,
+          "efg": 54.0,
+          "efg_rank": 9
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 28.7,
+          "freq_rank": 5,
+          "efg": 52.5,
+          "efg_rank": 19
+        }
+      ],
+      "drives": {
+        "per_game": 47.2,
+        "rank": 18,
+        "pizza": {
+          "shots": 42.2,
+          "passes": 40.9,
+          "tov": 6.6,
+          "fouls": 7.0,
+          "other": 3.4
+        }
+      },
+      "postups": {
+        "per_game": 1.0,
+        "rank": 29,
+        "pizza": {
+          "shots": 50.0,
+          "passes": 20.0,
+          "tov": 30.0,
+          "fouls": 0.0,
+          "other": 0.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 24.1,
+          "ppp": 1.08,
+          "freq_rank": 15,
+          "eff_rank": 8
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 20.3,
+          "ppp": 0.88,
+          "freq_rank": 2,
+          "eff_rank": 14
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 15.8,
+          "ppp": 1.14,
+          "freq_rank": 29,
+          "eff_rank": 13
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.8,
+          "ppp": 0.95,
+          "freq_rank": 15,
+          "eff_rank": 10
+        },
+        {
+          "name": "Cortes",
+          "freq": 6.0,
+          "ppp": 1.24,
+          "freq_rank": 18,
+          "eff_rank": 28
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.0,
+          "ppp": 1.07,
+          "freq_rank": 22,
+          "eff_rank": 22
+        },
+        {
+          "name": "Handoff",
+          "freq": 5.0,
+          "ppp": 0.95,
+          "freq_rank": 10,
+          "eff_rank": 11
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.5,
+          "ppp": 0.94,
+          "freq_rank": 15,
+          "eff_rank": 21
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.5,
+          "ppp": 0.94,
+          "freq_rank": 21,
+          "eff_rank": 21
+        }
+      ]
+    },
+    "POR": {
+      "name": "Portland Trail Blazers",
+      "abbreviation": "POR",
+      "rec": "9-7",
+      "conf_rank": 8,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 4,
+        "l": 4,
+        "wpct": 50.0,
+        "rank": 16
+      },
+      "ratings": {
+        "ortg": {
+          "value": 113.2,
+          "rank": 20
+        },
+        "drtg": {
+          "value": 109.6,
+          "rank": 7
+        },
+        "netrtg": {
+          "value": 3.6,
+          "rank": 11
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 53.9,
+          "rank": 21
+        },
+        "tov": {
+          "value": 16.9,
+          "rank": 29
+        },
+        "oreb": {
+          "value": 34.5,
+          "rank": 6
+        },
+        "ftr": {
+          "value": 0.29,
+          "rank": 10
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 52.8,
+          "rank": 7
+        },
+        "opp_tov": {
+          "value": 16.3,
+          "rank": 5
+        },
+        "opp_oreb": {
+          "value": 11.9,
+          "rank": 22
+        },
+        "opp_ftr": {
+          "value": 0.27,
+          "rank": 20
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 101.6,
+          "rank": 8
+        },
+        "pts_fb": {
+          "value": 13.1,
+          "rank": 22
+        },
+        "pts_paint": {
+          "value": 49.4,
+          "rank": 19
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 101.6,
+          "rank": 8
+        },
+        "opp_pts_fb": {
+          "value": 16.2,
+          "rank": 23
+        },
+        "opp_pts_paint": {
+          "value": 49.8,
+          "rank": 15
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 18.8,
+          "rank": 9
+        },
+        "charges": {
+          "value": 0.31,
+          "rank": 13
+        },
+        "loose_balls": {
+          "value": 3.9,
+          "rank": 8
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 35.0,
+          "freq_rank": 3,
+          "efg": 65.3,
+          "efg_rank": 26
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 12.9,
+          "freq_rank": 30,
+          "efg": 38.3,
+          "efg_rank": 28
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 5.2,
+          "freq_rank": 28,
+          "efg": 39.1,
+          "efg_rank": 21
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 13.6,
+          "freq_rank": 3,
+          "efg": 52.1,
+          "efg_rank": 26
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 33.3,
+          "freq_rank": 10,
+          "efg": 51.2,
+          "efg_rank": 23
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 29.6,
+          "freq_rank": 19,
+          "efg": 62.5,
+          "efg_rank": 4
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 22.0,
+          "freq_rank": 27,
+          "efg": 44.3,
+          "efg_rank": 14
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 10.1,
+          "freq_rank": 21,
+          "efg": 40.4,
+          "efg_rank": 9
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.7,
+          "freq_rank": 10,
+          "efg": 59.3,
+          "efg_rank": 16
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 28.7,
+          "freq_rank": 4,
+          "efg": 52.2,
+          "efg_rank": 16
+        }
+      ],
+      "drives": {
+        "per_game": 56.9,
+        "rank": 3,
+        "pizza": {
+          "shots": 37.6,
+          "passes": 42.9,
+          "tov": 8.6,
+          "fouls": 6.9,
+          "other": 4.0
+        }
+      },
+      "postups": {
+        "per_game": 1.6,
+        "rank": 23,
+        "pizza": {
+          "shots": 25.0,
+          "passes": 50.0,
+          "tov": 6.2,
+          "fouls": 12.5,
+          "other": 6.3
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 27.7,
+          "ppp": 1.0,
+          "freq_rank": 5,
+          "eff_rank": 24
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 17.9,
+          "ppp": 1.11,
+          "freq_rank": 18,
+          "eff_rank": 22
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 16.9,
+          "ppp": 0.82,
+          "freq_rank": 11,
+          "eff_rank": 28
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 7.5,
+          "ppp": 0.89,
+          "freq_rank": 11,
+          "eff_rank": 21
+        },
+        {
+          "name": "Cortes",
+          "freq": 6.7,
+          "ppp": 1.28,
+          "freq_rank": 15,
+          "eff_rank": 23
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.1,
+          "ppp": 1.1,
+          "freq_rank": 17,
+          "eff_rank": 18
+        },
+        {
+          "name": "Handoff",
+          "freq": 3.4,
+          "ppp": 0.89,
+          "freq_rank": 25,
+          "eff_rank": 26
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 2.2,
+          "ppp": 0.81,
+          "freq_rank": 28,
+          "eff_rank": 30
+        },
+        {
+          "name": "Post Up",
+          "freq": 1.6,
+          "ppp": 0.89,
+          "freq_rank": 30,
+          "eff_rank": 28
+        }
+      ]
+    },
+    "SAC": {
+      "name": "Sacramento Kings",
+      "abbreviation": "SAC",
+      "rec": "6-8",
+      "conf_rank": 11,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 5,
+        "l": 0,
+        "wpct": 100.0,
+        "rank": 2
+      },
+      "ratings": {
+        "ortg": {
+          "value": 111.8,
+          "rank": 24
+        },
+        "drtg": {
+          "value": 120.6,
+          "rank": 25
+        },
+        "netrtg": {
+          "value": -8.9,
+          "rank": 24
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 52.9,
+          "rank": 28
+        },
+        "tov": {
+          "value": 12.5,
+          "rank": 5
+        },
+        "oreb": {
+          "value": 28.2,
+          "rank": 21
+        },
+        "ftr": {
+          "value": 0.23,
+          "rank": 25
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 57.8,
+          "rank": 24
+        },
+        "opp_tov": {
+          "value": 13.0,
+          "rank": 24
+        },
+        "opp_oreb": {
+          "value": 10.6,
+          "rank": 10
+        },
+        "opp_ftr": {
+          "value": 0.25,
+          "rank": 12
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 101.0,
+          "rank": 10
+        },
+        "pts_fb": {
+          "value": 12.7,
+          "rank": 26
+        },
+        "pts_paint": {
+          "value": 55.7,
+          "rank": 5
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 101.0,
+          "rank": 10
+        },
+        "opp_pts_fb": {
+          "value": 18.0,
+          "rank": 29
+        },
+        "opp_pts_paint": {
+          "value": 49.1,
+          "rank": 12
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 12.7,
+          "rank": 30
+        },
+        "charges": {
+          "value": 0.36,
+          "rank": 10
+        },
+        "loose_balls": {
+          "value": 2.6,
+          "rank": 28
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 21.1,
+          "freq_rank": 30,
+          "efg": 72.4,
+          "efg_rank": 2
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 33.5,
+          "freq_rank": 1,
+          "efg": 45.9,
+          "efg_rank": 13
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 13.6,
+          "freq_rank": 3,
+          "efg": 47.6,
+          "efg_rank": 4
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 6.7,
+          "freq_rank": 30,
+          "efg": 44.3,
+          "efg_rank": 29
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 25.1,
+          "freq_rank": 29,
+          "efg": 52.0,
+          "efg_rank": 17
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 22.7,
+          "freq_rank": 2,
+          "efg": 66.8,
+          "efg_rank": 14
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 25.4,
+          "freq_rank": 30,
+          "efg": 47.6,
+          "efg_rank": 24
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 8.6,
+          "freq_rank": 4,
+          "efg": 41.0,
+          "efg_rank": 14
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.1,
+          "freq_rank": 4,
+          "efg": 65.9,
+          "efg_rank": 27
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 34.2,
+          "freq_rank": 28,
+          "efg": 61.7,
+          "efg_rank": 30
+        }
+      ],
+      "drives": {
+        "per_game": 44.5,
+        "rank": 23,
+        "pizza": {
+          "shots": 45.4,
+          "passes": 39.3,
+          "tov": 6.3,
+          "fouls": 7.6,
+          "other": 1.3
+        }
+      },
+      "postups": {
+        "per_game": 4.9,
+        "rank": 9,
+        "pizza": {
+          "shots": 51.0,
+          "passes": 36.7,
+          "tov": 2.0,
+          "fouls": 8.2,
+          "other": 2.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 22.8,
+          "ppp": 0.98,
+          "freq_rank": 20,
+          "eff_rank": 28
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 16.5,
+          "ppp": 1.1,
+          "freq_rank": 20,
+          "eff_rank": 23
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 16.3,
+          "ppp": 0.81,
+          "freq_rank": 14,
+          "eff_rank": 29
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 8.4,
+          "ppp": 0.9,
+          "freq_rank": 10,
+          "eff_rank": 19
+        },
+        {
+          "name": "Cortes",
+          "freq": 7.4,
+          "ppp": 1.21,
+          "freq_rank": 10,
+          "eff_rank": 29
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 7.0,
+          "ppp": 1.07,
+          "freq_rank": 3,
+          "eff_rank": 23
+        },
+        {
+          "name": "Post Up",
+          "freq": 4.4,
+          "ppp": 1.02,
+          "freq_rank": 7,
+          "eff_rank": 11
+        },
+        {
+          "name": "Handoff",
+          "freq": 3.9,
+          "ppp": 0.94,
+          "freq_rank": 24,
+          "eff_rank": 14
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.3,
+          "ppp": 1.12,
+          "freq_rank": 19,
+          "eff_rank": 2
+        }
+      ]
+    },
+    "SAS": {
+      "name": "San Antonio Spurs",
+      "abbreviation": "SAS",
+      "rec": "14-2",
+      "conf_rank": 1,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 5,
+        "l": 1,
+        "wpct": 83.3,
+        "rank": 5
+      },
+      "ratings": {
+        "ortg": {
+          "value": 121.8,
+          "rank": 2
+        },
+        "drtg": {
+          "value": 109.4,
+          "rank": 6
+        },
+        "netrtg": {
+          "value": 12.4,
+          "rank": 3
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 58.0,
+          "rank": 3
+        },
+        "tov": {
+          "value": 12.7,
+          "rank": 8
+        },
+        "oreb": {
+          "value": 29.3,
+          "rank": 17
+        },
+        "ftr": {
+          "value": 0.26,
+          "rank": 15
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 51.4,
+          "rank": 3
+        },
+        "opp_tov": {
+          "value": 11.6,
+          "rank": 28
+        },
+        "opp_oreb": {
+          "value": 9.3,
+          "rank": 3
+        },
+        "opp_ftr": {
+          "value": 0.24,
+          "rank": 7
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 100.4,
+          "rank": 12
+        },
+        "pts_fb": {
+          "value": 15.3,
+          "rank": 15
+        },
+        "pts_paint": {
+          "value": 50.9,
+          "rank": 14
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 100.4,
+          "rank": 12
+        },
+        "opp_pts_fb": {
+          "value": 14.4,
+          "rank": 13
+        },
+        "opp_pts_paint": {
+          "value": 44.6,
+          "rank": 4
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 16.1,
+          "rank": 21
+        },
+        "charges": {
+          "value": 0.25,
+          "rank": 18
+        },
+        "loose_balls": {
+          "value": 3.4,
+          "rank": 19
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 32.2,
+          "freq_rank": 7,
+          "efg": 69.1,
+          "efg_rank": 10
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 14.4,
+          "freq_rank": 27,
+          "efg": 42.6,
+          "efg_rank": 21
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 8.3,
+          "freq_rank": 20,
+          "efg": 40.5,
+          "efg_rank": 18
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 13.9,
+          "freq_rank": 2,
+          "efg": 64.1,
+          "efg_rank": 5
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 31.3,
+          "freq_rank": 14,
+          "efg": 55.7,
+          "efg_rank": 4
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 26.2,
+          "freq_rank": 9,
+          "efg": 62.7,
+          "efg_rank": 5
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 18.8,
+          "freq_rank": 12,
+          "efg": 45.0,
+          "efg_rank": 17
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 12.2,
+          "freq_rank": 28,
+          "efg": 35.5,
+          "efg_rank": 4
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.7,
+          "freq_rank": 19,
+          "efg": 48.4,
+          "efg_rank": 2
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 32.1,
+          "freq_rank": 23,
+          "efg": 52.9,
+          "efg_rank": 21
+        }
+      ],
+      "drives": {
+        "per_game": 50.1,
+        "rank": 9,
+        "pizza": {
+          "shots": 45.3,
+          "passes": 37.7,
+          "tov": 8.0,
+          "fouls": 6.6,
+          "other": 2.4
+        }
+      },
+      "postups": {
+        "per_game": 2.1,
+        "rank": 21,
+        "pizza": {
+          "shots": 52.4,
+          "passes": 28.6,
+          "tov": 14.3,
+          "fouls": 4.8,
+          "other": 0.0
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 27.0,
+          "ppp": 1.08,
+          "freq_rank": 8,
+          "eff_rank": 9
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 21.2,
+          "ppp": 1.14,
+          "freq_rank": 5,
+          "eff_rank": 18
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 12.2,
+          "ppp": 0.88,
+          "freq_rank": 28,
+          "eff_rank": 12
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.4,
+          "ppp": 0.89,
+          "freq_rank": 19,
+          "eff_rank": 22
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.9,
+          "ppp": 1.38,
+          "freq_rank": 19,
+          "eff_rank": 5
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.9,
+          "ppp": 0.99,
+          "freq_rank": 11,
+          "eff_rank": 7
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 4.9,
+          "ppp": 0.97,
+          "freq_rank": 7,
+          "eff_rank": 16
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.4,
+          "ppp": 1.26,
+          "freq_rank": 26,
+          "eff_rank": 1
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.5,
+          "ppp": 0.97,
+          "freq_rank": 22,
+          "eff_rank": 18
+        }
+      ]
+    },
+    "TOR": {
+      "name": "Toronto Raptors",
+      "abbreviation": "TOR",
+      "rec": "6-9",
+      "conf_rank": 10,
+      "conf": "Leste",
+      "clutch": {
+        "w": 2,
+        "l": 4,
+        "wpct": 33.3,
+        "rank": 22
+      },
+      "ratings": {
+        "ortg": {
+          "value": 115.4,
+          "rank": 15
+        },
+        "drtg": {
+          "value": 115.8,
+          "rank": 18
+        },
+        "netrtg": {
+          "value": -0.4,
+          "rank": 18
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 55.9,
+          "rank": 9
+        },
+        "tov": {
+          "value": 13.5,
+          "rank": 13
+        },
+        "oreb": {
+          "value": 27.4,
+          "rank": 25
+        },
+        "ftr": {
+          "value": 0.27,
+          "rank": 14
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 57.4,
+          "rank": 23
+        },
+        "opp_tov": {
+          "value": 15.5,
+          "rank": 11
+        },
+        "opp_oreb": {
+          "value": 10.0,
+          "rank": 7
+        },
+        "opp_ftr": {
+          "value": 0.27,
+          "rank": 22
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 99.1,
+          "rank": 20
+        },
+        "pts_fb": {
+          "value": 15.7,
+          "rank": 13
+        },
+        "pts_paint": {
+          "value": 52.0,
+          "rank": 12
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 99.1,
+          "rank": 20
+        },
+        "opp_pts_fb": {
+          "value": 13.8,
+          "rank": 10
+        },
+        "opp_pts_paint": {
+          "value": 47.7,
+          "rank": 9
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 20.6,
+          "rank": 3
+        },
+        "charges": {
+          "value": 0.27,
+          "rank": 16
+        },
+        "loose_balls": {
+          "value": 2.2,
+          "rank": 30
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 27.4,
+          "freq_rank": 17,
+          "efg": 69.6,
+          "efg_rank": 7
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 23.8,
+          "freq_rank": 3,
+          "efg": 46.1,
+          "efg_rank": 12
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 13.1,
+          "freq_rank": 7,
+          "efg": 46.9,
+          "efg_rank": 6
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 10.3,
+          "freq_rank": 19,
+          "efg": 62.4,
+          "efg_rank": 8
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 25.3,
+          "freq_rank": 27,
+          "efg": 52.7,
+          "efg_rank": 13
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 30.6,
+          "freq_rank": 23,
+          "efg": 66.5,
+          "efg_rank": 13
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 18.5,
+          "freq_rank": 9,
+          "efg": 41.4,
+          "efg_rank": 6
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 11.9,
+          "freq_rank": 26,
+          "efg": 48.5,
+          "efg_rank": 27
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.9,
+          "freq_rank": 11,
+          "efg": 71.4,
+          "efg_rank": 30
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.1,
+          "freq_rank": 7,
+          "efg": 56.5,
+          "efg_rank": 26
+        }
+      ],
+      "drives": {
+        "per_game": 48.6,
+        "rank": 15,
+        "pizza": {
+          "shots": 42.8,
+          "passes": 40.9,
+          "tov": 6.2,
+          "fouls": 6.6,
+          "other": 3.5
+        }
+      },
+      "postups": {
+        "per_game": 4.7,
+        "rank": 11,
+        "pizza": {
+          "shots": 40.4,
+          "passes": 40.4,
+          "tov": 4.3,
+          "fouls": 6.4,
+          "other": 8.5
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 24.4,
+          "ppp": 0.99,
+          "freq_rank": 12,
+          "eff_rank": 26
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 22.4,
+          "ppp": 1.13,
+          "freq_rank": 3,
+          "eff_rank": 19
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 12.6,
+          "ppp": 0.83,
+          "freq_rank": 26,
+          "eff_rank": 26
+        },
+        {
+          "name": "Cortes",
+          "freq": 8.7,
+          "ppp": 1.33,
+          "freq_rank": 5,
+          "eff_rank": 10
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 5.9,
+          "ppp": 0.88,
+          "freq_rank": 23,
+          "eff_rank": 25
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 4.8,
+          "ppp": 1.13,
+          "freq_rank": 23,
+          "eff_rank": 11
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 4.2,
+          "ppp": 1.01,
+          "freq_rank": 11,
+          "eff_rank": 10
+        },
+        {
+          "name": "Handoff",
+          "freq": 4.1,
+          "ppp": 1.04,
+          "freq_rank": 20,
+          "eff_rank": 3
+        },
+        {
+          "name": "Post Up",
+          "freq": 3.8,
+          "ppp": 1.05,
+          "freq_rank": 14,
+          "eff_rank": 9
+        }
+      ]
+    },
+    "UTA": {
+      "name": "Utah Jazz",
+      "abbreviation": "UTA",
+      "rec": "3-12",
+      "conf_rank": 15,
+      "conf": "Oeste",
+      "clutch": {
+        "w": 1,
+        "l": 6,
+        "wpct": 14.3,
+        "rank": 28
+      },
+      "ratings": {
+        "ortg": {
+          "value": 112.8,
+          "rank": 22
+        },
+        "drtg": {
+          "value": 120.2,
+          "rank": 24
+        },
+        "netrtg": {
+          "value": -7.5,
+          "rank": 23
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 52.6,
+          "rank": 29
+        },
+        "tov": {
+          "value": 14.4,
+          "rank": 17
+        },
+        "oreb": {
+          "value": 30.6,
+          "rank": 12
+        },
+        "ftr": {
+          "value": 0.29,
+          "rank": 9
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 58.4,
+          "rank": 28
+        },
+        "opp_tov": {
+          "value": 16.7,
+          "rank": 3
+        },
+        "opp_oreb": {
+          "value": 12.1,
+          "rank": 25
+        },
+        "opp_ftr": {
+          "value": 0.3,
+          "rank": 28
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 101.9,
+          "rank": 6
+        },
+        "pts_fb": {
+          "value": 21.1,
+          "rank": 1
+        },
+        "pts_paint": {
+          "value": 48.0,
+          "rank": 21
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 101.9,
+          "rank": 6
+        },
+        "opp_pts_fb": {
+          "value": 19.9,
+          "rank": 30
+        },
+        "opp_pts_paint": {
+          "value": 52.7,
+          "rank": 25
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 20.0,
+          "rank": 6
+        },
+        "charges": {
+          "value": 0.4,
+          "rank": 9
+        },
+        "loose_balls": {
+          "value": 4.3,
+          "rank": 1
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 24.8,
+          "freq_rank": 25,
+          "efg": 66.8,
+          "efg_rank": 20
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 21.8,
+          "freq_rank": 8,
+          "efg": 46.4,
+          "efg_rank": 11
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 11.0,
+          "freq_rank": 12,
+          "efg": 39.4,
+          "efg_rank": 20
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.5,
+          "freq_rank": 12,
+          "efg": 56.8,
+          "efg_rank": 17
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 30.8,
+          "freq_rank": 16,
+          "efg": 48.2,
+          "efg_rank": 27
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 26.3,
+          "freq_rank": 10,
+          "efg": 73.8,
+          "efg_rank": 29
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 21.2,
+          "freq_rank": 24,
+          "efg": 51.4,
+          "efg_rank": 30
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 7.5,
+          "freq_rank": 3,
+          "efg": 43.1,
+          "efg_rank": 18
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 15.6,
+          "freq_rank": 30,
+          "efg": 55.1,
+          "efg_rank": 10
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 29.5,
+          "freq_rank": 8,
+          "efg": 56.0,
+          "efg_rank": 25
+        }
+      ],
+      "drives": {
+        "per_game": 50.1,
+        "rank": 10,
+        "pizza": {
+          "shots": 44.7,
+          "passes": 36.9,
+          "tov": 6.2,
+          "fouls": 9.6,
+          "other": 2.6
+        }
+      },
+      "postups": {
+        "per_game": 1.2,
+        "rank": 28,
+        "pizza": {
+          "shots": 41.7,
+          "passes": 25.0,
+          "tov": 16.7,
+          "fouls": 8.3,
+          "other": 8.3
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 21.5,
+          "ppp": 1.04,
+          "freq_rank": 26,
+          "eff_rank": 17
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 18.7,
+          "ppp": 1.16,
+          "freq_rank": 13,
+          "eff_rank": 7
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 12.1,
+          "ppp": 0.93,
+          "freq_rank": 29,
+          "eff_rank": 6
+        },
+        {
+          "name": "Cortes",
+          "freq": 8.2,
+          "ppp": 1.31,
+          "freq_rank": 7,
+          "eff_rank": 14
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 7.5,
+          "ppp": 0.92,
+          "freq_rank": 1,
+          "eff_rank": 23
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.3,
+          "ppp": 0.87,
+          "freq_rank": 20,
+          "eff_rank": 27
+        },
+        {
+          "name": "Handoff",
+          "freq": 6.1,
+          "ppp": 0.95,
+          "freq_rank": 4,
+          "eff_rank": 10
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 5.2,
+          "ppp": 0.97,
+          "freq_rank": 16,
+          "eff_rank": 30
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.4,
+          "ppp": 0.98,
+          "freq_rank": 24,
+          "eff_rank": 15
+        }
+      ]
+    },
+    "WAS": {
+      "name": "Washington Wizards",
+      "abbreviation": "WAS",
+      "rec": "1-15",
+      "conf_rank": 15,
+      "conf": "Leste",
+      "clutch": {
+        "w": 0,
+        "l": 3,
+        "wpct": 0,
+        "rank": 30
+      },
+      "ratings": {
+        "ortg": {
+          "value": 110.0,
+          "rank": 28
+        },
+        "drtg": {
+          "value": 123.1,
+          "rank": 29
+        },
+        "netrtg": {
+          "value": -13.1,
+          "rank": 27
+        }
+      },
+      "four_factors_off": {
+        "efg": {
+          "value": 55.4,
+          "rank": 11
+        },
+        "tov": {
+          "value": 16.2,
+          "rank": 26
+        },
+        "oreb": {
+          "value": 26.6,
+          "rank": 27
+        },
+        "ftr": {
+          "value": 0.24,
+          "rank": 23
+        }
+      },
+      "four_factors_def": {
+        "opp_efg": {
+          "value": 55.8,
+          "rank": 21
+        },
+        "opp_tov": {
+          "value": 13.3,
+          "rank": 22
+        },
+        "opp_oreb": {
+          "value": 14.0,
+          "rank": 30
+        },
+        "opp_ftr": {
+          "value": 0.33,
+          "rank": 29
+        }
+      },
+      "attack_style": {
+        "pace": {
+          "value": 103.0,
+          "rank": 2
+        },
+        "pts_fb": {
+          "value": 13.6,
+          "rank": 20
+        },
+        "pts_paint": {
+          "value": 45.3,
+          "rank": 26
+        }
+      },
+      "defense_style": {
+        "opp_pace": {
+          "value": 103.0,
+          "rank": 2
+        },
+        "opp_pts_fb": {
+          "value": 17.7,
+          "rank": 27
+        },
+        "opp_pts_paint": {
+          "value": 63.1,
+          "rank": 30
+        }
+      },
+      "hustle": {
+        "deflections": {
+          "value": 16.2,
+          "rank": 20
+        },
+        "charges": {
+          "value": 0.44,
+          "rank": 8
+        },
+        "loose_balls": {
+          "value": 2.9,
+          "rank": 25
+        }
+      },
+      "shot_zones_off": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 26.9,
+          "freq_rank": 19,
+          "efg": 68.5,
+          "efg_rank": 14
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 17.9,
+          "freq_rank": 21,
+          "efg": 39.9,
+          "efg_rank": 25
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 13.1,
+          "freq_rank": 6,
+          "efg": 43.1,
+          "efg_rank": 12
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 11.2,
+          "freq_rank": 14,
+          "efg": 69.7,
+          "efg_rank": 2
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 31.0,
+          "freq_rank": 15,
+          "efg": 52.6,
+          "efg_rank": 16
+        }
+      ],
+      "shot_zones_def": [
+        {
+          "name": "\u00c1rea restrita",
+          "freq": 39.4,
+          "freq_rank": 30,
+          "efg": 69.5,
+          "efg_rank": 20
+        },
+        {
+          "name": "Garraf\u00e3o (n\u00e3o-RA)",
+          "freq": 16.3,
+          "freq_rank": 4,
+          "efg": 42.0,
+          "efg_rank": 8
+        },
+        {
+          "name": "Meia dist\u00e2ncia",
+          "freq": 9.0,
+          "freq_rank": 7,
+          "efg": 38.6,
+          "efg_rank": 8
+        },
+        {
+          "name": "Zona Morta",
+          "freq": 9.4,
+          "freq_rank": 6,
+          "efg": 56.9,
+          "efg_rank": 14
+        },
+        {
+          "name": "Above the break 3",
+          "freq": 25.9,
+          "freq_rank": 1,
+          "efg": 49.6,
+          "efg_rank": 7
+        }
+      ],
+      "drives": {
+        "per_game": 45.5,
+        "rank": 20,
+        "pizza": {
+          "shots": 48.6,
+          "passes": 33.2,
+          "tov": 8.4,
+          "fouls": 7.5,
+          "other": 2.4
+        }
+      },
+      "postups": {
+        "per_game": 1.4,
+        "rank": 26,
+        "pizza": {
+          "shots": 57.1,
+          "passes": 21.4,
+          "tov": 7.1,
+          "fouls": 7.1,
+          "other": 7.1
+        }
+      },
+      "play_types": [
+        {
+          "name": "Spot Up",
+          "freq": 20.7,
+          "ppp": 0.95,
+          "freq_rank": 28,
+          "eff_rank": 30
+        },
+        {
+          "name": "Transi\u00e7\u00e3o",
+          "freq": 18.6,
+          "ppp": 1.02,
+          "freq_rank": 14,
+          "eff_rank": 30
+        },
+        {
+          "name": "Pick & Roll (arm.)",
+          "freq": 18.4,
+          "ppp": 0.91,
+          "freq_rank": 3,
+          "eff_rank": 7
+        },
+        {
+          "name": "Pick & Roll (piv\u00f4)",
+          "freq": 7.0,
+          "ppp": 1.14,
+          "freq_rank": 4,
+          "eff_rank": 8
+        },
+        {
+          "name": "Isola\u00e7\u00e3o",
+          "freq": 6.5,
+          "ppp": 0.86,
+          "freq_rank": 18,
+          "eff_rank": 28
+        },
+        {
+          "name": "Cortes",
+          "freq": 5.6,
+          "ppp": 1.36,
+          "freq_rank": 23,
+          "eff_rank": 7
+        },
+        {
+          "name": "Handoff",
+          "freq": 5.4,
+          "ppp": 0.89,
+          "freq_rank": 8,
+          "eff_rank": 27
+        },
+        {
+          "name": "Ap\u00f3s corta-luz",
+          "freq": 3.5,
+          "ppp": 0.99,
+          "freq_rank": 16,
+          "eff_rank": 13
+        },
+        {
+          "name": "Post Up",
+          "freq": 2.6,
+          "ppp": 0.91,
+          "freq_rank": 20,
+          "eff_rank": 27
+        }
+      ]
+    }
+  }
+}
