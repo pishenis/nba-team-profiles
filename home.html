@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bola Presa Stats</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;background:#fff;color:#1d1d1f;min-height:100vh;display:flex;flex-direction:column}
+.wrap{padding:3rem 2rem 2rem;max-width:900px;margin:0 auto;flex:1;width:100%}
+.header{display:flex;align-items:center;gap:10px;margin-bottom:3rem}
+.site-name{font-size:20px;font-weight:600;letter-spacing:-0.4px}
+.bp-brand{display:flex;align-items:center;gap:7px;margin-left:auto}
+.bp-logo{width:26px;height:26px;border-radius:6px;object-fit:cover}
+.bp-text{font-size:12px;color:#86868b}
+.hero{margin-bottom:2.5rem}
+.hero-title{font-size:36px;font-weight:700;letter-spacing:-1.2px;line-height:1.1;margin-bottom:10px}
+.hero-sub{font-size:15px;color:#6e6e73;line-height:1.6;margin-bottom:4px}
+.hero-meta{font-size:12px;color:#86868b}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{display:block;border:0.5px solid #e5e5ea;border-radius:16px;text-decoration:none;color:inherit;overflow:hidden;transition:all 0.15s;position:relative}
+.card:hover{border-color:#d2d2d7;transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,0,0,0.06)}
+.card-visual{height:140px;overflow:hidden;position:relative;display:flex;flex-wrap:wrap;gap:10px;padding:16px;align-content:center;justify-content:center}
+.card-body{padding:16px 18px 20px}
+.card-title{font-size:18px;font-weight:600;letter-spacing:-0.3px;margin-bottom:6px}
+.card-desc{font-size:13px;color:#6e6e73;line-height:1.6}
+.team-mini{width:28px;height:28px;object-fit:contain;flex-shrink:0;opacity:0.85;transition:opacity 0.2s}
+.card:hover .team-mini{opacity:1}
+.player-mini{width:32px;height:32px;border-radius:50%;object-fit:cover;flex-shrink:0;background:#e5e5ea;border:1.5px solid #fff}
+.footer{padding:1.25rem 2rem;text-align:center;font-size:12px;color:#86868b;border-top:0.5px solid #e5e5ea}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <span class="site-name">Bola Presa Stats</span>
+    <div class="bp-brand">
+      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
+      <span class="bp-text">um projeto Bola Presa</span>
+    </div>
+  </div>
+  
+  <div class="hero">
+    <div class="hero-title">Curadoria de números e dados da NBA</div>
+    <div class="hero-sub">Organizado pelo Bola Presa</div>
+    <div class="hero-meta">Temporada 2025-26 · Dados: NBA Stats e pbpstats.com</div>
+  </div>
+
+   <a class="card" href="playoffs.html">
+  <div class="card-visual" id="playoffs-visual" style="background:#f9f9f9;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap"></div>
+  <div class="card-body">
+    <div class="card-title">NBA Playoffs 2026</div>
+    <div class="card-desc">Preview, estatísticas e detalhes de todos os jogos dos Playoffs</div>
+  </div>
+  </a>
+
+  <div class="cards">
+    <a class="card" href="index.html">
+      <div class="card-visual" id="teams-visual" style="background:#f9f9f9"></div>
+      <div class="card-body">
+        <div class="card-title">Times</div>
+        <div class="card-desc">Perfil estatístico e ranking dos 30 times da NBA</div>
+      </div>
+    </a>
+    <a class="card" href="jogadores.html">
+      <div class="card-visual" id="players-visual" style="background:#f9f9f9"></div>
+      <div class="card-body">
+        <div class="card-title">Jogadores</div>
+        <div class="card-desc">Perfil individual de todos os jogadores com ao menos 14 minutos por jogo na temporada da NBA</div>
+      </div>
+    </a>
+  </div>
+  
+<div class="footer">Contato · bolapresa@gmail.com</div>
+
+<script>
+const TEAM_IDS=[
+  1610612737,1610612738,1610612751,1610612766,1610612741,
+  1610612739,1610612742,1610612743,1610612765,1610612744,
+  1610612745,1610612754,1610612746,1610612747,1610612763,
+  1610612748,1610612749,1610612750,1610612740,1610612752,
+  1610612760,1610612753,1610612755,1610612756,1610612757,
+  1610612758,1610612759,1610612761,1610612762,1610612764,
+];
+
+const PLAYER_IDS=[
+  2544,201939,203999,1628369,1629029,203507,201142,
+  1630162,1628983,1628378,1630169,1629630,1630595,
+  1631096,1641709,1631094,1628384,1626157,1630163,
+  1628374,1627759,203954,1628389,203081,1627734,
+  1628978,1629028,1630567,1627750,1629027,
+];
+
+const tv=document.getElementById('teams-visual');
+TEAM_IDS.forEach(tid=>{
+  const img=document.createElement('img');
+  img.className='team-mini';
+  img.src=`https://cdn.nba.com/logos/nba/${tid}/global/L/logo.svg`;
+  img.alt='';
+  tv.appendChild(img);
+});
+
+const pv=document.getElementById('players-visual');
+PLAYER_IDS.forEach(pid=>{
+  const img=document.createElement('img');
+  img.className='player-mini';
+  img.src=`https://cdn.nba.com/headshots/nba/latest/260x190/${pid}.png`;
+  img.alt='';
+  img.onerror=function(){this.style.opacity='0'};
+  pv.appendChild(img);
+});
+const pov=document.getElementById('playoffs-visual');
+const matchups=[
+  [1610612747,1610612745], // LAL vs HOU
+  [1610612743,1610612750], // DEN vs MIN
+  [1610612759,1610612757], // SAS vs POR
+  [1610612739,1610612761], // CLE vs TOR
+  [1610612752,1610612737], // NYK vs ATL
+  [1610612765,1610612753], // DET vs ORL
+];
+matchups.forEach(([t1,t2])=>{
+  const pair=document.createElement('div');
+  pair.style.cssText='display:flex;align-items:center;gap:4px';
+  const i1=document.createElement('img');
+  i1.style.cssText='width:28px;height:28px;object-fit:contain';
+  i1.src=`https://cdn.nba.com/logos/nba/${t1}/global/L/logo.svg`;
+  const sep=document.createElement('span');
+  sep.style.cssText='font-size:10px;color:#86868b;font-weight:500';
+  sep.textContent='×';
+  const i2=document.createElement('img');
+  i2.style.cssText='width:28px;height:28px;object-fit:contain';
+  i2.src=`https://cdn.nba.com/logos/nba/${t2}/global/L/logo.svg`;
+  pair.appendChild(i1);pair.appendChild(sep);pair.appendChild(i2);
+  pov.appendChild(pair);
+});
+</script>
+</body>
+</html>

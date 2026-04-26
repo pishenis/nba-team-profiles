@@ -1,0 +1,3729 @@
+{
+  "game_id": "0042500173",
+  "date": "2026-04-24",
+  "home": "HOU",
+  "away": "LAL",
+  "home_pts": 108,
+  "away_pts": 112,
+  "winner": "LAL",
+  "game_flow": {
+    "quarter_scores": {
+      "HOU": [
+        32,
+        20,
+        23,
+        26
+      ],
+      "LAL": [
+        39,
+        24,
+        17,
+        21
+      ]
+    },
+    "lead_changes": 6,
+    "ties": 8,
+    "time_leading_home_fmt": "5:57",
+    "time_leading_away_fmt": "43:18",
+    "time_tied_fmt": "3:45",
+    "best_run_home": {
+      "pts_home": 12,
+      "pts_away": 4,
+      "start_min": 24.2,
+      "end_min": 29.2
+    },
+    "best_run_away": {
+      "pts_home": 4,
+      "pts_away": 16,
+      "start_min": 47.4,
+      "end_min": 52.4
+    },
+    "max_consec_home": 6,
+    "max_consec_away": 11
+  },
+  "four_factors": {
+    "HOU": {
+      "efg": 46.4,
+      "ftr": 0.235,
+      "tov": 16.5,
+      "oreb": 36.1,
+      "opp_efg": 55.7,
+      "opp_ftr": 0.405,
+      "opp_tov": 19.8,
+      "opp_oreb": 31.1
+    },
+    "LAL": {
+      "efg": 55.7,
+      "ftr": 0.405,
+      "tov": 19.8,
+      "oreb": 31.1,
+      "opp_efg": 46.4,
+      "opp_ftr": 0.235,
+      "opp_tov": 16.5,
+      "opp_oreb": 36.1
+    }
+  },
+  "misc": {
+    "HOU": {
+      "pts_fb": 15,
+      "pts_paint": 54,
+      "pts_2nd_chance": 18,
+      "blocks": 6
+    },
+    "LAL": {
+      "pts_fb": 9,
+      "pts_paint": 50,
+      "pts_2nd_chance": 17,
+      "blocks": 6
+    }
+  },
+  "hustle": {
+    "HOU": {
+      "deflections": 28,
+      "contested_shots": 37,
+      "contested_2pt": 26,
+      "contested_3pt": 11,
+      "charges_drawn": 0
+    },
+    "LAL": {
+      "deflections": 22,
+      "contested_shots": 48,
+      "contested_2pt": 31,
+      "contested_3pt": 17,
+      "charges_drawn": 0
+    }
+  },
+  "box_score": {
+    "HOU": [
+      {
+        "id": "1631106",
+        "name": "T. Eason",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "45:38",
+        "pts": 5,
+        "reb": 4,
+        "ast": 2,
+        "stl": 4,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 9,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 1,
+        "fta": 1,
+        "plus_minus": 6,
+        "starter": true
+      },
+      {
+        "id": "1631095",
+        "name": "J. Smith Jr.",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "43:43",
+        "pts": 24,
+        "reb": 6,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 8,
+        "fga": 16,
+        "fg3m": 6,
+        "fg3a": 10,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 4,
+        "starter": true
+      },
+      {
+        "id": "1630578",
+        "name": "A. Sengun",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "46:51",
+        "pts": 33,
+        "reb": 16,
+        "ast": 6,
+        "stl": 3,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 15,
+        "fga": 27,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 3,
+        "plus_minus": 10,
+        "starter": true
+      },
+      {
+        "id": "1642263",
+        "name": "R. Sheppard",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "45:45",
+        "pts": 17,
+        "reb": 4,
+        "ast": 7,
+        "stl": 3,
+        "blk": 2,
+        "tov": 5,
+        "fgm": 6,
+        "fga": 21,
+        "fg3m": 4,
+        "fg3a": 13,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -2,
+        "starter": true
+      },
+      {
+        "id": "1641708",
+        "name": "A. Thompson",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "48:23",
+        "pts": 26,
+        "reb": 11,
+        "ast": 4,
+        "stl": 3,
+        "blk": 3,
+        "tov": 1,
+        "fgm": 8,
+        "fga": 14,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 10,
+        "fta": 13,
+        "plus_minus": 6,
+        "starter": true
+      },
+      {
+        "id": "1629006",
+        "name": "J. Okogie",
+        "pos": "",
+        "jersey": "",
+        "minutes": "3:33",
+        "pts": 0,
+        "reb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -13,
+        "starter": true
+      },
+      {
+        "id": "203991",
+        "name": "C. Capela",
+        "pos": "",
+        "jersey": "",
+        "minutes": "3:40",
+        "pts": 2,
+        "reb": 2,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -11,
+        "starter": true
+      },
+      {
+        "id": "1627827",
+        "name": "D. Finney-Smith",
+        "pos": "",
+        "jersey": "",
+        "minutes": "11:00",
+        "pts": 0,
+        "reb": 4,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -6,
+        "starter": true
+      },
+      {
+        "id": "1628988",
+        "name": "A. Holiday",
+        "pos": "",
+        "jersey": "",
+        "minutes": "5:33",
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -1,
+        "starter": true
+      },
+      {
+        "id": "1630256",
+        "name": "J. Tate",
+        "pos": "",
+        "jersey": "",
+        "minutes": "3:23",
+        "pts": 1,
+        "reb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -9,
+        "starter": true
+      },
+      {
+        "id": "201145",
+        "name": "J. Green",
+        "pos": "",
+        "jersey": "",
+        "minutes": "7:31",
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -4,
+        "starter": true
+      }
+    ],
+    "LAL": [
+      {
+        "id": "2544",
+        "name": "L. James",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "45:04",
+        "pts": 29,
+        "reb": 13,
+        "ast": 6,
+        "stl": 3,
+        "blk": 1,
+        "tov": 8,
+        "fgm": 10,
+        "fga": 22,
+        "fg3m": 4,
+        "fg3a": 9,
+        "ftm": 5,
+        "fta": 6,
+        "plus_minus": 0,
+        "starter": true
+      },
+      {
+        "id": "1629060",
+        "name": "R. Hachimura",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "43:48",
+        "pts": 22,
+        "reb": 4,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 8,
+        "fga": 14,
+        "fg3m": 4,
+        "fg3a": 7,
+        "ftm": 2,
+        "fta": 4,
+        "plus_minus": 0,
+        "starter": true
+      },
+      {
+        "id": "1629028",
+        "name": "D. Ayton",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "32:46",
+        "pts": 2,
+        "reb": 6,
+        "ast": 2,
+        "stl": 1,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -6,
+        "starter": true
+      },
+      {
+        "id": "203935",
+        "name": "M. Smart",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "39:17",
+        "pts": 21,
+        "reb": 4,
+        "ast": 10,
+        "stl": 5,
+        "blk": 2,
+        "tov": 3,
+        "fgm": 5,
+        "fga": 9,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 9,
+        "fta": 11,
+        "plus_minus": 3,
+        "starter": true
+      },
+      {
+        "id": "1628379",
+        "name": "L. Kennard",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "45:22",
+        "pts": 14,
+        "reb": 6,
+        "ast": 6,
+        "stl": 0,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 4,
+        "fga": 12,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 5,
+        "fta": 6,
+        "plus_minus": -3,
+        "starter": true
+      },
+      {
+        "id": "1631222",
+        "name": "J. LaRavia",
+        "pos": "",
+        "jersey": "",
+        "minutes": "14:55",
+        "pts": 2,
+        "reb": 2,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 9,
+        "starter": true
+      },
+      {
+        "id": "1629637",
+        "name": "J. Hayes",
+        "pos": "",
+        "jersey": "",
+        "minutes": "19:57",
+        "pts": 12,
+        "reb": 4,
+        "ast": 0,
+        "stl": 1,
+        "blk": 2,
+        "tov": 1,
+        "fgm": 5,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 3,
+        "plus_minus": 7,
+        "starter": true
+      },
+      {
+        "id": "1642355",
+        "name": "B. James",
+        "pos": "",
+        "jersey": "",
+        "minutes": "9:12",
+        "pts": 5,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 4,
+        "starter": true
+      },
+      {
+        "id": "1629020",
+        "name": "J. Vanderbilt",
+        "pos": "",
+        "jersey": "",
+        "minutes": "14:38",
+        "pts": 5,
+        "reb": 6,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": 6,
+        "starter": true
+      },
+      {
+        "id": "1641733",
+        "name": "N. Smith Jr.",
+        "pos": "",
+        "jersey": "",
+        "minutes": "0:01",
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 0,
+        "starter": true
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 0.25,
+      "home": 0,
+      "away": 3,
+      "period": 1
+    },
+    {
+      "min": 0.6,
+      "home": 3,
+      "away": 3,
+      "period": 1
+    },
+    {
+      "min": 0.92,
+      "home": 3,
+      "away": 6,
+      "period": 1
+    },
+    {
+      "min": 1.35,
+      "home": 6,
+      "away": 6,
+      "period": 1
+    },
+    {
+      "min": 1.7,
+      "home": 6,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 1.95,
+      "home": 8,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 2.57,
+      "home": 8,
+      "away": 9,
+      "period": 1
+    },
+    {
+      "min": 2.88,
+      "home": 10,
+      "away": 9,
+      "period": 1
+    },
+    {
+      "min": 3.12,
+      "home": 10,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 3.98,
+      "home": 10,
+      "away": 15,
+      "period": 1
+    },
+    {
+      "min": 4.32,
+      "home": 13,
+      "away": 15,
+      "period": 1
+    },
+    {
+      "min": 4.53,
+      "home": 13,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 5.12,
+      "home": 14,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 5.72,
+      "home": 16,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 6.1,
+      "home": 18,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 6.1,
+      "home": 19,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 6.45,
+      "home": 19,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 7.0,
+      "home": 19,
+      "away": 20,
+      "period": 1
+    },
+    {
+      "min": 7.0,
+      "home": 19,
+      "away": 21,
+      "period": 1
+    },
+    {
+      "min": 7.28,
+      "home": 21,
+      "away": 21,
+      "period": 1
+    },
+    {
+      "min": 7.62,
+      "home": 21,
+      "away": 23,
+      "period": 1
+    },
+    {
+      "min": 7.73,
+      "home": 22,
+      "away": 23,
+      "period": 1
+    },
+    {
+      "min": 7.73,
+      "home": 23,
+      "away": 23,
+      "period": 1
+    },
+    {
+      "min": 7.95,
+      "home": 23,
+      "away": 25,
+      "period": 1
+    },
+    {
+      "min": 7.95,
+      "home": 23,
+      "away": 26,
+      "period": 1
+    },
+    {
+      "min": 8.33,
+      "home": 23,
+      "away": 29,
+      "period": 1
+    },
+    {
+      "min": 9.12,
+      "home": 23,
+      "away": 32,
+      "period": 1
+    },
+    {
+      "min": 9.65,
+      "home": 23,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 9.8,
+      "home": 25,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 9.8,
+      "home": 26,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 9.8,
+      "home": 27,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 10.0,
+      "home": 29,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 10.6,
+      "home": 29,
+      "away": 36,
+      "period": 1
+    },
+    {
+      "min": 10.78,
+      "home": 32,
+      "away": 36,
+      "period": 1
+    },
+    {
+      "min": 11.09,
+      "home": 32,
+      "away": 38,
+      "period": 1
+    },
+    {
+      "min": 11.61,
+      "home": 32,
+      "away": 39,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 2
+    },
+    {
+      "min": 12.27,
+      "home": 35,
+      "away": 39,
+      "period": 2
+    },
+    {
+      "min": 12.77,
+      "home": 35,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 13.47,
+      "home": 35,
+      "away": 42,
+      "period": 2
+    },
+    {
+      "min": 13.47,
+      "home": 35,
+      "away": 43,
+      "period": 2
+    },
+    {
+      "min": 13.72,
+      "home": 38,
+      "away": 43,
+      "period": 2
+    },
+    {
+      "min": 14.43,
+      "home": 38,
+      "away": 45,
+      "period": 2
+    },
+    {
+      "min": 14.62,
+      "home": 39,
+      "away": 45,
+      "period": 2
+    },
+    {
+      "min": 14.62,
+      "home": 40,
+      "away": 45,
+      "period": 2
+    },
+    {
+      "min": 15.3,
+      "home": 40,
+      "away": 47,
+      "period": 2
+    },
+    {
+      "min": 16.38,
+      "home": 40,
+      "away": 50,
+      "period": 2
+    },
+    {
+      "min": 16.82,
+      "home": 40,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 17.17,
+      "home": 43,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 17.47,
+      "home": 43,
+      "away": 55,
+      "period": 2
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2
+    },
+    {
+      "min": 17.9,
+      "home": 43,
+      "away": 57,
+      "period": 2
+    },
+    {
+      "min": 18.2,
+      "home": 44,
+      "away": 57,
+      "period": 2
+    },
+    {
+      "min": 18.38,
+      "home": 44,
+      "away": 59,
+      "period": 2
+    },
+    {
+      "min": 19.1,
+      "home": 46,
+      "away": 59,
+      "period": 2
+    },
+    {
+      "min": 20.37,
+      "home": 47,
+      "away": 59,
+      "period": 2
+    },
+    {
+      "min": 20.37,
+      "home": 48,
+      "away": 59,
+      "period": 2
+    },
+    {
+      "min": 22.05,
+      "home": 48,
+      "away": 60,
+      "period": 2
+    },
+    {
+      "min": 22.05,
+      "home": 48,
+      "away": 61,
+      "period": 2
+    },
+    {
+      "min": 22.2,
+      "home": 49,
+      "away": 61,
+      "period": 2
+    },
+    {
+      "min": 22.2,
+      "home": 50,
+      "away": 61,
+      "period": 2
+    },
+    {
+      "min": 23.25,
+      "home": 52,
+      "away": 61,
+      "period": 2
+    },
+    {
+      "min": 23.71,
+      "home": 52,
+      "away": 63,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 63,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 24.33,
+      "home": 54,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 25.48,
+      "home": 54,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 26.43,
+      "home": 55,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 26.82,
+      "home": 57,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 27.97,
+      "home": 59,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 28.27,
+      "home": 59,
+      "away": 67,
+      "period": 3
+    },
+    {
+      "min": 28.88,
+      "home": 61,
+      "away": 67,
+      "period": 3
+    },
+    {
+      "min": 28.88,
+      "home": 62,
+      "away": 67,
+      "period": 3
+    },
+    {
+      "min": 29.2,
+      "home": 64,
+      "away": 67,
+      "period": 3
+    },
+    {
+      "min": 29.73,
+      "home": 64,
+      "away": 68,
+      "period": 3
+    },
+    {
+      "min": 30.43,
+      "home": 64,
+      "away": 70,
+      "period": 3
+    },
+    {
+      "min": 30.67,
+      "home": 66,
+      "away": 70,
+      "period": 3
+    },
+    {
+      "min": 32.5,
+      "home": 68,
+      "away": 70,
+      "period": 3
+    },
+    {
+      "min": 32.5,
+      "home": 69,
+      "away": 70,
+      "period": 3
+    },
+    {
+      "min": 32.83,
+      "home": 69,
+      "away": 73,
+      "period": 3
+    },
+    {
+      "min": 33.32,
+      "home": 69,
+      "away": 74,
+      "period": 3
+    },
+    {
+      "min": 33.62,
+      "home": 71,
+      "away": 74,
+      "period": 3
+    },
+    {
+      "min": 34.47,
+      "home": 71,
+      "away": 74,
+      "period": 3
+    },
+    {
+      "min": 34.47,
+      "home": 71,
+      "away": 75,
+      "period": 3
+    },
+    {
+      "min": 35.02,
+      "home": 71,
+      "away": 78,
+      "period": 3
+    },
+    {
+      "min": 35.31,
+      "home": 73,
+      "away": 78,
+      "period": 3
+    },
+    {
+      "min": 35.49,
+      "home": 73,
+      "away": 80,
+      "period": 3
+    },
+    {
+      "min": 35.81,
+      "home": 75,
+      "away": 80,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 4
+    },
+    {
+      "min": 36.42,
+      "home": 75,
+      "away": 82,
+      "period": 4
+    },
+    {
+      "min": 37.45,
+      "home": 75,
+      "away": 83,
+      "period": 4
+    },
+    {
+      "min": 37.77,
+      "home": 78,
+      "away": 83,
+      "period": 4
+    },
+    {
+      "min": 38.58,
+      "home": 78,
+      "away": 84,
+      "period": 4
+    },
+    {
+      "min": 38.58,
+      "home": 78,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 38.83,
+      "home": 81,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 39.85,
+      "home": 83,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 40.83,
+      "home": 83,
+      "away": 87,
+      "period": 4
+    },
+    {
+      "min": 41.25,
+      "home": 85,
+      "away": 87,
+      "period": 4
+    },
+    {
+      "min": 41.65,
+      "home": 87,
+      "away": 87,
+      "period": 4
+    },
+    {
+      "min": 41.93,
+      "home": 87,
+      "away": 89,
+      "period": 4
+    },
+    {
+      "min": 42.38,
+      "home": 89,
+      "away": 89,
+      "period": 4
+    },
+    {
+      "min": 42.75,
+      "home": 89,
+      "away": 91,
+      "period": 4
+    },
+    {
+      "min": 43.02,
+      "home": 92,
+      "away": 91,
+      "period": 4
+    },
+    {
+      "min": 43.48,
+      "home": 93,
+      "away": 91,
+      "period": 4
+    },
+    {
+      "min": 44.22,
+      "home": 95,
+      "away": 91,
+      "period": 4
+    },
+    {
+      "min": 45.22,
+      "home": 95,
+      "away": 93,
+      "period": 4
+    },
+    {
+      "min": 45.62,
+      "home": 97,
+      "away": 93,
+      "period": 4
+    },
+    {
+      "min": 45.82,
+      "home": 97,
+      "away": 95,
+      "period": 4
+    },
+    {
+      "min": 47.17,
+      "home": 99,
+      "away": 95,
+      "period": 4
+    },
+    {
+      "min": 47.32,
+      "home": 101,
+      "away": 95,
+      "period": 4
+    },
+    {
+      "min": 47.58,
+      "home": 101,
+      "away": 96,
+      "period": 4
+    },
+    {
+      "min": 47.58,
+      "home": 101,
+      "away": 97,
+      "period": 4
+    },
+    {
+      "min": 47.58,
+      "home": 101,
+      "away": 98,
+      "period": 4
+    },
+    {
+      "min": 47.77,
+      "home": 101,
+      "away": 101,
+      "period": 4
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 5
+    },
+    {
+      "min": 48.85,
+      "home": 101,
+      "away": 104,
+      "period": 5
+    },
+    {
+      "min": 49.3,
+      "home": 101,
+      "away": 105,
+      "period": 5
+    },
+    {
+      "min": 49.6,
+      "home": 103,
+      "away": 105,
+      "period": 5
+    },
+    {
+      "min": 50.42,
+      "home": 103,
+      "away": 107,
+      "period": 5
+    },
+    {
+      "min": 50.85,
+      "home": 105,
+      "away": 107,
+      "period": 5
+    },
+    {
+      "min": 52.13,
+      "home": 105,
+      "away": 108,
+      "period": 5
+    },
+    {
+      "min": 52.13,
+      "home": 105,
+      "away": 109,
+      "period": 5
+    },
+    {
+      "min": 52.41,
+      "home": 105,
+      "away": 110,
+      "period": 5
+    },
+    {
+      "min": 52.41,
+      "home": 105,
+      "away": 111,
+      "period": 5
+    },
+    {
+      "min": 52.52,
+      "home": 108,
+      "away": 111,
+      "period": 5
+    },
+    {
+      "min": 52.59,
+      "home": 108,
+      "away": 112,
+      "period": 5
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5
+    }
+  ],
+  "shots": [
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -233,
+      "y": 16,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Hachimura 3PT Jump Shot (3 PTS) (L. James 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -172,
+      "y": 188,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Sheppard 25' 3PT Jump Shot (3 PTS) (Thompson 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": 45,
+      "y": 250,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "L. James 25' 3PT Jump Shot (3 PTS) (Ayton 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": 235,
+      "y": 22,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Smith Jr. 24' 3PT Jump Shot (3 PTS) (Sengun 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 37,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Sheppard 4' Driving Finger Roll Layup (5 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": 60,
+      "y": 74,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hachimura 10' Turnaround Fadeaway (6 PTS) (Smart 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 28,
+      "y": 27,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Sengun 4' Driving Finger Roll Layup (2 PTS) (Sheppard 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -31,
+      "y": 247,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Hachimura 25' 3PT Jump Shot (9 PTS) (Smart 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 229,
+      "y": 39,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Sheppard 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": 232,
+      "y": 55,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Thompson 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -129,
+      "y": 20,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Smith Jr. 13' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": 54,
+      "y": 256,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Kennard 26' 3PT Jump Shot (3 PTS) (L. James 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -172,
+      "y": 189,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Smith Jr. 26' 3PT Jump Shot (6 PTS) (Eason 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -21,
+      "y": 19,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hachimura 3' Alley Oop Dunk (11 PTS) (Ayton 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -120,
+      "y": 279,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Sheppard 30' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -199,
+      "y": 225,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Sheppard 30' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "D. Ayton",
+      "x": 25,
+      "y": 9,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Ayton 3' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": -7,
+      "y": 20,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Eason 2' Driving Finger Roll Layup (2 PTS) (Sengun 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": -72,
+      "y": 232,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Kennard 24' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -12,
+      "y": 28,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Sengun 3' Driving Layup (4 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -22,
+      "y": -2,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "L. James 2' Driving Layup (5 PTS) (Kennard 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -192,
+      "y": 195,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Sengun 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "D. Ayton",
+      "x": 13,
+      "y": 185,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Ayton 19' Running Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": 156,
+      "y": 200,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Kennard 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": 92,
+      "y": 22,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Smith Jr. 9' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "HOU",
+      "player": "C. Capela",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Capela Tip Layup Shot (2 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": -29,
+      "y": 68,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Smart 7' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Hayes",
+      "x": 15,
+      "y": 32,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hayes 4' Cutting Layup Shot (2 PTS) (Kennard 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Hayes",
+      "x": -9,
+      "y": 42,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hayes 4' Cutting Dunk Shot (4 PTS) (Smart 3 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": 232,
+      "y": -5,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Hachimura 3PT Jump Shot (14 PTS) (Kennard 3 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": 23,
+      "y": 137,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Thompson 14' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "D. Finney-Smith",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Finney-Smith Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "HOU",
+      "player": "C. Capela",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Capela Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "HOU",
+      "player": "J. Okogie",
+      "x": 1,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Okogie 1' Tip Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "D. Finney-Smith",
+      "x": 170,
+      "y": 202,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Finney-Smith 26' 3PT Jump Bank Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": -50,
+      "y": 253,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Smart 26' 3PT Pullup Jump Shot (3 PTS) (LaRavia 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Hayes",
+      "x": 21,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hayes 3' Alley Oop Dunk (7 PTS) (Kennard 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -18,
+      "y": 70,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Sengun 7' Driving Hook Shot (7 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 10,
+      "y": 21,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Sengun 2' Running Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": -6,
+      "y": 49,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Eason 5' Putback Layup (5 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": -6,
+      "y": 26,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Kennard 3' Cutting Finger Roll Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Holiday",
+      "x": 194,
+      "y": 167,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Holiday 26' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": 6,
+      "y": 9,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Kennard 1' Running Layup (7 PTS) (Hachimura 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 38,
+      "y": 257,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Sengun 26' 3PT Jump Shot (11 PTS) (Thompson 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": 50,
+      "y": 105,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hachimura 12' Turnaround Fadeaway (16 PTS) (Smart 4 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": -32,
+      "y": -6,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Kennard 3' Running Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": -223,
+      "y": 16,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Kennard 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -22,
+      "y": 258,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Smith Jr. 26' 3PT Jump Shot (9 PTS) (Sheppard 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "J. LaRavia",
+      "x": -98,
+      "y": 10,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS LaRavia 10' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Vanderbilt",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Vanderbilt Tip Layup Shot (2 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": 25,
+      "y": 258,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Smith Jr. 26' 3PT Jump Shot (12 PTS) (Sheppard 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "J. LaRavia",
+      "x": -59,
+      "y": 32,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS LaRavia 7' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": 233,
+      "y": 122,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Eason 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "J. LaRavia",
+      "x": 16,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "LaRavia 2' Cutting Layup Shot (2 PTS) (L. James 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -225,
+      "y": 18,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Sheppard 3PT Pullup Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -151,
+      "y": 78,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "L. James 17' Fadeaway Bank Shot (9 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -229,
+      "y": 17,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Smith Jr. 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 234,
+      "y": 15,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Sheppard 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": -61,
+      "y": 105,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Eason 12' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Vanderbilt",
+      "x": 227,
+      "y": 37,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Vanderbilt 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "LAL",
+      "player": "B. James",
+      "x": -96,
+      "y": 231,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "B. James 25' 3PT Pullup Jump Shot (3 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -21,
+      "y": 17,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Sheppard 3' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "B. James",
+      "x": -17,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "B. James 2' Running Alley Oop Layup Shot (5 PTS) (L. James 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 112,
+      "y": 237,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Sheppard 26' 3PT Pullup Jump Shot (8 PTS) (Capela 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -2,
+      "y": 248,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "L. James 25' 3PT Pullup Jump Shot (12 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 23,
+      "y": 33,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Sheppard 4' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": 23,
+      "y": 10,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "L. James 3' Cutting Finger Roll Layup Shot (14 PTS) (Smart 5 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Hayes",
+      "x": -20,
+      "y": 20,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Hayes 3' Alley Oop Dunk (9 PTS) (Smart 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": 42,
+      "y": 20,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Thompson 5' Driving Floating Bank Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": 4,
+      "y": 25,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Thompson 3' Cutting Dunk Shot (7 PTS) (Sengun 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": 67,
+      "y": 53,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS L. James 9' Driving Finger Roll Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -92,
+      "y": 89,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Hachimura 13' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 42,
+      "y": 185,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Sheppard 19' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Vanderbilt",
+      "x": -23,
+      "y": 24,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Vanderbilt 3' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 56,
+      "y": 88,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Sengun 10' Turnaround Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": 27,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Kennard 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -131,
+      "y": 206,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Hachimura 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 159,
+      "y": 220,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Sengun 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": 40,
+      "y": 15,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Eason 4' Running Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -38,
+      "y": 83,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Thompson 9' Turnaround Fadeaway (11 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -80,
+      "y": 161,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Hachimura 18' Step Back Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": -28,
+      "y": 84,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Kennard 9' Pullup Jump Shot (10 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -47,
+      "y": 175,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Thompson 18' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -21,
+      "y": 53,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Sengun 6' Driving Hook Shot (13 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": 105,
+      "y": 16,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS L. James 11' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 12,
+      "y": 251,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Sengun 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": 33,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Smart 4' Driving Finger Roll Layup (5 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -66,
+      "y": 115,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Hachimura 13' Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -54,
+      "y": 17,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS L. James 6' Driving Finger Roll Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": 7,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Smith Jr. 2' Running Finger Roll Layup (16 PTS) (Eason 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": 82,
+      "y": 243,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Smith Jr. 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": -228,
+      "y": -1,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Smart 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": 120,
+      "y": 125,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Smith Jr. 17' Running Jump Shot (18 PTS) (Thompson 3 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "LAL",
+      "player": "D. Ayton",
+      "x": -9,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Ayton 1' Alley Oop Layup (2 PTS) (Smart 7 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -83,
+      "y": 247,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Sheppard 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": 93,
+      "y": 239,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Smart 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -22,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Sheppard 2' Driving Finger Roll Layup (10 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -7,
+      "y": 39,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS L. James 4' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -5,
+      "y": 30,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Thompson 3' Running Dunk (14 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -230,
+      "y": 11,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Hachimura 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": 230,
+      "y": 7,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Hachimura 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "D. Finney-Smith",
+      "x": -138,
+      "y": 210,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Finney-Smith 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": -4,
+      "y": 130,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Kennard 13' Pullup Jump Shot (12 PTS) (L. James 5 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -88,
+      "y": 260,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Sheppard 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -18,
+      "y": 14,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Thompson 2' Putback Dunk (16 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "J. LaRavia",
+      "x": 21,
+      "y": 89,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS LaRavia 9' Turnaround Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "D. Finney-Smith",
+      "x": -230,
+      "y": 1,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Finney-Smith 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -49,
+      "y": 171,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Sengun 18' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "D. Finney-Smith",
+      "x": -230,
+      "y": -4,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Finney-Smith 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Green",
+      "x": 93,
+      "y": 35,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Green 10' Driving Floating Bank Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 229,
+      "y": 38,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Sheppard 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -18,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Thompson 2' Putback Layup (18 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": -232,
+      "y": 85,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Hachimura 25' 3PT Jump Shot (19 PTS) (Kennard 5 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 9,
+      "y": 13,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Sengun 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 45,
+      "y": 94,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Sengun 10' Turnaround Hook Shot (15 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -48,
+      "y": 27,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Thompson 6' Cutting Layup Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Green",
+      "x": 127,
+      "y": 215,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Green 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -183,
+      "y": 214,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "L. James 28' 3PT Jump Shot (20 PTS) (Smart 8 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -1,
+      "y": 50,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Sengun 5' Turnaround Hook Shot (17 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Vanderbilt",
+      "x": -13,
+      "y": 10,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Vanderbilt 2' Reverse Layup (4 PTS) (Smart 9 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": 5,
+      "y": 167,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Thompson 17' Pullup Jump Shot (21 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -183,
+      "y": 277,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS L. James 33' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": 25,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "L. James 3' Cutting Finger Roll Layup Shot (22 PTS) (Vanderbilt 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 18,
+      "y": 6,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Sheppard 2' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Vanderbilt",
+      "x": 232,
+      "y": 34,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Vanderbilt 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": 228,
+      "y": 117,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Eason 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": 83,
+      "y": 255,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Smith Jr. 27' 3PT Jump Shot (21 PTS) (Thompson 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -91,
+      "y": 129,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Smith Jr. 16' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": 197,
+      "y": 161,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Eason 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -136,
+      "y": 209,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Smith Jr. 25' 3PT Jump Shot (24 PTS) (Sheppard 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": 119,
+      "y": 136,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS L. James 18' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 4,
+      "y": 134,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Sengun 13' Turnaround Fadeaway (19 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -15,
+      "y": 21,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "L. James 3' Driving Finger Roll Layup (24 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 36,
+      "y": 105,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Sengun 11' Turnaround Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Sengun Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -15,
+      "y": 26,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Thompson 3' Cutting Dunk Shot (23 PTS) (Sengun 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": -13,
+      "y": 107,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Smart 11' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -22,
+      "y": 14,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Thompson 3' Running Layup (25 PTS) (Sengun 5 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": -75,
+      "y": 50,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Smart 9' Turnaround Fadeaway (8 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": -53,
+      "y": 79,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Eason 10' Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Sengun Tip Layup Shot (21 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": -5,
+      "y": 31,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Smart 3' Driving Finger Roll Layup (10 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -159,
+      "y": 197,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Sheppard 25' 3PT Jump Shot (14 PTS) (Sengun 6 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Hayes",
+      "x": -9,
+      "y": 29,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Hayes 3' Driving Dunk",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Hayes",
+      "x": 43,
+      "y": 22,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Hayes 5' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 22,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Sengun 3' Driving Bank Hook Shot (23 PTS) (Sheppard 5 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -26,
+      "y": 134,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS L. James 14' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -172,
+      "y": 215,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Smith Jr. 28' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": 218,
+      "y": 137,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Kennard 26' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Hayes",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Hayes Tip Dunk Shot (12 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -17,
+      "y": 27,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Sengun 3' Driving Dunk (25 PTS) (Sheppard 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": 17,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "L. James 2' Alley Oop Dunk (26 PTS) (Smart 10 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Thompson",
+      "x": -53,
+      "y": 79,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Thompson 10' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. Kennard",
+      "x": -147,
+      "y": 206,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Kennard 25' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 12,
+      "y": 19,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Sheppard 2' Driving Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -4,
+      "y": 36,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Sengun 4' Driving Hook Shot (27 PTS) (Sheppard 7 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 6,
+      "y": 31,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Sengun 3' Running Dunk (29 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -147,
+      "y": 227,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS L. James 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "J. Hayes",
+      "x": -1,
+      "y": 21,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Hayes 2' Tip Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": 214,
+      "y": 125,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "L. James 25' 3PT Running Jump Shot (29 PTS) (Kennard 6 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 76,
+      "y": 19,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Sengun 8' Turnaround Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -188,
+      "y": 186,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS L. James 26' 3PT Turnaround Fadeaway Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "M. Smart",
+      "x": -228,
+      "y": 2,
+      "made": true,
+      "value": 3,
+      "period": 5,
+      "desc": "Smart 3PT Jump Shot (16 PTS) (Hachimura 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -62,
+      "y": 92,
+      "made": false,
+      "value": 2,
+      "period": 5,
+      "desc": "MISS Smith Jr. 11' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -18,
+      "y": 14,
+      "made": true,
+      "value": 2,
+      "period": 5,
+      "desc": "Sengun 2' Driving Layup (31 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -154,
+      "y": 214,
+      "made": false,
+      "value": 3,
+      "period": 5,
+      "desc": "MISS L. James 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "LAL",
+      "player": "R. Hachimura",
+      "x": 26,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 5,
+      "desc": "Hachimura 3' Driving Layup (22 PTS) (L. James 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 55,
+      "y": 105,
+      "made": true,
+      "value": 2,
+      "period": 5,
+      "desc": "Sengun 12' Turnaround Hook Shot (33 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -34,
+      "y": 37,
+      "made": false,
+      "value": 2,
+      "period": 5,
+      "desc": "MISS L. James 5' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": 74,
+      "y": 30,
+      "made": false,
+      "value": 2,
+      "period": 5,
+      "desc": "MISS Sheppard 8' Running Pull-Up Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": 31,
+      "y": 46,
+      "made": false,
+      "value": 2,
+      "period": 5,
+      "desc": "MISS Sengun 6' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "LAL",
+      "player": "L. James",
+      "x": -1,
+      "y": 267,
+      "made": false,
+      "value": 3,
+      "period": 5,
+      "desc": "MISS L. James 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "J. Smith Jr.",
+      "x": -227,
+      "y": -8,
+      "made": false,
+      "value": 3,
+      "period": 5,
+      "desc": "MISS Smith Jr. 3PT Step Back Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -229,
+      "y": 8,
+      "made": false,
+      "value": 3,
+      "period": 5,
+      "desc": "MISS Sheppard 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "HOU",
+      "player": "R. Sheppard",
+      "x": -179,
+      "y": 179,
+      "made": true,
+      "value": 3,
+      "period": 5,
+      "desc": "Sheppard 25' 3PT Pullup Jump Shot (17 PTS) (Smith Jr. 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "A. Sengun",
+      "x": -72,
+      "y": 242,
+      "made": false,
+      "value": 3,
+      "period": 5,
+      "desc": "MISS Sengun 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "HOU",
+      "player": "T. Eason",
+      "x": 227,
+      "y": 129,
+      "made": false,
+      "value": 3,
+      "period": 5,
+      "desc": "MISS Eason 26' 3PT Turnaround Jump Shot",
+      "zone": "arc_3"
+    }
+  ],
+  "shot_zones": {
+    "HOU": {
+      "at_rim": {
+        "fgm": 16,
+        "fga": 22,
+        "pct": 72.7
+      },
+      "paint": {
+        "fgm": 10,
+        "fga": 27,
+        "pct": 37.0
+      },
+      "mid": {
+        "fgm": 1,
+        "fga": 5,
+        "pct": 20.0
+      },
+      "corner_3": {
+        "fgm": 1,
+        "fga": 11,
+        "pct": 9.1
+      },
+      "arc_3": {
+        "fgm": 10,
+        "fga": 28,
+        "pct": 35.7
+      }
+    },
+    "LAL": {
+      "at_rim": {
+        "fgm": 17,
+        "fga": 25,
+        "pct": 68.0
+      },
+      "paint": {
+        "fgm": 6,
+        "fga": 18,
+        "pct": 33.3
+      },
+      "mid": {
+        "fgm": 1,
+        "fga": 5,
+        "pct": 20.0
+      },
+      "corner_3": {
+        "fgm": 4,
+        "fga": 10,
+        "pct": 40.0
+      },
+      "arc_3": {
+        "fgm": 8,
+        "fga": 19,
+        "pct": 42.1
+      }
+    }
+  },
+  "matchups": [
+    {
+      "off_id": "1630578",
+      "off_name": "A. Sengun",
+      "off_team": "HOU",
+      "def_id": "1629637",
+      "def_name": "J. Hayes",
+      "minutes": "5:03",
+      "fgm": 7,
+      "fga": 10,
+      "fg_pct": 70.0,
+      "fg3m": 1,
+      "fg3a": 2,
+      "pts": 16,
+      "partial_poss": 23.4
+    },
+    {
+      "off_id": "2544",
+      "off_name": "L. James",
+      "off_team": "LAL",
+      "def_id": "1630578",
+      "def_name": "A. Sengun",
+      "minutes": "2:13",
+      "fgm": 3,
+      "fga": 7,
+      "fg_pct": 42.9,
+      "fg3m": 1,
+      "fg3a": 4,
+      "pts": 9,
+      "partial_poss": 10.8
+    },
+    {
+      "off_id": "1629060",
+      "off_name": "R. Hachimura",
+      "off_team": "LAL",
+      "def_id": "1642263",
+      "def_name": "R. Sheppard",
+      "minutes": "8:00",
+      "fgm": 5,
+      "fga": 7,
+      "fg_pct": 71.4,
+      "fg3m": 2,
+      "fg3a": 3,
+      "pts": 13,
+      "partial_poss": 29.4
+    },
+    {
+      "off_id": "1630578",
+      "off_name": "A. Sengun",
+      "off_team": "HOU",
+      "def_id": "1629028",
+      "def_name": "D. Ayton",
+      "minutes": "7:31",
+      "fgm": 4,
+      "fga": 6,
+      "fg_pct": 66.7,
+      "fg3m": 0,
+      "fg3a": 2,
+      "pts": 8,
+      "partial_poss": 32.1
+    },
+    {
+      "off_id": "2544",
+      "off_name": "L. James",
+      "off_team": "LAL",
+      "def_id": "1631106",
+      "def_name": "T. Eason",
+      "minutes": "10:12",
+      "fgm": 1,
+      "fga": 6,
+      "fg_pct": 16.7,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 4,
+      "partial_poss": 42.1
+    },
+    {
+      "off_id": "1630578",
+      "off_name": "A. Sengun",
+      "off_team": "HOU",
+      "def_id": "1629060",
+      "def_name": "R. Hachimura",
+      "minutes": "1:57",
+      "fgm": 2,
+      "fga": 5,
+      "fg_pct": 40.0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 5,
+      "partial_poss": 10.8
+    },
+    {
+      "off_id": "1642263",
+      "off_name": "R. Sheppard",
+      "off_team": "HOU",
+      "def_id": "1629028",
+      "def_name": "D. Ayton",
+      "minutes": "1:41",
+      "fgm": 1,
+      "fga": 5,
+      "fg_pct": 20.0,
+      "fg3m": 0,
+      "fg3a": 2,
+      "pts": 2,
+      "partial_poss": 8.1
+    },
+    {
+      "off_id": "1641708",
+      "off_name": "A. Thompson",
+      "off_team": "HOU",
+      "def_id": "1629060",
+      "def_name": "R. Hachimura",
+      "minutes": "7:05",
+      "fgm": 3,
+      "fga": 5,
+      "fg_pct": 60.0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 9,
+      "partial_poss": 31.3
+    },
+    {
+      "off_id": "1631095",
+      "off_name": "J. Smith Jr.",
+      "off_team": "HOU",
+      "def_id": "1629060",
+      "def_name": "R. Hachimura",
+      "minutes": "1:32",
+      "fgm": 2,
+      "fga": 4,
+      "fg_pct": 50.0,
+      "fg3m": 1,
+      "fg3a": 1,
+      "pts": 5,
+      "partial_poss": 7.8
+    },
+    {
+      "off_id": "1631095",
+      "off_name": "J. Smith Jr.",
+      "off_team": "HOU",
+      "def_id": "2544",
+      "def_name": "L. James",
+      "minutes": "9:19",
+      "fgm": 1,
+      "fga": 4,
+      "fg_pct": 25.0,
+      "fg3m": 0,
+      "fg3a": 2,
+      "pts": 2,
+      "partial_poss": 37.8
+    },
+    {
+      "off_id": "1630578",
+      "off_name": "A. Sengun",
+      "off_team": "HOU",
+      "def_id": "2544",
+      "def_name": "L. James",
+      "minutes": "1:41",
+      "fgm": 3,
+      "fga": 4,
+      "fg_pct": 75.0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 6,
+      "partial_poss": 9.3
+    },
+    {
+      "off_id": "1630578",
+      "off_name": "A. Sengun",
+      "off_team": "HOU",
+      "def_id": "203935",
+      "def_name": "M. Smart",
+      "minutes": "1:25",
+      "fgm": 1,
+      "fga": 4,
+      "fg_pct": 25.0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 2,
+      "partial_poss": 6.9
+    },
+    {
+      "off_id": "1642263",
+      "off_name": "R. Sheppard",
+      "off_team": "HOU",
+      "def_id": "1628379",
+      "def_name": "L. Kennard",
+      "minutes": "1:27",
+      "fgm": 1,
+      "fga": 4,
+      "fg_pct": 25.0,
+      "fg3m": 1,
+      "fg3a": 3,
+      "pts": 3,
+      "partial_poss": 7.2
+    },
+    {
+      "off_id": "2544",
+      "off_name": "L. James",
+      "off_team": "LAL",
+      "def_id": "1641708",
+      "def_name": "A. Thompson",
+      "minutes": "1:40",
+      "fgm": 4,
+      "fga": 4,
+      "fg_pct": 100.0,
+      "fg3m": 2,
+      "fg3a": 2,
+      "pts": 11,
+      "partial_poss": 10.9
+    },
+    {
+      "off_id": "1631095",
+      "off_name": "J. Smith Jr.",
+      "off_team": "HOU",
+      "def_id": "1629028",
+      "def_name": "D. Ayton",
+      "minutes": "1:24",
+      "fgm": 2,
+      "fga": 3,
+      "fg_pct": 66.7,
+      "fg3m": 2,
+      "fg3a": 2,
+      "pts": 6,
+      "partial_poss": 7.0
+    },
+    {
+      "off_id": "1631095",
+      "off_name": "J. Smith Jr.",
+      "off_team": "HOU",
+      "def_id": "1642355",
+      "def_name": "B. James",
+      "minutes": "0:44",
+      "fgm": 2,
+      "fga": 3,
+      "fg_pct": 66.7,
+      "fg3m": 2,
+      "fg3a": 2,
+      "pts": 6,
+      "partial_poss": 2.9
+    },
+    {
+      "off_id": "1630578",
+      "off_name": "A. Sengun",
+      "off_team": "HOU",
+      "def_id": "1628379",
+      "def_name": "L. Kennard",
+      "minutes": "1:13",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 0,
+      "partial_poss": 5.1
+    },
+    {
+      "off_id": "1642263",
+      "off_name": "R. Sheppard",
+      "off_team": "HOU",
+      "def_id": "1629060",
+      "def_name": "R. Hachimura",
+      "minutes": "2:09",
+      "fgm": 2,
+      "fga": 3,
+      "fg_pct": 66.7,
+      "fg3m": 1,
+      "fg3a": 1,
+      "pts": 6,
+      "partial_poss": 11.3
+    },
+    {
+      "off_id": "1642263",
+      "off_name": "R. Sheppard",
+      "off_team": "HOU",
+      "def_id": "203935",
+      "def_name": "M. Smart",
+      "minutes": "6:16",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 1,
+      "fg3a": 2,
+      "pts": 3,
+      "partial_poss": 28.6
+    },
+    {
+      "off_id": "1642263",
+      "off_name": "R. Sheppard",
+      "off_team": "HOU",
+      "def_id": "1629020",
+      "def_name": "J. Vanderbilt",
+      "minutes": "2:18",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 1,
+      "fg3a": 2,
+      "pts": 3,
+      "partial_poss": 10.0
+    },
+    {
+      "off_id": "1641708",
+      "off_name": "A. Thompson",
+      "off_team": "HOU",
+      "def_id": "203935",
+      "def_name": "M. Smart",
+      "minutes": "3:47",
+      "fgm": 2,
+      "fga": 3,
+      "fg_pct": 66.7,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 4,
+      "partial_poss": 18.7
+    },
+    {
+      "off_id": "1629028",
+      "off_name": "D. Ayton",
+      "off_team": "LAL",
+      "def_id": "1630578",
+      "def_name": "A. Sengun",
+      "minutes": "8:08",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 2,
+      "partial_poss": 31.4
+    },
+    {
+      "off_id": "203935",
+      "off_name": "M. Smart",
+      "off_team": "LAL",
+      "def_id": "1642263",
+      "def_name": "R. Sheppard",
+      "minutes": "2:19",
+      "fgm": 2,
+      "fga": 3,
+      "fg_pct": 66.7,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 5,
+      "partial_poss": 11.7
+    },
+    {
+      "off_id": "203935",
+      "off_name": "M. Smart",
+      "off_team": "LAL",
+      "def_id": "1641708",
+      "def_name": "A. Thompson",
+      "minutes": "3:27",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 1,
+      "fg3a": 2,
+      "pts": 3,
+      "partial_poss": 17.5
+    },
+    {
+      "off_id": "1628379",
+      "off_name": "L. Kennard",
+      "off_team": "LAL",
+      "def_id": "1630578",
+      "def_name": "A. Sengun",
+      "minutes": "0:51",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 3,
+      "pts": 0,
+      "partial_poss": 5.8
+    },
+    {
+      "off_id": "1628379",
+      "off_name": "L. Kennard",
+      "off_team": "LAL",
+      "def_id": "1641708",
+      "def_name": "A. Thompson",
+      "minutes": "10:36",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 0,
+      "partial_poss": 42.9
+    }
+  ],
+  "collected": "2026-04-25"
+}

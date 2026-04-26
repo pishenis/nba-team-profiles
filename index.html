@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg">
+<title>NBA Team Profiles · Bola Presa</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;background:#fff;color:#1d1d1f}
+.page{display:none}.page.active{display:block}
+.wrap{padding:2.5rem 2rem 3rem;max-width:900px;margin:0 auto}
+.site-header{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.site-name{font-size:22px;font-weight:600;letter-spacing:-0.5px}
+.bp-sep{font-size:13px;color:#86868b}
+.bp-brand{display:flex;align-items:center;gap:6px}
+.bp-logo{width:24px;height:24px;border-radius:4px;object-fit:cover}
+.bp-text{font-size:12px;color:#86868b}
+.site-nav{display:flex;align-items:center;gap:4px;margin-left:auto}
+.nav-btn{font-size:13px;color:#86868b;background:none;border:none;cursor:pointer;padding:4px 10px;border-radius:6px;font-family:inherit;text-decoration:none;display:inline-block}
+.nav-btn:hover{background:#f5f5f7;color:#1d1d1f}
+.nav-btn.active{color:#1d1d1f;font-weight:500}
+.site-sub{font-size:14px;color:#6e6e73;line-height:1.6;max-width:500px;margin-bottom:2rem}
+.conf-label{font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin:1.75rem 0 0.6rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea}
+.div-label{font-size:11px;color:#86868b;margin:1rem 0 0.5rem}
+.teams-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.team-btn{display:flex;flex-direction:column;align-items:center;gap:7px;padding:14px 8px 12px;background:transparent;border:0.5px solid #e5e5ea;border-radius:10px;cursor:pointer;transition:background 0.12s;width:100%}
+.team-btn:hover{background:#f5f5f7;border-color:#d2d2d7}
+.team-logo-img{width:42px;height:42px;object-fit:contain;flex-shrink:0}
+.team-abbr-txt{font-size:11px;font-weight:500;color:#1d1d1f}
+.team-city-txt{font-size:10px;color:#86868b;text-align:center;line-height:1.2}
+.footer-home{margin-top:2.5rem;padding-top:1rem;border-top:0.5px solid #e5e5ea;font-size:11px;color:#86868b}
+.profile-topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:8px}
+.back-btn{display:inline-flex;align-items:center;gap:4px;font-size:13px;color:#86868b;cursor:pointer;background:none;border:none;padding:0;font-family:inherit}
+.back-btn:hover{color:#1d1d1f}
+.team-header{display:flex;align-items:center;gap:16px;padding-bottom:1.25rem;border-bottom:0.5px solid #e5e5ea;margin-bottom:0.75rem}
+.team-logo-hdr{width:56px;height:56px;object-fit:contain;flex-shrink:0}
+.team-name-h{font-size:20px;font-weight:600;letter-spacing:-0.4px}
+.team-meta{font-size:13px;color:#86868b;margin-top:3px}
+.period-selector{display:flex;gap:6px;margin-bottom:1.25rem;padding-bottom:1.25rem;border-bottom:0.5px solid #e5e5ea}
+.period-btn{font-size:12px;padding:5px 14px;border-radius:20px;border:0.5px solid #e5e5ea;background:#fff;cursor:pointer;color:#6e6e73;font-family:inherit;transition:all 0.1s}
+.period-btn:hover{background:#f5f5f7;border-color:#d2d2d7}
+.period-btn.sel{background:#1d1d1f;color:#fff;border-color:#1d1d1f}
+.sec-head{display:flex;align-items:center;gap:8px;margin:1.75rem 0 0.75rem}
+.sec-line{width:3px;height:14px;border-radius:2px;flex-shrink:0}
+.sec-name{font-size:13px;font-weight:500;color:#1d1d1f}
+.stat-row{display:flex;align-items:center;padding:8px 0;border-bottom:0.5px solid #e5e5ea}
+.stat-row:last-child{border-bottom:none}
+.stat-label{flex:1;font-size:13px;color:#6e6e73;padding-right:8px}
+.stat-val{font-family:ui-monospace,monospace;font-size:13px;font-weight:500;color:#1d1d1f;text-align:right;margin-right:12px;min-width:48px}
+.stat-rank{font-family:ui-monospace,monospace;font-size:12px;min-width:52px;text-align:right}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.two-col-stretch{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:stretch}
+.col-flex{display:flex;flex-direction:column}
+.box{background:#f5f5f7;border-radius:10px;padding:14px 16px}
+.box-title{font-size:11px;color:#86868b;margin-bottom:8px}
+.zone-grid{display:grid;grid-template-columns:1fr 52px 46px 52px 46px;gap:4px;align-items:center}
+.pt-grid{display:grid;grid-template-columns:16px 1fr 44px 42px 44px 44px;gap:4px;align-items:center}
+.mr-grid{display:grid;grid-template-columns:1fr 80px 80px;gap:4px;align-items:center}
+.drive-header{display:flex;align-items:baseline;gap:8px;margin-bottom:10px}
+.drive-num{font-family:ui-monospace,monospace;font-size:18px;font-weight:500;color:#1d1d1f}
+.drive-lbl{font-size:11px;color:#86868b}
+.drive-rank{font-family:ui-monospace,monospace;font-size:12px}
+.pizza-wrap{display:flex;align-items:center;gap:10px}
+.leg-row{display:flex;align-items:center;gap:6px;margin-bottom:3px}
+.leg-dot{width:8px;height:8px;border-radius:2px;flex-shrink:0}
+.leg-name{font-size:11px;color:#6e6e73;flex:1}
+.leg-pct{font-family:ui-monospace,monospace;font-size:11px;font-weight:500;color:#1d1d1f}
+.scatter-fill{margin-top:10px;position:relative;width:100%;flex:1;min-height:180px}
+.scatter-fixed{margin-top:10px;position:relative;width:100%;height:290px}
+.footer-note{margin-top:2.5rem;padding-top:1rem;border-top:0.5px solid #e5e5ea;font-size:11px;color:#86868b}
+.rk-cat-label{font-size:10px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin:1.25rem 0 0.5rem}
+.rk-cat-label:first-child{margin-top:0}
+.rk-btns{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:0.25rem}
+.rk-btn{font-size:12px;padding:5px 12px;border-radius:20px;border:0.5px solid #e5e5ea;background:#fff;cursor:pointer;color:#1d1d1f;font-family:inherit;transition:all 0.1s}
+.rk-btn:hover{background:#f5f5f7;border-color:#d2d2d7}
+.rk-btn.sel{background:#1d1d1f;color:#fff;border-color:#1d1d1f}
+.rk-divider{height:0.5px;background:#e5e5ea;margin:1.25rem 0}
+.rk-table{width:100%;border-collapse:collapse;margin-top:1rem}
+.rk-table td{padding:9px 8px;border-bottom:0.5px solid #e5e5ea;vertical-align:middle}
+.rk-table tr:last-child td{border-bottom:none}
+.rk-pos{font-family:ui-monospace,monospace;font-size:13px;color:#86868b;width:28px;text-align:right}
+.rk-logo{width:28px;text-align:center}
+.rk-name{font-size:13px;color:#1d1d1f}
+.rk-value{font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right;color:#1d1d1f}
+.rk-bar-cell{width:140px;padding-left:12px}
+.rk-bar-track{height:5px;background:#e5e5ea;border-radius:3px;overflow:hidden}
+.rk-bar-fill{height:100%;border-radius:3px}
+.rk-period-bar{display:flex;gap:6px;margin-bottom:1rem}
+.lineup-row{padding:8px 0;border-bottom:0.5px solid #e5e5ea}
+.lineup-row:last-child{border-bottom:none}
+.lineup-names{font-size:12px;color:#6e6e73;margin-bottom:4px}
+.lineup-stats{display:flex;gap:16px}
+.lineup-stat{font-size:11px;color:#86868b}
+.lineup-stat span{font-family:ui-monospace,monospace;font-weight:500;color:#1d1d1f}
+</style>
+</head>
+<body>
+
+<div id="home" class="page active">
+<div class="wrap">
+  <div class="site-header">
+    <span class="site-name">NBA Team Profiles</span>
+    <span class="bp-sep">·</span>
+    <div class="bp-brand">
+      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
+      <span class="bp-text">um projeto Bola Presa</span>
+    </div>
+    <div class="site-nav">
+      <a class="nav-btn" href="home.html">Início</a>
+      <button class="nav-btn active" onclick="showHome()">Times</button>
+      <button class="nav-btn" onclick="showRankings()">Rankings</button>
+      <a class="nav-btn" href="jogadores.html">Jogadores</a>
+    </div>
+  </div>
+  <div class="site-sub">Perfil estatístico completo dos times da NBA<br><span style="font-size:13px;color:#86868b">Contato - bolapresa@gmail.com</span></div>
+  <div id="teams-list"></div>
+  <div class="footer-home"><span id="updated-home"></span></div>
+</div>
+</div>
+
+<div id="rankings" class="page">
+<div class="wrap">
+  <div class="site-header">
+    <span class="site-name">NBA Team Profiles</span>
+    <span class="bp-sep">·</span>
+    <div class="bp-brand">
+      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
+      <span class="bp-text">um projeto Bola Presa</span>
+    </div>
+    <div class="site-nav">
+      <a class="nav-btn" href="home.html">Início</a>
+      <button class="nav-btn" onclick="showHome()">Times</button>
+      <button class="nav-btn active" onclick="showRankings()">Rankings</button>
+      <a class="nav-btn" href="jogadores.html">Jogadores</a>
+    </div>
+  </div>
+  <div class="rk-period-bar">
+    <button class="period-btn sel" onclick="setRkPeriod('full',this)">Temporada completa</button>
+    <button class="period-btn" onclick="setRkPeriod('30d',this)">Últimos 30 dias</button>
+    <button class="period-btn" onclick="setRkPeriod('14d',this)">Últimas 2 semanas</button>
+  </div>
+  <div id="rk-filters"></div>
+  <div class="rk-divider"></div>
+  <div id="rk-table-wrap"></div>
+  <div class="footer-note"><span id="updated-rk"></span></div>
+</div>
+</div>
+
+<div id="profile" class="page">
+<div class="wrap">
+  <div class="profile-topbar">
+    <button class="back-btn" onclick="showHome()">‹ Todos os times</button>
+    <div class="site-nav">
+      <a class="nav-btn" href="home.html">Início</a>
+      <a class="nav-btn" href="jogadores.html">Jogadores</a>
+    </div>
+  </div>
+  <div id="profile-content"></div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const TC={ATL:"#E03A3E",BOS:"#007A33",BKN:"#000000",CHA:"#1D1160",CHI:"#CE1141",CLE:"#860038",DAL:"#00538C",DEN:"#0E2240",DET:"#C8102E",GSW:"#1D428A",HOU:"#CE1141",IND:"#002D62",LAC:"#C8102E",LAL:"#552583",MEM:"#5D76A9",MIA:"#98002E",MIL:"#00471B",MIN:"#0C2340",NOP:"#0C2340",NYK:"#F58426",OKC:"#007AC1",ORL:"#0077C0",PHI:"#006BB6",PHX:"#E56020",POR:"#E03A3E",SAC:"#5A2D81",SAS:"#C4CED4",TOR:"#CE1141",UTA:"#002B5C",WAS:"#002B5C"};
+const TID={ATL:1610612737,BOS:1610612738,BKN:1610612751,CHA:1610612766,CHI:1610612741,CLE:1610612739,DAL:1610612742,DEN:1610612743,DET:1610612765,GSW:1610612744,HOU:1610612745,IND:1610612754,LAC:1610612746,LAL:1610612747,MEM:1610612763,MIA:1610612748,MIL:1610612749,MIN:1610612750,NOP:1610612740,NYK:1610612752,OKC:1610612760,ORL:1610612753,PHI:1610612755,PHX:1610612756,POR:1610612757,SAC:1610612758,SAS:1610612759,TOR:1610612761,UTA:1610612762,WAS:1610612764};
+const CITY={ATL:"Atlanta",BOS:"Boston",BKN:"Brooklyn",CHA:"Charlotte",CHI:"Chicago",CLE:"Cleveland",DAL:"Dallas",DEN:"Denver",DET:"Detroit",GSW:"Golden State",HOU:"Houston",IND:"Indiana",LAC:"Los Angeles",LAL:"Los Angeles",MEM:"Memphis",MIA:"Miami",MIL:"Milwaukee",MIN:"Minnesota",NOP:"New Orleans",NYK:"New York",OKC:"Oklahoma City",ORL:"Orlando",PHI:"Philadelphia",PHX:"Phoenix",POR:"Portland",SAC:"Sacramento",SAS:"San Antonio",TOR:"Toronto",UTA:"Utah",WAS:"Washington"};
+const DIV={East:{"Divisão Atlântica":["BOS","BKN","NYK","PHI","TOR"],"Divisão Central":["CHI","CLE","DET","IND","MIL"],"Divisão Sudeste":["ATL","CHA","MIA","ORL","WAS"]},Oeste:{"Divisão Noroeste":["DEN","MIN","OKC","POR","UTA"],"Divisão Pacífico":["GSW","LAC","LAL","PHX","SAC"],"Divisão Sudoeste":["DAL","HOU","MEM","NOP","SAS"]}};
+const PC={shots:"#007AFF",passes:"#34C759",tov:"#FF3B30",fouls:"#FF9500",other:"#c8c8c8"};
+const PL={shots:"Arremessos",passes:"Passes",tov:"Turnovers",fouls:"Faltas",other:"Outro"};
+const ZONE_RENAME={"Acima do arco":"Above the break 3","Corner 3":"Zona Morta"};
+const PT_RENAME={"Isolamento":"Isolação","Off Screen":"Após corta-luz"};
+const PT_COLORS=["#007AFF","#E03A3E","#EF9F27","#1D9E75","#8B2BE2","#D4537E","#1d1d1f","#639922","#D85A30"];
+const PERIODS_META={full:{label:"Temporada completa",file:"times_full.json"},"30d":{label:"Últimos 30 dias",file:"times_30d.json"},"14d":{label:"Últimas 2 semanas",file:"times_14d.json"}};
+
+function logoUrl(a){return`https://cdn.nba.com/logos/nba/${TID[a]}/global/L/logo.svg`;}
+
+const STATS=[
+  {cat:"Gerais",id:"ortg",label:"Offensive Rating",get:t=>t.ratings.ortg.value,unit:"",hi:true},
+  {cat:"Gerais",id:"drtg",label:"Defensive Rating",get:t=>t.ratings.drtg.value,unit:"",hi:false},
+  {cat:"Gerais",id:"netrtg",label:"Net Rating",get:t=>t.ratings.netrtg.value,unit:"",hi:true},
+  {cat:"Gerais",id:"clutch",label:"Clutch %",get:t=>t.clutch.wpct,unit:"%",hi:true},
+  {cat:"Four Factors ofensivo",id:"ff_efg",label:"eFG%",get:t=>t.four_factors_off.efg.value,unit:"%",hi:true},
+  {cat:"Four Factors ofensivo",id:"ff_tov",label:"TOV%",get:t=>t.four_factors_off.tov.value,unit:"%",hi:false},
+  {cat:"Four Factors ofensivo",id:"ff_oreb",label:"ORB%",get:t=>t.four_factors_off.oreb.value,unit:"%",hi:true},
+  {cat:"Four Factors ofensivo",id:"ff_ftr",label:"FT Rate",get:t=>t.four_factors_off.ftr.value,unit:"",hi:true},
+  {cat:"Four Factors defensivo",id:"ff_oefg",label:"Opp. eFG%",get:t=>t.four_factors_def.opp_efg.value,unit:"%",hi:false},
+  {cat:"Four Factors defensivo",id:"ff_otov",label:"Opp. TOV%",get:t=>t.four_factors_def.opp_tov.value,unit:"",hi:true},
+  {cat:"Four Factors defensivo",id:"ff_ooreb",label:"Opp. ORB%",get:t=>t.four_factors_def.opp_oreb.value,unit:"",hi:false},
+  {cat:"Four Factors defensivo",id:"ff_oftr",label:"Opp. FT Rate",get:t=>t.four_factors_def.opp_ftr.value,unit:"",hi:false},
+  {cat:"Estilo de ataque",id:"pace",label:"Pace",get:t=>t.attack_style.pace.value,unit:"",hi:true},
+  {cat:"Estilo de ataque",id:"pts_fb",label:"Pts contra-ataque/jogo",get:t=>t.attack_style.pts_fb.value,unit:"",hi:true},
+  {cat:"Estilo de ataque",id:"pts_paint",label:"Pts no garrafão/jogo",get:t=>t.attack_style.pts_paint.value,unit:"",hi:true},
+  {cat:"Estilo de defesa",id:"opp_pace",label:"Pace adversário",get:t=>t.defense_style.opp_pace.value,unit:"",hi:false},
+  {cat:"Estilo de defesa",id:"opp_pts_fb",label:"Pts contra-ataque adv./jogo",get:t=>t.defense_style.opp_pts_fb.value,unit:"",hi:false},
+  {cat:"Estilo de defesa",id:"opp_pts_paint",label:"Pts no garrafão adv./jogo",get:t=>t.defense_style.opp_pts_paint.value,unit:"",hi:false},
+  {cat:"Drives e post-ups",id:"drives",label:"Drives/jogo",get:t=>t.drives.per_game,unit:"",hi:true},
+  {cat:"Drives e post-ups",id:"postups",label:"Post-ups/jogo",get:t=>t.postups.per_game,unit:"",hi:true},
+  {cat:"Hustle",id:"defl",label:"Bolas desviadas/jogo",get:t=>t.hustle.deflections.value,unit:"",hi:true},
+  {cat:"Hustle",id:"charg",label:"Faltas de ataque cavadas/jogo",get:t=>t.hustle.charges.value,unit:"",hi:true},
+  {cat:"Hustle",id:"loose",label:"Bolas soltas recuperadas/jogo",get:t=>t.hustle.loose_balls.value,unit:"",hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_ra_freq",label:"Área restrita",get:t=>t.shot_zones_off.find(z=>z.name==="Área restrita")?.freq||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_nra_freq",label:"Garrafão (não-RA)",get:t=>t.shot_zones_off.find(z=>z.name==="Garrafão (não-RA)")?.freq||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_mid_freq",label:"Meia distância",get:t=>t.shot_zones_off.find(z=>z.name==="Meia distância")?.freq||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_c3_freq",label:"Zona Morta",get:t=>t.shot_zones_off.find(z=>z.name==="Zona Morta")?.freq||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · frequência",id:"off_ab3_freq",label:"Above the break 3",get:t=>t.shot_zones_off.find(z=>z.name==="Above the break 3")?.freq||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_ra_efg",label:"Área restrita",get:t=>t.shot_zones_off.find(z=>z.name==="Área restrita")?.efg||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_nra_efg",label:"Garrafão (não-RA)",get:t=>t.shot_zones_off.find(z=>z.name==="Garrafão (não-RA)")?.efg||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_mid_efg",label:"Meia distância",get:t=>t.shot_zones_off.find(z=>z.name==="Meia distância")?.efg||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_c3_efg",label:"Zona Morta",get:t=>t.shot_zones_off.find(z=>z.name==="Zona Morta")?.efg||0,unit:"%",hi:true},
+  {cat:"Perfil ofensivo · eFG%",id:"off_ab3_efg",label:"Above the break 3",get:t=>t.shot_zones_off.find(z=>z.name==="Above the break 3")?.efg||0,unit:"%",hi:true},
+  {cat:"Perfil defensivo · frequência",id:"def_ra_freq",label:"Área restrita",get:t=>t.shot_zones_def.find(z=>z.name==="Área restrita")?.freq||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · frequência",id:"def_nra_freq",label:"Garrafão (não-RA)",get:t=>t.shot_zones_def.find(z=>z.name==="Garrafão (não-RA)")?.freq||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · frequência",id:"def_mid_freq",label:"Meia distância",get:t=>t.shot_zones_def.find(z=>z.name==="Meia distância")?.freq||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · frequência",id:"def_c3_freq",label:"Zona Morta",get:t=>t.shot_zones_def.find(z=>z.name==="Zona Morta")?.freq||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · frequência",id:"def_ab3_freq",label:"Above the break 3",get:t=>t.shot_zones_def.find(z=>z.name==="Above the break 3")?.freq||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_ra_efg",label:"Área restrita",get:t=>t.shot_zones_def.find(z=>z.name==="Área restrita")?.efg||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_nra_efg",label:"Garrafão (não-RA)",get:t=>t.shot_zones_def.find(z=>z.name==="Garrafão (não-RA)")?.efg||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_mid_efg",label:"Meia distância",get:t=>t.shot_zones_def.find(z=>z.name==="Meia distância")?.efg||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_c3_efg",label:"Zona Morta",get:t=>t.shot_zones_def.find(z=>z.name==="Zona Morta")?.efg||0,unit:"%",hi:false},
+  {cat:"Perfil defensivo · eFG%",id:"def_ab3_efg",label:"Above the break 3",get:t=>t.shot_zones_def.find(z=>z.name==="Above the break 3")?.efg||0,unit:"%",hi:false},
+];
+
+let DATA={},LINEUPS_DATA={},currentPeriod="full",currentProfileAbbr=null,currentStat=STATS[0],currentRkPeriod="full";
+const CI={};
+
+function rk(r){return r<=10?"#1D9E75":r<=20?"#BA7517":"#D85A30";}
+function statRow(l,v,r,d=1){return`<div class="stat-row"><span class="stat-label">${l}</span><span class="stat-val">${v}</span><span class="stat-rank" style="color:${d?rk(r):"#86868b"}">${r}º</span></div>`;}
+function rz(n){return ZONE_RENAME[n]||n;}
+function rp(n){return PT_RENAME[n]||n;}
+function wlColor(w,l){const t=w+l;if(!t)return"#86868b";const p=w/t;return p>=0.6?"#1D9E75":p>=0.4?"#BA7517":"#D85A30";}
+
+function loadPeriod(key){
+  if(DATA[key]) return Promise.resolve(DATA[key]);
+  return fetch(PERIODS_META[key].file).then(r=>r.json()).then(d=>{DATA[key]=d;return d;});
+}
+
+Promise.all([
+  ...Object.keys(PERIODS_META).map(k=>loadPeriod(k)),
+  fetch("lineups_times.json").then(r=>r.json()).then(d=>{LINEUPS_DATA=d.teams||{};})
+]).then(()=>{
+  const d=DATA["full"];
+  document.getElementById("updated-home").textContent="Temporada "+d.season+" · Atualizado em "+d.updated+" · Dados: NBA Stats";
+  buildHome();
+  const _tp=new URLSearchParams(window.location.search).get('team');
+  if(_tp) showProfile(_tp,"full");
+});
+
+function buildHome(){
+  const list=document.getElementById("teams-list");list.innerHTML="";
+  ["East","Oeste"].forEach(conf=>{
+    const cl=document.createElement("div");cl.className="conf-label";
+    cl.textContent=conf==="East"?"Conferência Leste":"Conferência Oeste";list.appendChild(cl);
+    Object.entries(DIV[conf]).forEach(([div,abbrs])=>{
+      const dl=document.createElement("div");dl.className="div-label";dl.textContent=div;list.appendChild(dl);
+      const grid=document.createElement("div");grid.className="teams-grid";
+      abbrs.forEach(a=>{
+        const btn=document.createElement("button");btn.className="team-btn";
+        btn.innerHTML=`<img class="team-logo-img" src="${logoUrl(a)}" alt="${a}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div style="display:none;width:42px;height:42px;border-radius:50%;background:${TC[a]};align-items:center;justify-content:center;font-size:10px;font-weight:600;color:#fff">${a}</div><span class="team-abbr-txt">${a}</span><span class="team-city-txt">${CITY[a]}</span>`;
+        btn.onclick=()=>showProfile(a,"full");grid.appendChild(btn);
+      });list.appendChild(grid);
+    });
+  });
+}
+
+function showHome(){
+  document.getElementById("home").classList.add("active");
+  document.getElementById("rankings").classList.remove("active");
+  document.getElementById("profile").classList.remove("active");
+}
+
+function showRankings(){
+  document.getElementById("home").classList.remove("active");
+  document.getElementById("rankings").classList.add("active");
+  document.getElementById("profile").classList.remove("active");
+  buildRankingsFilters();buildRankingsTable();
+}
+
+function setRkPeriod(key,btn){
+  currentRkPeriod=key;
+  document.querySelectorAll('.rk-period-bar .period-btn').forEach(b=>b.classList.remove('sel'));
+  btn.classList.add('sel');
+  buildRankingsTable();
+  const d=DATA[key];
+  if(d) document.getElementById("updated-rk").textContent="Temporada "+d.season+" · "+d.period+" · Atualizado em "+d.updated+" · Dados: NBA Stats";
+}
+
+function buildRankingsFilters(){
+  const cats=[...new Set(STATS.map(s=>s.cat))];
+  let html='';
+  cats.forEach(cat=>{
+    const stats=STATS.filter(s=>s.cat===cat);
+    html+=`<div class="rk-cat-label">${cat}</div><div class="rk-btns">`;
+    stats.forEach(s=>{html+=`<button class="rk-btn${s.id===currentStat.id?' sel':''}" onclick="selectStat('${s.id}')">${s.label}</button>`;});
+    html+=`</div>`;
+  });
+  document.getElementById('rk-filters').innerHTML=html;
+  const d=DATA[currentRkPeriod];
+  if(d) document.getElementById("updated-rk").textContent="Temporada "+d.season+" · "+d.period+" · Atualizado em "+d.updated+" · Dados: NBA Stats";
+}
+
+function selectStat(id){
+  currentStat=STATS.find(s=>s.id===id);
+  buildRankingsFilters();buildRankingsTable();
+}
+
+function buildRankingsTable(){
+  const d=DATA[currentRkPeriod];if(!d)return;
+  const teams=Object.entries(d.teams).map(([abbr,t])=>({abbr,name:t.name,value:currentStat.get(t)||0}));
+  teams.sort((a,b)=>currentStat.hi?b.value-a.value:a.value-b.value);
+  const max=Math.max(...teams.map(t=>t.value));
+  const min=Math.min(...teams.map(t=>t.value));
+  const range=max-min||1;
+  let rows='';
+  teams.forEach((t,i)=>{
+    const barPct=currentStat.hi?((t.value-min)/range*100).toFixed(0):(((max-t.value)/range)*100).toFixed(0);
+    const color=TC[t.abbr]||'#888';
+    rows+=`<tr>
+      <td class="rk-pos">${i+1}</td>
+      <td class="rk-logo"><img src="${logoUrl(t.abbr)}" alt="${t.abbr}" style="width:24px;height:24px;object-fit:contain"></td>
+      <td class="rk-name" style="cursor:pointer;color:#007AFF" onclick="showProfile('${t.abbr}','${currentRkPeriod}')">${t.name}</td>
+      <td class="rk-value">${t.value}${currentStat.unit}</td>
+      <td class="rk-bar-cell"><div class="rk-bar-track"><div class="rk-bar-fill" style="width:${barPct}%;background:${color}"></div></div></td>
+    </tr>`;
+  });
+  document.getElementById('rk-table-wrap').innerHTML=`
+    <p style="font-size:12px;color:#86868b;margin-bottom:8px">${currentStat.label} · ${currentStat.hi?'maior = melhor':'menor = melhor'}</p>
+    <table class="rk-table"><tbody>${rows}</tbody></table>`;
+}
+
+function zoneTable(zones){
+  return`<div class="zone-grid" style="padding:5px 0;border-bottom:0.5px solid #d2d2d7">
+    <span style="font-size:11px;color:#86868b">Zona</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">Freq.</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">Rank</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">eFG%</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">Rank</span>
+  </div>
+  ${zones.map(z=>`<div class="zone-grid" style="padding:7px 0;border-bottom:0.5px solid #e5e5ea">
+    <span style="font-size:13px;color:#6e6e73">${rz(z.name)}</span>
+    <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right">${z.freq}%</span>
+    <span style="font-family:ui-monospace,monospace;font-size:12px;text-align:right;color:#86868b">${z.freq_rank}º</span>
+    <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right">${z.efg}%</span>
+    <span style="font-family:ui-monospace,monospace;font-size:12px;text-align:right;color:${rk(z.efg_rank)}">${z.efg_rank}º</span>
+  </div>`).join('')}`;
+}
+
+function matchupTable(records){
+  const rows=Object.values(records).map(r=>{
+    const total=r.w+r.l;
+    const col=wlColor(r.w,r.l);
+    const barW=total>0?(r.w/total*100).toFixed(0):0;
+    return`<div class="mr-grid" style="padding:7px 0;border-bottom:0.5px solid #e5e5ea">
+      <span style="font-size:13px;color:#6e6e73">${r.label}</span>
+      <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;color:${col};text-align:right">${r.w}-${r.l}</span>
+      <div style="padding-left:10px">
+        <div style="height:5px;background:#e5e5ea;border-radius:3px;overflow:hidden">
+          <div style="height:100%;width:${barW}%;background:${col};border-radius:3px"></div>
+        </div>
+        <div style="font-family:ui-monospace,monospace;font-size:10px;color:#86868b;margin-top:2px;text-align:right">${total>0?Math.round(r.w/total*100)+'%':'-'}</div>
+      </div>
+    </div>`;
+  }).join('');
+  return`<div class="mr-grid" style="padding:5px 0;border-bottom:0.5px solid #d2d2d7">
+    <span style="font-size:11px;color:#86868b">Contra top 7 em...</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">W-L</span>
+    <span style="font-size:11px;color:#86868b;text-align:right;padding-left:10px">%</span>
+  </div>${rows}`;
+}
+
+function makeQuadPlugin(id,isDark){
+  return{id:'q_'+id,beforeDraw(chart){
+    const{ctx,chartArea:{left,right,top,bottom},scales:{x,y}}=chart;
+    const mx=x.getPixelForValue(15.5),my=y.getPixelForValue(15.5);
+    const a=isDark?0.07:0.05;
+    ctx.save();
+    ctx.fillStyle=`rgba(29,158,117,${a})`;ctx.fillRect(left,top,mx-left,my-top);
+    ctx.fillStyle=`rgba(186,117,23,${a})`;ctx.fillRect(mx,top,right-mx,my-top);
+    ctx.fillStyle=`rgba(186,117,23,${a})`;ctx.fillRect(left,my,mx-left,bottom-my);
+    ctx.fillStyle=`rgba(216,90,48,${a})`;ctx.fillRect(mx,my,right-mx,bottom-my);
+    const ql=[{t:"Pouco e bem",x:left+7,y:top+15,a:"left"},{t:"Muito e bem",x:right-7,y:top+15,a:"right"},
+          {t:"Pouco e mal",x:left+7,y:bottom-6,a:"left"},{t:"Muito e mal",x:right-7,y:bottom-6,a:"right"}];
+    ctx.font='bold 10px -apple-system,sans-serif';
+    ql.forEach(q=>{
+      const w=ctx.measureText(q.t).width;
+      const bx=q.a==="right"?q.x-w-6:q.x-4;
+      ctx.fillStyle=isDark?'rgba(255,255,255,0.13)':'rgba(0,0,0,0.08)';
+      ctx.beginPath();ctx.roundRect(bx,q.y-11,w+8,15,3);ctx.fill();
+      ctx.fillStyle=isDark?'rgba(255,255,255,0.55)':'rgba(0,0,0,0.45)';
+      ctx.textAlign=q.a;ctx.fillText(q.t,q.x,q.y);
+    });
+    ctx.restore();
+  }};
+}
+
+function makeLabelPlugin(id,data,isDark){
+  return{id:'l_'+id,afterDraw(chart){
+    const{ctx}=chart;const meta=chart.getDatasetMeta(0);
+    meta.data.forEach((pt,i)=>{
+      ctx.save();ctx.font='500 10px -apple-system,sans-serif';
+      ctx.fillStyle=isDark?'rgba(255,255,255,0.75)':'rgba(0,0,0,0.6)';
+      ctx.textAlign='center';ctx.fillText(data[i].name,pt.x,pt.y-14);ctx.restore();
+    });
+  }};
+}
+
+function buildScatterZones(id,pts,color){
+  if(CI[id]){CI[id].destroy();}
+  const canvas=document.getElementById(id);if(!canvas)return;
+  const isDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  const textCol=isDark?'rgba(255,255,255,0.45)':'rgba(0,0,0,0.4)';
+  const gridCol=isDark?'rgba(255,255,255,0.07)':'rgba(0,0,0,0.06)';
+  const data=pts.map(p=>({x:p.freq_rank,y:p.efg_rank,r:8,name:rz(p.name)}));
+  CI[id]=new Chart(canvas,{
+    type:'bubble',
+    data:{datasets:[
+      {data,backgroundColor:color+'bb',borderColor:color,borderWidth:1.5},
+      {type:'line',data:[{x:15.5,y:0},{x:15.5,y:31}],borderColor:'rgba(136,136,136,0.35)',borderWidth:1.5,borderDash:[4,3],pointRadius:0,fill:false},
+      {type:'line',data:[{x:0,y:15.5},{x:31,y:15.5}],borderColor:'rgba(136,136,136,0.35)',borderWidth:1.5,borderDash:[4,3],pointRadius:0,fill:false},
+    ]},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      layout:{padding:{top:6,right:14,bottom:4,left:6}},
+      plugins:{legend:{display:false},tooltip:{filter:i=>i.datasetIndex===0,callbacks:{label(c){const d=c.raw;return`${d.name}: freq ${d.x}º · eFG% ${d.y}º na liga`;}}}},
+      scales:{
+        x:{title:{display:true,text:'← menos frequente   Rank de frequência   mais frequente →',color:textCol,font:{size:9}},min:0,max:31,reverse:true,grid:{color:gridCol},ticks:{color:textCol,font:{size:10},callback:v=>(v===0||v===31)?'':v},border:{display:false}},
+        y:{title:{display:true,text:'Rank de eficiência',color:textCol,font:{size:9}},min:0,max:31,reverse:true,grid:{color:gridCol},ticks:{color:textCol,font:{size:10},callback:v=>(v===0||v===31)?'':v},border:{display:false}}
+      }
+    },
+    plugins:[makeQuadPlugin(id,isDark),makeLabelPlugin(id,data,isDark)]
+  });
+}
+
+function buildScatterPT(id,pts){
+  if(CI[id]){CI[id].destroy();}
+  const canvas=document.getElementById(id);if(!canvas)return;
+  const isDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  const textCol=isDark?'rgba(255,255,255,0.45)':'rgba(0,0,0,0.4)';
+  const gridCol=isDark?'rgba(255,255,255,0.07)':'rgba(0,0,0,0.06)';
+  const datasets=pts.map((p,i)=>({
+    type:'bubble',label:rp(p.name),
+    data:[{x:p.freq_rank,y:p.eff_rank,r:9}],
+    backgroundColor:PT_COLORS[i%PT_COLORS.length]+'bb',
+    borderColor:PT_COLORS[i%PT_COLORS.length],borderWidth:1.5,
+  }));
+  datasets.push(
+    {type:'line',data:[{x:15.5,y:0},{x:15.5,y:31}],borderColor:'rgba(136,136,136,0.35)',borderWidth:1.5,borderDash:[4,3],pointRadius:0,fill:false,label:'_v'},
+    {type:'line',data:[{x:0,y:15.5},{x:31,y:15.5}],borderColor:'rgba(136,136,136,0.35)',borderWidth:1.5,borderDash:[4,3],pointRadius:0,fill:false,label:'_h'}
+  );
+  CI[id]=new Chart(canvas,{
+    data:{datasets},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      layout:{padding:{top:6,right:14,bottom:4,left:6}},
+      plugins:{legend:{display:false},tooltip:{filter:i=>!i.dataset.label.startsWith('_'),callbacks:{label(c){return`${c.dataset.label}: freq ${c.raw.x}º · ef. ${c.raw.y}º na liga`;}}}},
+      scales:{
+        x:{title:{display:true,text:'← menos frequente   Rank de frequência   mais frequente →',color:textCol,font:{size:9}},min:0,max:31,reverse:true,grid:{color:gridCol},ticks:{color:textCol,font:{size:10},callback:v=>(v===0||v===31)?'':v},border:{display:false}},
+        y:{title:{display:true,text:'Rank de eficiência',color:textCol,font:{size:9}},min:0,max:31,reverse:true,grid:{color:gridCol},ticks:{color:textCol,font:{size:10},callback:v=>(v===0||v===31)?'':v},border:{display:false}}
+      }
+    },
+    plugins:[makeQuadPlugin(id,isDark)]
+  });
+}
+
+function pizzaSVG(data){
+  const keys=["shots","passes","tov","fouls","other"];
+  const cx=50,cy=50,r=40;
+  let ang=-Math.PI/2,paths="",lgnd="";
+  keys.forEach(k=>{
+    const pct=data[k]||0;if(pct<=0)return;
+    const sw=pct/100*Math.PI*2;
+    const x1=cx+r*Math.cos(ang),y1=cy+r*Math.sin(ang);
+    const x2=cx+r*Math.cos(ang+sw),y2=cy+r*Math.sin(ang+sw);
+    const lg=sw>Math.PI?1:0;
+    paths+=`<path d="M${cx},${cy} L${x1.toFixed(1)},${y1.toFixed(1)} A${r},${r} 0 ${lg},1 ${x2.toFixed(1)},${y2.toFixed(1)} Z" fill="${PC[k]}"/>`;
+    lgnd+=`<div class="leg-row"><div class="leg-dot" style="background:${PC[k]}"></div><span class="leg-name">${PL[k]}</span><span class="leg-pct">${pct.toFixed(1)}%</span></div>`;
+    ang+=sw;
+  });
+  return`<div class="pizza-wrap"><svg viewBox="0 0 100 100" style="width:70px;flex-shrink:0">${paths}</svg><div>${lgnd}</div></div>`;
+}
+
+function ptTable(pts){
+  return`<div class="pt-grid" style="padding:5px 0;border-bottom:0.5px solid #d2d2d7">
+    <span></span>
+    <span style="font-size:11px;color:#86868b">Tipo</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">Freq.</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">Rank</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">PPP</span>
+    <span style="font-size:11px;color:#86868b;text-align:right">Ef.</span>
+  </div>
+  ${pts.map((p,i)=>`<div class="pt-grid" style="padding:7px 0;border-bottom:0.5px solid #e5e5ea">
+    <div style="width:10px;height:10px;border-radius:50%;background:${PT_COLORS[i%PT_COLORS.length]};flex-shrink:0"></div>
+    <span style="font-size:13px;color:#6e6e73">${rp(p.name)}</span>
+    <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right">${p.freq}%</span>
+    <span style="font-family:ui-monospace,monospace;font-size:12px;text-align:right;color:#86868b">${p.freq_rank}º</span>
+    <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right">${p.ppp}</span>
+    <span style="font-family:ui-monospace,monospace;font-size:12px;text-align:right;color:${rk(p.eff_rank)}">${p.eff_rank}º</span>
+  </div>`).join('')}`;
+}
+
+function lineupsTable(abbr){
+  const lineups=LINEUPS_DATA[abbr]||[];
+  if(!lineups.length) return'<p style="font-size:13px;color:#86868b">Sem dados disponíveis</p>';
+  return lineups.map(l=>`
+    <div class="lineup-row">
+      <div class="lineup-names">${l.lineup}</div>
+      <div class="lineup-stats">
+        <div class="lineup-stat">${Math.round(l.minutes)} min · ${l.gp} jogos</div>
+        <div class="lineup-stat">ORtg <span style="color:${l.off_rtg>=110?'#1D9E75':l.off_rtg>=105?'#BA7517':'#D85A30'}">${l.off_rtg}</span></div>
+        <div class="lineup-stat">DRtg <span style="color:${l.def_rtg<=110?'#1D9E75':l.def_rtg<=115?'#BA7517':'#D85A30'}">${l.def_rtg}</span></div>
+        <div class="lineup-stat">Net <span style="color:${l.net_rtg>=0?'#1D9E75':'#D85A30'}">${l.net_rtg>0?'+':''}${l.net_rtg}</span></div>
+      </div>
+    </div>`).join('');
+}
+
+function showProfile(abbr,periodKey){
+  currentProfileAbbr=abbr;
+  currentPeriod=periodKey||"full";
+  document.getElementById("home").classList.remove("active");
+  document.getElementById("rankings").classList.remove("active");
+  document.getElementById("profile").classList.add("active");
+  renderProfile(abbr,currentPeriod);
+}
+
+function renderProfile(abbr,periodKey){
+  const d=DATA[periodKey];if(!d)return;
+  const t=d.teams[abbr];if(!t)return;
+  const color=TC[abbr]||"#888";
+  const cl=t.clutch||{};const hu=t.hustle||{};
+  const dr=t.drives||{};const pu=t.postups||{};
+  const szo=t.shot_zones_off||[];const szd=t.shot_zones_def||[];
+  const pts=t.play_types||[];
+  const mr=t.matchup_records||{};
+  const periodBtns=["full","30d","14d"].map(k=>`<button class="period-btn${k===periodKey?' sel':''}" onclick="switchProfilePeriod('${k}')">${PERIODS_META[k].label}</button>`).join('');
+
+  document.getElementById("profile-content").innerHTML=`
+    <div class="team-header">
+      <img class="team-logo-hdr" src="${logoUrl(abbr)}" alt="${abbr}" onerror="this.style.display='none'">
+      <div><div class="team-name-h">${t.name}</div><div class="team-meta">${t.rec} · ${t.conf_rank}º no ${t.conf}</div></div>
+    </div>
+    <div class="period-selector">${periodBtns}</div>
+
+    <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Números gerais</span></div>
+    <div>
+      ${statRow("Offensive Rating",t.ratings.ortg.value,t.ratings.ortg.rank,1)}
+      ${statRow("Defensive Rating",t.ratings.drtg.value,t.ratings.drtg.rank,1)}
+      ${statRow("Net Rating",t.ratings.netrtg.value,t.ratings.netrtg.rank,1)}
+      ${statRow("Clutch record — "+(cl.w||0)+"-"+(cl.l||0),(cl.wpct||0)+"%",cl.rank||0,1)}
+    </div>
+
+    <div class="two-col" style="margin-top:1.75rem">
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Four Factors ofensivo</span></div>
+        <div>
+          ${statRow("eFG%",t.four_factors_off.efg.value+"%",t.four_factors_off.efg.rank,1)}
+          ${statRow("TOV% (menor = melhor)",t.four_factors_off.tov.value+"%",t.four_factors_off.tov.rank,1)}
+          ${statRow("ORB%",t.four_factors_off.oreb.value+"%",t.four_factors_off.oreb.rank,0)}
+          ${statRow("FT Rate",t.four_factors_off.ftr.value,t.four_factors_off.ftr.rank,0)}
+        </div>
+      </div>
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Four Factors defensivo</span></div>
+        <div>
+          ${statRow("Opp. eFG% (menor = melhor)",t.four_factors_def.opp_efg.value+"%",t.four_factors_def.opp_efg.rank,1)}
+          ${statRow("Opp. TOV% (maior = melhor)",t.four_factors_def.opp_tov.value,t.four_factors_def.opp_tov.rank,1)}
+          ${statRow("Opp. ORB% (menor = melhor)",t.four_factors_def.opp_oreb.value,t.four_factors_def.opp_oreb.rank,1)}
+          ${statRow("Opp. FT Rate (menor = melhor)",t.four_factors_def.opp_ftr.value,t.four_factors_def.opp_ftr.rank,1)}
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Estilo de ataque</span></div>
+    <div>
+      ${statRow("Pace (posses/48 min)",t.attack_style.pace.value,t.attack_style.pace.rank,0)}
+      ${statRow("Pts de contra-ataque/jogo",t.attack_style.pts_fb.value,t.attack_style.pts_fb.rank,0)}
+      ${statRow("Pts no garrafão/jogo",t.attack_style.pts_paint.value,t.attack_style.pts_paint.rank,0)}
+    </div>
+
+    <div class="two-col-stretch" style="margin-top:1.75rem">
+      <div class="col-flex">
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Perfil de arremesso ofensivo</span></div>
+        ${zoneTable(szo)}
+        <div class="scatter-fill"><canvas id="sc-off"></canvas></div>
+      </div>
+      <div class="col-flex">
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Drives e post-ups</span></div>
+        <div class="box" style="margin-bottom:14px;flex:1">
+          <div class="box-title">Drives por jogo</div>
+          <div class="drive-header">
+            <span class="drive-num">${dr.per_game}</span>
+            <span class="drive-lbl">drives/jogo</span>
+            <span class="drive-rank" style="color:${rk(dr.rank)}">${dr.rank}º</span>
+          </div>
+          ${pizzaSVG(dr.pizza||{})}
+        </div>
+        <div class="box" style="flex:1">
+          <div class="box-title">Post-ups por jogo</div>
+          <div class="drive-header">
+            <span class="drive-num">${pu.per_game}</span>
+            <span class="drive-lbl">post-ups/jogo</span>
+            <span class="drive-rank" style="color:${rk(pu.rank)}">${pu.rank}º</span>
+          </div>
+          ${pizzaSVG(pu.pizza||{})}
+        </div>
+      </div>
+    </div>
+
+    <div class="two-col" style="margin-top:1.75rem">
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Tipos de jogada · frequência vs eficiência</span></div>
+        <div class="scatter-fixed"><canvas id="sc-pt"></canvas></div>
+      </div>
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Tipos de jogada · detalhes</span></div>
+        ${ptTable(pts)}
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Estilo de defesa</span></div>
+    <div>
+      ${statRow("Pace adversário (posses/48 min)",t.defense_style.opp_pace.value,t.defense_style.opp_pace.rank,0)}
+      ${statRow("Pts de contra-ataque do adversário/jogo (menor = melhor)",t.defense_style.opp_pts_fb.value,t.defense_style.opp_pts_fb.rank,1)}
+      ${statRow("Pts no garrafão do adversário/jogo (menor = melhor)",t.defense_style.opp_pts_paint.value,t.defense_style.opp_pts_paint.rank,1)}
+    </div>
+
+    <div class="two-col" style="margin-top:1.75rem">
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Perfil de arremesso defensivo</span></div>
+        ${zoneTable(szd)}
+      </div>
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Hustle</span></div>
+        <div>
+          ${statRow("Bolas desviadas por jogo",hu.deflections.value,hu.deflections.rank,1)}
+          ${statRow("Faltas de ataque cavadas por jogo",hu.charges.value,hu.charges.rank,1)}
+          ${statRow("Bolas soltas recuperadas por jogo",hu.loose_balls.value,hu.loose_balls.rank,1)}
+        </div>
+      </div>
+    </div>
+
+    <div class="two-col" style="margin-top:1.75rem">
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Quintetos · top 5 por minutos</span></div>
+        ${lineupsTable(abbr)}
+      </div>
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Campanha por estilo de adversário</span></div>
+        <p style="font-size:12px;color:#86868b;margin-bottom:10px">Contra os 7 times com maior índice em cada categoria · Temporada completa</p>
+        ${matchupTable(mr)}
+      </div>
+    </div>
+
+    <div class="footer-note">Dados: NBA Stats · Temporada ${d.season} · ${d.period} · Atualizado em ${d.updated}</div>`;
+
+  setTimeout(()=>{
+    buildScatterZones('sc-off',szo,color);
+    buildScatterPT('sc-pt',pts);
+  },50);
+}
+
+function switchProfilePeriod(key){
+  currentPeriod=key;
+  renderProfile(currentProfileAbbr,key);
+}
+</script>
+</body>
+</html>

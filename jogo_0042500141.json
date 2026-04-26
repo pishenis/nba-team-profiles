@@ -1,0 +1,3652 @@
+{
+  "game_id": "0042500141",
+  "date": "2026-04-19",
+  "home": "OKC",
+  "away": "PHX",
+  "home_pts": 119,
+  "away_pts": 84,
+  "winner": "OKC",
+  "game_flow": {
+    "quarter_scores": {
+      "OKC": [
+        35,
+        30,
+        32,
+        22
+      ],
+      "PHX": [
+        20,
+        24,
+        22,
+        18
+      ]
+    },
+    "lead_changes": 0,
+    "ties": 3,
+    "time_leading_home_fmt": "43:37",
+    "time_leading_away_fmt": "2:59",
+    "time_tied_fmt": "1:24",
+    "best_run_home": {
+      "pts_home": 21,
+      "pts_away": 5,
+      "start_min": 11.2,
+      "end_min": 16.2
+    },
+    "best_run_away": {
+      "pts_home": 10,
+      "pts_away": 16,
+      "start_min": 20.9,
+      "end_min": 25.9
+    },
+    "max_consec_home": 12,
+    "max_consec_away": 5
+  },
+  "four_factors": {
+    "OKC": {
+      "efg": 52.7,
+      "ftr": 0.247,
+      "tov": 8.7,
+      "oreb": 37.7,
+      "opp_efg": 42.8,
+      "opp_ftr": 0.217,
+      "opp_tov": 20.4,
+      "opp_oreb": 36.4
+    },
+    "PHX": {
+      "efg": 42.8,
+      "ftr": 0.217,
+      "tov": 20.4,
+      "oreb": 36.4,
+      "opp_efg": 52.7,
+      "opp_ftr": 0.247,
+      "opp_tov": 8.7,
+      "opp_oreb": 37.7
+    }
+  },
+  "misc": {
+    "OKC": {
+      "pts_fb": 18,
+      "pts_paint": 52,
+      "pts_2nd_chance": 25,
+      "blocks": 7
+    },
+    "PHX": {
+      "pts_fb": 2,
+      "pts_paint": 24,
+      "pts_2nd_chance": 22,
+      "blocks": 2
+    }
+  },
+  "hustle": {
+    "OKC": {
+      "deflections": 20,
+      "contested_shots": 46,
+      "contested_2pt": 23,
+      "contested_3pt": 23,
+      "charges_drawn": 0
+    },
+    "PHX": {
+      "deflections": 12,
+      "contested_shots": 43,
+      "contested_2pt": 22,
+      "contested_3pt": 21,
+      "charges_drawn": 0
+    }
+  },
+  "box_score": {
+    "OKC": [
+      {
+        "id": "1631114",
+        "name": "J. Williams",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "29:03",
+        "pts": 22,
+        "reb": 7,
+        "ast": 6,
+        "stl": 1,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 9,
+        "fga": 15,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 22,
+        "starter": true
+      },
+      {
+        "id": "1631096",
+        "name": "C. Holmgren",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "24:48",
+        "pts": 16,
+        "reb": 7,
+        "ast": 0,
+        "stl": 2,
+        "blk": 2,
+        "tov": 1,
+        "fgm": 5,
+        "fga": 10,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 4,
+        "fta": 4,
+        "plus_minus": 12,
+        "starter": true
+      },
+      {
+        "id": "1628392",
+        "name": "I. Hartenstein",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "19:45",
+        "pts": 8,
+        "reb": 8,
+        "ast": 2,
+        "stl": 0,
+        "blk": 2,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 7,
+        "starter": true
+      },
+      {
+        "id": "1629652",
+        "name": "L. Dort",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "23:44",
+        "pts": 8,
+        "reb": 2,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 8,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 8,
+        "starter": true
+      },
+      {
+        "id": "1628983",
+        "name": "S. Gilgeous-Alexander",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "29:11",
+        "pts": 25,
+        "reb": 4,
+        "ast": 7,
+        "stl": 0,
+        "blk": 2,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 18,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 15,
+        "fta": 17,
+        "plus_minus": 24,
+        "starter": true
+      },
+      {
+        "id": "1627936",
+        "name": "A. Caruso",
+        "pos": "",
+        "jersey": "",
+        "minutes": "13:20",
+        "pts": 2,
+        "reb": 5,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 14,
+        "starter": true
+      },
+      {
+        "id": "1642349",
+        "name": "A. Mitchell",
+        "pos": "",
+        "jersey": "",
+        "minutes": "21:48",
+        "pts": 9,
+        "reb": 5,
+        "ast": 2,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 7,
+        "fg3m": 3,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 22,
+        "starter": true
+      },
+      {
+        "id": "1631119",
+        "name": "J. Williams",
+        "pos": "",
+        "jersey": "",
+        "minutes": "9:49",
+        "pts": 5,
+        "reb": 4,
+        "ast": 2,
+        "stl": 4,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 24,
+        "starter": true
+      },
+      {
+        "id": "1641717",
+        "name": "C. Wallace",
+        "pos": "",
+        "jersey": "",
+        "minutes": "20:36",
+        "pts": 6,
+        "reb": 4,
+        "ast": 2,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 23,
+        "starter": true
+      },
+      {
+        "id": "1630198",
+        "name": "I. Joe",
+        "pos": "",
+        "jersey": "",
+        "minutes": "20:03",
+        "pts": 9,
+        "reb": 2,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 8,
+        "fg3m": 3,
+        "fg3a": 8,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 12,
+        "starter": true
+      },
+      {
+        "id": "1642272",
+        "name": "J. McCain",
+        "pos": "",
+        "jersey": "",
+        "minutes": "8:29",
+        "pts": 5,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 6,
+        "starter": true
+      },
+      {
+        "id": "1630598",
+        "name": "A. Wiggins",
+        "pos": "",
+        "jersey": "",
+        "minutes": "7:34",
+        "pts": 2,
+        "reb": 2,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 1,
+        "starter": true
+      },
+      {
+        "id": "1629026",
+        "name": "K. Williams",
+        "pos": "",
+        "jersey": "",
+        "minutes": "7:34",
+        "pts": 2,
+        "reb": 4,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 1,
+        "starter": true
+      },
+      {
+        "id": "1642260",
+        "name": "N. Topi\u0107",
+        "pos": "",
+        "jersey": "",
+        "minutes": "4:16",
+        "pts": 0,
+        "reb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -1,
+        "starter": true
+      }
+    ],
+    "PHX": [
+      {
+        "id": "1628415",
+        "name": "D. Brooks",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "32:19",
+        "pts": 18,
+        "reb": 7,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 6,
+        "fga": 22,
+        "fg3m": 3,
+        "fg3a": 10,
+        "ftm": 3,
+        "fta": 3,
+        "plus_minus": -18,
+        "starter": true
+      },
+      {
+        "id": "1630692",
+        "name": "J. Goodwin",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "4:59",
+        "pts": 2,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 0,
+        "starter": true
+      },
+      {
+        "id": "1642345",
+        "name": "O. Ighodaro",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "25:52",
+        "pts": 0,
+        "reb": 9,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -19,
+        "starter": true
+      },
+      {
+        "id": "1630224",
+        "name": "J. Green",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "31:30",
+        "pts": 17,
+        "reb": 5,
+        "ast": 1,
+        "stl": 1,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 6,
+        "fga": 16,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 3,
+        "fta": 4,
+        "plus_minus": -19,
+        "starter": true
+      },
+      {
+        "id": "1626164",
+        "name": "D. Booker",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "33:05",
+        "pts": 23,
+        "reb": 6,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 8,
+        "fga": 17,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 5,
+        "fta": 7,
+        "plus_minus": -25,
+        "starter": true
+      },
+      {
+        "id": "1631221",
+        "name": "C. Gillespie",
+        "pos": "",
+        "jersey": "",
+        "minutes": "23:13",
+        "pts": 8,
+        "reb": 2,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 6,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -35,
+        "starter": true
+      },
+      {
+        "id": "1629312",
+        "name": "H. Highsmith",
+        "pos": "",
+        "jersey": "",
+        "minutes": "7:27",
+        "pts": 0,
+        "reb": 2,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -11,
+        "starter": true
+      },
+      {
+        "id": "1642346",
+        "name": "R. Dunn",
+        "pos": "",
+        "jersey": "",
+        "minutes": "24:35",
+        "pts": 0,
+        "reb": 5,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 0,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -14,
+        "starter": true
+      },
+      {
+        "id": "1626220",
+        "name": "R. O'Neale",
+        "pos": "",
+        "jersey": "",
+        "minutes": "22:41",
+        "pts": 4,
+        "reb": 3,
+        "ast": 3,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -23,
+        "starter": true
+      },
+      {
+        "id": "1642863",
+        "name": "K. Maluach",
+        "pos": "",
+        "jersey": "",
+        "minutes": "14:55",
+        "pts": 0,
+        "reb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -10,
+        "starter": true
+      },
+      {
+        "id": "1631123",
+        "name": "J. Bouyea",
+        "pos": "",
+        "jersey": "",
+        "minutes": "7:34",
+        "pts": 3,
+        "reb": 3,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -1,
+        "starter": true
+      },
+      {
+        "id": "1642853",
+        "name": "R. Fleming",
+        "pos": "",
+        "jersey": "",
+        "minutes": "7:34",
+        "pts": 9,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 3,
+        "fg3m": 3,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -1,
+        "starter": true
+      },
+      {
+        "id": "1629599",
+        "name": "A. Coffey",
+        "pos": "",
+        "jersey": "",
+        "minutes": "4:16",
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 1,
+        "starter": true
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 0.82,
+      "home": 0,
+      "away": 3,
+      "period": 1
+    },
+    {
+      "min": 1.3,
+      "home": 0,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 1.62,
+      "home": 3,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 2.0,
+      "home": 4,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 2.0,
+      "home": 5,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 2.2,
+      "home": 5,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 2.97,
+      "home": 7,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 3.12,
+      "home": 7,
+      "away": 10,
+      "period": 1
+    },
+    {
+      "min": 3.63,
+      "home": 9,
+      "away": 10,
+      "period": 1
+    },
+    {
+      "min": 3.92,
+      "home": 9,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 4.15,
+      "home": 12,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 4.38,
+      "home": 14,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 4.93,
+      "home": 14,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 4.93,
+      "home": 15,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 4.93,
+      "home": 16,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 5.22,
+      "home": 17,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 5.22,
+      "home": 18,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 5.5,
+      "home": 18,
+      "away": 13,
+      "period": 1
+    },
+    {
+      "min": 5.5,
+      "home": 18,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 5.8,
+      "home": 20,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 6.77,
+      "home": 22,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 7.12,
+      "home": 24,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 9.1,
+      "home": 26,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 9.43,
+      "home": 26,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 9.9,
+      "home": 28,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 10.6,
+      "home": 28,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 11.22,
+      "home": 30,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 11.58,
+      "home": 31,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 11.58,
+      "home": 32,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 11.96,
+      "home": 32,
+      "away": 20,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 35,
+      "away": 20,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 35,
+      "away": 20,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 35,
+      "away": 20,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 35,
+      "away": 20,
+      "period": 2
+    },
+    {
+      "min": 12.22,
+      "home": 37,
+      "away": 20,
+      "period": 2
+    },
+    {
+      "min": 13.2,
+      "home": 37,
+      "away": 23,
+      "period": 2
+    },
+    {
+      "min": 13.43,
+      "home": 37,
+      "away": 23,
+      "period": 2
+    },
+    {
+      "min": 13.43,
+      "home": 37,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 14.1,
+      "home": 40,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 14.58,
+      "home": 43,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 14.92,
+      "home": 45,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 15.35,
+      "home": 47,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 16.17,
+      "home": 48,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 16.17,
+      "home": 49,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 16.85,
+      "home": 49,
+      "away": 26,
+      "period": 2
+    },
+    {
+      "min": 17.1,
+      "home": 49,
+      "away": 26,
+      "period": 2
+    },
+    {
+      "min": 17.37,
+      "home": 51,
+      "away": 26,
+      "period": 2
+    },
+    {
+      "min": 17.7,
+      "home": 51,
+      "away": 28,
+      "period": 2
+    },
+    {
+      "min": 18.53,
+      "home": 53,
+      "away": 28,
+      "period": 2
+    },
+    {
+      "min": 18.72,
+      "home": 53,
+      "away": 31,
+      "period": 2
+    },
+    {
+      "min": 18.98,
+      "home": 54,
+      "away": 31,
+      "period": 2
+    },
+    {
+      "min": 18.98,
+      "home": 55,
+      "away": 31,
+      "period": 2
+    },
+    {
+      "min": 19.73,
+      "home": 55,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 19.73,
+      "home": 55,
+      "away": 35,
+      "period": 2
+    },
+    {
+      "min": 19.87,
+      "home": 56,
+      "away": 35,
+      "period": 2
+    },
+    {
+      "min": 20.35,
+      "home": 56,
+      "away": 37,
+      "period": 2
+    },
+    {
+      "min": 20.8,
+      "home": 58,
+      "away": 37,
+      "period": 2
+    },
+    {
+      "min": 21.07,
+      "home": 58,
+      "away": 38,
+      "period": 2
+    },
+    {
+      "min": 21.07,
+      "home": 58,
+      "away": 39,
+      "period": 2
+    },
+    {
+      "min": 21.65,
+      "home": 60,
+      "away": 39,
+      "period": 2
+    },
+    {
+      "min": 21.98,
+      "home": 60,
+      "away": 40,
+      "period": 2
+    },
+    {
+      "min": 21.98,
+      "home": 60,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 22.68,
+      "home": 63,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 23.02,
+      "home": 63,
+      "away": 44,
+      "period": 2
+    },
+    {
+      "min": 23.97,
+      "home": 65,
+      "away": 44,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 44,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 44,
+      "period": 3
+    },
+    {
+      "min": 24.52,
+      "home": 65,
+      "away": 46,
+      "period": 3
+    },
+    {
+      "min": 24.97,
+      "home": 65,
+      "away": 48,
+      "period": 3
+    },
+    {
+      "min": 25.18,
+      "home": 67,
+      "away": 48,
+      "period": 3
+    },
+    {
+      "min": 25.45,
+      "home": 67,
+      "away": 49,
+      "period": 3
+    },
+    {
+      "min": 25.45,
+      "home": 67,
+      "away": 50,
+      "period": 3
+    },
+    {
+      "min": 25.63,
+      "home": 68,
+      "away": 50,
+      "period": 3
+    },
+    {
+      "min": 25.88,
+      "home": 68,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 26.13,
+      "home": 69,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 26.13,
+      "home": 70,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 27.2,
+      "home": 72,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 28.1,
+      "home": 72,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 28.28,
+      "home": 72,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 28.58,
+      "home": 74,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 29.23,
+      "home": 77,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 29.88,
+      "home": 77,
+      "away": 59,
+      "period": 3
+    },
+    {
+      "min": 30.38,
+      "home": 79,
+      "away": 59,
+      "period": 3
+    },
+    {
+      "min": 30.82,
+      "home": 79,
+      "away": 61,
+      "period": 3
+    },
+    {
+      "min": 31.22,
+      "home": 82,
+      "away": 61,
+      "period": 3
+    },
+    {
+      "min": 31.57,
+      "home": 82,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 31.75,
+      "home": 83,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 31.75,
+      "home": 84,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 32.78,
+      "home": 87,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 33.62,
+      "home": 89,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 33.62,
+      "home": 90,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 34.1,
+      "home": 91,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 34.1,
+      "home": 92,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 34.33,
+      "home": 92,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 34.73,
+      "home": 94,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 35.84,
+      "home": 94,
+      "away": 66,
+      "period": 3
+    },
+    {
+      "min": 35.98,
+      "home": 97,
+      "away": 66,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 97,
+      "away": 66,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 97,
+      "away": 66,
+      "period": 4
+    },
+    {
+      "min": 36.68,
+      "home": 100,
+      "away": 66,
+      "period": 4
+    },
+    {
+      "min": 37.22,
+      "home": 100,
+      "away": 66,
+      "period": 4
+    },
+    {
+      "min": 38.13,
+      "home": 100,
+      "away": 68,
+      "period": 4
+    },
+    {
+      "min": 39.42,
+      "home": 102,
+      "away": 68,
+      "period": 4
+    },
+    {
+      "min": 40.13,
+      "home": 102,
+      "away": 70,
+      "period": 4
+    },
+    {
+      "min": 40.43,
+      "home": 104,
+      "away": 70,
+      "period": 4
+    },
+    {
+      "min": 40.77,
+      "home": 104,
+      "away": 73,
+      "period": 4
+    },
+    {
+      "min": 41.08,
+      "home": 106,
+      "away": 73,
+      "period": 4
+    },
+    {
+      "min": 41.4,
+      "home": 106,
+      "away": 75,
+      "period": 4
+    },
+    {
+      "min": 41.7,
+      "home": 109,
+      "away": 75,
+      "period": 4
+    },
+    {
+      "min": 42.08,
+      "home": 109,
+      "away": 78,
+      "period": 4
+    },
+    {
+      "min": 42.97,
+      "home": 111,
+      "away": 78,
+      "period": 4
+    },
+    {
+      "min": 43.58,
+      "home": 114,
+      "away": 78,
+      "period": 4
+    },
+    {
+      "min": 44.08,
+      "home": 117,
+      "away": 78,
+      "period": 4
+    },
+    {
+      "min": 45.05,
+      "home": 117,
+      "away": 80,
+      "period": 4
+    },
+    {
+      "min": 45.63,
+      "home": 117,
+      "away": 83,
+      "period": 4
+    },
+    {
+      "min": 47.14,
+      "home": 119,
+      "away": 83,
+      "period": 4
+    },
+    {
+      "min": 47.39,
+      "home": 119,
+      "away": 84,
+      "period": 4
+    },
+    {
+      "min": 48.0,
+      "home": 119,
+      "away": 84,
+      "period": 4
+    }
+  ],
+  "shots": [
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 179,
+      "y": 186,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Brooks 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 64,
+      "y": 38,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Jal. Williams 7' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Goodwin",
+      "x": 238,
+      "y": 13,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Goodwin 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -134,
+      "y": 225,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Brooks 26' 3PT Jump Shot (3 PTS) (Booker 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": 6,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Booker 1' Running Dunk (2 PTS) (Ighodaro 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "L. Dort",
+      "x": -223,
+      "y": 84,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Dort 24' 3PT Jump Shot (3 PTS) (Gilgeous-Alexander 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Goodwin",
+      "x": -126,
+      "y": 236,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Goodwin 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -66,
+      "y": 115,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Booker 13' Pullup Jump Shot (4 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -138,
+      "y": 15,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Gilgeous-Alexander 14' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -65,
+      "y": -11,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Green 7' Running Pull-Up Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": -5,
+      "y": 98,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Holmgren 10' Pullup Jump Shot (2 PTS) (Jal. Williams 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "C. Gillespie",
+      "x": 153,
+      "y": 214,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Gillespie 26' 3PT Jump Shot (3 PTS) (Ighodaro 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -76,
+      "y": 130,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Gilgeous-Alexander 15' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Hartenstein",
+      "x": 7,
+      "y": -5,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hartenstein 1' Running Dunk (2 PTS) (Jal. Williams 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": 22,
+      "y": 6,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Green 2' Driving Finger Roll Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 150,
+      "y": 210,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Jal. Williams 26' 3PT Jump Shot (3 PTS) (Gilgeous-Alexander 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": -4,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Jal. Williams 1' Running Dunk (5 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -230,
+      "y": -5,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Brooks 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": -131,
+      "y": 218,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Jal. Williams 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": 27,
+      "y": 47,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Holmgren 5' Driving Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Hartenstein",
+      "x": -12,
+      "y": -4,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hartenstein 1' Putback Layup (4 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": 130,
+      "y": 212,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Green 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": -185,
+      "y": 163,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Jal. Williams 25' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "C. Gillespie",
+      "x": -186,
+      "y": 178,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Gillespie 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Caruso",
+      "x": 16,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Caruso 2' Cutting Layup Shot (2 PTS) (Gilgeous-Alexander 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -33,
+      "y": 13,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Booker 4' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -6,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Gilgeous-Alexander 2' Driving Finger Roll Layup (4 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -33,
+      "y": 263,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Booker 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "L. Dort",
+      "x": 158,
+      "y": 197,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Dort 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "H. Highsmith",
+      "x": 173,
+      "y": 188,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Highsmith 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": 7,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Gilgeous-Alexander 1' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -11,
+      "y": 37,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Brooks 4' Driving Hook Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -152,
+      "y": 154,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Brooks 22' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": 169,
+      "y": 192,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Holmgren 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Caruso",
+      "x": -16,
+      "y": 3,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Caruso 2' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Holmgren Tip Dunk Shot (8 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -202,
+      "y": 188,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Green 28' 3PT Pullup Jump Shot (5 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Mitchell",
+      "x": 54,
+      "y": 30,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Mitchell 6' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": 12,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Holmgren 1' Putback Dunk (10 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -165,
+      "y": 214,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Green 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Caruso",
+      "x": 230,
+      "y": -2,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Caruso 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -4,
+      "y": 141,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Booker 14' Pullup Jump Shot (8 PTS) (Gillespie 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -108,
+      "y": 108,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Gilgeous-Alexander 15' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 127,
+      "y": 222,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Jay. Williams 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -10,
+      "y": -13,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Gilgeous-Alexander 2' Driving Layup (6 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": -211,
+      "y": 138,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Holmgren 25' 3PT Pullup Jump Shot (13 PTS) (Jay. Williams 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Hartenstein",
+      "x": 27,
+      "y": 19,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Hartenstein 3' Alley Oop Dunk (6 PTS) (Jal. Williams 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 2,
+      "y": 52,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Brooks 5' Driving Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Joe",
+      "x": 93,
+      "y": 262,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Joe 28' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "C. Gillespie",
+      "x": 181,
+      "y": 173,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Gillespie 25' 3PT Step Back Jump Shot (6 PTS) (O'Neale 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Mitchell",
+      "x": -120,
+      "y": 98,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Mitchell 15' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": 82,
+      "y": 89,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Green 12' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 76,
+      "y": 241,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Jay. Williams 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Mitchell",
+      "x": -184,
+      "y": 174,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Mitchell 25' 3PT Running Jump Shot (3 PTS) (Jal. Williams 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "C. Gillespie",
+      "x": 92,
+      "y": 139,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Gillespie 17' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Mitchell",
+      "x": -87,
+      "y": 237,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Mitchell 25' 3PT Pullup Jump Shot (6 PTS) (Jay. Williams 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Wallace",
+      "x": -2,
+      "y": -5,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Wallace 1' Running Dunk (2 PTS) (Jal. Williams 5 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Goodwin",
+      "x": -203,
+      "y": 153,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Goodwin 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 20,
+      "y": 53,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Jay. Williams 6' Driving Floating Jump Shot (2 PTS) (Wallace 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 2,
+      "y": 80,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Brooks 8' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Joe",
+      "x": -169,
+      "y": 200,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Joe 26' 3PT Running Pull-Up Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": 34,
+      "y": 106,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Booker 11' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 148,
+      "y": -25,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Brooks 15' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Joe",
+      "x": -228,
+      "y": 11,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Joe 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Goodwin",
+      "x": 74,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Goodwin 7' Driving Floating Jump Shot (2 PTS) (O'Neale 2 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Wallace",
+      "x": -10,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Wallace 1' Running Alley Oop Dunk Shot (4 PTS) (Jal. Williams 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -69,
+      "y": 126,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Brooks 14' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -2,
+      "y": 117,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Booker 12' Pullup Jump Shot (10 PTS) (Ighodaro 3 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 39,
+      "y": 56,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Jal. Williams 7' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -96,
+      "y": 92,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Booker 13' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 118,
+      "y": -22,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Jal. Williams 12' Step Back Jump Shot (9 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 93,
+      "y": 241,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Brooks 26' 3PT Pullup Jump Shot (6 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 124,
+      "y": 244,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Brooks 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -132,
+      "y": 214,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Green 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "O. Ighodaro",
+      "x": 13,
+      "y": 18,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Ighodaro 2' Putback Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -233,
+      "y": -6,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Green 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -184,
+      "y": 248,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Brooks 31' 3PT Step Back Jump Shot (9 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -43,
+      "y": 110,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Booker 12' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 127,
+      "y": 228,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Brooks 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": 16,
+      "y": 1,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Green 2' Driving Reverse Layup (8 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": 26,
+      "y": 251,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Gilgeous-Alexander 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -26,
+      "y": 30,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Gilgeous-Alexander 4' Pullup Jump Shot (13 PTS) (Mitchell 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": 58,
+      "y": 103,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Gilgeous-Alexander 12' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": -77,
+      "y": 57,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Jal. Williams 10' Pullup Jump Shot (11 PTS) (Dort 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "L. Dort",
+      "x": 188,
+      "y": 197,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Dort 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -85,
+      "y": 111,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Green 14' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": -181,
+      "y": 157,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Holmgren 24' 3PT Jump Shot (16 PTS) (Dort 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "R. Dunn",
+      "x": 230,
+      "y": 69,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Dunn 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -183,
+      "y": 181,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Booker 26' 3PT Jump Shot (13 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": 80,
+      "y": 264,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Gilgeous-Alexander 28' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "R. O'Neale",
+      "x": -159,
+      "y": 519,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS O'Neale 54' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -12,
+      "y": -1,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Gilgeous-Alexander 1' Driving Finger Roll Layup (15 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -174,
+      "y": 197,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Booker 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": 125,
+      "y": 215,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Holmgren 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 175,
+      "y": 189,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Brooks 26' 3PT Running Pull-Up Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -145,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Green 15' Step Back Jump Shot (12 PTS) (Brooks 1 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 223,
+      "y": -14,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Jal. Williams 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -134,
+      "y": 63,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Booker 15' Pullup Jump Shot (15 PTS) (Brooks 2 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Hartenstein",
+      "x": -16,
+      "y": 120,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Hartenstein 12' Driving Floating Jump Shot (8 PTS) (Gilgeous-Alexander 4 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -22,
+      "y": 143,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Gilgeous-Alexander 14' Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -114,
+      "y": 226,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Green 25' 3PT Jump Shot (15 PTS) (O'Neale 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "O. Ighodaro",
+      "x": 1,
+      "y": 14,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Ighodaro 1' Cutting Dunk Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 227,
+      "y": 30,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Brooks 3PT Pullup Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": -230,
+      "y": 26,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Holmgren 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": 44,
+      "y": 35,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Booker 6' Cutting Finger Roll Layup Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -51,
+      "y": 250,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Brooks 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 11,
+      "y": 6,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Jal. Williams 1' Driving Reverse Layup (13 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -23,
+      "y": 19,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Brooks 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": -22,
+      "y": 80,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Jal. Williams 8' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "L. Dort",
+      "x": 223,
+      "y": -3,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Dort 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -81,
+      "y": 250,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Booker 26' 3PT Pullup Jump Shot (20 PTS) (Green 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "L. Dort",
+      "x": 12,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Dort 2' Cutting Dunk Shot (5 PTS) (Hartenstein 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 42,
+      "y": 126,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Brooks 13' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -74,
+      "y": 141,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Gilgeous-Alexander 16' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 60,
+      "y": 256,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Jal. Williams 26' 3PT Jump Shot (16 PTS) (Hartenstein 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "O. Ighodaro",
+      "x": -4,
+      "y": 14,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Ighodaro 1' Driving Dunk",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -37,
+      "y": 6,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Gilgeous-Alexander 4' Running Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": 152,
+      "y": 203,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Booker 25' 3PT Running Pull-Up Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "R. O'Neale",
+      "x": -124,
+      "y": 229,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "O'Neale 26' 3PT Jump Shot (4 PTS) (Booker 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": -34,
+      "y": 1,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Jal. Williams 3' Driving Finger Roll Layup (18 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 23,
+      "y": 3,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Brooks 2' Driving Finger Roll Layup (14 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "L. Dort",
+      "x": 224,
+      "y": 91,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Dort 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "L. Dort",
+      "x": 138,
+      "y": 221,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Dort 26' 3PT Jump Shot (8 PTS) (Gilgeous-Alexander 5 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 17,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Brooks 2' Driving Layup (16 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": 61,
+      "y": 122,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Booker 14' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Holmgren",
+      "x": 205,
+      "y": 147,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Holmgren 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "L. Dort",
+      "x": 10,
+      "y": 5,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Dort 1' Running Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Mitchell",
+      "x": 146,
+      "y": 211,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Mitchell 26' 3PT Jump Shot (9 PTS) (Gilgeous-Alexander 6 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -20,
+      "y": 18,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Gilgeous-Alexander 3' Driving Hook Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 113,
+      "y": 231,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Jay. Williams 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": 31,
+      "y": 58,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Gilgeous-Alexander 7' Putback Layup (22 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Booker",
+      "x": -59,
+      "y": 115,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Booker 13' Pullup Jump Shot (22 PTS) (Highsmith 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Wallace",
+      "x": 15,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Wallace 2' Driving Finger Roll Layup (6 PTS) (Caruso 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "H. Highsmith",
+      "x": 234,
+      "y": 4,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Highsmith 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -208,
+      "y": 148,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Gilgeous-Alexander 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "S. Gilgeous-Alexander",
+      "x": -233,
+      "y": -4,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Gilgeous-Alexander 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 229,
+      "y": -4,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Jay. Williams 3PT Jump Shot (5 PTS) (Gilgeous-Alexander 7 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -31,
+      "y": -2,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Green 3' Driving Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Wallace",
+      "x": -190,
+      "y": 175,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Wallace 26' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Joe",
+      "x": 25,
+      "y": 258,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Joe 26' 3PT Jump Shot (3 PTS) (Wallace 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": 153,
+      "y": -12,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Green 15' Step Back Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "PHX",
+      "player": "R. Dunn",
+      "x": 232,
+      "y": 9,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Dunn 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "C. Wallace",
+      "x": -230,
+      "y": 34,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Wallace 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -1,
+      "y": 61,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Green 6' Driving Floating Jump Shot (17 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Mitchell",
+      "x": 195,
+      "y": 160,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Mitchell 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": -100,
+      "y": 19,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Brooks 10' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Mitchell",
+      "x": 27,
+      "y": 38,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Mitchell 5' Running Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Green",
+      "x": -103,
+      "y": 231,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Green 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 9,
+      "y": 6,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Jal. Williams 1' Running Dunk (20 PTS) (Mitchell 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Joe",
+      "x": -199,
+      "y": 244,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Joe 31' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "D. Brooks",
+      "x": 74,
+      "y": 121,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Brooks 14' Pullup Jump Shot (18 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "J. Williams",
+      "x": 31,
+      "y": 163,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Jal. Williams 17' Pullup Jump Shot (22 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "R. Fleming",
+      "x": 240,
+      "y": 15,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Fleming 24' 3PT Jump Shot (3 PTS) (Gillespie 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. McCain",
+      "x": 39,
+      "y": 122,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "McCain 13' Pullup Jump Shot (2 PTS) (K. Williams 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "C. Gillespie",
+      "x": -131,
+      "y": 22,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Gillespie 13' Step Back Jump Shot (8 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "OKC",
+      "player": "K. Williams",
+      "x": -153,
+      "y": 230,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS K. Williams 28' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Joe",
+      "x": 125,
+      "y": 226,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Joe 26' 3PT Jump Shot (6 PTS) (Wiggins 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "C. Gillespie",
+      "x": -13,
+      "y": 266,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Gillespie 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "R. Fleming",
+      "x": -224,
+      "y": -22,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Fleming 3PT Jump Shot (6 PTS) (Bouyea 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. McCain",
+      "x": 11,
+      "y": 4,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS McCain 1' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "K. Maluach",
+      "x": 2,
+      "y": 57,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Maluach 6' Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Wiggins",
+      "x": 28,
+      "y": 86,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Wiggins 9' Pullup Jump Shot (2 PTS) (Joe 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Bouyea",
+      "x": 33,
+      "y": 6,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Bouyea 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHX",
+      "player": "K. Maluach",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Maluach Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "OKC",
+      "player": "I. Joe",
+      "x": -162,
+      "y": 251,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Joe 30' 3PT Step Back Jump Shot (9 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. McCain",
+      "x": 225,
+      "y": 33,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "McCain 3PT Running Jump Shot (5 PTS) (Topic 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. McCain",
+      "x": -229,
+      "y": 17,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS McCain 3PT Step Back Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Bouyea",
+      "x": 21,
+      "y": 3,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Bouyea 2' Driving Finger Roll Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "OKC",
+      "player": "K. Williams",
+      "x": -31,
+      "y": 272,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS K. Williams 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "R. Fleming",
+      "x": 206,
+      "y": 148,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Fleming 25' 3PT Jump Shot (9 PTS) (Dunn 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "OKC",
+      "player": "A. Wiggins",
+      "x": -233,
+      "y": -8,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Wiggins 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "J. McCain",
+      "x": 199,
+      "y": 146,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS McCain 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "R. Dunn",
+      "x": -232,
+      "y": -22,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Dunn 3PT Pullup Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "OKC",
+      "player": "I. Joe",
+      "x": 181,
+      "y": 169,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Joe 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHX",
+      "player": "J. Bouyea",
+      "x": 64,
+      "y": 83,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Bouyea 10' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "OKC",
+      "player": "K. Williams",
+      "x": 15,
+      "y": 12,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "K. Williams 2' Driving Finger Roll Layup (2 PTS)",
+      "zone": "at_rim"
+    }
+  ],
+  "shot_zones": {
+    "OKC": {
+      "at_rim": {
+        "fgm": 18,
+        "fga": 24,
+        "pct": 75.0
+      },
+      "paint": {
+        "fgm": 8,
+        "fga": 18,
+        "pct": 44.4
+      },
+      "mid": {
+        "fgm": 1,
+        "fga": 4,
+        "pct": 25.0
+      },
+      "corner_3": {
+        "fgm": 3,
+        "fga": 12,
+        "pct": 25.0
+      },
+      "arc_3": {
+        "fgm": 11,
+        "fga": 34,
+        "pct": 32.4
+      }
+    },
+    "PHX": {
+      "at_rim": {
+        "fgm": 6,
+        "fga": 14,
+        "pct": 42.9
+      },
+      "paint": {
+        "fgm": 7,
+        "fga": 18,
+        "pct": 38.9
+      },
+      "mid": {
+        "fgm": 3,
+        "fga": 11,
+        "pct": 27.3
+      },
+      "corner_3": {
+        "fgm": 2,
+        "fga": 10,
+        "pct": 20.0
+      },
+      "arc_3": {
+        "fgm": 11,
+        "fga": 29,
+        "pct": 37.9
+      }
+    }
+  },
+  "matchups": [
+    {
+      "off_id": "1628983",
+      "off_name": "S. Gilgeous-Alexander",
+      "off_team": "OKC",
+      "def_id": "1642346",
+      "def_name": "R. Dunn",
+      "minutes": "1:51",
+      "fgm": 4,
+      "fga": 7,
+      "fg_pct": 57.1,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 10,
+      "partial_poss": 7.8
+    },
+    {
+      "off_id": "1628415",
+      "off_name": "D. Brooks",
+      "off_team": "PHX",
+      "def_id": "1631096",
+      "def_name": "C. Holmgren",
+      "minutes": "2:29",
+      "fgm": 3,
+      "fga": 7,
+      "fg_pct": 42.9,
+      "fg3m": 1,
+      "fg3a": 4,
+      "pts": 7,
+      "partial_poss": 11.6
+    },
+    {
+      "off_id": "1626164",
+      "off_name": "D. Booker",
+      "off_team": "PHX",
+      "def_id": "1629652",
+      "def_name": "L. Dort",
+      "minutes": "7:05",
+      "fgm": 4,
+      "fga": 7,
+      "fg_pct": 57.1,
+      "fg3m": 2,
+      "fg3a": 3,
+      "pts": 12,
+      "partial_poss": 30.1
+    },
+    {
+      "off_id": "1630224",
+      "off_name": "J. Green",
+      "off_team": "PHX",
+      "def_id": "1631096",
+      "def_name": "C. Holmgren",
+      "minutes": "0:46",
+      "fgm": 3,
+      "fga": 5,
+      "fg_pct": 60.0,
+      "fg3m": 1,
+      "fg3a": 3,
+      "pts": 7,
+      "partial_poss": 4.0
+    },
+    {
+      "off_id": "1631114",
+      "off_name": "J. Williams",
+      "off_team": "OKC",
+      "def_id": "1628415",
+      "def_name": "D. Brooks",
+      "minutes": "2:02",
+      "fgm": 2,
+      "fga": 4,
+      "fg_pct": 50.0,
+      "fg3m": 1,
+      "fg3a": 3,
+      "pts": 5,
+      "partial_poss": 14.6
+    },
+    {
+      "off_id": "1631096",
+      "off_name": "C. Holmgren",
+      "off_team": "OKC",
+      "def_id": "1626164",
+      "def_name": "D. Booker",
+      "minutes": "2:15",
+      "fgm": 2,
+      "fga": 4,
+      "fg_pct": 50.0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 4,
+      "partial_poss": 9.6
+    },
+    {
+      "off_id": "1628983",
+      "off_name": "S. Gilgeous-Alexander",
+      "off_team": "OKC",
+      "def_id": "1626164",
+      "def_name": "D. Booker",
+      "minutes": "1:44",
+      "fgm": 3,
+      "fga": 4,
+      "fg_pct": 75.0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 7,
+      "partial_poss": 7.0
+    },
+    {
+      "off_id": "1628415",
+      "off_name": "D. Brooks",
+      "off_team": "PHX",
+      "def_id": "1628983",
+      "def_name": "S. Gilgeous-Alexander",
+      "minutes": "2:11",
+      "fgm": 2,
+      "fga": 4,
+      "fg_pct": 50.0,
+      "fg3m": 1,
+      "fg3a": 2,
+      "pts": 6,
+      "partial_poss": 9.9
+    },
+    {
+      "off_id": "1628415",
+      "off_name": "D. Brooks",
+      "off_team": "PHX",
+      "def_id": "1628392",
+      "def_name": "I. Hartenstein",
+      "minutes": "0:35",
+      "fgm": 0,
+      "fga": 4,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 0,
+      "partial_poss": 2.5
+    },
+    {
+      "off_id": "1628415",
+      "off_name": "D. Brooks",
+      "off_team": "PHX",
+      "def_id": "1642349",
+      "def_name": "A. Mitchell",
+      "minutes": "1:55",
+      "fgm": 1,
+      "fga": 4,
+      "fg_pct": 25.0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 2,
+      "partial_poss": 7.1
+    },
+    {
+      "off_id": "1628415",
+      "off_name": "D. Brooks",
+      "off_team": "PHX",
+      "def_id": "1631114",
+      "def_name": "J. Williams",
+      "minutes": "4:08",
+      "fgm": 2,
+      "fga": 4,
+      "fg_pct": 50.0,
+      "fg3m": 1,
+      "fg3a": 2,
+      "pts": 5,
+      "partial_poss": 20.2
+    },
+    {
+      "off_id": "1630224",
+      "off_name": "J. Green",
+      "off_team": "PHX",
+      "def_id": "1631114",
+      "def_name": "J. Williams",
+      "minutes": "4:29",
+      "fgm": 1,
+      "fga": 4,
+      "fg_pct": 25.0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 2,
+      "partial_poss": 22.2
+    },
+    {
+      "off_id": "1629652",
+      "off_name": "L. Dort",
+      "off_team": "OKC",
+      "def_id": "1626164",
+      "def_name": "D. Booker",
+      "minutes": "3:55",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 3,
+      "pts": 0,
+      "partial_poss": 22.8
+    },
+    {
+      "off_id": "1629652",
+      "off_name": "L. Dort",
+      "off_team": "OKC",
+      "def_id": "1628415",
+      "def_name": "D. Brooks",
+      "minutes": "0:30",
+      "fgm": 2,
+      "fga": 3,
+      "fg_pct": 66.7,
+      "fg3m": 2,
+      "fg3a": 3,
+      "pts": 6,
+      "partial_poss": 1.9
+    },
+    {
+      "off_id": "1628983",
+      "off_name": "S. Gilgeous-Alexander",
+      "off_team": "OKC",
+      "def_id": "1628415",
+      "def_name": "D. Brooks",
+      "minutes": "2:44",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 3,
+      "partial_poss": 14.3
+    },
+    {
+      "off_id": "1628983",
+      "off_name": "S. Gilgeous-Alexander",
+      "off_team": "OKC",
+      "def_id": "1630224",
+      "def_name": "J. Green",
+      "minutes": "1:46",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 2,
+      "partial_poss": 8.2
+    },
+    {
+      "off_id": "1630224",
+      "off_name": "J. Green",
+      "off_team": "PHX",
+      "def_id": "1641717",
+      "def_name": "C. Wallace",
+      "minutes": "2:22",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 2,
+      "partial_poss": 11.7
+    },
+    {
+      "off_id": "1626164",
+      "off_name": "D. Booker",
+      "off_team": "PHX",
+      "def_id": "1641717",
+      "def_name": "C. Wallace",
+      "minutes": "2:43",
+      "fgm": 2,
+      "fga": 3,
+      "fg_pct": 66.7,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 5,
+      "partial_poss": 12.2
+    }
+  ],
+  "collected": "2026-04-26"
+}

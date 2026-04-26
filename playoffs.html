@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg">
+<title>NBA Playoffs 2026 · Bola Presa</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;background:#fff;color:#1d1d1f}
+.page{display:none}.page.active{display:block}
+.wrap{padding:2.5rem 2rem 3rem;max-width:960px;margin:0 auto}
+.site-header{display:flex;align-items:center;gap:10px;margin-bottom:2rem}
+.site-name{font-size:20px;font-weight:600;letter-spacing:-0.4px}
+.bp-brand{display:flex;align-items:center;gap:6px;margin-left:auto}
+.bp-logo{width:24px;height:24px;border-radius:4px;object-fit:cover}
+.bp-text{font-size:12px;color:#86868b}
+.site-nav{display:flex;align-items:center;gap:4px;margin-left:12px}
+.nav-lnk{font-size:13px;color:#86868b;text-decoration:none;padding:4px 10px;border-radius:6px}
+.nav-lnk:hover{background:#f5f5f7;color:#1d1d1f}
+.back-btn{display:inline-flex;align-items:center;gap:4px;font-size:13px;color:#86868b;cursor:pointer;background:none;border:none;padding:0;font-family:inherit;margin-bottom:1.5rem}
+.back-btn:hover{color:#1d1d1f}
+
+/* HOME — bracket */
+.bracket-wrap{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.conf-title{font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin-bottom:1rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea}
+.series-list{display:flex;flex-direction:column;gap:10px}
+.series-card{border:0.5px solid #e5e5ea;border-radius:12px;overflow:hidden;cursor:pointer;transition:all 0.12s}
+.series-card:hover{border-color:#d2d2d7;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.series-card-header{display:flex;align-items:center;gap:10px;padding:12px 14px;background:#f9f9f9}
+.series-teams{flex:1}
+.series-team-row{display:flex;align-items:center;gap:6px;margin-bottom:3px}
+.series-team-row:last-child{margin-bottom:0}
+.series-seed{font-size:10px;font-weight:600;color:#86868b;width:14px;flex-shrink:0}
+.series-logo{width:24px;height:24px;object-fit:contain;flex-shrink:0}
+.series-team-name{font-size:13px;font-weight:500;color:#1d1d1f}
+.series-score-wrap{text-align:right;flex-shrink:0}
+.series-score{font-family:ui-monospace,monospace;font-size:18px;font-weight:700;letter-spacing:-0.5px}
+.series-games-strip{display:flex;gap:6px;padding:10px 14px;overflow-x:auto}
+.game-box{flex-shrink:0;border:0.5px solid #e5e5ea;border-radius:8px;padding:8px 10px;text-decoration:none;color:inherit;transition:all 0.1s;min-width:80px;text-align:center}
+.game-box:hover{background:#f5f5f7;border-color:#d2d2d7}
+.game-box-num{font-size:10px;color:#86868b;margin-bottom:4px}
+.game-box-score{font-family:ui-monospace,monospace;font-size:13px;font-weight:600;color:#1d1d1f}
+.game-box-winner{color:#1D9E75}
+.game-box-date{font-size:10px;color:#86868b;margin-top:2px}
+
+/* SERIE PAGE */
+.serie-header{display:flex;align-items:center;justify-content:center;gap:20px;padding:1.5rem 0;border-bottom:0.5px solid #e5e5ea;margin-bottom:1.5rem}
+.serie-team{display:flex;flex-direction:column;align-items:center;gap:6px}
+.serie-logo{width:56px;height:56px;object-fit:contain}
+.serie-name{font-size:13px;font-weight:500;text-align:center}
+.serie-seed-badge{font-size:11px;color:#86868b}
+.serie-score-big{font-family:ui-monospace,monospace;font-size:32px;font-weight:700;letter-spacing:-1px;text-align:center}
+.serie-vs{font-size:13px;color:#86868b}
+
+.games-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:0}
+.game-card{border:0.5px solid #e5e5ea;border-radius:10px;padding:12px 14px;text-decoration:none;color:inherit;transition:all 0.12s;flex:1;min-width:120px}
+.game-card:hover{background:#f5f5f7;border-color:#d2d2d7}
+.game-card-num{font-size:11px;color:#86868b;margin-bottom:6px}
+.game-card-teams{font-size:12px;color:#6e6e73;margin-bottom:4px}
+.game-card-score{font-family:ui-monospace,monospace;font-size:16px;font-weight:700;color:#1d1d1f}
+.game-card-winner{color:#1D9E75}
+.game-card-date{font-size:11px;color:#86868b;margin-top:4px}
+
+.sec-head{display:flex;align-items:center;gap:8px;margin:1.75rem 0 0.75rem}
+.sec-line{width:3px;height:14px;border-radius:2px;flex-shrink:0}
+.sec-name{font-size:13px;font-weight:500;color:#1d1d1f}
+
+/* Preview */
+.ff-section{background:#f9f9f9;border-radius:10px;padding:14px 16px}
+.ff-section-title{font-size:11px;color:#86868b;margin-bottom:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.05em}
+.ff-row{display:grid;grid-template-columns:1fr 28px 1fr;gap:4px;align-items:center;padding:6px 0;border-bottom:0.5px solid #e5e5ea}
+.ff-row:last-child{border-bottom:none}
+.ff-team-cell{display:flex;align-items:center;gap:5px}
+.ff-team-cell.right{flex-direction:row-reverse}
+.ff-bar-track{height:3px;background:#e5e5ea;border-radius:2px;overflow:hidden;width:36px;flex-shrink:0}
+.ff-bar-fill{height:100%;border-radius:2px}
+.ff-num{font-family:ui-monospace,monospace;font-size:12px;font-weight:500;flex-shrink:0}
+.conflicts-wrap{display:flex;flex-direction:column;gap:8px}
+.conflict-card{padding:12px 14px;border-radius:10px;border:0.5px solid #e5e5ea;background:#f9f9f9}
+.conflict-card.high{border-color:#D85A30;background:#fff8f6}
+.conflict-card.medium{border-color:#BA7517;background:#fffbf0}
+.conflict-card.elite{border-color:#007AFF;background:#f0f6ff}
+.conflict-title{font-size:12px;font-weight:500;color:#1d1d1f;margin-bottom:4px}
+.conflict-desc{font-size:12px;color:#6e6e73;line-height:1.5}
+.game-row{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:0.5px solid #e5e5ea}
+.game-row:last-child{border-bottom:none}
+.game-date{font-size:12px;color:#86868b;width:90px;flex-shrink:0}
+.game-teams{flex:1;font-size:13px;color:#1d1d1f}
+.game-score{font-family:ui-monospace,monospace;font-size:13px;font-weight:500;color:#1d1d1f;text-align:right;flex-shrink:0;min-width:70px}
+.game-link{font-size:12px;color:#007AFF;text-decoration:none;flex-shrink:0;margin-left:8px}
+.game-link:hover{text-decoration:underline}
+.footer-note{margin-top:2.5rem;padding-top:1rem;border-top:0.5px solid #e5e5ea;font-size:11px;color:#86868b}
+.loading{text-align:center;padding:3rem;color:#86868b}
+</style>
+</head>
+<body>
+
+<div id="home" class="page active">
+<div class="wrap">
+  <div class="site-header">
+    <span class="site-name">NBA Playoffs 2026</span>
+    <div class="bp-brand">
+      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
+      <span class="bp-text">Bola Presa</span>
+    </div>
+    <div class="site-nav">
+      <a class="nav-lnk" href="home.html">Início</a>
+      <a class="nav-lnk" href="index.html">Times</a>
+      <a class="nav-lnk" href="jogadores.html">Jogadores</a>
+    </div>
+  </div>
+  <div class="bracket-wrap" id="bracket"></div>
+  <div class="footer-note">Dados: NBA Stats · Clique em uma série para ver a análise</div>
+</div>
+</div>
+
+<div id="serie-page" class="page">
+<div class="wrap">
+  <button class="back-btn" onclick="showHome()">‹ Todas as séries</button>
+  <div id="serie-content"><div class="loading">Carregando...</div></div>
+</div>
+</div>
+
+<script>
+const TID={ATL:1610612737,BOS:1610612738,BKN:1610612751,CHA:1610612766,CHI:1610612741,CLE:1610612739,DAL:1610612742,DEN:1610612743,DET:1610612765,GSW:1610612744,HOU:1610612745,IND:1610612754,LAC:1610612746,LAL:1610612747,MEM:1610612763,MIA:1610612748,MIL:1610612749,MIN:1610612750,NOP:1610612740,NYK:1610612752,OKC:1610612760,ORL:1610612753,PHI:1610612755,PHX:1610612756,POR:1610612757,SAC:1610612758,SAS:1610612759,TOR:1610612761,UTA:1610612762,WAS:1610612764};
+const TC={ATL:"#E03A3E",BOS:"#007A33",BKN:"#000000",CHA:"#1D1160",CHI:"#CE1141",CLE:"#860038",DAL:"#00538C",DEN:"#FEC524",DET:"#C8102E",GSW:"#1D428A",HOU:"#CE1141",IND:"#002D62",LAC:"#C8102E",LAL:"#552583",MEM:"#5D76A9",MIA:"#98002E",MIL:"#00471B",MIN:"#78BE20",NOP:"#0C2340",NYK:"#F58426",OKC:"#007AC1",ORL:"#0077C0",PHI:"#006BB6",PHX:"#E56020",POR:"#E03A3E",SAC:"#5A2D81",SAS:"#C4CED4",TOR:"#CE1141",UTA:"#002B5C",WAS:"#002B5C"};
+const TNAME={ATL:"Atlanta Hawks",BOS:"Boston Celtics",BKN:"Brooklyn Nets",CHA:"Charlotte Hornets",CHI:"Chicago Bulls",CLE:"Cleveland Cavaliers",DAL:"Dallas Mavericks",DEN:"Denver Nuggets",DET:"Detroit Pistons",GSW:"Golden State Warriors",HOU:"Houston Rockets",IND:"Indiana Pacers",LAC:"Los Angeles Clippers",LAL:"Los Angeles Lakers",MEM:"Memphis Grizzlies",MIA:"Miami Heat",MIL:"Milwaukee Bucks",MIN:"Minnesota Timberwolves",NOP:"New Orleans Pelicans",NYK:"New York Knicks",OKC:"Oklahoma City Thunder",ORL:"Orlando Magic",PHI:"Philadelphia 76ers",PHX:"Phoenix Suns",POR:"Portland Trail Blazers",SAC:"Sacramento Kings",SAS:"San Antonio Spurs",TOR:"Toronto Raptors",UTA:"Utah Jazz",WAS:"Washington Wizards"};
+
+const BRACKET_DEF = {
+  East: [
+    {id:"det_orl", home:"DET", away:"ORL", home_seed:1, away_seed:8},
+    {id:"cle_tor", home:"CLE", away:"TOR", home_seed:4, away_seed:5},
+    {id:"nyk_atl", home:"NYK", away:"ATL", home_seed:3, away_seed:6},
+    {id:"bos_phi", home:"BOS", away:"PHI", home_seed:2, away_seed:7},
+  ],
+  West: [
+    {id:"okc_phx", home:"OKC", away:"PHX", home_seed:1, away_seed:8},
+    {id:"lal_hou", home:"LAL", away:"HOU", home_seed:4, away_seed:5},
+    {id:"den_min", home:"DEN", away:"MIN", home_seed:3, away_seed:6},
+    {id:"sas_por", home:"SAS", away:"POR", home_seed:2, away_seed:7},
+  ],
+};
+
+function logoUrl(a){return`https://cdn.nba.com/logos/nba/${TID[a]}/global/L/logo.svg`;}
+
+let PLAYOFFS={}, H2H={}, TIMES={};
+
+Promise.all([
+  fetch("jogos_playoffs.json").then(r=>r.json()).then(d=>{PLAYOFFS=d;}),
+  fetch("head2head.json").then(r=>r.json()).then(d=>{H2H=d.series||{};}),
+  fetch("times_full.json").then(r=>r.json()).then(d=>{TIMES=d.teams||{};}),
+]).then(()=>buildBracket());
+
+function fmtDate(d){
+  const dt=new Date(d+'T12:00:00');
+  return dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'});
+}
+
+function buildBracket(){
+  const bracket=document.getElementById('bracket');
+  bracket.innerHTML='';
+  ['West','East'].forEach(conf=>{
+    const col=document.createElement('div');
+    const title=document.createElement('div');
+    title.className='conf-title';
+    title.textContent=conf==='East'?'Conferência Leste':'Conferência Oeste';
+    col.appendChild(title);
+    const list=document.createElement('div');
+    list.className='series-list';
+    BRACKET_DEF[conf].forEach(def=>{
+      const games=PLAYOFFS.series?.[def.id]||[];
+      const scores=PLAYOFFS.series_scores?.[def.id]||{};
+      const t1wins=scores[def.home]||0;
+      const t2wins=scores[def.away]||0;
+      const c1=TC[def.home]||'#888';
+      const c2=TC[def.away]||'#888';
+      const winner1=t1wins>t2wins;
+      const winner2=t2wins>t1wins;
+
+      const card=document.createElement('div');
+      card.className='series-card';
+
+      // Header com times e placar
+      card.innerHTML=`
+        <div class="series-card-header" onclick="showSerie('${def.id}')">
+          <div class="series-teams">
+            <div class="series-team-row">
+              <span class="series-seed">${def.home_seed}</span>
+              <img class="series-logo" src="${logoUrl(def.home)}" onerror="this.style.display='none'">
+              <span class="series-team-name" style="color:${winner1?c1:'#1d1d1f'};font-weight:${winner1?700:500}">${TNAME[def.home]||def.home}</span>
+            </div>
+            <div class="series-team-row">
+              <span class="series-seed">${def.away_seed}</span>
+              <img class="series-logo" src="${logoUrl(def.away)}" onerror="this.style.display='none'">
+              <span class="series-team-name" style="color:${winner2?c2:'#1d1d1f'};font-weight:${winner2?700:500}">${TNAME[def.away]||def.away}</span>
+            </div>
+          </div>
+          <div class="series-score-wrap">
+            <div class="series-score">
+              <span style="color:${winner1?c1:'#86868b'}">${t1wins}</span>
+              <span style="color:#e5e5ea;font-size:14px;margin:0 2px">–</span>
+              <span style="color:${winner2?c2:'#86868b'}">${t2wins}</span>
+            </div>
+          </div>
+        </div>`;
+
+      // Jogos como quadrados clicáveis
+      if(games.length){
+        const strip=document.createElement('div');
+        strip.className='series-games-strip';
+        games.forEach(g=>{
+          const homeWon=g.winner===g.home;
+          const gc=document.createElement('a');
+          gc.className='game-box';
+          gc.href=`jogo.html?id=${g.game_id}`;
+          const winTeam=g.winner;
+          const winColor=TC[winTeam]||'#888';
+          gc.innerHTML=`
+            <div class="game-box-num">Jogo ${g.game_number}</div>
+            <div class="game-box-score">
+              <span style="color:${homeWon?TC[g.home]||'#888':'#86868b'}">${g.home_pts}</span>
+              <span style="color:#86868b;font-size:11px">–</span>
+              <span style="color:${!homeWon?TC[g.away]||'#888':'#86868b'}">${g.away_pts}</span>
+            </div>
+            <div class="game-box-date">${fmtDate(g.date)}</div>`;
+          strip.appendChild(gc);
+        });
+        card.appendChild(strip);
+      }
+
+      list.appendChild(card);
+    });
+    col.appendChild(list);
+    bracket.appendChild(col);
+  });
+}
+
+function showHome(){
+  document.getElementById('home').classList.add('active');
+  document.getElementById('serie-page').classList.remove('active');
+  window.scrollTo(0,0);
+}
+
+function rk(r){return r<=10?'#1D9E75':r<=20?'#BA7517':'#D85A30';}
+
+function detectConflicts(t1,t2,d1,d2){
+  const conflicts=[];
+  const rkv=(r)=>`${r}º`;
+
+  const pace1=d1.attack_style?.pace?.value||0, pace2=d2.attack_style?.pace?.value||0;
+  const paceR1=d1.attack_style?.pace?.rank||99, paceR2=d2.attack_style?.pace?.rank||99;
+  const paceDiff=Math.abs(pace1-pace2);
+  if(paceDiff>=3){
+    const faster=pace1>pace2?t1:t2, slower=pace1<pace2?t1:t2;
+    const fasterRk=pace1>pace2?paceR1:paceR2, slowerRk=pace1>pace2?paceR2:paceR1;
+    conflicts.push({level:paceDiff>=5?'high':'medium',
+      title:`Conflito de ritmo · Diferença de ${paceDiff.toFixed(1)} posses/48min`,
+      desc:`${faster} joga em ritmo acelerado (${Math.max(pace1,pace2)} posses, ${rkv(fasterRk)}). ${slower} prefere controlar o jogo (${Math.min(pace1,pace2)} posses, ${rkv(slowerRk)}).`});
+  }
+
+  const fb1=d1.attack_style?.pts_fb?.value||0, fb2=d2.attack_style?.pts_fb?.value||0;
+  const fbR1=d1.attack_style?.pts_fb?.rank||99, fbR2=d2.attack_style?.pts_fb?.rank||99;
+  const fbDef1=d1.defense_style?.opp_pts_fb?.value||0, fbDef2=d2.defense_style?.opp_pts_fb?.value||0;
+  const fbDefR1=d1.defense_style?.opp_pts_fb?.rank||99, fbDefR2=d2.defense_style?.opp_pts_fb?.rank||99;
+  if(fbR1<=7&&fbDefR2>=16) conflicts.push({level:fbDefR2>=22?'high':'medium',title:`Contra-ataque: ${t1} ataca, ${t2} sofre`,desc:`${t1} marca ${fb1} pts de contra-ataque/jogo (${rkv(fbR1)}). ${t2} cede ${fbDef2} pts em transição (${rkv(fbDefR2)}).`});
+  if(fbR2<=7&&fbDefR1>=16) conflicts.push({level:fbDefR1>=22?'high':'medium',title:`Contra-ataque: ${t2} ataca, ${t1} sofre`,desc:`${t2} marca ${fb2} pts de contra-ataque/jogo (${rkv(fbR2)}). ${t1} cede ${fbDef1} pts em transição (${rkv(fbDefR1)}).`});
+  if(fbR1<=7&&fbDefR2<=7) conflicts.push({level:'elite',title:`Contra-ataque: força contra força`,desc:`${t1} é elite em transição ofensiva (${rkv(fbR1)}). ${t2} é elite em conter contra-ataques (${rkv(fbDefR2)}).`});
+  if(fbR2<=7&&fbDefR1<=7) conflicts.push({level:'elite',title:`Contra-ataque: força contra força`,desc:`${t2} é elite em transição ofensiva (${rkv(fbR2)}). ${t1} é elite em conter contra-ataques (${rkv(fbDefR1)}).`});
+
+  const paint1=d1.attack_style?.pts_paint?.value||0, paint2=d2.attack_style?.pts_paint?.value||0;
+  const paintR1=d1.attack_style?.pts_paint?.rank||99, paintR2=d2.attack_style?.pts_paint?.rank||99;
+  const paintDef1=d1.defense_style?.opp_pts_paint?.value||0, paintDef2=d2.defense_style?.opp_pts_paint?.value||0;
+  const paintDefR1=d1.defense_style?.opp_pts_paint?.rank||99, paintDefR2=d2.defense_style?.opp_pts_paint?.rank||99;
+  if(paintR1<=7&&paintDefR2>=16) conflicts.push({level:paintDefR2>=22?'high':'medium',title:`Garrafão: ${t1} domina, ${t2} sofre`,desc:`${t1} marca ${paint1} pts no garrafão/jogo (${rkv(paintR1)}). ${t2} cede ${paintDef2} pts no garrafão (${rkv(paintDefR2)}).`});
+  if(paintR2<=7&&paintDefR1>=16) conflicts.push({level:paintDefR1>=22?'high':'medium',title:`Garrafão: ${t2} domina, ${t1} sofre`,desc:`${t2} marca ${paint2} pts no garrafão/jogo (${rkv(paintR2)}). ${t1} cede ${paintDef1} pts no garrafão (${rkv(paintDefR1)}).`});
+  if(paintR1<=7&&paintDefR2<=7) conflicts.push({level:'elite',title:`Garrafão: força contra força`,desc:`${t1} é elite a marcar no garrafão (${rkv(paintR1)}). ${t2} é elite a defender o aro (${rkv(paintDefR2)}).`});
+  if(paintR2<=7&&paintDefR1<=7) conflicts.push({level:'elite',title:`Garrafão: força contra força`,desc:`${t2} é elite a marcar no garrafão (${rkv(paintR2)}). ${t1} é elite a defender o aro (${rkv(paintDefR1)}).`});
+
+  const efg1=d1.four_factors_off?.efg?.value||0, efg2=d2.four_factors_off?.efg?.value||0;
+  const efgR1=d1.four_factors_off?.efg?.rank||99, efgR2=d2.four_factors_off?.efg?.rank||99;
+  const oefg1=d1.four_factors_def?.opp_efg?.value||0, oefg2=d2.four_factors_def?.opp_efg?.value||0;
+  const oefgR1=d1.four_factors_def?.opp_efg?.rank||99, oefgR2=d2.four_factors_def?.opp_efg?.rank||99;
+  if(efgR1<=7&&oefgR2>=16) conflicts.push({level:oefgR2>=22?'high':'medium',title:`Eficiência: vantagem para ${t1}`,desc:`${t1} tem eFG% de ${efg1}% (${rkv(efgR1)}). A defesa de ${t2} cede ${oefg2}% de eFG% (${rkv(oefgR2)}).`});
+  if(efgR2<=7&&oefgR1>=16) conflicts.push({level:oefgR1>=22?'high':'medium',title:`Eficiência: vantagem para ${t2}`,desc:`${t2} tem eFG% de ${efg2}% (${rkv(efgR2)}). A defesa de ${t1} cede ${oefg1}% de eFG% (${rkv(oefgR1)}).`});
+  if(efgR1<=7&&oefgR2<=7) conflicts.push({level:'elite',title:`Eficiência: ataque de elite contra defesa de elite`,desc:`${t1} tem eFG% de ${efg1}% (${rkv(efgR1)}). ${t2} tem uma das melhores defesas (${oefg2}%, ${rkv(oefgR2)}).`});
+  if(efgR2<=7&&oefgR1<=7) conflicts.push({level:'elite',title:`Eficiência: ataque de elite contra defesa de elite`,desc:`${t2} tem eFG% de ${efg2}% (${rkv(efgR2)}). ${t1} tem uma das melhores defesas (${oefg1}%, ${rkv(oefgR1)}).`});
+
+  const oreb1=d1.four_factors_off?.oreb?.value||0, oreb2=d2.four_factors_off?.oreb?.value||0;
+  const orebR1=d1.four_factors_off?.oreb?.rank||99, orebR2=d2.four_factors_off?.oreb?.rank||99;
+  const ooreb1=d1.four_factors_def?.opp_oreb?.value||0, ooreb2=d2.four_factors_def?.opp_oreb?.value||0;
+  const oorebR1=d1.four_factors_def?.opp_oreb?.rank||99, oorebR2=d2.four_factors_def?.opp_oreb?.rank||99;
+  if(orebR1<=7&&oorebR2>=16) conflicts.push({level:oorebR2>=22?'high':'medium',title:`Rebote ofensivo: ${t1} pode dominar`,desc:`${t1} pega ${oreb1}% dos rebotes ofensivos (${rkv(orebR1)}). ${t2} permite ${ooreb2}% (${rkv(oorebR2)}).`});
+  if(orebR2<=7&&oorebR1>=16) conflicts.push({level:oorebR1>=22?'high':'medium',title:`Rebote ofensivo: ${t2} pode dominar`,desc:`${t2} pega ${oreb2}% dos rebotes ofensivos (${rkv(orebR2)}). ${t1} permite ${ooreb1}% (${rkv(oorebR1)}).`});
+  if(orebR1<=7&&oorebR2<=7) conflicts.push({level:'elite',title:`Rebote ofensivo: força contra força`,desc:`${t1} é elite em capturar rebotes ofensivos (${oreb1}%, ${rkv(orebR1)}). ${t2} é elite em impedir rebotes (${ooreb2}%, ${rkv(oorebR2)}).`});
+  if(orebR2<=7&&oorebR1<=7) conflicts.push({level:'elite',title:`Rebote ofensivo: força contra força`,desc:`${t2} é elite em capturar rebotes ofensivos (${oreb2}%, ${rkv(orebR2)}). ${t1} é elite em impedir rebotes (${ooreb1}%, ${rkv(oorebR1)}).`});
+
+  return conflicts;
+}
+
+function ffSection(label,rows,t1,t2,c1,c2){
+  return`<div class="ff-section">
+    <div class="ff-section-title">${label}</div>
+    <div style="display:grid;grid-template-columns:1fr 28px 1fr;gap:4px;padding:4px 0 8px;border-bottom:0.5px solid #d2d2d7">
+      <span style="font-size:11px;font-weight:600;color:${c1}">${t1}</span>
+      <span></span>
+      <span style="font-size:11px;font-weight:600;color:${c2};text-align:right">${t2}</span>
+    </div>
+    ${rows.map(r=>{
+      const v1=r.v1||0,v2=r.v2||0;
+      const hi=r.hi;
+      const max=Math.max(v1,v2)||1;
+      const pct1=Math.round(v1/max*90), pct2=Math.round(v2/max*90);
+      const unit=r.unit!=null?r.unit:'%';
+      const hw=hi?(v1>v2):(v1<v2), aw=hi?(v2>v1):(v2<v1);
+      const arrow=hw?'←':aw?'→':'·';
+      const arrowColor=hw?c1:aw?c2:'#86868b';
+      return`<div class="ff-row">
+        <div class="ff-team-cell">
+          <div class="ff-bar-track"><div class="ff-bar-fill" style="width:${pct1}%;background:${c1}"></div></div>
+          <span class="ff-num" style="color:${c1}">${v1}${unit}</span>
+        </div>
+        <div style="text-align:center">
+          <div style="font-size:13px;color:${arrowColor}">${arrow}</div>
+          <div style="font-size:9px;color:#86868b;margin-top:1px">${r.label}</div>
+        </div>
+        <div class="ff-team-cell right">
+          <div class="ff-bar-track"><div class="ff-bar-fill" style="width:${pct2}%;background:${c2}"></div></div>
+          <span class="ff-num" style="color:${c2}">${v2}${unit}</span>
+        </div>
+      </div>`;
+    }).join('')}
+  </div>`;
+}
+
+function showSerie(id){
+  const def=Object.values(BRACKET_DEF).flat().find(d=>d.id===id);
+  if(!def) return;
+  document.getElementById('home').classList.remove('active');
+  document.getElementById('serie-page').classList.add('active');
+  window.scrollTo(0,0);
+
+  const t1=def.home, t2=def.away, s1=def.home_seed, s2=def.away_seed;
+  const c1=TC[t1]||'#888', c2=TC[t2]||'#888';
+  const d1=TIMES[t1]||{}, d2=TIMES[t2]||{};
+  const games=PLAYOFFS.series?.[id]||[];
+  const scores=PLAYOFFS.series_scores?.[id]||{};
+  const w1=scores[t1]||0, w2=scores[t2]||0;
+  const h2h=H2H[id];
+
+  // Jogos da série
+  const gamesHtml=games.map(g=>{
+    const homeWon=g.winner===g.home;
+    const winColor=TC[g.winner]||'#888';
+    return`<a class="game-card" href="jogo.html?id=${g.game_id}">
+      <div class="game-card-num">Jogo ${g.game_number}</div>
+      <div class="game-card-teams" style="font-size:11px;color:#86868b">${g.away} @ ${g.home}</div>
+      <div class="game-card-score">
+        <span style="color:${homeWon?TC[g.home]:'#86868b'}">${g.home_pts}</span>
+        <span style="color:#86868b;font-size:12px"> – </span>
+        <span style="color:${!homeWon?TC[g.away]:'#86868b'}">${g.away_pts}</span>
+      </div>
+      <div class="game-card-date">${fmtDate(g.date)}</div>
+    </a>`;
+  }).join('');
+
+  // Four factors
+  const ff1=d1.four_factors_off||{}, ff2=d2.four_factors_off||{};
+  const fd1=d1.four_factors_def||{}, fd2=d2.four_factors_def||{};
+  const offRows=[
+    {label:"eFG%",    v1:ff1.efg?.value,  v2:ff2.efg?.value,  hi:true,  unit:"%"},
+    {label:"TOV%",    v1:ff1.tov?.value,  v2:ff2.tov?.value,  hi:false, unit:"%"},
+    {label:"OReb%",   v1:ff1.oreb?.value, v2:ff2.oreb?.value, hi:true,  unit:"%"},
+    {label:"FT Rate", v1:ff1.ftr?.value,  v2:ff2.ftr?.value,  hi:true,  unit:""},
+  ];
+  const defRows=[
+    {label:"Opp eFG%",  v1:fd1.opp_efg?.value,  v2:fd2.opp_efg?.value,  hi:false, unit:"%"},
+    {label:"Opp TOV%",  v1:fd1.opp_tov?.value,  v2:fd2.opp_tov?.value,  hi:true,  unit:"%"},
+    {label:"Opp OReb%", v1:fd1.opp_oreb?.value, v2:fd2.opp_oreb?.value, hi:false, unit:"%"},
+    {label:"Opp FTR",   v1:fd1.opp_ftr?.value,  v2:fd2.opp_ftr?.value,  hi:false, unit:""},
+  ];
+
+  // Conflitos
+  const conflicts=detectConflicts(t1,t2,d1,d2);
+  const conflictsHtml=conflicts.length
+    ?conflicts.map(c=>`<div class="conflict-card ${c.level}"><div class="conflict-title">${c.title}</div><div class="conflict-desc">${c.desc}</div></div>`).join('')
+    :'<p style="font-size:13px;color:#86868b">Nenhum conflito estatístico relevante detectado.</p>';
+
+  // Head to head temporada regular
+  let h2hHtml='<p style="font-size:13px;color:#86868b">Sem dados de temporada regular disponíveis.</p>';
+  if(h2h){
+    const rec=h2h.regular_season_record||{};
+    const r1=rec[t1]||0, r2=rec[t2]||0;
+    h2hHtml=`<p style="font-size:12px;color:#86868b;margin-bottom:10px">Na temporada regular: <strong>${r1}-${r2}</strong> para o ${r1>r2?TNAME[t1]:TNAME[t2]}</p>
+    ${(h2h.games||[]).map(g=>{
+      const homeWon=g.winner===g.home;
+      return`<div class="game-row">
+        <span class="game-date">${fmtDate(g.date)}</span>
+        <div class="game-teams">
+          <span style="font-weight:${homeWon?600:400};color:${homeWon?TC[g.home]||'#1d1d1f':'#86868b'}">${g.home}</span>
+          <span style="color:#86868b;margin:0 4px">vs</span>
+          <span style="font-weight:${!homeWon?600:400};color:${!homeWon?TC[g.away]||'#1d1d1f':'#86868b'}">${g.away}</span>
+        </div>
+        <span class="game-score">${g.home_pts}–${g.away_pts}</span>
+        <a class="game-link" href="https://www.nba.com/game/${g.game_id}" target="_blank">boxscore →</a>
+      </div>`;
+    }).join('')}`;
+  }
+
+  document.getElementById('serie-content').innerHTML=`
+    <div class="serie-header">
+      <div class="serie-team">
+        <img class="serie-logo" src="${logoUrl(t1)}" onerror="this.style.display='none'">
+        <div class="serie-name">${TNAME[t1]||t1}</div>
+        <div class="serie-seed-badge">${s1}º seed</div>
+      </div>
+      <div style="text-align:center">
+        <div class="serie-score-big">
+          <span style="color:${w1>w2?c1:'#86868b'}">${w1}</span>
+          <span style="color:#e5e5ea;font-size:20px;margin:0 4px">–</span>
+          <span style="color:${w2>w1?c2:'#86868b'}">${w2}</span>
+        </div>
+        <div class="serie-vs" style="margin-top:4px">Playoff 2026 · Primeiro Round</div>
+      </div>
+      <div class="serie-team">
+        <img class="serie-logo" src="${logoUrl(t2)}" onerror="this.style.display='none'">
+        <div class="serie-name">${TNAME[t2]||t2}</div>
+        <div class="serie-seed-badge">${s2}º seed</div>
+      </div>
+    </div>
+
+    <div class="sec-head"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Jogos da série</span></div>
+    <div class="games-row">${gamesHtml||'<p style="font-size:13px;color:#86868b">Nenhum jogo disputado ainda.</p>'}</div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:${c1}"></div><span class="sec-name">Preview · Four Factors ofensivos</span></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      ${ffSection("Ofensivo",offRows,t1,t2,c1,c2)}
+      ${ffSection("Defensivo",defRows,t1,t2,c1,c2)}
+    </div>
+
+    ${conflicts.length?`
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line"></div><span class="sec-name">Conflitos estatísticos relevantes</span></div>
+    <div class="conflicts-wrap">${conflictsHtml}</div>`:''}
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line"></div><span class="sec-name">Histórico da temporada regular</span></div>
+    ${h2hHtml}
+
+    <div class="footer-note">Dados: NBA Stats · Temporada 2025-26</div>`;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg">
+<title>NBA Player Profiles · Bola Presa</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;background:#fff;color:#1d1d1f}
+.page{display:none}.page.active{display:block}
+.wrap{padding:2.5rem 2rem 3rem;max-width:900px;margin:0 auto}
+.site-header{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem;flex-wrap:wrap}
+.site-name{font-size:20px;font-weight:600;letter-spacing:-0.4px}
+.bp-sep{font-size:13px;color:#86868b}
+.bp-brand{display:flex;align-items:center;gap:6px}
+.bp-logo{width:24px;height:24px;border-radius:4px;object-fit:cover}
+.bp-text{font-size:12px;color:#86868b}
+.site-nav{display:flex;align-items:center;gap:4px;margin-left:auto}
+.nav-lnk{font-size:13px;color:#86868b;text-decoration:none;padding:4px 10px;border-radius:6px}
+.nav-lnk:hover{background:#f5f5f7;color:#1d1d1f}
+.search-wrap{position:relative;margin-bottom:2rem}
+.search-input{width:100%;padding:10px 16px;font-size:14px;font-family:inherit;border:0.5px solid #d2d2d7;border-radius:10px;outline:none;background:#f5f5f7;transition:all 0.15s}
+.search-input:focus{background:#fff;border-color:#86868b;box-shadow:0 0 0 3px rgba(0,0,0,0.06)}
+.autocomplete-list{position:absolute;top:calc(100% + 4px);left:0;right:0;background:#fff;border:0.5px solid #d2d2d7;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,0.1);z-index:100;max-height:320px;overflow-y:auto;display:none}
+.autocomplete-list.open{display:block}
+.ac-item{display:flex;align-items:center;gap:10px;padding:8px 12px;cursor:pointer;transition:background 0.1s}
+.ac-item:hover{background:#f5f5f7}
+.ac-item:first-child{border-radius:10px 10px 0 0}
+.ac-item:last-child{border-radius:0 0 10px 10px}
+.ac-photo{width:32px;height:32px;border-radius:50%;object-fit:cover;background:#e5e5ea;flex-shrink:0}
+.ac-name{font-size:13px;font-weight:500;color:#1d1d1f}
+.ac-meta{font-size:11px;color:#86868b}
+.conf-label{font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin:1.75rem 0 0.6rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea}
+.div-label{font-size:11px;color:#86868b;margin:1rem 0 0.5rem}
+.team-section{margin-bottom:1rem}
+.team-row{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.team-logo-sm{width:24px;height:24px;object-fit:contain}
+.team-name-sm{font-size:12px;font-weight:500;color:#86868b}
+.players-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.player-card{display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 8px 10px;background:transparent;border:0.5px solid #e5e5ea;border-radius:10px;cursor:pointer;transition:background 0.12s;width:100%;text-align:center}
+.player-card:hover{background:#f5f5f7;border-color:#d2d2d7}
+.player-name-txt{font-size:11px;font-weight:500;color:#1d1d1f;line-height:1.3}
+.player-pos-txt{font-size:10px;color:#86868b}
+.profile-topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:8px}
+.back-btn{display:inline-flex;align-items:center;gap:4px;font-size:13px;color:#86868b;cursor:pointer;background:none;border:none;padding:0;font-family:inherit}
+.back-btn:hover{color:#1d1d1f}
+.player-header{display:flex;align-items:flex-start;gap:20px;padding-bottom:1.25rem;border-bottom:0.5px solid #e5e5ea;margin-bottom:1rem}
+.player-header-info{flex:1}
+.player-name-h{font-size:22px;font-weight:600;letter-spacing:-0.4px;margin-bottom:4px}
+.player-meta-row{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:8px}
+.player-meta-item{font-size:13px;color:#6e6e73}
+.player-meta-item strong{color:#1d1d1f;font-weight:500}
+.team-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:20px;border:0.5px solid #e5e5ea;font-size:12px;font-weight:500;text-decoration:none;margin-bottom:8px}
+.awards-wrap{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.award-tag{font-size:11px;padding:3px 8px;border-radius:12px;background:#f5f5f7;color:#6e6e73;border:0.5px solid #e5e5ea}
+.award-tag.highlight{background:#1d1d1f;color:#fff;border-color:#1d1d1f}
+.sec-head{display:flex;align-items:center;gap:8px;margin:1.75rem 0 0.75rem}
+.sec-line{width:3px;height:14px;border-radius:2px;flex-shrink:0}
+.sec-name{font-size:13px;font-weight:500;color:#1d1d1f}
+.stat-row{display:flex;align-items:center;padding:8px 0;border-bottom:0.5px solid #e5e5ea}
+.stat-row:last-child{border-bottom:none}
+.stat-label{flex:1;font-size:13px;color:#6e6e73;padding-right:8px}
+.stat-val{font-family:ui-monospace,monospace;font-size:13px;font-weight:500;color:#1d1d1f;text-align:right;min-width:60px}
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.stat-box{background:#f5f5f7;border-radius:10px;padding:12px 14px;text-align:center}
+.stat-box-val{font-family:ui-monospace,monospace;font-size:20px;font-weight:500;color:#1d1d1f}
+.stat-box-lbl{font-size:11px;color:#86868b;margin-top:2px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.zone-grid{display:grid;grid-template-columns:1fr 60px 60px 60px;gap:4px;align-items:center}
+.onoff-grid{display:grid;grid-template-columns:1fr 80px 80px 60px;gap:4px;align-items:center}
+.lineup-row{padding:8px 0;border-bottom:0.5px solid #e5e5ea}
+.lineup-row:last-child{border-bottom:none}
+.lineup-names{font-size:12px;color:#6e6e73;margin-bottom:4px}
+.lineup-stats{display:flex;gap:16px}
+.lineup-stat{font-size:11px;color:#86868b}
+.lineup-stat span{font-family:ui-monospace,monospace;font-weight:500;color:#1d1d1f}
+.assist-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:0.5px solid #e5e5ea}
+.assist-row:last-child{border-bottom:none}
+.assist-photo{width:32px;height:32px;border-radius:50%;object-fit:cover;background:#e5e5ea;flex-shrink:0}
+.assist-name{font-size:13px;color:#1d1d1f;flex:1}
+.assist-count{font-family:ui-monospace,monospace;font-size:13px;font-weight:500;color:#1d1d1f}
+.assist-zones{font-size:11px;color:#86868b;margin-top:2px}
+.footer-note{margin-top:2.5rem;padding-top:1rem;border-top:0.5px solid #e5e5ea;font-size:11px;color:#86868b}
+.scoring-bar-wrap{margin-top:8px}
+.scoring-bar-row{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+.scoring-bar-label{font-size:12px;color:#6e6e73;width:120px;flex-shrink:0}
+.scoring-bar-track{flex:1;height:7px;background:#e5e5ea;border-radius:4px;overflow:hidden}
+.scoring-bar-fill{height:100%;border-radius:4px}
+.scoring-bar-val{font-family:ui-monospace,monospace;font-size:12px;color:#1d1d1f;width:36px;text-align:right;flex-shrink:0}
+.tov-grid{display:grid;grid-template-columns:1fr 60px 60px;gap:4px;align-items:center}
+</style>
+</head>
+<body>
+
+<div id="home" class="page active">
+<div class="wrap">
+  <div class="site-header">
+    <span class="site-name">NBA Player Profiles</span>
+    <span class="bp-sep">·</span>
+    <div class="bp-brand">
+      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
+      <span class="bp-text">um projeto Bola Presa</span>
+    </div>
+    <div class="site-nav">
+      <a class="nav-lnk" href="home.html">Início</a>
+      <a class="nav-lnk" href="index.html">Times</a>
+    </div>
+  </div>
+  <div class="search-wrap">
+    <input class="search-input" id="search" type="text" placeholder="Buscar jogador..." autocomplete="off">
+    <div class="autocomplete-list" id="ac-list"></div>
+  </div>
+  <div id="players-list"></div>
+  <div class="footer-note"><span id="updated-home"></span></div>
+</div>
+</div>
+
+<div id="profile" class="page">
+<div class="wrap">
+  <div class="profile-topbar">
+    <button class="back-btn" onclick="showHome()">‹ Todos os jogadores</button>
+    <div class="site-nav">
+      <a class="nav-lnk" href="home.html">Início</a>
+      <a class="nav-lnk" href="index.html">Times</a>
+    </div>
+  </div>
+  <div id="profile-content"></div>
+</div>
+</div>
+
+<script>
+const TID={ATL:1610612737,BOS:1610612738,BKN:1610612751,CHA:1610612766,CHI:1610612741,CLE:1610612739,DAL:1610612742,DEN:1610612743,DET:1610612765,GSW:1610612744,HOU:1610612745,IND:1610612754,LAC:1610612746,LAL:1610612747,MEM:1610612763,MIA:1610612748,MIL:1610612749,MIN:1610612750,NOP:1610612740,NYK:1610612752,OKC:1610612760,ORL:1610612753,PHI:1610612755,PHX:1610612756,POR:1610612757,SAC:1610612758,SAS:1610612759,TOR:1610612761,UTA:1610612762,WAS:1610612764};
+const TC={ATL:"#E03A3E",BOS:"#007A33",BKN:"#000000",CHA:"#1D1160",CHI:"#CE1141",CLE:"#860038",DAL:"#00538C",DEN:"#0E2240",DET:"#C8102E",GSW:"#1D428A",HOU:"#CE1141",IND:"#002D62",LAC:"#C8102E",LAL:"#552583",MEM:"#5D76A9",MIA:"#98002E",MIL:"#00471B",MIN:"#0C2340",NOP:"#0C2340",NYK:"#F58426",OKC:"#007AC1",ORL:"#0077C0",PHI:"#006BB6",PHX:"#E56020",POR:"#E03A3E",SAC:"#5A2D81",SAS:"#C4CED4",TOR:"#CE1141",UTA:"#002B5C",WAS:"#002B5C"};
+const TNAME={ATL:"Atlanta Hawks",BOS:"Boston Celtics",BKN:"Brooklyn Nets",CHA:"Charlotte Hornets",CHI:"Chicago Bulls",CLE:"Cleveland Cavaliers",DAL:"Dallas Mavericks",DEN:"Denver Nuggets",DET:"Detroit Pistons",GSW:"Golden State Warriors",HOU:"Houston Rockets",IND:"Indiana Pacers",LAC:"Los Angeles Clippers",LAL:"Los Angeles Lakers",MEM:"Memphis Grizzlies",MIA:"Miami Heat",MIL:"Milwaukee Bucks",MIN:"Minnesota Timberwolves",NOP:"New Orleans Pelicans",NYK:"New York Knicks",OKC:"Oklahoma City Thunder",ORL:"Orlando Magic",PHI:"Philadelphia 76ers",PHX:"Phoenix Suns",POR:"Portland Trail Blazers",SAC:"Sacramento Kings",SAS:"San Antonio Spurs",TOR:"Toronto Raptors",UTA:"Utah Jazz",WAS:"Washington Wizards"};
+const DIV={East:{"Divisão Atlântica":["BOS","BKN","NYK","PHI","TOR"],"Divisão Central":["CHI","CLE","DET","IND","MIL"],"Divisão Sudeste":["ATL","CHA","MIA","ORL","WAS"]},Oeste:{"Divisão Noroeste":["DEN","MIN","OKC","POR","UTA"],"Divisão Pacífico":["GSW","LAC","LAL","PHX","SAC"],"Divisão Sudoeste":["DAL","HOU","MEM","NOP","SAS"]}};
+const AWARD_HIGHLIGHT=["NBA Champion","NBA Finals MVP","NBA Most Valuable Player","Defensive Player of the Year","Rookie of the Year","Most Improved Player","Sixth Man of the Year","All-NBA","NBA All-Star"];
+const AWARD_SKIP=["NBA Player of the Week","NBA Player of the Month","NBA Rookie of the Month"];
+
+function logoUrl(abbr){return`https://cdn.nba.com/logos/nba/${TID[abbr]}/global/L/logo.svg`;}
+function photoUrl(pid){return`https://cdn.nba.com/headshots/nba/latest/260x190/${pid}.png`;}
+function heightToCm(h){if(!h)return'—';const p=h.split('-');if(p.length!==2)return h;return Math.round(parseInt(p[0])*30.48+parseInt(p[1])*2.54)+' cm';}
+function weightToKg(lbs){if(!lbs)return'—';return Math.round(parseInt(lbs)*0.453592)+' kg';}
+
+let DATA=null;
+let allPlayers=[];
+
+fetch("jogadores.json").then(r=>r.json()).then(d=>{
+  DATA=d;
+  allPlayers=Object.values(d.players).sort((a,b)=>a.name.localeCompare(b.name));
+  document.getElementById("updated-home").textContent="Temporada "+d.season+" · Atualizado em "+d.updated+" · Dados: NBA Stats / pbpstats.com";
+  buildHome();
+  setupSearch();
+  const _pid=new URLSearchParams(window.location.search).get('pid');
+  if(_pid) showProfile(_pid);
+});
+
+function buildHome(){
+  const list=document.getElementById("players-list");
+  list.innerHTML="";
+  ["East","Oeste"].forEach(conf=>{
+    const cl=document.createElement("div");
+    cl.className="conf-label";
+    cl.textContent=conf==="East"?"Conferência Leste":"Conferência Oeste";
+    list.appendChild(cl);
+    Object.entries(DIV[conf]).forEach(([div,abbrs])=>{
+      const dl=document.createElement("div");
+      dl.className="div-label";
+      dl.textContent=div;
+      list.appendChild(dl);
+      abbrs.forEach(abbr=>{
+        const teamPlayers=allPlayers.filter(p=>p.team===abbr);
+        if(!teamPlayers.length) return;
+        const section=document.createElement("div");
+        section.className="team-section";
+        const teamRow=document.createElement("div");
+        teamRow.className="team-row";
+        teamRow.innerHTML=`<img class="team-logo-sm" src="${logoUrl(abbr)}" alt="${abbr}" onerror="this.style.display='none'"><span class="team-name-sm">${TNAME[abbr]||abbr}</span>`;
+        section.appendChild(teamRow);
+        const grid=document.createElement("div");
+        grid.className="players-grid";
+        teamPlayers.sort((a,b)=>b.per_game.pts-a.per_game.pts).forEach(p=>{
+          const card=document.createElement("button");
+          card.className="player-card";
+          const initials=p.name.split(' ').map(n=>n[0]).join('').slice(0,2);
+          card.innerHTML=`
+            <div style="position:relative;width:52px;height:52px;flex-shrink:0">
+              <div style="width:52px;height:52px;border-radius:50%;background:#e5e5ea;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;color:#86868b;position:absolute;inset:0">${initials}</div>
+              <img style="width:52px;height:52px;border-radius:50%;object-fit:cover;position:absolute;inset:0" src="${photoUrl(p.id)}" alt="${p.name}" onerror="this.style.display='none'">
+            </div>
+            <span class="player-name-txt">${p.name}</span>
+            <span class="player-pos-txt">${p.position||''} · #${p.jersey||''}</span>`;
+          card.onclick=()=>showProfile(p.id);
+          grid.appendChild(card);
+        });
+        section.appendChild(grid);
+        list.appendChild(section);
+      });
+    });
+  });
+}
+
+function setupSearch(){
+  const input=document.getElementById("search");
+  const acList=document.getElementById("ac-list");
+  input.addEventListener("input",()=>{
+    const q=input.value.trim().toLowerCase();
+    if(q.length<2){acList.classList.remove("open");return;}
+    const results=allPlayers.filter(p=>p.name.toLowerCase().includes(q)).slice(0,8);
+    if(!results.length){acList.classList.remove("open");return;}
+    acList.innerHTML=results.map(p=>`
+      <div class="ac-item" onclick="pickPlayer('${p.id}')">
+        <img class="ac-photo" src="${photoUrl(p.id)}" alt="${p.name}" onerror="this.style.background='${TC[p.team]||'#888'}'">
+        <div>
+          <div class="ac-name">${p.name}</div>
+          <div class="ac-meta">${p.team} · ${p.position||''} · ${p.per_game.pts} pts</div>
+        </div>
+      </div>`).join('');
+    acList.classList.add("open");
+  });
+  document.addEventListener("click",e=>{
+    if(!e.target.closest(".search-wrap")) acList.classList.remove("open");
+  });
+  input.addEventListener("keydown",e=>{if(e.key==="Escape") acList.classList.remove("open");});
+}
+
+function pickPlayer(pid){
+  document.getElementById("search").value="";
+  document.getElementById("ac-list").classList.remove("open");
+  showProfile(pid);
+}
+
+function showHome(){
+  document.getElementById("home").classList.add("active");
+  document.getElementById("profile").classList.remove("active");
+  window.scrollTo(0,0);
+}
+
+function showProfile(pid){
+  const p=DATA.players[pid];
+  if(!p) return;
+  document.getElementById("home").classList.remove("active");
+  document.getElementById("profile").classList.add("active");
+  window.scrollTo(0,0);
+
+  const color=TC[p.team]||"#888";
+  const sp=p.scoring_profile;
+  const tov=p.turnovers||{};
+
+  // Prêmios
+  const awardsFiltered=p.awards.filter(a=>!AWARD_SKIP.some(s=>a.description.includes(s)));
+  const awardsUniq=[...new Map(awardsFiltered.map(a=>[a.description,a])).values()];
+  const awardsHtml=awardsUniq.map(a=>{
+    const hi=AWARD_HIGHLIGHT.some(h=>a.description.includes(h));
+    return`<span class="award-tag${hi?' highlight':''}">${a.description}</span>`;
+  }).join('');
+
+  // Shot zones
+  const sz=p.shot_zones;
+  const totalFga=(sz.at_rim.fga||0)+(sz.short_mid.fga||0)+(sz.long_mid.fga||0)+(sz.corner_3.fga||0)+(sz.arc_3.fga||0);
+
+  // On/off
+  const oo=p.on_off;
+  const hasOnOff=oo.on&&(oo.on.off_rtg!==0||oo.off.off_rtg!==0);
+
+  // Barras de pontuação (valores absolutos, somam ao total)
+  const total=sp.pts_total_pg||0.1;
+  const bars=[
+    {label:"Criação própria",val:sp.pts_created,color:color},
+    {label:"Via assistência",val:sp.pts_assisted_val,color:"#86868b"},
+    {label:"Lances livres",val:sp.pts_ft,color:"#BA7517"},
+  ];
+  const scoringHtml=bars.map(b=>`
+    <div class="scoring-bar-row">
+      <span class="scoring-bar-label">${b.label}</span>
+      <div class="scoring-bar-track"><div class="scoring-bar-fill" style="width:${Math.min(100,b.val/total*100).toFixed(1)}%;background:${b.color}"></div></div>
+      <span class="scoring-bar-val">${b.val}</span>
+    </div>`).join('');
+
+  // Turnovers
+  const tovTotal=tov.total_pg||0;
+  const tovRows=[
+    {label:"Passes errados",val:tov.bad_pass||0},
+    {label:"Perdas de bola",val:tov.lost_ball||0},
+    {label:"Violações",val:tov.violations||0},
+  ];
+  const tovHtml=tovTotal>0?`
+    <div class="tov-grid" style="padding:5px 0;border-bottom:0.5px solid #d2d2d7">
+      <span style="font-size:11px;color:#86868b">Tipo</span>
+      <span style="font-size:11px;color:#86868b;text-align:right">Total</span>
+      <span style="font-size:11px;color:#86868b;text-align:right">%</span>
+    </div>
+    ${tovRows.map(r=>{
+      const pct=tov.total_pg>0?Math.round(r.val/(tovTotal*p.games_played)*100):0;
+      return`<div class="tov-grid" style="padding:7px 0;border-bottom:0.5px solid #e5e5ea">
+        <span style="font-size:13px;color:#6e6e73">${r.label}</span>
+        <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right">${r.val}</span>
+        <span style="font-family:ui-monospace,monospace;font-size:12px;text-align:right;color:#86868b">${pct}%</span>
+      </div>`;
+    }).join('')}
+    <div style="margin-top:8px;font-size:12px;color:#86868b">
+      ${tov.live_ball_pct||0}% são turnovers com bola viva (os mais prejudiciais)
+    </div>`:'<p style="font-size:13px;color:#86868b">Sem dados disponíveis</p>';
+
+  // Lineups
+  const lineupsHtml=p.lineups.length?p.lineups.map(l=>`
+    <div class="lineup-row">
+      <div class="lineup-names">${l.lineup}</div>
+      <div class="lineup-stats">
+        <div class="lineup-stat">${Math.round(l.minutes)} min</div>
+        <div class="lineup-stat">ORtg <span style="color:${l.off_rtg>=110?'#1D9E75':l.off_rtg>=105?'#BA7517':'#D85A30'}">${l.off_rtg}</span></div>
+        <div class="lineup-stat">DRtg <span style="color:${l.def_rtg<=110?'#1D9E75':l.def_rtg<=115?'#BA7517':'#D85A30'}">${l.def_rtg}</span></div>
+        <div class="lineup-stat">Net <span style="color:${l.net_rtg>=0?'#1D9E75':'#D85A30'}">${l.net_rtg>0?'+':''}${l.net_rtg}</span></div>
+      </div>
+    </div>`).join(''):'<p style="font-size:13px;color:#86868b">Sem dados disponíveis</p>';
+
+  // Assist network
+  function assistRow(a){
+    const zones=[];
+    if(a.at_rim>0) zones.push(`${a.at_rim} área restrita`);
+    if(a.arc_3>0) zones.push(`${a.arc_3} above break 3`);
+    if(a.corner_3>0) zones.push(`${a.corner_3} zona morta`);
+    if(a.short_mid>0) zones.push(`${a.short_mid} meia dist. curta`);
+    if(a.long_mid>0) zones.push(`${a.long_mid} meia dist. longa`);
+    return`<div class="assist-row">
+      <img class="assist-photo" src="${photoUrl(a.id)}" alt="${a.name}" onerror="this.style.background='#e5e5ea'">
+      <div style="flex:1">
+        <div class="assist-name">${a.name}</div>
+        <div class="assist-zones">${zones.join(' · ')}</div>
+      </div>
+      <div class="assist-count">${a.total}x</div>
+    </div>`;
+  }
+
+  const givenHtml=p.assist_network.given_to.length?p.assist_network.given_to.map(assistRow).join(''):'<p style="font-size:13px;color:#86868b">Sem dados disponíveis</p>';
+  const receivedHtml=p.assist_network.received_from.length?p.assist_network.received_from.map(assistRow).join(''):'<p style="font-size:13px;color:#86868b">Sem dados disponíveis</p>';
+
+  document.getElementById("profile-content").innerHTML=`
+    <div class="player-header">
+      <div style="position:relative;width:90px;height:90px;flex-shrink:0">
+        <div style="width:90px;height:90px;border-radius:50%;background:${color}22;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700;color:${color};position:absolute;inset:0">${p.name.split(' ').map(n=>n[0]).join('').slice(0,2)}</div>
+        <img style="width:90px;height:90px;border-radius:50%;object-fit:cover;position:absolute;inset:0" src="${photoUrl(p.id)}" alt="${p.name}" onerror="this.style.display='none'">
+      </div>
+      <div class="player-header-info">
+        <div class="player-name-h">${p.name}</div>
+        <a href="index.html?team=${p.team}" class="team-badge" style="border-color:${color};color:${color}">
+          <img src="${logoUrl(p.team)}" style="width:16px;height:16px;object-fit:contain" onerror="this.style.display='none'">
+          ${TNAME[p.team]||p.team}
+        </a>
+        <span style="font-size:13px;color:#86868b;margin-left:6px">#${p.jersey||'—'} · ${p.position||'—'}</span>
+        <div class="player-meta-row" style="margin-top:8px">
+          <span class="player-meta-item"><strong>${heightToCm(p.height)}</strong></span>
+          <span class="player-meta-item"><strong>${weightToKg(p.weight)}</strong></span>
+          <span class="player-meta-item"><strong>${p.country||'—'}</strong></span>
+          ${p.college?`<span class="player-meta-item"><strong>${p.college}</strong></span>`:''}
+          ${p.draft_year&&p.draft_year!=='Undrafted'?`<span class="player-meta-item">Draft <strong>${p.draft_year}</strong> · R${p.draft_round} · #${p.draft_number}</span>`:''}
+        </div>
+        ${awardsHtml?`<div class="awards-wrap">${awardsHtml}</div>`:''}
+      </div>
+    </div>
+
+    <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Números básicos · ${p.games_played} jogos</span></div>
+    <div class="stats-grid">
+      <div class="stat-box"><div class="stat-box-val">${p.per_game.pts}</div><div class="stat-box-lbl">Pontos</div></div>
+      <div class="stat-box"><div class="stat-box-val">${p.per_game.reb}</div><div class="stat-box-lbl">Rebotes</div></div>
+      <div class="stat-box"><div class="stat-box-val">${p.per_game.ast}</div><div class="stat-box-lbl">Assistências</div></div>
+      <div class="stat-box"><div class="stat-box-val">${p.per_game.stl}</div><div class="stat-box-lbl">Roubos</div></div>
+      <div class="stat-box"><div class="stat-box-val">${p.per_game.blk}</div><div class="stat-box-lbl">Tocos</div></div>
+      <div class="stat-box"><div class="stat-box-val">${p.per_game.min}</div><div class="stat-box-lbl">Minutos</div></div>
+    </div>
+    <div style="margin-top:10px">
+      <div class="stat-row"><span class="stat-label">FG% de 2 pontos</span><span class="stat-val">${p.per_game.fg2_pct}%</span></div>
+      <div class="stat-row"><span class="stat-label">FG% de 3 pontos</span><span class="stat-val">${p.per_game.fg3_pct}%</span></div>
+      <div class="stat-row"><span class="stat-label">True Shooting %</span><span class="stat-val">${p.advanced.ts_pct}%</span></div>
+      <div class="stat-row"><span class="stat-label">Usage %</span><span class="stat-val">${p.advanced.usg_pct}%</span></div>
+      <div class="stat-row"><span class="stat-label">Duplos-duplos</span><span class="stat-val">${p.totals.dd2}</span></div>
+      <div class="stat-row"><span class="stat-label">Triplos-duplos</span><span class="stat-val">${p.totals.td3}</span></div>
+    </div>
+
+    <div class="two-col" style="margin-top:1.75rem">
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Perfil de arremesso</span></div>
+        <div class="zone-grid" style="padding:5px 0;border-bottom:0.5px solid #d2d2d7">
+          <span style="font-size:11px;color:#86868b">Zona</span>
+          <span style="font-size:11px;color:#86868b;text-align:right">FGA</span>
+          <span style="font-size:11px;color:#86868b;text-align:right">FG%</span>
+          <span style="font-size:11px;color:#86868b;text-align:right">Freq.</span>
+        </div>
+        ${[["Área restrita","at_rim"],["Meia dist. curta","short_mid"],["Meia dist. longa","long_mid"],["Zona Morta","corner_3"],["Above the break 3","arc_3"]].map(([label,key])=>{
+          const z=sz[key];
+          const freq=totalFga>0?Math.round(z.fga/totalFga*100):0;
+          return`<div class="zone-grid" style="padding:7px 0;border-bottom:0.5px solid #e5e5ea">
+            <span style="font-size:13px;color:#6e6e73">${label}</span>
+            <span style="font-family:ui-monospace,monospace;font-size:13px;text-align:right">${z.fga}</span>
+            <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right">${z.pct}%</span>
+            <span style="font-family:ui-monospace,monospace;font-size:12px;text-align:right;color:#86868b">${freq}%</span>
+          </div>`;
+        }).join('')}
+      </div>
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Como pontua · ${p.per_game.pts} pts/jogo</span></div>
+        <div class="scoring-bar-wrap">${scoringHtml}</div>
+        <div style="margin-top:12px;padding-top:10px;border-top:0.5px solid #e5e5ea">
+          <div class="stat-row"><span class="stat-label">FGA bloqueados/jogo</span><span class="stat-val">${sp.fga_blocked_pg||0}</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="two-col" style="margin-top:1.75rem">
+      <div>
+        ${hasOnOff?`
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">On/Off · impacto no time</span></div>
+        <div class="onoff-grid" style="padding:5px 0;border-bottom:0.5px solid #d2d2d7">
+          <span style="font-size:11px;color:#86868b">Stat</span>
+          <span style="font-size:11px;color:#86868b;text-align:right">Com ele</span>
+          <span style="font-size:11px;color:#86868b;text-align:right">Sem ele</span>
+          <span style="font-size:11px;color:#86868b;text-align:right">Dif.</span>
+        </div>
+        <p style="font-size:11px;color:#86868b;margin:6px 0 4px">Ofensivo</p>
+        ${[["ORtg",oo.on.off_rtg,oo.off.off_rtg,true],["eFG%",oo.on.efg,oo.off.efg,true],["OReb%",oo.on.oreb,oo.off.oreb,true],["TOV%",oo.on.tov,oo.off.tov,false]].map(([label,on,off,hiGood])=>{
+          const diff=Math.round((on-off)*10)/10;
+          const diffColor=hiGood?(diff>0?'#1D9E75':diff<0?'#D85A30':'#86868b'):(diff<0?'#1D9E75':diff>0?'#D85A30':'#86868b');
+          return`<div class="onoff-grid" style="padding:7px 0;border-bottom:0.5px solid #e5e5ea">
+            <span style="font-size:13px;color:#6e6e73">${label}</span>
+            <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right">${on}</span>
+            <span style="font-family:ui-monospace,monospace;font-size:13px;text-align:right;color:#86868b">${off}</span>
+            <span style="font-family:ui-monospace,monospace;font-size:12px;text-align:right;color:${diffColor}">${diff>0?'+':''}${diff}</span>
+          </div>`;
+        }).join('')}
+        <p style="font-size:11px;color:#86868b;margin:8px 0 4px">Defensivo</p>
+        ${[["DRtg",oo.on.def_rtg,oo.off.def_rtg,false]].map(([label,on,off,hiGood])=>{
+          const diff=Math.round((on-off)*10)/10;
+          const diffColor=hiGood?(diff>0?'#1D9E75':diff<0?'#D85A30':'#86868b'):(diff<0?'#1D9E75':diff>0?'#D85A30':'#86868b');
+          return`<div class="onoff-grid" style="padding:7px 0;border-bottom:0.5px solid #e5e5ea">
+            <span style="font-size:13px;color:#6e6e73">${label}</span>
+            <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:500;text-align:right">${on}</span>
+            <span style="font-family:ui-monospace,monospace;font-size:13px;text-align:right;color:#86868b">${off}</span>
+            <span style="font-family:ui-monospace,monospace;font-size:12px;text-align:right;color:${diffColor}">${diff>0?'+':''}${diff}</span>
+          </div>`;
+        }).join('')}
+        `:`<div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">On/Off · impacto no time</span></div>
+        <p style="font-size:13px;color:#86868b">Sem dados disponíveis</p>`}
+      </div>
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Turnovers · ${tovTotal}/jogo</span></div>
+        ${tovHtml}
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Quintetos · top 5 por minutos</span></div>
+    ${lineupsHtml}
+
+    <div class="two-col" style="margin-top:1.75rem">
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">Quem assiste ${p.name.split(' ')[0]}</span></div>
+        ${receivedHtml}
+      </div>
+      <div>
+        <div class="sec-head"><div class="sec-line" style="background:${color}"></div><span class="sec-name">${p.name.split(' ')[0]} assiste</span></div>
+        ${givenHtml}
+      </div>
+    </div>
+
+    <div class="footer-note">Dados: NBA Stats · pbpstats.com · Temporada ${DATA.season} · Atualizado em ${DATA.updated}</div>`;
+}
+</script>
+</body>
+</html>

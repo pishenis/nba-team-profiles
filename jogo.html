@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg">
+<title>Ficha do Jogo · Bola Presa</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;background:#fff;color:#1d1d1f}
+.wrap{padding:2rem 2rem 3rem;max-width:960px;margin:0 auto}
+.site-header{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem}
+.site-name{font-size:18px;font-weight:600;letter-spacing:-0.3px}
+.bp-brand{display:flex;align-items:center;gap:6px;margin-left:auto}
+.bp-logo{width:22px;height:22px;border-radius:4px;object-fit:cover}
+.bp-text{font-size:12px;color:#86868b}
+.site-nav{display:flex;align-items:center;gap:4px;margin-left:10px}
+.nav-lnk{font-size:13px;color:#86868b;text-decoration:none;padding:4px 10px;border-radius:6px}
+.nav-lnk:hover{background:#f5f5f7;color:#1d1d1f}
+.scoreboard{display:flex;align-items:center;justify-content:center;gap:20px;padding:1.5rem 0;border-bottom:0.5px solid #e5e5ea;margin-bottom:1.5rem}
+.sb-team{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:100px}
+.sb-logo{width:56px;height:56px;object-fit:contain}
+.sb-name{font-size:13px;font-weight:500;color:#1d1d1f;text-align:center}
+.sb-score{font-family:ui-monospace,monospace;font-size:42px;font-weight:700;letter-spacing:-2px;color:#1d1d1f}
+.sb-score.winner{color:#1D9E75}
+.sb-sep{display:flex;flex-direction:column;align-items:center;gap:4px}
+.sb-dash{font-size:28px;color:#e5e5ea;font-weight:300}
+.sb-date{font-size:12px;color:#86868b}
+.sec-head{display:flex;align-items:center;gap:8px;margin:1.75rem 0 0.75rem}
+.sec-line{width:3px;height:14px;border-radius:2px;flex-shrink:0}
+.sec-name{font-size:13px;font-weight:500;color:#1d1d1f}
+.chart-wrap{position:relative;height:200px;margin-top:8px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#f9f9f9;border-radius:10px;padding:14px 16px}
+.card-title{font-size:11px;color:#86868b;font-weight:500;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:10px}
+.box-wrap{overflow-x:auto}
+.box-table{width:100%;border-collapse:collapse;font-size:12px}
+.box-table th{padding:5px 6px;border-bottom:0.5px solid #d2d2d7;color:#86868b;font-weight:500;text-align:right;font-size:11px;white-space:nowrap}
+.box-table th:first-child{text-align:left}
+.box-table td{padding:7px 6px;border-bottom:0.5px solid #e5e5ea;text-align:right;font-family:ui-monospace,monospace;font-size:12px;white-space:nowrap}
+.box-table td:first-child{text-align:left;font-family:inherit;font-weight:500}
+.box-table tr:last-child td{border-bottom:none}
+.pm-pos{color:#1D9E75}.pm-neg{color:#D85A30}
+.bench-row td:first-child{color:#86868b}
+.box-team-label{font-size:11px;font-weight:500;color:#86868b;letter-spacing:0.05em;text-transform:uppercase;margin:1rem 0 0.4rem;display:flex;align-items:center;gap:6px}
+.ff-section{background:#f9f9f9;border-radius:10px;padding:14px 16px}
+.ff-section-title{font-size:11px;color:#86868b;margin-bottom:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.05em}
+.ff-row{display:grid;grid-template-columns:1fr 28px 1fr;gap:4px;align-items:center;padding:6px 0;border-bottom:0.5px solid #e5e5ea}
+.ff-row:last-child{border-bottom:none}
+.ff-team-cell{display:flex;align-items:center;gap:5px}
+.ff-team-cell.right{flex-direction:row-reverse}
+.ff-bar-track{height:3px;background:#e5e5ea;border-radius:2px;overflow:hidden;width:36px;flex-shrink:0}
+.ff-bar-fill{height:100%;border-radius:2px}
+.ff-num{font-family:ui-monospace,monospace;font-size:12px;font-weight:500;flex-shrink:0}
+.ff-diff{font-size:10px;font-weight:600;flex-shrink:0}
+.stat-cmp-row{display:flex;align-items:center;padding:7px 0;border-bottom:0.5px solid #e5e5ea}
+.stat-cmp-row:last-child{border-bottom:none}
+.stat-cmp-label{font-size:12px;color:#6e6e73;flex:1;text-align:center;padding:0 6px}
+.stat-cmp-val{font-family:ui-monospace,monospace;font-size:14px;font-weight:600;width:52px;text-align:center}
+.zone-row{display:grid;grid-template-columns:1fr 100px 1fr;gap:4px;align-items:center;padding:7px 0;border-bottom:0.5px solid #e5e5ea}
+.zone-row:last-child{border-bottom:none}
+.zone-cell{display:flex;align-items:center;gap:6px}
+.zone-cell.right{flex-direction:row-reverse}
+.zone-score{font-family:ui-monospace,monospace;font-weight:600;font-size:13px}
+.zone-pct{font-family:ui-monospace,monospace;font-size:11px;color:#86868b}
+.zone-label{font-size:10px;color:#86868b;text-align:center;line-height:1.3}
+.matchup-row{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:0.5px solid #e5e5ea}
+.matchup-row:last-child{border-bottom:none}
+.matchup-photo{width:36px;height:36px;border-radius:50%;object-fit:cover;background:#e5e5ea;flex-shrink:0}
+.matchup-info{flex:1;min-width:0}
+.matchup-names-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:3px}
+.matchup-player{font-size:13px;font-weight:500;color:#1d1d1f}
+.matchup-team-badge{font-size:10px;font-weight:600}
+.matchup-detail{font-size:11px;color:#86868b}
+.matchup-result{display:flex;gap:14px;flex-shrink:0;text-align:right}
+.matchup-stat-block{font-size:11px;color:#86868b}
+.matchup-stat-block span{font-family:ui-monospace,monospace;font-size:13px;font-weight:600;color:#1d1d1f;display:block}
+.run-card{border-radius:10px;padding:12px 14px;border:0.5px solid #e5e5ea;background:#f9f9f9}
+.run-score{font-family:ui-monospace,monospace;font-size:22px;font-weight:700;letter-spacing:-0.5px}
+.run-label{font-size:11px;color:#86868b;margin-top:2px}
+.consec-row{display:flex;align-items:center;padding:8px 0;margin-top:8px;border-top:0.5px solid #e5e5ea}
+.footer-note{margin-top:2.5rem;padding-top:1rem;border-top:0.5px solid #e5e5ea;font-size:11px;color:#86868b}
+.loading{text-align:center;padding:3rem;color:#86868b;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="site-header">
+    <span class="site-name">Ficha do Jogo</span>
+    <div class="bp-brand">
+      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
+      <span class="bp-text">Bola Presa</span>
+    </div>
+    <div class="site-nav">
+      <a class="nav-lnk" href="home.html">Início</a>
+      <a class="nav-lnk" href="playoffs.html">Playoffs</a>
+      <a class="nav-lnk" href="index.html">Times</a>
+    </div>
+  </div>
+  <div id="content"><div class="loading">Carregando dados do jogo...</div></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const TID={ATL:1610612737,BOS:1610612738,BKN:1610612751,CHA:1610612766,CHI:1610612741,CLE:1610612739,DAL:1610612742,DEN:1610612743,DET:1610612765,GSW:1610612744,HOU:1610612745,IND:1610612754,LAC:1610612746,LAL:1610612747,MEM:1610612763,MIA:1610612748,MIL:1610612749,MIN:1610612750,NOP:1610612740,NYK:1610612752,OKC:1610612760,ORL:1610612753,PHI:1610612755,PHX:1610612756,POR:1610612757,SAC:1610612758,SAS:1610612759,TOR:1610612761,UTA:1610612762,WAS:1610612764};
+const TC={ATL:"#E03A3E",BOS:"#007A33",BKN:"#000000",CHA:"#1D1160",CHI:"#CE1141",CLE:"#860038",DAL:"#00538C",DEN:"#FEC524",DET:"#C8102E",GSW:"#1D428A",HOU:"#CE1141",IND:"#002D62",LAC:"#C8102E",LAL:"#552583",MEM:"#5D76A9",MIA:"#98002E",MIL:"#00471B",MIN:"#78BE20",NOP:"#0C2340",NYK:"#F58426",OKC:"#007AC1",ORL:"#0077C0",PHI:"#006BB6",PHX:"#E56020",POR:"#E03A3E",SAC:"#5A2D81",SAS:"#C4CED4",TOR:"#CE1141",UTA:"#002B5C",WAS:"#002B5C"};
+const TNAME={ATL:"Atlanta Hawks",BOS:"Boston Celtics",BKN:"Brooklyn Nets",CHA:"Charlotte Hornets",CHI:"Chicago Bulls",CLE:"Cleveland Cavaliers",DAL:"Dallas Mavericks",DEN:"Denver Nuggets",DET:"Detroit Pistons",GSW:"Golden State Warriors",HOU:"Houston Rockets",IND:"Indiana Pacers",LAC:"Los Angeles Clippers",LAL:"Los Angeles Lakers",MEM:"Memphis Grizzlies",MIA:"Miami Heat",MIL:"Milwaukee Bucks",MIN:"Minnesota Timberwolves",NOP:"New Orleans Pelicans",NYK:"New York Knicks",OKC:"Oklahoma City Thunder",ORL:"Orlando Magic",PHI:"Philadelphia 76ers",PHX:"Phoenix Suns",POR:"Portland Trail Blazers",SAC:"Sacramento Kings",SAS:"San Antonio Spurs",TOR:"Toronto Raptors",UTA:"Utah Jazz",WAS:"Washington Wizards"};
+
+function logoUrl(a){return`https://cdn.nba.com/logos/nba/${TID[a]}/global/L/logo.svg`;}
+function photoUrl(pid){return`https://cdn.nba.com/headshots/nba/latest/260x190/${pid}.png`;}
+
+const params=new URLSearchParams(window.location.search);
+const gameId=params.get('id');
+if(!gameId){
+  document.getElementById('content').innerHTML='<div class="loading">Nenhum jogo especificado.</div>';
+}else{
+  Promise.all([
+    fetch(`jogo_${gameId}.json`).then(r=>r.json()),
+    fetch('times_full.json').then(r=>r.json()).then(d=>d.teams||{}),
+  ]).then(([game,teams])=>render(game,teams))
+  .catch(e=>{document.getElementById('content').innerHTML=`<div class="loading">Erro: ${e.message}</div>`;});
+}
+
+function fmtDate(d){
+  const dt=new Date(d+'T12:00:00');
+  return dt.toLocaleDateString('pt-BR',{weekday:'long',day:'2-digit',month:'long',year:'numeric'});
+}
+
+function minToClock(m){
+  if(m<0) m=0;
+  const q=Math.min(4,Math.floor(m/12)+1);
+  const elapsed=m-(q-1)*12;
+  const remaining=Math.max(0,12-elapsed);
+  const mins=Math.floor(remaining);
+  const secs=Math.round((remaining-mins)*60);
+  return`${mins}:${secs.toString().padStart(2,'0')} ${q}Q`;
+}
+
+function render(game,teams){
+  const{home,away,home_pts,away_pts,date,four_factors,misc,hustle,box_score,score_timeline,shot_zones,matchups,game_flow}=game;
+  const homeWon=home_pts>away_pts;
+  const c1=TC[home]||'#888';
+  const c2=TC[away]||'#888';
+  const td1=teams[home]||{};
+  const td2=teams[away]||{};
+  const gf=game_flow||{};
+  const m1=misc?.[home]||{};
+  const m2=misc?.[away]||{};
+  const h1=hustle?.[home]||{};
+  const h2=hustle?.[away]||{};
+  const sz1=shot_zones?.[home]||{};
+  const sz2=shot_zones?.[away]||{};
+
+  const qs_home=gf.quarter_scores?.[home]||[0,0,0,0];
+  const qs_away=gf.quarter_scores?.[away]||[0,0,0,0];
+  const sets_home=qs_home.filter((q,i)=>q>qs_away[i]).length;
+  const sets_away=qs_away.filter((q,i)=>q>qs_home[i]).length;
+
+  // Timeline
+  const timeline=[];
+  const seen=new Set();
+  score_timeline.forEach(e=>{
+    const m=Math.floor(e.min);
+    if(!seen.has(m)){seen.add(m);timeline.push(e);}
+  });
+  if(score_timeline.length) timeline.push(score_timeline[score_timeline.length-1]);
+  const chartLabels=timeline.map(e=>minToClock(e.min));
+
+  // Box score
+  function boxTable(abbr){
+    const color=abbr===home?c1:c2;
+    const players=[...(box_score[abbr]||[])].sort((a,b)=>{
+      if(a.starter&&!b.starter) return -1;
+      if(!a.starter&&b.starter) return 1;
+      return b.pts-a.pts;
+    });
+    const rows=players.map(p=>{
+      const fgPct=p.fga>0?Math.round(p.fgm/p.fga*100):0;
+      const fg3Pct=p.fg3a>0?Math.round(p.fg3m/p.fg3a*100):0;
+      const pmClass=p.plus_minus>0?'pm-pos':p.plus_minus<0?'pm-neg':'';
+      return`<tr class="${p.starter?'':'bench-row'}">
+        <td>${p.name}</td>
+        <td>${p.minutes}</td>
+        <td style="font-weight:600">${p.pts}</td>
+        <td>${p.reb}</td><td>${p.ast}</td>
+        <td>${p.stl}/${p.blk}</td>
+        <td>${p.fgm}/${p.fga} <span style="color:#86868b;font-size:10px">${fgPct}%</span></td>
+        <td>${p.fg3m}/${p.fg3a} <span style="color:#86868b;font-size:10px">${fg3Pct}%</span></td>
+        <td>${p.ftm}/${p.fta}</td>
+        <td>${p.tov}</td>
+        <td class="${pmClass}">${p.plus_minus>0?'+':''}${p.plus_minus}</td>
+      </tr>`;
+    }).join('');
+    return`<div class="box-team-label">
+      <img src="${logoUrl(abbr)}" style="width:16px;height:16px;object-fit:contain">
+      <span style="color:${color}">${TNAME[abbr]||abbr}</span>
+    </div>
+    <div class="box-wrap"><table class="box-table">
+      <thead><tr>
+        <th style="text-align:left">Jogador</th>
+        <th>Min</th><th>Pts</th><th>Reb</th><th>Ast</th>
+        <th>Stl/Blk</th><th>FG</th><th>3P</th><th>FT</th><th>TOV</th><th>+/-</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  }
+
+  // Four Factors
+  function ffSection(label,rows){
+    return`<div class="ff-section">
+      <div class="ff-section-title">${label}</div>
+      <div style="display:grid;grid-template-columns:1fr 28px 1fr;gap:4px;padding:4px 0 8px;border-bottom:0.5px solid #d2d2d7">
+        <span style="font-size:11px;font-weight:600;color:${c1}">${home}</span>
+        <span></span>
+        <span style="font-size:11px;font-weight:600;color:${c2};text-align:right">${away}</span>
+      </div>
+      ${rows.map(r=>{
+        const v1=r.v1||0,v2=r.v2||0;
+        const hi=r.hi;
+        const max=Math.max(v1,v2)||1;
+        const pct1=Math.round(v1/max*90), pct2=Math.round(v2/max*90);
+        const unit=r.unit!=null?r.unit:'%';
+        const hw=hi?(v1>v2):(v1<v2), aw=hi?(v2>v1):(v2<v1);
+        const arrow=hw?'←':aw?'→':'·';
+        const arrowColor=hw?c1:aw?c2:'#86868b';
+        function diff(val,avg){
+          if(avg==null) return'';
+          const d=val-avg;
+          const good=hi?(d>=0):(d<=0);
+          return`<span class="ff-diff" style="color:${good?'#1D9E75':'#D85A30'}">${d>0?'+':''}${d.toFixed(1)}</span>`;
+        }
+        return`<div class="ff-row">
+          <div class="ff-team-cell">
+            <div class="ff-bar-track"><div class="ff-bar-fill" style="width:${pct1}%;background:${c1}"></div></div>
+            <span class="ff-num" style="color:${c1}">${v1}${unit}</span>
+            ${diff(v1,r.avg1)}
+          </div>
+          <div style="text-align:center">
+            <div style="font-size:14px;color:${arrowColor}">${arrow}</div>
+            <div style="font-size:9px;color:#86868b;margin-top:1px">${r.label}</div>
+          </div>
+          <div class="ff-team-cell right">
+            <div class="ff-bar-track"><div class="ff-bar-fill" style="width:${pct2}%;background:${c2}"></div></div>
+            <span class="ff-num" style="color:${c2}">${v2}${unit}</span>
+            ${diff(v2,r.avg2)}
+          </div>
+        </div>`;
+      }).join('')}
+    </div>`;
+  }
+
+  const ff1=four_factors[home]||{};
+  const ff2=four_factors[away]||{};
+  const ffOff1=td1.four_factors_off||{};
+  const ffOff2=td2.four_factors_off||{};
+  const ffDef1=td1.four_factors_def||{};
+  const ffDef2=td2.four_factors_def||{};
+
+  const offRows=[
+    {label:"eFG%",    v1:ff1.efg,  v2:ff2.efg,  avg1:ffOff1.efg?.value,  avg2:ffOff2.efg?.value,  hi:true,  unit:"%"},
+    {label:"TOV%",    v1:ff1.tov,  v2:ff2.tov,  avg1:ffOff1.tov?.value,  avg2:ffOff2.tov?.value,  hi:false, unit:"%"},
+    {label:"OReb%",   v1:ff1.oreb, v2:ff2.oreb, avg1:ffOff1.oreb?.value, avg2:ffOff2.oreb?.value, hi:true,  unit:"%"},
+    {label:"FT Rate", v1:Math.round((ff1.ftr||0)*100)/100, v2:Math.round((ff2.ftr||0)*100)/100, avg1:ffOff1.ftr?.value, avg2:ffOff2.ftr?.value, hi:true, unit:""},
+  ];
+  const defRows=[
+    {label:"Opp eFG%",  v1:ff1.opp_efg,  v2:ff2.opp_efg,  avg1:ffDef1.opp_efg?.value,  avg2:ffDef2.opp_efg?.value,  hi:false, unit:"%"},
+    {label:"Opp TOV%",  v1:ff1.opp_tov,  v2:ff2.opp_tov,  avg1:ffDef1.opp_tov?.value,  avg2:ffDef2.opp_tov?.value,  hi:true,  unit:"%"},
+    {label:"Opp OReb%", v1:ff1.opp_oreb, v2:ff2.opp_oreb, avg1:ffDef1.opp_oreb?.value, avg2:ffDef2.opp_oreb?.value, hi:false, unit:"%"},
+    {label:"Opp FTR",   v1:Math.round((ff1.opp_ftr||0)*100)/100, v2:Math.round((ff2.opp_ftr||0)*100)/100, avg1:ffDef1.opp_ftr?.value, avg2:ffDef2.opp_ftr?.value, hi:false, unit:""},
+  ];
+
+  function cmpRow(label,v1,v2,hi){
+    const b1=hi?(v1>v2):(v1<v2);
+    const b2=hi?(v2>v1):(v2<v1);
+    return`<div class="stat-cmp-row">
+      <span class="stat-cmp-val" style="color:${b1?c1:'#86868b'}">${v1}</span>
+      <span class="stat-cmp-label">${label}</span>
+      <span class="stat-cmp-val" style="color:${b2?c2:'#86868b'}">${v2}</span>
+    </div>`;
+  }
+
+  const ZONE_LABELS={at_rim:"Área Restrita",paint:"Garrafão (não-AR)",mid:"Meia Distância",corner_3:"Zona Morta",arc_3:"Above the break 3"};
+  const zonesHtml=Object.entries(ZONE_LABELS).map(([key,label])=>{
+    const z1=sz1[key]||{fgm:0,fga:0,pct:0};
+    const z2=sz2[key]||{fgm:0,fga:0,pct:0};
+    const better1=z1.pct>z2.pct, better2=z2.pct>z1.pct;
+    const arrow=better1?'←':better2?'→':'·';
+    const arrowColor=better1?c1:better2?c2:'#86868b';
+    return`<div class="zone-row">
+      <div class="zone-cell">
+        <span class="zone-score" style="color:${c1}">${z1.fgm}/${z1.fga}</span>
+        <span class="zone-pct">${z1.pct}%</span>
+      </div>
+      <div style="text-align:center">
+        <div style="font-size:13px;color:${arrowColor}">${arrow}</div>
+        <div class="zone-label">${label}</div>
+      </div>
+      <div class="zone-cell right">
+        <span class="zone-score" style="color:${c2}">${z2.fgm}/${z2.fga}</span>
+        <span class="zone-pct">${z2.pct}%</span>
+      </div>
+    </div>`;
+  }).join('');
+
+  const rh=gf.best_run_home||{};
+  const ra=gf.best_run_away||{};
+  const runHomeScore=rh.pts_home!=null?`${rh.pts_home}–${rh.pts_away}`:'—';
+  const runAwayScore=ra.pts_away!=null?`${ra.pts_away}–${ra.pts_home}`:'—';
+  const runHomePeriod=rh.start_min!=null?`${minToClock(rh.start_min)} · ${minToClock(rh.end_min)}`:'';
+  const runAwayPeriod=ra.start_min!=null?`${minToClock(ra.start_min)} · ${minToClock(ra.end_min)}`:'';
+  const consecHome=gf.max_consec_home||0;
+  const consecAway=gf.max_consec_away||0;
+
+  const matchupsHtml=matchups.slice(0,10).map(m=>{
+    const offColor=TC[m.off_team]||'#888';
+    const defTeam=m.off_team===home?away:home;
+    const defColor=TC[defTeam]||'#888';
+    return`<div class="matchup-row">
+      <img class="matchup-photo" src="${photoUrl(m.off_id)}" onerror="this.style.background='${offColor}'">
+      <span style="font-size:10px;color:#86868b;flex-shrink:0">vs</span>
+      <img class="matchup-photo" src="${photoUrl(m.def_id)}" onerror="this.style.background='${defColor}'">
+      <div class="matchup-info">
+        <div class="matchup-names-row">
+          <span class="matchup-player">${m.off_name}</span>
+          <span class="matchup-team-badge" style="color:${offColor}">${m.off_team}</span>
+          <span style="font-size:11px;color:#86868b">defendido por</span>
+          <span class="matchup-player">${m.def_name}</span>
+        </div>
+        <div class="matchup-detail">${m.minutes} · ${m.partial_poss} posses</div>
+      </div>
+      <div class="matchup-result">
+        <div class="matchup-stat-block"><span>${m.fgm}/${m.fga}</span>arremessos</div>
+        <div class="matchup-stat-block"><span>${m.pts}</span>pontos</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('content').innerHTML=`
+    <div class="scoreboard">
+      <div class="sb-team">
+        <img class="sb-logo" src="${logoUrl(away)}" onerror="this.style.display='none'">
+        <div class="sb-name">${TNAME[away]||away}</div>
+        <div class="sb-score${!homeWon?' winner':''}">${away_pts}</div>
+      </div>
+      <div class="sb-sep">
+        <div class="sb-date">${fmtDate(date)}</div>
+        <div class="sb-dash">–</div>
+        <div class="sb-date">${homeWon?TNAME[home]:TNAME[away]} venceu</div>
+      </div>
+      <div class="sb-team">
+        <img class="sb-logo" src="${logoUrl(home)}" onerror="this.style.display='none'">
+        <div class="sb-name">${TNAME[home]||home} <span style="font-size:11px;color:#86868b">(casa)</span></div>
+        <div class="sb-score${homeWon?' winner':''}">${home_pts}</div>
+      </div>
+    </div>
+
+    <div class="sec-head"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Evolução do placar</span></div>
+    <div class="chart-wrap"><canvas id="chart-placar"></canvas></div>
+
+    <div class="two-col" style="margin-top:1.25rem">
+      <div class="card">
+        <div class="card-title">Placar por quarto</div>
+        <table style="width:100%;border-collapse:collapse;font-size:12px">
+          <thead><tr>
+            <th style="text-align:left;color:#86868b;font-weight:500;padding:3px 0 6px">Time</th>
+            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">1Q</th>
+            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">2Q</th>
+            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">3Q</th>
+            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">4Q</th>
+            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">Total</th>
+          </tr></thead>
+          <tbody>
+            ${[[away,qs_away,away_pts,c2],[home,qs_home,home_pts,c1]].map(([abbr,qs,total,color])=>{
+              const best=Math.max(...qs);
+              return`<tr>
+                <td style="padding:4px 0;font-weight:600;color:${color}">${abbr}</td>
+                ${qs.map(q=>`<td style="padding:4px 6px;text-align:center;font-family:ui-monospace,monospace;font-weight:${q===best?700:400};color:${q===best?color:'#1d1d1f'}">${q}</td>`).join('')}
+                <td style="padding:4px 6px;text-align:center;font-family:ui-monospace,monospace;font-weight:700;color:${color}">${total}</td>
+              </tr>`;
+            }).join('')}
+            <tr>
+              <td style="padding:6px 0 2px;font-size:11px;color:#86868b;border-top:0.5px solid #e5e5ea">Sets</td>
+              <td colspan="4" style="border-top:0.5px solid #e5e5ea"></td>
+              <td style="padding:6px 6px 2px;text-align:center;border-top:0.5px solid #e5e5ea">
+                <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:700;color:${sets_away>sets_home?c2:'#86868b'}">${sets_away}</span>
+                <span style="color:#86868b;margin:0 3px">–</span>
+                <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:700;color:${sets_home>sets_away?c1:'#86868b'}">${sets_home}</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <div class="card-title">Dinâmica do jogo</div>
+        ${[
+          {label:"Tempo liderando",v1:gf.time_leading_home_fmt||'0:00',v2:gf.time_leading_away_fmt||'0:00',center:null},
+          {label:"Empate no placar",v1:null,v2:null,center:gf.time_tied_fmt||'0:00'},
+          {label:"Trocas de liderança",v1:null,v2:null,center:gf.lead_changes||0},
+          {label:"Empates no placar",v1:null,v2:null,center:gf.ties||0},
+        ].map(r=>`<div style="display:flex;align-items:center;padding:5px 0;border-bottom:0.5px solid #e5e5ea">
+          <span style="font-size:12px;color:#6e6e73;flex:1">${r.label}</span>
+          ${r.center!=null
+            ?`<span style="font-family:ui-monospace,monospace;font-size:12px;font-weight:500;color:#1d1d1f">${r.center}</span>`
+            :`<span style="font-family:ui-monospace,monospace;font-size:12px;font-weight:500;color:${c2};margin-right:12px">${r.v2}</span>
+             <span style="font-family:ui-monospace,monospace;font-size:12px;font-weight:500;color:${c1}">${r.v1}</span>`
+          }
+        </div>`).join('')}
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Maiores runs · janela de 5 minutos</span></div>
+    <div class="two-col">
+      <div class="run-card">
+        <div style="font-size:11px;font-weight:600;color:${c1};margin-bottom:6px">${home}</div>
+        <div class="run-score" style="color:${c1}">${runHomeScore}</div>
+        <div class="run-label">${runHomePeriod}</div>
+        <div class="consec-row">
+          <span style="font-size:11px;color:#86868b;flex:1">Maior sequência sem resposta</span>
+          <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:600;color:${c1}">${consecHome} pts</span>
+        </div>
+      </div>
+      <div class="run-card">
+        <div style="font-size:11px;font-weight:600;color:${c2};margin-bottom:6px">${away}</div>
+        <div class="run-score" style="color:${c2}">${runAwayScore}</div>
+        <div class="run-label">${runAwayPeriod}</div>
+        <div class="consec-row">
+          <span style="font-size:11px;color:#86868b;flex:1">Maior sequência sem resposta</span>
+          <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:600;color:${c2}">${consecAway} pts</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:${c2}"></div><span class="sec-name">Box Score · ${TNAME[away]||away}</span></div>
+    ${boxTable(away)}
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:${c1}"></div><span class="sec-name">Box Score · ${TNAME[home]||home}</span></div>
+    ${boxTable(home)}
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Números do jogo</span></div>
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;margin-bottom:8px">
+        <span style="font-size:11px;font-weight:600;color:${c1}">${home}</span>
+        <span style="font-size:11px;font-weight:600;color:${c2}">${away}</span>
+      </div>
+      ${cmpRow("Pts no garrafão",m1.pts_paint||0,m2.pts_paint||0,true)}
+      ${cmpRow("Pts de contra-ataque",m1.pts_fb||0,m2.pts_fb||0,true)}
+      ${cmpRow("Pts de 2ª chance",m1.pts_2nd_chance||0,m2.pts_2nd_chance||0,true)}
+      ${cmpRow("Deflections",h1.deflections||0,h2.deflections||0,true)}
+      ${cmpRow("Faltas de ataque cavadas",h1.charges_drawn||0,h2.charges_drawn||0,true)}
+    </div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Four Factors · jogo vs média da temporada</span></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      ${ffSection("Ofensivo",offRows)}
+      ${ffSection("Defensivo",defRows)}
+    </div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Distribuição de arremessos</span></div>
+    <div class="card">
+      <div style="display:grid;grid-template-columns:1fr 100px 1fr;gap:4px;padding:4px 0 8px;border-bottom:0.5px solid #d2d2d7;margin-bottom:4px">
+        <span style="font-size:11px;font-weight:600;color:${c1}">${home} · FGM/FGA · FG%</span>
+        <span></span>
+        <span style="font-size:11px;font-weight:600;color:${c2};text-align:right">${away} · FGM/FGA · FG%</span>
+      </div>
+      ${zonesHtml}
+      <div style="margin-top:12px;padding-top:10px;border-top:0.5px solid #e5e5ea">
+        ${cmpRow("Arremessos contestados",h1.contested_shots||0,h2.contested_shots||0,true)}
+        ${cmpRow("  → de 2 pontos",h1.contested_2pt||0,h2.contested_2pt||0,true)}
+        ${cmpRow("  → de 3 pontos",h1.contested_3pt||0,h2.contested_3pt||0,true)}
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Duelos individuais · ordenados por arremessos tentados</span></div>
+    ${matchupsHtml}
+
+    <div class="footer-note">Dados: NBA Stats · ${fmtDate(date)}</div>`;
+
+  // Gráfico
+  const isDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  const gridCol=isDark?'rgba(255,255,255,0.07)':'rgba(0,0,0,0.06)';
+  const textCol=isDark?'rgba(255,255,255,0.45)':'rgba(0,0,0,0.4)';
+  const quarterLineCol=isDark?'rgba(255,255,255,0.2)':'rgba(0,0,0,0.15)';
+
+  const quarterPlugin={
+    id:'quarterLines',
+    afterDraw(chart){
+      const{ctx,chartArea:{top,bottom},scales:{x}}=chart;
+      [12,24,36].forEach(min=>{
+        const idx=timeline.findIndex(e=>Math.floor(e.min)>=min);
+        if(idx<0) return;
+        const px=x.getPixelForTick(idx);
+        ctx.save();
+        ctx.strokeStyle=quarterLineCol;
+        ctx.lineWidth=1;
+        ctx.setLineDash([4,3]);
+        ctx.beginPath();ctx.moveTo(px,top);ctx.lineTo(px,bottom);ctx.stroke();
+        ctx.restore();
+      });
+    }
+  };
+
+  new Chart(document.getElementById('chart-placar'),{
+    type:'line',
+    data:{
+      labels:chartLabels,
+      datasets:[
+        {label:TNAME[home]||home,data:timeline.map(e=>e.home),borderColor:c1,backgroundColor:c1+'22',borderWidth:2,pointRadius:0,tension:0.3,fill:false},
+        {label:TNAME[away]||away,data:timeline.map(e=>e.away),borderColor:c2,backgroundColor:c2+'22',borderWidth:2,pointRadius:0,tension:0.3,fill:false},
+      ]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{
+        legend:{display:true,position:'top',labels:{font:{size:11},color:textCol,boxWidth:12,padding:12}},
+        tooltip:{callbacks:{title:t=>`${t[0].label}`}}
+      },
+      scales:{
+        x:{grid:{color:gridCol},ticks:{color:textCol,font:{size:10},maxTicksLimit:10,callback:(v,i)=>{
+          const e=timeline[i];
+          if(!e) return'';
+          const m=Math.floor(e.min);
+          if(m===0||m===12||m===24||m===36||m===48) return chartLabels[i];
+          return'';
+        }},border:{display:false}},
+        y:{grid:{color:gridCol},ticks:{color:textCol,font:{size:10}},border:{display:false}}
+      }
+    },
+    plugins:[quarterPlugin]
+  });
+}
+</script>
+</body>
+</html>
