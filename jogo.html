@@ -200,7 +200,21 @@ function render(game,teams){
         <th>Min</th><th>Pts</th><th>Reb</th><th>Ast</th>
         <th>Stl/Blk</th><th>FG</th><th>3P</th><th>FT</th><th>TOV</th><th>+/-</th>
       </tr></thead>
-      <tbody>${rows}</tbody>
+      <tbody>${rows}
+      <tr style="border-top:1px solid #d2d2d7">
+      <td style="font-weight:600;color:${color}">Total</td>
+      <td></td>
+      <td style="font-weight:700">${players.reduce((s,p)=>s+p.pts,0)}</td>
+      <td>${players.reduce((s,p)=>s+p.reb,0)}</td>
+      <td>${players.reduce((s,p)=>s+p.ast,0)}</td>
+      <td>${players.reduce((s,p)=>s+p.stl,0)}/${players.reduce((s,p)=>s+p.blk,0)}</td>
+      <td>${players.reduce((s,p)=>s+p.fgm,0)}/${players.reduce((s,p)=>s+p.fga,0)}</td>
+      <td>${players.reduce((s,p)=>s+p.fg3m,0)}/${players.reduce((s,p)=>s+p.fg3a,0)}</td>
+      <td>${players.reduce((s,p)=>s+p.ftm,0)}/${players.reduce((s,p)=>s+p.fta,0)}</td>
+      <td>${players.reduce((s,p)=>s+p.tov,0)}</td>
+      <td></td>
+    </tr>
+    </tbody>
     </table></div>`;
   }
 
@@ -361,11 +375,7 @@ function render(game,teams){
         <div class="card-title">Placar por quarto</div>
         <table style="width:100%;border-collapse:collapse;font-size:12px">
           <thead><tr>
-            <th style="text-align:left;color:#86868b;font-weight:500;padding:3px 0 6px">Time</th>
-            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">1Q</th>
-            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">2Q</th>
-            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">3Q</th>
-            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">4Q</th>
+          ${qs_home.map((_,i)=>`<th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">${i<4?`${i+1}Q`:`OT${i>4?i-3:''}`}</th>`).join('')}
             <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">Total</th>
           </tr></thead>
           <tbody>
@@ -379,8 +389,7 @@ function render(game,teams){
             }).join('')}
             <tr>
               <td style="padding:6px 0 2px;font-size:11px;color:#86868b;border-top:0.5px solid #e5e5ea">Sets</td>
-              <td colspan="4" style="border-top:0.5px solid #e5e5ea"></td>
-              <td style="padding:6px 6px 2px;text-align:center;border-top:0.5px solid #e5e5ea">
+              <td colspan="${qs_home.length-1}" style="border-top:0.5px solid #e5e5ea"></td>              <td style="padding:6px 6px 2px;text-align:center;border-top:0.5px solid #e5e5ea">
                 <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:700;color:${sets_away>sets_home?c2:'#86868b'}">${sets_away}</span>
                 <span style="color:#86868b;margin:0 3px">–</span>
                 <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:700;color:${sets_home>sets_away?c1:'#86868b'}">${sets_home}</span>
