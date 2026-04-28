@@ -1,0 +1,3489 @@
+{
+  "game_id": "0042500104",
+  "date": "2026-04-27",
+  "home": "ORL",
+  "away": "DET",
+  "home_pts": 94,
+  "away_pts": 88,
+  "winner": "ORL",
+  "game_flow": {
+    "quarter_scores": {
+      "ORL": [
+        26,
+        28,
+        21,
+        19
+      ],
+      "DET": [
+        27,
+        25,
+        17,
+        19
+      ]
+    },
+    "lead_changes": 7,
+    "ties": 4,
+    "time_leading_home_fmt": "33:42",
+    "time_leading_away_fmt": "12:49",
+    "time_tied_fmt": "1:29",
+    "best_run_home": {
+      "pts_home": 19,
+      "pts_away": 6,
+      "start_min": 19.3,
+      "end_min": 24.3
+    },
+    "best_run_away": {
+      "pts_home": 3,
+      "pts_away": 16,
+      "start_min": 4.7,
+      "end_min": 9.7
+    },
+    "max_consec_home": 8,
+    "max_consec_away": 10
+  },
+  "four_factors": {
+    "ORL": {
+      "efg": 37.5,
+      "ftr": 0.37,
+      "tov": 12.1,
+      "oreb": 37.3,
+      "opp_efg": 41.5,
+      "opp_ftr": 0.341,
+      "opp_tov": 20.4,
+      "opp_oreb": 30.4
+    },
+    "DET": {
+      "efg": 41.5,
+      "ftr": 0.341,
+      "tov": 20.4,
+      "oreb": 30.4,
+      "opp_efg": 37.5,
+      "opp_ftr": 0.37,
+      "opp_tov": 12.1,
+      "opp_oreb": 37.3
+    }
+  },
+  "misc": {
+    "ORL": {
+      "pts_fb": 13,
+      "pts_paint": 34,
+      "pts_2nd_chance": 16,
+      "blocks": 6
+    },
+    "DET": {
+      "pts_fb": 11,
+      "pts_paint": 44,
+      "pts_2nd_chance": 11,
+      "blocks": 18
+    }
+  },
+  "hustle": {
+    "ORL": {
+      "deflections": 17,
+      "contested_shots": 43,
+      "contested_2pt": 30,
+      "contested_3pt": 13,
+      "charges_drawn": 0
+    },
+    "DET": {
+      "deflections": 18,
+      "contested_shots": 64,
+      "contested_2pt": 46,
+      "contested_3pt": 18,
+      "charges_drawn": 0
+    }
+  },
+  "box_score": {
+    "ORL": [
+      {
+        "id": "1630532",
+        "name": "F. Wagner",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "24:11",
+        "pts": 19,
+        "reb": 5,
+        "ast": 3,
+        "stl": 4,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 7,
+        "fga": 15,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 4,
+        "fta": 4,
+        "plus_minus": 17,
+        "starter": true
+      },
+      {
+        "id": "1631094",
+        "name": "P. Banchero",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "40:02",
+        "pts": 18,
+        "reb": 8,
+        "ast": 4,
+        "stl": 1,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 4,
+        "fga": 18,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 10,
+        "fta": 13,
+        "plus_minus": 8,
+        "starter": true
+      },
+      {
+        "id": "1628976",
+        "name": "W. Carter Jr.",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "34:48",
+        "pts": 12,
+        "reb": 11,
+        "ast": 4,
+        "stl": 0,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 8,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 5,
+        "fta": 8,
+        "plus_minus": 17,
+        "starter": true
+      },
+      {
+        "id": "1630217",
+        "name": "D. Bane",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "36:56",
+        "pts": 22,
+        "reb": 5,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 7,
+        "fga": 18,
+        "fg3m": 5,
+        "fg3a": 10,
+        "ftm": 3,
+        "fta": 4,
+        "plus_minus": 15,
+        "starter": true
+      },
+      {
+        "id": "1630591",
+        "name": "J. Suggs",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "35:25",
+        "pts": 5,
+        "reb": 2,
+        "ast": 2,
+        "stl": 2,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 1,
+        "fga": 13,
+        "fg3m": 1,
+        "fg3a": 11,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 17,
+        "starter": true
+      },
+      {
+        "id": "1641710",
+        "name": "A. Black",
+        "pos": "",
+        "jersey": "",
+        "minutes": "18:04",
+        "pts": 2,
+        "reb": 2,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -19,
+        "starter": true
+      },
+      {
+        "id": "1641783",
+        "name": "T. da Silva",
+        "pos": "",
+        "jersey": "",
+        "minutes": "13:40",
+        "pts": 6,
+        "reb": 4,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -5,
+        "starter": true
+      },
+      {
+        "id": "1631288",
+        "name": "J. Cain",
+        "pos": "",
+        "jersey": "",
+        "minutes": "23:42",
+        "pts": 8,
+        "reb": 9,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -9,
+        "starter": true
+      },
+      {
+        "id": "1629048",
+        "name": "G. Bitadze",
+        "pos": "",
+        "jersey": "",
+        "minutes": "13:12",
+        "pts": 2,
+        "reb": 6,
+        "ast": 0,
+        "stl": 0,
+        "blk": 2,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 1,
+        "plus_minus": -11,
+        "starter": true
+      }
+    ],
+    "DET": [
+      {
+        "id": "1641709",
+        "name": "A. Thompson",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "32:03",
+        "pts": 6,
+        "reb": 9,
+        "ast": 1,
+        "stl": 1,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 2,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 4,
+        "plus_minus": -16,
+        "starter": true
+      },
+      {
+        "id": "202699",
+        "name": "T. Harris",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "34:49",
+        "pts": 20,
+        "reb": 6,
+        "ast": 0,
+        "stl": 1,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 8,
+        "fga": 17,
+        "fg3m": 0,
+        "fg3a": 5,
+        "ftm": 4,
+        "fta": 5,
+        "plus_minus": -10,
+        "starter": true
+      },
+      {
+        "id": "1631105",
+        "name": "J. Duren",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "30:45",
+        "pts": 12,
+        "reb": 8,
+        "ast": 3,
+        "stl": 1,
+        "blk": 1,
+        "tov": 4,
+        "fgm": 5,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": -11,
+        "starter": true
+      },
+      {
+        "id": "1629130",
+        "name": "D. Robinson",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "28:60",
+        "pts": 7,
+        "reb": 1,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 8,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": -18,
+        "starter": true
+      },
+      {
+        "id": "1630595",
+        "name": "C. Cunningham",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "38:56",
+        "pts": 25,
+        "reb": 9,
+        "ast": 6,
+        "stl": 0,
+        "blk": 2,
+        "tov": 8,
+        "fgm": 7,
+        "fga": 23,
+        "fg3m": 3,
+        "fg3a": 11,
+        "ftm": 8,
+        "fta": 10,
+        "plus_minus": -7,
+        "starter": true
+      },
+      {
+        "id": "1629750",
+        "name": "J. Green",
+        "pos": "",
+        "jersey": "",
+        "minutes": "16:30",
+        "pts": 5,
+        "reb": 5,
+        "ast": 0,
+        "stl": 1,
+        "blk": 2,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 8,
+        "starter": true
+      },
+      {
+        "id": "1628989",
+        "name": "K. Huerter",
+        "pos": "",
+        "jersey": "",
+        "minutes": "2:35",
+        "pts": 0,
+        "reb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 6,
+        "starter": true
+      },
+      {
+        "id": "1627747",
+        "name": "C. LeVert",
+        "pos": "",
+        "jersey": "",
+        "minutes": "24:41",
+        "pts": 2,
+        "reb": 5,
+        "ast": 3,
+        "stl": 0,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 11,
+        "starter": true
+      },
+      {
+        "id": "1642450",
+        "name": "D. Jenkins",
+        "pos": "",
+        "jersey": "",
+        "minutes": "13:26",
+        "pts": 3,
+        "reb": 2,
+        "ast": 4,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": 2,
+        "starter": true
+      },
+      {
+        "id": "1630191",
+        "name": "I. Stewart",
+        "pos": "",
+        "jersey": "",
+        "minutes": "17:15",
+        "pts": 8,
+        "reb": 3,
+        "ast": 1,
+        "stl": 0,
+        "blk": 8,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 1,
+        "fta": 3,
+        "plus_minus": 5,
+        "starter": true
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 0.47,
+      "home": 3,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 1.02,
+      "home": 6,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 1.52,
+      "home": 8,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 1.73,
+      "home": 8,
+      "away": 2,
+      "period": 1
+    },
+    {
+      "min": 1.73,
+      "home": 8,
+      "away": 3,
+      "period": 1
+    },
+    {
+      "min": 1.93,
+      "home": 10,
+      "away": 3,
+      "period": 1
+    },
+    {
+      "min": 2.13,
+      "home": 10,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 2.75,
+      "home": 12,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 3.15,
+      "home": 13,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 3.52,
+      "home": 14,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 3.52,
+      "home": 15,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 3.8,
+      "home": 17,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 4.28,
+      "home": 17,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 4.55,
+      "home": 19,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 5.4,
+      "home": 19,
+      "away": 10,
+      "period": 1
+    },
+    {
+      "min": 5.83,
+      "home": 20,
+      "away": 10,
+      "period": 1
+    },
+    {
+      "min": 5.83,
+      "home": 21,
+      "away": 10,
+      "period": 1
+    },
+    {
+      "min": 6.2,
+      "home": 21,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 6.82,
+      "home": 21,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 7.05,
+      "home": 21,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 7.33,
+      "home": 21,
+      "away": 15,
+      "period": 1
+    },
+    {
+      "min": 7.33,
+      "home": 21,
+      "away": 16,
+      "period": 1
+    },
+    {
+      "min": 7.62,
+      "home": 22,
+      "away": 16,
+      "period": 1
+    },
+    {
+      "min": 7.87,
+      "home": 22,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 8.47,
+      "home": 22,
+      "away": 21,
+      "period": 1
+    },
+    {
+      "min": 9.72,
+      "home": 22,
+      "away": 23,
+      "period": 1
+    },
+    {
+      "min": 9.97,
+      "home": 23,
+      "away": 23,
+      "period": 1
+    },
+    {
+      "min": 9.97,
+      "home": 24,
+      "away": 23,
+      "period": 1
+    },
+    {
+      "min": 10.25,
+      "home": 24,
+      "away": 25,
+      "period": 1
+    },
+    {
+      "min": 10.68,
+      "home": 24,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 11.94,
+      "home": 26,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 27,
+      "period": 2
+    },
+    {
+      "min": 12.87,
+      "home": 28,
+      "away": 27,
+      "period": 2
+    },
+    {
+      "min": 13.18,
+      "home": 28,
+      "away": 30,
+      "period": 2
+    },
+    {
+      "min": 13.72,
+      "home": 30,
+      "away": 30,
+      "period": 2
+    },
+    {
+      "min": 13.97,
+      "home": 30,
+      "away": 32,
+      "period": 2
+    },
+    {
+      "min": 15.48,
+      "home": 30,
+      "away": 33,
+      "period": 2
+    },
+    {
+      "min": 15.7,
+      "home": 30,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 16.18,
+      "home": 30,
+      "away": 38,
+      "period": 2
+    },
+    {
+      "min": 16.77,
+      "home": 30,
+      "away": 40,
+      "period": 2
+    },
+    {
+      "min": 17.03,
+      "home": 33,
+      "away": 40,
+      "period": 2
+    },
+    {
+      "min": 17.4,
+      "home": 33,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 17.57,
+      "home": 35,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 18.1,
+      "home": 35,
+      "away": 44,
+      "period": 2
+    },
+    {
+      "min": 18.62,
+      "home": 37,
+      "away": 44,
+      "period": 2
+    },
+    {
+      "min": 18.93,
+      "home": 37,
+      "away": 45,
+      "period": 2
+    },
+    {
+      "min": 18.93,
+      "home": 37,
+      "away": 46,
+      "period": 2
+    },
+    {
+      "min": 19.6,
+      "home": 39,
+      "away": 46,
+      "period": 2
+    },
+    {
+      "min": 20.4,
+      "home": 39,
+      "away": 46,
+      "period": 2
+    },
+    {
+      "min": 20.8,
+      "home": 42,
+      "away": 46,
+      "period": 2
+    },
+    {
+      "min": 21.02,
+      "home": 42,
+      "away": 47,
+      "period": 2
+    },
+    {
+      "min": 21.02,
+      "home": 42,
+      "away": 48,
+      "period": 2
+    },
+    {
+      "min": 21.5,
+      "home": 44,
+      "away": 48,
+      "period": 2
+    },
+    {
+      "min": 21.85,
+      "home": 46,
+      "away": 48,
+      "period": 2
+    },
+    {
+      "min": 22.25,
+      "home": 46,
+      "away": 50,
+      "period": 2
+    },
+    {
+      "min": 22.43,
+      "home": 47,
+      "away": 50,
+      "period": 2
+    },
+    {
+      "min": 22.43,
+      "home": 48,
+      "away": 50,
+      "period": 2
+    },
+    {
+      "min": 23.07,
+      "home": 51,
+      "away": 50,
+      "period": 2
+    },
+    {
+      "min": 23.48,
+      "home": 51,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 23.79,
+      "home": 54,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 54,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 54,
+      "away": 52,
+      "period": 3
+    },
+    {
+      "min": 24.27,
+      "home": 56,
+      "away": 52,
+      "period": 3
+    },
+    {
+      "min": 24.58,
+      "home": 56,
+      "away": 54,
+      "period": 3
+    },
+    {
+      "min": 26.95,
+      "home": 56,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 27.23,
+      "home": 57,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 27.23,
+      "home": 58,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 27.65,
+      "home": 59,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 28.02,
+      "home": 60,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 28.02,
+      "home": 61,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 28.67,
+      "home": 63,
+      "away": 56,
+      "period": 3
+    },
+    {
+      "min": 29.28,
+      "home": 63,
+      "away": 58,
+      "period": 3
+    },
+    {
+      "min": 29.52,
+      "home": 64,
+      "away": 58,
+      "period": 3
+    },
+    {
+      "min": 29.52,
+      "home": 65,
+      "away": 58,
+      "period": 3
+    },
+    {
+      "min": 29.85,
+      "home": 65,
+      "away": 61,
+      "period": 3
+    },
+    {
+      "min": 30.17,
+      "home": 67,
+      "away": 61,
+      "period": 3
+    },
+    {
+      "min": 30.33,
+      "home": 67,
+      "away": 62,
+      "period": 3
+    },
+    {
+      "min": 30.33,
+      "home": 67,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 30.85,
+      "home": 67,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 31.03,
+      "home": 68,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 32.4,
+      "home": 70,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 33.42,
+      "home": 70,
+      "away": 67,
+      "period": 3
+    },
+    {
+      "min": 33.42,
+      "home": 70,
+      "away": 68,
+      "period": 3
+    },
+    {
+      "min": 33.78,
+      "home": 70,
+      "away": 69,
+      "period": 3
+    },
+    {
+      "min": 34.17,
+      "home": 73,
+      "away": 69,
+      "period": 3
+    },
+    {
+      "min": 34.9,
+      "home": 74,
+      "away": 69,
+      "period": 3
+    },
+    {
+      "min": 34.9,
+      "home": 75,
+      "away": 69,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 69,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 69,
+      "period": 4
+    },
+    {
+      "min": 36.77,
+      "home": 75,
+      "away": 71,
+      "period": 4
+    },
+    {
+      "min": 37.75,
+      "home": 75,
+      "away": 73,
+      "period": 4
+    },
+    {
+      "min": 37.75,
+      "home": 75,
+      "away": 74,
+      "period": 4
+    },
+    {
+      "min": 38.72,
+      "home": 77,
+      "away": 74,
+      "period": 4
+    },
+    {
+      "min": 38.72,
+      "home": 78,
+      "away": 74,
+      "period": 4
+    },
+    {
+      "min": 39.27,
+      "home": 78,
+      "away": 75,
+      "period": 4
+    },
+    {
+      "min": 39.27,
+      "home": 78,
+      "away": 76,
+      "period": 4
+    },
+    {
+      "min": 39.43,
+      "home": 80,
+      "away": 76,
+      "period": 4
+    },
+    {
+      "min": 39.87,
+      "home": 80,
+      "away": 77,
+      "period": 4
+    },
+    {
+      "min": 40.12,
+      "home": 82,
+      "away": 77,
+      "period": 4
+    },
+    {
+      "min": 40.32,
+      "home": 82,
+      "away": 78,
+      "period": 4
+    },
+    {
+      "min": 40.97,
+      "home": 82,
+      "away": 80,
+      "period": 4
+    },
+    {
+      "min": 41.25,
+      "home": 85,
+      "away": 80,
+      "period": 4
+    },
+    {
+      "min": 41.5,
+      "home": 85,
+      "away": 81,
+      "period": 4
+    },
+    {
+      "min": 42.17,
+      "home": 85,
+      "away": 83,
+      "period": 4
+    },
+    {
+      "min": 42.6,
+      "home": 85,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 43.08,
+      "home": 87,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 44.87,
+      "home": 88,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 44.87,
+      "home": 89,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 46.42,
+      "home": 89,
+      "away": 86,
+      "period": 4
+    },
+    {
+      "min": 46.73,
+      "home": 92,
+      "away": 86,
+      "period": 4
+    },
+    {
+      "min": 47.64,
+      "home": 93,
+      "away": 86,
+      "period": 4
+    },
+    {
+      "min": 47.64,
+      "home": 94,
+      "away": 86,
+      "period": 4
+    },
+    {
+      "min": 47.94,
+      "home": 94,
+      "away": 88,
+      "period": 4
+    },
+    {
+      "min": 48.0,
+      "home": 94,
+      "away": 88,
+      "period": 4
+    }
+  ],
+  "shots": [
+    {
+      "team": "ORL",
+      "player": "W. Carter Jr.",
+      "x": -175,
+      "y": 189,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Carter Jr. 26' 3PT Jump Shot (3 PTS) (Suggs 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -77,
+      "y": 185,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Cunningham 20' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -100,
+      "y": 229,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Bane 25' 3PT Jump Shot (3 PTS) (Banchero 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": 26,
+      "y": 20,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "F. Wagner 3' Driving Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": -9,
+      "y": 78,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Harris 8' Driving Hook Shot (2 PTS) (Cunningham 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -4,
+      "y": 45,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "F. Wagner 5' Driving Finger Roll Layup (4 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 87,
+      "y": 127,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Cunningham 15' Turnaround Fadeaway (2 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": 109,
+      "y": 232,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Suggs 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -5,
+      "y": 19,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Banchero 2' Running Dunk (2 PTS) (Carter Jr. 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -10,
+      "y": 22,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "F. Wagner 2' Running Layup (6 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -170,
+      "y": 178,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Banchero 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 25,
+      "y": 22,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Harris 3' Running Layup (5 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": 145,
+      "y": 129,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Bane 19' Pullup Jump Shot (6 PTS) (Carter Jr. 2 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "A. Thompson",
+      "x": -44,
+      "y": 110,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Thompson 12' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 18,
+      "y": 158,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Cunningham 16' Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -209,
+      "y": 134,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Cunningham 25' 3PT Pullup Jump Shot (5 PTS) (Duren 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "W. Carter Jr.",
+      "x": -21,
+      "y": 14,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Carter Jr. 3' Cutting Dunk Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 235,
+      "y": 39,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Harris 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "A. Thompson",
+      "x": 49,
+      "y": 36,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Thompson 6' Cutting Layup Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "J. Duren",
+      "x": 102,
+      "y": 42,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Duren 11' Jump Shot (2 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": 135,
+      "y": 230,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Banchero 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": 33,
+      "y": 49,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Banchero 6' Driving Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 11,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Harris 2' Running Dunk (7 PTS) (Cunningham 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -163,
+      "y": 187,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Suggs 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "W. Carter Jr.",
+      "x": -228,
+      "y": 56,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Carter Jr. 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 66,
+      "y": 251,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Cunningham 26' 3PT Jump Shot (10 PTS) (Duren 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "T. da Silva",
+      "x": -37,
+      "y": 245,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS da Silva 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 55,
+      "y": 188,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Cunningham 20' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "J. Duren",
+      "x": 16,
+      "y": 1,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Duren 2' Putback Dunk (4 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "T. da Silva",
+      "x": -123,
+      "y": 229,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS da Silva 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "J. Duren",
+      "x": -45,
+      "y": 174,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Duren 18' Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -151,
+      "y": 221,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Banchero 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "J. Green",
+      "x": -16,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Green 2' Cutting Dunk Shot (2 PTS) (Jenkins 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "D. Jenkins",
+      "x": -20,
+      "y": -5,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Jenkins 2' Driving Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -31,
+      "y": 43,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Bane 5' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "C. LeVert",
+      "x": 13,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "LeVert 2' Running Layup (2 PTS) (Jenkins 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -1,
+      "y": 40,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS F. Wagner 4' Turnaround Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "D. Jenkins",
+      "x": -148,
+      "y": 226,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Jenkins 27' 3PT Running Pull-Up Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "J. Green",
+      "x": -119,
+      "y": 228,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Green 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -230,
+      "y": 15,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS F. Wagner 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Cain",
+      "x": -25,
+      "y": -3,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Cain 3' Putback Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -170,
+      "y": 189,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Bane 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "G. Bitadze",
+      "x": 22,
+      "y": 27,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Bitadze 3' Cutting Layup Shot (2 PTS) (Bane 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": 55,
+      "y": 168,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS F. Wagner 18' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "D. Robinson",
+      "x": 225,
+      "y": 48,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Robinson 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "ORL",
+      "player": "A. Black",
+      "x": 15,
+      "y": 32,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Black 4' Driving Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "I. Stewart",
+      "x": -113,
+      "y": 239,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Stewart 26' 3PT Jump Shot (3 PTS) (LeVert 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "A. Black",
+      "x": 36,
+      "y": 113,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Black 12' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "D. Jenkins",
+      "x": 52,
+      "y": 46,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Jenkins 7' Running Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Cain",
+      "x": 15,
+      "y": 23,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Cain 3' Running Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "D. Robinson",
+      "x": -4,
+      "y": 33,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Robinson 3' Driving Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": 70,
+      "y": 94,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Bane 12' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": 104,
+      "y": 126,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS F. Wagner 16' Step Back Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Cain",
+      "x": -22,
+      "y": 13,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Cain 3' Running Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "A. Black",
+      "x": 42,
+      "y": 55,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Black 7' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 75,
+      "y": 57,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Cunningham 9' Driving Floating Bank Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 166,
+      "y": 138,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Cunningham 22' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Cain",
+      "x": -223,
+      "y": 2,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Cain 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -191,
+      "y": 172,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Cunningham 26' 3PT Pullup Jump Shot (13 PTS) (LeVert 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Cain",
+      "x": 237,
+      "y": 30,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Cain 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": -11,
+      "y": 7,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Harris 1' Cutting Dunk Shot (10 PTS) (Cunningham 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -153,
+      "y": 16,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Banchero 15' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -1,
+      "y": 27,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Cunningham 3' Driving Layup (15 PTS) (Stewart 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "W. Carter Jr.",
+      "x": 16,
+      "y": 35,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Carter Jr. 4' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "T. da Silva",
+      "x": -234,
+      "y": 32,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "da Silva 24' 3PT Jump Shot (4 PTS) (Suggs 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "A. Thompson",
+      "x": 36,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Thompson 4' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": 0,
+      "y": 37,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Bane 4' Driving Floating Jump Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "W. Carter Jr.",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Carter Jr. Tip Layup Shot (5 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "DET",
+      "player": "J. Green",
+      "x": 227,
+      "y": 59,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Green 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -131,
+      "y": 215,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Banchero 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "D. Robinson",
+      "x": 165,
+      "y": 184,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Robinson 25' 3PT Running Pull-Up Jump Shot (5 PTS) (Duren 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -15,
+      "y": 31,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "F. Wagner 3' Driving Layup (10 PTS) (Carter Jr. 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": 172,
+      "y": 195,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS F. Wagner 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 132,
+      "y": 211,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Cunningham 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -2,
+      "y": 14,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Banchero 1' Driving Dunk (8 PTS) (Carter Jr. 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "D. Robinson",
+      "x": 10,
+      "y": 54,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Robinson 5' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -200,
+      "y": 159,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Suggs 26' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -5,
+      "y": 27,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Suggs 3' Running Dunk",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -227,
+      "y": 22,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Bane 3PT Jump Shot (9 PTS) (F. Wagner 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -126,
+      "y": 238,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Cunningham 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -4,
+      "y": 36,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "F. Wagner 4' Running Layup (12 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -164,
+      "y": -15,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "F. Wagner 16' Pullup Jump Shot (14 PTS) (Banchero 2 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "J. Duren",
+      "x": 23,
+      "y": 7,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Duren 2' Cutting Layup Shot (8 PTS) (Cunningham 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "A. Thompson",
+      "x": 71,
+      "y": 158,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Thompson 17' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": 118,
+      "y": 241,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Suggs 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": 96,
+      "y": 230,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Bane 25' 3PT Jump Shot (12 PTS) (F. Wagner 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "D. Jenkins",
+      "x": 104,
+      "y": 238,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Jenkins 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "A. Thompson",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Thompson Tip Dunk Shot (2 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -223,
+      "y": 59,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "F. Wagner 3PT Jump Shot (17 PTS) (Banchero 3 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": -114,
+      "y": 241,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Harris 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -23,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Bane 3' Driving Layup (14 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -1,
+      "y": 138,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Cunningham 14' Pullup Jump Shot (18 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": 100,
+      "y": 163,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Banchero 19' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -196,
+      "y": 178,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Cunningham 26' 3PT Running Pull-Up Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": 125,
+      "y": 226,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Suggs 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 235,
+      "y": 37,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Harris 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 225,
+      "y": 94,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Harris 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -27,
+      "y": 16,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Banchero 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -224,
+      "y": 22,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Cunningham 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": -151,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Harris 15' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "D. Robinson",
+      "x": -172,
+      "y": 172,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Robinson 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": 0,
+      "y": 18,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS F. Wagner 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": -37,
+      "y": 22,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Harris 4' Running Layup (12 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "D. Robinson",
+      "x": 102,
+      "y": 222,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Robinson 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "J. Duren",
+      "x": -45,
+      "y": 1,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Duren 5' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "W. Carter Jr.",
+      "x": -21,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Carter Jr. 2' Alley Oop Dunk (7 PTS) (F. Wagner 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 89,
+      "y": 110,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Harris 14' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "J. Duren",
+      "x": -11,
+      "y": 23,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Duren 3' Driving Layup (10 PTS) (Cunningham 5 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "J. Green",
+      "x": -223,
+      "y": 48,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Green 3PT Jump Shot (5 PTS) (LeVert 3 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Cain",
+      "x": -23,
+      "y": 37,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Cain 4' Turnaround Hook Shot (4 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": 134,
+      "y": 71,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Banchero 15' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "J. Duren",
+      "x": -18,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Duren 2' Cutting Layup Shot (12 PTS) (Cunningham 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "A. Black",
+      "x": 26,
+      "y": 59,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Black 6' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 53,
+      "y": 101,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Harris 11' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "I. Stewart",
+      "x": 5,
+      "y": 15,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Stewart 2' Tip Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -21,
+      "y": 60,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Banchero 6' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "T. da Silva",
+      "x": -92,
+      "y": 84,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "da Silva 12' Driving Floating Jump Shot (6 PTS) (Banchero 4 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "C. LeVert",
+      "x": 159,
+      "y": 137,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS LeVert 21' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -36,
+      "y": 46,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Banchero 6' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": -138,
+      "y": 69,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS F. Wagner 15' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 40,
+      "y": 31,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Cunningham 5' Driving Layup (22 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "F. Wagner",
+      "x": 22,
+      "y": 13,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS F. Wagner 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "G. Bitadze",
+      "x": -20,
+      "y": 55,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Bitadze 6' Putback Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -93,
+      "y": 249,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Bane 27' 3PT Step Back Jump Shot (17 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -53,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Bane 5' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "C. LeVert",
+      "x": -16,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS LeVert 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -161,
+      "y": 193,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Cunningham 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 1,
+      "y": 31,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Cunningham 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -129,
+      "y": 263,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Bane 29' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "G. Bitadze",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Bitadze Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "ORL",
+      "player": "G. Bitadze",
+      "x": 5,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Bitadze 1' Putback Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "D. Robinson",
+      "x": 67,
+      "y": 246,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Robinson 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -64,
+      "y": 252,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Bane 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "I. Stewart",
+      "x": 13,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Stewart 2' Cutting Layup Shot (6 PTS) (Jenkins 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "D. Jenkins",
+      "x": 88,
+      "y": 193,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Jenkins 21' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -148,
+      "y": 206,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Suggs 25' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 9,
+      "y": 1,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Harris 1' Driving Layup (14 PTS) (Jenkins 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": 118,
+      "y": 230,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Suggs 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": -147,
+      "y": -4,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Harris 15' Turnaround Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": 27,
+      "y": 21,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Banchero 3' Driving Layup (15 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": 6,
+      "y": 207,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Banchero 21' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Cain",
+      "x": 4,
+      "y": 21,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Cain 2' Driving Dunk (6 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -28,
+      "y": 109,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Cunningham 11' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "DET",
+      "player": "J. Duren",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Duren Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "DET",
+      "player": "A. Thompson",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Thompson Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -55,
+      "y": 178,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Banchero 19' Step Back Jump Shot (18 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": -37,
+      "y": 65,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Banchero 7' Driving Floating Bank Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "W. Carter Jr.",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Carter Jr. Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": -38,
+      "y": 90,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Harris 10' Pullup Jump Shot (18 PTS) (Thompson 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -237,
+      "y": 15,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Suggs 24' 3PT Jump Shot (3 PTS) (da Silva 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": 78,
+      "y": 242,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Bane 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -125,
+      "y": 230,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Suggs 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": 130,
+      "y": 89,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Harris 16' Turnaround Jump Shot (20 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "DET",
+      "player": "A. Thompson",
+      "x": 21,
+      "y": 22,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Thompson 3' Driving Layup (6 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "P. Banchero",
+      "x": 53,
+      "y": 142,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Banchero 15' Turnaround Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Cain",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Cain Tip Dunk Shot (8 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -74,
+      "y": 232,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Cunningham 24' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -1,
+      "y": 4,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Suggs Driving Dunk",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -229,
+      "y": -1,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Bane 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "ORL",
+      "player": "W. Carter Jr.",
+      "x": -2,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Carter Jr. 1' Putback Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": -1,
+      "y": 15,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Bane 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "T. Harris",
+      "x": -221,
+      "y": 104,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Harris 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 31,
+      "y": 131,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Cunningham 13' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -118,
+      "y": 228,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Suggs 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "D. Jenkins",
+      "x": -176,
+      "y": 176,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Jenkins 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "ORL",
+      "player": "J. Suggs",
+      "x": -227,
+      "y": 17,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Suggs 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": 80,
+      "y": 274,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Bane 29' 3PT Pullup Jump Shot (22 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "A. Thompson",
+      "x": -16,
+      "y": 41,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Thompson 4' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "ORL",
+      "player": "D. Bane",
+      "x": 1,
+      "y": 28,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Bane 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": -140,
+      "y": 214,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Cunningham 26' 3PT Running Pull-Up Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. LeVert",
+      "x": 216,
+      "y": 110,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS LeVert 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "D. Robinson",
+      "x": 29,
+      "y": 320,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Robinson 32' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "DET",
+      "player": "C. Cunningham",
+      "x": 229,
+      "y": 57,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Cunningham 24' 3PT Running Pull-Up Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "DET",
+      "player": "I. Stewart",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Stewart Tip Layup Shot (8 PTS)",
+      "zone": ""
+    }
+  ],
+  "shot_zones": {
+    "ORL": {
+      "at_rim": {
+        "fgm": 13,
+        "fga": 27,
+        "pct": 48.1
+      },
+      "paint": {
+        "fgm": 3,
+        "fga": 17,
+        "pct": 17.6
+      },
+      "mid": {
+        "fgm": 3,
+        "fga": 9,
+        "pct": 33.3
+      },
+      "corner_3": {
+        "fgm": 4,
+        "fga": 10,
+        "pct": 40.0
+      },
+      "arc_3": {
+        "fgm": 5,
+        "fga": 25,
+        "pct": 20.0
+      }
+    },
+    "DET": {
+      "at_rim": {
+        "fgm": 15,
+        "fga": 19,
+        "pct": 78.9
+      },
+      "paint": {
+        "fgm": 5,
+        "fga": 20,
+        "pct": 25.0
+      },
+      "mid": {
+        "fgm": 3,
+        "fga": 9,
+        "pct": 33.3
+      },
+      "corner_3": {
+        "fgm": 1,
+        "fga": 7,
+        "pct": 14.3
+      },
+      "arc_3": {
+        "fgm": 5,
+        "fga": 23,
+        "pct": 21.7
+      }
+    }
+  },
+  "matchups": [
+    {
+      "off_id": "1631094",
+      "off_name": "P. Banchero",
+      "off_team": "ORL",
+      "def_id": "1630595",
+      "def_name": "C. Cunningham",
+      "minutes": "2:57",
+      "fgm": 1,
+      "fga": 7,
+      "fg_pct": 14.3,
+      "fg3m": 0,
+      "fg3a": 3,
+      "pts": 6,
+      "partial_poss": 15.1
+    },
+    {
+      "off_id": "1630217",
+      "off_name": "D. Bane",
+      "off_team": "ORL",
+      "def_id": "1627747",
+      "def_name": "C. LeVert",
+      "minutes": "4:32",
+      "fgm": 1,
+      "fga": 7,
+      "fg_pct": 14.3,
+      "fg3m": 1,
+      "fg3a": 4,
+      "pts": 3,
+      "partial_poss": 20.4
+    },
+    {
+      "off_id": "1630595",
+      "off_name": "C. Cunningham",
+      "off_team": "DET",
+      "def_id": "1631288",
+      "def_name": "J. Cain",
+      "minutes": "4:06",
+      "fgm": 1,
+      "fga": 7,
+      "fg_pct": 14.3,
+      "fg3m": 1,
+      "fg3a": 4,
+      "pts": 4,
+      "partial_poss": 21.2
+    },
+    {
+      "off_id": "1631105",
+      "off_name": "J. Duren",
+      "off_team": "DET",
+      "def_id": "1628976",
+      "def_name": "W. Carter Jr.",
+      "minutes": "9:37",
+      "fgm": 3,
+      "fga": 6,
+      "fg_pct": 50.0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 6,
+      "partial_poss": 49.6
+    },
+    {
+      "off_id": "1628976",
+      "off_name": "W. Carter Jr.",
+      "off_team": "ORL",
+      "def_id": "1631105",
+      "def_name": "J. Duren",
+      "minutes": "9:03",
+      "fgm": 3,
+      "fga": 5,
+      "fg_pct": 60.0,
+      "fg3m": 1,
+      "fg3a": 1,
+      "pts": 8,
+      "partial_poss": 44.5
+    },
+    {
+      "off_id": "1631288",
+      "off_name": "J. Cain",
+      "off_team": "ORL",
+      "def_id": "1630595",
+      "def_name": "C. Cunningham",
+      "minutes": "3:34",
+      "fgm": 3,
+      "fga": 5,
+      "fg_pct": 60.0,
+      "fg3m": 0,
+      "fg3a": 2,
+      "pts": 6,
+      "partial_poss": 17.8
+    },
+    {
+      "off_id": "1630595",
+      "off_name": "C. Cunningham",
+      "off_team": "DET",
+      "def_id": "1630532",
+      "def_name": "F. Wagner",
+      "minutes": "3:51",
+      "fgm": 2,
+      "fga": 5,
+      "fg_pct": 40.0,
+      "fg3m": 1,
+      "fg3a": 4,
+      "pts": 5,
+      "partial_poss": 21.3
+    },
+    {
+      "off_id": "1630532",
+      "off_name": "F. Wagner",
+      "off_team": "ORL",
+      "def_id": "1630595",
+      "def_name": "C. Cunningham",
+      "minutes": "3:00",
+      "fgm": 2,
+      "fga": 4,
+      "fg_pct": 50.0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 4,
+      "partial_poss": 15.7
+    },
+    {
+      "off_id": "1631094",
+      "off_name": "P. Banchero",
+      "off_team": "ORL",
+      "def_id": "202699",
+      "def_name": "T. Harris",
+      "minutes": "6:29",
+      "fgm": 1,
+      "fga": 4,
+      "fg_pct": 25.0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 3,
+      "partial_poss": 32.7
+    },
+    {
+      "off_id": "1630217",
+      "off_name": "D. Bane",
+      "off_team": "ORL",
+      "def_id": "1629130",
+      "def_name": "D. Robinson",
+      "minutes": "1:39",
+      "fgm": 2,
+      "fga": 4,
+      "fg_pct": 50.0,
+      "fg3m": 2,
+      "fg3a": 3,
+      "pts": 7,
+      "partial_poss": 11.2
+    },
+    {
+      "off_id": "1630591",
+      "off_name": "J. Suggs",
+      "off_team": "ORL",
+      "def_id": "1641709",
+      "def_name": "A. Thompson",
+      "minutes": "4:11",
+      "fgm": 1,
+      "fga": 4,
+      "fg_pct": 25.0,
+      "fg3m": 1,
+      "fg3a": 3,
+      "pts": 3,
+      "partial_poss": 21.0
+    },
+    {
+      "off_id": "1641709",
+      "off_name": "A. Thompson",
+      "off_team": "DET",
+      "def_id": "1630591",
+      "def_name": "J. Suggs",
+      "minutes": "5:53",
+      "fgm": 1,
+      "fga": 4,
+      "fg_pct": 25.0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 2,
+      "partial_poss": 30.6
+    },
+    {
+      "off_id": "202699",
+      "off_name": "T. Harris",
+      "off_team": "DET",
+      "def_id": "1630591",
+      "def_name": "J. Suggs",
+      "minutes": "0:58",
+      "fgm": 3,
+      "fga": 4,
+      "fg_pct": 75.0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 7,
+      "partial_poss": 6.0
+    },
+    {
+      "off_id": "1630532",
+      "off_name": "F. Wagner",
+      "off_team": "ORL",
+      "def_id": "1630191",
+      "def_name": "I. Stewart",
+      "minutes": "0:36",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 0,
+      "partial_poss": 2.1
+    },
+    {
+      "off_id": "1631094",
+      "off_name": "P. Banchero",
+      "off_team": "ORL",
+      "def_id": "1631105",
+      "def_name": "J. Duren",
+      "minutes": "0:58",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 0,
+      "partial_poss": 4.9
+    },
+    {
+      "off_id": "1630217",
+      "off_name": "D. Bane",
+      "off_team": "ORL",
+      "def_id": "202699",
+      "def_name": "T. Harris",
+      "minutes": "0:58",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 1,
+      "fg3a": 2,
+      "pts": 3,
+      "partial_poss": 4.4
+    },
+    {
+      "off_id": "1630217",
+      "off_name": "D. Bane",
+      "off_team": "ORL",
+      "def_id": "1641709",
+      "def_name": "A. Thompson",
+      "minutes": "4:24",
+      "fgm": 2,
+      "fga": 3,
+      "fg_pct": 66.7,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 4,
+      "partial_poss": 24.0
+    },
+    {
+      "off_id": "1641709",
+      "off_name": "A. Thompson",
+      "off_team": "DET",
+      "def_id": "1631094",
+      "def_name": "P. Banchero",
+      "minutes": "2:06",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 2,
+      "partial_poss": 10.8
+    },
+    {
+      "off_id": "202699",
+      "off_name": "T. Harris",
+      "off_team": "DET",
+      "def_id": "1628976",
+      "def_name": "W. Carter Jr.",
+      "minutes": "0:52",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 2,
+      "partial_poss": 4.7
+    },
+    {
+      "off_id": "1630595",
+      "off_name": "C. Cunningham",
+      "off_team": "DET",
+      "def_id": "1629048",
+      "def_name": "G. Bitadze",
+      "minutes": "0:27",
+      "fgm": 1,
+      "fga": 3,
+      "fg_pct": 33.3,
+      "fg3m": 0,
+      "fg3a": 0,
+      "pts": 3,
+      "partial_poss": 2.3
+    },
+    {
+      "off_id": "1630595",
+      "off_name": "C. Cunningham",
+      "off_team": "DET",
+      "def_id": "1628976",
+      "def_name": "W. Carter Jr.",
+      "minutes": "1:09",
+      "fgm": 0,
+      "fga": 3,
+      "fg_pct": 0,
+      "fg3m": 0,
+      "fg3a": 1,
+      "pts": 0,
+      "partial_poss": 6.1
+    }
+  ],
+  "collected": "2026-04-28"
+}
