@@ -216,6 +216,7 @@ def classify_zone(x, y, value):
     else:
         return "mid"
 
+max_period = 4
 if pbp_dfs:
     pbp = pbp_dfs[0]
     last_home, last_away = 0, 0
@@ -237,7 +238,7 @@ if pbp_dfs:
         except:
             abs_min = prev_abs_min
 
-        if period != prev_period and prev_period > 0 and prev_period <= 4:
+        if period != prev_period and prev_period > 0:
             quarter_scores_home[prev_period] = last_home - sum(quarter_scores_home.get(q,0) for q in range(1,prev_period))
             quarter_scores_away[prev_period] = last_away - sum(quarter_scores_away.get(q,0) for q in range(1,prev_period))
 
@@ -315,7 +316,7 @@ if pbp_dfs:
 
         prev_period = period
 
-    if prev_period > 0 and prev_period <= 4:
+    if prev_period > 0:
         quarter_scores_home[prev_period] = last_home - sum(quarter_scores_home.get(q,0) for q in range(1,prev_period))
         quarter_scores_away[prev_period] = last_away - sum(quarter_scores_away.get(q,0) for q in range(1,prev_period))
 
@@ -364,11 +365,13 @@ def min_to_clock(m):
     secs = int(round((remaining - mins) * 60))
     return f"{mins}:{secs:02d} {q}Q"
 
+gmax_period = max(quarter_scores_home.keys()) if quarter_scores_home else 4
 game_flow = {
     "quarter_scores": {
-        home_abbr: [quarter_scores_home.get(q,0) for q in range(1,5)],
-        away_abbr: [quarter_scores_away.get(q,0) for q in range(1,5)],
+        home_abbr: [quarter_scores_home.get(q,0) for q in range(1, max_period+1)],
+        away_abbr: [quarter_scores_away.get(q,0) for q in range(1, max_period+1)],
     },
+    "num_periods": max_period,
     "lead_changes": lead_changes,
     "ties": ties,
     "time_leading_home_fmt": fmt_min(home_lead_min),
