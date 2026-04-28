@@ -127,12 +127,21 @@ function fmtDate(d){
 
 function minToClock(m){
   if(m<0) m=0;
-  const q=Math.min(4,Math.floor(m/12)+1);
-  const elapsed=m-(q-1)*12;
-  const remaining=Math.max(0,12-elapsed);
-  const mins=Math.floor(remaining);
-  const secs=Math.round((remaining-mins)*60);
-  return`${mins}:${secs.toString().padStart(2,'0')} ${q}Q`;
+  if(m<=48){
+    const q=Math.min(4,Math.floor(m/12)+1);
+    const elapsed=m-(q-1)*12;
+    const remaining=Math.max(0,12-elapsed);
+    const mins=Math.floor(remaining);
+    const secs=Math.round((remaining-mins)*60);
+    return`${mins}:${secs.toString().padStart(2,'0')} ${q}Q`;
+  } else {
+    const ot=Math.floor((m-48)/5)+1;
+    const elapsed=(m-48)-(ot-1)*5;
+    const remaining=Math.max(0,5-elapsed);
+    const mins=Math.floor(remaining);
+    const secs=Math.round((remaining-mins)*60);
+    return`${mins}:${secs.toString().padStart(2,'0')} OT${ot>1?ot:''}`;
+  }
 }
 
 function render(game,teams){
@@ -375,8 +384,7 @@ function render(game,teams){
         <div class="card-title">Placar por quarto</div>
         <table style="width:100%;border-collapse:collapse;font-size:12px">
           <thead><tr>
-          ${qs_home.map((_,i)=>`<th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">${i<4?`${i+1}Q`:`OT${i>4?i-3:''}`}</th>`).join('')}
-            <th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">Total</th>
+          ${qs_home.map((_,i)=>`<th style="color:#86868b;font-weight:500;padding:3px 6px;text-align:center">${i<4?`${i+1}Q`:i===4?'OT':`OT${i-3}`}</th>`).join('')}
           </tr></thead>
           <tbody>
             ${[[away,qs_away,away_pts,c2],[home,qs_home,home_pts,c1]].map(([abbr,qs,total,color])=>{
