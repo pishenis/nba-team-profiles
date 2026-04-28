@@ -397,8 +397,7 @@ function render(game,teams){
             }).join('')}
             <tr>
               <td style="padding:6px 0 2px;font-size:11px;color:#86868b;border-top:0.5px solid #e5e5ea">Sets</td>
-              <td colspan="${qs_home.length-1}" style="border-top:0.5px solid #e5e5ea"></td>              <td style="padding:6px 6px 2px;text-align:center;border-top:0.5px solid #e5e5ea">
-                <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:700;color:${sets_away>sets_home?c2:'#86868b'}">${sets_away}</span>
+              <td colspan="${qs_home.length}" style="border-top:0.5px solid #e5e5ea"></td>                <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:700;color:${sets_away>sets_home?c2:'#86868b'}">${sets_away}</span>
                 <span style="color:#86868b;margin:0 3px">–</span>
                 <span style="font-family:ui-monospace,monospace;font-size:13px;font-weight:700;color:${sets_home>sets_away?c1:'#86868b'}">${sets_home}</span>
               </td>
