@@ -2285,3 +2285,1640 @@ Nada a coletar.
 fatal: not a git repository (or any of the parent directories): .git
 fatal: not a git repository (or any of the parent directories): .git
 Dom 26 Abr 2026 13:43:33 -03: Atualizacao concluida.
+Dom 26 Abr 2026 13:50:31 -03: Iniciando atualizacao...
+
+=== Game Log (temporada completa) ===
+  Salvo: dados_nba_gamelog.json (2460 registros)
+
+=== Temporada completa ===
+  Stats base...
+  Stats avancadas...
+  Stats misc...
+  Stats opponent...
+  Clutch...
+  Hustle...
+  Arremessos ofensivos por zona...
+  Arremessos defensivos por zona...
+  Drives...
+  Post-ups...
+  Play types...
+    Transition OK
+    PRBallHandler OK
+    PRRollMan OK
+    Isolation OK
+    Spotup OK
+    Postup OK
+    Handoff OK
+    Cut OK
+    OffScreen OK
+  Salvo: dados_nba_full.json
+
+=== Últimos 30 dias ===
+  Stats base...
+    Tentativa 1 falhou, aguardando 5s...
+  Stats avancadas...
+  Stats misc...
+  Stats opponent...
+  Clutch...
+  Hustle...
+  Arremessos ofensivos por zona...
+  Arremessos defensivos por zona...
+  Drives...
+  Post-ups...
+  Play types...
+    Transition OK
+    PRBallHandler OK
+    PRRollMan OK
+    Isolation OK
+    Spotup OK
+    Postup OK
+    Handoff OK
+    Cut OK
+    OffScreen OK
+  Salvo: dados_nba_30d.json
+
+=== Últimas 2 semanas ===
+  Stats base...
+  Stats avancadas...
+  Stats misc...
+  Stats opponent...
+  Clutch...
+  Hustle...
+  Arremessos ofensivos por zona...
+  Arremessos defensivos por zona...
+  Drives...
+  Post-ups...
+  Play types...
+    Transition OK
+    PRBallHandler OK
+    PRRollMan OK
+    Isolation OK
+    Spotup OK
+    Postup OK
+    Handoff OK
+    Cut OK
+    OffScreen OK
+  Salvo: dados_nba_14d.json
+
+Feito! Todos os períodos coletados.
+Transformando períodos...
+  times_full.json criado com 30 times.
+  times_30d.json criado com 30 times.
+  times_14d.json criado com 30 times.
+Feito!
+Bio existente carregada: 387 jogadores
+Coletando stats básicas...
+  387 jogadores elegíveis
+Coletando stats avançadas...
+Coletando pbpstats totals...
+Coletando pbpstats assist combos...
+  7504 combinações encontradas
+Coletando lineups por time...
+  Time 1/30 (ID 1610612737)
+  Time 2/30 (ID 1610612738)
+  Time 3/30 (ID 1610612751)
+  Time 4/30 (ID 1610612766)
+  Time 5/30 (ID 1610612741)
+  Time 6/30 (ID 1610612739)
+  Time 7/30 (ID 1610612742)
+  Time 8/30 (ID 1610612743)
+  Time 9/30 (ID 1610612765)
+  Time 10/30 (ID 1610612744)
+  Time 11/30 (ID 1610612745)
+  Time 12/30 (ID 1610612754)
+  Time 13/30 (ID 1610612746)
+  Time 14/30 (ID 1610612747)
+  Time 15/30 (ID 1610612763)
+  Time 16/30 (ID 1610612748)
+  Time 17/30 (ID 1610612749)
+  Time 18/30 (ID 1610612750)
+  Time 19/30 (ID 1610612740)
+  Time 20/30 (ID 1610612752)
+  Time 21/30 (ID 1610612760)
+  Time 22/30 (ID 1610612753)
+  Time 23/30 (ID 1610612755)
+  Time 24/30 (ID 1610612756)
+  Time 25/30 (ID 1610612757)
+  Time 26/30 (ID 1610612758)
+  Time 27/30 (ID 1610612759)
+  Time 28/30 (ID 1610612761)
+  Time 29/30 (ID 1610612762)
+  Time 30/30 (ID 1610612764)
+
+Verificando bio de 387 jogadores...
+  [1/387] AJ Green — bio reutilizada
+  [2/387] Aaron Gordon — bio reutilizada
+  [3/387] Aaron Holiday — bio reutilizada
+  [4/387] Aaron Nesmith — bio reutilizada
+  [5/387] Aaron Wiggins — bio reutilizada
+  [6/387] Ace Bailey — bio reutilizada
+  [7/387] Adem Bona — bio reutilizada
+  [8/387] Ajay Mitchell — bio reutilizada
+  [9/387] Al Horford — bio reutilizada
+  [10/387] Alex Caruso — bio reutilizada
+  [11/387] Alex Sarr — bio reutilizada
+  [12/387] Alperen Sengun — bio reutilizada
+  [13/387] Amen Thompson — bio reutilizada
+  [14/387] Andre Drummond — bio reutilizada
+  [15/387] Andrew Nembhard — bio reutilizada
+  [16/387] Andrew Wiggins — bio reutilizada
+  [17/387] Anfernee Simons — bio reutilizada
+  [18/387] Anthony Black — bio reutilizada
+  [19/387] Anthony Davis — bio reutilizada
+  [20/387] Anthony Edwards — bio reutilizada
+  [21/387] Anthony Gill — bio reutilizada
+  [22/387] Ausar Thompson — bio reutilizada
+  [23/387] Austin Reaves — bio reutilizada
+  [24/387] Ayo Dosunmu — bio reutilizada
+  [25/387] Bam Adebayo — bio reutilizada
+  [26/387] Baylor Scheierman — bio reutilizada
+  [27/387] Ben Saraf — bio reutilizada
+  [28/387] Ben Sheppard — bio reutilizada
+  [29/387] Bennedict Mathurin — bio reutilizada
+  [30/387] Bez Mbeng — bio reutilizada
+  [31/387] Bilal Coulibaly — bio reutilizada
+  [32/387] Blake Hinson — bio reutilizada
+  [33/387] Bobby Portis — bio reutilizada
+  [34/387] Bogdan Bogdanović — bio reutilizada
+  [35/387] Bones Hyland — bio reutilizada
+  [36/387] Brandin Podziemski — bio reutilizada
+  [37/387] Brandon Ingram — bio reutilizada
+  [38/387] Brandon Miller — bio reutilizada
+  [39/387] Brandon Williams — bio reutilizada
+  [40/387] Brice Sensabaugh — bio reutilizada
+  [41/387] Brook Lopez — bio reutilizada
+  [42/387] Bruce Brown — bio reutilizada
+  [43/387] Bryce McGowens — bio reutilizada
+  [44/387] Bub Carrington — bio reutilizada
+  [45/387] Buddy Hield — bio reutilizada
+  [46/387] CJ McCollum — bio reutilizada
+  [47/387] Cade Cunningham — bio reutilizada
+  [48/387] Caleb Love — bio reutilizada
+  [49/387] Caleb Martin — bio reutilizada
+  [50/387] Cam Spencer — bio reutilizada
+  [51/387] Cam Thomas — bio reutilizada
+  [52/387] Cam Whitmore — bio reutilizada
+  [53/387] Cameron Johnson — bio reutilizada
+  [54/387] Cameron Payne — bio reutilizada
+  [55/387] Caris LeVert — bio reutilizada
+  [56/387] Cason Wallace — bio reutilizada
+  [57/387] Cedric Coward — bio reutilizada
+  [58/387] Chaney Johnson — bio reutilizada
+  [59/387] Chet Holmgren — bio reutilizada
+  [60/387] Chris Paul — bio reutilizada
+  [61/387] Christian Braun — bio reutilizada
+  [62/387] Christian Koloko — bio reutilizada
+  [63/387] Coby White — bio reutilizada
+  [64/387] Cody Williams — bio reutilizada
+  [65/387] Cole Anthony — bio reutilizada
+  [66/387] Collin Gillespie — bio reutilizada
+  [67/387] Collin Murray-Boyles — bio reutilizada
+  [68/387] Collin Sexton — bio reutilizada
+  [69/387] Cooper Flagg — bio reutilizada
+  [70/387] Corey Kispert — bio reutilizada
+  [71/387] Craig Porter Jr. — bio reutilizada
+  [72/387] D'Angelo Russell — bio reutilizada
+  [73/387] Daeqwon Plowden — bio reutilizada
+  [74/387] Daniel Gafford — bio reutilizada
+  [75/387] Daniss Jenkins — bio reutilizada
+  [76/387] Danny Wolf — bio reutilizada
+  [77/387] Darius Garland — bio reutilizada
+  [78/387] Davion Mitchell — bio reutilizada
+  [79/387] Day'Ron Sharpe — bio reutilizada
+  [80/387] De'Aaron Fox — bio reutilizada
+  [81/387] De'Andre Hunter — bio reutilizada
+  [82/387] De'Anthony Melton — bio reutilizada
+  [83/387] DeMar DeRozan — bio reutilizada
+  [84/387] Dean Wade — bio reutilizada
+  [85/387] Deandre Ayton — bio reutilizada
+  [86/387] Dejounte Murray — bio reutilizada
+  [87/387] Deni Avdija — bio reutilizada
+  [88/387] Dennis Schröder — bio reutilizada
+  [89/387] Derik Queen — bio reutilizada
+  [90/387] Derrick Jones Jr. — bio reutilizada
+  [91/387] Derrick White — bio reutilizada
+  [92/387] Desmond Bane — bio reutilizada
+  [93/387] Devin Booker — bio reutilizada
+  [94/387] Devin Carter — bio reutilizada
+  [95/387] Devin Vassell — bio reutilizada
+  [96/387] Dillon Brooks — bio reutilizada
+  [97/387] Domantas Sabonis — bio reutilizada
+  [98/387] Dominick Barlow — bio reutilizada
+  [99/387] Donovan Clingan — bio reutilizada
+  [100/387] Donovan Mitchell — bio reutilizada
+  [101/387] Donte DiVincenzo — bio reutilizada
+  [102/387] Dorian Finney-Smith — bio reutilizada
+  [103/387] Doug McDermott — bio reutilizada
+  [104/387] Drake Powell — bio reutilizada
+  [105/387] Draymond Green — bio reutilizada
+  [106/387] Drew Eubanks — bio reutilizada
+  [107/387] Dru Smith — bio reutilizada
+  [108/387] Duncan Robinson — bio reutilizada
+  [109/387] Dwight Powell — bio reutilizada
+  [110/387] Dylan Cardwell — bio reutilizada
+  [111/387] Dylan Harper — bio reutilizada
+  [112/387] Dyson Daniels — bio reutilizada
+  [113/387] E.J. Liddell — bio reutilizada
+  [114/387] Egor Dëmin — bio reutilizada
+  [115/387] Elijah Harkless — bio reutilizada
+  [116/387] Ethan Thompson — bio reutilizada
+  [117/387] Evan Mobley — bio reutilizada
+  [118/387] Franz Wagner — bio reutilizada
+  [119/387] GG Jackson — bio reutilizada
+  [120/387] Gabe Vincent — bio reutilizada
+  [121/387] Garrison Mathews — bio reutilizada
+  [122/387] Gary Harris — bio reutilizada
+  [123/387] Gary Payton II — bio reutilizada
+  [124/387] Gary Trent Jr. — bio reutilizada
+  [125/387] Giannis Antetokounmpo — bio reutilizada
+  [126/387] Goga Bitadze — bio reutilizada
+  [127/387] Gradey Dick — bio reutilizada
+  [128/387] Grant Williams — bio reutilizada
+  [129/387] Grayson Allen — bio reutilizada
+  [130/387] Guerschon Yabusele — bio reutilizada
+  [131/387] Gui Santos — bio reutilizada
+  [132/387] Harrison Barnes — bio reutilizada
+  [133/387] Herbert Jones — bio reutilizada
+  [134/387] Hugo González — bio reutilizada
+  [135/387] Immanuel Quickley — bio reutilizada
+  [136/387] Isaac Okoro — bio reutilizada
+  [137/387] Isaiah Collier — bio reutilizada
+  [138/387] Isaiah Hartenstein — bio reutilizada
+  [139/387] Isaiah Jackson — bio reutilizada
+  [140/387] Isaiah Joe — bio reutilizada
+  [141/387] Isaiah Stewart — bio reutilizada
+  [142/387] Ivica Zubac — bio reutilizada
+  [143/387] Ja Morant — bio reutilizada
+  [144/387] Ja'Kobe Walter — bio reutilizada
+  [145/387] Jabari Smith Jr. — bio reutilizada
+  [146/387] Jaden Hardy — bio reutilizada
+  [147/387] Jaden Ivey — bio reutilizada
+  [148/387] Jaden McDaniels — bio reutilizada
+  [149/387] Jahmai Mashack — bio reutilizada
+  [150/387] Jaime Jaquez Jr. — bio reutilizada
+  [151/387] Jake LaRavia — bio reutilizada
+  [152/387] Jakob Poeltl — bio reutilizada
+  [153/387] Jalen Brunson — bio reutilizada
+  [154/387] Jalen Duren — bio reutilizada
+  [155/387] Jalen Green — bio reutilizada
+  [156/387] Jalen Johnson — bio reutilizada
+  [157/387] Jalen Pickett — bio reutilizada
+  [158/387] Jalen Smith — bio reutilizada
+  [159/387] Jalen Suggs — bio reutilizada
+  [160/387] Jalen Williams — bio reutilizada
+  [161/387] Jalen Wilson — bio reutilizada
+  [162/387] Jamal Murray — bio reutilizada
+  [163/387] Jamal Shead — bio reutilizada
+  [164/387] Jamaree Bouyea — bio reutilizada
+  [165/387] James Harden — bio reutilizada
+  [166/387] Jamir Watkins — bio reutilizada
+  [167/387] Jarace Walker — bio reutilizada
+  [168/387] Jared McCain — bio reutilizada
+  [169/387] Jaren Jackson Jr. — bio reutilizada
+  [170/387] Jarred Vanderbilt — bio reutilizada
+  [171/387] Jarrett Allen — bio reutilizada
+  [172/387] Javon Small — bio reutilizada
+  [173/387] Javonte Green — bio reutilizada
+  [174/387] Jaxson Hayes — bio reutilizada
+  [175/387] Jay Huff — bio reutilizada
+  [176/387] Jaylen Brown — bio reutilizada
+  [177/387] Jaylen Clark — bio reutilizada
+  [178/387] Jaylen Wells — bio reutilizada
+  [179/387] Jaylin Williams — bio reutilizada
+  [180/387] Jaylon Tyson — bio reutilizada
+  [181/387] Jayson Tatum — bio reutilizada
+  [182/387] Jerami Grant — bio reutilizada
+  [183/387] Jeremiah Fears — bio reutilizada
+  [184/387] Jeremiah Robinson-Earl — bio reutilizada
+  [185/387] Jericho Sims — bio reutilizada
+  [186/387] Jevon Carter — bio reutilizada
+  [187/387] Jimmy Butler III — bio reutilizada
+  [188/387] Jock Landale — bio reutilizada
+  [189/387] Joel Embiid — bio reutilizada
+  [190/387] John Collins — bio reutilizada
+  [191/387] John Konchar — bio reutilizada
+  [192/387] Johnny Furphy — bio reutilizada
+  [193/387] Jonas Valančiūnas — bio reutilizada
+  [194/387] Jonathan Kuminga — bio reutilizada
+  [195/387] Jordan Clarkson — bio reutilizada
+  [196/387] Jordan Goodwin — bio reutilizada
+  [197/387] Jordan Hawkins — bio reutilizada
+  [198/387] Jordan Miller — bio reutilizada
+  [199/387] Jordan Poole — bio reutilizada
+  [200/387] Jordan Walsh — bio reutilizada
+  [201/387] Jose Alvarado — bio reutilizada
+  [202/387] Josh Giddey — bio reutilizada
+  [203/387] Josh Green — bio reutilizada
+  [204/387] Josh Hart — bio reutilizada
+  [205/387] Josh Minott — bio reutilizada
+  [206/387] Josh Okogie — bio reutilizada
+  [207/387] Jrue Holiday — bio reutilizada
+  [208/387] Julian Champagnie — bio reutilizada
+  [209/387] Julian Strawther — bio reutilizada
+  [210/387] Julius Randle — bio reutilizada
+  [211/387] Justin Champagnie — bio reutilizada
+  [212/387] Justin Edwards — bio reutilizada
+  [213/387] Jusuf Nurkić — bio reutilizada
+  [214/387] Kam Jones — bio reutilizada
+  [215/387] Karl-Anthony Towns — bio reutilizada
+  [216/387] Karlo Matković — bio reutilizada
+  [217/387] Kasparas Jakučionis — bio reutilizada
+  [218/387] Kawhi Leonard — bio reutilizada
+  [219/387] Keegan Murray — bio reutilizada
+  [220/387] Kel'el Ware — bio reutilizada
+  [221/387] Keldon Johnson — bio reutilizada
+  [222/387] Kelly Oubre Jr. — bio reutilizada
+  [223/387] Kenrich Williams — bio reutilizada
+  [224/387] Kentavious Caldwell-Pope — bio reutilizada
+  [225/387] Keon Ellis — bio reutilizada
+  [226/387] Kevin Durant — bio reutilizada
+  [227/387] Kevin Huerter — bio reutilizada
+  [228/387] Kevin Love — bio reutilizada
+  [229/387] Kevin Porter Jr. — bio reutilizada
+  [230/387] Kevon Looney — bio reutilizada
+  [231/387] Keyonte George — bio reutilizada
+  [232/387] Khris Middleton — bio reutilizada
+  [233/387] Killian Hayes — bio reutilizada
+  [234/387] Klay Thompson — bio reutilizada
+  [235/387] Kobe Brown — bio reutilizada
+  [236/387] Kobe Sanders — bio reutilizada
+  [237/387] Kon Knueppel — bio reutilizada
+  [238/387] Kris Dunn — bio reutilizada
+  [239/387] Kris Murray — bio reutilizada
+  [240/387] Kristaps Porziņģis — bio reutilizada
+  [241/387] Kyle Anderson — bio reutilizada
+  [242/387] Kyle Filipowski — bio reutilizada
+  [243/387] Kyle Kuzma — bio reutilizada
+  [244/387] Kyshawn George — bio reutilizada
+  [245/387] LJ Cryer — bio reutilizada
+  [246/387] LaMelo Ball — bio reutilizada
+  [247/387] Landry Shamet — bio reutilizada
+  [248/387] Lauri Markkanen — bio reutilizada
+  [249/387] LeBron James — bio reutilizada
+  [250/387] Leaky Black — bio reutilizada
+  [251/387] Leonard Miller — bio reutilizada
+  [252/387] Lonzo Ball — bio reutilizada
+  [253/387] Luguentz Dort — bio reutilizada
+  [254/387] Luka Dončić — bio reutilizada
+  [255/387] Luka Garza — bio reutilizada
+  [256/387] Luke Kennard — bio reutilizada
+  [257/387] Luke Kornet — bio reutilizada
+  [258/387] Malachi Smith — bio reutilizada
+  [259/387] Malik Monk — bio reutilizada
+  [260/387] MarJon Beauchamp — bio reutilizada
+  [261/387] Marcus Smart — bio reutilizada
+  [262/387] Mark Williams — bio reutilizada
+  [263/387] Marvin Bagley III — bio reutilizada
+  [264/387] Matas Buzelis — bio reutilizada
+  [265/387] Matisse Thybulle — bio reutilizada
+  [266/387] Max Christie — bio reutilizada
+  [267/387] Maxime Raynaud — bio reutilizada
+  [268/387] Micah Peavy — bio reutilizada
+  [269/387] Micah Potter — bio reutilizada
+  [270/387] Michael Porter Jr. — bio reutilizada
+  [271/387] Mikal Bridges — bio reutilizada
+  [272/387] Mike Conley — bio reutilizada
+  [273/387] Miles Bridges — bio reutilizada
+  [274/387] Miles McBride — bio reutilizada
+  [275/387] Mitchell Robinson — bio reutilizada
+  [276/387] Moses Moody — bio reutilizada
+  [277/387] Mouhamed Gueye — bio reutilizada
+  [278/387] Moussa Cisse — bio reutilizada
+  [279/387] Moussa Diabaté — bio reutilizada
+  [280/387] Myles Turner — bio reutilizada
+  [281/387] Nae'Qwan Tomlin — bio reutilizada
+  [282/387] Naji Marshall — bio reutilizada
+  [283/387] Nate Williams — bio reutilizada
+  [284/387] Naz Reid — bio reutilizada
+  [285/387] Neemias Queta — bio reutilizada
+  [286/387] Nic Claxton — bio reutilizada
+  [287/387] Nick Richards — bio reutilizada
+  [288/387] Nickeil Alexander-Walker — bio reutilizada
+  [289/387] Nicolas Batum — bio reutilizada
+  [290/387] Nikola Jokić — bio reutilizada
+  [291/387] Nikola Jović — bio reutilizada
+  [292/387] Nikola Vučević — bio reutilizada
+  [293/387] Nique Clifford — bio reutilizada
+  [294/387] Noah Clowney — bio reutilizada
+  [295/387] Nolan Traore — bio reutilizada
+  [296/387] Norman Powell — bio reutilizada
+  [297/387] OG Anunoby — bio reutilizada
+  [298/387] Obi Toppin — bio reutilizada
+  [299/387] Ochai Agbaji — bio reutilizada
+  [300/387] Olivier-Maxence Prosper — bio reutilizada
+  [301/387] Onyeka Okongwu — bio reutilizada
+  [302/387] Oscar Tshiebwe — bio reutilizada
+  [303/387] Oso Ighodaro — bio reutilizada
+  [304/387] Ousmane Dieng — bio reutilizada
+  [305/387] P.J. Washington — bio reutilizada
+  [306/387] Paolo Banchero — bio reutilizada
+  [307/387] Pascal Siakam — bio reutilizada
+  [308/387] Pat Spencer — bio reutilizada
+  [309/387] Patrick Williams — bio reutilizada
+  [310/387] Paul George — bio reutilizada
+  [311/387] Paul Reed — bio reutilizada
+  [312/387] Payton Pritchard — bio reutilizada
+  [313/387] Pelle Larsson — bio reutilizada
+  [314/387] Pete Nance — bio reutilizada
+  [315/387] Peyton Watson — bio reutilizada
+  [316/387] Precious Achiuwa — bio reutilizada
+  [317/387] Quentin Grimes — bio reutilizada
+  [318/387] Quenton Jackson — bio reutilizada
+  [319/387] Quinten Post — bio reutilizada
+  [320/387] RJ Barrett — bio reutilizada
+  [321/387] Rayan Rupert — bio reutilizada
+  [322/387] Reed Sheppard — bio reutilizada
+  [323/387] Rob Dillingham — bio reutilizada
+  [324/387] Robert Williams III — bio reutilizada
+  [325/387] Ronald Holland II — bio reutilizada
+  [326/387] Royce O'Neale — bio reutilizada
+  [327/387] Rudy Gobert — bio reutilizada
+  [328/387] Rui Hachimura — bio reutilizada
+  [329/387] Russell Westbrook — bio reutilizada
+  [330/387] Ryan Dunn — bio reutilizada
+  [331/387] Ryan Kalkbrenner — bio reutilizada
+  [332/387] Ryan Nembhard — bio reutilizada
+  [333/387] Ryan Rollins — bio reutilizada
+  [334/387] Saddiq Bey — bio reutilizada
+  [335/387] Sam Hauser — bio reutilizada
+  [336/387] Sam Merrill — bio reutilizada
+  [337/387] Sandro Mamukelashvili — bio reutilizada
+  [338/387] Santi Aldama — bio reutilizada
+  [339/387] Scoot Henderson — bio reutilizada
+  [340/387] Scottie Barnes — bio reutilizada
+  [341/387] Shaedon Sharpe — bio reutilizada
+  [342/387] Shai Gilgeous-Alexander — bio reutilizada
+  [343/387] Sharife Cooper — bio reutilizada
+  [344/387] Sidy Cissoko — bio reutilizada
+  [345/387] Simone Fontecchio — bio reutilizada
+  [346/387] Sion James — bio reutilizada
+  [347/387] Spencer Jones — bio reutilizada
+  [348/387] Stephen Curry — bio reutilizada
+  [349/387] Stephon Castle — bio reutilizada
+  [350/387] Steven Adams — bio reutilizada
+  [351/387] Svi Mykhailiuk — bio reutilizada
+  [352/387] T.J. McConnell — bio reutilizada
+  [353/387] Taelon Peter — bio reutilizada
+  [354/387] Tari Eason — bio reutilizada
+  [355/387] Taurean Prince — bio reutilizada
+  [356/387] Taylor Hendricks — bio reutilizada
+  [357/387] Terance Mann — bio reutilizada
+  [358/387] Tidjane Salaün — bio reutilizada
+  [359/387] Tim Hardaway Jr. — bio reutilizada
+  [360/387] Tobias Harris — bio reutilizada
+  [361/387] Toumani Camara — bio reutilizada
+  [362/387] Trae Young — bio reutilizada
+  [363/387] Tre Johnson — bio reutilizada
+  [364/387] Tre Jones — bio reutilizada
+  [365/387] Trendon Watford — bio reutilizada
+  [366/387] Trey Murphy III — bio reutilizada
+  [367/387] Tristan Vukcevic — bio reutilizada
+  [368/387] Tristan da Silva — bio reutilizada
+  [369/387] Ty Jerome — bio reutilizada
+  [370/387] Tyler Herro — bio reutilizada
+  [371/387] Tyrese Martin — bio reutilizada
+  [372/387] Tyrese Maxey — bio reutilizada
+  [373/387] Tyson Etienne — bio reutilizada
+  [374/387] Tyus Jones — bio reutilizada
+  [375/387] VJ Edgecombe — bio reutilizada
+  [376/387] Victor Wembanyama — bio reutilizada
+  [377/387] Vince Williams Jr. — bio reutilizada
+  [378/387] Vít Krejčí — bio reutilizada
+  [379/387] Walter Clayton Jr. — bio reutilizada
+  [380/387] Wendell Carter Jr. — bio reutilizada
+  [381/387] Will Richard — bio reutilizada
+  [382/387] Will Riley — bio reutilizada
+  [383/387] Yves Missi — bio reutilizada
+  [384/387] Zaccharie Risacher — bio reutilizada
+  [385/387] Zach LaVine — bio reutilizada
+  [386/387] Ziaire Williams — bio reutilizada
+  [387/387] Zion Williamson — bio reutilizada
+
+Montando resultado...
+
+Feito! jogadores.json criado com 387 jogadores.
+Coletando lineups por time...
+  Time 1/30 (ID 1610612737)
+    ATL: 5 lineups
+  Time 2/30 (ID 1610612738)
+    BOS: 5 lineups
+  Time 3/30 (ID 1610612751)
+    BKN: 5 lineups
+  Time 4/30 (ID 1610612766)
+    CHA: 5 lineups
+  Time 5/30 (ID 1610612741)
+    CHI: 5 lineups
+  Time 6/30 (ID 1610612739)
+    CLE: 5 lineups
+  Time 7/30 (ID 1610612742)
+    DAL: 5 lineups
+  Time 8/30 (ID 1610612743)
+    DEN: 5 lineups
+  Time 9/30 (ID 1610612765)
+    DET: 5 lineups
+  Time 10/30 (ID 1610612744)
+    GSW: 5 lineups
+  Time 11/30 (ID 1610612745)
+    HOU: 5 lineups
+  Time 12/30 (ID 1610612754)
+    IND: 5 lineups
+  Time 13/30 (ID 1610612746)
+    LAC: 5 lineups
+  Time 14/30 (ID 1610612747)
+    LAL: 5 lineups
+  Time 15/30 (ID 1610612763)
+    MEM: 5 lineups
+  Time 16/30 (ID 1610612748)
+    MIA: 5 lineups
+  Time 17/30 (ID 1610612749)
+    MIL: 5 lineups
+  Time 18/30 (ID 1610612750)
+    MIN: 5 lineups
+  Time 19/30 (ID 1610612740)
+    NOP: 5 lineups
+  Time 20/30 (ID 1610612752)
+    NYK: 5 lineups
+  Time 21/30 (ID 1610612760)
+    OKC: 5 lineups
+  Time 22/30 (ID 1610612753)
+    ORL: 5 lineups
+  Time 23/30 (ID 1610612755)
+    PHI: 5 lineups
+  Time 24/30 (ID 1610612756)
+    PHX: 5 lineups
+  Time 25/30 (ID 1610612757)
+    POR: 5 lineups
+  Time 26/30 (ID 1610612758)
+    SAC: 5 lineups
+  Time 27/30 (ID 1610612759)
+    SAS: 5 lineups
+  Time 28/30 (ID 1610612761)
+    TOR: 5 lineups
+  Time 29/30 (ID 1610612762)
+    UTA: 5 lineups
+  Time 30/30 (ID 1610612764)
+    WAS: 5 lineups
+
+Feito! lineups_times.json criado com 30 times.
+Coletando jogos de playoff...
+  52 registros encontrados
+  26 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: TOR 1-2 CLE (3 jogos)
+  den_min: DEN 1-3 MIN (4 jogos)
+  lal_hou: HOU 0-3 LAL (3 jogos)
+  nyk_atl: ATL 2-2 NYK (4 jogos)
+  bos_phi: BOS 2-1 PHI (3 jogos)
+  sas_por: SAS 2-1 POR (3 jogos)
+  det_orl: ORL 2-1 DET (3 jogos)
+  okc_phx: OKC 3-0 PHX (3 jogos)
+Carregando jogos_playoffs.json...
+  26 jogos no total · 26 já coletados · 0 para coletar
+Nada a coletar.
+[main 55f666a] Atualizacao automatica 2026-04-26
+ 7 files changed, 25264 insertions(+), 26496 deletions(-)
+To https://github.com/pishenis/nba-team-profiles.git
+   9e1aeb0..55f666a  main -> main
+Dom 26 Abr 2026 13:57:14 -03: Atualizacao concluida.
+Dom 26 Abr 2026 20:18:44 -03: Iniciando atualizacao...
+
+=== Game Log (temporada completa) ===
+  Salvo: dados_nba_gamelog.json (2460 registros)
+
+=== Temporada completa ===
+  Stats base...
+  Stats avancadas...
+  Stats misc...
+    Tentativa 1 falhou, aguardando 5s...
+    Tentativa 2 falhou, aguardando 5s...
+  Stats opponent...
+  Clutch...
+  Hustle...
+  Arremessos ofensivos por zona...
+  Arremessos defensivos por zona...
+  Drives...
+  Post-ups...
+  Play types...
+    Transition OK
+    PRBallHandler OK
+    PRRollMan OK
+    Isolation OK
+    Spotup OK
+    Postup OK
+    Handoff OK
+    Cut OK
+    OffScreen OK
+  Salvo: dados_nba_full.json
+
+=== Últimos 30 dias ===
+  Stats base...
+  Stats avancadas...
+  Stats misc...
+  Stats opponent...
+  Clutch...
+  Hustle...
+  Arremessos ofensivos por zona...
+  Arremessos defensivos por zona...
+  Drives...
+  Post-ups...
+  Play types...
+    Transition OK
+    PRBallHandler OK
+    PRRollMan OK
+    Isolation OK
+    Spotup OK
+    Postup OK
+    Handoff OK
+    Cut OK
+    OffScreen OK
+  Salvo: dados_nba_30d.json
+
+=== Últimas 2 semanas ===
+  Stats base...
+  Stats avancadas...
+  Stats misc...
+  Stats opponent...
+  Clutch...
+  Hustle...
+  Arremessos ofensivos por zona...
+  Arremessos defensivos por zona...
+  Drives...
+  Post-ups...
+  Play types...
+    Transition OK
+    PRBallHandler OK
+    PRRollMan OK
+    Isolation OK
+    Spotup OK
+    Postup OK
+    Handoff OK
+    Cut OK
+    OffScreen OK
+  Salvo: dados_nba_14d.json
+
+Feito! Todos os períodos coletados.
+Transformando períodos...
+  times_full.json criado com 30 times.
+  times_30d.json criado com 30 times.
+  times_14d.json criado com 30 times.
+Feito!
+Bio existente carregada: 387 jogadores
+Coletando stats básicas...
+  387 jogadores elegíveis
+Coletando stats avançadas...
+Coletando pbpstats totals...
+Coletando pbpstats assist combos...
+  7504 combinações encontradas
+Coletando lineups por time...
+  Time 1/30 (ID 1610612737)
+    Tentativa 1 falhou, aguardando 5s...
+    Tentativa 2 falhou, aguardando 5s...
+  Time 2/30 (ID 1610612738)
+    Tentativa 1 falhou, aguardando 5s...
+    Tentativa 2 falhou, aguardando 5s...
+  Time 3/30 (ID 1610612751)
+    Tentativa 1 falhou, aguardando 5s...
+    Tentativa 2 falhou, aguardando 5s...
+  Time 4/30 (ID 1610612766)
+    Tentativa 1 falhou, aguardando 5s...
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/coletar_jogadores.py", line 120, in <module>
+    df = LeagueDashLineups(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/nba_api/stats/endpoints/leaguedashlineups.py", line 163, in __init__
+    self.get_request()
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/nba_api/stats/endpoints/leaguedashlineups.py", line 166, in get_request
+    self.nba_response = NBAStatsHTTP().send_api_request(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/nba_api/library/http.py", line 146, in send_api_request
+    response = requests.get(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 1322, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 303, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 264, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+Dom 26 Abr 2026 20:27:20 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  56 registros encontrados
+  28 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: TOR 2-2 CLE (4 jogos)
+  den_min: MIN 3-1 DEN (4 jogos)
+  lal_hou: LAL 3-0 HOU (3 jogos)
+  nyk_atl: NYK 2-2 ATL (4 jogos)
+  bos_phi: BOS 2-1 PHI (3 jogos)
+  sas_por: POR 1-3 SAS (4 jogos)
+  det_orl: DET 1-2 ORL (3 jogos)
+  okc_phx: PHX 0-3 OKC (3 jogos)
+Coletando dados do jogo 0042500134...
+Coletando resumo...
+  CLE 89 @ TOR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: TOR 11:48 · CLE 33:18
+  Trocas: 8 · Empates: 5
+  Run TOR: 17-6 (2:30 3Q a 9:30 4Q)
+  Run CLE: 20-8 (9:54 4Q a 4:54 4Q)
+  Sequência sem resposta: TOR 10 · CLE 10
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500134.json criado.
+  Box score: 10 TOR · 10 CLE
+  Timeline: 119 eventos · Arremessos: 184
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500154...
+Coletando resumo...
+  SAS 114 @ POR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: POR 28:08 · SAS 17:48
+  Trocas: 7 · Empates: 3
+  Run POR: 20-5 (9:54 2Q a 4:54 2Q)
+  Run SAS: 23-5 (9:30 4Q a 4:30 4Q)
+  Sequência sem resposta: POR 13 · SAS 13
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500154.json criado.
+  Box score: 13 POR · 14 SAS
+  Timeline: 118 eventos · Arremessos: 167
+  Matchups filtrados: 0
+Carregando jogos_playoffs.json...
+  28 jogos no total · 26 já coletados · 2 para coletar
+
+[1/2] cle_tor · Jogo 4 · CLE @ TOR (0042500134)
+
+[2/2] sas_por · Jogo 4 · SAS @ POR (0042500154)
+
+Feito! 2 jogos coletados.
+[main 8fc3aea] Atualizacao playoffs 2026-04-26
+ 3 files changed, 6619 insertions(+), 13 deletions(-)
+ create mode 100644 jogo_0042500134.json
+ create mode 100644 jogo_0042500154.json
+To https://github.com/pishenis/nba-team-profiles.git
+   55f666a..8fc3aea  main -> main
+Dom 26 Abr 2026 20:28:21 -03: Atualizacao concluida.
+Dom 26 Abr 2026 20:43:14 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  58 registros encontrados
+  29 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: TOR 2-2 CLE (4 jogos)
+  den_min: MIN 3-1 DEN (4 jogos)
+  lal_hou: HOU 0-3 LAL (3 jogos)
+  nyk_atl: NYK 2-2 ATL (4 jogos)
+  bos_phi: BOS 3-1 PHI (4 jogos)
+  sas_por: SAS 3-1 POR (4 jogos)
+  det_orl: DET 1-2 ORL (3 jogos)
+  okc_phx: OKC 3-0 PHX (3 jogos)
+Coletando dados do jogo 0042500134...
+Coletando resumo...
+  CLE 89 @ TOR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: TOR 11:48 · CLE 33:18
+  Trocas: 8 · Empates: 5
+  Run TOR: 17-6 (2:30 3Q a 9:30 4Q)
+  Run CLE: 20-8 (9:54 4Q a 4:54 4Q)
+  Sequência sem resposta: TOR 10 · CLE 10
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500134.json criado.
+  Box score: 10 TOR · 10 CLE
+  Timeline: 119 eventos · Arremessos: 184
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500164...
+Coletando resumo...
+  DEN 96 @ MIN 112 · 2026-04-25
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: MIN 22:49 · DEN 21:14
+  Trocas: 5 · Empates: 6
+  Run MIN: 17-6 (0:12 3Q a 7:12 4Q)
+  Run DEN: 13-8 (8:06 1Q a 3:06 1Q)
+  Sequência sem resposta: MIN 9 · DEN 8
+Coletando matchups...
+
+Feito! jogo_0042500164.json criado.
+  Box score: 11 MIN · 10 DEN
+  Timeline: 131 eventos · Arremessos: 176
+  Matchups filtrados: 18
+Coletando dados do jogo 0042500124...
+Coletando resumo...
+  NYK 114 @ ATL 98 · 2026-04-25
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: ATL 1:20 · NYK 45:19
+  Trocas: 4 · Empates: 3
+  Run ATL: 18-10 (5:18 4Q a 0:18 4Q)
+  Run NYK: 14-4 (10:36 3Q a 5:36 3Q)
+  Sequência sem resposta: ATL 10 · NYK 11
+Coletando matchups...
+
+Feito! jogo_0042500124.json criado.
+  Box score: 13 ATL · 13 NYK
+  Timeline: 123 eventos · Arremessos: 166
+  Matchups filtrados: 17
+Coletando dados do jogo 0042500114...
+Coletando resumo...
+  BOS 20 @ PHI 13 · 2026-04-26
+Coletando box score...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+  Liderança: PHI 0:00 · BOS 0:00
+  Trocas: 0 · Empates: 0
+  Run PHI: 0-0 (12:00 1Q a 12:00 1Q)
+  Run BOS: 0-0 (12:00 1Q a 12:00 1Q)
+  Sequência sem resposta: PHI 0 · BOS 0
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500114.json criado.
+  Box score: 0 PHI · 0 BOS
+  Timeline: 0 eventos · Arremessos: 0
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500154...
+Coletando resumo...
+  SAS 114 @ POR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: POR 28:08 · SAS 17:48
+  Trocas: 7 · Empates: 3
+  Run POR: 20-5 (9:54 2Q a 4:54 2Q)
+  Run SAS: 23-5 (9:30 4Q a 4:30 4Q)
+  Sequência sem resposta: POR 13 · SAS 13
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500154.json criado.
+  Box score: 13 POR · 14 SAS
+  Timeline: 118 eventos · Arremessos: 167
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500103...
+Coletando resumo...
+  DET 105 @ ORL 113 · 2026-04-25
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: ORL 37:51 · DET 5:01
+  Trocas: 8 · Empates: 7
+  Run ORL: 20-9 (9:24 2Q a 4:24 2Q)
+  Run DET: 24-8 (7:54 4Q a 2:54 4Q)
+  Sequência sem resposta: ORL 10 · DET 7
+Coletando matchups...
+
+Feito! jogo_0042500103.json criado.
+  Box score: 9 ORL · 11 DET
+  Timeline: 133 eventos · Arremessos: 174
+  Matchups filtrados: 21
+Coletando dados do jogo 0042500142...
+Coletando resumo...
+  PHX 107 @ OKC 120 · 2026-04-22
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: OKC 44:03 · PHX 2:20
+  Trocas: 8 · Empates: 2
+  Run OKC: 22-8 (3:48 3Q a 10:48 4Q)
+  Run PHX: 17-4 (10:00 4Q a 5:00 4Q)
+  Sequência sem resposta: OKC 9 · PHX 9
+Coletando matchups...
+
+Feito! jogo_0042500142.json criado.
+  Box score: 11 OKC · 11 PHX
+  Timeline: 130 eventos · Arremessos: 176
+  Matchups filtrados: 30
+Coletando dados do jogo 0042500143...
+Coletando resumo...
+  OKC 121 @ PHX 109 · 2026-04-25
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: PHX 5:18 · OKC 41:34
+  Trocas: 3 · Empates: 4
+  Run PHX: 18-6 (8:42 1Q a 3:42 1Q)
+  Run OKC: 21-7 (3:42 1Q a 10:42 2Q)
+  Sequência sem resposta: PHX 7 · OKC 8
+Coletando matchups...
+
+Feito! jogo_0042500143.json criado.
+  Box score: 13 PHX · 12 OKC
+  Timeline: 133 eventos · Arremessos: 178
+  Matchups filtrados: 21
+Carregando jogos_playoffs.json...
+  29 jogos no total · 21 OK · 8 para coletar
+
+[1/8] cle_tor · Jogo 4 · CLE @ TOR (0042500134) · sem matchups
+
+[2/8] den_min · Jogo 4 · DEN @ MIN (0042500164) · sem matchups
+
+[3/8] nyk_atl · Jogo 4 · NYK @ ATL (0042500124) · sem matchups
+
+[4/8] bos_phi · Jogo 4 · BOS @ PHI (0042500114) · não coletado
+
+[5/8] sas_por · Jogo 4 · SAS @ POR (0042500154) · sem matchups
+
+[6/8] det_orl · Jogo 3 · DET @ ORL (0042500103) · sem matchups
+
+[7/8] okc_phx · Jogo 2 · PHX @ OKC (0042500142) · incompleto
+
+[8/8] okc_phx · Jogo 3 · OKC @ PHX (0042500143) · sem matchups
+
+Feito! 8 jogos coletados.
+[main e5eb720] Atualizacao playoffs 2026-04-26
+ 9 files changed, 4205 insertions(+), 120 deletions(-)
+ create mode 100644 jogo_0042500114.json
+To https://github.com/pishenis/nba-team-profiles.git
+   de5aad0..e5eb720  main -> main
+Dom 26 Abr 2026 20:46:58 -03: Atualizacao concluida.
+Mon Apr 27 08:27:08 -03 2026: Iniciando atualizacao...
+Seg 27 Abr 2026 08:27:23 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  60 registros encontrados
+  30 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 2-2 TOR (4 jogos)
+  den_min: DEN 1-3 MIN (4 jogos)
+  lal_hou: LAL 3-1 HOU (4 jogos)
+  nyk_atl: ATL 2-2 NYK (4 jogos)
+  bos_phi: PHI 1-3 BOS (4 jogos)
+  sas_por: POR 1-3 SAS (4 jogos)
+  det_orl: DET 1-2 ORL (3 jogos)
+  okc_phx: OKC 3-0 PHX (3 jogos)
+Coletando jogos de playoff...
+  60 registros encontrados
+  30 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 2-2 TOR (4 jogos)
+  den_min: MIN 3-1 DEN (4 jogos)
+  lal_hou: LAL 3-1 HOU (4 jogos)
+  nyk_atl: NYK 2-2 ATL (4 jogos)
+  bos_phi: BOS 3-1 PHI (4 jogos)
+  sas_por: SAS 3-1 POR (4 jogos)
+  det_orl: DET 1-2 ORL (3 jogos)
+  okc_phx: PHX 0-3 OKC (3 jogos)
+Coletando dados do jogo 0042500134...
+Coletando resumo...
+  CLE 89 @ TOR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: TOR 11:48 · CLE 33:18
+  Trocas: 8 · Empates: 5
+  Run TOR: 17-6 (2:30 3Q a 9:30 4Q)
+  Run CLE: 20-8 (9:54 4Q a 4:54 4Q)
+  Sequência sem resposta: TOR 10 · CLE 10
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500134.json criado.
+  Box score: 10 TOR · 10 CLE
+  Timeline: 119 eventos · Arremessos: 184
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500134...
+Coletando resumo...
+  CLE 89 @ TOR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: TOR 11:48 · CLE 33:18
+  Trocas: 8 · Empates: 5
+  Run TOR: 17-6 (2:30 3Q a 9:30 4Q)
+  Run CLE: 20-8 (9:54 4Q a 4:54 4Q)
+  Sequência sem resposta: TOR 10 · CLE 10
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500134.json criado.
+  Box score: 10 TOR · 10 CLE
+  Timeline: 119 eventos · Arremessos: 184
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500174...
+Coletando resumo...
+  LAL 96 @ HOU 115 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: HOU 38:18 · LAL 7:24
+  Trocas: 2 · Empates: 3
+  Run HOU: 16-4 (4:48 1Q a 11:48 2Q)
+  Run LAL: 18-8 (11:24 4Q a 6:24 4Q)
+  Sequência sem resposta: HOU 8 · LAL 8
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500174.json criado.
+  Box score: 11 HOU · 13 LAL
+  Timeline: 130 eventos · Arremessos: 155
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500174...
+Coletando resumo...
+  LAL 96 @ HOU 115 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: HOU 38:18 · LAL 7:24
+  Trocas: 2 · Empates: 3
+  Run HOU: 16-4 (4:48 1Q a 11:48 2Q)
+  Run LAL: 18-8 (11:24 4Q a 6:24 4Q)
+  Sequência sem resposta: HOU 8 · LAL 8
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500174.json criado.
+  Box score: 11 HOU · 13 LAL
+  Timeline: 130 eventos · Arremessos: 155
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500114...
+Coletando resumo...
+  BOS 128 @ PHI 96 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: PHI 0:28 · BOS 45:51
+  Trocas: 4 · Empates: 1
+  Run PHI: 20-13 (7:06 3Q a 2:06 3Q)
+  Run BOS: 23-8 (5:00 1Q a 12:00 2Q)
+  Sequência sem resposta: PHI 6 · BOS 11
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500114.json criado.
+  Box score: 13 PHI · 14 BOS
+  Timeline: 129 eventos · Arremessos: 167
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500114...
+Coletando resumo...
+  BOS 128 @ PHI 96 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: PHI 0:28 · BOS 45:51
+  Trocas: 4 · Empates: 1
+  Run PHI: 20-13 (7:06 3Q a 2:06 3Q)
+  Run BOS: 23-8 (5:00 1Q a 12:00 2Q)
+  Sequência sem resposta: PHI 6 · BOS 11
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500114.json criado.
+  Box score: 13 PHI · 14 BOS
+  Timeline: 129 eventos · Arremessos: 167
+  Matchups filtrados: 0
+Coletando dados do jogo 0042500154...
+Coletando resumo...
+  SAS 114 @ POR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: POR 28:08 · SAS 17:48
+  Trocas: 7 · Empates: 3
+  Run POR: 20-5 (9:54 2Q a 4:54 2Q)
+  Run SAS: 23-5 (9:30 4Q a 4:30 4Q)
+  Sequência sem resposta: POR 13 · SAS 13
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500154.json criado.
+  Box score: 13 POR · 14 SAS
+  Timeline: 118 eventos · Arremessos: 167
+  Matchups filtrados: 0
+Carregando jogos_playoffs.json...
+  30 jogos no total · 26 OK · 4 para coletar
+
+[1/4] cle_tor · Jogo 4 · CLE @ TOR (0042500134) · sem matchups
+
+[2/4] lal_hou · Jogo 4 · LAL @ HOU (0042500174) · não coletado
+
+[3/4] bos_phi · Jogo 4 · BOS @ PHI (0042500114) · incompleto
+
+[4/4] sas_por · Jogo 4 · SAS @ POR (0042500154) · sem matchups
+
+Feito! 4 jogos coletados.
+[main 6bf5cd3] Atualizacao playoffs 2026-04-27
+ 5 files changed, 6464 insertions(+), 107 deletions(-)
+ create mode 100644 jogo_0042500174.json
+Coletando dados do jogo 0042500154...
+Coletando resumo...
+  SAS 114 @ POR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: POR 28:08 · SAS 17:48
+  Trocas: 7 · Empates: 3
+  Run POR: 20-5 (9:54 2Q a 4:54 2Q)
+  Run SAS: 23-5 (9:30 4Q a 4:30 4Q)
+  Sequência sem resposta: POR 13 · SAS 13
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500154.json criado.
+  Box score: 13 POR · 14 SAS
+  Timeline: 118 eventos · Arremessos: 167
+  Matchups filtrados: 0
+Carregando jogos_playoffs.json...
+  30 jogos no total · 26 OK · 4 para coletar
+
+[1/4] cle_tor · Jogo 4 · CLE @ TOR (0042500134) · sem matchups
+
+[2/4] lal_hou · Jogo 4 · LAL @ HOU (0042500174) · não coletado
+
+[3/4] bos_phi · Jogo 4 · BOS @ PHI (0042500114) · incompleto
+
+[4/4] sas_por · Jogo 4 · SAS @ POR (0042500154) · sem matchups
+
+Feito! 4 jogos coletados.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   atualizar.log
+	modified:   atualizar.sh
+	modified:   coletar_todos_jogos.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/pishenis/nba-team-profiles.git
+   e5eb720..6bf5cd3  main -> main
+Seg 27 Abr 2026 08:29:35 -03: Atualizacao concluida.
+To https://github.com/pishenis/nba-team-profiles.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 6bf5cd3997dc9ebfd3c4db7cbf9c44c5b6c938b9 but expected e5eb720dcd3121b45fbd5fcb69655251aef52ab8)
+error: failed to push some refs to 'https://github.com/pishenis/nba-team-profiles.git'
+Mon Apr 27 08:29:35 -03 2026: Atualizacao concluida.
+Seg 27 Abr 2026 11:35:29 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  60 registros encontrados
+  30 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 2-2 TOR (4 jogos)
+  den_min: DEN 1-3 MIN (4 jogos)
+  lal_hou: LAL 3-1 HOU (4 jogos)
+  nyk_atl: NYK 2-2 ATL (4 jogos)
+  bos_phi: PHI 1-3 BOS (4 jogos)
+  sas_por: SAS 3-1 POR (4 jogos)
+  det_orl: ORL 2-1 DET (3 jogos)
+  okc_phx: PHX 0-3 OKC (3 jogos)
+Coletando dados do jogo 0042500134...
+Coletando resumo...
+  CLE 89 @ TOR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: TOR 11:48 · CLE 33:18
+  Trocas: 8 · Empates: 5
+  Run TOR: 17-6 (2:30 3Q a 9:30 4Q)
+  Run CLE: 20-8 (9:54 4Q a 4:54 4Q)
+  Sequência sem resposta: TOR 10 · CLE 10
+Coletando matchups...
+
+Feito! jogo_0042500134.json criado.
+  Box score: 10 TOR · 10 CLE
+  Timeline: 119 eventos · Arremessos: 184
+  Matchups filtrados: 22
+Coletando dados do jogo 0042500174...
+Coletando resumo...
+  LAL 96 @ HOU 115 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: HOU 38:18 · LAL 7:24
+  Trocas: 2 · Empates: 3
+  Run HOU: 16-4 (4:48 1Q a 11:48 2Q)
+  Run LAL: 18-8 (11:24 4Q a 6:24 4Q)
+  Sequência sem resposta: HOU 8 · LAL 8
+Coletando matchups...
+
+Feito! jogo_0042500174.json criado.
+  Box score: 11 HOU · 13 LAL
+  Timeline: 130 eventos · Arremessos: 155
+  Matchups filtrados: 16
+Coletando dados do jogo 0042500114...
+Coletando resumo...
+  BOS 128 @ PHI 96 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: PHI 0:28 · BOS 45:51
+  Trocas: 4 · Empates: 1
+  Run PHI: 20-13 (7:06 3Q a 2:06 3Q)
+  Run BOS: 23-8 (5:00 1Q a 12:00 2Q)
+  Sequência sem resposta: PHI 6 · BOS 11
+Coletando matchups...
+
+Feito! jogo_0042500114.json criado.
+  Box score: 13 PHI · 14 BOS
+  Timeline: 129 eventos · Arremessos: 167
+  Matchups filtrados: 16
+Coletando dados do jogo 0042500154...
+Coletando resumo...
+  SAS 114 @ POR 93 · 2026-04-26
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: POR 28:08 · SAS 17:48
+  Trocas: 7 · Empates: 3
+  Run POR: 20-5 (9:54 2Q a 4:54 2Q)
+  Run SAS: 23-5 (9:30 4Q a 4:30 4Q)
+  Sequência sem resposta: POR 13 · SAS 13
+Coletando matchups...
+
+Feito! jogo_0042500154.json criado.
+  Box score: 13 POR · 14 SAS
+  Timeline: 118 eventos · Arremessos: 167
+  Matchups filtrados: 16
+Carregando jogos_playoffs.json...
+  30 jogos no total · 26 OK · 4 para coletar
+
+[1/4] cle_tor · Jogo 4 · CLE @ TOR (0042500134) · sem matchups
+
+[2/4] lal_hou · Jogo 4 · LAL @ HOU (0042500174) · sem matchups
+
+[3/4] bos_phi · Jogo 4 · BOS @ PHI (0042500114) · sem matchups
+
+[4/4] sas_por · Jogo 4 · SAS @ POR (0042500154) · sem matchups
+
+Feito! 4 jogos coletados.
+[main 7aab5fb] Atualizacao playoffs 2026-04-27
+ 5 files changed, 1064 insertions(+), 10 deletions(-)
+To https://github.com/pishenis/nba-team-profiles.git
+   6bf5cd3..7aab5fb  main -> main
+Seg 27 Abr 2026 11:36:49 -03: Atualizacao concluida.
+Tue Apr 28 08:59:34 -03 2026: Iniciando atualizacao...
+Coletando jogos de playoff...
+  66 registros encontrados
+  33 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 2-2 TOR (4 jogos)
+  den_min: DEN 2-3 MIN (5 jogos)
+  lal_hou: HOU 1-3 LAL (4 jogos)
+  nyk_atl: ATL 2-2 NYK (4 jogos)
+  bos_phi: BOS 3-1 PHI (4 jogos)
+  sas_por: SAS 3-1 POR (4 jogos)
+  det_orl: DET 1-3 ORL (4 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+Ter 28 Abr 2026 11:27:56 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  66 registros encontrados
+  33 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: TOR 2-2 CLE (4 jogos)
+  den_min: MIN 3-2 DEN (5 jogos)
+  lal_hou: HOU 1-3 LAL (4 jogos)
+  nyk_atl: ATL 2-2 NYK (4 jogos)
+  bos_phi: PHI 1-3 BOS (4 jogos)
+  sas_por: SAS 3-1 POR (4 jogos)
+  det_orl: ORL 3-1 DET (4 jogos)
+  okc_phx: PHX 0-4 OKC (4 jogos)
+Coletando dados do jogo 0042500165...
+Coletando resumo...
+  MIN 113 @ DEN 125 · 2026-04-27
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: DEN 46:27 · MIN 1:06
+  Trocas: 2 · Empates: 1
+  Run DEN: 17-4 (0:12 2Q a 7:12 3Q)
+  Run MIN: 22-9 (9:36 4Q a 4:36 4Q)
+  Sequência sem resposta: DEN 8 · MIN 6
+Coletando matchups...
+
+Feito! jogo_0042500165.json criado.
+  Box score: 10 DEN · 13 MIN
+  Timeline: 136 eventos · Arremessos: 164
+  Matchups filtrados: 15
+Coletando dados do jogo 0042500165...
+Coletando resumo...
+  MIN 113 @ DEN 125 · 2026-04-27
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: DEN 46:27 · MIN 1:06
+  Trocas: 2 · Empates: 1
+  Run DEN: 17-4 (0:12 2Q a 7:12 3Q)
+  Run MIN: 22-9 (9:36 4Q a 4:36 4Q)
+  Sequência sem resposta: DEN 8 · MIN 6
+Coletando matchups...
+
+Feito! jogo_0042500165.json criado.
+  Box score: 10 DEN · 13 MIN
+  Timeline: 136 eventos · Arremessos: 164
+  Matchups filtrados: 15
+Coletando dados do jogo 0042500104...
+Coletando resumo...
+  DET 88 @ ORL 94 · 2026-04-27
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: ORL 33:42 · DET 12:49
+  Trocas: 7 · Empates: 4
+  Run ORL: 19-6 (4:42 2Q a 11:42 3Q)
+  Run DET: 16-3 (7:18 1Q a 2:18 1Q)
+  Sequência sem resposta: ORL 8 · DET 10
+Coletando matchups...
+
+Feito! jogo_0042500104.json criado.
+  Box score: 9 ORL · 10 DET
+  Timeline: 116 eventos · Arremessos: 174
+  Matchups filtrados: 21
+Coletando dados do jogo 0042500104...
+Coletando resumo...
+  DET 88 @ ORL 94 · 2026-04-27
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: ORL 33:42 · DET 12:49
+  Trocas: 7 · Empates: 4
+  Run ORL: 19-6 (4:42 2Q a 11:42 3Q)
+  Run DET: 16-3 (7:18 1Q a 2:18 1Q)
+  Sequência sem resposta: ORL 8 · DET 10
+Coletando matchups...
+
+Feito! jogo_0042500104.json criado.
+  Box score: 9 ORL · 10 DET
+  Timeline: 116 eventos · Arremessos: 174
+  Matchups filtrados: 21
+Coletando dados do jogo 0042500144...
+Coletando resumo...
+  OKC 131 @ PHX 122 · 2026-04-27
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: PHX 10:07 · OKC 35:13
+  Trocas: 5 · Empates: 6
+  Run PHX: 19-6 (1:24 1Q a 8:24 2Q)
+  Run OKC: 22-7 (6:30 1Q a 1:30 1Q)
+  Sequência sem resposta: PHX 8 · OKC 10
+Coletando matchups...
+
+Feito! jogo_0042500144.json criado.
+  Box score: 12 PHX · 13 OKC
+  Timeline: 143 eventos · Arremessos: 172
+  Matchups filtrados: 21
+Carregando jogos_playoffs.json...
+  33 jogos no total · 30 OK · 3 para coletar
+
+[1/3] den_min · Jogo 5 · MIN @ DEN (0042500165) · não coletado
+
+[2/3] det_orl · Jogo 4 · DET @ ORL (0042500104) · não coletado
+
+[3/3] okc_phx · Jogo 4 · OKC @ PHX (0042500144) · não coletado
+
+Feito! 3 jogos coletados.
+[main cc008bc] Atualizacao playoffs 2026-04-28
+ 4 files changed, 10778 insertions(+), 11 deletions(-)
+ create mode 100644 jogo_0042500104.json
+ create mode 100644 jogo_0042500144.json
+ create mode 100644 jogo_0042500165.json
+To https://github.com/pishenis/nba-team-profiles.git
+   7aab5fb..cc008bc  main -> main
+Tue Apr 28 11:28:34 -03 2026: Atualizacao concluida.
+Coletando dados do jogo 0042500144...
+Coletando resumo...
+  OKC 131 @ PHX 122 · 2026-04-27
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: PHX 10:07 · OKC 35:13
+  Trocas: 5 · Empates: 6
+  Run PHX: 19-6 (1:24 1Q a 8:24 2Q)
+  Run OKC: 22-7 (6:30 1Q a 1:30 1Q)
+  Sequência sem resposta: PHX 8 · OKC 10
+Coletando matchups...
+
+Feito! jogo_0042500144.json criado.
+  Box score: 12 PHX · 13 OKC
+  Timeline: 143 eventos · Arremessos: 172
+  Matchups filtrados: 21
+Carregando jogos_playoffs.json...
+  33 jogos no total · 30 OK · 3 para coletar
+
+[1/3] den_min · Jogo 5 · MIN @ DEN (0042500165) · não coletado
+
+[2/3] det_orl · Jogo 4 · DET @ ORL (0042500104) · não coletado
+
+[3/3] okc_phx · Jogo 4 · OKC @ PHX (0042500144) · não coletado
+
+Feito! 3 jogos coletados.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   atualizar.log
+	modified:   atualizar.sh
+	modified:   coletar_todos_jogos.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+Ter 28 Abr 2026 11:28:42 -03: Atualizacao concluida.
+Ter 28 Abr 2026 12:42:14 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  66 registros encontrados
+  33 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: TOR 2-2 CLE (4 jogos)
+  den_min: MIN 3-2 DEN (5 jogos)
+  lal_hou: LAL 3-1 HOU (4 jogos)
+  nyk_atl: ATL 2-2 NYK (4 jogos)
+  bos_phi: PHI 1-3 BOS (4 jogos)
+  sas_por: POR 1-3 SAS (4 jogos)
+  det_orl: DET 1-3 ORL (4 jogos)
+  okc_phx: PHX 0-4 OKC (4 jogos)
+Carregando jogos_playoffs.json...
+  33 jogos no total · 33 OK · 0 para coletar
+Nada a coletar.
+[main 550160f] Atualizacao playoffs 2026-04-28
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+To https://github.com/pishenis/nba-team-profiles.git
+   cc008bc..550160f  main -> main
+Ter 28 Abr 2026 12:42:45 -03: Atualizacao concluida.
+Ter 28 Abr 2026 12:55:38 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  66 registros encontrados
+  33 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 2-2 TOR (4 jogos)
+  den_min: MIN 3-2 DEN (5 jogos)
+  lal_hou: HOU 1-3 LAL (4 jogos)
+  nyk_atl: ATL 2-2 NYK (4 jogos)
+  bos_phi: PHI 1-3 BOS (4 jogos)
+  sas_por: POR 1-3 SAS (4 jogos)
+  det_orl: DET 1-3 ORL (4 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+Carregando jogos_playoffs.json...
+  33 jogos no total · 33 OK · 0 para coletar
+Nada a coletar.
+[main fc92744] Atualizacao playoffs 2026-04-28
+ 2 files changed, 8 insertions(+), 7 deletions(-)
+To https://github.com/pishenis/nba-team-profiles.git
+   550160f..fc92744  main -> main
+Ter 28 Abr 2026 12:55:44 -03: Atualizacao concluida.
+Ter 28 Abr 2026 12:58:08 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  66 registros encontrados
+  33 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 2-2 TOR (4 jogos)
+  den_min: DEN 2-3 MIN (5 jogos)
+  lal_hou: LAL 3-1 HOU (4 jogos)
+  nyk_atl: ATL 2-2 NYK (4 jogos)
+  bos_phi: PHI 1-3 BOS (4 jogos)
+  sas_por: POR 1-3 SAS (4 jogos)
+  det_orl: ORL 3-1 DET (4 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+Carregando jogos_playoffs.json...
+  33 jogos no total · 33 OK · 0 para coletar
+Nada a coletar.
+[main 02b351a] Atualizacao playoffs 2026-04-28
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+To https://github.com/pishenis/nba-team-profiles.git
+   fc92744..02b351a  main -> main
+Ter 28 Abr 2026 12:58:15 -03: Atualizacao concluida.
+Ter 28 Abr 2026 13:01:32 -03: Iniciando atualizacao...
+Coletando jogos de playoff...
+  66 registros encontrados
+  33 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 2-2 TOR (4 jogos)
+  den_min: MIN 3-2 DEN (5 jogos)
+  lal_hou: LAL 3-1 HOU (4 jogos)
+  nyk_atl: ATL 2-2 NYK (4 jogos)
+  bos_phi: BOS 3-1 PHI (4 jogos)
+  sas_por: POR 1-3 SAS (4 jogos)
+  det_orl: ORL 3-1 DET (4 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+Carregando jogos_playoffs.json...
+  33 jogos no total · 33 OK · 0 para coletar
+Nada a coletar.

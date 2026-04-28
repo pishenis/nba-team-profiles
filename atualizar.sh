@@ -5,16 +5,12 @@ source "$DIR/venv/bin/activate"
 
 echo "$(date): Iniciando atualizacao..." >> "$DIR/atualizar.log"
 
-python3 "$DIR/coletar_dados.py" >> "$DIR/atualizar.log" 2>&1
-python3 "$DIR/transformar_dados.py" >> "$DIR/atualizar.log" 2>&1
-python3 "$DIR/coletar_jogadores.py" >> "$DIR/atualizar.log" 2>&1
-python3 "$DIR/coletar_lineups_times.py" >> "$DIR/atualizar.log" 2>&1
 python3 "$DIR/coletar_playoffs.py" >> "$DIR/atualizar.log" 2>&1
 python3 "$DIR/coletar_todos_jogos.py" >> "$DIR/atualizar.log" 2>&1
 
 cd "$DIR"
-git add *.json jogo_*.json
-git commit -m "Atualizacao automatica $(date '+%Y-%m-%d')" >> "$DIR/atualizar.log" 2>&1
+git add -A
+git commit -m "Atualizacao playoffs $(date '+%Y-%m-%d')" >> "$DIR/atualizar.log" 2>&1
 git push >> "$DIR/atualizar.log" 2>&1
 
 echo "$(date): Atualizacao concluida." >> "$DIR/atualizar.log"
