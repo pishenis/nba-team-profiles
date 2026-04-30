@@ -211,7 +211,7 @@ function render(game,teams){
         '<td>'+p.name+'</td>'+
         '<td>'+p.minutes+'</td>'+
         '<td style="font-weight:600">'+p.pts+'</td>'+
-        '<td>'+p.reb+'</td><td>'+p.ast+'</td>'+
+        '<td>'+p.reb+'</td><td>'+(p.oreb||0)+'</td><td>'+p.ast+'</td>'+
         '<td>'+p.stl+'/'+p.blk+'</td>'+
         '<td>'+p.fgm+'/'+p.fga+' <span style="color:#86868b;font-size:10px">'+fgPct+'%</span></td>'+
         '<td>'+p.fg3m+'/'+p.fg3a+' <span style="color:#86868b;font-size:10px">'+fg3Pct+'%</span></td>'+
@@ -237,7 +237,7 @@ function render(game,teams){
       '<td style="font-weight:600;color:'+color+'">Total</td>'+
       '<td></td>'+
       '<td style="font-weight:700">'+tot_pts+'</td>'+
-      '<td>'+tot_reb+'</td><td>'+tot_ast+'</td>'+
+      '<td>'+tot_reb+'</td><td>'+players.reduce(function(s,p){return s+(p.oreb||0);},0)+'</td><td>'+tot_ast+'</td>'+
       '<td>'+tot_stl+'/'+tot_blk+'</td>'+
       '<td>'+tot_fgm+'/'+tot_fga+'</td>'+
       '<td>'+tot_fg3m+'/'+tot_fg3a+'</td>'+
@@ -252,7 +252,7 @@ function render(game,teams){
     '<div class="box-wrap"><table class="box-table">'+
       '<thead><tr>'+
         '<th style="text-align:left">Jogador</th>'+
-        '<th>Min</th><th>Pts</th><th>Reb</th><th>Ast</th>'+
+        '<th>Min</th><th>Pts</th><th>Reb</th><th>OR</th><th>Ast</th>'+
         '<th>Stl/Blk</th><th>FG</th><th>3P</th><th>FT</th><th>TOV</th><th>+/-</th>'+
       '</tr></thead>'+
       '<tbody>'+rows+'</tbody>'+

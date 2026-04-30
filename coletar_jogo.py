@@ -79,6 +79,8 @@ def parse_players(df):
             "jersey":   str(row.get("jerseyNum","")),
             "minutes":  str(row.get("minutes",""))[:5],
             "pts":      int(row.get("points",0) or 0),
+            "oreb":     int(row.get("reboundsOffensive",0) or 0),
+            "dreb":     int(row.get("reboundsDefensive",0) or 0),
             "reb":      int(row.get("reboundsTotal",0) or 0),
             "ast":      int(row.get("assists",0) or 0),
             "stl":      int(row.get("steals",0) or 0),
