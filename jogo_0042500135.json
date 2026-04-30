@@ -1,0 +1,3337 @@
+{
+  "game_id": "0042500135",
+  "date": "2026-04-29",
+  "home": "CLE",
+  "away": "TOR",
+  "home_pts": 125,
+  "away_pts": 120,
+  "winner": "CLE",
+  "game_flow": {
+    "quarter_scores": {
+      "CLE": [
+        38,
+        29,
+        33,
+        25
+      ],
+      "TOR": [
+        34,
+        40,
+        29,
+        17
+      ]
+    },
+    "num_periods": 4,
+    "lead_changes": 5,
+    "ties": 6,
+    "time_leading_home_fmt": "17:02",
+    "time_leading_away_fmt": "27:39",
+    "time_tied_fmt": "3:19",
+    "best_run_home": {
+      "pts_home": 13,
+      "pts_away": 1,
+      "start_min": 35.1,
+      "end_min": 40.1
+    },
+    "best_run_away": {
+      "pts_home": 10,
+      "pts_away": 22,
+      "start_min": 0.4,
+      "end_min": 5.4
+    },
+    "max_consec_home": 11,
+    "max_consec_away": 8
+  },
+  "four_factors": {
+    "CLE": {
+      "efg": 64.2,
+      "ftr": 0.346,
+      "tov": 14.7,
+      "oreb": 21.4,
+      "opp_efg": 54.2,
+      "opp_ftr": 0.263,
+      "opp_tov": 14.9,
+      "opp_oreb": 40.0
+    },
+    "TOR": {
+      "efg": 54.2,
+      "ftr": 0.263,
+      "tov": 14.9,
+      "oreb": 40.0,
+      "opp_efg": 64.2,
+      "opp_ftr": 0.346,
+      "opp_tov": 14.7,
+      "opp_oreb": 21.4
+    }
+  },
+  "misc": {
+    "CLE": {
+      "pts_fb": 6,
+      "pts_paint": 48,
+      "pts_2nd_chance": 11,
+      "blocks": 8
+    },
+    "TOR": {
+      "pts_fb": 26,
+      "pts_paint": 48,
+      "pts_2nd_chance": 13,
+      "blocks": 8
+    }
+  },
+  "hustle": {
+    "CLE": {
+      "deflections": 16,
+      "contested_shots": 54,
+      "contested_2pt": 36,
+      "contested_3pt": 18,
+      "charges_drawn": 0
+    },
+    "TOR": {
+      "deflections": 15,
+      "contested_shots": 40,
+      "contested_2pt": 23,
+      "contested_3pt": 17,
+      "charges_drawn": 0
+    }
+  },
+  "box_score": {
+    "CLE": [
+      {
+        "id": "1629622",
+        "name": "M. Strus",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "27:20",
+        "pts": 8,
+        "reb": 4,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 4,
+        "fta": 4,
+        "plus_minus": 0,
+        "starter": true
+      },
+      {
+        "id": "1630596",
+        "name": "E. Mobley",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "33:22",
+        "pts": 23,
+        "reb": 9,
+        "ast": 1,
+        "stl": 1,
+        "blk": 3,
+        "tov": 0,
+        "fgm": 8,
+        "fga": 13,
+        "fg3m": 3,
+        "fg3a": 3,
+        "ftm": 4,
+        "fta": 8,
+        "plus_minus": -2,
+        "starter": true
+      },
+      {
+        "id": "1628386",
+        "name": "J. Allen",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "25:06",
+        "pts": 9,
+        "reb": 3,
+        "ast": 1,
+        "stl": 0,
+        "blk": 3,
+        "tov": 3,
+        "fgm": 4,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -4,
+        "starter": true
+      },
+      {
+        "id": "1628378",
+        "name": "D. Mitchell",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "31:27",
+        "pts": 19,
+        "reb": 5,
+        "ast": 3,
+        "stl": 1,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 7,
+        "fga": 17,
+        "fg3m": 3,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": -9,
+        "starter": true
+      },
+      {
+        "id": "201935",
+        "name": "J. Harden",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "39:45",
+        "pts": 23,
+        "reb": 9,
+        "ast": 5,
+        "stl": 2,
+        "blk": 1,
+        "tov": 6,
+        "fgm": 7,
+        "fga": 13,
+        "fg3m": 4,
+        "fg3a": 8,
+        "ftm": 5,
+        "fta": 6,
+        "plus_minus": 10,
+        "starter": true
+      },
+      {
+        "id": "1630241",
+        "name": "S. Merrill",
+        "pos": "",
+        "jersey": "",
+        "minutes": "23:13",
+        "pts": 9,
+        "reb": 1,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 2,
+        "fga": 3,
+        "fg3m": 2,
+        "fg3a": 2,
+        "ftm": 3,
+        "fta": 4,
+        "plus_minus": 19,
+        "starter": true
+      },
+      {
+        "id": "1629731",
+        "name": "D. Wade",
+        "pos": "",
+        "jersey": "",
+        "minutes": "20:38",
+        "pts": 7,
+        "reb": 3,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 10,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 4,
+        "starter": true
+      },
+      {
+        "id": "1628418",
+        "name": "T. Bryant",
+        "pos": "",
+        "jersey": "",
+        "minutes": "4:55",
+        "pts": 0,
+        "reb": 0,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -1,
+        "starter": true
+      },
+      {
+        "id": "203471",
+        "name": "D. Schr\u00f6der",
+        "pos": "",
+        "jersey": "",
+        "minutes": "21:14",
+        "pts": 19,
+        "reb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 7,
+        "fga": 11,
+        "fg3m": 3,
+        "fg3a": 6,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 8,
+        "starter": true
+      },
+      {
+        "id": "1642281",
+        "name": "J. Tyson",
+        "pos": "",
+        "jersey": "",
+        "minutes": "13:00",
+        "pts": 8,
+        "reb": 1,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 5,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 0,
+        "starter": true
+      }
+    ],
+    "TOR": [
+      {
+        "id": "1627742",
+        "name": "B. Ingram",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "11:22",
+        "pts": 1,
+        "reb": 1,
+        "ast": 2,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -2,
+        "starter": true
+      },
+      {
+        "id": "1629628",
+        "name": "R. Barrett",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "38:20",
+        "pts": 25,
+        "reb": 12,
+        "ast": 5,
+        "stl": 0,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 9,
+        "fga": 19,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 5,
+        "fta": 9,
+        "plus_minus": 2,
+        "starter": true
+      },
+      {
+        "id": "1627751",
+        "name": "J. Poeltl",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "20:49",
+        "pts": 14,
+        "reb": 9,
+        "ast": 3,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 4,
+        "fta": 6,
+        "plus_minus": 6,
+        "starter": true
+      },
+      {
+        "id": "1642266",
+        "name": "J. Walter",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "34:51",
+        "pts": 20,
+        "reb": 3,
+        "ast": 2,
+        "stl": 4,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 7,
+        "fga": 16,
+        "fg3m": 6,
+        "fg3a": 14,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -7,
+        "starter": true
+      },
+      {
+        "id": "1630567",
+        "name": "S. Barnes",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "38:54",
+        "pts": 17,
+        "reb": 8,
+        "ast": 11,
+        "stl": 1,
+        "blk": 3,
+        "tov": 4,
+        "fgm": 6,
+        "fga": 16,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 5,
+        "fta": 6,
+        "plus_minus": 2,
+        "starter": true
+      },
+      {
+        "id": "1642867",
+        "name": "C. Murray-Boyles",
+        "pos": "",
+        "jersey": "",
+        "minutes": "25:30",
+        "pts": 8,
+        "reb": 5,
+        "ast": 2,
+        "stl": 1,
+        "blk": 2,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -7,
+        "starter": true
+      },
+      {
+        "id": "1642347",
+        "name": "J. Shead",
+        "pos": "",
+        "jersey": "",
+        "minutes": "33:40",
+        "pts": 18,
+        "reb": 1,
+        "ast": 7,
+        "stl": 2,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 7,
+        "fga": 15,
+        "fg3m": 4,
+        "fg3a": 10,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -2,
+        "starter": true
+      },
+      {
+        "id": "1630572",
+        "name": "S. Mamukelashvili",
+        "pos": "",
+        "jersey": "",
+        "minutes": "15:26",
+        "pts": 10,
+        "reb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 9,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": -1,
+        "starter": true
+      },
+      {
+        "id": "1642419",
+        "name": "J. Battle",
+        "pos": "",
+        "jersey": "",
+        "minutes": "18:50",
+        "pts": 7,
+        "reb": 6,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -13,
+        "starter": true
+      },
+      {
+        "id": "1630639",
+        "name": "A. Lawson",
+        "pos": "",
+        "jersey": "",
+        "minutes": "2:18",
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -3,
+        "starter": true
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 0.77,
+      "home": 0,
+      "away": 3,
+      "period": 1
+    },
+    {
+      "min": 1.08,
+      "home": 0,
+      "away": 6,
+      "period": 1
+    },
+    {
+      "min": 1.33,
+      "home": 2,
+      "away": 6,
+      "period": 1
+    },
+    {
+      "min": 1.33,
+      "home": 3,
+      "away": 6,
+      "period": 1
+    },
+    {
+      "min": 1.63,
+      "home": 3,
+      "away": 8,
+      "period": 1
+    },
+    {
+      "min": 1.8,
+      "home": 4,
+      "away": 8,
+      "period": 1
+    },
+    {
+      "min": 1.93,
+      "home": 4,
+      "away": 10,
+      "period": 1
+    },
+    {
+      "min": 2.08,
+      "home": 7,
+      "away": 10,
+      "period": 1
+    },
+    {
+      "min": 2.52,
+      "home": 7,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 2.62,
+      "home": 8,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 3.55,
+      "home": 8,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 3.82,
+      "home": 10,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 3.97,
+      "home": 10,
+      "away": 16,
+      "period": 1
+    },
+    {
+      "min": 4.33,
+      "home": 10,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 5.17,
+      "home": 10,
+      "away": 18,
+      "period": 1
+    },
+    {
+      "min": 5.17,
+      "home": 10,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 5.4,
+      "home": 10,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 5.6,
+      "home": 11,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 5.6,
+      "home": 12,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 6.42,
+      "home": 15,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 6.98,
+      "home": 17,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 7.5,
+      "home": 18,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 7.5,
+      "home": 19,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 7.98,
+      "home": 21,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 8.25,
+      "home": 21,
+      "away": 24,
+      "period": 1
+    },
+    {
+      "min": 8.45,
+      "home": 24,
+      "away": 24,
+      "period": 1
+    },
+    {
+      "min": 8.87,
+      "home": 24,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 9.2,
+      "home": 26,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 9.2,
+      "home": 27,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 9.45,
+      "home": 27,
+      "away": 30,
+      "period": 1
+    },
+    {
+      "min": 10.02,
+      "home": 30,
+      "away": 30,
+      "period": 1
+    },
+    {
+      "min": 10.67,
+      "home": 30,
+      "away": 32,
+      "period": 1
+    },
+    {
+      "min": 11.2,
+      "home": 33,
+      "away": 32,
+      "period": 1
+    },
+    {
+      "min": 11.57,
+      "home": 35,
+      "away": 32,
+      "period": 1
+    },
+    {
+      "min": 11.9,
+      "home": 35,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 38,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 38,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 38,
+      "away": 34,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 38,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 12.3,
+      "home": 38,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 12.68,
+      "home": 41,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 12.9,
+      "home": 41,
+      "away": 38,
+      "period": 2
+    },
+    {
+      "min": 13.03,
+      "home": 44,
+      "away": 38,
+      "period": 2
+    },
+    {
+      "min": 13.35,
+      "home": 44,
+      "away": 40,
+      "period": 2
+    },
+    {
+      "min": 13.87,
+      "home": 44,
+      "away": 42,
+      "period": 2
+    },
+    {
+      "min": 14.33,
+      "home": 44,
+      "away": 44,
+      "period": 2
+    },
+    {
+      "min": 14.6,
+      "home": 44,
+      "away": 46,
+      "period": 2
+    },
+    {
+      "min": 14.92,
+      "home": 47,
+      "away": 46,
+      "period": 2
+    },
+    {
+      "min": 15.7,
+      "home": 47,
+      "away": 49,
+      "period": 2
+    },
+    {
+      "min": 16.0,
+      "home": 50,
+      "away": 49,
+      "period": 2
+    },
+    {
+      "min": 16.47,
+      "home": 51,
+      "away": 49,
+      "period": 2
+    },
+    {
+      "min": 16.47,
+      "home": 52,
+      "away": 49,
+      "period": 2
+    },
+    {
+      "min": 16.92,
+      "home": 52,
+      "away": 49,
+      "period": 2
+    },
+    {
+      "min": 17.28,
+      "home": 52,
+      "away": 51,
+      "period": 2
+    },
+    {
+      "min": 17.67,
+      "home": 54,
+      "away": 51,
+      "period": 2
+    },
+    {
+      "min": 17.93,
+      "home": 54,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 18.4,
+      "home": 54,
+      "away": 53,
+      "period": 2
+    },
+    {
+      "min": 18.4,
+      "home": 54,
+      "away": 54,
+      "period": 2
+    },
+    {
+      "min": 18.78,
+      "home": 56,
+      "away": 54,
+      "period": 2
+    },
+    {
+      "min": 19.15,
+      "home": 56,
+      "away": 57,
+      "period": 2
+    },
+    {
+      "min": 19.53,
+      "home": 56,
+      "away": 60,
+      "period": 2
+    },
+    {
+      "min": 19.83,
+      "home": 56,
+      "away": 62,
+      "period": 2
+    },
+    {
+      "min": 20.15,
+      "home": 58,
+      "away": 62,
+      "period": 2
+    },
+    {
+      "min": 20.7,
+      "home": 61,
+      "away": 62,
+      "period": 2
+    },
+    {
+      "min": 21.4,
+      "home": 61,
+      "away": 65,
+      "period": 2
+    },
+    {
+      "min": 21.63,
+      "home": 63,
+      "away": 65,
+      "period": 2
+    },
+    {
+      "min": 21.92,
+      "home": 63,
+      "away": 67,
+      "period": 2
+    },
+    {
+      "min": 22.17,
+      "home": 63,
+      "away": 69,
+      "period": 2
+    },
+    {
+      "min": 22.65,
+      "home": 63,
+      "away": 72,
+      "period": 2
+    },
+    {
+      "min": 23.02,
+      "home": 64,
+      "away": 72,
+      "period": 2
+    },
+    {
+      "min": 23.02,
+      "home": 65,
+      "away": 72,
+      "period": 2
+    },
+    {
+      "min": 23.18,
+      "home": 65,
+      "away": 74,
+      "period": 2
+    },
+    {
+      "min": 23.71,
+      "home": 66,
+      "away": 74,
+      "period": 2
+    },
+    {
+      "min": 23.71,
+      "home": 67,
+      "away": 74,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 67,
+      "away": 74,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 67,
+      "away": 74,
+      "period": 3
+    },
+    {
+      "min": 24.2,
+      "home": 67,
+      "away": 76,
+      "period": 3
+    },
+    {
+      "min": 24.2,
+      "home": 67,
+      "away": 77,
+      "period": 3
+    },
+    {
+      "min": 24.78,
+      "home": 67,
+      "away": 78,
+      "period": 3
+    },
+    {
+      "min": 24.78,
+      "home": 67,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 24.98,
+      "home": 69,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 25.35,
+      "home": 71,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 25.73,
+      "home": 73,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 26.3,
+      "home": 75,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 26.58,
+      "home": 75,
+      "away": 80,
+      "period": 3
+    },
+    {
+      "min": 27.13,
+      "home": 77,
+      "away": 80,
+      "period": 3
+    },
+    {
+      "min": 27.63,
+      "home": 77,
+      "away": 82,
+      "period": 3
+    },
+    {
+      "min": 27.78,
+      "home": 78,
+      "away": 82,
+      "period": 3
+    },
+    {
+      "min": 28.05,
+      "home": 80,
+      "away": 82,
+      "period": 3
+    },
+    {
+      "min": 28.37,
+      "home": 80,
+      "away": 84,
+      "period": 3
+    },
+    {
+      "min": 28.63,
+      "home": 80,
+      "away": 86,
+      "period": 3
+    },
+    {
+      "min": 29.02,
+      "home": 80,
+      "away": 89,
+      "period": 3
+    },
+    {
+      "min": 29.42,
+      "home": 82,
+      "away": 89,
+      "period": 3
+    },
+    {
+      "min": 29.75,
+      "home": 82,
+      "away": 90,
+      "period": 3
+    },
+    {
+      "min": 30.07,
+      "home": 85,
+      "away": 90,
+      "period": 3
+    },
+    {
+      "min": 30.4,
+      "home": 85,
+      "away": 91,
+      "period": 3
+    },
+    {
+      "min": 30.4,
+      "home": 85,
+      "away": 92,
+      "period": 3
+    },
+    {
+      "min": 30.67,
+      "home": 88,
+      "away": 92,
+      "period": 3
+    },
+    {
+      "min": 32.2,
+      "home": 90,
+      "away": 92,
+      "period": 3
+    },
+    {
+      "min": 32.53,
+      "home": 90,
+      "away": 95,
+      "period": 3
+    },
+    {
+      "min": 32.7,
+      "home": 91,
+      "away": 95,
+      "period": 3
+    },
+    {
+      "min": 32.7,
+      "home": 92,
+      "away": 95,
+      "period": 3
+    },
+    {
+      "min": 33.08,
+      "home": 92,
+      "away": 97,
+      "period": 3
+    },
+    {
+      "min": 33.55,
+      "home": 92,
+      "away": 100,
+      "period": 3
+    },
+    {
+      "min": 33.72,
+      "home": 93,
+      "away": 100,
+      "period": 3
+    },
+    {
+      "min": 33.92,
+      "home": 93,
+      "away": 101,
+      "period": 3
+    },
+    {
+      "min": 33.92,
+      "home": 93,
+      "away": 102,
+      "period": 3
+    },
+    {
+      "min": 34.1,
+      "home": 95,
+      "away": 102,
+      "period": 3
+    },
+    {
+      "min": 34.73,
+      "home": 95,
+      "away": 103,
+      "period": 3
+    },
+    {
+      "min": 35.49,
+      "home": 98,
+      "away": 103,
+      "period": 3
+    },
+    {
+      "min": 35.95,
+      "home": 100,
+      "away": 103,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 103,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 103,
+      "period": 4
+    },
+    {
+      "min": 37.07,
+      "home": 103,
+      "away": 103,
+      "period": 4
+    },
+    {
+      "min": 37.65,
+      "home": 106,
+      "away": 103,
+      "period": 4
+    },
+    {
+      "min": 38.37,
+      "home": 108,
+      "away": 103,
+      "period": 4
+    },
+    {
+      "min": 40.08,
+      "home": 108,
+      "away": 104,
+      "period": 4
+    },
+    {
+      "min": 40.5,
+      "home": 108,
+      "away": 106,
+      "period": 4
+    },
+    {
+      "min": 40.8,
+      "home": 110,
+      "away": 106,
+      "period": 4
+    },
+    {
+      "min": 41.03,
+      "home": 110,
+      "away": 108,
+      "period": 4
+    },
+    {
+      "min": 41.38,
+      "home": 113,
+      "away": 108,
+      "period": 4
+    },
+    {
+      "min": 41.65,
+      "home": 113,
+      "away": 111,
+      "period": 4
+    },
+    {
+      "min": 41.93,
+      "home": 115,
+      "away": 111,
+      "period": 4
+    },
+    {
+      "min": 42.47,
+      "home": 118,
+      "away": 111,
+      "period": 4
+    },
+    {
+      "min": 42.58,
+      "home": 118,
+      "away": 111,
+      "period": 4
+    },
+    {
+      "min": 43.2,
+      "home": 120,
+      "away": 111,
+      "period": 4
+    },
+    {
+      "min": 43.68,
+      "home": 121,
+      "away": 111,
+      "period": 4
+    },
+    {
+      "min": 43.68,
+      "home": 122,
+      "away": 111,
+      "period": 4
+    },
+    {
+      "min": 43.98,
+      "home": 122,
+      "away": 113,
+      "period": 4
+    },
+    {
+      "min": 44.28,
+      "home": 124,
+      "away": 113,
+      "period": 4
+    },
+    {
+      "min": 44.47,
+      "home": 124,
+      "away": 116,
+      "period": 4
+    },
+    {
+      "min": 47.05,
+      "home": 124,
+      "away": 118,
+      "period": 4
+    },
+    {
+      "min": 47.61,
+      "home": 124,
+      "away": 120,
+      "period": 4
+    },
+    {
+      "min": 47.7,
+      "home": 125,
+      "away": 120,
+      "period": 4
+    },
+    {
+      "min": 48.0,
+      "home": 125,
+      "away": 120,
+      "period": 4
+    }
+  ],
+  "shots": [
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": -11,
+      "y": 6,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Mobley 1' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "B. Ingram",
+      "x": -163,
+      "y": 118,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Ingram 20' Running Pull-Up Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "M. Strus",
+      "x": -175,
+      "y": 174,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Strus 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -163,
+      "y": 207,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Barrett 26' 3PT Jump Shot (3 PTS) (Poeltl 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 17,
+      "y": 32,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Mitchell 4' Driving Floating Jump Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 172,
+      "y": 196,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Walter 26' 3PT Jump Shot (3 PTS) (Ingram 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": -6,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Harden 1' Driving Floating Jump Shot (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Poeltl",
+      "x": 12,
+      "y": 20,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Poeltl 2' Cutting Dunk Shot (2 PTS) (Barrett 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -108,
+      "y": 46,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Barnes 12' Running Pull-Up Jump Shot (2 PTS) (Barrett 2 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": 69,
+      "y": 316,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Harden 32' 3PT Pullup Jump Shot (6 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -76,
+      "y": 151,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Barnes 17' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 7,
+      "y": 12,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Barrett 1' Running Dunk (5 PTS) (Walter 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": -170,
+      "y": 190,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Walter 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": 175,
+      "y": 197,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Harden 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "M. Strus",
+      "x": 176,
+      "y": 201,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Strus 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": -49,
+      "y": 6,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Mobley 5' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -81,
+      "y": 157,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Barnes 18' Pullup Jump Shot (4 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "M. Strus",
+      "x": -4,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Strus 2' Driving Finger Roll Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Poeltl",
+      "x": 9,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Poeltl 1' Cutting Layup Shot (4 PTS) (Barnes 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 21,
+      "y": 25,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Mitchell 3' Driving Floating Jump Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 93,
+      "y": 105,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Mitchell 14' Driving Floating Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": -119,
+      "y": 215,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Harden 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 223,
+      "y": 130,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Walter 26' 3PT Jump Shot (6 PTS) (Barnes 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 228,
+      "y": 28,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Walter 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 17,
+      "y": 6,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Barrett 2' Putback Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Allen",
+      "x": 87,
+      "y": 50,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Allen 10' Turnaround Hook Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "S. Merrill",
+      "x": -225,
+      "y": 11,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Merrill 3PT Step Back Jump Shot (5 PTS)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Allen",
+      "x": 0,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Allen 1' Dunk (3 PTS) (Merrill 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": 138,
+      "y": 223,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Mamukelashvili 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -107,
+      "y": 63,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Barnes 12' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": 150,
+      "y": 226,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Harden 27' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": -1,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Mobley Putback Layup (3 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": -2,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Shead 1' Cutting Layup Shot (2 PTS) (Barnes 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": 224,
+      "y": 109,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Wade 25' 3PT Jump Shot (3 PTS) (Harden 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": -153,
+      "y": 222,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Mamukelashvili 27' 3PT Pullup Jump Shot (3 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": -7,
+      "y": 146,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Wade 15' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": -5,
+      "y": 25,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Harden 3' Putback Layup (10 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": -186,
+      "y": 215,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Shead 28' 3PT Jump Shot (5 PTS) (Barnes 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": -222,
+      "y": 103,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Wade 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 216,
+      "y": 162,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Mitchell 27' 3PT Pullup Jump Shot (3 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -1,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Barnes 2' Running Dunk (8 PTS) (Shead 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": -28,
+      "y": 29,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Mobley 4' Driving Dunk",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": 230,
+      "y": 14,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Harden 3PT Step Back Jump Shot (14 PTS)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": 72,
+      "y": 251,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Barnes 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": 4,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Mobley 1' Dunk (5 PTS) (Harden 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "C. Murray-Boyles",
+      "x": 62,
+      "y": 7,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Murray-Boyles 6' Hook Shot (2 PTS) (Barnes 5 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 185,
+      "y": 300,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Mitchell 35' 3PT Pullup Jump Shot (6 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": 59,
+      "y": 268,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Shead 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -93,
+      "y": 158,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Barnes 18' Pullup Jump Shot (10 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": 17,
+      "y": 248,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Schroder 25' 3PT Jump Shot (3 PTS) (Tyson 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Poeltl",
+      "x": -4,
+      "y": 10,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Poeltl 1' Reverse Layup (6 PTS) (Barnes 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 94,
+      "y": 260,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Mitchell 28' 3PT Pullup Jump Shot (9 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -49,
+      "y": 158,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Barnes 17' Pullup Jump Shot (12 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Tyson",
+      "x": -201,
+      "y": 152,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Tyson 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 13,
+      "y": 27,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Barrett 3' Driving Finger Roll Layup (7 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Poeltl",
+      "x": 54,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Poeltl 6' Floating Jump Shot (8 PTS) (Barnes 7 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": -234,
+      "y": 1,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Mitchell 3PT Step Back Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Poeltl",
+      "x": 4,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Poeltl 2' Running Reverse Layup (10 PTS) (Barnes 8 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Tyson",
+      "x": 161,
+      "y": 183,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Tyson 24' 3PT Jump Shot (3 PTS) (Bryant 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": -223,
+      "y": 84,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Schroder 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": 230,
+      "y": -6,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Shead 3PT Jump Shot (8 PTS) (Ingram 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": 125,
+      "y": 226,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Schroder 26' 3PT Jump Shot (6 PTS) (Mobley 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "B. Ingram",
+      "x": -134,
+      "y": 164,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Ingram 21' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 195,
+      "y": 160,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Barrett 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "S. Merrill",
+      "x": 194,
+      "y": 77,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Merrill 21' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -54,
+      "y": 111,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Barnes 12' Pullup Jump Shot (14 PTS) (Barrett 3 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Tyson",
+      "x": -64,
+      "y": 9,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Tyson 6' Jump Shot (5 PTS) (Merrill 2 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": -2,
+      "y": -6,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Wade 1' Cutting Dunk Shot (5 PTS) (Tyson 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 202,
+      "y": 160,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Walter 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -163,
+      "y": 193,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Barrett 25' 3PT Step Back Jump Shot (11 PTS) (Murray-Boyles 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 225,
+      "y": 34,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Walter 3PT Running Jump Shot (9 PTS) (Shead 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 5,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Walter 1' Running Dunk (11 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": -6,
+      "y": -6,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Wade 1' Dunk (7 PTS) (Harden 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": 29,
+      "y": 246,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Harden 25' 3PT Step Back Jump Shot (17 PTS) (Strus 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": 99,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Barnes 10' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": -211,
+      "y": 136,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Walter 25' 3PT Jump Shot (14 PTS) (Shead 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": 0,
+      "y": 40,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Harden 4' Driving Floating Jump Shot (19 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": 0,
+      "y": 20,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Mamukelashvili 2' Driving Layup (7 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 15,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Barrett 2' Running Layup (13 PTS) (Shead 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": -33,
+      "y": 178,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Mitchell 18' Step Back Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": -185,
+      "y": 263,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Walter 32' 3PT Jump Shot (17 PTS) (Shead 5 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": 10,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Shead 2' Driving Layup (10 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": 13,
+      "y": 262,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Wade 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -51,
+      "y": 39,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Barrett 6' Driving Bank Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Mamukelashvili Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": 12,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Mamukelashvili 1' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": -230,
+      "y": 103,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Wade 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -17,
+      "y": 127,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Barrett 13' Driving Floating Jump Shot (15 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": 62,
+      "y": 27,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Mobley 7' Turnaround Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 1,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Mitchell 2' Driving Dunk (13 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 17,
+      "y": 54,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Mitchell 6' Driving Floating Jump Shot (15 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "A. Lawson",
+      "x": -6,
+      "y": 98,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Lawson 10' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Allen",
+      "x": -21,
+      "y": 59,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Allen 6' Turnaround Hook Shot (5 PTS) (Mitchell 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "A. Lawson",
+      "x": -18,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Lawson 2' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": 7,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Mobley 2' Driving Dunk (9 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": -75,
+      "y": 78,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Mitchell 11' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": 26,
+      "y": 79,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Barnes 8' Turnaround Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": 4,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Mobley 1' Dunk (11 PTS) (Allen 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": -20,
+      "y": 27,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Shead 3' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 10,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Barrett 1' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": -11,
+      "y": 55,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Shead 6' Floating Jump Shot (12 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 203,
+      "y": 185,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Walter 27' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Allen",
+      "x": 0,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Allen 2' Layup (7 PTS) (Mitchell 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -22,
+      "y": 38,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Barrett 4' Pullup Jump Shot (20 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -2,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Barrett 2' Running Dunk (22 PTS) (Shead 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": 211,
+      "y": 152,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Shead 26' 3PT Running Jump Shot (15 PTS) (Barrett 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "M. Strus",
+      "x": -6,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Strus 2' Driving Finger Roll Layup (6 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "S. Merrill",
+      "x": -233,
+      "y": 38,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Merrill 24' 3PT Jump Shot (8 PTS) (Wade 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": 207,
+      "y": 137,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Harden 25' 3PT Step Back Jump Shot (22 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": -230,
+      "y": -4,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Walter 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": 212,
+      "y": 144,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Wade 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": -185,
+      "y": 176,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Shead 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "C. Murray-Boyles",
+      "x": -5,
+      "y": 95,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Murray-Boyles 10' Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 0,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Mitchell 2' Running Layup (17 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Battle",
+      "x": 244,
+      "y": 5,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Battle 24' 3PT Pullup Jump Shot (3 PTS) (Murray-Boyles 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "C. Murray-Boyles",
+      "x": 9,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Murray-Boyles 1' Layup (4 PTS) (Barnes 9 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": 7,
+      "y": 18,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Mitchell 2' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": -207,
+      "y": 136,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Mamukelashvili 25' 3PT Jump Shot (10 PTS) (Shead 7 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Battle",
+      "x": 118,
+      "y": 79,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Battle 14' Driving Floating Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": -1,
+      "y": 22,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Mitchell 2' Driving Dunk (19 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": 230,
+      "y": 111,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Wade 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": 202,
+      "y": 157,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Shead 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": -227,
+      "y": 125,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Mitchell 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": 27,
+      "y": 248,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Mamukelashvili 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Wade",
+      "x": 15,
+      "y": 27,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Wade 3' Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": -180,
+      "y": 180,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Mobley 25' 3PT Jump Shot (15 PTS) (Harden 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": -47,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Mamukelashvili 5' Turnaround Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": 0,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Mobley 1' Running Dunk (17 PTS) (Mitchell 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Mamukelashvili",
+      "x": 135,
+      "y": 323,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Mamukelashvili 35' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": 230,
+      "y": 6,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Schroder 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": 9,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Barnes 1' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Barnes Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 113,
+      "y": 277,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Barrett 30' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Tyson",
+      "x": 229,
+      "y": 63,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Tyson 24' 3PT Step Back Jump Shot (8 PTS)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 28,
+      "y": 101,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Barrett 10' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -227,
+      "y": 106,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Barnes 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": 227,
+      "y": -3,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Mobley 3PT Jump Shot (20 PTS) (Schroder 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -77,
+      "y": 240,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Barrett 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": 7,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Schroder 1' Driving Finger Roll Layup (10 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 230,
+      "y": 82,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Walter 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Tyson",
+      "x": 240,
+      "y": 73,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Tyson 25' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -12,
+      "y": 114,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Barrett 11' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": -43,
+      "y": 95,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Mitchell 10' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -94,
+      "y": 10,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Barnes 9' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": -21,
+      "y": 108,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Barrett 11' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": 9,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Schroder 1' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Battle",
+      "x": -93,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Battle 9' Pullup Jump Shot (5 PTS) (Walter 2 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": 0,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Schroder 2' Driving Finger Roll Layup (12 PTS) (Harden 5 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Battle",
+      "x": 12,
+      "y": 9,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Battle 2' Alley Oop Layup (7 PTS) (Poeltl 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": -184,
+      "y": 185,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Mobley 26' 3PT Jump Shot (23 PTS) (Schroder 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": 89,
+      "y": 226,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Shead 24' 3PT Pullup Jump Shot (18 PTS) (Poeltl 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": 29,
+      "y": 162,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Schroder 16' Pullup Jump Shot (14 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Poeltl",
+      "x": 23,
+      "y": 129,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Poeltl 13' Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": -153,
+      "y": 216,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Schroder 26' 3PT Pullup Jump Shot (17 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": 20,
+      "y": -2,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Shead 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Allen",
+      "x": -5,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Allen 1' Layup (9 PTS) (Strus 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": -240,
+      "y": 99,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Walter 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 22,
+      "y": 57,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Barrett 6' Pullup Jump Shot (25 PTS) (Barnes 10 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": 56,
+      "y": 64,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Schroder 9' Driving Floating Jump Shot (19 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 232,
+      "y": 10,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Walter 3PT Jump Shot (20 PTS) (Barrett 5 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": 58,
+      "y": 106,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Harden 12' Step Back Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": 234,
+      "y": 62,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Walter 24' 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "R. Barrett",
+      "x": 0,
+      "y": 9,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Barrett 1' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": -229,
+      "y": -15,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Shead 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": -230,
+      "y": 36,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Shead 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Mitchell",
+      "x": -62,
+      "y": 55,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Mitchell 8' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "CLE",
+      "player": "D. Schr\u00f6der",
+      "x": -102,
+      "y": 256,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Schroder 28' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": -189,
+      "y": 170,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Harden 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Shead",
+      "x": 246,
+      "y": 1,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Shead 25' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "CLE",
+      "player": "J. Harden",
+      "x": -40,
+      "y": 178,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Harden 18' Step Back Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "C. Murray-Boyles",
+      "x": 0,
+      "y": -2,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Murray-Boyles Running Dunk (6 PTS) (Barnes 11 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "CLE",
+      "player": "E. Mobley",
+      "x": 17,
+      "y": 44,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Mobley 5' Cutting Layup Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Walter",
+      "x": -6,
+      "y": -1,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Walter 1' Running Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "TOR",
+      "player": "C. Murray-Boyles",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Murray-Boyles Tip Dunk Shot (8 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "TOR",
+      "player": "S. Barnes",
+      "x": -77,
+      "y": 262,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Barnes 27' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "TOR",
+      "player": "J. Battle",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Battle Tip Layup Shot",
+      "zone": ""
+    }
+  ],
+  "shot_zones": {
+    "CLE": {
+      "at_rim": {
+        "fgm": 20,
+        "fga": 26,
+        "pct": 76.9
+      },
+      "paint": {
+        "fgm": 5,
+        "fga": 16,
+        "pct": 31.2
+      },
+      "mid": {
+        "fgm": 0,
+        "fga": 3,
+        "pct": 0.0
+      },
+      "corner_3": {
+        "fgm": 5,
+        "fga": 9,
+        "pct": 55.6
+      },
+      "arc_3": {
+        "fgm": 13,
+        "fga": 27,
+        "pct": 48.1
+      }
+    },
+    "TOR": {
+      "at_rim": {
+        "fgm": 16,
+        "fga": 25,
+        "pct": 64.0
+      },
+      "paint": {
+        "fgm": 8,
+        "fga": 18,
+        "pct": 44.4
+      },
+      "mid": {
+        "fgm": 4,
+        "fga": 10,
+        "pct": 40.0
+      },
+      "corner_3": {
+        "fgm": 4,
+        "fga": 11,
+        "pct": 36.4
+      },
+      "arc_3": {
+        "fgm": 11,
+        "fga": 27,
+        "pct": 40.7
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-04-30"
+}

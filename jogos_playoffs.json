@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "updated": "2026-04-29",
+  "updated": "2026-04-30",
   "series": {
     "cle_tor": [
       {
@@ -42,6 +42,16 @@
         "away_pts": 89,
         "winner": "TOR",
         "game_number": 4
+      },
+      {
+        "game_id": "0042500135",
+        "date": "2026-04-29",
+        "home": "CLE",
+        "away": "TOR",
+        "home_pts": 125,
+        "away_pts": 120,
+        "winner": "CLE",
+        "game_number": 5
       }
     ],
     "den_min": [
@@ -136,6 +146,16 @@
         "away_pts": 96,
         "winner": "HOU",
         "game_number": 4
+      },
+      {
+        "game_id": "0042500175",
+        "date": "2026-04-29",
+        "home": "LAL",
+        "away": "HOU",
+        "home_pts": 93,
+        "away_pts": 99,
+        "winner": "HOU",
+        "game_number": 5
       }
     ],
     "nyk_atl": [
@@ -334,6 +354,16 @@
         "away_pts": 88,
         "winner": "ORL",
         "game_number": 4
+      },
+      {
+        "game_id": "0042500105",
+        "date": "2026-04-29",
+        "home": "DET",
+        "away": "ORL",
+        "home_pts": 116,
+        "away_pts": 109,
+        "winner": "DET",
+        "game_number": 5
       }
     ],
     "okc_phx": [
@@ -381,16 +411,16 @@
   },
   "series_scores": {
     "cle_tor": {
-      "CLE": 2,
-      "TOR": 2
+      "TOR": 2,
+      "CLE": 3
     },
     "den_min": {
-      "MIN": 3,
-      "DEN": 2
+      "DEN": 2,
+      "MIN": 3
     },
     "lal_hou": {
-      "HOU": 1,
-      "LAL": 3
+      "LAL": 3,
+      "HOU": 2
     },
     "nyk_atl": {
       "ATL": 2,
@@ -401,12 +431,12 @@
       "PHI": 2
     },
     "sas_por": {
-      "POR": 1,
-      "SAS": 4
+      "SAS": 4,
+      "POR": 1
     },
     "det_orl": {
-      "DET": 1,
-      "ORL": 3
+      "ORL": 3,
+      "DET": 2
     },
     "okc_phx": {
       "PHX": 0,
