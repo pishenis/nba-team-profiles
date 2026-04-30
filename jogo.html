@@ -364,8 +364,8 @@ function render(game,teams){
 
   // Runs
   var rh=gf.best_run_home||{}, ra=gf.best_run_away||{};
-  var runHomeScore=rh.pts_home!=null?(rh.pts_home+'\u20133'+rh.pts_away):'--';
-  var runAwayScore=ra.pts_away!=null?(ra.pts_away+'\u20131'+ra.pts_home):'--';
+  var runHomeScore=rh.pts_home!=null?(rh.pts_home+'–'+rh.pts_away):'--';
+  var runAwayScore=ra.pts_away!=null?(ra.pts_away+'–'+ra.pts_home):'--';
   var runHomePeriod=rh.start_min!=null?(minToClock(rh.start_min)+' &middot; '+minToClock(rh.end_min)):'';
   var runAwayPeriod=ra.start_min!=null?(minToClock(ra.start_min)+' &middot; '+minToClock(ra.end_min)):'';
   var consecHome=gf.max_consec_home||0;
