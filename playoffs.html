@@ -23,9 +23,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 
 /* HOME — bracket */
 .bracket-wrap{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.bracket-wrap > div{min-width:0}
 .conf-title{font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin-bottom:1rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea}
-.series-list{display:flex;flex-direction:column;gap:10px}
-.series-card{border:0.5px solid #e5e5ea;border-radius:12px;overflow:hidden;cursor:pointer;transition:all 0.12s}
+.series-list{display:flex;flex-direction:column;gap:10px;min-width:0}
+.series-card{border:0.5px solid #e5e5ea;border-radius:12px;overflow:hidden;cursor:pointer;transition:all 0.12s;min-width:0}
 .series-card:hover{border-color:#d2d2d7;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
 .series-card-header{display:flex;align-items:center;gap:10px;padding:12px 14px;background:#f9f9f9}
 .series-teams{flex:1}
