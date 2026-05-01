@@ -112,7 +112,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
       <a class="nav-lnk" href="jogadores.html">Jogadores</a>
     </div>
   </div>
-  <div class="bracket-wrap" id="bracket"></div>
+  <div id="bracket"></div>
   <div class="footer-note">Dados: NBA Stats · Clique em uma série para ver a análise</div>
 </div>
 </div>
@@ -177,8 +177,8 @@ const allDefs=[...Object.values(BRACKET_DEF).flat(),...Object.values(BRACKET_DEF
 function buildBracket(){
   const bracket=document.getElementById('bracket');
   bracket.innerHTML='';
-  bracket.appendChild(roundSection('Primeiro Round', BRACKET_DEF, false));
-  bracket.appendChild(roundSection('Semifinais de Conferência', BRACKET_DEF_R2, true));
+  bracket.appendChild(roundSection('Semifinais de Conferência', BRACKET_DEF_R2, false));
+  bracket.appendChild(roundSection('Primeiro Round', BRACKET_DEF, true));
 }
 
 function roundSection(label, defs, withMargin){
