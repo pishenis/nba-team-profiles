@@ -92,6 +92,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 .game-link:hover{text-decoration:underline}
 .footer-note{margin-top:2.5rem;padding-top:1rem;border-top:0.5px solid #e5e5ea;font-size:11px;color:#86868b}
 .loading{text-align:center;padding:3rem;color:#86868b}
+.series-card.tbd .series-card-header{background:#fafafa}
+.series-card.tbd .series-score{opacity:0.35}
 </style>
 </head>
 <body>
@@ -129,16 +131,29 @@ const TNAME={ATL:"Atlanta Hawks",BOS:"Boston Celtics",BKN:"Brooklyn Nets",CHA:"C
 
 const BRACKET_DEF = {
   East: [
-    {id:"det_orl", home:"DET", away:"ORL", home_seed:1, away_seed:8},
-    {id:"cle_tor", home:"CLE", away:"TOR", home_seed:4, away_seed:5},
-    {id:"nyk_atl", home:"NYK", away:"ATL", home_seed:3, away_seed:6},
-    {id:"bos_phi", home:"BOS", away:"PHI", home_seed:2, away_seed:7},
+    {id:"det_orl", home:"DET", away:"ORL", home_seed:1, away_seed:8, round:1},
+    {id:"cle_tor", home:"CLE", away:"TOR", home_seed:4, away_seed:5, round:1},
+    {id:"nyk_atl", home:"NYK", away:"ATL", home_seed:3, away_seed:6, round:1},
+    {id:"bos_phi", home:"BOS", away:"PHI", home_seed:2, away_seed:7, round:1},
   ],
   West: [
-    {id:"okc_phx", home:"OKC", away:"PHX", home_seed:1, away_seed:8},
-    {id:"lal_hou", home:"LAL", away:"HOU", home_seed:4, away_seed:5},
-    {id:"den_min", home:"DEN", away:"MIN", home_seed:3, away_seed:6},
-    {id:"sas_por", home:"SAS", away:"POR", home_seed:2, away_seed:7},
+    {id:"okc_phx", home:"OKC", away:"PHX", home_seed:1, away_seed:8, round:1},
+    {id:"lal_hou", home:"LAL", away:"HOU", home_seed:4, away_seed:5, round:1},
+    {id:"den_min", home:"DEN", away:"MIN", home_seed:3, away_seed:6, round:1},
+    {id:"sas_por", home:"SAS", away:"POR", home_seed:2, away_seed:7, round:1},
+  ],
+};
+
+// Segundo Round — atualizar à medida que séries forem confirmadas
+// home/away null = a definir
+const BRACKET_DEF_R2 = {
+  West: [
+    {id:"okc_r2",  home:"OKC", away:null,  home_seed:1, away_seed:null, round:2},
+    {id:"sas_min", home:"SAS", away:"MIN", home_seed:2, away_seed:6,    round:2},
+  ],
+  East: [
+    {id:"e_sf1",   home:null,  away:null,  home_seed:null, away_seed:null, round:2},
+    {id:"nyk_r2",  home:"NYK", away:null,  home_seed:3,    away_seed:null, round:2},
   ],
 };
 
@@ -157,56 +172,75 @@ function fmtDate(d){
   return dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'});
 }
 
+const allDefs=[...Object.values(BRACKET_DEF).flat(),...Object.values(BRACKET_DEF_R2).flat()];
+
 function buildBracket(){
   const bracket=document.getElementById('bracket');
   bracket.innerHTML='';
+
+  // Cabeçalho R1
+  const h1=document.createElement('div');
+  h1.style.cssText='grid-column:1/-1;font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin-bottom:0.5rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea;';
+  h1.textContent='Primeiro Round';
+  bracket.appendChild(h1);
+  renderRound(bracket, BRACKET_DEF);
+
+  // Cabeçalho R2
+  const h2=document.createElement('div');
+  h2.style.cssText='grid-column:1/-1;font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin-top:2.5rem;margin-bottom:0.5rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea;';
+  h2.textContent='Semifinais de Conferência';
+  bracket.appendChild(h2);
+  renderRound(bracket, BRACKET_DEF_R2);
+}
+
+function teamRow(abbr, seed, isWinner, color){
+  if(!abbr) return `<div class="series-team-row"><span class="series-seed" style="color:#c7c7cc">${seed!=null?seed:'?'}</span><span style="font-size:12px;color:#c7c7cc;font-style:italic;margin-left:6px">A definir</span></div>`;
+  return `<div class="series-team-row">
+    <span class="series-seed">${seed}</span>
+    <img class="series-logo" src="${logoUrl(abbr)}" onerror="this.style.display='none'">
+    <span class="series-team-name" style="color:${isWinner?color:'#1d1d1f'};font-weight:${isWinner?700:500}">${TNAME[abbr]||abbr}</span>
+  </div>`;
+}
+
+function renderRound(bracket, defs){
   ['West','East'].forEach(conf=>{
     const col=document.createElement('div');
-    const title=document.createElement('div');
-    title.className='conf-title';
-    title.textContent=conf==='East'?'Conferência Leste':'Conferência Oeste';
-    col.appendChild(title);
     const list=document.createElement('div');
     list.className='series-list';
-    BRACKET_DEF[conf].forEach(def=>{
+    defs[conf].forEach(def=>{
+      const hasBoth=def.home&&def.away;
       const games=PLAYOFFS.series?.[def.id]||[];
       const scores=PLAYOFFS.series_scores?.[def.id]||{};
-      const t1wins=scores[def.home]||0;
-      const t2wins=scores[def.away]||0;
-      const c1=TC[def.home]||'#888';
-      const c2=TC[def.away]||'#888';
+      const t1wins=def.home?(scores[def.home]||0):0;
+      const t2wins=def.away?(scores[def.away]||0):0;
+      const c1=def.home?(TC[def.home]||'#888'):'#c7c7cc';
+      const c2=def.away?(TC[def.away]||'#888'):'#c7c7cc';
       const winner1=t1wins>t2wins;
       const winner2=t2wins>t1wins;
 
       const card=document.createElement('div');
-      card.className='series-card';
+      card.className='series-card'+(hasBoth?'':' tbd');
 
-      // Header com times e placar
-      card.innerHTML=`
-        <div class="series-card-header" onclick="showSerie('${def.id}')">
-          <div class="series-teams">
-            <div class="series-team-row">
-              <span class="series-seed">${def.home_seed}</span>
-              <img class="series-logo" src="${logoUrl(def.home)}" onerror="this.style.display='none'">
-              <span class="series-team-name" style="color:${winner1?c1:'#1d1d1f'};font-weight:${winner1?700:500}">${TNAME[def.home]||def.home}</span>
-            </div>
-            <div class="series-team-row">
-              <span class="series-seed">${def.away_seed}</span>
-              <img class="series-logo" src="${logoUrl(def.away)}" onerror="this.style.display='none'">
-              <span class="series-team-name" style="color:${winner2?c2:'#1d1d1f'};font-weight:${winner2?700:500}">${TNAME[def.away]||def.away}</span>
-            </div>
-          </div>
-          <div class="series-score-wrap">
-            <div class="series-score">
-              <span style="color:${winner1?c1:'#86868b'}">${t1wins}</span>
-              <span style="color:#e5e5ea;font-size:14px;margin:0 2px">–</span>
-              <span style="color:${winner2?c2:'#86868b'}">${t2wins}</span>
-            </div>
+      const headerInner=`
+        <div class="series-teams">
+          ${teamRow(def.home, def.home_seed, winner1, c1)}
+          ${teamRow(def.away, def.away_seed, winner2, c2)}
+        </div>
+        <div class="series-score-wrap">
+          <div class="series-score">
+            <span style="color:${winner1?c1:'#86868b'}">${def.home?t1wins:'–'}</span>
+            <span style="color:#e5e5ea;font-size:14px;margin:0 2px">–</span>
+            <span style="color:${winner2?c2:'#86868b'}">${def.away?t2wins:'–'}</span>
           </div>
         </div>`;
 
-      // Jogos como quadrados clicáveis
-      if(games.length){
+      if(hasBoth){
+        card.innerHTML=`<div class="series-card-header" onclick="showSerie('${def.id}')">${headerInner}</div>`;
+      } else {
+        card.innerHTML=`<div class="series-card-header" style="cursor:default">${headerInner}</div>`;
+      }
+
+      if(games.length&&hasBoth){
         const strip=document.createElement('div');
         strip.className='series-games-strip';
         games.forEach(g=>{
@@ -214,8 +248,6 @@ function buildBracket(){
           const gc=document.createElement('a');
           gc.className='game-box';
           gc.href=`jogo.html?id=${g.game_id}`;
-          const winTeam=g.winner;
-          const winColor=TC[winTeam]||'#888';
           gc.innerHTML=`
             <div class="game-box-num">Jogo ${g.game_number}</div>
             <div class="game-box-score">
@@ -334,8 +366,8 @@ function ffSection(label,rows,t1,t2,c1,c2){
 }
 
 function showSerie(id){
-  const def=Object.values(BRACKET_DEF).flat().find(d=>d.id===id);
-  if(!def) return;
+  const def=allDefs.find(d=>d.id===id);
+  if(!def||!def.home||!def.away) return;
   document.getElementById('home').classList.remove('active');
   document.getElementById('serie-page').classList.add('active');
   window.scrollTo(0,0);
@@ -420,7 +452,7 @@ function showSerie(id){
           <span style="color:#e5e5ea;font-size:20px;margin:0 4px">–</span>
           <span style="color:${w2>w1?c2:'#86868b'}">${w2}</span>
         </div>
-        <div class="serie-vs" style="margin-top:4px">Playoff 2026 · Primeiro Round</div>
+        <div class="serie-vs" style="margin-top:4px">Playoff 2026 · ${def.round===2?'Semifinais de Conferência':'Primeiro Round'}</div>
       </div>
       <div class="serie-team">
         <img class="serie-logo" src="${logoUrl(t2)}" onerror="this.style.display='none'">
