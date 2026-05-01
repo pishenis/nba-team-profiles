@@ -28,6 +28,7 @@ SERIES = [
     {"id": "bos_phi", "home": "BOS", "away": "PHI", "home_seed": 2, "away_seed": 7, "conf": "East"},
     {"id": "det_orl", "home": "DET", "away": "ORL", "home_seed": 1, "away_seed": 8, "conf": "East"},
     {"id": "okc_phx", "home": "OKC", "away": "PHX", "home_seed": 1, "away_seed": 8, "conf": "West"}
+    {"id": "sas_min", "home": "SAS", "away": "MIN", "home_seed": 2, "away_seed": 6, "conf": "West"},
     ]
 
 def fetch_gamelog(retries=3):

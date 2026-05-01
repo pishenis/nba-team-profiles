@@ -21,6 +21,7 @@ NBA_HEADERS = {
 # Mapeamento de abreviações para IDs de série
 # Chave = par de times ordenado alfabeticamente
 SERIES_MAP = {
+    # Primeiro Round
     frozenset(["OKC","PHX"]): "okc_phx",
     frozenset(["LAL","HOU"]): "lal_hou",
     frozenset(["DEN","MIN"]): "den_min",
@@ -29,6 +30,10 @@ SERIES_MAP = {
     frozenset(["CLE","TOR"]): "cle_tor",
     frozenset(["NYK","ATL"]): "nyk_atl",
     frozenset(["BOS","PHI"]): "bos_phi",
+    # Segundo Round — adicionar pares à medida que forem confirmados
+    frozenset(["SAS","MIN"]): "sas_min",
+    # frozenset(["OKC","LAL"]): "okc_r2",  # descomentar quando confirmado
+    # frozenset(["OKC","HOU"]): "okc_r2",  # alternativa
 }
 
 print("Coletando jogos de playoff...")
