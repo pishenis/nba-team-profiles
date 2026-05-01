@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "updated": "2026-04-19",
+  "updated": "2026-05-01",
   "series": {
     "lal_hou": {
       "conf": "West",
@@ -364,6 +364,46 @@
           "home_pts": 103,
           "away_pts": 135,
           "winner": "PHX"
+        }
+      ]
+    },
+    "sas_min": {
+      "conf": "West",
+      "home": "SAS",
+      "away": "MIN",
+      "home_seed": 2,
+      "away_seed": 6,
+      "regular_season_record": {
+        "SAS": 1,
+        "MIN": 2
+      },
+      "games": [
+        {
+          "game_id": "0022500306",
+          "date": "2025-11-30",
+          "home": "MIN",
+          "away": "SAS",
+          "home_pts": 125,
+          "away_pts": 112,
+          "winner": "MIN"
+        },
+        {
+          "game_id": "0022500552",
+          "date": "2026-01-11",
+          "home": "MIN",
+          "away": "SAS",
+          "home_pts": 104,
+          "away_pts": 103,
+          "winner": "MIN"
+        },
+        {
+          "game_id": "0022500598",
+          "date": "2026-01-17",
+          "home": "SAS",
+          "away": "MIN",
+          "home_pts": 126,
+          "away_pts": 123,
+          "winner": "SAS"
         }
       ]
     }
