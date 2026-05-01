@@ -177,34 +177,28 @@ const allDefs=[...Object.values(BRACKET_DEF).flat(),...Object.values(BRACKET_DEF
 function buildBracket(){
   const bracket=document.getElementById('bracket');
   bracket.innerHTML='';
-
-  // Cabeçalho R1
-  const h1=document.createElement('div');
-  h1.style.cssText='grid-column:1/-1;font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin-bottom:0.5rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea;';
-  h1.textContent='Primeiro Round';
-  bracket.appendChild(h1);
-  renderRound(bracket, BRACKET_DEF);
-
-  // Cabeçalho R2
-  const h2=document.createElement('div');
-  h2.style.cssText='grid-column:1/-1;font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin-top:2.5rem;margin-bottom:0.5rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea;';
-  h2.textContent='Semifinais de Conferência';
-  bracket.appendChild(h2);
-  renderRound(bracket, BRACKET_DEF_R2);
+  bracket.appendChild(roundSection('Primeiro Round', BRACKET_DEF, false));
+  bracket.appendChild(roundSection('Semifinais de Conferência', BRACKET_DEF_R2, true));
 }
 
-function teamRow(abbr, seed, isWinner, color){
-  if(!abbr) return `<div class="series-team-row"><span class="series-seed" style="color:#c7c7cc">${seed!=null?seed:'?'}</span><span style="font-size:12px;color:#c7c7cc;font-style:italic;margin-left:6px">A definir</span></div>`;
-  return `<div class="series-team-row">
-    <span class="series-seed">${seed}</span>
-    <img class="series-logo" src="${logoUrl(abbr)}" onerror="this.style.display='none'">
-    <span class="series-team-name" style="color:${isWinner?color:'#1d1d1f'};font-weight:${isWinner?700:500}">${TNAME[abbr]||abbr}</span>
-  </div>`;
-}
+function roundSection(label, defs, withMargin){
+  const section=document.createElement('div');
+  if(withMargin) section.style.marginTop='2.5rem';
 
-function renderRound(bracket, defs){
+  const h=document.createElement('div');
+  h.style.cssText='font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin-bottom:1rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea;';
+  h.textContent=label;
+  section.appendChild(h);
+
+  const grid=document.createElement('div');
+  grid.className='bracket-wrap';
+
   ['West','East'].forEach(conf=>{
     const col=document.createElement('div');
+    const title=document.createElement('div');
+    title.className='conf-title';
+    title.textContent=conf==='West'?'Conferência Oeste':'Conferência Leste';
+    col.appendChild(title);
     const list=document.createElement('div');
     list.className='series-list';
     defs[conf].forEach(def=>{
@@ -264,8 +258,20 @@ function renderRound(bracket, defs){
       list.appendChild(card);
     });
     col.appendChild(list);
-    bracket.appendChild(col);
+    grid.appendChild(col);
   });
+
+  section.appendChild(grid);
+  return section;
+}
+
+function teamRow(abbr, seed, isWinner, color){
+  if(!abbr) return `<div class="series-team-row"><span class="series-seed" style="color:#c7c7cc">${seed!=null?seed:'?'}</span><span style="font-size:12px;color:#c7c7cc;font-style:italic;margin-left:6px">A definir</span></div>`;
+  return `<div class="series-team-row">
+    <span class="series-seed">${seed}</span>
+    <img class="series-logo" src="${logoUrl(abbr)}" onerror="this.style.display='none'">
+    <span class="series-team-name" style="color:${isWinner?color:'#1d1d1f'};font-weight:${isWinner?700:500}">${TNAME[abbr]||abbr}</span>
+  </div>`;
 }
 
 function showHome(){
