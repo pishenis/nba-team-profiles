@@ -32,8 +32,7 @@ SERIES_MAP = {
     frozenset(["BOS","PHI"]): "bos_phi",
     # Segundo Round — adicionar pares à medida que forem confirmados
     frozenset(["SAS","MIN"]): "sas_min",
-    # frozenset(["OKC","LAL"]): "okc_r2",  # descomentar quando confirmado
-    # frozenset(["OKC","HOU"]): "okc_r2",  # alternativa
+    frozenset(["OKC","LAL"]): "okc_lal",
 }
 
 print("Coletando jogos de playoff...")

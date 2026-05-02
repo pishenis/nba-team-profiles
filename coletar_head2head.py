@@ -30,6 +30,7 @@ SERIES = [
     {"id": "okc_phx", "home": "OKC", "away": "PHX", "home_seed": 1, "away_seed": 8, "conf": "West"},
     # Segundo Round
     {"id": "sas_min", "home": "SAS", "away": "MIN", "home_seed": 2, "away_seed": 6, "conf": "West"},
+    {"id": "okc_lal", "home": "OKC", "away": "LAL", "home_seed": 1, "away_seed": 4, "conf": "West"}
 ]
 
 def fetch_gamelog(retries=3):
