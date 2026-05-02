@@ -52,6 +52,16 @@
         "away_pts": 120,
         "winner": "CLE",
         "game_number": 5
+      },
+      {
+        "game_id": "0042500136",
+        "date": "2026-05-01",
+        "home": "TOR",
+        "away": "CLE",
+        "home_pts": 94,
+        "away_pts": 85,
+        "winner": "TOR",
+        "game_number": 6
       }
     ],
     "den_min": [
@@ -394,6 +404,16 @@
         "away_pts": 109,
         "winner": "DET",
         "game_number": 5
+      },
+      {
+        "game_id": "0042500106",
+        "date": "2026-05-01",
+        "home": "ORL",
+        "away": "DET",
+        "home_pts": 79,
+        "away_pts": 93,
+        "winner": "DET",
+        "game_number": 6
       }
     ],
     "okc_phx": [
@@ -441,36 +461,36 @@
   },
   "series_scores": {
     "cle_tor": {
-      "TOR": 2,
+      "TOR": 3,
       "CLE": 3
     },
     "den_min": {
-      "MIN": 4,
-      "DEN": 2
+      "DEN": 2,
+      "MIN": 4
     },
     "lal_hou": {
-      "HOU": 2,
-      "LAL": 3
+      "LAL": 3,
+      "HOU": 2
     },
     "nyk_atl": {
       "ATL": 2,
       "NYK": 4
     },
     "bos_phi": {
-      "PHI": 3,
-      "BOS": 3
+      "BOS": 3,
+      "PHI": 3
     },
     "sas_por": {
       "SAS": 4,
       "POR": 1
     },
     "det_orl": {
-      "DET": 2,
-      "ORL": 3
+      "ORL": 3,
+      "DET": 3
     },
     "okc_phx": {
-      "PHX": 0,
-      "OKC": 4
+      "OKC": 4,
+      "PHX": 0
     }
   }
 }
