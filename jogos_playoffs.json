@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "updated": "2026-05-01",
+  "updated": "2026-05-02",
   "series": {
     "cle_tor": [
       {
@@ -58,8 +58,8 @@
         "date": "2026-05-01",
         "home": "TOR",
         "away": "CLE",
-        "home_pts": 94,
-        "away_pts": 85,
+        "home_pts": 112,
+        "away_pts": 110,
         "winner": "TOR",
         "game_number": 6
       }
@@ -176,6 +176,16 @@
         "away_pts": 99,
         "winner": "HOU",
         "game_number": 5
+      },
+      {
+        "game_id": "0042500176",
+        "date": "2026-05-01",
+        "home": "HOU",
+        "away": "LAL",
+        "home_pts": 78,
+        "away_pts": 98,
+        "winner": "LAL",
+        "game_number": 6
       }
     ],
     "nyk_atl": [
@@ -461,15 +471,15 @@
   },
   "series_scores": {
     "cle_tor": {
-      "TOR": 3,
-      "CLE": 3
+      "CLE": 3,
+      "TOR": 3
     },
     "den_min": {
       "MIN": 4,
       "DEN": 2
     },
     "lal_hou": {
-      "LAL": 3,
+      "LAL": 4,
       "HOU": 2
     },
     "nyk_atl": {
@@ -489,8 +499,8 @@
       "DET": 3
     },
     "okc_phx": {
-      "OKC": 4,
-      "PHX": 0
+      "PHX": 0,
+      "OKC": 4
     }
   }
 }
