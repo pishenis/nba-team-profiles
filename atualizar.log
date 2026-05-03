@@ -6261,3 +6261,85 @@ Feito! head2head.json criado com 10 séries.
 Carregando jogos_playoffs.json...
   45 jogos no total · 45 OK · 0 para coletar
 Nada a coletar.
+[main 00c66fb] Atualizacao playoffs 2026-05-02
+ 2 files changed, 69 insertions(+), 12 deletions(-)
+To https://github.com/pishenis/nba-team-profiles.git
+   3c5f0a4..00c66fb  main -> main
+Sat May  2 16:20:25 -03 2026: Atualizacao concluida.
+Sun May  3 08:25:31 -03 2026: Iniciando atualizacao...
+Coletando jogos de playoff...
+  92 registros encontrados
+  46 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 3-3 TOR (6 jogos)
+  den_min: DEN 2-4 MIN (6 jogos)
+  lal_hou: LAL 4-2 HOU (6 jogos)
+  nyk_atl: NYK 4-2 ATL (6 jogos)
+  bos_phi: BOS 3-4 PHI (7 jogos)
+  sas_por: SAS 4-1 POR (5 jogos)
+  det_orl: DET 3-3 ORL (6 jogos)
+  okc_phx: PHX 0-4 OKC (4 jogos)
+Coletando game log da temporada...
+  2460 registros encontrados
+  1225 jogos do mandante
+
+Processando LAL vs HOU...
+  3 jogos encontrados · LAL 2-1 HOU
+
+Processando DEN vs MIN...
+  4 jogos encontrados · DEN 3-1 MIN
+
+Processando CLE vs TOR...
+  3 jogos encontrados · CLE 0-3 TOR
+
+Processando NYK vs ATL...
+  3 jogos encontrados · NYK 2-1 ATL
+
+Processando SAS vs POR...
+  3 jogos encontrados · SAS 2-1 POR
+
+Processando BOS vs PHI...
+  4 jogos encontrados · BOS 2-2 PHI
+
+Processando DET vs ORL...
+  4 jogos encontrados · DET 2-2 ORL
+
+Processando OKC vs PHX...
+  5 jogos encontrados · OKC 3-2 PHX
+
+Processando SAS vs MIN...
+  3 jogos encontrados · SAS 1-2 MIN
+
+Processando OKC vs LAL...
+  4 jogos encontrados · OKC 4-0 LAL
+
+Feito! head2head.json criado com 10 séries.
+Coletando dados do jogo 0042500117...
+Coletando resumo...
+  PHI 109 @ BOS 100 · 2026-05-02
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: BOS 0:31 · PHI 47:10
+  Trocas: 2 · Empates: 0
+  Run BOS: 18-4 (11:54 2Q a 6:54 2Q)
+  Run PHI: 19-8 (7:24 3Q a 2:24 3Q)
+  Sequência sem resposta: BOS 10 · PHI 9
+Coletando matchups...
+  Tentativa 1 falhou, aguardando 5s...
+  Tentativa 2 falhou, aguardando 5s...
+  ERRO: list index out of range
+
+Feito! jogo_0042500117.json criado.
+  Box score: 10 BOS · 9 PHI
+  Timeline: 122 eventos · Arremessos: 175
+  Matchups filtrados: 0
+Carregando jogos_playoffs.json...
+  46 jogos no total · 45 OK · 1 para coletar
+
+[1/1] bos_phi · Jogo 7 · PHI @ BOS (0042500117) · não coletado
+
+Feito! 1 jogos coletados.

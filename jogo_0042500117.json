@@ -1,0 +1,3259 @@
+{
+  "game_id": "0042500117",
+  "date": "2026-05-02",
+  "home": "BOS",
+  "away": "PHI",
+  "home_pts": 100,
+  "away_pts": 109,
+  "winner": "PHI",
+  "game_flow": {
+    "quarter_scores": {
+      "BOS": [
+        19,
+        31,
+        25,
+        25
+      ],
+      "PHI": [
+        32,
+        23,
+        33,
+        21
+      ]
+    },
+    "num_periods": 4,
+    "lead_changes": 2,
+    "ties": 0,
+    "time_leading_home_fmt": "0:31",
+    "time_leading_away_fmt": "47:10",
+    "time_tied_fmt": "0:19",
+    "best_run_home": {
+      "pts_home": 18,
+      "pts_away": 4,
+      "start_min": 12.1,
+      "end_min": 17.1
+    },
+    "best_run_away": {
+      "pts_home": 8,
+      "pts_away": 19,
+      "start_min": 28.6,
+      "end_min": 33.6
+    },
+    "max_consec_home": 10,
+    "max_consec_away": 9
+  },
+  "four_factors": {
+    "BOS": {
+      "efg": 46.8,
+      "ftr": 0.172,
+      "tov": 5.3,
+      "oreb": 19.3,
+      "opp_efg": 54.3,
+      "opp_ftr": 0.28,
+      "opp_tov": 9.6,
+      "opp_oreb": 20.0
+    },
+    "PHI": {
+      "efg": 54.3,
+      "ftr": 0.28,
+      "tov": 9.6,
+      "oreb": 20.0,
+      "opp_efg": 46.8,
+      "opp_ftr": 0.172,
+      "opp_tov": 5.3,
+      "opp_oreb": 19.3
+    }
+  },
+  "misc": {
+    "BOS": {
+      "pts_fb": 11,
+      "pts_paint": 40,
+      "pts_2nd_chance": 9,
+      "blocks": 7
+    },
+    "PHI": {
+      "pts_fb": 9,
+      "pts_paint": 42,
+      "pts_2nd_chance": 13,
+      "blocks": 1
+    }
+  },
+  "hustle": {
+    "BOS": {
+      "deflections": 3,
+      "contested_shots": 30,
+      "contested_2pt": 20,
+      "contested_3pt": 10,
+      "charges_drawn": 1
+    },
+    "PHI": {
+      "deflections": 4,
+      "contested_shots": 19,
+      "contested_2pt": 9,
+      "contested_3pt": 10,
+      "charges_drawn": 0
+    }
+  },
+  "box_score": {
+    "BOS": [
+      {
+        "id": "1631248",
+        "name": "B. Scheierman",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "22:25",
+        "pts": 0,
+        "oreb": 2,
+        "dreb": 4,
+        "reb": 6,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -9,
+        "starter": true
+      },
+      {
+        "id": "1627759",
+        "name": "J. Brown",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "40:01",
+        "pts": 33,
+        "oreb": 1,
+        "dreb": 8,
+        "reb": 9,
+        "ast": 4,
+        "stl": 0,
+        "blk": 3,
+        "tov": 3,
+        "fgm": 12,
+        "fga": 27,
+        "fg3m": 3,
+        "fg3a": 9,
+        "ftm": 6,
+        "fta": 6,
+        "plus_minus": -16,
+        "starter": true
+      },
+      {
+        "id": "1630568",
+        "name": "L. Garza",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "8:38",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -15,
+        "starter": true
+      },
+      {
+        "id": "1631199",
+        "name": "R. Harper Jr.",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "4:02",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -7,
+        "starter": true
+      },
+      {
+        "id": "1628401",
+        "name": "D. White",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "45:22",
+        "pts": 26,
+        "oreb": 2,
+        "dreb": 4,
+        "reb": 6,
+        "ast": 4,
+        "stl": 0,
+        "blk": 3,
+        "tov": 0,
+        "fgm": 9,
+        "fga": 26,
+        "fg3m": 5,
+        "fg3a": 16,
+        "ftm": 3,
+        "fta": 4,
+        "plus_minus": -6,
+        "starter": true
+      },
+      {
+        "id": "1630202",
+        "name": "P. Pritchard",
+        "pos": "",
+        "jersey": "",
+        "minutes": "39:22",
+        "pts": 13,
+        "oreb": 2,
+        "dreb": 3,
+        "reb": 5,
+        "ast": 7,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 13,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 1,
+        "fta": 1,
+        "plus_minus": -2,
+        "starter": true
+      },
+      {
+        "id": "1629674",
+        "name": "N. Queta",
+        "pos": "",
+        "jersey": "",
+        "minutes": "32:33",
+        "pts": 17,
+        "oreb": 1,
+        "dreb": 11,
+        "reb": 12,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 7,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 3,
+        "fta": 3,
+        "plus_minus": 9,
+        "starter": true
+      },
+      {
+        "id": "1630573",
+        "name": "S. Hauser",
+        "pos": "",
+        "jersey": "",
+        "minutes": "29:49",
+        "pts": 11,
+        "oreb": 1,
+        "dreb": 2,
+        "reb": 3,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 7,
+        "fg3m": 3,
+        "fg3a": 6,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -3,
+        "starter": true
+      },
+      {
+        "id": "1641775",
+        "name": "J. Walsh",
+        "pos": "",
+        "jersey": "",
+        "minutes": "4:51",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 1,
+        "starter": true
+      },
+      {
+        "id": "1642864",
+        "name": "H. Gonz\u00e1lez",
+        "pos": "",
+        "jersey": "",
+        "minutes": "12:57",
+        "pts": 0,
+        "oreb": 1,
+        "dreb": 2,
+        "reb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 2,
+        "plus_minus": 3,
+        "starter": true
+      }
+    ],
+    "PHI": [
+      {
+        "id": "1626162",
+        "name": "K. Oubre Jr.",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "31:09",
+        "pts": 6,
+        "oreb": 0,
+        "dreb": 5,
+        "reb": 5,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 6,
+        "starter": true
+      },
+      {
+        "id": "202331",
+        "name": "P. George",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "41:50",
+        "pts": 13,
+        "oreb": 0,
+        "dreb": 3,
+        "reb": 3,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 5,
+        "fga": 10,
+        "fg3m": 3,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 9,
+        "starter": true
+      },
+      {
+        "id": "203954",
+        "name": "J. Embiid",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "39:05",
+        "pts": 34,
+        "oreb": 2,
+        "dreb": 10,
+        "reb": 12,
+        "ast": 6,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 12,
+        "fga": 26,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 9,
+        "fta": 11,
+        "plus_minus": 11,
+        "starter": true
+      },
+      {
+        "id": "1642845",
+        "name": "V. Edgecombe",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "43:42",
+        "pts": 23,
+        "oreb": 1,
+        "dreb": 5,
+        "reb": 6,
+        "ast": 4,
+        "stl": 0,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 8,
+        "fga": 17,
+        "fg3m": 5,
+        "fg3a": 11,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 19,
+        "starter": true
+      },
+      {
+        "id": "1630178",
+        "name": "T. Maxey",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "45:15",
+        "pts": 30,
+        "oreb": 0,
+        "dreb": 11,
+        "reb": 11,
+        "ast": 7,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 11,
+        "fga": 18,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 6,
+        "fta": 6,
+        "plus_minus": 8,
+        "starter": true
+      },
+      {
+        "id": "1629656",
+        "name": "Q. Grimes",
+        "pos": "",
+        "jersey": "",
+        "minutes": "26:07",
+        "pts": 3,
+        "oreb": 0,
+        "dreb": 6,
+        "reb": 6,
+        "ast": 4,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": 1,
+        "starter": true
+      },
+      {
+        "id": "203083",
+        "name": "A. Drummond",
+        "pos": "",
+        "jersey": "",
+        "minutes": "8:28",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 1,
+        "reb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -2,
+        "starter": true
+      },
+      {
+        "id": "1642348",
+        "name": "J. Edwards",
+        "pos": "",
+        "jersey": "",
+        "minutes": "2:16",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -8,
+        "starter": true
+      },
+      {
+        "id": "1631230",
+        "name": "D. Barlow",
+        "pos": "",
+        "jersey": "",
+        "minutes": "2:08",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 1,
+        "starter": true
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 0.32,
+      "home": 0,
+      "away": 2,
+      "period": 1
+    },
+    {
+      "min": 0.83,
+      "home": 0,
+      "away": 4,
+      "period": 1
+    },
+    {
+      "min": 1.67,
+      "home": 0,
+      "away": 6,
+      "period": 1
+    },
+    {
+      "min": 2.63,
+      "home": 0,
+      "away": 9,
+      "period": 1
+    },
+    {
+      "min": 3.05,
+      "home": 3,
+      "away": 9,
+      "period": 1
+    },
+    {
+      "min": 3.48,
+      "home": 3,
+      "away": 11,
+      "period": 1
+    },
+    {
+      "min": 4.03,
+      "home": 4,
+      "away": 11,
+      "period": 1
+    },
+    {
+      "min": 4.35,
+      "home": 4,
+      "away": 13,
+      "period": 1
+    },
+    {
+      "min": 4.7,
+      "home": 6,
+      "away": 13,
+      "period": 1
+    },
+    {
+      "min": 5.23,
+      "home": 6,
+      "away": 13,
+      "period": 1
+    },
+    {
+      "min": 5.32,
+      "home": 6,
+      "away": 15,
+      "period": 1
+    },
+    {
+      "min": 5.87,
+      "home": 6,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 6.5,
+      "home": 9,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 6.82,
+      "home": 9,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 6.98,
+      "home": 11,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 7.35,
+      "home": 12,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 7.35,
+      "home": 13,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 8.2,
+      "home": 13,
+      "away": 21,
+      "period": 1
+    },
+    {
+      "min": 8.48,
+      "home": 13,
+      "away": 23,
+      "period": 1
+    },
+    {
+      "min": 8.72,
+      "home": 15,
+      "away": 23,
+      "period": 1
+    },
+    {
+      "min": 8.92,
+      "home": 15,
+      "away": 25,
+      "period": 1
+    },
+    {
+      "min": 9.43,
+      "home": 15,
+      "away": 28,
+      "period": 1
+    },
+    {
+      "min": 10.08,
+      "home": 15,
+      "away": 30,
+      "period": 1
+    },
+    {
+      "min": 10.4,
+      "home": 17,
+      "away": 30,
+      "period": 1
+    },
+    {
+      "min": 11.35,
+      "home": 19,
+      "away": 30,
+      "period": 1
+    },
+    {
+      "min": 11.69,
+      "home": 19,
+      "away": 32,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 19,
+      "away": 32,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 19,
+      "away": 32,
+      "period": 2
+    },
+    {
+      "min": 12.3,
+      "home": 20,
+      "away": 32,
+      "period": 2
+    },
+    {
+      "min": 12.3,
+      "home": 21,
+      "away": 32,
+      "period": 2
+    },
+    {
+      "min": 12.67,
+      "home": 21,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 13.02,
+      "home": 23,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 13.43,
+      "home": 25,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 14.12,
+      "home": 27,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 14.48,
+      "home": 27,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 15.3,
+      "home": 29,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 16.02,
+      "home": 31,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 16.57,
+      "home": 34,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 17.13,
+      "home": 37,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 17.65,
+      "home": 37,
+      "away": 38,
+      "period": 2
+    },
+    {
+      "min": 18.05,
+      "home": 37,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 18.52,
+      "home": 40,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 18.75,
+      "home": 40,
+      "away": 43,
+      "period": 2
+    },
+    {
+      "min": 18.75,
+      "home": 40,
+      "away": 44,
+      "period": 2
+    },
+    {
+      "min": 19.4,
+      "home": 40,
+      "away": 45,
+      "period": 2
+    },
+    {
+      "min": 19.65,
+      "home": 42,
+      "away": 45,
+      "period": 2
+    },
+    {
+      "min": 20.4,
+      "home": 42,
+      "away": 47,
+      "period": 2
+    },
+    {
+      "min": 21.02,
+      "home": 45,
+      "away": 47,
+      "period": 2
+    },
+    {
+      "min": 21.5,
+      "home": 45,
+      "away": 50,
+      "period": 2
+    },
+    {
+      "min": 22.3,
+      "home": 45,
+      "away": 51,
+      "period": 2
+    },
+    {
+      "min": 22.48,
+      "home": 47,
+      "away": 51,
+      "period": 2
+    },
+    {
+      "min": 22.83,
+      "home": 47,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 22.83,
+      "home": 47,
+      "away": 53,
+      "period": 2
+    },
+    {
+      "min": 22.95,
+      "home": 50,
+      "away": 53,
+      "period": 2
+    },
+    {
+      "min": 23.87,
+      "home": 50,
+      "away": 55,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 50,
+      "away": 55,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 50,
+      "away": 55,
+      "period": 3
+    },
+    {
+      "min": 24.35,
+      "home": 52,
+      "away": 55,
+      "period": 3
+    },
+    {
+      "min": 24.73,
+      "home": 52,
+      "away": 58,
+      "period": 3
+    },
+    {
+      "min": 25.32,
+      "home": 52,
+      "away": 61,
+      "period": 3
+    },
+    {
+      "min": 26.33,
+      "home": 52,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 26.58,
+      "home": 54,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 26.58,
+      "home": 55,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 26.83,
+      "home": 55,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 27.43,
+      "home": 58,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 28.87,
+      "home": 58,
+      "away": 68,
+      "period": 3
+    },
+    {
+      "min": 29.37,
+      "home": 61,
+      "away": 68,
+      "period": 3
+    },
+    {
+      "min": 29.85,
+      "home": 61,
+      "away": 70,
+      "period": 3
+    },
+    {
+      "min": 29.95,
+      "home": 62,
+      "away": 70,
+      "period": 3
+    },
+    {
+      "min": 29.95,
+      "home": 63,
+      "away": 70,
+      "period": 3
+    },
+    {
+      "min": 30.13,
+      "home": 63,
+      "away": 71,
+      "period": 3
+    },
+    {
+      "min": 30.13,
+      "home": 63,
+      "away": 72,
+      "period": 3
+    },
+    {
+      "min": 30.53,
+      "home": 63,
+      "away": 74,
+      "period": 3
+    },
+    {
+      "min": 31.47,
+      "home": 63,
+      "away": 76,
+      "period": 3
+    },
+    {
+      "min": 31.63,
+      "home": 66,
+      "away": 76,
+      "period": 3
+    },
+    {
+      "min": 32.7,
+      "home": 66,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 33.17,
+      "home": 66,
+      "away": 81,
+      "period": 3
+    },
+    {
+      "min": 33.6,
+      "home": 66,
+      "away": 84,
+      "period": 3
+    },
+    {
+      "min": 33.88,
+      "home": 68,
+      "away": 84,
+      "period": 3
+    },
+    {
+      "min": 35.01,
+      "home": 70,
+      "away": 84,
+      "period": 3
+    },
+    {
+      "min": 35.32,
+      "home": 70,
+      "away": 87,
+      "period": 3
+    },
+    {
+      "min": 35.5,
+      "home": 73,
+      "away": 87,
+      "period": 3
+    },
+    {
+      "min": 35.88,
+      "home": 73,
+      "away": 88,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 88,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 88,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 88,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 88,
+      "period": 4
+    },
+    {
+      "min": 36.93,
+      "home": 78,
+      "away": 88,
+      "period": 4
+    },
+    {
+      "min": 37.55,
+      "home": 80,
+      "away": 88,
+      "period": 4
+    },
+    {
+      "min": 37.83,
+      "home": 80,
+      "away": 89,
+      "period": 4
+    },
+    {
+      "min": 37.83,
+      "home": 80,
+      "away": 90,
+      "period": 4
+    },
+    {
+      "min": 38.05,
+      "home": 82,
+      "away": 90,
+      "period": 4
+    },
+    {
+      "min": 38.57,
+      "home": 84,
+      "away": 90,
+      "period": 4
+    },
+    {
+      "min": 38.98,
+      "home": 84,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 39.08,
+      "home": 84,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 39.08,
+      "home": 85,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 39.32,
+      "home": 87,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 39.32,
+      "home": 88,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 40.02,
+      "home": 90,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 40.02,
+      "home": 91,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 40.33,
+      "home": 91,
+      "away": 95,
+      "period": 4
+    },
+    {
+      "min": 42.13,
+      "home": 94,
+      "away": 95,
+      "period": 4
+    },
+    {
+      "min": 42.67,
+      "home": 94,
+      "away": 95,
+      "period": 4
+    },
+    {
+      "min": 42.67,
+      "home": 94,
+      "away": 96,
+      "period": 4
+    },
+    {
+      "min": 42.67,
+      "home": 94,
+      "away": 97,
+      "period": 4
+    },
+    {
+      "min": 42.97,
+      "home": 96,
+      "away": 97,
+      "period": 4
+    },
+    {
+      "min": 43.25,
+      "home": 96,
+      "away": 98,
+      "period": 4
+    },
+    {
+      "min": 43.25,
+      "home": 96,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 43.87,
+      "home": 96,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 44.18,
+      "home": 97,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 44.18,
+      "home": 98,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 46.0,
+      "home": 98,
+      "away": 101,
+      "period": 4
+    },
+    {
+      "min": 46.75,
+      "home": 98,
+      "away": 103,
+      "period": 4
+    },
+    {
+      "min": 47.66,
+      "home": 98,
+      "away": 104,
+      "period": 4
+    },
+    {
+      "min": 47.66,
+      "home": 98,
+      "away": 105,
+      "period": 4
+    },
+    {
+      "min": 47.74,
+      "home": 98,
+      "away": 106,
+      "period": 4
+    },
+    {
+      "min": 47.74,
+      "home": 98,
+      "away": 107,
+      "period": 4
+    },
+    {
+      "min": 47.83,
+      "home": 100,
+      "away": 107,
+      "period": 4
+    },
+    {
+      "min": 47.85,
+      "home": 100,
+      "away": 108,
+      "period": 4
+    },
+    {
+      "min": 47.85,
+      "home": 100,
+      "away": 109,
+      "period": 4
+    },
+    {
+      "min": 48.0,
+      "home": 100,
+      "away": 109,
+      "period": 4
+    }
+  ],
+  "shots": [
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -54,
+      "y": 138,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Embiid 15' Jump Shot (2 PTS) (Maxey 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -97,
+      "y": 238,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Brown 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 7,
+      "y": 1,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Edgecombe 1' Running Layup (2 PTS) (Embiid 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -137,
+      "y": 238,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS White 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -109,
+      "y": 31,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Embiid 11' Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "L. Garza",
+      "x": -15,
+      "y": 288,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Garza 29' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 4,
+      "y": 9,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "George 1' Driving Dunk (2 PTS) (Maxey 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 33,
+      "y": -6,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Brown 3' Running Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 205,
+      "y": 125,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Edgecombe 24' 3PT Jump Shot (5 PTS) (Maxey 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 227,
+      "y": 78,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "White 24' 3PT Jump Shot (3 PTS) (Scheierman 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 132,
+      "y": 234,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Maxey 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "R. Harper Jr.",
+      "x": -205,
+      "y": 153,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Harper Jr. 26' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 9,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Maxey 1' Running Layup (2 PTS) (Embiid 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -64,
+      "y": 132,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Brown 15' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": -223,
+      "y": 29,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Oubre Jr. 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 6,
+      "y": 9,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Oubre Jr. 1' Cutting Dunk Shot (2 PTS) (Maxey 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -6,
+      "y": 6,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Pritchard 1' Driving Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 23,
+      "y": 247,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Edgecombe 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 17,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Edgecombe 2' Cutting Layup Shot (7 PTS) (Embiid 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -233,
+      "y": 42,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Pritchard 24' 3PT Step Back Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 13,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Oubre Jr. 2' Cutting Dunk Shot (4 PTS) (Embiid 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "L. Garza",
+      "x": -32,
+      "y": 257,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Garza 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 23,
+      "y": 25,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Oubre Jr. 3' Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -131,
+      "y": 291,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "White 32' 3PT Jump Shot (7 PTS) (Pritchard 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 59,
+      "y": 116,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Embiid 13' Jump Shot (4 PTS) (Maxey 5 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -94,
+      "y": 136,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Brown 17' Fadeaway Jumper (2 PTS) (Pritchard 2 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 227,
+      "y": 29,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Oubre Jr. 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -44,
+      "y": 247,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Embiid 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 109,
+      "y": 25,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Brown 11' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -108,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Embiid 11' Turnaround Fadeaway (6 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": 153,
+      "y": 190,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Pritchard 24' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -32,
+      "y": -4,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Edgecombe 3' Running Layup (9 PTS) (Maxey 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -13,
+      "y": 29,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Brown 3' Driving Dunk (6 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 37,
+      "y": 30,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Maxey 5' Driving Floating Jump Shot (4 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 161,
+      "y": 221,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS White 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 87,
+      "y": 236,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "George 25' 3PT Jump Shot (5 PTS) (Embiid 5 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Walsh",
+      "x": -227,
+      "y": 43,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Walsh 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 58,
+      "y": 151,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Embiid 16' Jump Shot (8 PTS) (Edgecombe 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -81,
+      "y": 174,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Brown 19' Pullup Jump Shot (8 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Walsh",
+      "x": 189,
+      "y": 170,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Walsh 25' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 134,
+      "y": 16,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS George 13' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "N. Queta",
+      "x": 21,
+      "y": 7,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Queta 2' Alley Oop Dunk (2 PTS) (Pritchard 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 36,
+      "y": 75,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Embiid 8' Jump Bank Shot (10 PTS) (Edgecombe 2 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 104,
+      "y": 161,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Maxey 19' Fadeaway Jumper (6 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 27,
+      "y": 55,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "White 6' Fadeaway Jumper (11 PTS) (Pritchard 4 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 53,
+      "y": 7,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "White 5' Driving Floating Jump Shot (13 PTS) (Queta 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Edwards",
+      "x": 22,
+      "y": 88,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Edwards 9' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "N. Queta",
+      "x": -21,
+      "y": 20,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Queta 3' Driving Reverse Layup (4 PTS) (White 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -120,
+      "y": 58,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "George 13' Jump Shot (7 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -67,
+      "y": 131,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS White 15' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 42,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Maxey 4' Driving Finger Roll Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "N. Queta",
+      "x": -9,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Queta 2' Cutting Dunk Shot (6 PTS) (Pritchard 5 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -151,
+      "y": 222,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Edgecombe 27' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "Q. Grimes",
+      "x": -234,
+      "y": 35,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Grimes 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -39,
+      "y": 55,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Pritchard 7' Driving Floating Jump Shot (4 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": -224,
+      "y": -5,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Oubre Jr. 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -26,
+      "y": 122,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Embiid 12' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -156,
+      "y": 220,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "White 27' 3PT Running Pull-Up Jump Shot (16 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -169,
+      "y": 197,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Pritchard 26' 3PT Step Back Jump Shot (7 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 77,
+      "y": 151,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Embiid 17' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "Q. Grimes",
+      "x": -11,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Grimes 2' Cutting Dunk Shot (2 PTS) (Edgecombe 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": 28,
+      "y": 123,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Pritchard 13' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -172,
+      "y": 183,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Edgecombe 25' 3PT Running Jump Shot (12 PTS) (Maxey 7 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 49,
+      "y": 247,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Brown 25' 3PT Fadeaway Jumper (11 PTS) (Pritchard 6 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 38,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Embiid 4' Cutting Layup Shot (12 PTS) (Grimes 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 194,
+      "y": 174,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS White 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -26,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Pritchard 3' Driving Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -50,
+      "y": 112,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Brown 12' Turnaround Fadeaway (13 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 120,
+      "y": 235,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Edgecombe 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 15,
+      "y": 13,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS White 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "Q. Grimes",
+      "x": -48,
+      "y": 42,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Grimes 6' Running Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -11,
+      "y": -11,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Embiid 2' Putback Layup (16 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 112,
+      "y": 23,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS White 11' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 55,
+      "y": 113,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Embiid 13' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "S. Hauser",
+      "x": 206,
+      "y": 132,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Hauser 24' 3PT Running Jump Shot (3 PTS) (Brown 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "Q. Grimes",
+      "x": -39,
+      "y": 30,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Grimes 5' Driving Dunk",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -150,
+      "y": 206,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "George 25' 3PT Jump Shot (10 PTS) (Grimes 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "H. Gonz\u00e1lez",
+      "x": -113,
+      "y": 244,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Gonzalez 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 28,
+      "y": -10,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Brown 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "N. Queta",
+      "x": 1,
+      "y": 20,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Queta 2' Driving Dunk (8 PTS) (Brown 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 241,
+      "y": 27,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Edgecombe 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -97,
+      "y": 264,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "White 28' 3PT Pullup Jump Shot (19 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 42,
+      "y": 19,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Maxey 5' Driving Reverse Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -89,
+      "y": 111,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Embiid 14' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 39,
+      "y": 12,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Brown 4' Running Dunk",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 17,
+      "y": 171,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Maxey 17' Step Back Jump Shot (8 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 54,
+      "y": 31,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS White 6' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "N. Queta",
+      "x": -21,
+      "y": -2,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Queta 2' Driving Layup (10 PTS) (White 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 201,
+      "y": 160,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Edgecombe 26' 3PT Jump Shot (15 PTS) (Embiid 6 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -82,
+      "y": 246,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS White 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -9,
+      "y": 309,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Maxey 31' 3PT Pullup Jump Shot (11 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -153,
+      "y": 209,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Brown 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -72,
+      "y": 116,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Embiid 14' Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 179,
+      "y": 176,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS White 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 176,
+      "y": 218,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS White 28' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -186,
+      "y": 25,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Maxey 19' Fadeaway Jumper (13 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 12,
+      "y": 140,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Brown 14' Pullup Jump Shot (15 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -31,
+      "y": 12,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Embiid 3' Turnaround Hook Shot (21 PTS) (Oubre Jr. 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 67,
+      "y": -4,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Brown 7' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -186,
+      "y": 209,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Maxey 28' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": 17,
+      "y": 271,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Pritchard 27' 3PT Running Jump Shot (10 PTS) (Brown 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -42,
+      "y": 27,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Edgecombe 5' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "B. Scheierman",
+      "x": 112,
+      "y": 4,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Scheierman 11' Driving Floating Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 1,
+      "y": 257,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS White 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 40,
+      "y": 268,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS George 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "B. Scheierman",
+      "x": -180,
+      "y": 179,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Scheierman 25' 3PT Fadeaway Jumper",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 174,
+      "y": 222,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Maxey 28' 3PT Jump Shot (16 PTS) (Edgecombe 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "B. Scheierman",
+      "x": -233,
+      "y": 4,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Scheierman 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "BOS",
+      "player": "H. Gonz\u00e1lez",
+      "x": 230,
+      "y": 31,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Gonzalez 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -88,
+      "y": 231,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Brown 25' 3PT Jump Shot (19 PTS) (Scheierman 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -9,
+      "y": 33,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Embiid 3' Driving Hook Shot (23 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -136,
+      "y": 222,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Brown 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 21,
+      "y": 12,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Maxey 2' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -38,
+      "y": 18,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Embiid 4' Putback Layup (27 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -44,
+      "y": 21,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Brown 5' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 28,
+      "y": 7,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Edgecombe 3' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "H. Gonz\u00e1lez",
+      "x": -230,
+      "y": 3,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Gonzalez 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 11,
+      "y": 62,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Maxey 6' Driving Floating Jump Shot (18 PTS) (George 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "S. Hauser",
+      "x": -153,
+      "y": 200,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Hauser 25' 3PT Jump Shot (6 PTS) (Pritchard 7 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -28,
+      "y": 83,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Edgecombe 9' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -83,
+      "y": 75,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Pritchard 11' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -221,
+      "y": 137,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "George 26' 3PT Step Back Jump Shot (13 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "B. Scheierman",
+      "x": 227,
+      "y": 45,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Scheierman 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 40,
+      "y": 91,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Maxey 10' Fadeaway Jumper (20 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -156,
+      "y": 230,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Pritchard 28' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 165,
+      "y": 200,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Edgecombe 26' 3PT Jump Shot (18 PTS) (Drummond 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -103,
+      "y": 46,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS White 11' Driving Floating Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "S. Hauser",
+      "x": -21,
+      "y": 6,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Hauser 2' Putback Layup (8 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 188,
+      "y": 170,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS George 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -151,
+      "y": 198,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS White 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 51,
+      "y": 120,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Maxey 13' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -39,
+      "y": -8,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Brown 4' Driving Layup (23 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -227,
+      "y": 39,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Edgecombe 3PT Jump Shot (21 PTS) (Grimes 3 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 229,
+      "y": 140,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Brown 27' 3PT Step Back Jump Shot (26 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 64,
+      "y": 29,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "White 7' Fadeaway Bank Shot (21 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -33,
+      "y": 13,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Embiid 4' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -150,
+      "y": 221,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Brown 27' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 201,
+      "y": 163,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Edgecombe 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "S. Hauser",
+      "x": -61,
+      "y": 251,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Hauser 26' 3PT Jump Shot (11 PTS) (Brown 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -86,
+      "y": 151,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Embiid 17' Turnaround Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -7,
+      "y": -15,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "White 2' Running Layup (23 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "S. Hauser",
+      "x": 112,
+      "y": 221,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Hauser 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "N. Queta",
+      "x": -32,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Queta 3' Putback Layup (12 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -16,
+      "y": 257,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Edgecombe 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -2,
+      "y": -2,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Brown Cutting Layup Shot (28 PTS) (White 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 77,
+      "y": 164,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Embiid 18' Jump Shot (29 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "N. Queta",
+      "x": 26,
+      "y": 51,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Queta 6' Hook Shot (14 PTS) (White 4 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -159,
+      "y": 51,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Embiid 17' Step Back Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -98,
+      "y": 166,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Brown 19' Pullup Jump Shot (30 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 82,
+      "y": 256,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Embiid 27' 3PT Jump Shot (32 PTS) (Grimes 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 37,
+      "y": 16,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS White 4' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -27,
+      "y": 12,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Embiid 3' Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "N. Queta",
+      "x": -81,
+      "y": 69,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Queta 11' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 129,
+      "y": 230,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Embiid 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 114,
+      "y": 29,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS George 12' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 94,
+      "y": 239,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "White 26' 3PT Pullup Jump Shot (26 PTS) (Hauser 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 50,
+      "y": 116,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Brown 13' Pullup Jump Shot (33 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": 126,
+      "y": 236,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS White 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -152,
+      "y": 214,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS White 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": -32,
+      "y": 50,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Embiid 6' Driving Hook Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": -17,
+      "y": 256,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Brown 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "J. Embiid",
+      "x": 222,
+      "y": 32,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Embiid 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 38,
+      "y": 130,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Brown 14' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -22,
+      "y": 31,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS George 4' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -232,
+      "y": 4,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Pritchard 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 7,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Maxey 1' Driving Reverse Layup (24 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 43,
+      "y": 125,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Brown 13' Step Back Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -1,
+      "y": 1,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Maxey Driving Layup (26 PTS) (Oubre Jr. 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "S. Hauser",
+      "x": 158,
+      "y": 197,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Hauser 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 116,
+      "y": 112,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Maxey 16' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "BOS",
+      "player": "J. Brown",
+      "x": 156,
+      "y": 201,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Brown 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "D. White",
+      "x": -42,
+      "y": 267,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS White 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "S. Hauser",
+      "x": -145,
+      "y": 224,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Hauser 27' 3PT Turnaround Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -22,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Pritchard 2' Driving Layup (13 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "BOS",
+      "player": "P. Pritchard",
+      "x": -169,
+      "y": 180,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Pritchard 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    }
+  ],
+  "shot_zones": {
+    "BOS": {
+      "at_rim": {
+        "fgm": 13,
+        "fga": 17,
+        "pct": 76.5
+      },
+      "paint": {
+        "fgm": 8,
+        "fga": 18,
+        "pct": 44.4
+      },
+      "mid": {
+        "fgm": 3,
+        "fga": 9,
+        "pct": 33.3
+      },
+      "corner_3": {
+        "fgm": 1,
+        "fga": 8,
+        "pct": 12.5
+      },
+      "arc_3": {
+        "fgm": 12,
+        "fga": 41,
+        "pct": 29.3
+      }
+    },
+    "PHI": {
+      "at_rim": {
+        "fgm": 13,
+        "fga": 19,
+        "pct": 68.4
+      },
+      "paint": {
+        "fgm": 11,
+        "fga": 24,
+        "pct": 45.8
+      },
+      "mid": {
+        "fgm": 4,
+        "fga": 11,
+        "pct": 36.4
+      },
+      "corner_3": {
+        "fgm": 1,
+        "fga": 7,
+        "pct": 14.3
+      },
+      "arc_3": {
+        "fgm": 10,
+        "fga": 21,
+        "pct": 47.6
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-05-03"
+}
