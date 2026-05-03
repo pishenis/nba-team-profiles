@@ -34,6 +34,8 @@ SERIES_MAP = {
     frozenset(["SAS","MIN"]): "sas_min",
     frozenset(["OKC","LAL"]): "okc_lal",
     frozenset(["NYK","PHI"]): "nyk_phi",
+    frozenset(["DET","xxx"]): "det_xxx",
+
 }
 
 print("Coletando jogos de playoff...")

@@ -31,7 +31,8 @@ SERIES = [
     # Segundo Round
     {"id": "sas_min", "home": "SAS", "away": "MIN", "home_seed": 2, "away_seed": 6, "conf": "West"},
     {"id": "okc_lal", "home": "OKC", "away": "LAL", "home_seed": 1, "away_seed": 4, "conf": "West"},
-    {"id": "nyk_phi", "home": "NYK", "away": "PHI", "home_seed": 3, "away_seed": 7, "conf": "East"}
+    {"id": "nyk_phi", "home": "NYK", "away": "PHI", "home_seed": 3, "away_seed": 7, "conf": "East"},
+    {"id": "det_xxx", "home": "DET", "away": "XXX", "home_seed": 1, "away_seed": 7, "conf": "East"}
 ]
 
 def fetch_gamelog(retries=3):
