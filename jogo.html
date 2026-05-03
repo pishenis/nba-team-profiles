@@ -213,7 +213,7 @@ function render(game,teams){
       var pmClass=p.plus_minus>0?'pm-pos':p.plus_minus<0?'pm-neg':'';
       var pmStr=(p.plus_minus>0?'+':'')+p.plus_minus;
       rows+='<tr class="'+(p.starter?'':'bench-row')+'">'+
-        '<td>'+p.name+(p.starter&&p.position?' <span style="font-size:10px;color:#86868b;font-weight:500;letter-spacing:0.03em">'+p.position+'</span>':'')+'</td>'+
+        '<td>'+p.name+(p.starter&&p.pos?' <span style="font-size:10px;color:#86868b;font-weight:500;letter-spacing:0.03em">'+p.pos+'</span>':'')+'</td>'+
         '<td>'+p.minutes+'</td>'+
         '<td style="font-weight:600">'+p.pts+'</td>'+
         '<td>'+p.reb+'</td><td>'+(p.oreb||0)+'</td><td>'+p.ast+'</td>'+
