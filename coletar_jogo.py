@@ -93,7 +93,7 @@ def parse_players(df):
             "ftm":      int(row.get("freeThrowsMade",0) or 0),
             "fta":      int(row.get("freeThrowsAttempted",0) or 0),
             "plus_minus": int(row.get("plusMinusPoints",0) or 0),
-            "starter":  row.get("comment","") == "",
+            "starter":  row.get("position","") != "",
         })
     return players
 
