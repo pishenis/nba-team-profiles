@@ -193,12 +193,17 @@ function render(game,teams){
   var chartLabels=timeline.map(function(e){return minToClock(e.min);});
 
   // Box score
+  function parseMins(str){
+    if(!str) return 0;
+    var parts=str.split(':');
+    return parseInt(parts[0]||0)*60+parseInt(parts[1]||0);
+  }
   function boxTable(abbr){
     var color=abbr===home?c1:c2;
     var players=(box_score[abbr]||[]).slice().sort(function(a,b){
       if(a.starter&&!b.starter) return -1;
       if(!a.starter&&b.starter) return 1;
-      return b.pts-a.pts;
+      return parseMins(b.minutes)-parseMins(a.minutes);
     });
     var rows='';
     for(var pi=0;pi<players.length;pi++){
