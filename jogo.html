@@ -208,7 +208,13 @@ function render(game,teams){
     var players=(box_score[abbr]||[]).slice().sort(function(a,b){
       if(a.starter&&!b.starter) return -1;
       if(!a.starter&&b.starter) return 1;
-      if(a.starter&&b.starter) return posOrder(a)-posOrder(b);
+      if(a.starter&&b.starter){
+        var po=posOrder(a)-posOrder(b);
+        if(po!==0) return po;
+        if(a.pos==='G') return b.ast-a.ast;
+        if(a.pos==='F') return a.reb-b.reb;
+        return 0;
+      }
       return parseMins(b.minutes)-parseMins(a.minutes);
     });
     var rows='';
