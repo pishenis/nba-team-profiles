@@ -183,11 +183,11 @@ const STATS=[
   {cat:"Four Factors ofensivo",id:"ff_efg",label:"eFG%",get:t=>t.four_factors_off.efg.value,unit:"%",hi:true},
   {cat:"Four Factors ofensivo",id:"ff_tov",label:"TOV%",get:t=>t.four_factors_off.tov.value,unit:"%",hi:false},
   {cat:"Four Factors ofensivo",id:"ff_oreb",label:"ORB%",get:t=>t.four_factors_off.oreb.value,unit:"%",hi:true},
-  {cat:"Four Factors ofensivo",id:"ff_ftr",label:"FT Rate",get:t=>t.four_factors_off.ftr.value,unit:"",hi:true},
+  {cat:"Four Factors ofensivo",id:"ff_ftr",label:"FT Rate",get:t=>Math.round(t.four_factors_off.ftr.value*100),unit:"%",hi:true},
   {cat:"Four Factors defensivo",id:"ff_oefg",label:"Opp. eFG%",get:t=>t.four_factors_def.opp_efg.value,unit:"%",hi:false},
   {cat:"Four Factors defensivo",id:"ff_otov",label:"Opp. TOV%",get:t=>t.four_factors_def.opp_tov.value,unit:"",hi:true},
   {cat:"Four Factors defensivo",id:"ff_ooreb",label:"Opp. ORB%",get:t=>t.four_factors_def.opp_oreb.value,unit:"",hi:false},
-  {cat:"Four Factors defensivo",id:"ff_oftr",label:"Opp. FT Rate",get:t=>t.four_factors_def.opp_ftr.value,unit:"",hi:false},
+  {cat:"Four Factors defensivo",id:"ff_oftr",label:"Opp. FT Rate",get:t=>Math.round(t.four_factors_def.opp_ftr.value*100),unit:"%",hi:false},
   {cat:"Estilo de ataque",id:"pace",label:"Pace",get:t=>t.attack_style.pace.value,unit:"",hi:true},
   {cat:"Estilo de ataque",id:"pts_fb",label:"Pts contra-ataque/jogo",get:t=>t.attack_style.pts_fb.value,unit:"",hi:true},
   {cat:"Estilo de ataque",id:"pts_paint",label:"Pts no garrafão/jogo",get:t=>t.attack_style.pts_paint.value,unit:"",hi:true},
@@ -555,7 +555,7 @@ function renderProfile(abbr,periodKey){
           ${statRow("eFG%",t.four_factors_off.efg.value+"%",t.four_factors_off.efg.rank,1)}
           ${statRow("TOV% (menor = melhor)",t.four_factors_off.tov.value+"%",t.four_factors_off.tov.rank,1)}
           ${statRow("ORB%",t.four_factors_off.oreb.value+"%",t.four_factors_off.oreb.rank,0)}
-          ${statRow("FT Rate",t.four_factors_off.ftr.value,t.four_factors_off.ftr.rank,0)}
+          ${statRow("FT Rate",Math.round(t.four_factors_off.ftr.value*100)+"%",t.four_factors_off.ftr.rank,0)}
         </div>
       </div>
       <div>
@@ -564,7 +564,7 @@ function renderProfile(abbr,periodKey){
           ${statRow("Opp. eFG% (menor = melhor)",t.four_factors_def.opp_efg.value+"%",t.four_factors_def.opp_efg.rank,1)}
           ${statRow("Opp. TOV% (maior = melhor)",t.four_factors_def.opp_tov.value,t.four_factors_def.opp_tov.rank,1)}
           ${statRow("Opp. ORB% (menor = melhor)",t.four_factors_def.opp_oreb.value,t.four_factors_def.opp_oreb.rank,1)}
-          ${statRow("Opp. FT Rate (menor = melhor)",t.four_factors_def.opp_ftr.value,t.four_factors_def.opp_ftr.rank,1)}
+          ${statRow("Opp. FT Rate (menor = melhor)",Math.round(t.four_factors_def.opp_ftr.value*100)+"%",t.four_factors_def.opp_ftr.rank,1)}
         </div>
       </div>
     </div>
