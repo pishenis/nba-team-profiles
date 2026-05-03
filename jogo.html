@@ -193,16 +193,22 @@ function render(game,teams){
   var chartLabels=timeline.map(function(e){return minToClock(e.min);});
 
   // Box score
+  var POS_ORDER={'G':0,'F':1,'C':2};
   function parseMins(str){
     if(!str) return 0;
     var parts=str.split(':');
     return parseInt(parts[0]||0)*60+parseInt(parts[1]||0);
+  }
+  function posOrder(p){
+    if(!p.starter) return 99;
+    return POS_ORDER[p.pos]!==undefined?POS_ORDER[p.pos]:1;
   }
   function boxTable(abbr){
     var color=abbr===home?c1:c2;
     var players=(box_score[abbr]||[]).slice().sort(function(a,b){
       if(a.starter&&!b.starter) return -1;
       if(!a.starter&&b.starter) return 1;
+      if(a.starter&&b.starter) return posOrder(a)-posOrder(b);
       return parseMins(b.minutes)-parseMins(a.minutes);
     });
     var rows='';
