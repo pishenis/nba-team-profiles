@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "updated": "2026-05-03",
+  "updated": "2026-05-04",
   "series": {
     "lal_hou": {
       "conf": "West",
@@ -505,17 +505,54 @@
         }
       ]
     },
-    "det_xxx": {
+    "det_cle": {
       "conf": "East",
       "home": "DET",
-      "away": "XXX",
+      "away": "CLE",
       "home_seed": 1,
-      "away_seed": 7,
+      "away_seed": 4,
       "regular_season_record": {
-        "DET": 0,
-        "XXX": 0
+        "DET": 2,
+        "CLE": 2
       },
-      "games": []
+      "games": [
+        {
+          "game_id": "0022500007",
+          "date": "2025-10-27",
+          "home": "DET",
+          "away": "CLE",
+          "home_pts": 95,
+          "away_pts": 116,
+          "winner": "CLE"
+        },
+        {
+          "game_id": "0022500494",
+          "date": "2026-01-04",
+          "home": "CLE",
+          "away": "DET",
+          "home_pts": 110,
+          "away_pts": 114,
+          "winner": "DET"
+        },
+        {
+          "game_id": "0022500858",
+          "date": "2026-02-27",
+          "home": "DET",
+          "away": "CLE",
+          "home_pts": 122,
+          "away_pts": 119,
+          "winner": "DET"
+        },
+        {
+          "game_id": "0022500884",
+          "date": "2026-03-03",
+          "home": "CLE",
+          "away": "DET",
+          "home_pts": 113,
+          "away_pts": 109,
+          "winner": "CLE"
+        }
+      ]
     }
   }
 }
