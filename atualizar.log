@@ -7853,3 +7853,115 @@ Carregando jogos_playoffs.json...
 [2/2] okc_lal · Jogo 1 · LAL @ OKC (0042500221) · não coletado
 
 Feito! 2 jogos coletados.
+[main a6364bd] Atualizacao playoffs 2026-05-06
+ 5 files changed, 6042 insertions(+), 14 deletions(-)
+ create mode 100644 jogo_0042500201.json
+ create mode 100644 jogo_0042500221.json
+To https://github.com/pishenis/nba-team-profiles.git
+   6667560..a6364bd  main -> main
+Qua  6 Mai 2026 00:18:29 -03: Atualizacao concluida.
+Wed May  6 09:30:31 -03 2026: Iniciando atualizacao...
+Coletando jogos de playoff...
+  104 registros encontrados
+  52 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: TOR 3-4 CLE (7 jogos)
+  den_min: DEN 2-4 MIN (6 jogos)
+  lal_hou: HOU 2-4 LAL (6 jogos)
+  nyk_atl: NYK 4-2 ATL (6 jogos)
+  bos_phi: BOS 3-4 PHI (7 jogos)
+  sas_por: POR 1-4 SAS (5 jogos)
+  det_orl: DET 4-3 ORL (7 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+  nyk_phi: NYK 1-0 PHI (1 jogos)
+  sas_min: MIN 1-0 SAS (1 jogos)
+  det_cle: DET 1-0 CLE (1 jogos)
+  okc_lal: LAL 0-1 OKC (1 jogos)
+Coletando game log da temporada...
+  2460 registros encontrados
+  1225 jogos do mandante
+
+Processando LAL vs HOU...
+  3 jogos encontrados · LAL 2-1 HOU
+
+Processando DEN vs MIN...
+  4 jogos encontrados · DEN 3-1 MIN
+
+Processando CLE vs TOR...
+  3 jogos encontrados · CLE 0-3 TOR
+
+Processando NYK vs ATL...
+  3 jogos encontrados · NYK 2-1 ATL
+
+Processando SAS vs POR...
+  3 jogos encontrados · SAS 2-1 POR
+
+Processando BOS vs PHI...
+  4 jogos encontrados · BOS 2-2 PHI
+
+Processando DET vs ORL...
+  4 jogos encontrados · DET 2-2 ORL
+
+Processando OKC vs PHX...
+  5 jogos encontrados · OKC 3-2 PHX
+
+Processando SAS vs MIN...
+  3 jogos encontrados · SAS 1-2 MIN
+
+Processando OKC vs LAL...
+  4 jogos encontrados · OKC 4-0 LAL
+
+Processando NYK vs PHI...
+  4 jogos encontrados · NYK 2-2 PHI
+
+Processando DET vs CLE...
+  4 jogos encontrados · DET 2-2 CLE
+
+Feito! head2head.json criado com 12 séries.
+Coletando dados do jogo 0042500201...
+Coletando resumo...
+  CLE 101 @ DET 111 · 2026-05-05
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: DET 43:45 · CLE 2:53
+  Trocas: 1 · Empates: 2
+  Run DET: 22-7 (8:24 1Q a 3:24 1Q)
+  Run CLE: 18-10 (4:06 3Q a 11:06 4Q)
+  Sequência sem resposta: DET 11 · CLE 11
+Coletando matchups...
+
+Feito! jogo_0042500201.json criado.
+  Box score: 10 DET · 11 CLE
+  Timeline: 128 eventos · Arremessos: 164
+  Matchups filtrados: 14
+Coletando dados do jogo 0042500221...
+Coletando resumo...
+  LAL 90 @ OKC 108 · 2026-05-05
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: OKC 37:48 · LAL 7:03
+  Trocas: 2 · Empates: 6
+  Run OKC: 17-6 (3:36 1Q a 10:36 2Q)
+  Run LAL: 7-0 (12:00 1Q a 10:54 1Q)
+  Sequência sem resposta: OKC 7 · LAL 7
+Coletando matchups...
+
+Feito! jogo_0042500221.json criado.
+  Box score: 12 OKC · 13 LAL
+  Timeline: 108 eventos · Arremessos: 170
+  Matchups filtrados: 25
+Carregando jogos_playoffs.json...
+  52 jogos no total · 50 OK · 2 para coletar
+
+[1/2] det_cle · Jogo 1 · CLE @ DET (0042500201) · sem matchups
+
+[2/2] okc_lal · Jogo 1 · LAL @ OKC (0042500221) · incompleto
+
+Feito! 2 jogos coletados.
