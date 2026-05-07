@@ -1,0 +1,3588 @@
+{
+  "game_id": "0042500232",
+  "date": "2026-05-06",
+  "home": "SAS",
+  "away": "MIN",
+  "home_pts": 133,
+  "away_pts": 95,
+  "winner": "SAS",
+  "game_flow": {
+    "quarter_scores": {
+      "SAS": [
+        24,
+        35,
+        39,
+        35
+      ],
+      "MIN": [
+        17,
+        18,
+        28,
+        32
+      ]
+    },
+    "num_periods": 4,
+    "lead_changes": 3,
+    "ties": 2,
+    "time_leading_home_fmt": "46:01",
+    "time_leading_away_fmt": "0:17",
+    "time_tied_fmt": "1:42",
+    "best_run_home": {
+      "pts_home": 26,
+      "pts_away": 11,
+      "start_min": 28.0,
+      "end_min": 33.0
+    },
+    "best_run_away": {
+      "pts_home": 9,
+      "pts_away": 17,
+      "start_min": 43.0,
+      "end_min": 48.0
+    },
+    "max_consec_home": 11,
+    "max_consec_away": 9
+  },
+  "four_factors": {
+    "SAS": {
+      "efg": 0,
+      "ftr": 0,
+      "tov": 0,
+      "oreb": 0,
+      "opp_efg": 0,
+      "opp_ftr": 0,
+      "opp_tov": 0,
+      "opp_oreb": 0
+    },
+    "MIN": {
+      "efg": 0,
+      "ftr": 0,
+      "tov": 0,
+      "oreb": 0,
+      "opp_efg": 0,
+      "opp_ftr": 0,
+      "opp_tov": 0,
+      "opp_oreb": 0
+    }
+  },
+  "misc": {
+    "SAS": {
+      "pts_fb": 0,
+      "pts_paint": 0,
+      "pts_2nd_chance": 0,
+      "blocks": 0
+    },
+    "MIN": {
+      "pts_fb": 0,
+      "pts_paint": 0,
+      "pts_2nd_chance": 0,
+      "blocks": 0
+    }
+  },
+  "hustle": {
+    "SAS": {},
+    "MIN": {
+      "deflections": 0,
+      "contested_shots": 0,
+      "contested_2pt": 0,
+      "contested_3pt": 0,
+      "charges_drawn": 0
+    }
+  },
+  "box_score": {
+    "SAS": [
+      {
+        "id": "1630170",
+        "name": "D. Vassell",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "21:36",
+        "pts": 10,
+        "oreb": 1,
+        "dreb": 4,
+        "reb": 5,
+        "ast": 4,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 9,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 13,
+        "starter": true
+      },
+      {
+        "id": "1630577",
+        "name": "J. Champagnie",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "22:01",
+        "pts": 12,
+        "oreb": 0,
+        "dreb": 3,
+        "reb": 3,
+        "ast": 2,
+        "stl": 2,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 6,
+        "fg3m": 4,
+        "fg3a": 6,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 19,
+        "starter": true
+      },
+      {
+        "id": "1641705",
+        "name": "V. Wembanyama",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "25:54",
+        "pts": 19,
+        "oreb": 4,
+        "dreb": 11,
+        "reb": 15,
+        "ast": 2,
+        "stl": 1,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 7,
+        "fga": 15,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 3,
+        "fta": 3,
+        "plus_minus": 12,
+        "starter": true
+      },
+      {
+        "id": "1628368",
+        "name": "D. Fox",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "25:41",
+        "pts": 16,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 2,
+        "stl": 2,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 5,
+        "fga": 10,
+        "fg3m": 2,
+        "fg3a": 2,
+        "ftm": 4,
+        "fta": 5,
+        "plus_minus": 24,
+        "starter": true
+      },
+      {
+        "id": "1642264",
+        "name": "S. Castle",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "24:15",
+        "pts": 21,
+        "oreb": 1,
+        "dreb": 3,
+        "reb": 4,
+        "ast": 4,
+        "stl": 2,
+        "blk": 0,
+        "tov": 5,
+        "fgm": 6,
+        "fga": 10,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 9,
+        "fta": 9,
+        "plus_minus": 17,
+        "starter": true
+      },
+      {
+        "id": "1642844",
+        "name": "D. Harper",
+        "pos": "",
+        "jersey": "",
+        "minutes": "22:28",
+        "pts": 11,
+        "oreb": 1,
+        "dreb": 6,
+        "reb": 7,
+        "ast": 5,
+        "stl": 2,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 5,
+        "fga": 10,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 24,
+        "starter": false
+      },
+      {
+        "id": "1629640",
+        "name": "K. Johnson",
+        "pos": "",
+        "jersey": "",
+        "minutes": "19:04",
+        "pts": 9,
+        "oreb": 2,
+        "dreb": 8,
+        "reb": 10,
+        "ast": 1,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 5,
+        "fta": 8,
+        "plus_minus": 28,
+        "starter": false
+      },
+      {
+        "id": "1628436",
+        "name": "L. Kornet",
+        "pos": "",
+        "jersey": "",
+        "minutes": "13:17",
+        "pts": 4,
+        "oreb": 0,
+        "dreb": 2,
+        "reb": 2,
+        "ast": 1,
+        "stl": 2,
+        "blk": 3,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 22,
+        "starter": false
+      },
+      {
+        "id": "1642868",
+        "name": "C. Bryant",
+        "pos": "",
+        "jersey": "",
+        "minutes": "15:34",
+        "pts": 2,
+        "oreb": 1,
+        "dreb": 1,
+        "reb": 2,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 2,
+        "plus_minus": 18,
+        "starter": false
+      },
+      {
+        "id": "203084",
+        "name": "H. Barnes",
+        "pos": "",
+        "jersey": "",
+        "minutes": "15:27",
+        "pts": 12,
+        "oreb": 1,
+        "dreb": 1,
+        "reb": 2,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 7,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 18,
+        "starter": false
+      },
+      {
+        "id": "1629162",
+        "name": "J. McLaughlin",
+        "pos": "",
+        "jersey": "",
+        "minutes": "9:58",
+        "pts": 2,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 1,
+        "starter": false
+      },
+      {
+        "id": "203482",
+        "name": "K. Olynyk",
+        "pos": "",
+        "jersey": "",
+        "minutes": "9:58",
+        "pts": 5,
+        "oreb": 0,
+        "dreb": 1,
+        "reb": 1,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 3,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 1,
+        "starter": false
+      },
+      {
+        "id": "1630322",
+        "name": "L. Waters III",
+        "pos": "",
+        "jersey": "",
+        "minutes": "8:23",
+        "pts": 8,
+        "oreb": 2,
+        "dreb": 2,
+        "reb": 4,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 5,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 1,
+        "starter": false
+      },
+      {
+        "id": "203486",
+        "name": "M. Plumlee",
+        "pos": "",
+        "jersey": "",
+        "minutes": "3:12",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 2,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -4,
+        "starter": false
+      },
+      {
+        "id": "202687",
+        "name": "B. Biyombo",
+        "pos": "",
+        "jersey": "",
+        "minutes": "3:12",
+        "pts": 2,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -4,
+        "starter": false
+      }
+    ],
+    "MIN": [
+      {
+        "id": "1630183",
+        "name": "J. McDaniels",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "19:35",
+        "pts": 12,
+        "oreb": 2,
+        "dreb": 1,
+        "reb": 3,
+        "ast": 4,
+        "stl": 0,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 6,
+        "fga": 10,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 1,
+        "plus_minus": -6,
+        "starter": true
+      },
+      {
+        "id": "203944",
+        "name": "J. Randle",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "27:24",
+        "pts": 12,
+        "oreb": 1,
+        "dreb": 4,
+        "reb": 5,
+        "ast": 2,
+        "stl": 2,
+        "blk": 0,
+        "tov": 5,
+        "fgm": 4,
+        "fga": 10,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 4,
+        "fta": 5,
+        "plus_minus": -26,
+        "starter": true
+      },
+      {
+        "id": "203497",
+        "name": "R. Gobert",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "28:03",
+        "pts": 5,
+        "oreb": 4,
+        "dreb": 6,
+        "reb": 10,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 4,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 3,
+        "fta": 9,
+        "plus_minus": -23,
+        "starter": true
+      },
+      {
+        "id": "1630545",
+        "name": "T. Shannon Jr.",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "24:37",
+        "pts": 12,
+        "oreb": 2,
+        "dreb": 3,
+        "reb": 5,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 12,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 4,
+        "fta": 4,
+        "plus_minus": -19,
+        "starter": true
+      },
+      {
+        "id": "201144",
+        "name": "M. Conley",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "15:50",
+        "pts": 3,
+        "oreb": 0,
+        "dreb": 1,
+        "reb": 1,
+        "ast": 3,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -10,
+        "starter": true
+      },
+      {
+        "id": "1630245",
+        "name": "A. Dosunmu",
+        "pos": "",
+        "jersey": "",
+        "minutes": "10:29",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -6,
+        "starter": false
+      },
+      {
+        "id": "1630162",
+        "name": "A. Edwards",
+        "pos": "",
+        "jersey": "",
+        "minutes": "24:08",
+        "pts": 12,
+        "oreb": 0,
+        "dreb": 3,
+        "reb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 4,
+        "fgm": 5,
+        "fga": 13,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -33,
+        "starter": false
+      },
+      {
+        "id": "1629675",
+        "name": "N. Reid",
+        "pos": "",
+        "jersey": "",
+        "minutes": "21:27",
+        "pts": 11,
+        "oreb": 0,
+        "dreb": 7,
+        "reb": 7,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 4,
+        "fga": 7,
+        "fg3m": 3,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -26,
+        "starter": false
+      },
+      {
+        "id": "1641740",
+        "name": "J. Clark",
+        "pos": "",
+        "jersey": "",
+        "minutes": "15:02",
+        "pts": 3,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -8,
+        "starter": false
+      },
+      {
+        "id": "1630538",
+        "name": "B. Hyland",
+        "pos": "",
+        "jersey": "",
+        "minutes": "10:47",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 1,
+        "reb": 1,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -17,
+        "starter": false
+      },
+      {
+        "id": "203937",
+        "name": "K. Anderson",
+        "pos": "",
+        "jersey": "",
+        "minutes": "14:19",
+        "pts": 8,
+        "oreb": 1,
+        "dreb": 2,
+        "reb": 3,
+        "ast": 4,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 2,
+        "fta": 6,
+        "plus_minus": -13,
+        "starter": false
+      },
+      {
+        "id": "204060",
+        "name": "J. Ingles",
+        "pos": "",
+        "jersey": "",
+        "minutes": "9:58",
+        "pts": 7,
+        "oreb": 1,
+        "dreb": 1,
+        "reb": 2,
+        "ast": 0,
+        "stl": 2,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 3,
+        "fg3m": 2,
+        "fg3a": 3,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -1,
+        "starter": false
+      },
+      {
+        "id": "1641763",
+        "name": "J. Phillips",
+        "pos": "",
+        "jersey": "",
+        "minutes": "9:58",
+        "pts": 3,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -1,
+        "starter": false
+      },
+      {
+        "id": "1642866",
+        "name": "J. Beringer",
+        "pos": "",
+        "jersey": "",
+        "minutes": "8:23",
+        "pts": 7,
+        "oreb": 1,
+        "dreb": 2,
+        "reb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -1,
+        "starter": false
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 1.43,
+      "home": 2,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 1.73,
+      "home": 2,
+      "away": 2,
+      "period": 1
+    },
+    {
+      "min": 2.0,
+      "home": 4,
+      "away": 2,
+      "period": 1
+    },
+    {
+      "min": 2.32,
+      "home": 4,
+      "away": 3,
+      "period": 1
+    },
+    {
+      "min": 2.58,
+      "home": 6,
+      "away": 3,
+      "period": 1
+    },
+    {
+      "min": 3.13,
+      "home": 6,
+      "away": 5,
+      "period": 1
+    },
+    {
+      "min": 3.5,
+      "home": 6,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 3.63,
+      "home": 8,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 4.12,
+      "home": 10,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 4.12,
+      "home": 11,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 4.42,
+      "home": 11,
+      "away": 9,
+      "period": 1
+    },
+    {
+      "min": 4.63,
+      "home": 13,
+      "away": 9,
+      "period": 1
+    },
+    {
+      "min": 4.95,
+      "home": 13,
+      "away": 11,
+      "period": 1
+    },
+    {
+      "min": 5.6,
+      "home": 13,
+      "away": 12,
+      "period": 1
+    },
+    {
+      "min": 7.45,
+      "home": 13,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 7.6,
+      "home": 14,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 7.6,
+      "home": 15,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 9.1,
+      "home": 17,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 9.48,
+      "home": 18,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 9.48,
+      "home": 19,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 11.24,
+      "home": 21,
+      "away": 14,
+      "period": 1
+    },
+    {
+      "min": 11.49,
+      "home": 21,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 11.88,
+      "home": 24,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 24,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 24,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 24,
+      "away": 17,
+      "period": 2
+    },
+    {
+      "min": 12.32,
+      "home": 24,
+      "away": 19,
+      "period": 2
+    },
+    {
+      "min": 12.67,
+      "home": 26,
+      "away": 19,
+      "period": 2
+    },
+    {
+      "min": 13.47,
+      "home": 28,
+      "away": 19,
+      "period": 2
+    },
+    {
+      "min": 13.7,
+      "home": 28,
+      "away": 22,
+      "period": 2
+    },
+    {
+      "min": 13.82,
+      "home": 29,
+      "away": 22,
+      "period": 2
+    },
+    {
+      "min": 14.18,
+      "home": 30,
+      "away": 22,
+      "period": 2
+    },
+    {
+      "min": 14.18,
+      "home": 31,
+      "away": 22,
+      "period": 2
+    },
+    {
+      "min": 14.52,
+      "home": 32,
+      "away": 22,
+      "period": 2
+    },
+    {
+      "min": 14.52,
+      "home": 33,
+      "away": 22,
+      "period": 2
+    },
+    {
+      "min": 14.82,
+      "home": 33,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 15.98,
+      "home": 36,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 17.08,
+      "home": 37,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 17.08,
+      "home": 38,
+      "away": 24,
+      "period": 2
+    },
+    {
+      "min": 17.47,
+      "home": 38,
+      "away": 26,
+      "period": 2
+    },
+    {
+      "min": 17.58,
+      "home": 40,
+      "away": 26,
+      "period": 2
+    },
+    {
+      "min": 18.13,
+      "home": 43,
+      "away": 26,
+      "period": 2
+    },
+    {
+      "min": 18.7,
+      "home": 43,
+      "away": 27,
+      "period": 2
+    },
+    {
+      "min": 18.7,
+      "home": 43,
+      "away": 28,
+      "period": 2
+    },
+    {
+      "min": 19.32,
+      "home": 43,
+      "away": 30,
+      "period": 2
+    },
+    {
+      "min": 19.43,
+      "home": 44,
+      "away": 30,
+      "period": 2
+    },
+    {
+      "min": 20.18,
+      "home": 44,
+      "away": 32,
+      "period": 2
+    },
+    {
+      "min": 20.32,
+      "home": 46,
+      "away": 32,
+      "period": 2
+    },
+    {
+      "min": 20.95,
+      "home": 48,
+      "away": 32,
+      "period": 2
+    },
+    {
+      "min": 21.25,
+      "home": 48,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 21.55,
+      "home": 50,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 21.92,
+      "home": 52,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 22.28,
+      "home": 54,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 22.85,
+      "home": 57,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 23.59,
+      "home": 59,
+      "away": 34,
+      "period": 2
+    },
+    {
+      "min": 23.86,
+      "home": 59,
+      "away": 35,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 35,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 35,
+      "period": 3
+    },
+    {
+      "min": 25.4,
+      "home": 61,
+      "away": 35,
+      "period": 3
+    },
+    {
+      "min": 25.95,
+      "home": 64,
+      "away": 35,
+      "period": 3
+    },
+    {
+      "min": 26.2,
+      "home": 64,
+      "away": 35,
+      "period": 3
+    },
+    {
+      "min": 26.5,
+      "home": 64,
+      "away": 37,
+      "period": 3
+    },
+    {
+      "min": 27.02,
+      "home": 64,
+      "away": 40,
+      "period": 3
+    },
+    {
+      "min": 27.63,
+      "home": 64,
+      "away": 42,
+      "period": 3
+    },
+    {
+      "min": 27.68,
+      "home": 64,
+      "away": 44,
+      "period": 3
+    },
+    {
+      "min": 28.0,
+      "home": 66,
+      "away": 44,
+      "period": 3
+    },
+    {
+      "min": 28.18,
+      "home": 66,
+      "away": 45,
+      "period": 3
+    },
+    {
+      "min": 28.45,
+      "home": 69,
+      "away": 45,
+      "period": 3
+    },
+    {
+      "min": 28.45,
+      "home": 70,
+      "away": 45,
+      "period": 3
+    },
+    {
+      "min": 28.8,
+      "home": 70,
+      "away": 47,
+      "period": 3
+    },
+    {
+      "min": 28.9,
+      "home": 71,
+      "away": 47,
+      "period": 3
+    },
+    {
+      "min": 28.9,
+      "home": 72,
+      "away": 47,
+      "period": 3
+    },
+    {
+      "min": 29.48,
+      "home": 72,
+      "away": 49,
+      "period": 3
+    },
+    {
+      "min": 29.68,
+      "home": 74,
+      "away": 49,
+      "period": 3
+    },
+    {
+      "min": 29.68,
+      "home": 75,
+      "away": 49,
+      "period": 3
+    },
+    {
+      "min": 29.87,
+      "home": 75,
+      "away": 51,
+      "period": 3
+    },
+    {
+      "min": 30.3,
+      "home": 75,
+      "away": 51,
+      "period": 3
+    },
+    {
+      "min": 30.3,
+      "home": 76,
+      "away": 51,
+      "period": 3
+    },
+    {
+      "min": 30.38,
+      "home": 76,
+      "away": 52,
+      "period": 3
+    },
+    {
+      "min": 30.38,
+      "home": 76,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 30.65,
+      "home": 77,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 31.08,
+      "home": 78,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 31.08,
+      "home": 79,
+      "away": 53,
+      "period": 3
+    },
+    {
+      "min": 31.13,
+      "home": 79,
+      "away": 54,
+      "period": 3
+    },
+    {
+      "min": 31.13,
+      "home": 79,
+      "away": 55,
+      "period": 3
+    },
+    {
+      "min": 31.33,
+      "home": 82,
+      "away": 55,
+      "period": 3
+    },
+    {
+      "min": 31.73,
+      "home": 85,
+      "away": 55,
+      "period": 3
+    },
+    {
+      "min": 32.67,
+      "home": 88,
+      "away": 55,
+      "period": 3
+    },
+    {
+      "min": 32.97,
+      "home": 89,
+      "away": 55,
+      "period": 3
+    },
+    {
+      "min": 32.97,
+      "home": 90,
+      "away": 55,
+      "period": 3
+    },
+    {
+      "min": 33.38,
+      "home": 90,
+      "away": 58,
+      "period": 3
+    },
+    {
+      "min": 34.35,
+      "home": 93,
+      "away": 58,
+      "period": 3
+    },
+    {
+      "min": 34.68,
+      "home": 96,
+      "away": 58,
+      "period": 3
+    },
+    {
+      "min": 35.15,
+      "home": 96,
+      "away": 60,
+      "period": 3
+    },
+    {
+      "min": 35.43,
+      "home": 97,
+      "away": 60,
+      "period": 3
+    },
+    {
+      "min": 35.43,
+      "home": 98,
+      "away": 60,
+      "period": 3
+    },
+    {
+      "min": 35.88,
+      "home": 98,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 98,
+      "away": 63,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 98,
+      "away": 63,
+      "period": 4
+    },
+    {
+      "min": 37.02,
+      "home": 100,
+      "away": 63,
+      "period": 4
+    },
+    {
+      "min": 37.28,
+      "home": 100,
+      "away": 65,
+      "period": 4
+    },
+    {
+      "min": 37.47,
+      "home": 102,
+      "away": 65,
+      "period": 4
+    },
+    {
+      "min": 37.88,
+      "home": 104,
+      "away": 65,
+      "period": 4
+    },
+    {
+      "min": 38.03,
+      "home": 104,
+      "away": 66,
+      "period": 4
+    },
+    {
+      "min": 38.03,
+      "home": 104,
+      "away": 67,
+      "period": 4
+    },
+    {
+      "min": 38.22,
+      "home": 106,
+      "away": 67,
+      "period": 4
+    },
+    {
+      "min": 38.45,
+      "home": 106,
+      "away": 69,
+      "period": 4
+    },
+    {
+      "min": 38.82,
+      "home": 109,
+      "away": 69,
+      "period": 4
+    },
+    {
+      "min": 39.03,
+      "home": 109,
+      "away": 72,
+      "period": 4
+    },
+    {
+      "min": 40.12,
+      "home": 112,
+      "away": 72,
+      "period": 4
+    },
+    {
+      "min": 40.38,
+      "home": 114,
+      "away": 72,
+      "period": 4
+    },
+    {
+      "min": 40.63,
+      "home": 114,
+      "away": 74,
+      "period": 4
+    },
+    {
+      "min": 40.88,
+      "home": 115,
+      "away": 74,
+      "period": 4
+    },
+    {
+      "min": 40.88,
+      "home": 116,
+      "away": 74,
+      "period": 4
+    },
+    {
+      "min": 41.07,
+      "home": 118,
+      "away": 74,
+      "period": 4
+    },
+    {
+      "min": 41.22,
+      "home": 118,
+      "away": 75,
+      "period": 4
+    },
+    {
+      "min": 41.48,
+      "home": 121,
+      "away": 75,
+      "period": 4
+    },
+    {
+      "min": 41.82,
+      "home": 121,
+      "away": 77,
+      "period": 4
+    },
+    {
+      "min": 42.37,
+      "home": 124,
+      "away": 77,
+      "period": 4
+    },
+    {
+      "min": 42.73,
+      "home": 124,
+      "away": 78,
+      "period": 4
+    },
+    {
+      "min": 43.07,
+      "home": 124,
+      "away": 79,
+      "period": 4
+    },
+    {
+      "min": 43.62,
+      "home": 124,
+      "away": 82,
+      "period": 4
+    },
+    {
+      "min": 43.85,
+      "home": 127,
+      "away": 82,
+      "period": 4
+    },
+    {
+      "min": 44.18,
+      "home": 127,
+      "away": 84,
+      "period": 4
+    },
+    {
+      "min": 44.8,
+      "home": 127,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 45.43,
+      "home": 129,
+      "away": 85,
+      "period": 4
+    },
+    {
+      "min": 45.6,
+      "home": 129,
+      "away": 87,
+      "period": 4
+    },
+    {
+      "min": 46.1,
+      "home": 129,
+      "away": 90,
+      "period": 4
+    },
+    {
+      "min": 46.33,
+      "home": 131,
+      "away": 90,
+      "period": 4
+    },
+    {
+      "min": 46.72,
+      "home": 133,
+      "away": 90,
+      "period": 4
+    },
+    {
+      "min": 46.88,
+      "home": 133,
+      "away": 93,
+      "period": 4
+    },
+    {
+      "min": 47.26,
+      "home": 133,
+      "away": 95,
+      "period": 4
+    },
+    {
+      "min": 48.0,
+      "home": 133,
+      "away": 95,
+      "period": 4
+    }
+  ],
+  "shots": [
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": -39,
+      "y": 61,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Fox 7' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "J. Champagnie",
+      "x": 213,
+      "y": 125,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Champagnie 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "J. Champagnie",
+      "x": 186,
+      "y": 173,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Champagnie 25' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Wembanyama Tip Dunk Shot (2 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "MIN",
+      "player": "M. Conley",
+      "x": 16,
+      "y": 28,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Conley 3' Driving Floating Bank Jump Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "R. Gobert",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Gobert Tip Layup Shot (2 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": 23,
+      "y": 5,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Castle 2' Driving Floating Bank Jump Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Wembanyama Tip Layup Shot (4 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": 55,
+      "y": 25,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Fox 6' Driving Floating Bank Jump Shot (2 PTS) (Wembanyama 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 156,
+      "y": 209,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Shannon Jr. 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": 21,
+      "y": 10,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Castle 2' Running Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": -34,
+      "y": 118,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "McDaniels 12' Pullup Jump Shot (2 PTS) (Shannon Jr. 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": -17,
+      "y": 12,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Shannon Jr. 2' Running Finger Roll Layup (2 PTS) (Conley 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": -26,
+      "y": 37,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Fox 5' Driving Floating Jump Shot (4 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 118,
+      "y": 196,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Shannon Jr. 23' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": -29,
+      "y": 9,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Wembanyama 3' Alley Oop Layup (6 PTS) (Vassell 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 104,
+      "y": 22,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Shannon Jr. 11' Driving Floating Jump Shot (4 PTS) (Conley 2 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": -7,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Castle 1' Driving Dunk (2 PTS) (Vassell 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": -60,
+      "y": 76,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "McDaniels 10' Driving Floating Jump Shot (4 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": 4,
+      "y": 115,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Randle 12' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": -234,
+      "y": 6,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Vassell 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": 1,
+      "y": 277,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Edwards 28' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": -154,
+      "y": 218,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Wembanyama 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": 36,
+      "y": 269,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Edwards 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": 141,
+      "y": 218,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Vassell 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Dosunmu",
+      "x": -60,
+      "y": 59,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Dosunmu 8' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "R. Gobert",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Gobert Putback Layup",
+      "zone": ""
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": 61,
+      "y": 31,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Castle 7' Running Pull-Up Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "N. Reid",
+      "x": 87,
+      "y": 31,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Reid 9' Driving Floating Jump Shot (2 PTS) (McDaniels 1 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": -194,
+      "y": 181,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Edwards 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Johnson",
+      "x": 27,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Johnson 3' Running Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": -146,
+      "y": 222,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS McDaniels 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Dosunmu",
+      "x": 18,
+      "y": 270,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Dosunmu 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Johnson",
+      "x": -12,
+      "y": 250,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Johnson 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": 31,
+      "y": 155,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Edwards 16' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "R. Gobert",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Gobert Putback Layup",
+      "zone": ""
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 11,
+      "y": 59,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Harper 6' Turnaround Jump Shot (2 PTS) (Johnson 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": -42,
+      "y": 81,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Edwards 9' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": 2,
+      "y": 64,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Fox 6' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": 65,
+      "y": 31,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Fox 7' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 108,
+      "y": 23,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Harper 11' Pullup Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "MIN",
+      "player": "N. Reid",
+      "x": 53,
+      "y": 69,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Reid 9' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "L. Kornet",
+      "x": -11,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Kornet 1' Cutting Dunk Shot (2 PTS) (Harper 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 26,
+      "y": 38,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Shannon Jr. 5' Driving Reverse Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": 175,
+      "y": 199,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Edwards 27' 3PT Pullup Jump Shot (3 PTS) (Gobert 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": -174,
+      "y": 187,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Fox 26' 3PT Step Back Jump Shot (9 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Dosunmu",
+      "x": 119,
+      "y": -27,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Dosunmu 12' Driving Floating Bank Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": 2,
+      "y": 95,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "McDaniels 10' Pullup Jump Shot (6 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": -7,
+      "y": 36,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Wembanyama 4' Driving Hook Shot (9 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Johnson",
+      "x": -23,
+      "y": 3,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Johnson 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": 50,
+      "y": 84,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS McDaniels 10' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": -15,
+      "y": 6,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Wembanyama 2' Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Wembanyama Tip Layup Shot (11 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "MIN",
+      "player": "N. Reid",
+      "x": -238,
+      "y": 11,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Reid 24' 3PT Step Back Jump Shot (5 PTS) (McDaniels 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "MIN",
+      "player": "M. Conley",
+      "x": 239,
+      "y": 11,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Conley 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": 78,
+      "y": 148,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Randle 17' Pullup Jump Shot (2 PTS) (Conley 3 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Clark",
+      "x": -78,
+      "y": 20,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Clark 8' Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "M. Conley",
+      "x": 7,
+      "y": 260,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Conley 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": 153,
+      "y": 201,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Fox 25' 3PT Step Back Jump Shot (12 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": 54,
+      "y": 105,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Randle 12' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "C. Bryant",
+      "x": -154,
+      "y": 200,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Bryant 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "N. Reid",
+      "x": 212,
+      "y": 148,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Reid 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": 147,
+      "y": 223,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Randle 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": -18,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Randle 2' Finger Roll Layup (4 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "C. Bryant",
+      "x": -1,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Bryant Driving Dunk (2 PTS) (Fox 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 234,
+      "y": 7,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Shannon Jr. 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": -137,
+      "y": 226,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Wembanyama 26' 3PT Jump Shot (14 PTS) (Vassell 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Dosunmu",
+      "x": 32,
+      "y": 29,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Dosunmu 4' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": 96,
+      "y": 101,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Wembanyama 14' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": 33,
+      "y": 13,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Fox 4' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": -32,
+      "y": 38,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Shannon Jr. 5' Running Pull-Up Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Johnson",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Johnson Running Finger Roll Layup",
+      "zone": ""
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": -46,
+      "y": 30,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Edwards 5' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": 6,
+      "y": 6,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Randle 1' Driving Layup (8 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": 64,
+      "y": 87,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Vassell 11' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Harper 3' Running Alley Oop Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 18,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Harper 2' Driving Reverse Dunk Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": 12,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Edwards 2' Driving Finger Roll Layup (5 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Johnson",
+      "x": 7,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Johnson 1' Driving Finger Roll Layup (4 PTS) (Castle 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "R. Gobert",
+      "x": 12,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Gobert 2' Alley Oop Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": -234,
+      "y": 34,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Randle 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": 49,
+      "y": 61,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Castle 8' Pullup Jump Shot (10 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": -97,
+      "y": 136,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Edwards 17' Pullup Jump Shot (7 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Johnson",
+      "x": 11,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Johnson 2' Driving Layup (6 PTS) (Kornet 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 16,
+      "y": 13,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Shannon Jr. 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": 142,
+      "y": 208,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Vassell 25' 3PT Running Pull-Up Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Harper Tip Dunk Shot (4 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": -234,
+      "y": 97,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Edwards 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": -1,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Castle Running Dunk (12 PTS) (Harper 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "B. Hyland",
+      "x": -119,
+      "y": 102,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Hyland 16' Step Back Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 134,
+      "y": 216,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Harper 25' 3PT Jump Shot (7 PTS) (Vassell 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": 4,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Vassell 1' Running Dunk (2 PTS) (Harper 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": 60,
+      "y": 113,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Vassell 13' Running Pull-Up Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 137,
+      "y": 215,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Shannon Jr. 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": 60,
+      "y": 64,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Wembanyama 9' Driving Floating Bank Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": 45,
+      "y": 90,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS McDaniels 10' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": -157,
+      "y": 212,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Castle 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": 18,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Castle 2' Driving Layup (14 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": -20,
+      "y": 5,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Randle 2' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": -238,
+      "y": 12,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Vassell 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": -239,
+      "y": 12,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Vassell 24' 3PT Jump Shot (5 PTS) (Champagnie 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 2,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Shannon Jr. 1' Running Dunk (6 PTS) (Randle 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": 103,
+      "y": 246,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Wembanyama 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "M. Conley",
+      "x": -225,
+      "y": 115,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Conley 25' 3PT Jump Shot (3 PTS) (Randle 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": 48,
+      "y": 265,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Wembanyama 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": 7,
+      "y": 158,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Randle 16' Driving Floating Jump Shot (10 PTS) (McDaniels 3 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": -13,
+      "y": 58,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "McDaniels 6' Driving Floating Jump Shot (8 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": 2,
+      "y": 112,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Fox 11' Driving Floating Jump Shot (16 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Vassell",
+      "x": 206,
+      "y": 157,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Vassell 26' 3PT Jump Shot (8 PTS) (Castle 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": -4,
+      "y": 58,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "McDaniels 6' Driving Floating Jump Shot (10 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": 4,
+      "y": 52,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS McDaniels 5' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "N. Reid",
+      "x": 33,
+      "y": 93,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Reid 10' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": -123,
+      "y": 55,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Edwards 13' Pullup Jump Shot (10 PTS) (McDaniels 4 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": 0,
+      "y": 46,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Castle 5' Driving Reverse Layup (18 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 20,
+      "y": 3,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Shannon Jr. 2' Driving Layup (8 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Johnson",
+      "x": 15,
+      "y": 34,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Johnson 4' Driving Floating Jump Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Johnson",
+      "x": 0,
+      "y": 0,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Johnson Tip Layup Shot",
+      "zone": ""
+    },
+    {
+      "team": "MIN",
+      "player": "J. Randle",
+      "x": -33,
+      "y": 22,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Randle 4' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "J. Champagnie",
+      "x": 230,
+      "y": 71,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Champagnie 24' 3PT Jump Shot (3 PTS) (Harper 4 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": -29,
+      "y": -4,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Edwards 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "J. Champagnie",
+      "x": -202,
+      "y": 175,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Champagnie 27' 3PT Running Jump Shot (6 PTS) (Fox 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Fox",
+      "x": 4,
+      "y": 96,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Fox 10' Turnaround Fadeaway Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "B. Hyland",
+      "x": -162,
+      "y": 214,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Hyland 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "J. Champagnie",
+      "x": 150,
+      "y": 225,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Champagnie 27' 3PT Jump Shot (9 PTS) (Harper 5 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "K. Anderson",
+      "x": -10,
+      "y": 53,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Anderson 5' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "N. Reid",
+      "x": 138,
+      "y": 216,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Reid 26' 3PT Step Back Jump Shot (8 PTS) (Hyland 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": -93,
+      "y": 252,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Wembanyama 27' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "K. Anderson",
+      "x": -235,
+      "y": 5,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Anderson 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": -148,
+      "y": 227,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Wembanyama 27' 3PT Jump Shot (17 PTS) (Champagnie 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "B. Hyland",
+      "x": -152,
+      "y": -2,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Hyland 15' Step Back Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "J. Champagnie",
+      "x": -190,
+      "y": 180,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Champagnie 26' 3PT Running Pull-Up Jump Shot (12 PTS) (Wembanyama 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "V. Wembanyama",
+      "x": -148,
+      "y": 226,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Wembanyama 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "A. Edwards",
+      "x": 109,
+      "y": -1,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Edwards 11' Driving Floating Jump Shot (12 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "MIN",
+      "player": "N. Reid",
+      "x": -237,
+      "y": -4,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Reid 24' 3PT Jump Shot (11 PTS) (Hyland 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": -156,
+      "y": 221,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Harper 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 172,
+      "y": 193,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Harper 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "C. Bryant",
+      "x": -241,
+      "y": 23,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Bryant 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Clark",
+      "x": 146,
+      "y": 215,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Clark 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 4,
+      "y": 38,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Harper 4' Running Layup (9 PTS) (Castle 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. McDaniels",
+      "x": -92,
+      "y": 41,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "McDaniels 10' Driving Floating Jump Shot (12 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "H. Barnes",
+      "x": -38,
+      "y": 44,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Barnes 6' Driving Floating Bank Jump Shot (2 PTS) (Castle 4 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "S. Castle",
+      "x": 1,
+      "y": 126,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Castle 13' Turnaround Jump Shot (21 PTS) (Bryant 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "D. Harper",
+      "x": 13,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Harper 2' Driving Layup (11 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "T. Shannon Jr.",
+      "x": 22,
+      "y": 250,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Shannon Jr. 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "K. Anderson",
+      "x": 16,
+      "y": 52,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Anderson 5' Turnaround Jump Shot (2 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "H. Barnes",
+      "x": -170,
+      "y": 195,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Barnes 26' 3PT Pullup Jump Shot (5 PTS) (Bryant 2 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Clark",
+      "x": 21,
+      "y": 247,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Clark 25' 3PT Pullup Jump Shot (3 PTS) (Anderson 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "H. Barnes",
+      "x": -114,
+      "y": 236,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Barnes 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "K. Anderson",
+      "x": 81,
+      "y": 17,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Anderson 8' Running Pull-Up Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "SAS",
+      "player": "H. Barnes",
+      "x": 120,
+      "y": 237,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Barnes 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Phillips",
+      "x": 25,
+      "y": 5,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Phillips 3' Driving Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "L. Waters III",
+      "x": 233,
+      "y": 52,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Waters III 24' 3PT Running Jump Shot (3 PTS) (McLaughlin 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "SAS",
+      "player": "J. McLaughlin",
+      "x": -2,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "McLaughlin 2' Running Finger Roll Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "K. Anderson",
+      "x": 37,
+      "y": 17,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Anderson 4' Driving Floating Bank Jump Shot (4 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "H. Barnes",
+      "x": -5,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Barnes 1' Running Dunk (9 PTS) (McLaughlin 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "H. Barnes",
+      "x": 75,
+      "y": 260,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Barnes 27' 3PT Pullup Jump Shot (12 PTS) (Olynyk 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "K. Anderson",
+      "x": 20,
+      "y": 55,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Anderson 6' Driving Floating Jump Shot (7 PTS) (Phillips 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "SAS",
+      "player": "H. Barnes",
+      "x": 82,
+      "y": 278,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Barnes 29' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "L. Waters III",
+      "x": 109,
+      "y": 258,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Waters III 28' 3PT Pullup Jump Shot (6 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Clark",
+      "x": -7,
+      "y": 250,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Clark 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "L. Waters III",
+      "x": 83,
+      "y": 275,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Waters III 29' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "L. Waters III",
+      "x": -234,
+      "y": -9,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Waters III 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Ingles",
+      "x": -194,
+      "y": 161,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Ingles 25' 3PT Pullup Jump Shot (4 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Olynyk",
+      "x": -145,
+      "y": 227,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Olynyk 27' 3PT Jump Shot (3 PTS) (Waters III 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Clark",
+      "x": 232,
+      "y": 25,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Clark 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Beringer",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Beringer Putback Layup (3 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "SAS",
+      "player": "B. Biyombo",
+      "x": -27,
+      "y": 25,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Biyombo 4' Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Ingles",
+      "x": -56,
+      "y": 248,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Ingles 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Olynyk",
+      "x": -22,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Olynyk 3' Driving Reverse Layup (5 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Beringer",
+      "x": -12,
+      "y": 3,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Beringer 1' Alley Oop Layup (5 PTS) (Anderson 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Phillips",
+      "x": 34,
+      "y": 250,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Phillips 25' 3PT Jump Shot (3 PTS) (Anderson 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "L. Waters III",
+      "x": 7,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Waters III 1' Reverse Layup (8 PTS) (Plumlee 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Phillips",
+      "x": -17,
+      "y": 6,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Phillips 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "SAS",
+      "player": "B. Biyombo",
+      "x": 7,
+      "y": 96,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Biyombo 10' Driving Floating Jump Shot (2 PTS) (Olynyk 2 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Ingles",
+      "x": 212,
+      "y": 134,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Ingles 25' 3PT Jump Shot (7 PTS) (Clark 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "SAS",
+      "player": "K. Olynyk",
+      "x": 157,
+      "y": 227,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Olynyk 28' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Beringer",
+      "x": 9,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Beringer 1' Driving Reverse Layup (7 PTS) (Anderson 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "MIN",
+      "player": "J. Beringer",
+      "x": 33,
+      "y": 50,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Beringer 6' Driving Layup",
+      "zone": "paint"
+    }
+  ],
+  "shot_zones": {
+    "SAS": {
+      "at_rim": {
+        "fgm": 16,
+        "fga": 26,
+        "pct": 61.5
+      },
+      "paint": {
+        "fgm": 9,
+        "fga": 17,
+        "pct": 52.9
+      },
+      "mid": {
+        "fgm": 0,
+        "fga": 2,
+        "pct": 0.0
+      },
+      "corner_3": {
+        "fgm": 3,
+        "fga": 7,
+        "pct": 42.9
+      },
+      "arc_3": {
+        "fgm": 13,
+        "fga": 32,
+        "pct": 40.6
+      }
+    },
+    "MIN": {
+      "at_rim": {
+        "fgm": 8,
+        "fga": 16,
+        "pct": 50.0
+      },
+      "paint": {
+        "fgm": 10,
+        "fga": 27,
+        "pct": 37.0
+      },
+      "mid": {
+        "fgm": 6,
+        "fga": 11,
+        "pct": 54.5
+      },
+      "corner_3": {
+        "fgm": 2,
+        "fga": 7,
+        "pct": 28.6
+      },
+      "arc_3": {
+        "fgm": 7,
+        "fga": 23,
+        "pct": 30.4
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-05-07"
+}

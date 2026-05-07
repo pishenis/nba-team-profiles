@@ -1,0 +1,3046 @@
+{
+  "game_id": "0042500212",
+  "date": "2026-05-06",
+  "home": "NYK",
+  "away": "PHI",
+  "home_pts": 108,
+  "away_pts": 102,
+  "winner": "NYK",
+  "game_flow": {
+    "quarter_scores": {
+      "NYK": [
+        31,
+        30,
+        28,
+        19
+      ],
+      "PHI": [
+        33,
+        29,
+        28,
+        12
+      ]
+    },
+    "num_periods": 4,
+    "lead_changes": 14,
+    "ties": 14,
+    "time_leading_home_fmt": "14:36",
+    "time_leading_away_fmt": "26:47",
+    "time_tied_fmt": "6:37",
+    "best_run_home": {
+      "pts_home": 9,
+      "pts_away": 1,
+      "start_min": 41.5,
+      "end_min": 46.5
+    },
+    "best_run_away": {
+      "pts_home": 8,
+      "pts_away": 15,
+      "start_min": 0,
+      "end_min": 4.5
+    },
+    "max_consec_home": 9,
+    "max_consec_away": 8
+  },
+  "four_factors": {
+    "NYK": {
+      "efg": 55.1,
+      "ftr": 0.316,
+      "tov": 13.7,
+      "oreb": 27.5,
+      "opp_efg": 54.0,
+      "opp_ftr": 0.373,
+      "opp_tov": 19.1,
+      "opp_oreb": 29.5
+    },
+    "PHI": {
+      "efg": 54.0,
+      "ftr": 0.373,
+      "tov": 19.1,
+      "oreb": 29.5,
+      "opp_efg": 55.1,
+      "opp_ftr": 0.316,
+      "opp_tov": 13.7,
+      "opp_oreb": 27.5
+    }
+  },
+  "misc": {
+    "NYK": {
+      "pts_fb": 15,
+      "pts_paint": 56,
+      "pts_2nd_chance": 11,
+      "blocks": 2
+    },
+    "PHI": {
+      "pts_fb": 8,
+      "pts_paint": 30,
+      "pts_2nd_chance": 8,
+      "blocks": 6
+    }
+  },
+  "hustle": {
+    "NYK": {
+      "deflections": 18,
+      "contested_shots": 48,
+      "contested_2pt": 24,
+      "contested_3pt": 24,
+      "charges_drawn": 0
+    },
+    "PHI": {
+      "deflections": 14,
+      "contested_shots": 42,
+      "contested_2pt": 27,
+      "contested_3pt": 15,
+      "charges_drawn": 0
+    }
+  },
+  "box_score": {
+    "NYK": [
+      {
+        "id": "1628384",
+        "name": "O. Anunoby",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "37:25",
+        "pts": 24,
+        "oreb": 2,
+        "dreb": 3,
+        "reb": 5,
+        "ast": 2,
+        "stl": 4,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 9,
+        "fga": 17,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 4,
+        "fta": 4,
+        "plus_minus": 12,
+        "starter": true
+      },
+      {
+        "id": "1628404",
+        "name": "J. Hart",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "43:39",
+        "pts": 5,
+        "oreb": 0,
+        "dreb": 7,
+        "reb": 7,
+        "ast": 6,
+        "stl": 3,
+        "blk": 0,
+        "tov": 4,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 5,
+        "starter": true
+      },
+      {
+        "id": "1626157",
+        "name": "K. Towns",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "27:24",
+        "pts": 20,
+        "oreb": 2,
+        "dreb": 8,
+        "reb": 10,
+        "ast": 7,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 6,
+        "fga": 8,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 7,
+        "fta": 9,
+        "plus_minus": 6,
+        "starter": true
+      },
+      {
+        "id": "1628969",
+        "name": "M. Bridges",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "37:45",
+        "pts": 18,
+        "oreb": 1,
+        "dreb": 4,
+        "reb": 5,
+        "ast": 2,
+        "stl": 1,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 9,
+        "fga": 13,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 7,
+        "starter": true
+      },
+      {
+        "id": "1628973",
+        "name": "J. Brunson",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "40:48",
+        "pts": 26,
+        "oreb": 0,
+        "dreb": 1,
+        "reb": 1,
+        "ast": 6,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 9,
+        "fga": 21,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 7,
+        "fta": 8,
+        "plus_minus": 7,
+        "starter": true
+      },
+      {
+        "id": "203903",
+        "name": "J. Clarkson",
+        "pos": "",
+        "jersey": "",
+        "minutes": "8:18",
+        "pts": 6,
+        "oreb": 3,
+        "dreb": 2,
+        "reb": 5,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": -6,
+        "starter": false
+      },
+      {
+        "id": "1630540",
+        "name": "M. McBride",
+        "pos": "",
+        "jersey": "",
+        "minutes": "21:28",
+        "pts": 4,
+        "oreb": 0,
+        "dreb": 1,
+        "reb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 1,
+        "fta": 2,
+        "plus_minus": -2,
+        "starter": false
+      },
+      {
+        "id": "1630574",
+        "name": "A. Hukporti",
+        "pos": "",
+        "jersey": "",
+        "minutes": "6:53",
+        "pts": 2,
+        "oreb": 1,
+        "dreb": 2,
+        "reb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -3,
+        "starter": false
+      },
+      {
+        "id": "1631110",
+        "name": "J. Sochan",
+        "pos": "",
+        "jersey": "",
+        "minutes": "0:55",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -1,
+        "starter": false
+      },
+      {
+        "id": "1630631",
+        "name": "J. Alvarado",
+        "pos": "",
+        "jersey": "",
+        "minutes": "7:04",
+        "pts": 3,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -1,
+        "starter": false
+      },
+      {
+        "id": "1629013",
+        "name": "L. Shamet",
+        "pos": "",
+        "jersey": "",
+        "minutes": "8:21",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 6,
+        "starter": false
+      }
+    ],
+    "PHI": [
+      {
+        "id": "202331",
+        "name": "P. George",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "42:57",
+        "pts": 19,
+        "oreb": 1,
+        "dreb": 5,
+        "reb": 6,
+        "ast": 4,
+        "stl": 2,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 7,
+        "fga": 18,
+        "fg3m": 5,
+        "fg3a": 13,
+        "ftm": 0,
+        "fta": 1,
+        "plus_minus": -4,
+        "starter": true
+      },
+      {
+        "id": "1626162",
+        "name": "K. Oubre Jr.",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "39:49",
+        "pts": 19,
+        "oreb": 0,
+        "dreb": 5,
+        "reb": 5,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 12,
+        "fg3m": 3,
+        "fg3a": 6,
+        "ftm": 4,
+        "fta": 4,
+        "plus_minus": -8,
+        "starter": true
+      },
+      {
+        "id": "203083",
+        "name": "A. Drummond",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "14:40",
+        "pts": 6,
+        "oreb": 2,
+        "dreb": 6,
+        "reb": 8,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": -3,
+        "starter": true
+      },
+      {
+        "id": "1642845",
+        "name": "V. Edgecombe",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "39:54",
+        "pts": 17,
+        "oreb": 2,
+        "dreb": 3,
+        "reb": 5,
+        "ast": 3,
+        "stl": 1,
+        "blk": 0,
+        "tov": 4,
+        "fgm": 6,
+        "fga": 13,
+        "fg3m": 3,
+        "fg3a": 7,
+        "ftm": 2,
+        "fta": 4,
+        "plus_minus": -5,
+        "starter": true
+      },
+      {
+        "id": "1630178",
+        "name": "T. Maxey",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "46:48",
+        "pts": 26,
+        "oreb": 0,
+        "dreb": 3,
+        "reb": 3,
+        "ast": 6,
+        "stl": 1,
+        "blk": 0,
+        "tov": 6,
+        "fgm": 9,
+        "fga": 23,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 7,
+        "fta": 9,
+        "plus_minus": 0,
+        "starter": true
+      },
+      {
+        "id": "1641737",
+        "name": "A. Bona",
+        "pos": "",
+        "jersey": "",
+        "minutes": "16:23",
+        "pts": 2,
+        "oreb": 6,
+        "dreb": 1,
+        "reb": 7,
+        "ast": 1,
+        "stl": 0,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 4,
+        "plus_minus": 2,
+        "starter": false
+      },
+      {
+        "id": "1629656",
+        "name": "Q. Grimes",
+        "pos": "",
+        "jersey": "",
+        "minutes": "23:50",
+        "pts": 7,
+        "oreb": 0,
+        "dreb": 3,
+        "reb": 3,
+        "ast": 3,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 4,
+        "fta": 4,
+        "plus_minus": -6,
+        "starter": false
+      },
+      {
+        "id": "1631230",
+        "name": "D. Barlow",
+        "pos": "",
+        "jersey": "",
+        "minutes": "15:39",
+        "pts": 6,
+        "oreb": 0,
+        "dreb": 2,
+        "reb": 2,
+        "ast": 0,
+        "stl": 1,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -6,
+        "starter": false
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1
+    },
+    {
+      "min": 0.5,
+      "home": 0,
+      "away": 2,
+      "period": 1
+    },
+    {
+      "min": 0.77,
+      "home": 2,
+      "away": 2,
+      "period": 1
+    },
+    {
+      "min": 1.1,
+      "home": 2,
+      "away": 4,
+      "period": 1
+    },
+    {
+      "min": 1.52,
+      "home": 5,
+      "away": 4,
+      "period": 1
+    },
+    {
+      "min": 1.8,
+      "home": 5,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 2.63,
+      "home": 5,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 2.63,
+      "home": 6,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 2.8,
+      "home": 8,
+      "away": 7,
+      "period": 1
+    },
+    {
+      "min": 3.75,
+      "home": 8,
+      "away": 10,
+      "period": 1
+    },
+    {
+      "min": 4.17,
+      "home": 8,
+      "away": 13,
+      "period": 1
+    },
+    {
+      "min": 4.52,
+      "home": 8,
+      "away": 15,
+      "period": 1
+    },
+    {
+      "min": 4.88,
+      "home": 10,
+      "away": 15,
+      "period": 1
+    },
+    {
+      "min": 5.17,
+      "home": 12,
+      "away": 15,
+      "period": 1
+    },
+    {
+      "min": 5.52,
+      "home": 14,
+      "away": 15,
+      "period": 1
+    },
+    {
+      "min": 5.95,
+      "home": 14,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 6.1,
+      "home": 15,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 6.1,
+      "home": 16,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 6.55,
+      "home": 18,
+      "away": 17,
+      "period": 1
+    },
+    {
+      "min": 7.52,
+      "home": 18,
+      "away": 18,
+      "period": 1
+    },
+    {
+      "min": 7.52,
+      "home": 18,
+      "away": 19,
+      "period": 1
+    },
+    {
+      "min": 8.03,
+      "home": 18,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 8.35,
+      "home": 19,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 8.35,
+      "home": 20,
+      "away": 22,
+      "period": 1
+    },
+    {
+      "min": 8.58,
+      "home": 20,
+      "away": 25,
+      "period": 1
+    },
+    {
+      "min": 8.92,
+      "home": 21,
+      "away": 25,
+      "period": 1
+    },
+    {
+      "min": 8.92,
+      "home": 22,
+      "away": 25,
+      "period": 1
+    },
+    {
+      "min": 9.42,
+      "home": 22,
+      "away": 26,
+      "period": 1
+    },
+    {
+      "min": 9.78,
+      "home": 24,
+      "away": 26,
+      "period": 1
+    },
+    {
+      "min": 10.07,
+      "home": 24,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 10.35,
+      "home": 27,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 10.62,
+      "home": 28,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 10.62,
+      "home": 29,
+      "away": 27,
+      "period": 1
+    },
+    {
+      "min": 10.83,
+      "home": 29,
+      "away": 28,
+      "period": 1
+    },
+    {
+      "min": 11.22,
+      "home": 29,
+      "away": 29,
+      "period": 1
+    },
+    {
+      "min": 11.22,
+      "home": 29,
+      "away": 30,
+      "period": 1
+    },
+    {
+      "min": 11.44,
+      "home": 31,
+      "away": 30,
+      "period": 1
+    },
+    {
+      "min": 11.77,
+      "home": 31,
+      "away": 33,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 1
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 2
+    },
+    {
+      "min": 12.25,
+      "home": 31,
+      "away": 35,
+      "period": 2
+    },
+    {
+      "min": 12.6,
+      "home": 33,
+      "away": 35,
+      "period": 2
+    },
+    {
+      "min": 12.83,
+      "home": 33,
+      "away": 36,
+      "period": 2
+    },
+    {
+      "min": 12.83,
+      "home": 33,
+      "away": 37,
+      "period": 2
+    },
+    {
+      "min": 13.67,
+      "home": 33,
+      "away": 38,
+      "period": 2
+    },
+    {
+      "min": 13.87,
+      "home": 35,
+      "away": 38,
+      "period": 2
+    },
+    {
+      "min": 14.02,
+      "home": 35,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 14.27,
+      "home": 37,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 14.62,
+      "home": 40,
+      "away": 41,
+      "period": 2
+    },
+    {
+      "min": 14.88,
+      "home": 40,
+      "away": 43,
+      "period": 2
+    },
+    {
+      "min": 15.43,
+      "home": 40,
+      "away": 45,
+      "period": 2
+    },
+    {
+      "min": 15.75,
+      "home": 42,
+      "away": 45,
+      "period": 2
+    },
+    {
+      "min": 16.22,
+      "home": 42,
+      "away": 46,
+      "period": 2
+    },
+    {
+      "min": 17.33,
+      "home": 42,
+      "away": 48,
+      "period": 2
+    },
+    {
+      "min": 17.55,
+      "home": 44,
+      "away": 48,
+      "period": 2
+    },
+    {
+      "min": 17.82,
+      "home": 44,
+      "away": 50,
+      "period": 2
+    },
+    {
+      "min": 17.95,
+      "home": 46,
+      "away": 50,
+      "period": 2
+    },
+    {
+      "min": 18.63,
+      "home": 46,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 18.92,
+      "home": 48,
+      "away": 52,
+      "period": 2
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 53,
+      "period": 2
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 54,
+      "period": 2
+    },
+    {
+      "min": 19.43,
+      "home": 50,
+      "away": 54,
+      "period": 2
+    },
+    {
+      "min": 20.0,
+      "home": 52,
+      "away": 54,
+      "period": 2
+    },
+    {
+      "min": 20.45,
+      "home": 54,
+      "away": 54,
+      "period": 2
+    },
+    {
+      "min": 20.87,
+      "home": 54,
+      "away": 56,
+      "period": 2
+    },
+    {
+      "min": 20.87,
+      "home": 54,
+      "away": 57,
+      "period": 2
+    },
+    {
+      "min": 22.2,
+      "home": 56,
+      "away": 57,
+      "period": 2
+    },
+    {
+      "min": 22.67,
+      "home": 58,
+      "away": 57,
+      "period": 2
+    },
+    {
+      "min": 23.29,
+      "home": 60,
+      "away": 57,
+      "period": 2
+    },
+    {
+      "min": 23.55,
+      "home": 60,
+      "away": 59,
+      "period": 2
+    },
+    {
+      "min": 23.91,
+      "home": 60,
+      "away": 62,
+      "period": 2
+    },
+    {
+      "min": 23.94,
+      "home": 61,
+      "away": 62,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 62,
+      "period": 2
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 62,
+      "period": 3
+    },
+    {
+      "min": 24.5,
+      "home": 63,
+      "away": 62,
+      "period": 3
+    },
+    {
+      "min": 25.35,
+      "home": 63,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 26.08,
+      "home": 66,
+      "away": 65,
+      "period": 3
+    },
+    {
+      "min": 26.4,
+      "home": 66,
+      "away": 67,
+      "period": 3
+    },
+    {
+      "min": 26.88,
+      "home": 66,
+      "away": 69,
+      "period": 3
+    },
+    {
+      "min": 27.25,
+      "home": 68,
+      "away": 69,
+      "period": 3
+    },
+    {
+      "min": 27.45,
+      "home": 68,
+      "away": 72,
+      "period": 3
+    },
+    {
+      "min": 27.63,
+      "home": 70,
+      "away": 72,
+      "period": 3
+    },
+    {
+      "min": 27.63,
+      "home": 71,
+      "away": 72,
+      "period": 3
+    },
+    {
+      "min": 27.88,
+      "home": 71,
+      "away": 74,
+      "period": 3
+    },
+    {
+      "min": 28.1,
+      "home": 72,
+      "away": 74,
+      "period": 3
+    },
+    {
+      "min": 28.1,
+      "home": 73,
+      "away": 74,
+      "period": 3
+    },
+    {
+      "min": 28.43,
+      "home": 73,
+      "away": 76,
+      "period": 3
+    },
+    {
+      "min": 28.98,
+      "home": 75,
+      "away": 76,
+      "period": 3
+    },
+    {
+      "min": 29.22,
+      "home": 75,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 29.48,
+      "home": 77,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 29.95,
+      "home": 79,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 31.12,
+      "home": 80,
+      "away": 79,
+      "period": 3
+    },
+    {
+      "min": 31.48,
+      "home": 80,
+      "away": 80,
+      "period": 3
+    },
+    {
+      "min": 31.48,
+      "home": 80,
+      "away": 81,
+      "period": 3
+    },
+    {
+      "min": 31.6,
+      "home": 81,
+      "away": 81,
+      "period": 3
+    },
+    {
+      "min": 31.6,
+      "home": 82,
+      "away": 81,
+      "period": 3
+    },
+    {
+      "min": 32.75,
+      "home": 84,
+      "away": 81,
+      "period": 3
+    },
+    {
+      "min": 33.07,
+      "home": 84,
+      "away": 83,
+      "period": 3
+    },
+    {
+      "min": 33.77,
+      "home": 84,
+      "away": 86,
+      "period": 3
+    },
+    {
+      "min": 34.18,
+      "home": 85,
+      "away": 86,
+      "period": 3
+    },
+    {
+      "min": 34.18,
+      "home": 86,
+      "away": 86,
+      "period": 3
+    },
+    {
+      "min": 34.72,
+      "home": 89,
+      "away": 86,
+      "period": 3
+    },
+    {
+      "min": 35.02,
+      "home": 89,
+      "away": 88,
+      "period": 3
+    },
+    {
+      "min": 35.5,
+      "home": 89,
+      "away": 89,
+      "period": 3
+    },
+    {
+      "min": 35.5,
+      "home": 89,
+      "away": 90,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 3
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 4
+    },
+    {
+      "min": 37.02,
+      "home": 89,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 38.18,
+      "home": 92,
+      "away": 92,
+      "period": 4
+    },
+    {
+      "min": 39.28,
+      "home": 92,
+      "away": 94,
+      "period": 4
+    },
+    {
+      "min": 39.5,
+      "home": 94,
+      "away": 94,
+      "period": 4
+    },
+    {
+      "min": 40.05,
+      "home": 96,
+      "away": 94,
+      "period": 4
+    },
+    {
+      "min": 40.7,
+      "home": 96,
+      "away": 95,
+      "period": 4
+    },
+    {
+      "min": 40.7,
+      "home": 96,
+      "away": 96,
+      "period": 4
+    },
+    {
+      "min": 41.13,
+      "home": 96,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 41.58,
+      "home": 99,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 42.9,
+      "home": 101,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 44.23,
+      "home": 103,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 45.07,
+      "home": 105,
+      "away": 99,
+      "period": 4
+    },
+    {
+      "min": 46.45,
+      "home": 105,
+      "away": 100,
+      "period": 4
+    },
+    {
+      "min": 46.9,
+      "home": 106,
+      "away": 100,
+      "period": 4
+    },
+    {
+      "min": 46.9,
+      "home": 107,
+      "away": 100,
+      "period": 4
+    },
+    {
+      "min": 47.0,
+      "home": 107,
+      "away": 102,
+      "period": 4
+    },
+    {
+      "min": 47.63,
+      "home": 108,
+      "away": 102,
+      "period": 4
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4
+    }
+  ],
+  "shots": [
+    {
+      "team": "NYK",
+      "player": "J. Hart",
+      "x": 38,
+      "y": 249,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Hart 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": -15,
+      "y": -4,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Oubre Jr. 2' Running Dunk (2 PTS) (George 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": -10,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Bridges 1' Cutting Finger Roll Layup Shot (2 PTS) (Towns 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -112,
+      "y": 37,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "George 12' Jump Shot (2 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -233,
+      "y": 44,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Anunoby 24' 3PT Jump Shot (3 PTS) (Brunson 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -138,
+      "y": 210,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "George 25' 3PT Pullup Jump Shot (5 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "K. Towns",
+      "x": 0,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Towns 2' Driving Finger Roll Layup (3 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Hart",
+      "x": 232,
+      "y": 1,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Hart 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": 239,
+      "y": 27,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Anunoby 24' 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -230,
+      "y": 26,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "George 3PT Jump Shot (8 PTS) (Drummond 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": -201,
+      "y": 154,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Bridges 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -225,
+      "y": -22,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "George 3PT Jump Shot (11 PTS) (Maxey 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 81,
+      "y": 238,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Brunson 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 4,
+      "y": -2,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Maxey Running Reverse Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 127,
+      "y": 208,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS Maxey 24' 3PT Running Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "K. Towns",
+      "x": -13,
+      "y": 94,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Towns 9' Driving Floating Jump Shot (5 PTS) (Anunoby 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -2,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Anunoby Running Reverse Dunk Shot (5 PTS) (Brunson 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 40,
+      "y": 55,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Maxey 7' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": -21,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Bridges 2' Running Layup (4 PTS) (Hart 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 60,
+      "y": 43,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Edgecombe 7' Driving Floating Jump Shot (2 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 230,
+      "y": -13,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS George 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": 5,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Anunoby 1' Driving Layup (7 PTS) (Towns 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 20,
+      "y": 42,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Edgecombe 5' Driving Layup",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 34,
+      "y": 198,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Maxey 20' Step Back Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -108,
+      "y": 227,
+      "made": false,
+      "value": 3,
+      "period": 1,
+      "desc": "MISS George 25' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 23,
+      "y": 11,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Brunson 3' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -50,
+      "y": 7,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Brunson 5' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 232,
+      "y": 5,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Oubre Jr. 3PT Jump Shot (5 PTS) (Edgecombe 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": -228,
+      "y": 8,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Oubre Jr. 3PT Jump Shot (8 PTS) (Grimes 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "Q. Grimes",
+      "x": -9,
+      "y": 126,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Grimes 13' Step Back Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "M. McBride",
+      "x": 2,
+      "y": 34,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS McBride 3' Driving Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "A. Hukporti",
+      "x": 1,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Hukporti 1' Cutting Dunk Shot (2 PTS) (Brunson 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -153,
+      "y": 200,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Brunson 25' 3PT Pullup Jump Shot (5 PTS)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -21,
+      "y": 10,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Brunson 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 89,
+      "y": -1,
+      "made": true,
+      "value": 2,
+      "period": 1,
+      "desc": "Brunson 9' Step Back Jump Shot (9 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "Q. Grimes",
+      "x": 232,
+      "y": 41,
+      "made": true,
+      "value": 3,
+      "period": 1,
+      "desc": "Grimes 24' 3PT Jump Shot (5 PTS) (Edgecombe 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -6,
+      "y": 102,
+      "made": false,
+      "value": 2,
+      "period": 1,
+      "desc": "MISS Anunoby 10' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 6,
+      "y": 11,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Maxey 1' Cutting Dunk Shot (6 PTS) (George 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "K. Towns",
+      "x": 22,
+      "y": 47,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Towns 5' Driving Floating Bank Jump Shot (9 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Alvarado",
+      "x": 2,
+      "y": 18,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Alvarado 2' Driving Finger Roll Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -189,
+      "y": 186,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Anunoby 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -1,
+      "y": 15,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Maxey 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": -60,
+      "y": 109,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Bridges 12' Fadeaway Jumper (6 PTS) (Alvarado 1 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -110,
+      "y": 221,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Maxey 25' 3PT Jump Shot (11 PTS) (George 3 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -4,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Anunoby 1' Driving Layup (9 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "Q. Grimes",
+      "x": 10,
+      "y": 9,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Grimes 1' Driving Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Alvarado",
+      "x": 150,
+      "y": 205,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Alvarado 25' 3PT Pullup Jump Shot (3 PTS) (McBride 1 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 114,
+      "y": 68,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Maxey 13' Turnaround Fadeaway (13 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -89,
+      "y": 152,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Maxey 18' Fadeaway Jumper (15 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": -110,
+      "y": 157,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Bridges 19' Pullup Jump Shot (8 PTS) (Hart 2 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 7,
+      "y": 256,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS George 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Hart",
+      "x": -228,
+      "y": 29,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Hart 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -32,
+      "y": 120,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Brunson 12' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "A. Hukporti",
+      "x": -10,
+      "y": 29,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Hukporti 3' Putback Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Clarkson",
+      "x": -11,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Clarkson 1' Tip Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 5,
+      "y": 27,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Oubre Jr. 3' Cutting Dunk Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 143,
+      "y": 239,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Maxey 28' 3PT Running Pull-Up Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "A. Drummond",
+      "x": 0,
+      "y": 0,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Drummond Tip Layup Shot (2 PTS)",
+      "zone": ""
+    },
+    {
+      "team": "NYK",
+      "player": "A. Hukporti",
+      "x": -9,
+      "y": 7,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Hukporti 1' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Clarkson",
+      "x": 28,
+      "y": 25,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Clarkson 4' Floating Jump Shot (4 PTS) (Bridges 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -9,
+      "y": 10,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Maxey 1' Driving Layup (18 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Clarkson",
+      "x": 10,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Clarkson 1' Driving Layup (6 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 62,
+      "y": 62,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Maxey 9' Driving Floating Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": -4,
+      "y": -2,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Oubre Jr. Dunk (10 PTS) (Maxey 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 18,
+      "y": 48,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Brunson 5' Driving Floating Jump Shot (11 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Clarkson",
+      "x": 234,
+      "y": 11,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Clarkson 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -36,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Brunson 4' Driving Layup (13 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -6,
+      "y": 19,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Edgecombe 2' Floating Jump Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": 2,
+      "y": 2,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Anunoby Running Dunk (11 PTS) (Brunson 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 47,
+      "y": 68,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Maxey 8' Turnaround Bank Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": 5,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Bridges 1' Running Alley Oop Dunk Shot (10 PTS) (Hart 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -137,
+      "y": 24,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "George 14' Jump Shot (13 PTS) (Maxey 3 AST)",
+      "zone": "mid"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 123,
+      "y": 232,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Brunson 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": -159,
+      "y": 211,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Oubre Jr. 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -45,
+      "y": 185,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Anunoby 19' Step Back Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 26,
+      "y": 117,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Oubre Jr. 12' Turnaround Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 1,
+      "y": 18,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Brunson 2' Running Finger Roll Layup (15 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "Q. Grimes",
+      "x": 126,
+      "y": 226,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Grimes 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -10,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Anunoby 1' Running Layup (13 PTS) (Hart 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -12,
+      "y": 151,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Maxey 15' Fadeaway Jumper",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Hart",
+      "x": 9,
+      "y": 10,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Hart 1' Driving Layup (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 234,
+      "y": 11,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS George 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -16,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 2,
+      "desc": "Edgecombe 2' Driving Layup (6 PTS) (Bona 1 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -7,
+      "y": 12,
+      "made": false,
+      "value": 2,
+      "period": 2,
+      "desc": "MISS Brunson 1' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -135,
+      "y": 213,
+      "made": true,
+      "value": 3,
+      "period": 2,
+      "desc": "Edgecombe 25' 3PT Jump Shot (9 PTS) (Maxey 4 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 12,
+      "y": 241,
+      "made": false,
+      "value": 3,
+      "period": 2,
+      "desc": "MISS Edgecombe 24' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -94,
+      "y": 241,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS George 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": -7,
+      "y": 15,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Bridges 2' Cutting Layup Shot (12 PTS) (Towns 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 74,
+      "y": 141,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Brunson 16' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -244,
+      "y": 18,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Edgecombe 24' 3PT Jump Shot (12 PTS) (Oubre Jr. 1 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": 54,
+      "y": 46,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Bridges 7' Fadeaway Bank Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "K. Towns",
+      "x": 4,
+      "y": 248,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Towns 25' 3PT Jump Shot (12 PTS) (Hart 5 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": -2,
+      "y": 8,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Oubre Jr. 1' Driving Floating Jump Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "A. Drummond",
+      "x": -6,
+      "y": 5,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Drummond 1' Tip Layup Shot (6 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": 224,
+      "y": -18,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Bridges 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 16,
+      "y": 6,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Maxey 2' Driving Floating Bank Jump Shot (21 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": 229,
+      "y": 63,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Anunoby 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": 80,
+      "y": 21,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Bridges 8' Jump Shot (14 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -206,
+      "y": 176,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "George 27' 3PT Jump Shot (16 PTS) (Maxey 5 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "K. Towns",
+      "x": -6,
+      "y": 24,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Towns 2' Driving Floating Bank Jump Shot (14 PTS) (Bridges 2 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 1,
+      "y": 13,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Oubre Jr. 1' Driving Layup (12 PTS) (George 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 64,
+      "y": 191,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Edgecombe 20' Pullup Jump Shot (14 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "NYK",
+      "player": "K. Towns",
+      "x": -40,
+      "y": 40,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Towns 6' Turnaround Bank Shot (19 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -225,
+      "y": 67,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "George 3PT Step Back Jump Shot (19 PTS) (Oubre Jr. 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": 13,
+      "y": 4,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Bridges 1' Cutting Layup Shot (16 PTS) (Towns 4 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 23,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Brunson 2' Driving Reverse Layup (18 PTS) (Towns 5 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -165,
+      "y": 196,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS George 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 99,
+      "y": 241,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Brunson 26' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 43,
+      "y": 259,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Oubre Jr. 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": 56,
+      "y": 47,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Anunoby 7' Jump Bank Shot (17 PTS) (Brunson 5 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "D. Barlow",
+      "x": 7,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Barlow 2' Dunk (2 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -15,
+      "y": 10,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Brunson 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 234,
+      "y": 25,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Edgecombe 24' 3PT Jump Shot (17 PTS) (Grimes 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 244,
+      "y": 8,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS Brunson 24' 3PT Running Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "M. McBride",
+      "x": -132,
+      "y": 214,
+      "made": false,
+      "value": 3,
+      "period": 3,
+      "desc": "MISS McBride 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": 92,
+      "y": 236,
+      "made": true,
+      "value": 3,
+      "period": 3,
+      "desc": "Anunoby 25' 3PT Jump Shot (22 PTS) (Brunson 6 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "D. Barlow",
+      "x": 0,
+      "y": 8,
+      "made": true,
+      "value": 2,
+      "period": 3,
+      "desc": "Barlow 1' Dunk (4 PTS) (Grimes 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": 12,
+      "y": 19,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Bridges 2' Reverse Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": -82,
+      "y": 76,
+      "made": false,
+      "value": 2,
+      "period": 3,
+      "desc": "MISS Maxey 11' Driving Floating Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 78,
+      "y": 167,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS George 18' Pullup Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "M. McBride",
+      "x": -229,
+      "y": 106,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS McBride 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "D. Barlow",
+      "x": -11,
+      "y": -5,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Barlow 1' Cutting Layup Shot (6 PTS) (Edgecombe 3 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -232,
+      "y": 18,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS George 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 109,
+      "y": 115,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Maxey 16' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 224,
+      "y": 34,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Maxey 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "M. McBride",
+      "x": -83,
+      "y": 240,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "McBride 25' 3PT Jump Shot (3 PTS) (Towns 6 AST)",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -114,
+      "y": 134,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS George 18' Turnaround Fadeaway Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "NYK",
+      "player": "K. Towns",
+      "x": -13,
+      "y": 32,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Towns 3' Driving Dunk",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -228,
+      "y": 83,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Anunoby 24' 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 127,
+      "y": 68,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Maxey 14' Step Back Jump Shot (23 PTS)",
+      "zone": "mid"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -5,
+      "y": 83,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Brunson 8' Fadeaway Jumper (20 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 16,
+      "y": 21,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Edgecombe 3' Cutting Layup Shot",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": -11,
+      "y": 16,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Anunoby 2' Driving Layup (24 PTS) (Hart 6 AST)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": 125,
+      "y": 23,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS George 13' Fadeaway Jumper",
+      "zone": "mid"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": 234,
+      "y": 9,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Anunoby 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 234,
+      "y": 5,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Oubre Jr. 3PT Jump Shot (19 PTS) (Maxey 6 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Hart",
+      "x": -233,
+      "y": 62,
+      "made": true,
+      "value": 3,
+      "period": 4,
+      "desc": "Hart 24' 3PT Jump Shot (5 PTS) (Anunoby 2 AST)",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 159,
+      "y": 189,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Edgecombe 25' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "K. Towns",
+      "x": -45,
+      "y": 37,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Towns 6' Driving Floating Bank Jump Shot",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "K. Oubre Jr.",
+      "x": 108,
+      "y": 238,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Oubre Jr. 26' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -65,
+      "y": 162,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Brunson 17' Pullup Jump Shot (22 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": -232,
+      "y": 48,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Edgecombe 24' 3PT Step Back Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": 104,
+      "y": 177,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Brunson 21' Step Back Jump Shot",
+      "zone": "mid"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 0,
+      "y": 21,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Maxey 2' Driving Layup",
+      "zone": "at_rim"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 222,
+      "y": 68,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Maxey 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Brunson",
+      "x": -13,
+      "y": 161,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Brunson 16' Turnaround Jump Shot (24 PTS)",
+      "zone": "paint"
+    },
+    {
+      "team": "PHI",
+      "player": "V. Edgecombe",
+      "x": 112,
+      "y": 242,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Edgecombe 27' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "NYK",
+      "player": "O. Anunoby",
+      "x": 6,
+      "y": 27,
+      "made": false,
+      "value": 2,
+      "period": 4,
+      "desc": "MISS Anunoby 3' Dunk",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "M. Bridges",
+      "x": 78,
+      "y": 184,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Bridges 20' Step Back Jump Shot (18 PTS) (Towns 7 AST)",
+      "zone": "paint"
+    },
+    {
+      "team": "NYK",
+      "player": "M. McBride",
+      "x": -229,
+      "y": -6,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS McBride 3PT Jump Shot",
+      "zone": "corner_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 23,
+      "y": 12,
+      "made": true,
+      "value": 2,
+      "period": 4,
+      "desc": "Maxey 3' Driving Layup (26 PTS)",
+      "zone": "at_rim"
+    },
+    {
+      "team": "NYK",
+      "player": "J. Hart",
+      "x": -185,
+      "y": 171,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Hart 25' 3PT Step Back Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "P. George",
+      "x": -206,
+      "y": 169,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS George 27' 3PT Jump Shot",
+      "zone": "arc_3"
+    },
+    {
+      "team": "PHI",
+      "player": "T. Maxey",
+      "x": 188,
+      "y": 176,
+      "made": false,
+      "value": 3,
+      "period": 4,
+      "desc": "MISS Maxey 26' 3PT Pullup Jump Shot",
+      "zone": "arc_3"
+    }
+  ],
+  "shot_zones": {
+    "NYK": {
+      "at_rim": {
+        "fgm": 20,
+        "fga": 32,
+        "pct": 62.5
+      },
+      "paint": {
+        "fgm": 11,
+        "fga": 18,
+        "pct": 61.1
+      },
+      "mid": {
+        "fgm": 2,
+        "fga": 3,
+        "pct": 66.7
+      },
+      "corner_3": {
+        "fgm": 2,
+        "fga": 12,
+        "pct": 16.7
+      },
+      "arc_3": {
+        "fgm": 5,
+        "fga": 14,
+        "pct": 35.7
+      }
+    },
+    "PHI": {
+      "at_rim": {
+        "fgm": 13,
+        "fga": 20,
+        "pct": 65.0
+      },
+      "paint": {
+        "fgm": 1,
+        "fga": 9,
+        "pct": 11.1
+      },
+      "mid": {
+        "fgm": 6,
+        "fga": 11,
+        "pct": 54.5
+      },
+      "corner_3": {
+        "fgm": 9,
+        "fga": 15,
+        "pct": 60.0
+      },
+      "arc_3": {
+        "fgm": 4,
+        "fga": 19,
+        "pct": 21.1
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-05-07"
+}
