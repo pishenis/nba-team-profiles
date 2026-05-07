@@ -44,47 +44,53 @@
   },
   "four_factors": {
     "SAS": {
-      "efg": 0,
-      "ftr": 0,
-      "tov": 0,
-      "oreb": 0,
-      "opp_efg": 0,
-      "opp_ftr": 0,
-      "opp_tov": 0,
-      "opp_oreb": 0
+      "efg": 58.9,
+      "ftr": 0.367,
+      "tov": 14.7,
+      "oreb": 27.1,
+      "opp_efg": 44.9,
+      "opp_ftr": 0.352,
+      "opp_tov": 20.0,
+      "opp_oreb": 29.0
     },
     "MIN": {
-      "efg": 0,
-      "ftr": 0,
-      "tov": 0,
-      "oreb": 0,
-      "opp_efg": 0,
-      "opp_ftr": 0,
-      "opp_tov": 0,
-      "opp_oreb": 0
+      "efg": 44.9,
+      "ftr": 0.352,
+      "tov": 20.0,
+      "oreb": 29.0,
+      "opp_efg": 58.9,
+      "opp_ftr": 0.367,
+      "opp_tov": 14.7,
+      "opp_oreb": 27.1
     }
   },
   "misc": {
     "SAS": {
-      "pts_fb": 0,
-      "pts_paint": 0,
-      "pts_2nd_chance": 0,
-      "blocks": 0
+      "pts_fb": 29,
+      "pts_paint": 58,
+      "pts_2nd_chance": 14,
+      "blocks": 9
     },
     "MIN": {
-      "pts_fb": 0,
-      "pts_paint": 0,
-      "pts_2nd_chance": 0,
-      "blocks": 0
+      "pts_fb": 5,
+      "pts_paint": 36,
+      "pts_2nd_chance": 21,
+      "blocks": 2
     }
   },
   "hustle": {
-    "SAS": {},
+    "SAS": {
+      "deflections": 17,
+      "contested_shots": 34,
+      "contested_2pt": 26,
+      "contested_3pt": 8,
+      "charges_drawn": 0
+    },
     "MIN": {
-      "deflections": 0,
-      "contested_shots": 0,
-      "contested_2pt": 0,
-      "contested_3pt": 0,
+      "deflections": 14,
+      "contested_shots": 36,
+      "contested_2pt": 16,
+      "contested_3pt": 20,
       "charges_drawn": 0
     }
   },
