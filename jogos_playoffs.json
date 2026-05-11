@@ -528,6 +528,16 @@
         "away_pts": 108,
         "winner": "NYK",
         "game_number": 3
+      },
+      {
+        "game_id": "0042500214",
+        "date": "2026-05-10",
+        "home": "PHI",
+        "away": "NYK",
+        "home_pts": 114,
+        "away_pts": 144,
+        "winner": "NYK",
+        "game_number": 4
       }
     ],
     "sas_min": [
@@ -629,20 +639,20 @@
   },
   "series_scores": {
     "cle_tor": {
-      "TOR": 3,
-      "CLE": 4
+      "CLE": 4,
+      "TOR": 3
     },
     "den_min": {
       "MIN": 4,
       "DEN": 2
     },
     "lal_hou": {
-      "LAL": 4,
-      "HOU": 2
+      "HOU": 2,
+      "LAL": 4
     },
     "nyk_atl": {
-      "ATL": 2,
-      "NYK": 4
+      "NYK": 4,
+      "ATL": 2
     },
     "bos_phi": {
       "PHI": 4,
@@ -662,19 +672,19 @@
     },
     "nyk_phi": {
       "PHI": 0,
-      "NYK": 3
+      "NYK": 4
     },
     "sas_min": {
-      "MIN": 1,
-      "SAS": 2
+      "SAS": 2,
+      "MIN": 1
     },
     "det_cle": {
       "DET": 2,
       "CLE": 1
     },
     "okc_lal": {
-      "LAL": 0,
-      "OKC": 3
+      "OKC": 3,
+      "LAL": 0
     }
   }
 }
