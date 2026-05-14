@@ -1,20 +1,20 @@
 {
   "game_id": "0042500205",
   "date": "2026-05-13",
-  "home": "CLE",
-  "away": "DET",
+  "home": "DET",
+  "away": "CLE",
   "home_pts": 0,
   "away_pts": 0,
-  "winner": "DET",
+  "winner": "CLE",
   "game_flow": {
     "quarter_scores": {
-      "CLE": [
+      "DET": [
         29,
         31,
         20,
         23
       ],
-      "DET": [
+      "CLE": [
         27,
         25,
         32,
@@ -43,16 +43,6 @@
     "max_consec_away": 9
   },
   "four_factors": {
-    "CLE": {
-      "efg": 53.8,
-      "ftr": 0.475,
-      "tov": 17.2,
-      "oreb": 36.7,
-      "opp_efg": 50.0,
-      "opp_ftr": 0.211,
-      "opp_tov": 15.5,
-      "opp_oreb": 40.7
-    },
     "DET": {
       "efg": 50.0,
       "ftr": 0.211,
@@ -62,248 +52,49 @@
       "opp_ftr": 0.475,
       "opp_tov": 17.2,
       "opp_oreb": 36.7
+    },
+    "CLE": {
+      "efg": 53.8,
+      "ftr": 0.475,
+      "tov": 17.2,
+      "oreb": 36.7,
+      "opp_efg": 50.0,
+      "opp_ftr": 0.211,
+      "opp_tov": 15.5,
+      "opp_oreb": 40.7
     }
   },
   "misc": {
-    "CLE": {
-      "pts_fb": 7,
-      "pts_paint": 38,
-      "pts_2nd_chance": 14,
-      "blocks": 9
-    },
     "DET": {
       "pts_fb": 23,
       "pts_paint": 48,
       "pts_2nd_chance": 15,
       "blocks": 10
+    },
+    "CLE": {
+      "pts_fb": 7,
+      "pts_paint": 38,
+      "pts_2nd_chance": 14,
+      "blocks": 9
     }
   },
   "hustle": {
-    "CLE": {
-      "deflections": 11,
-      "contested_shots": 55,
-      "contested_2pt": 38,
-      "contested_3pt": 17,
-      "charges_drawn": 0
-    },
     "DET": {
       "deflections": 20,
       "contested_shots": 42,
       "contested_2pt": 23,
       "contested_3pt": 19,
       "charges_drawn": 0
+    },
+    "CLE": {
+      "deflections": 11,
+      "contested_shots": 55,
+      "contested_2pt": 38,
+      "contested_3pt": 17,
+      "charges_drawn": 0
     }
   },
   "box_score": {
-    "CLE": [
-      {
-        "id": "1629731",
-        "name": "D. Wade",
-        "pos": "F",
-        "jersey": "",
-        "minutes": "23:17",
-        "pts": 0,
-        "oreb": 1,
-        "dreb": 5,
-        "reb": 6,
-        "ast": 0,
-        "stl": 1,
-        "blk": 0,
-        "tov": 0,
-        "fgm": 0,
-        "fga": 0,
-        "fg3m": 0,
-        "fg3a": 0,
-        "ftm": 0,
-        "fta": 0,
-        "plus_minus": 2,
-        "starter": true
-      },
-      {
-        "id": "1630596",
-        "name": "E. Mobley",
-        "pos": "F",
-        "jersey": "",
-        "minutes": "42:32",
-        "pts": 19,
-        "oreb": 1,
-        "dreb": 7,
-        "reb": 8,
-        "ast": 8,
-        "stl": 1,
-        "blk": 3,
-        "tov": 4,
-        "fgm": 6,
-        "fga": 13,
-        "fg3m": 2,
-        "fg3a": 3,
-        "ftm": 5,
-        "fta": 6,
-        "plus_minus": -7,
-        "starter": true
-      },
-      {
-        "id": "1628386",
-        "name": "J. Allen",
-        "pos": "C",
-        "jersey": "",
-        "minutes": "36:26",
-        "pts": 16,
-        "oreb": 6,
-        "dreb": 4,
-        "reb": 10,
-        "ast": 1,
-        "stl": 1,
-        "blk": 2,
-        "tov": 1,
-        "fgm": 6,
-        "fga": 10,
-        "fg3m": 0,
-        "fg3a": 0,
-        "ftm": 4,
-        "fta": 5,
-        "plus_minus": 14,
-        "starter": true
-      },
-      {
-        "id": "1628378",
-        "name": "D. Mitchell",
-        "pos": "G",
-        "jersey": "",
-        "minutes": "42:02",
-        "pts": 21,
-        "oreb": 0,
-        "dreb": 4,
-        "reb": 4,
-        "ast": 3,
-        "stl": 0,
-        "blk": 0,
-        "tov": 2,
-        "fgm": 7,
-        "fga": 18,
-        "fg3m": 1,
-        "fg3a": 8,
-        "ftm": 6,
-        "fta": 6,
-        "plus_minus": -4,
-        "starter": true
-      },
-      {
-        "id": "201935",
-        "name": "J. Harden",
-        "pos": "G",
-        "jersey": "",
-        "minutes": "43:05",
-        "pts": 30,
-        "oreb": 3,
-        "dreb": 5,
-        "reb": 8,
-        "ast": 6,
-        "stl": 1,
-        "blk": 3,
-        "tov": 6,
-        "fgm": 8,
-        "fga": 21,
-        "fg3m": 3,
-        "fg3a": 10,
-        "ftm": 11,
-        "fta": 14,
-        "plus_minus": 11,
-        "starter": true
-      },
-      {
-        "id": "1629622",
-        "name": "M. Strus",
-        "pos": "",
-        "jersey": "",
-        "minutes": "36:14",
-        "pts": 20,
-        "oreb": 2,
-        "dreb": 6,
-        "reb": 8,
-        "ast": 1,
-        "stl": 1,
-        "blk": 1,
-        "tov": 0,
-        "fgm": 6,
-        "fga": 8,
-        "fg3m": 6,
-        "fg3a": 8,
-        "ftm": 2,
-        "fta": 2,
-        "plus_minus": 9,
-        "starter": false
-      },
-      {
-        "id": "203471",
-        "name": "D. Schr\u00f6der",
-        "pos": "",
-        "jersey": "",
-        "minutes": "17:14",
-        "pts": 5,
-        "oreb": 0,
-        "dreb": 0,
-        "reb": 0,
-        "ast": 5,
-        "stl": 0,
-        "blk": 0,
-        "tov": 2,
-        "fgm": 1,
-        "fga": 4,
-        "fg3m": 0,
-        "fg3a": 1,
-        "ftm": 3,
-        "fta": 5,
-        "plus_minus": 9,
-        "starter": false
-      },
-      {
-        "id": "1630241",
-        "name": "S. Merrill",
-        "pos": "",
-        "jersey": "",
-        "minutes": "21:05",
-        "pts": 6,
-        "oreb": 0,
-        "dreb": 0,
-        "reb": 0,
-        "ast": 1,
-        "stl": 1,
-        "blk": 0,
-        "tov": 0,
-        "fgm": 2,
-        "fga": 5,
-        "fg3m": 2,
-        "fg3a": 5,
-        "ftm": 0,
-        "fta": 0,
-        "plus_minus": -7,
-        "starter": false
-      },
-      {
-        "id": "1642281",
-        "name": "J. Tyson",
-        "pos": "",
-        "jersey": "",
-        "minutes": "3:05",
-        "pts": 0,
-        "oreb": 0,
-        "dreb": 0,
-        "reb": 0,
-        "ast": 0,
-        "stl": 0,
-        "blk": 0,
-        "tov": 1,
-        "fgm": 0,
-        "fga": 1,
-        "fg3m": 0,
-        "fg3a": 0,
-        "ftm": 0,
-        "fta": 0,
-        "plus_minus": -7,
-        "starter": false
-      }
-    ],
     "DET": [
       {
         "id": "1641709",
@@ -441,7 +232,7 @@
         "ftm": 3,
         "fta": 3,
         "plus_minus": -7,
-        "starter": false
+        "starter": true
       },
       {
         "id": "1628989",
@@ -464,7 +255,7 @@
         "ftm": 0,
         "fta": 0,
         "plus_minus": -4,
-        "starter": false
+        "starter": true
       },
       {
         "id": "1631204",
@@ -487,7 +278,7 @@
         "ftm": 0,
         "fta": 0,
         "plus_minus": 9,
-        "starter": false
+        "starter": true
       },
       {
         "id": "1630191",
@@ -510,7 +301,7 @@
         "ftm": 0,
         "fta": 0,
         "plus_minus": 12,
-        "starter": false
+        "starter": true
       },
       {
         "id": "1630194",
@@ -533,7 +324,216 @@
         "ftm": 2,
         "fta": 2,
         "plus_minus": 0,
-        "starter": false
+        "starter": true
+      }
+    ],
+    "CLE": [
+      {
+        "id": "1629731",
+        "name": "D. Wade",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "23:17",
+        "pts": 0,
+        "oreb": 1,
+        "dreb": 5,
+        "reb": 6,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": 2,
+        "starter": true
+      },
+      {
+        "id": "1630596",
+        "name": "E. Mobley",
+        "pos": "F",
+        "jersey": "",
+        "minutes": "42:32",
+        "pts": 19,
+        "oreb": 1,
+        "dreb": 7,
+        "reb": 8,
+        "ast": 8,
+        "stl": 1,
+        "blk": 3,
+        "tov": 4,
+        "fgm": 6,
+        "fga": 13,
+        "fg3m": 2,
+        "fg3a": 3,
+        "ftm": 5,
+        "fta": 6,
+        "plus_minus": -7,
+        "starter": true
+      },
+      {
+        "id": "1628386",
+        "name": "J. Allen",
+        "pos": "C",
+        "jersey": "",
+        "minutes": "36:26",
+        "pts": 16,
+        "oreb": 6,
+        "dreb": 4,
+        "reb": 10,
+        "ast": 1,
+        "stl": 1,
+        "blk": 2,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 10,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 4,
+        "fta": 5,
+        "plus_minus": 14,
+        "starter": true
+      },
+      {
+        "id": "1628378",
+        "name": "D. Mitchell",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "42:02",
+        "pts": 21,
+        "oreb": 0,
+        "dreb": 4,
+        "reb": 4,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 7,
+        "fga": 18,
+        "fg3m": 1,
+        "fg3a": 8,
+        "ftm": 6,
+        "fta": 6,
+        "plus_minus": -4,
+        "starter": true
+      },
+      {
+        "id": "201935",
+        "name": "J. Harden",
+        "pos": "G",
+        "jersey": "",
+        "minutes": "43:05",
+        "pts": 30,
+        "oreb": 3,
+        "dreb": 5,
+        "reb": 8,
+        "ast": 6,
+        "stl": 1,
+        "blk": 3,
+        "tov": 6,
+        "fgm": 8,
+        "fga": 21,
+        "fg3m": 3,
+        "fg3a": 10,
+        "ftm": 11,
+        "fta": 14,
+        "plus_minus": 11,
+        "starter": true
+      },
+      {
+        "id": "1629622",
+        "name": "M. Strus",
+        "pos": "",
+        "jersey": "",
+        "minutes": "36:14",
+        "pts": 20,
+        "oreb": 2,
+        "dreb": 6,
+        "reb": 8,
+        "ast": 1,
+        "stl": 1,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 6,
+        "fga": 8,
+        "fg3m": 6,
+        "fg3a": 8,
+        "ftm": 2,
+        "fta": 2,
+        "plus_minus": 9,
+        "starter": true
+      },
+      {
+        "id": "203471",
+        "name": "D. Schr\u00f6der",
+        "pos": "",
+        "jersey": "",
+        "minutes": "17:14",
+        "pts": 5,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 5,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 3,
+        "fta": 5,
+        "plus_minus": 9,
+        "starter": true
+      },
+      {
+        "id": "1630241",
+        "name": "S. Merrill",
+        "pos": "",
+        "jersey": "",
+        "minutes": "21:05",
+        "pts": 6,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -7,
+        "starter": true
+      },
+      {
+        "id": "1642281",
+        "name": "J. Tyson",
+        "pos": "",
+        "jersey": "",
+        "minutes": "3:05",
+        "pts": 0,
+        "oreb": 0,
+        "dreb": 0,
+        "reb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "plus_minus": -7,
+        "starter": true
       }
     ]
   },
@@ -3313,33 +3313,6 @@
     }
   ],
   "shot_zones": {
-    "CLE": {
-      "at_rim": {
-        "fgm": 9,
-        "fga": 11,
-        "pct": 81.8
-      },
-      "paint": {
-        "fgm": 9,
-        "fga": 26,
-        "pct": 34.6
-      },
-      "mid": {
-        "fgm": 3,
-        "fga": 6,
-        "pct": 50.0
-      },
-      "corner_3": {
-        "fgm": 6,
-        "fga": 8,
-        "pct": 75.0
-      },
-      "arc_3": {
-        "fgm": 8,
-        "fga": 27,
-        "pct": 29.6
-      }
-    },
     "DET": {
       "at_rim": {
         "fgm": 6,
@@ -3365,6 +3338,33 @@
         "fgm": 6,
         "fga": 21,
         "pct": 28.6
+      }
+    },
+    "CLE": {
+      "at_rim": {
+        "fgm": 9,
+        "fga": 11,
+        "pct": 81.8
+      },
+      "paint": {
+        "fgm": 9,
+        "fga": 26,
+        "pct": 34.6
+      },
+      "mid": {
+        "fgm": 3,
+        "fga": 6,
+        "pct": 50.0
+      },
+      "corner_3": {
+        "fgm": 6,
+        "fga": 8,
+        "pct": 75.0
+      },
+      "arc_3": {
+        "fgm": 8,
+        "fga": 27,
+        "pct": 29.6
       }
     }
   },

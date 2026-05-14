@@ -55,11 +55,21 @@ if not summary_dfs:
 line_score = summary_dfs[5]
 game_info  = summary_dfs[0]
 
-game_date = str(game_info["GAME_DATE_EST"].iloc[0])[:10]
-home_abbr = line_score.iloc[0]["TEAM_ABBREVIATION"]
-away_abbr = line_score.iloc[1]["TEAM_ABBREVIATION"]
-home_pts  = int(line_score.iloc[0]["PTS"] or 0)
-away_pts  = int(line_score.iloc[1]["PTS"] or 0)
+game_date   = str(game_info["GAME_DATE_EST"].iloc[0])[:10]
+home_team_id = int(game_info["HOME_TEAM_ID"].iloc[0])
+
+# Identifica mandante pelo HOME_TEAM_ID, não pela ordem das linhas
+row0 = line_score.iloc[0]
+row1 = line_score.iloc[1]
+if int(row0["TEAM_ID"]) == home_team_id:
+    home_row, away_row = row0, row1
+else:
+    home_row, away_row = row1, row0
+
+home_abbr = home_row["TEAM_ABBREVIATION"]
+away_abbr = away_row["TEAM_ABBREVIATION"]
+home_pts  = int(home_row["PTS"] or 0)
+away_pts  = int(away_row["PTS"] or 0)
 
 print(f"  {away_abbr} {away_pts} @ {home_abbr} {home_pts} · {game_date}")
 
@@ -93,7 +103,7 @@ def parse_players(df):
             "ftm":      int(row.get("freeThrowsMade",0) or 0),
             "fta":      int(row.get("freeThrowsAttempted",0) or 0),
             "plus_minus": int(row.get("plusMinusPoints",0) or 0),
-            "starter":  row.get("position","") != "",
+            "starter":  row.get("comment","") == "",
         })
     return players
 
