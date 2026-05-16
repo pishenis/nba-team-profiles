@@ -159,6 +159,16 @@ const BRACKET_DEF_R2 = {
   ],
 };
 
+// Finais de Conferência
+const BRACKET_DEF_R3 = {
+  West: [
+    {id:"okc_sas", home:"OKC", away:"SAS", home_seed:1, away_seed:2, round:3},
+  ],
+  East: [
+    {id:"e_cf1", home:"DET", away:"NYK", home_seed:1, away_seed:3, round:3},
+  ],
+};
+
 function logoUrl(a){return`https://cdn.nba.com/logos/nba/${TID[a]}/global/L/logo.svg`;}
 
 let PLAYOFFS={}, H2H={}, TIMES={};
@@ -174,12 +184,13 @@ function fmtDate(d){
   return dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'});
 }
 
-const allDefs=[...Object.values(BRACKET_DEF).flat(),...Object.values(BRACKET_DEF_R2).flat()];
+const allDefs=[...Object.values(BRACKET_DEF).flat(),...Object.values(BRACKET_DEF_R2).flat(),...Object.values(BRACKET_DEF_R3).flat()];
 
 function buildBracket(){
   const bracket=document.getElementById('bracket');
   bracket.innerHTML='';
-  bracket.appendChild(roundSection('Semifinais de Conferência', BRACKET_DEF_R2, false));
+  bracket.appendChild(roundSection('Finais de Conferência', BRACKET_DEF_R3, false));
+  bracket.appendChild(roundSection('Semifinais de Conferência', BRACKET_DEF_R2, true));
   bracket.appendChild(roundSection('Primeiro Round', BRACKET_DEF, true));
 }
 
@@ -460,7 +471,7 @@ function showSerie(id){
           <span style="color:#e5e5ea;font-size:20px;margin:0 4px">–</span>
           <span style="color:${w2>w1?c2:'#86868b'}">${w2}</span>
         </div>
-        <div class="serie-vs" style="margin-top:4px">Playoff 2026 · ${def.round===2?'Semifinais de Conferência':'Primeiro Round'}</div>
+        <div class="serie-vs" style="margin-top:4px">Playoff 2026 · ${def.round===3?'Finais de Conferência':def.round===2?'Semifinais de Conferência':'Primeiro Round'}</div>
       </div>
       <div class="serie-team">
         <img class="serie-logo" src="${logoUrl(t2)}" onerror="this.style.display='none'">

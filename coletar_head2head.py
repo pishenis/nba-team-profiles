@@ -32,7 +32,10 @@ SERIES = [
     {"id": "sas_min", "home": "SAS", "away": "MIN", "home_seed": 2, "away_seed": 6, "conf": "West"},
     {"id": "okc_lal", "home": "OKC", "away": "LAL", "home_seed": 1, "away_seed": 4, "conf": "West"},
     {"id": "nyk_phi", "home": "NYK", "away": "PHI", "home_seed": 3, "away_seed": 7, "conf": "East"},
-    {"id": "det_cle", "home": "DET", "away": "CLE", "home_seed": 1, "away_seed": 4, "conf": "East"}
+    {"id": "det_cle", "home": "DET", "away": "CLE", "home_seed": 1, "away_seed": 4, "conf": "East"},
+    # Finais de Conferência
+    {"id": "okc_sas", "home": "OKC", "away": "SAS", "home_seed": 1, "away_seed": 2, "conf": "West"},
+    # {"id": "e_cf1", "home": "DET", "away": "NYK", "home_seed": 1, "away_seed": 3, "conf": "East"},  # descomentar quando confirmado
 ]
 
 def fetch_gamelog(retries=3):
