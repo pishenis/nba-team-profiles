@@ -553,6 +553,55 @@
           "winner": "CLE"
         }
       ]
+    },
+    "okc_sas": {
+      "conf": "West",
+      "home": "OKC",
+      "away": "SAS",
+      "home_seed": 1,
+      "away_seed": 2,
+      "regular_season_record": {
+        "OKC": 1,
+        "SAS": 3
+      },
+      "games": [
+        {
+          "game_id": "0022500417",
+          "date": "2025-12-23",
+          "home": "SAS",
+          "away": "OKC",
+          "home_pts": 130,
+          "away_pts": 110,
+          "winner": "SAS"
+        },
+        {
+          "game_id": "0022500010",
+          "date": "2025-12-25",
+          "home": "OKC",
+          "away": "SAS",
+          "home_pts": 102,
+          "away_pts": 117,
+          "winner": "SAS"
+        },
+        {
+          "game_id": "0022500568",
+          "date": "2026-01-13",
+          "home": "OKC",
+          "away": "SAS",
+          "home_pts": 119,
+          "away_pts": 98,
+          "winner": "OKC"
+        },
+        {
+          "game_id": "0022500730",
+          "date": "2026-02-04",
+          "home": "SAS",
+          "away": "OKC",
+          "home_pts": 116,
+          "away_pts": 106,
+          "winner": "SAS"
+        }
+      ]
     }
   }
 }

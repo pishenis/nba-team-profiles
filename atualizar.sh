@@ -6,6 +6,7 @@ source "$DIR/venv/bin/activate"
 echo "$(date): Iniciando atualizacao..." >> "$DIR/atualizar.log"
 
 python3 "$DIR/coletar_playoffs.py" >> "$DIR/atualizar.log" 2>&1
+python3 "$DIR/coletar_head2head.py" >> "$DIR/atualizar.log" 2>&1
 python3 "$DIR/coletar_todos_jogos.py" >> "$DIR/atualizar.log" 2>&1
 python3 "$DIR/corrigir_starter.py" >> "$DIR/atualizar.log" 2>&1
 
