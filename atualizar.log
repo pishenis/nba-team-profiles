@@ -13032,3 +13032,113 @@ Feito! head2head.json criado com 12 séries.
 Carregando jogos_playoffs.json...
   66 jogos no total · 66 OK · 0 para coletar
 Nada a coletar.
+[main c1d1893] Atualizacao playoffs 2026-05-15
+ 2 files changed, 87 insertions(+), 20 deletions(-)
+To https://github.com/pishenis/nba-team-profiles.git
+   4ac4817..c1d1893  main -> main
+Fri May 15 14:00:36 -03 2026: Atualizacao concluida.
+Sat May 16 08:24:22 -03 2026: Iniciando atualizacao...
+Coletando jogos de playoff...
+  136 registros encontrados
+  68 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 4-3 TOR (7 jogos)
+  den_min: DEN 2-4 MIN (6 jogos)
+  lal_hou: HOU 2-4 LAL (6 jogos)
+  nyk_atl: NYK 4-2 ATL (6 jogos)
+  bos_phi: PHI 4-3 BOS (7 jogos)
+  sas_por: SAS 4-1 POR (5 jogos)
+  det_orl: ORL 3-4 DET (7 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+  nyk_phi: NYK 4-0 PHI (4 jogos)
+  sas_min: SAS 4-2 MIN (6 jogos)
+  det_cle: CLE 3-3 DET (6 jogos)
+  okc_lal: OKC 4-0 LAL (4 jogos)
+Coletando game log da temporada...
+  2460 registros encontrados
+  1225 jogos do mandante
+
+Processando LAL vs HOU...
+  3 jogos encontrados · LAL 2-1 HOU
+
+Processando DEN vs MIN...
+  4 jogos encontrados · DEN 3-1 MIN
+
+Processando CLE vs TOR...
+  3 jogos encontrados · CLE 0-3 TOR
+
+Processando NYK vs ATL...
+  3 jogos encontrados · NYK 2-1 ATL
+
+Processando SAS vs POR...
+  3 jogos encontrados · SAS 2-1 POR
+
+Processando BOS vs PHI...
+  4 jogos encontrados · BOS 2-2 PHI
+
+Processando DET vs ORL...
+  4 jogos encontrados · DET 2-2 ORL
+
+Processando OKC vs PHX...
+  5 jogos encontrados · OKC 3-2 PHX
+
+Processando SAS vs MIN...
+  3 jogos encontrados · SAS 1-2 MIN
+
+Processando OKC vs LAL...
+  4 jogos encontrados · OKC 4-0 LAL
+
+Processando NYK vs PHI...
+  4 jogos encontrados · NYK 2-2 PHI
+
+Processando DET vs CLE...
+  4 jogos encontrados · DET 2-2 CLE
+
+Feito! head2head.json criado com 12 séries.
+Coletando dados do jogo 0042500236...
+Coletando resumo...
+  SAS 0 @ MIN 0 · 2026-05-15
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: MIN 0:00 · SAS 47:15
+  Trocas: 0 · Empates: 0
+  Run MIN: 24-11 (7:00 2Q a 2:00 2Q)
+  Run SAS: 20-0 (0:06 1Q a 7:06 2Q)
+  Sequência sem resposta: MIN 8 · SAS 20
+Coletando matchups...
+
+Feito! jogo_0042500236.json criado.
+  Box score: 13 MIN · 15 SAS
+  Timeline: 139 eventos · Arremessos: 194
+  Matchups filtrados: 23
+Coletando dados do jogo 0042500206...
+Coletando resumo...
+  DET 0 @ CLE 0 · 2026-05-15
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: CLE 7:29 · DET 38:12
+  Trocas: 4 · Empates: 3
+  Run CLE: 17-7 (8:06 1Q a 3:06 1Q)
+  Run DET: 22-4 (2:12 1Q a 9:12 2Q)
+  Sequência sem resposta: CLE 7 · DET 8
+Coletando matchups...
+
+Feito! jogo_0042500206.json criado.
+  Box score: 13 CLE · 13 DET
+  Timeline: 118 eventos · Arremessos: 159
+  Matchups filtrados: 26
+Carregando jogos_playoffs.json...
+  68 jogos no total · 66 OK · 2 para coletar
+
+[1/2] sas_min · Jogo 6 · SAS @ MIN (0042500236) · não coletado
+
+[2/2] det_cle · Jogo 6 · DET @ CLE (0042500206) · não coletado
+
+Feito! 2 jogos coletados.
