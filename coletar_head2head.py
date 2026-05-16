@@ -62,7 +62,7 @@ print(f"  {len(df)} registros encontrados")
 
 # Cada jogo aparece duas vezes no gamelog (uma por time)
 # Filtra só as entradas do time mandante (MATCHUP contém "vs.")
-home_games = df[df["MATCHUP"].str.contains("vs\.")].copy()
+home_games = df[df["MATCHUP"].str.contains(r"vs\.", regex=True)].copy()
 print(f"  {len(home_games)} jogos do mandante")
 
 output = {"season": SEASON, "updated": str(date.today()), "series": {}}
