@@ -55,10 +55,9 @@ if not summary_dfs:
 line_score = summary_dfs[5]
 game_info  = summary_dfs[0]
 
-game_date   = str(game_info["GAME_DATE_EST"].iloc[0])[:10]
+game_date    = str(game_info["GAME_DATE_EST"].iloc[0])[:10]
 home_team_id = int(game_info["HOME_TEAM_ID"].iloc[0])
 
-# Identifica mandante pelo HOME_TEAM_ID, não pela ordem das linhas
 row0 = line_score.iloc[0]
 row1 = line_score.iloc[1]
 if int(row0["TEAM_ID"]) == home_team_id:
@@ -431,6 +430,11 @@ if mu_dfs:
 matchups.sort(key=lambda x: x["fga"], reverse=True)
 
 # ── 8. Output ─────────────────────────────────────────────────────────────────
+# Fallback: se pts vieram zerados do line_score, soma pelo box score
+if home_pts == 0 and away_pts == 0 and (box_home or box_away):
+    home_pts = sum(p.get("pts", 0) for p in box_home)
+    away_pts = sum(p.get("pts", 0) for p in box_away)
+    print(f"  pts corrigidos pelo box score: {away_abbr} {away_pts} @ {home_abbr} {home_pts}")
 output = {
     "game_id":   GAME_ID,
     "date":      game_date,
