@@ -35,7 +35,7 @@ SERIES = [
     {"id": "det_cle", "home": "DET", "away": "CLE", "home_seed": 1, "away_seed": 4, "conf": "East"},
     # Finais de Conferência
     {"id": "okc_sas", "home": "OKC", "away": "SAS", "home_seed": 1, "away_seed": 2, "conf": "West"},
-    # {"id": "e_cf1", "home": "DET", "away": "NYK", "home_seed": 1, "away_seed": 3, "conf": "East"},  # descomentar quando confirmado
+    {"id": "nyk_cle", "home": "NYK", "away": "CLE", "home_seed": 3, "away_seed": 4, "conf": "East"},
 ]
 
 def fetch_gamelog(retries=3):
