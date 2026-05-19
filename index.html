@@ -162,7 +162,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
-const TC={ATL:"#E03A3E",BOS:"#007A33",BKN:"#000000",CHA:"#1D1160",CHI:"#CE1141",CLE:"#860038",DAL:"#00538C",DEN:"#0E2240",DET:"#C8102E",GSW:"#1D428A",HOU:"#CE1141",IND:"#002D62",LAC:"#C8102E",LAL:"#552583",MEM:"#5D76A9",MIA:"#98002E",MIL:"#00471B",MIN:"#0C2340",NOP:"#0C2340",NYK:"#F58426",OKC:"#007AC1",ORL:"#0077C0",PHI:"#006BB6",PHX:"#E56020",POR:"#E03A3E",SAC:"#5A2D81",SAS:"#C4CED4",TOR:"#CE1141",UTA:"#002B5C",WAS:"#002B5C"};
+const TC={ATL:"#E03A3E",BOS:"#007A33",BKN:"#000000",CHA:"#1D1160",CHI:"#CE1141",CLE:"#860038",DAL:"#00538C",DEN:"#0E2240",DET:"#C8102E",GSW:"#1D428A",HOU:"#CE1141",IND:"#002D62",LAC:"#C8102E",LAL:"#552583",MEM:"#5D76A9",MIA:"#98002E",MIL:"#00471B",MIN:"#0C2340",NOP:"#0C2340",NYK:"#F58426",OKC:"#007AC1",ORL:"#0077C0",PHI:"#006BB6",PHX:"#E56020",POR:"#E03A3E",SAC:"#5A2D81",SAS:"#8A8D8F",TOR:"#CE1141",UTA:"#002B5C",WAS:"#002B5C"};
 const TID={ATL:1610612737,BOS:1610612738,BKN:1610612751,CHA:1610612766,CHI:1610612741,CLE:1610612739,DAL:1610612742,DEN:1610612743,DET:1610612765,GSW:1610612744,HOU:1610612745,IND:1610612754,LAC:1610612746,LAL:1610612747,MEM:1610612763,MIA:1610612748,MIL:1610612749,MIN:1610612750,NOP:1610612740,NYK:1610612752,OKC:1610612760,ORL:1610612753,PHI:1610612755,PHX:1610612756,POR:1610612757,SAC:1610612758,SAS:1610612759,TOR:1610612761,UTA:1610612762,WAS:1610612764};
 const CITY={ATL:"Atlanta",BOS:"Boston",BKN:"Brooklyn",CHA:"Charlotte",CHI:"Chicago",CLE:"Cleveland",DAL:"Dallas",DEN:"Denver",DET:"Detroit",GSW:"Golden State",HOU:"Houston",IND:"Indiana",LAC:"Los Angeles",LAL:"Los Angeles",MEM:"Memphis",MIA:"Miami",MIL:"Milwaukee",MIN:"Minnesota",NOP:"New Orleans",NYK:"New York",OKC:"Oklahoma City",ORL:"Orlando",PHI:"Philadelphia",PHX:"Phoenix",POR:"Portland",SAC:"Sacramento",SAS:"San Antonio",TOR:"Toronto",UTA:"Utah",WAS:"Washington"};
 const DIV={East:{"Divisão Atlântica":["BOS","BKN","NYK","PHI","TOR"],"Divisão Central":["CHI","CLE","DET","IND","MIL"],"Divisão Sudeste":["ATL","CHA","MIA","ORL","WAS"]},Oeste:{"Divisão Noroeste":["DEN","MIN","OKC","POR","UTA"],"Divisão Pacífico":["GSW","LAC","LAL","PHX","SAC"],"Divisão Sudoeste":["DAL","HOU","MEM","NOP","SAS"]}};
@@ -183,11 +183,11 @@ const STATS=[
   {cat:"Four Factors ofensivo",id:"ff_efg",label:"eFG%",get:t=>t.four_factors_off.efg.value,unit:"%",hi:true},
   {cat:"Four Factors ofensivo",id:"ff_tov",label:"TOV%",get:t=>t.four_factors_off.tov.value,unit:"%",hi:false},
   {cat:"Four Factors ofensivo",id:"ff_oreb",label:"ORB%",get:t=>t.four_factors_off.oreb.value,unit:"%",hi:true},
-  {cat:"Four Factors ofensivo",id:"ff_ftr",label:"FT Rate",get:t=>Math.round(t.four_factors_off.ftr.value*100),unit:"%",hi:true},
+  {cat:"Four Factors ofensivo",id:"ff_ftr",label:"FT Rate",get:t=>t.four_factors_off.ftr.value,unit:"",hi:true},
   {cat:"Four Factors defensivo",id:"ff_oefg",label:"Opp. eFG%",get:t=>t.four_factors_def.opp_efg.value,unit:"%",hi:false},
   {cat:"Four Factors defensivo",id:"ff_otov",label:"Opp. TOV%",get:t=>t.four_factors_def.opp_tov.value,unit:"",hi:true},
   {cat:"Four Factors defensivo",id:"ff_ooreb",label:"Opp. ORB%",get:t=>t.four_factors_def.opp_oreb.value,unit:"",hi:false},
-  {cat:"Four Factors defensivo",id:"ff_oftr",label:"Opp. FT Rate",get:t=>Math.round(t.four_factors_def.opp_ftr.value*100),unit:"%",hi:false},
+  {cat:"Four Factors defensivo",id:"ff_oftr",label:"Opp. FT Rate",get:t=>t.four_factors_def.opp_ftr.value,unit:"",hi:false},
   {cat:"Estilo de ataque",id:"pace",label:"Pace",get:t=>t.attack_style.pace.value,unit:"",hi:true},
   {cat:"Estilo de ataque",id:"pts_fb",label:"Pts contra-ataque/jogo",get:t=>t.attack_style.pts_fb.value,unit:"",hi:true},
   {cat:"Estilo de ataque",id:"pts_paint",label:"Pts no garrafão/jogo",get:t=>t.attack_style.pts_paint.value,unit:"",hi:true},
@@ -555,7 +555,7 @@ function renderProfile(abbr,periodKey){
           ${statRow("eFG%",t.four_factors_off.efg.value+"%",t.four_factors_off.efg.rank,1)}
           ${statRow("TOV% (menor = melhor)",t.four_factors_off.tov.value+"%",t.four_factors_off.tov.rank,1)}
           ${statRow("ORB%",t.four_factors_off.oreb.value+"%",t.four_factors_off.oreb.rank,0)}
-          ${statRow("FT Rate",Math.round(t.four_factors_off.ftr.value*100)+"%",t.four_factors_off.ftr.rank,0)}
+          ${statRow("FT Rate",t.four_factors_off.ftr.value,t.four_factors_off.ftr.rank,0)}
         </div>
       </div>
       <div>
@@ -564,7 +564,7 @@ function renderProfile(abbr,periodKey){
           ${statRow("Opp. eFG% (menor = melhor)",t.four_factors_def.opp_efg.value+"%",t.four_factors_def.opp_efg.rank,1)}
           ${statRow("Opp. TOV% (maior = melhor)",t.four_factors_def.opp_tov.value,t.four_factors_def.opp_tov.rank,1)}
           ${statRow("Opp. ORB% (menor = melhor)",t.four_factors_def.opp_oreb.value,t.four_factors_def.opp_oreb.rank,1)}
-          ${statRow("Opp. FT Rate (menor = melhor)",Math.round(t.four_factors_def.opp_ftr.value*100)+"%",t.four_factors_def.opp_ftr.rank,1)}
+          ${statRow("Opp. FT Rate (menor = melhor)",t.four_factors_def.opp_ftr.value,t.four_factors_def.opp_ftr.rank,1)}
         </div>
       </div>
     </div>
