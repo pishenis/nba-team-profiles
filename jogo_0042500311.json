@@ -12,16 +12,20 @@
         27,
         17,
         29,
-        28
+        28,
+        7,
+        7
       ],
       "SAS": [
         27,
         24,
         29,
-        21
+        21,
+        7,
+        14
       ]
     },
-    "num_periods": 4,
+    "num_periods": 6,
     "lead_changes": 6,
     "ties": 8,
     "time_leading_home_fmt": "4:06",
@@ -44,38 +48,38 @@
   },
   "four_factors": {
     "OKC": {
-      "efg": 0,
-      "ftr": 0,
-      "tov": 0,
-      "oreb": 0,
-      "opp_efg": 0,
-      "opp_ftr": 0,
-      "opp_tov": 0,
-      "opp_oreb": 0
+      "efg": 49.0,
+      "ftr": 0.188,
+      "tov": 13.4,
+      "oreb": 21.0,
+      "opp_efg": 49.5,
+      "opp_ftr": 0.302,
+      "opp_tov": 20.0,
+      "opp_oreb": 36.8
     },
     "SAS": {
-      "efg": 0,
-      "ftr": 0,
-      "tov": 0,
-      "oreb": 0,
-      "opp_efg": 0,
-      "opp_ftr": 0,
-      "opp_tov": 0,
-      "opp_oreb": 0
+      "efg": 49.5,
+      "ftr": 0.302,
+      "tov": 20.0,
+      "oreb": 36.8,
+      "opp_efg": 49.0,
+      "opp_ftr": 0.188,
+      "opp_tov": 13.4,
+      "opp_oreb": 21.0
     }
   },
   "misc": {
     "OKC": {
-      "pts_fb": 0,
-      "pts_paint": 0,
-      "pts_2nd_chance": 0,
-      "blocks": 0
+      "pts_fb": 16,
+      "pts_paint": 38,
+      "pts_2nd_chance": 8,
+      "blocks": 8
     },
     "SAS": {
-      "pts_fb": 0,
-      "pts_paint": 0,
-      "pts_2nd_chance": 0,
-      "blocks": 0
+      "pts_fb": 7,
+      "pts_paint": 52,
+      "pts_2nd_chance": 13,
+      "blocks": 7
     }
   },
   "hustle": {

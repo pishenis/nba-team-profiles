@@ -379,10 +379,10 @@ def min_to_clock(m):
 gmax_period = max(quarter_scores_home.keys()) if quarter_scores_home else 4
 game_flow = {
     "quarter_scores": {
-        home_abbr: [quarter_scores_home.get(q,0) for q in range(1, max_period+1)],
-        away_abbr: [quarter_scores_away.get(q,0) for q in range(1, max_period+1)],
+        home_abbr: [quarter_scores_home.get(q,0) for q in range(1, gmax_period+1)],
+        away_abbr: [quarter_scores_away.get(q,0) for q in range(1, gmax_period+1)],
     },
-    "num_periods": max_period,
+    "num_periods": gmax_period,
     "lead_changes": lead_changes,
     "ties": ties,
     "time_leading_home_fmt": fmt_min(home_lead_min),
