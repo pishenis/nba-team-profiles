@@ -16861,3 +16861,102 @@ Carregando jogos_playoffs.json...
 Nada a coletar.
 76 arquivos encontrados
 Pronto! 0 arquivos corrigidos.
+[main 54f3423] Atualizacao playoffs 2026-05-25
+ 2 files changed, 94 insertions(+), 16 deletions(-)
+To https://github.com/pishenis/nba-team-profiles.git
+   f7f5e7c..54f3423  main -> main
+Mon May 25 14:01:32 -03 2026: Atualizacao concluida.
+Tue May 26 08:34:54 -03 2026: Iniciando atualizacao...
+Coletando jogos de playoff...
+  154 registros encontrados
+  77 jogos únicos
+
+Feito! jogos_playoffs.json criado.
+  cle_tor: CLE 4-3 TOR (7 jogos)
+  den_min: MIN 4-2 DEN (6 jogos)
+  lal_hou: LAL 4-2 HOU (6 jogos)
+  nyk_atl: NYK 4-2 ATL (6 jogos)
+  bos_phi: PHI 4-3 BOS (7 jogos)
+  sas_por: POR 1-4 SAS (5 jogos)
+  det_orl: DET 4-3 ORL (7 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+  nyk_phi: NYK 4-0 PHI (4 jogos)
+  sas_min: MIN 2-4 SAS (6 jogos)
+  det_cle: DET 3-4 CLE (7 jogos)
+  okc_lal: OKC 4-0 LAL (4 jogos)
+  okc_sas: OKC 2-2 SAS (4 jogos)
+  nyk_cle: NYK 4-0 CLE (4 jogos)
+Coletando game log da temporada...
+  2460 registros encontrados
+  1225 jogos do mandante
+
+Processando LAL vs HOU...
+  3 jogos encontrados · LAL 2-1 HOU
+
+Processando DEN vs MIN...
+  4 jogos encontrados · DEN 3-1 MIN
+
+Processando CLE vs TOR...
+  3 jogos encontrados · CLE 0-3 TOR
+
+Processando NYK vs ATL...
+  3 jogos encontrados · NYK 2-1 ATL
+
+Processando SAS vs POR...
+  3 jogos encontrados · SAS 2-1 POR
+
+Processando BOS vs PHI...
+  4 jogos encontrados · BOS 2-2 PHI
+
+Processando DET vs ORL...
+  4 jogos encontrados · DET 2-2 ORL
+
+Processando OKC vs PHX...
+  5 jogos encontrados · OKC 3-2 PHX
+
+Processando SAS vs MIN...
+  3 jogos encontrados · SAS 1-2 MIN
+
+Processando OKC vs LAL...
+  4 jogos encontrados · OKC 4-0 LAL
+
+Processando NYK vs PHI...
+  4 jogos encontrados · NYK 2-2 PHI
+
+Processando DET vs CLE...
+  4 jogos encontrados · DET 2-2 CLE
+
+Processando OKC vs SAS...
+  4 jogos encontrados · OKC 1-3 SAS
+
+Processando NYK vs CLE...
+  3 jogos encontrados · NYK 2-1 CLE
+
+Feito! head2head.json criado com 14 séries.
+Coletando dados do jogo 0042500304...
+Coletando resumo...
+  NYK 130 @ CLE 93 · 2026-05-25
+Coletando box score...
+Coletando four factors...
+Coletando misc stats...
+Coletando hustle stats...
+Coletando play by play...
+  Liderança: CLE 5:26 · NYK 42:19
+  Trocas: 3 · Empates: 2
+  Run CLE: 17-7 (6:00 2Q a 1:00 2Q)
+  Run NYK: 20-1 (2:12 1Q a 9:12 2Q)
+  Sequência sem resposta: CLE 7 · NYK 12
+Coletando matchups...
+
+Feito! jogo_0042500304.json criado.
+  Box score: 13 CLE · 14 NYK
+  Timeline: 122 eventos · Arremessos: 175
+  Matchups filtrados: 20
+Carregando jogos_playoffs.json...
+  77 jogos no total · 76 OK · 1 para coletar
+
+[1/1] nyk_cle · Jogo 4 · NYK @ CLE (0042500304) · não coletado
+
+Feito! 1 jogos coletados.
+77 arquivos encontrados
+Pronto! 1 arquivos corrigidos.
