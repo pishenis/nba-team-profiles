@@ -159,7 +159,9 @@ const BRACKET_DEF_R2 = {
   ],
 };
 
-// Finais de Conferência
+// Finais da NBA
+const FINALS_DEF = {id:"finals", home:null, away:"NYK", home_seed:null, away_seed:3, round:4};
+
 const BRACKET_DEF_R3 = {
   West: [
     {id:"okc_sas", home:"OKC", away:"SAS", home_seed:1, away_seed:2, round:3},
@@ -184,14 +186,83 @@ function fmtDate(d){
   return dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'});
 }
 
-const allDefs=[...Object.values(BRACKET_DEF).flat(),...Object.values(BRACKET_DEF_R2).flat(),...Object.values(BRACKET_DEF_R3).flat()];
+const allDefs=[...Object.values(BRACKET_DEF).flat(),...Object.values(BRACKET_DEF_R2).flat(),...Object.values(BRACKET_DEF_R3).flat(),FINALS_DEF];
 
 function buildBracket(){
   const bracket=document.getElementById('bracket');
   bracket.innerHTML='';
-  bracket.appendChild(roundSection('Finais de Conferência', BRACKET_DEF_R3, false));
+  bracket.appendChild(finalsSection());
+  bracket.appendChild(roundSection('Finais de Conferência', BRACKET_DEF_R3, true));
   bracket.appendChild(roundSection('Semifinais de Conferência', BRACKET_DEF_R2, true));
   bracket.appendChild(roundSection('Primeiro Round', BRACKET_DEF, true));
+}
+
+function finalsSection(){
+  const section=document.createElement('div');
+
+  const h=document.createElement('div');
+  h.style.cssText='font-size:11px;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;color:#86868b;margin-bottom:1rem;padding-bottom:6px;border-bottom:0.5px solid #e5e5ea;';
+  h.textContent='Finais da NBA';
+  section.appendChild(h);
+
+  const def=FINALS_DEF;
+  const hasBoth=def.home&&def.away;
+  const games=PLAYOFFS.series?.[def.id]||[];
+  const scores=PLAYOFFS.series_scores?.[def.id]||{};
+  const t1wins=def.home?(scores[def.home]||0):0;
+  const t2wins=def.away?(scores[def.away]||0):0;
+  const c1=def.home?(TC[def.home]||'#888'):'#c7c7cc';
+  const c2=def.away?(TC[def.away]||'#888'):'#c7c7cc';
+  const winner1=t1wins>t2wins;
+  const winner2=t2wins>t1wins;
+
+  const card=document.createElement('div');
+  card.className='series-card'+(hasBoth?'':' tbd');
+  card.style.maxWidth='520px';
+  card.style.margin='0 auto';
+
+  const headerInner=`
+    <div class="series-teams">
+      ${teamRow(def.home, def.home_seed, winner1, c1)}
+      ${teamRow(def.away, def.away_seed, winner2, c2)}
+    </div>
+    <div class="series-score-wrap">
+      <div class="series-score">
+        <span style="color:${winner1?c1:'#86868b'}">${def.home?t1wins:'–'}</span>
+        <span style="color:#e5e5ea;font-size:14px;margin:0 2px">–</span>
+        <span style="color:${winner2?c2:'#86868b'}">${def.away?t2wins:'–'}</span>
+      </div>
+    </div>`;
+
+  if(hasBoth){
+    card.innerHTML=`<div class="series-card-header" onclick="showSerie('${def.id}')">${headerInner}</div>`;
+  } else {
+    card.innerHTML=`<div class="series-card-header" style="cursor:default">${headerInner}</div>`;
+  }
+
+  if(games.length&&hasBoth){
+    const strip=document.createElement('div');
+    strip.className='series-games-strip';
+    games.forEach(g=>{
+      const homeWon=g.winner===g.home;
+      const gc=document.createElement('a');
+      gc.className='game-box';
+      gc.href=`jogo.html?id=${g.game_id}`;
+      gc.innerHTML=`
+        <div class="game-box-num">Jogo ${g.game_number}</div>
+        <div class="game-box-score">
+          <span style="color:${homeWon?TC[g.home]||'#888':'#86868b'}">${g.home_pts}</span>
+          <span style="color:#86868b;font-size:11px">–</span>
+          <span style="color:${!homeWon?TC[g.away]||'#888':'#86868b'}">${g.away_pts}</span>
+        </div>
+        <div class="game-box-date">${fmtDate(g.date)}</div>`;
+      strip.appendChild(gc);
+    });
+    card.appendChild(strip);
+  }
+
+  section.appendChild(card);
+  return section;
 }
 
 function roundSection(label, defs, withMargin){
@@ -471,7 +542,7 @@ function showSerie(id){
           <span style="color:#e5e5ea;font-size:20px;margin:0 4px">–</span>
           <span style="color:${w2>w1?c2:'#86868b'}">${w2}</span>
         </div>
-        <div class="serie-vs" style="margin-top:4px">Playoff 2026 · ${def.round===3?'Finais de Conferência':def.round===2?'Semifinais de Conferência':'Primeiro Round'}</div>
+        <div class="serie-vs" style="margin-top:4px">Playoff 2026 · ${def.round===4?'Finais da NBA':def.round===3?'Finais de Conferência':def.round===2?'Semifinais de Conferência':'Primeiro Round'}</div>
       </div>
       <div class="serie-team">
         <img class="serie-logo" src="${logoUrl(t2)}" onerror="this.style.display='none'">
