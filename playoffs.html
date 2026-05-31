@@ -510,9 +510,13 @@ function showSerie(id){
   if(h2h){
     const rec=h2h.regular_season_record||{};
     const r1=rec[t1]||0, r2=rec[t2]||0;
-    h2hHtml=`<p style="font-size:12px;color:#86868b;margin-bottom:10px">Na temporada regular: <strong>${r1}-${r2}</strong> para o ${r1>r2?TNAME[t1]:TNAME[t2]}</p>
+    const recStr = r1===r2
+      ? `Empatados ${r1}-${r2} na temporada regular`
+      : `Na temporada regular: <strong>${r1}-${r2}</strong> para o ${r1>r2?TNAME[t1]:TNAME[t2]}`;
+    h2hHtml=`<p style="font-size:12px;color:#86868b;margin-bottom:10px">${recStr}</p>
     ${(h2h.games||[]).map(g=>{
       const homeWon=g.winner===g.home;
+      const label=g.is_cup?` <span style="font-size:10px;color:#86868b">(NBA Cup)</span>`:'';
       return`<div class="game-row">
         <span class="game-date">${fmtDate(g.date)}</span>
         <div class="game-teams">
@@ -520,7 +524,7 @@ function showSerie(id){
           <span style="color:#86868b;margin:0 4px">vs</span>
           <span style="font-weight:${!homeWon?600:400};color:${!homeWon?TC[g.away]||'#1d1d1f':'#86868b'}">${g.away}</span>
         </div>
-        <span class="game-score">${g.home_pts}–${g.away_pts}</span>
+        <span class="game-score">${g.home_pts}–${g.away_pts}${label}</span>
         <a class="game-link" href="https://www.nba.com/game/${g.game_id}" target="_blank">boxscore →</a>
       </div>`;
     }).join('')}`;
