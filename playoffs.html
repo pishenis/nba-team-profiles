@@ -510,10 +510,21 @@ function showSerie(id){
   if(h2h){
     const rec=h2h.regular_season_record||{};
     const r1=rec[t1]||0, r2=rec[t2]||0;
+    const cupGame = `<div class="game-row">
+        <span class="game-date">16/12</span>
+        <div class="game-teams">
+          <span style="font-weight:400;color:#86868b">SAS</span>
+          <span style="color:#86868b;margin:0 4px">vs</span>
+          <span style="font-weight:600;color:${TC['NYK']||'#888'}">NYK</span>
+        </div>
+        <span class="game-score">113–124 🏆 <span style="font-size:10px;color:#86868b">(NBA Cup Final)</span></span>
+        <a class="game-link" href="https://www.nba.com/game/SAS-vs-NYK-0062500001/box-score" target="_blank">boxscore →</a>
+      </div>`;
     const recStr = r1===r2
       ? `Empatados ${r1}-${r2} na temporada regular`
       : `Na temporada regular: <strong>${r1}-${r2}</strong> para o ${r1>r2?TNAME[t1]:TNAME[t2]}`;
     h2hHtml=`<p style="font-size:12px;color:#86868b;margin-bottom:10px">${recStr}</p>
+    ${id==='finals'?cupGame:''}
     ${(h2h.games||[]).map(g=>{
       const homeWon=g.winner===g.home;
       const label=g.is_cup?` <span style="font-size:10px;color:#86868b">(NBA Cup)</span>`:'';
