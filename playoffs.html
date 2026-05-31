@@ -159,9 +159,7 @@ const BRACKET_DEF_R2 = {
   ],
 };
 
-// Finais da NBA
-const FINALS_DEF = {id:"finals", home:null, away:"NYK", home_seed:null, away_seed:3, round:4};
-
+// Finais de Conferência
 const BRACKET_DEF_R3 = {
   West: [
     {id:"okc_sas", home:"OKC", away:"SAS", home_seed:1, away_seed:2, round:3},
@@ -170,6 +168,9 @@ const BRACKET_DEF_R3 = {
     {id:"nyk_cle", home:"CLE", away:"NYK", home_seed:4, away_seed:3, round:3},
   ],
 };
+
+// Finais da NBA
+const FINALS_DEF = {id:"finals", home:"SAS", away:"NYK", home_seed:2, away_seed:3, round:4};
 
 function logoUrl(a){return`https://cdn.nba.com/logos/nba/${TID[a]}/global/L/logo.svg`;}
 
@@ -234,11 +235,7 @@ function finalsSection(){
       </div>
     </div>`;
 
-  if(hasBoth){
-    card.innerHTML=`<div class="series-card-header" onclick="showSerie('${def.id}')">${headerInner}</div>`;
-  } else {
-    card.innerHTML=`<div class="series-card-header" style="cursor:default">${headerInner}</div>`;
-  }
+  card.innerHTML=`<div class="series-card-header" ${hasBoth?`onclick="showSerie('${def.id}')"`:'style="cursor:default"'}>${headerInner}</div>`;
 
   if(games.length&&hasBoth){
     const strip=document.createElement('div');

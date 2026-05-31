@@ -37,7 +37,9 @@ SERIES_MAP = {
     frozenset(["DET","CLE"]): "det_cle",
     # Finais de Conferência
     frozenset(["OKC","SAS"]): "okc_sas",
-    frozenset(["NYK","CLE"]): "nyk_cle", 
+    frozenset(["NYK","CLE"]): "nyk_cle",
+    # Finais da NBA
+    frozenset(["SAS","NYK"]): "finals",
 }
 
 print("Coletando jogos de playoff...")

@@ -35,7 +35,9 @@ SERIES = [
     {"id": "det_cle", "home": "DET", "away": "CLE", "home_seed": 1, "away_seed": 4, "conf": "East"},
     # Finais de Conferência
     {"id": "okc_sas", "home": "OKC", "away": "SAS", "home_seed": 1, "away_seed": 2, "conf": "West"},
-    {"id": "nyk_cle", "home": "NYK", "away": "CLE", "home_seed": 3, "away_seed": 4, "conf": "East"},
+    {"id": "nyk_cle", "home": "CLE", "away": "NYK", "home_seed": 4, "away_seed": 3, "conf": "East"},
+    # Finais da NBA
+    {"id": "finals", "home": "SAS", "away": "NYK", "home_seed": 2, "away_seed": 3, "conf": "Finals"},
 ]
 
 def fetch_gamelog(retries=3):

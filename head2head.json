@@ -605,13 +605,13 @@
     },
     "nyk_cle": {
       "conf": "East",
-      "home": "NYK",
-      "away": "CLE",
-      "home_seed": 3,
-      "away_seed": 4,
+      "home": "CLE",
+      "away": "NYK",
+      "home_seed": 4,
+      "away_seed": 3,
       "regular_season_record": {
-        "NYK": 2,
-        "CLE": 1
+        "CLE": 1,
+        "NYK": 2
       },
       "games": [
         {
@@ -640,6 +640,37 @@
           "home_pts": 109,
           "away_pts": 94,
           "winner": "CLE"
+        }
+      ]
+    },
+    "finals": {
+      "conf": "Finals",
+      "home": "SAS",
+      "away": "NYK",
+      "home_seed": 2,
+      "away_seed": 3,
+      "regular_season_record": {
+        "SAS": 1,
+        "NYK": 1
+      },
+      "games": [
+        {
+          "game_id": "0022500467",
+          "date": "2025-12-31",
+          "home": "SAS",
+          "away": "NYK",
+          "home_pts": 134,
+          "away_pts": 132,
+          "winner": "SAS"
+        },
+        {
+          "game_id": "0022500868",
+          "date": "2026-03-01",
+          "home": "NYK",
+          "away": "SAS",
+          "home_pts": 114,
+          "away_pts": 89,
+          "winner": "NYK"
         }
       ]
     }
