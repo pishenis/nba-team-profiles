@@ -1,0 +1,6842 @@
+{
+  "game_id": "21716134",
+  "date": "2026-06-03",
+  "home": "SAS",
+  "away": "NYK",
+  "home_pts": 95,
+  "away_pts": 105,
+  "winner": "NYK",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "SAS": [
+        27,
+        28,
+        21,
+        19
+      ],
+      "NYK": [
+        19,
+        29,
+        28,
+        29
+      ]
+    },
+    "num_periods": 4,
+    "time_leading": {
+      "SAS": "0:00",
+      "NYK": "19:30"
+    },
+    "time_tied": "37:38",
+    "lead_changes": 7,
+    "score_ties": 6,
+    "biggest_run": {
+      "team": "SAS",
+      "run": "79-72",
+      "start": "6:07 1Q",
+      "end": "7:38 4Q",
+      "SAS": "79-72",
+      "NYK": "54-30"
+    }
+  },
+  "four_factors": {
+    "SAS": {
+      "efg_pct": 0.371,
+      "tov_pct": 0.108,
+      "oreb_pct": 0.082,
+      "ftr": 0.257,
+      "opp_efg_pct": 0.464,
+      "opp_tov_pct": 0.09,
+      "opp_oreb_pct": 0.189,
+      "opp_ftr": 0.243
+    },
+    "NYK": {
+      "efg_pct": 0.49,
+      "tov_pct": 0.055,
+      "oreb_pct": 0.071,
+      "ftr": 0.32,
+      "opp_efg_pct": 0.306,
+      "opp_tov_pct": 0.179,
+      "opp_oreb_pct": 0.29,
+      "opp_ftr": 0.265
+    }
+  },
+  "misc": {
+    "SAS": {
+      "pts_paint": 84,
+      "pts_2nd_chance": 28,
+      "pts_fastbreak": 30,
+      "pts_off_tov": 28
+    },
+    "NYK": {
+      "pts_paint": 100,
+      "pts_2nd_chance": 46,
+      "pts_fastbreak": 24,
+      "pts_off_tov": 38
+    }
+  },
+  "hustle": {
+    "SAS": {
+      "deflections": 13,
+      "charges_drawn": 0,
+      "contested_shots": 48,
+      "loose_balls_recovered": 1,
+      "screen_assists": 8
+    },
+    "NYK": {
+      "deflections": 13,
+      "charges_drawn": 0,
+      "contested_shots": 42,
+      "loose_balls_recovered": 5,
+      "screen_assists": 7
+    }
+  },
+  "box_score": {
+    "SAS": [
+      {
+        "name": "D. Vassell",
+        "minutes": "36",
+        "pos": "G",
+        "starter": true,
+        "pts": 9,
+        "reb": 9,
+        "oreb": 4,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 11,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -13,
+        "off_rating": 75,
+        "def_rating": 145,
+        "ts_pct": 0.25,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "J. Champagnie",
+        "minutes": "31",
+        "pos": "F",
+        "starter": true,
+        "pts": 16,
+        "reb": 10,
+        "oreb": 3,
+        "ast": 1,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 11,
+        "fg3m": 5,
+        "fg3a": 10,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": -8,
+        "off_rating": 60,
+        "def_rating": 118.8,
+        "ts_pct": 0.174,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "V. Wembanyama",
+        "minutes": "38",
+        "pos": "F",
+        "starter": true,
+        "pts": 26,
+        "reb": 12,
+        "oreb": 3,
+        "ast": 2,
+        "stl": 1,
+        "blk": 3,
+        "tov": 6,
+        "fgm": 6,
+        "fga": 21,
+        "fg3m": 2,
+        "fg3a": 9,
+        "ftm": 12,
+        "fta": 13,
+        "pf": 2,
+        "plus_minus": -3,
+        "off_rating": 90.5,
+        "def_rating": 113.6,
+        "ts_pct": 0.539,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "S. Castle",
+        "minutes": "35",
+        "pos": "G",
+        "starter": true,
+        "pts": 17,
+        "reb": 8,
+        "oreb": 3,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 7,
+        "fga": 16,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": -9,
+        "off_rating": 90.5,
+        "def_rating": 122.7,
+        "ts_pct": 0.625,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "D. Fox",
+        "minutes": "38",
+        "pos": "G",
+        "starter": true,
+        "pts": 7,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 5,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 3,
+        "fga": 13,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 5,
+        "plus_minus": 0,
+        "off_rating": 95,
+        "def_rating": 109.5,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "H. Barnes",
+        "minutes": "12",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 1,
+        "pf": 1,
+        "plus_minus": -2,
+        "off_rating": 142.9,
+        "def_rating": 125,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "B. Biyombo",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "C. Bryant",
+        "minutes": "04",
+        "pos": "",
+        "starter": false,
+        "pts": 1,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 1,
+        "plus_minus": -4,
+        "off_rating": 88.9,
+        "def_rating": 133.3,
+        "ts_pct": 0.266,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "D. Harper",
+        "minutes": "28",
+        "pos": "",
+        "starter": false,
+        "pts": 16,
+        "reb": 8,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 10,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 3,
+        "fta": 3,
+        "pf": 2,
+        "plus_minus": -5,
+        "off_rating": 57.1,
+        "def_rating": 114.3,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "K. Johnson",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 1,
+        "off_rating": 57.1,
+        "def_rating": 166.7,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "L. Kornet",
+        "minutes": "10",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": -7,
+        "off_rating": 0,
+        "def_rating": 200,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "J. McLaughlin",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "K. Olynyk",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "M. Plumlee",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "L. Waters III",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      }
+    ],
+    "NYK": [
+      {
+        "name": "J. Hart",
+        "minutes": "27",
+        "pos": "G",
+        "starter": true,
+        "pts": 3,
+        "reb": 15,
+        "oreb": 2,
+        "ast": 6,
+        "stl": 4,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 4,
+        "plus_minus": 22,
+        "off_rating": 118.8,
+        "def_rating": 60,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "O. Anunoby",
+        "minutes": "31",
+        "pos": "F",
+        "starter": true,
+        "pts": 17,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 12,
+        "fg3m": 3,
+        "fg3a": 6,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 0,
+        "plus_minus": -6,
+        "off_rating": 116.7,
+        "def_rating": 100,
+        "ts_pct": 0.773,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "K. Towns",
+        "minutes": "34",
+        "pos": "C",
+        "starter": true,
+        "pts": 18,
+        "reb": 12,
+        "oreb": 4,
+        "ast": 4,
+        "stl": 0,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 7,
+        "fga": 15,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 4,
+        "plus_minus": 14,
+        "off_rating": 123.5,
+        "def_rating": 114.3,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "M. Bridges",
+        "minutes": "28",
+        "pos": "G",
+        "starter": true,
+        "pts": 9,
+        "reb": 3,
+        "oreb": 2,
+        "ast": 3,
+        "stl": 2,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 3,
+        "fta": 4,
+        "pf": 3,
+        "plus_minus": 11,
+        "off_rating": 146.2,
+        "def_rating": 27.3,
+        "ts_pct": 0.532,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "J. Brunson",
+        "minutes": "37",
+        "pos": "G",
+        "starter": true,
+        "pts": 30,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 4,
+        "fgm": 12,
+        "fga": 31,
+        "fg3m": 2,
+        "fg3a": 9,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 2,
+        "plus_minus": 6,
+        "off_rating": 118.8,
+        "def_rating": 60,
+        "ts_pct": 0.658,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "J. Alvarado",
+        "minutes": "11",
+        "pos": "",
+        "starter": false,
+        "pts": 7,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 6,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 4,
+        "off_rating": 125,
+        "def_rating": 142.9,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "J. Clarkson",
+        "minutes": "06",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 2,
+        "off_rating": 136.4,
+        "def_rating": 108.3,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "P. Dadiet",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "M. Diawara",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "A. Hukporti",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "T. Kolek",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "M. McBride",
+        "minutes": "20",
+        "pos": "",
+        "starter": false,
+        "pts": 6,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 4,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 7,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 11,
+        "off_rating": 155.6,
+        "def_rating": 125,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "M. Robinson",
+        "minutes": "13",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 1,
+        "pf": 1,
+        "plus_minus": -4,
+        "off_rating": 114.3,
+        "def_rating": 50,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "L. Shamet",
+        "minutes": "33",
+        "pos": "",
+        "starter": false,
+        "pts": 13,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 9,
+        "fg3m": 3,
+        "fg3a": 6,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 4,
+        "plus_minus": -10,
+        "off_rating": 82.4,
+        "def_rating": 105.6,
+        "ts_pct": 0.5,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      },
+      {
+        "name": "J. Sochan",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns vs. Victor Wembanyama (Josh Hart gains possession)"
+    },
+    {
+      "min": 0.25,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes 26-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 0.63,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 15-foot pullup jump shot"
+    },
+    {
+      "min": 1.05,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses driving layup"
+    },
+    {
+      "min": 1.1,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart offensive rebound"
+    },
+    {
+      "min": 1.12,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes 24-foot three point jumper (Josh Hart assists)"
+    },
+    {
+      "min": 1.48,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 7-foot pullup jump shot"
+    },
+    {
+      "min": 1.5,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie offensive rebound"
+    },
+    {
+      "min": 1.52,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell misses 25-foot three point jumper"
+    },
+    {
+      "min": 1.55,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle offensive rebound"
+    },
+    {
+      "min": 1.57,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses two point shot"
+    },
+    {
+      "min": 1.58,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 1.7,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses 27-foot three point jumper"
+    },
+    {
+      "min": 1.75,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 1.9,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama lost ball turnover (Mikal Bridges steals)"
+    },
+    {
+      "min": 1.98,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes running layup (Mikal Bridges assists)"
+    },
+    {
+      "min": 2.22,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart blocks Stephon Castle 's 7-foot layup"
+    },
+    {
+      "min": 2.25,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle offensive rebound"
+    },
+    {
+      "min": 2.4,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 12-foot two point shot"
+    },
+    {
+      "min": 2.45,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 2.52,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges misses running pullup jump shot"
+    },
+    {
+      "min": 2.6,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 2.67,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 25-foot running jump shot"
+    },
+    {
+      "min": 2.68,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell offensive rebound"
+    },
+    {
+      "min": 2.68,
+      "home": 4,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Vassell makes tip shot"
+    },
+    {
+      "min": 3.07,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Josh Hart makes 2-foot two point shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 3.4,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 3.47,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 3.52,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Josh Hart 's 3-foot running layup"
+    },
+    {
+      "min": 3.53,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 3.65,
+      "home": 7,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 25-foot running jump shot (Stephon Castle assists)"
+    },
+    {
+      "min": 4.13,
+      "home": 7,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie blocks Jalen Brunson 's 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 4.13,
+      "home": 7,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 4.15,
+      "home": 7,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 4.28,
+      "home": 7,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 24-foot three point jumper"
+    },
+    {
+      "min": 4.33,
+      "home": 7,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 4.53,
+      "home": 7,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 3-foot driving floating jump shot"
+    },
+    {
+      "min": 4.53,
+      "home": 7,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 4.53,
+      "home": 7,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 4.53,
+      "home": 7,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Julian Champagnie"
+    },
+    {
+      "min": 4.87,
+      "home": 7,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle bad pass\nturnover (Mikal Bridges steals)"
+    },
+    {
+      "min": 5.02,
+      "home": 7,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 1-foot two point shot (Josh Hart assists)"
+    },
+    {
+      "min": 5.37,
+      "home": 7,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses 27-foot three point jumper"
+    },
+    {
+      "min": 5.38,
+      "home": 7,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 5.38,
+      "home": 7,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson loose ball foul"
+    },
+    {
+      "min": 5.67,
+      "home": 7,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses driving layup"
+    },
+    {
+      "min": 5.72,
+      "home": 7,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 5.75,
+      "home": 7,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart personal foul"
+    },
+    {
+      "min": 5.75,
+      "home": 7,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for OG Anunoby"
+    },
+    {
+      "min": 5.88,
+      "home": 9,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes 8-foot pullup jump shot"
+    },
+    {
+      "min": 6.08,
+      "home": 9,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart misses 26-foot three point jumper"
+    },
+    {
+      "min": 6.08,
+      "home": 9,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 6.22,
+      "home": 9,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson misses running layup"
+    },
+    {
+      "min": 6.25,
+      "home": 9,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 6.45,
+      "home": 9,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns bad pass\nturnover (Victor Wembanyama steals)"
+    },
+    {
+      "min": 6.55,
+      "home": 9,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart shooting foul"
+    },
+    {
+      "min": 6.55,
+      "home": 10,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes free throw 1 of 2"
+    },
+    {
+      "min": 6.55,
+      "home": 10,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 6.55,
+      "home": 10,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Josh Hart"
+    },
+    {
+      "min": 6.55,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes free throw 2 of 2"
+    },
+    {
+      "min": 6.87,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Landry Shamet misses 25-foot three point jumper"
+    },
+    {
+      "min": 6.88,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 6.93,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses fade away jump shot"
+    },
+    {
+      "min": 6.95,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 7.1,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson misses 23-foot three point jumper"
+    },
+    {
+      "min": 7.17,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 7.27,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 7.3,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 7.4,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell misses running pullup jump shot"
+    },
+    {
+      "min": 7.45,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 7.45,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson loose ball foul"
+    },
+    {
+      "min": 7.45,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Stephon Castle"
+    },
+    {
+      "min": 7.45,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Keldon Johnson"
+    },
+    {
+      "min": 7.75,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson bad pass\nturnover (Dylan Harper steals)"
+    },
+    {
+      "min": 7.78,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges shooting foul"
+    },
+    {
+      "min": 7.78,
+      "home": 12,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 1 of 2"
+    },
+    {
+      "min": 7.78,
+      "home": 12,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride enters the game for Mikal Bridges"
+    },
+    {
+      "min": 7.78,
+      "home": 12,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 7.78,
+      "home": 13,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 2 of 2"
+    },
+    {
+      "min": 7.98,
+      "home": 13,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson bad pass\nturnover (Luke Kornet steals)"
+    },
+    {
+      "min": 8.03,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Dylan Harper makes 3-foot running pullup jump shot"
+    },
+    {
+      "min": 8.03,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Landry Shamet shooting foul"
+    },
+    {
+      "min": 8.03,
+      "home": 16,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 1 of 1"
+    },
+    {
+      "min": 8.4,
+      "home": 16,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 26-foot three point jumper"
+    },
+    {
+      "min": 8.47,
+      "home": 16,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kornet defensive rebound"
+    },
+    {
+      "min": 8.58,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Dylan Harper makes 23-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 8.8,
+      "home": 19,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Landry Shamet makes 24-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "min": 8.98,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 22-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 9.22,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses driving layup"
+    },
+    {
+      "min": 9.25,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 9.28,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive rebound"
+    },
+    {
+      "min": 9.28,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie misses 25-foot running jump shot"
+    },
+    {
+      "min": 9.45,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper personal foul"
+    },
+    {
+      "min": 9.45,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 9.45,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 9.45,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Harrison Barnes enters the game for Devin Vassell"
+    },
+    {
+      "min": 9.68,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 12-foot step back jumpshot"
+    },
+    {
+      "min": 9.73,
+      "home": 22,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 9.95,
+      "home": 25,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 23-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 9.95,
+      "home": 25,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Landry Shamet loose ball foul"
+    },
+    {
+      "min": 9.95,
+      "home": 25,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Harrison Barnes misses free throw 1 of 1"
+    },
+    {
+      "min": 10.02,
+      "home": 25,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride defensive rebound"
+    },
+    {
+      "min": 10.32,
+      "home": 25,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 10.38,
+      "home": 25,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 10.53,
+      "home": 27,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Dylan Harper makes 7-foot driving floating jump shot (Harrison Barnes assists)"
+    },
+    {
+      "min": 10.55,
+      "home": 27,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 10.55,
+      "home": 27,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 10.55,
+      "home": 27,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for OG Anunoby"
+    },
+    {
+      "min": 10.55,
+      "home": 27,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Jalen Brunson"
+    },
+    {
+      "min": 10.73,
+      "home": 27,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride misses 26-foot three point jumper"
+    },
+    {
+      "min": 10.75,
+      "home": 27,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges offensive rebound"
+    },
+    {
+      "min": 10.75,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes tip shot"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 11-foot two point shot"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jose Alvarado defensive rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie personal foul"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Harrison Barnes"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jose Alvarado misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses 11-foot turnaround jump shot"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 27,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Mikal Bridges"
+    },
+    {
+      "min": 12.0,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "Harrison Barnes enters the game for Dylan Harper"
+    },
+    {
+      "min": 12.4,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 30-foot jump bank shot"
+    },
+    {
+      "min": 12.43,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado defensive rebound"
+    },
+    {
+      "min": 12.48,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado out of bounds bad pass turnover"
+    },
+    {
+      "min": 12.58,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado personal foul"
+    },
+    {
+      "min": 12.72,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "Harrison Barnes misses 25-foot three point jumper"
+    },
+    {
+      "min": 12.77,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 12.92,
+      "home": 27,
+      "away": 19,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox personal foul"
+    },
+    {
+      "min": 13.1,
+      "home": 27,
+      "away": 22,
+      "period": 2,
+      "scoring": true,
+      "text": "Miles McBride makes 25-foot three point jumper (Jose Alvarado assists)"
+    },
+    {
+      "min": 13.23,
+      "home": 27,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama lost ball turnover (Jose Alvarado steals)"
+    },
+    {
+      "min": 13.32,
+      "home": 27,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Karl-Anthony Towns 's 3-foot driving dunk"
+    },
+    {
+      "min": 13.33,
+      "home": 27,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 13.47,
+      "home": 27,
+      "away": 24,
+      "period": 2,
+      "scoring": true,
+      "text": "Jose Alvarado makes two point shot"
+    },
+    {
+      "min": 13.47,
+      "home": 27,
+      "away": 24,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive goaltending violation"
+    },
+    {
+      "min": 13.6,
+      "home": 27,
+      "away": 24,
+      "period": 2,
+      "scoring": false,
+      "text": "Miles McBride personal foul"
+    },
+    {
+      "min": 13.75,
+      "home": 29,
+      "away": 24,
+      "period": 2,
+      "scoring": true,
+      "text": "Stephon Castle makes 1-foot two point shot"
+    },
+    {
+      "min": 13.95,
+      "home": 29,
+      "away": 26,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes driving layup"
+    },
+    {
+      "min": 14.03,
+      "home": 29,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado shooting foul"
+    },
+    {
+      "min": 14.03,
+      "home": 30,
+      "away": 26,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 14.03,
+      "home": 30,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 14.03,
+      "home": 30,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Julian Champagnie"
+    },
+    {
+      "min": 14.03,
+      "home": 31,
+      "away": 26,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 14.37,
+      "home": 31,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Landry Shamet misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 14.42,
+      "home": 31,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 14.45,
+      "home": 31,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell misses 27-foot running jump shot"
+    },
+    {
+      "min": 14.48,
+      "home": 31,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado defensive rebound"
+    },
+    {
+      "min": 14.68,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": true,
+      "text": "Jose Alvarado makes 3-foot two point shot"
+    },
+    {
+      "min": 14.88,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle bad pass\nturnover (OG Anunoby steals)"
+    },
+    {
+      "min": 14.97,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Miles McBride misses 24-foot running jump shot"
+    },
+    {
+      "min": 15.0,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 15.22,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "min": 15.27,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado defensive rebound"
+    },
+    {
+      "min": 15.33,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Landry Shamet misses 23-foot running jump shot"
+    },
+    {
+      "min": 15.4,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 15.53,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper misses 26-foot three point jumper"
+    },
+    {
+      "min": 15.58,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul turnover"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "(08:03) [Spurs] COACH'S CHALLENGE (CALL OVERTURNED) [Spurs] retain their timeout"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Miles McBride"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Jose Alvarado"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant enters the game for Harrison Barnes"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson enters the game for OG Anunoby"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 15.95,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Landry Shamet"
+    },
+    {
+      "min": 16.27,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart personal foul"
+    },
+    {
+      "min": 16.4,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell misses 13-foot pullup jump shot"
+    },
+    {
+      "min": 16.42,
+      "home": 31,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 16.57,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": true,
+      "text": "Mitchell Robinson makes 1-foot alley oop dunk (Josh Hart assists)"
+    },
+    {
+      "min": 16.57,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kornet shooting foul"
+    },
+    {
+      "min": 16.57,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Josh Hart"
+    },
+    {
+      "min": 16.57,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 16.57,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson misses free throw 1 of 1"
+    },
+    {
+      "min": 16.62,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 16.72,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson personal foul"
+    },
+    {
+      "min": 16.72,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 16.72,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant misses free throw 1 of 2"
+    },
+    {
+      "min": 16.72,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": true,
+      "text": "Carter Bryant makes free throw 2 of 2"
+    },
+    {
+      "min": 16.97,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson misses 25-foot three point jumper"
+    },
+    {
+      "min": 17.02,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 17.22,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 17.27,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell offensive rebound"
+    },
+    {
+      "min": 17.32,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 6-foot pullup jump shot"
+    },
+    {
+      "min": 17.33,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive rebound"
+    },
+    {
+      "min": 17.45,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses two point shot"
+    },
+    {
+      "min": 17.47,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson offensive rebound"
+    },
+    {
+      "min": 17.47,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson misses tip in dunk"
+    },
+    {
+      "min": 17.48,
+      "home": 32,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 17.58,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": true,
+      "text": "De'Aaron Fox makes two point shot (Devin Vassell assists)"
+    },
+    {
+      "min": 17.95,
+      "home": 34,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes 2-foot driving floating jump shot"
+    },
+    {
+      "min": 18.08,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Devin Vassell makes 26-foot three point jumper (Dylan Harper assists)"
+    },
+    {
+      "min": 18.13,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 18.38,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses driving floating jump shot"
+    },
+    {
+      "min": 18.42,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson offensive rebound"
+    },
+    {
+      "min": 18.42,
+      "home": 37,
+      "away": 34,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes tip shot"
+    },
+    {
+      "min": 18.63,
+      "home": 37,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell offensive foul turnover"
+    },
+    {
+      "min": 18.63,
+      "home": 37,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell offensive foul"
+    },
+    {
+      "min": 18.98,
+      "home": 37,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes finger roll layup"
+    },
+    {
+      "min": 19.27,
+      "home": 37,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 9-foot fade away jump shot"
+    },
+    {
+      "min": 19.33,
+      "home": 37,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive rebound"
+    },
+    {
+      "min": 19.67,
+      "home": 37,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes 5-foot driving floating jump shot"
+    },
+    {
+      "min": 19.82,
+      "home": 39,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Dylan Harper makes 3-foot two point shot"
+    },
+    {
+      "min": 20.07,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes 17-foot pullup jump shot"
+    },
+    {
+      "min": 20.25,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant misses 23-foot three point jumper"
+    },
+    {
+      "min": 20.3,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive rebound"
+    },
+    {
+      "min": 20.38,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant personal foul"
+    },
+    {
+      "min": 20.38,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Carter Bryant"
+    },
+    {
+      "min": 20.38,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 20.38,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Devin Vassell"
+    },
+    {
+      "min": 20.5,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges out of bounds bad pass turnover"
+    },
+    {
+      "min": 20.68,
+      "home": 42,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Keldon Johnson makes 24-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 20.98,
+      "home": 42,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 21.03,
+      "home": 42,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 21.15,
+      "home": 42,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 29-foot three point jumper"
+    },
+    {
+      "min": 21.2,
+      "home": 42,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson defensive rebound"
+    },
+    {
+      "min": 21.47,
+      "home": 42,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Landry Shamet makes 24-foot three point step back jumpshot (Jalen Brunson assists)"
+    },
+    {
+      "min": 21.6,
+      "home": 42,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson shooting foul"
+    },
+    {
+      "min": 21.6,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 21.6,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 21.6,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Jalen Brunson"
+    },
+    {
+      "min": 21.6,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 21.6,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Jordan Clarkson"
+    },
+    {
+      "min": 21.6,
+      "home": 44,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 21.83,
+      "home": 44,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby misses 23-foot three point jumper"
+    },
+    {
+      "min": 21.87,
+      "home": 44,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 22.02,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Julian Champagnie makes 26-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "min": 22.43,
+      "home": 47,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Jose Alvarado makes 25-foot three point jumper (Mikal Bridges assists)"
+    },
+    {
+      "min": 22.63,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Julian Champagnie makes 24-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 22.77,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle personal foul"
+    },
+    {
+      "min": 22.77,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Keldon Johnson"
+    },
+    {
+      "min": 22.77,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Dylan Harper"
+    },
+    {
+      "min": 22.77,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Jose Alvarado"
+    },
+    {
+      "min": 0.0,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 0.0,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle loose ball foul"
+    },
+    {
+      "min": 0.0,
+      "home": 50,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "min": 0.0,
+      "home": 50,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "min": 0.0,
+      "home": 50,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle misses 13-foot step back jumpshot"
+    },
+    {
+      "min": 0.0,
+      "home": 50,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 50,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson lost ball turnover (De'Aaron Fox steals)"
+    },
+    {
+      "min": 0.0,
+      "home": 52,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 1-foot running dunk"
+    },
+    {
+      "min": 0.0,
+      "home": 52,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses driving floating jump shot"
+    },
+    {
+      "min": 0.0,
+      "home": 52,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 52,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses 1-foot tip shot"
+    },
+    {
+      "min": 0.0,
+      "home": 52,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 55,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Julian Champagnie makes 22-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 0.0,
+      "home": 55,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Mikal Bridges 's 64-foot heave jump shot"
+    },
+    {
+      "min": 0.0,
+      "home": 55,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 55,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Landry Shamet"
+    },
+    {
+      "min": 24.13,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges personal foul"
+    },
+    {
+      "min": 24.28,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 24.32,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 24.68,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart misses 26-foot three point jumper"
+    },
+    {
+      "min": 24.73,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 24.83,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama out of bounds lost ball turnover"
+    },
+    {
+      "min": 25.03,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox personal foul"
+    },
+    {
+      "min": 25.27,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 25.32,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 25.48,
+      "home": 55,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns shooting foul"
+    },
+    {
+      "min": 25.48,
+      "home": 56,
+      "away": 48,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 25.48,
+      "home": 57,
+      "away": 48,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 25.8,
+      "home": 57,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby misses 17-foot pullup jump shot"
+    },
+    {
+      "min": 25.85,
+      "home": 57,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 25.93,
+      "home": 57,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie misses 26-foot running jump shot"
+    },
+    {
+      "min": 25.95,
+      "home": 57,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 26.23,
+      "home": 57,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 17-foot step back jumpshot"
+    },
+    {
+      "min": 26.27,
+      "home": 57,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 26.48,
+      "home": 59,
+      "away": 48,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes 2-foot driving floating jump shot"
+    },
+    {
+      "min": 26.63,
+      "home": 59,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama personal foul"
+    },
+    {
+      "min": 26.72,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes alley oop layup (Josh Hart assists)"
+    },
+    {
+      "min": 26.88,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns shooting foul"
+    },
+    {
+      "min": 26.88,
+      "home": 60,
+      "away": 50,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 26.88,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 27.25,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby misses 10-foot pullup jump shot"
+    },
+    {
+      "min": 27.3,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 27.47,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle misses 26-foot three point jumper"
+    },
+    {
+      "min": 27.5,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 27.82,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges misses 10-foot two point shot"
+    },
+    {
+      "min": 27.87,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 27.93,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby blocks De'Aaron Fox 's 5-foot running pullup jump shot"
+    },
+    {
+      "min": 27.95,
+      "home": 61,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive rebound"
+    },
+    {
+      "min": 27.97,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes tip shot"
+    },
+    {
+      "min": 28.12,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 28.15,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 28.23,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson personal foul"
+    },
+    {
+      "min": 28.23,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 28.35,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 25-foot three point jumper"
+    },
+    {
+      "min": 28.42,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie offensive rebound"
+    },
+    {
+      "min": 28.45,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle misses 26-foot three point jumper"
+    },
+    {
+      "min": 28.45,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 28.75,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 23-foot three point jumper"
+    },
+    {
+      "min": 28.82,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 28.88,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper misses running pullup jump shot"
+    },
+    {
+      "min": 28.93,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 28.93,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 29.03,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie misses 26-foot three point jumper"
+    },
+    {
+      "min": 29.1,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 29.17,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet shooting foul"
+    },
+    {
+      "min": 29.17,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 29.17,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 29.17,
+      "home": 63,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges misses free throw 1 of 2"
+    },
+    {
+      "min": 29.17,
+      "home": 63,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes free throw 2 of 2"
+    },
+    {
+      "min": 29.48,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Dylan Harper makes 3-foot driving floating jump shot"
+    },
+    {
+      "min": 29.83,
+      "home": 65,
+      "away": 53,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes 11-foot pullup jump shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 29.83,
+      "home": 65,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper loose ball foul"
+    },
+    {
+      "min": 29.83,
+      "home": 65,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride enters the game for OG Anunoby"
+    },
+    {
+      "min": 29.83,
+      "home": 65,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Mikal Bridges"
+    },
+    {
+      "min": 29.83,
+      "home": 65,
+      "away": 54,
+      "period": 3,
+      "scoring": true,
+      "text": "Josh Hart makes free throw 1 of 1"
+    },
+    {
+      "min": 30.03,
+      "home": 67,
+      "away": 54,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes 9-foot pullup jump shot"
+    },
+    {
+      "min": 30.33,
+      "home": 67,
+      "away": 56,
+      "period": 3,
+      "scoring": true,
+      "text": "Landry Shamet makes 1-foot layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 30.45,
+      "home": 67,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper misses 26-foot three point jumper"
+    },
+    {
+      "min": 30.48,
+      "home": 67,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 30.65,
+      "home": 67,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 2-foot two point shot (Miles McBride assists)"
+    },
+    {
+      "min": 30.65,
+      "home": 67,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet shooting foul"
+    },
+    {
+      "min": 30.65,
+      "home": 67,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 30.65,
+      "home": 67,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 1"
+    },
+    {
+      "min": 30.88,
+      "home": 67,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns blocks Julian Champagnie 's 7-foot driving floating jump shot"
+    },
+    {
+      "min": 30.93,
+      "home": 67,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 31.03,
+      "home": 67,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes running layup (Josh Hart assists)"
+    },
+    {
+      "min": 31.05,
+      "home": 67,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 31.05,
+      "home": 67,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Devin Vassell"
+    },
+    {
+      "min": 31.05,
+      "home": 67,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 31.42,
+      "home": 69,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Dylan Harper makes two point shot (Julian Champagnie assists)"
+    },
+    {
+      "min": 31.63,
+      "home": 69,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 31.67,
+      "home": 69,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 31.78,
+      "home": 69,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox bad pass\nturnover (Josh Hart steals)"
+    },
+    {
+      "min": 31.87,
+      "home": 69,
+      "away": 64,
+      "period": 3,
+      "scoring": true,
+      "text": "Landry Shamet makes 24-foot running jump shot (Miles McBride assists)"
+    },
+    {
+      "min": 32.17,
+      "home": 69,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper misses 22-foot three point jumper"
+    },
+    {
+      "min": 32.2,
+      "home": 69,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 32.33,
+      "home": 69,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride misses 25-foot three point jumper"
+    },
+    {
+      "min": 32.37,
+      "home": 69,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 32.4,
+      "home": 69,
+      "away": 66,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes two point shot"
+    },
+    {
+      "min": 32.68,
+      "home": 71,
+      "away": 66,
+      "period": 3,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 8-foot pullup jump shot"
+    },
+    {
+      "min": 33.07,
+      "home": 71,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "min": 33.12,
+      "home": 71,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 33.13,
+      "home": 71,
+      "away": 68,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes two point shot"
+    },
+    {
+      "min": 33.13,
+      "home": 71,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson shooting foul"
+    },
+    {
+      "min": 33.13,
+      "home": 71,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 1"
+    },
+    {
+      "min": 33.32,
+      "home": 71,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "min": 33.35,
+      "home": 71,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Landry Shamet defensive rebound"
+    },
+    {
+      "min": 33.48,
+      "home": 71,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses 29-foot three point jumper"
+    },
+    {
+      "min": 33.52,
+      "home": 71,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 33.72,
+      "home": 71,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive foul turnover"
+    },
+    {
+      "min": 33.72,
+      "home": 71,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive foul"
+    },
+    {
+      "min": 33.98,
+      "home": 71,
+      "away": 71,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes 14-foot pullup jump shot"
+    },
+    {
+      "min": 34.07,
+      "home": 71,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride blocks Keldon Johnson's driving floating jump shot"
+    },
+    {
+      "min": 34.08,
+      "home": 71,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 34.08,
+      "home": 71,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Julian Champagnie"
+    },
+    {
+      "min": 34.08,
+      "home": 71,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 34.08,
+      "home": 71,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Harrison Barnes enters the game for Keldon Johnson"
+    },
+    {
+      "min": 34.13,
+      "home": 73,
+      "away": 71,
+      "period": 3,
+      "scoring": true,
+      "text": "Devin Vassell makes 1-foot dunk (De'Aaron Fox assists)"
+    },
+    {
+      "min": 34.38,
+      "home": 73,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Harrison Barnes shooting foul"
+    },
+    {
+      "min": 34.38,
+      "home": 73,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 34.38,
+      "home": 73,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 34.6,
+      "home": 73,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 24-foot three point jumper"
+    },
+    {
+      "min": 34.68,
+      "home": 73,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 34.75,
+      "home": 73,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 14-foot two point shot"
+    },
+    {
+      "min": 34.78,
+      "home": 73,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Harrison Barnes defensive rebound"
+    },
+    {
+      "min": 34.88,
+      "home": 73,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Landry Shamet shooting foul"
+    },
+    {
+      "min": 34.88,
+      "home": 74,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "min": 34.88,
+      "home": 74,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox misses free throw 2 of 2"
+    },
+    {
+      "min": 34.92,
+      "home": 74,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 74,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson out of bounds bad pass turnover"
+    },
+    {
+      "min": 0.0,
+      "home": 76,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 1-foot driving dunk (Devin Vassell assists)"
+    },
+    {
+      "min": 0.0,
+      "home": 76,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "Miles McBride makes 24-foot jump bank shot (Josh Hart assists)"
+    },
+    {
+      "min": 0.0,
+      "home": 76,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 76,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 0.0,
+      "home": 76,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 76,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Dylan Harper"
+    },
+    {
+      "min": 36.0,
+      "home": 76,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Jalen Brunson"
+    },
+    {
+      "min": 36.0,
+      "home": 76,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 36.0,
+      "home": 76,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for Josh Hart"
+    },
+    {
+      "min": 36.37,
+      "home": 76,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses driving floating jump shot"
+    },
+    {
+      "min": 36.45,
+      "home": 76,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 36.47,
+      "home": 76,
+      "away": 78,
+      "period": 4,
+      "scoring": true,
+      "text": "Landry Shamet makes 1-foot reverse layup (Miles McBride assists)"
+    },
+    {
+      "min": 36.82,
+      "home": 76,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox misses driving floating jump shot"
+    },
+    {
+      "min": 36.85,
+      "home": 76,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive rebound"
+    },
+    {
+      "min": 36.85,
+      "home": 76,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Jose Alvarado shooting foul"
+    },
+    {
+      "min": 36.85,
+      "home": 76,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses free throw 1 of 2"
+    },
+    {
+      "min": 36.85,
+      "home": 76,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 36.85,
+      "home": 77,
+      "away": 78,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 37.25,
+      "home": 77,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Jose Alvarado misses 26-foot three point jumper"
+    },
+    {
+      "min": 37.27,
+      "home": 77,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 37.27,
+      "home": 77,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox loose ball foul"
+    },
+    {
+      "min": 37.47,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes 2-foot two point shot"
+    },
+    {
+      "min": 37.73,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 9-foot two point shot"
+    },
+    {
+      "min": 37.78,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 38.07,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby misses two point shot"
+    },
+    {
+      "min": 38.12,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 38.25,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell misses driving layup"
+    },
+    {
+      "min": 38.27,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive rebound"
+    },
+    {
+      "min": 38.27,
+      "home": 79,
+      "away": 80,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes two point shot"
+    },
+    {
+      "min": 38.62,
+      "home": 79,
+      "away": 83,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes 23-foot three point jumper (Miles McBride assists)"
+    },
+    {
+      "min": 38.88,
+      "home": 81,
+      "away": 83,
+      "period": 4,
+      "scoring": true,
+      "text": "Stephon Castle makes 5-foot turnaround jump shot (Victor Wembanyama assists)"
+    },
+    {
+      "min": 39.17,
+      "home": 81,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes 23-foot three point jumper"
+    },
+    {
+      "min": 39.47,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Stephon Castle makes 25-foot three point jumper (Devin Vassell assists)"
+    },
+    {
+      "min": 39.88,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Jose Alvarado misses driving floating jump shot"
+    },
+    {
+      "min": 39.93,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 40.0,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell misses 23-foot running jump shot"
+    },
+    {
+      "min": 40.03,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Harrison Barnes offensive rebound"
+    },
+    {
+      "min": 40.07,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle misses 25-foot three point jumper"
+    },
+    {
+      "min": 40.1,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 40.23,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Miles McBride misses running layup"
+    },
+    {
+      "min": 40.27,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 40.32,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Harrison Barnes misses 26-foot running jump shot"
+    },
+    {
+      "min": 40.35,
+      "home": 84,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell offensive rebound"
+    },
+    {
+      "min": 40.37,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Vassell makes tip shot"
+    },
+    {
+      "min": 40.38,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 40.38,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 40.38,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Landry Shamet"
+    },
+    {
+      "min": 40.38,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for OG Anunoby"
+    },
+    {
+      "min": 40.38,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Jose Alvarado"
+    },
+    {
+      "min": 40.38,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 40.38,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 40.38,
+      "home": 86,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Harrison Barnes"
+    },
+    {
+      "min": 40.63,
+      "home": 86,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 3-foot two point shot"
+    },
+    {
+      "min": 40.92,
+      "home": 86,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges personal foul"
+    },
+    {
+      "min": 41.03,
+      "home": 86,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle misses 3-foot pullup jump shot"
+    },
+    {
+      "min": 41.07,
+      "home": 86,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 41.13,
+      "home": 86,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie shooting foul"
+    },
+    {
+      "min": 41.13,
+      "home": 86,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 41.13,
+      "home": 86,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Miles McBride"
+    },
+    {
+      "min": 41.13,
+      "home": 86,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 41.13,
+      "home": 86,
+      "away": 90,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 41.35,
+      "home": 86,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper bad pass\nturnover (Josh Hart steals)"
+    },
+    {
+      "min": 41.43,
+      "home": 86,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes running layup"
+    },
+    {
+      "min": 41.43,
+      "home": 86,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 41.43,
+      "home": 86,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 41.53,
+      "home": 86,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Mitchell Robinson vs. Victor Wembanyama (De'Aaron Fox gains possession)"
+    },
+    {
+      "min": 41.68,
+      "home": 86,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 26-foot three point jumper"
+    },
+    {
+      "min": 41.75,
+      "home": 86,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 41.88,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 4-foot two point shot"
+    },
+    {
+      "min": 41.95,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart personal foul"
+    },
+    {
+      "min": 41.95,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Devin Vassell"
+    },
+    {
+      "min": 42.23,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama traveling turnover"
+    },
+    {
+      "min": 42.55,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson misses 12-foot pullup jump shot"
+    },
+    {
+      "min": 42.58,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 42.68,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox lost ball turnover (Josh Hart steals)"
+    },
+    {
+      "min": 43.03,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges misses 12-foot fade away jump shot"
+    },
+    {
+      "min": 43.07,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 43.17,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 26-foot three pointer"
+    },
+    {
+      "min": 43.2,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 43.2,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Mikal Bridges"
+    },
+    {
+      "min": 43.2,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 43.55,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 43.58,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 43.73,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "min": 43.75,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive rebound"
+    },
+    {
+      "min": 43.88,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 23-foot three point jumper"
+    },
+    {
+      "min": 43.92,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie offensive rebound"
+    },
+    {
+      "min": 43.93,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson shooting foul"
+    },
+    {
+      "min": 43.93,
+      "home": 90,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Dylan Harper"
+    },
+    {
+      "min": 43.93,
+      "home": 90,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Julian Champagnie makes free throw 1 of 2"
+    },
+    {
+      "min": 43.93,
+      "home": 90,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses free throw 2 of 2"
+    },
+    {
+      "min": 43.98,
+      "home": 90,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 44.35,
+      "home": 90,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby misses 14-foot pullup jump shot"
+    },
+    {
+      "min": 44.37,
+      "home": 90,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 44.6,
+      "home": 92,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes driving layup"
+    },
+    {
+      "min": 44.6,
+      "home": 92,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns shooting foul"
+    },
+    {
+      "min": 44.6,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 1"
+    },
+    {
+      "min": 44.95,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson misses 14-foot step back jumpshot"
+    },
+    {
+      "min": 45.0,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 45.15,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses driving floating jump shot"
+    },
+    {
+      "min": 45.18,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 45.23,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet misses 25-foot running jump shot"
+    },
+    {
+      "min": 45.32,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart offensive rebound"
+    },
+    {
+      "min": 45.42,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson misses two point shot"
+    },
+    {
+      "min": 45.47,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 45.7,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell misses 25-foot three point jumper"
+    },
+    {
+      "min": 45.73,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell offensive rebound"
+    },
+    {
+      "min": 45.73,
+      "home": 93,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet personal foul"
+    },
+    {
+      "min": 45.73,
+      "home": 94,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 45.73,
+      "home": 94,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Landry Shamet"
+    },
+    {
+      "min": 45.73,
+      "home": 95,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 46.05,
+      "home": 95,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby misses 26-foot three point jumper"
+    },
+    {
+      "min": 46.13,
+      "home": 95,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges offensive rebound"
+    },
+    {
+      "min": 46.17,
+      "home": 95,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 23-foot three point jumper (Mikal Bridges assists)"
+    },
+    {
+      "min": 46.48,
+      "home": 95,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 9-foot pullup jump shot"
+    },
+    {
+      "min": 46.53,
+      "home": 95,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 46.82,
+      "home": 95,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox shooting foul"
+    },
+    {
+      "min": 46.82,
+      "home": 95,
+      "away": 98,
+      "period": 4,
+      "scoring": true,
+      "text": "Mikal Bridges makes free throw 1 of 2"
+    },
+    {
+      "min": 46.82,
+      "home": 95,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Mikal Bridges makes free throw 2 of 2"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama lost ball turnover (Josh Hart steals)"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 101,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 14-foot pullup jump shot"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 27-foot three point jumper"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox loose ball foul"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 103,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 103,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 103,
+      "period": 4,
+      "scoring": false,
+      "text": "(00:21.1) [Knicks] COACH'S CHALLENGE (CALL OVERTURNED) [Knicks] retain their timeout"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 103,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox out of bounds bad pass turnover"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 103,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 103,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Landry Shamet"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 103,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle personal take foul"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 104,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 105,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 25-foot three point jumper"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 0.0,
+      "home": 95,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 26,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 26-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 32,
+      "y": 14,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 15-foot pullup jump shot"
+    },
+    {
+      "x": 32,
+      "y": 4,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses driving layup"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 24-foot three point jumper (Josh Hart assists)"
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 7-foot pullup jump shot"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 25-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "SAS",
+      "text": "Stephon Castle misses two point shot"
+    },
+    {
+      "x": 17,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses 27-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes running layup (Mikal Bridges assists)"
+    },
+    {
+      "x": 18,
+      "y": 2,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "SAS",
+      "text": "Josh Hart blocks Stephon Castle 's 7-foot layup"
+    },
+    {
+      "x": 26,
+      "y": 13,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 12-foot two point shot"
+    },
+    {
+      "x": 34,
+      "y": 10,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses running pullup jump shot"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 25-foot running jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes tip shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Josh Hart makes 2-foot two point shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 38,
+      "y": 22,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Victor Wembanyama blocks Josh Hart 's 3-foot running layup"
+    },
+    {
+      "x": 32,
+      "y": 25,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 25-foot running jump shot (Stephon Castle assists)"
+    },
+    {
+      "x": 40,
+      "y": 21,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Julian Champagnie blocks Jalen Brunson 's 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 24-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 3-foot driving floating jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 1-foot two point shot (Josh Hart assists)"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 27-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses driving layup"
+    },
+    {
+      "x": 26,
+      "y": 9,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 8-foot pullup jump shot"
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 26-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses running layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Stephon Castle makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Stephon Castle makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": 13,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses fade away jump shot"
+    },
+    {
+      "x": 49,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses 23-foot three point jumper"
+    },
+    {
+      "x": 35,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 50,
+      "y": 4,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses running pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 3-foot running pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 1 of 1"
+    },
+    {
+      "x": 36,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 26-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 5,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 23-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 24-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 22-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses driving layup"
+    },
+    {
+      "x": 37,
+      "y": 22,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 25-foot running jump shot"
+    },
+    {
+      "x": 36,
+      "y": 6,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 12-foot step back jumpshot"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 23-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Harrison Barnes misses free throw 1 of 1"
+    },
+    {
+      "x": 26,
+      "y": 27,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 8,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 7-foot driving floating jump shot (Harrison Barnes assists)"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes tip shot"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "made": false,
+      "type": "Fade Away Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 11-foot two point shot"
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 23,
+      "y": 11,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 11-foot turnaround jump shot"
+    },
+    {
+      "x": 7,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot Bank",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 30-foot jump bank shot"
+    },
+    {
+      "x": 44,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Harrison Barnes misses 25-foot three point jumper"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride makes 25-foot three point jumper (Jose Alvarado assists)"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Driving Dunk Shot",
+      "team": "NYK",
+      "text": "Victor Wembanyama blocks Karl-Anthony Towns 's 3-foot driving dunk"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "NYK",
+      "text": "Jose Alvarado makes two point shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 1-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 28,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 27-foot running jump shot"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Jose Alvarado makes 3-foot two point shot"
+    },
+    {
+      "x": 49,
+      "y": 8,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 24-foot running jump shot"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet misses 23-foot running jump shot"
+    },
+    {
+      "x": 29,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses 26-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 13-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "NYK",
+      "text": "Mitchell Robinson makes 1-foot alley oop dunk (Josh Hart assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses free throw 1 of 1"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Carter Bryant misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Carter Bryant makes free throw 2 of 2"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson misses 25-foot three point jumper"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 6,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 6-foot pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": false,
+      "type": "Running Finger Roll Layup",
+      "team": "NYK",
+      "text": "Jalen Brunson misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Dunk Shot",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses tip in dunk"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes two point shot (Devin Vassell assists)"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 2-foot driving floating jump shot"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 26-foot three point jumper (Dylan Harper assists)"
+    },
+    {
+      "x": 27,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes tip shot"
+    },
+    {
+      "x": 30,
+      "y": 3,
+      "made": true,
+      "type": "Finger Roll Layup",
+      "team": "NYK",
+      "text": "Jalen Brunson makes finger roll layup"
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 9-foot fade away jump shot"
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 5-foot driving floating jump shot"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "Dylan Harper makes 3-foot two point shot"
+    },
+    {
+      "x": 29,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 17-foot pullup jump shot"
+    },
+    {
+      "x": 48,
+      "y": 6,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Carter Bryant misses 23-foot three point jumper"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 24-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 40,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 29,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 29-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 9,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 24-foot three point step back jumpshot (Jalen Brunson assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 23-foot three point jumper"
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 26-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "x": 43,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado makes 25-foot three point jumper (Mikal Bridges assists)"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 24-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 12,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 13-foot step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 1-foot running dunk"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses driving floating jump shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses 1-foot tip shot"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 22-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": 16,
+      "y": 65,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "NYK",
+      "text": "Victor Wembanyama blocks Mikal Bridges 's 64-foot heave jump shot"
+    },
+    {
+      "x": 25,
+      "y": 17,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 26-foot three point jumper"
+    },
+    {
+      "x": 45,
+      "y": 16,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 18,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 17-foot pullup jump shot"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 26-foot running jump shot"
+    },
+    {
+      "x": 30,
+      "y": 17,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 17-foot step back jumpshot"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 2-foot driving floating jump shot"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes alley oop layup (Josh Hart assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 30,
+      "y": 9,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 10-foot pullup jump shot"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 26-foot three point jumper"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 10-foot two point shot"
+    },
+    {
+      "x": 24,
+      "y": 5,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "SAS",
+      "text": "OG Anunoby blocks De'Aaron Fox 's 5-foot running pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes tip shot"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 25-foot three point jumper"
+    },
+    {
+      "x": 33,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 26-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 23-foot three point jumper"
+    },
+    {
+      "x": 34,
+      "y": 2,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses running pullup jump shot"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Mikal Bridges misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Mikal Bridges makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 3-foot driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 12,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 11-foot pullup jump shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "NYK",
+      "text": "Josh Hart makes free throw 1 of 1"
+    },
+    {
+      "x": 25,
+      "y": 10,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 9-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 1-foot layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 11,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses 26-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 2-foot two point shot (Miles McBride assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 1"
+    },
+    {
+      "x": 28,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Karl-Anthony Towns blocks Julian Champagnie 's 7-foot driving floating jump shot"
+    },
+    {
+      "x": 28,
+      "y": 4,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes running layup (Josh Hart assists)"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "SAS",
+      "text": "Dylan Harper makes two point shot (Julian Champagnie assists)"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 24-foot running jump shot (Miles McBride assists)"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses 22-foot three point jumper"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes two point shot"
+    },
+    {
+      "x": 24,
+      "y": 8,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 8-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 1"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "x": 24,
+      "y": 30,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses 29-foot three point jumper"
+    },
+    {
+      "x": 35,
+      "y": 11,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 14-foot pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Miles McBride blocks Keldon Johnson's driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 1-foot dunk (De'Aaron Fox assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 49,
+      "y": 5,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 24-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 15,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 14-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 1-foot driving dunk (Devin Vassell assists)"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "made": true,
+      "type": "Jump Shot Bank",
+      "team": "NYK",
+      "text": "Miles McBride makes 24-foot jump bank shot (Josh Hart assists)"
+    },
+    {
+      "x": 27,
+      "y": 27,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses driving floating jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Reverse Layup Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 1-foot reverse layup (Miles McBride assists)"
+    },
+    {
+      "x": 25,
+      "y": 9,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado misses 26-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "OG Anunoby makes 2-foot two point shot"
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 9-foot two point shot"
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses two point shot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses driving layup"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes two point shot"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 23-foot three point jumper (Miles McBride assists)"
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 5-foot turnaround jump shot (Victor Wembanyama assists)"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 23-foot three point jumper"
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 25-foot three point jumper (Devin Vassell assists)"
+    },
+    {
+      "x": 30,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado misses driving floating jump shot"
+    },
+    {
+      "x": 48,
+      "y": 2,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 23-foot running jump shot"
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 25-foot three point jumper"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses running layup"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Harrison Barnes misses 26-foot running jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes tip shot"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 3-foot two point shot"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 3-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes running layup"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 26-foot three point jumper"
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 4-foot two point shot"
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 12-foot pullup jump shot"
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 12-foot fade away jump shot"
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 26-foot three pointer"
+    },
+    {
+      "x": 34,
+      "y": 16,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 23-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Julian Champagnie makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Julian Champagnie misses free throw 2 of 2"
+    },
+    {
+      "x": 17,
+      "y": 12,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 14-foot pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 1"
+    },
+    {
+      "x": 25,
+      "y": 15,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 14-foot step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses driving floating jump shot"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet misses 25-foot running jump shot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses two point shot"
+    },
+    {
+      "x": 47,
+      "y": 13,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 26-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 23-foot three point jumper (Mikal Bridges assists)"
+    },
+    {
+      "x": 27,
+      "y": 9,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 9-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Mikal Bridges makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Mikal Bridges makes free throw 2 of 2"
+    },
+    {
+      "x": 34,
+      "y": 12,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 14-foot pullup jump shot"
+    },
+    {
+      "x": 36,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 27-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 25-foot three point jumper"
+    }
+  ],
+  "shot_zones": {
+    "SAS": {
+      "ra": [
+        3,
+        4
+      ],
+      "paint_non_ra": [
+        0,
+        0
+      ],
+      "mid": [
+        49,
+        110
+      ],
+      "corner_3": [
+        0,
+        0
+      ],
+      "above_3": [
+        0,
+        0
+      ]
+    },
+    "NYK": {
+      "ra": [
+        5,
+        6
+      ],
+      "paint_non_ra": [
+        0,
+        1
+      ],
+      "mid": [
+        50,
+        106
+      ],
+      "corner_3": [
+        0,
+        0
+      ],
+      "above_3": [
+        0,
+        0
+      ]
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-04"
+}

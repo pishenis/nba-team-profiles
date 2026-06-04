@@ -1,470 +1,478 @@
-import json
-import sys
-import time
-from datetime import date
-from nba_api.stats.endpoints import (
-    BoxScoreTraditionalV3,
-    BoxScoreFourFactorsV3,
-    BoxScoreMiscV3,
-    BoxScoreHustleV2,
-    PlayByPlayV3,
-    BoxScoreMatchupsV3,
-    BoxScoreSummaryV2,
-)
+#!/usr/bin/env python3
+"""
+coletar_jogo.py — BallDontLie edition
+Uso:
+  python3 coletar_jogo.py <YYYY-MM-DD>   # busca jogo de playoffs na data
+  python3 coletar_jogo.py <bdl_id>       # coleta pelo ID numérico do BDL
+"""
 
-NBA_HEADERS = {
-    'Host': 'stats.nba.com',
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'application/json, text/plain, */*',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'x-nba-stats-origin': 'stats',
-    'x-nba-stats-token': 'true',
-    'Connection': 'keep-alive',
-    'Referer': 'https://www.nba.com/',
-    'Origin': 'https://www.nba.com',
-}
+import json, os, re, sys, time
+from datetime import date as dt_date
+import requests
+from dotenv import load_dotenv
 
-if len(sys.argv) < 2:
-    print("Uso: python3 coletar_jogo.py GAME_ID")
+load_dotenv()
+API_KEY = os.getenv("BDL_API_KEY")
+if not API_KEY:
+    print("ERRO: BDL_API_KEY não encontrado no .env")
     sys.exit(1)
 
-GAME_ID = sys.argv[1]
-print(f"Coletando dados do jogo {GAME_ID}...")
+HEADERS  = {"Authorization": API_KEY}
+BASE_V1  = "https://api.balldontlie.io/nba/v1"
+BASE_V2  = "https://api.balldontlie.io/nba/v2"
 
-def nba_get(cls, retries=3, **kw):
+# ─── helpers de API ──────────────────────────────────────────────────────────
+
+def get(url, params=None, retries=3):
     for attempt in range(retries):
         try:
-            time.sleep(1.5)
-            return cls(game_id=GAME_ID, headers=NBA_HEADERS, timeout=60, **kw).get_data_frames()
+            time.sleep(0.4)
+            r = requests.get(url, headers=HEADERS, params=params, timeout=30)
+            if r.status_code == 429:
+                print("  Rate limit, aguardando 15s...")
+                time.sleep(15)
+                continue
+            r.raise_for_status()
+            return r.json()
         except Exception as e:
             if attempt < retries - 1:
-                print(f"  Tentativa {attempt+1} falhou, aguardando 5s...")
+                print(f"  Tentativa {attempt + 1} falhou: {e}, aguardando 5s...")
                 time.sleep(5)
             else:
-                print(f"  ERRO: {e}")
-                return None
+                raise
 
-# ── 1. Resumo ───────────────────────────────────────────────────────────────
-print("Coletando resumo...")
-summary_dfs = nba_get(BoxScoreSummaryV2)
-if not summary_dfs:
-    print("Erro ao coletar resumo. Abortando.")
-    sys.exit(1)
+def all_pages(url, params=None):
+    params = dict(params or {})
+    params["per_page"] = 100
+    items = []
+    while True:
+        data = get(url, params)
+        items.extend(data.get("data", []))
+        cursor = data.get("meta", {}).get("next_cursor")
+        if not cursor:
+            break
+        params["cursor"] = cursor
+    return items
 
-line_score = summary_dfs[5]
-game_info  = summary_dfs[0]
+# ─── helpers gerais ──────────────────────────────────────────────────────────
 
-game_date        = str(game_info["GAME_DATE_EST"].iloc[0])[:10]
-home_team_id_raw = game_info["HOME_TEAM_ID"].iloc[0]
+def abbr(team_obj):
+    return (team_obj or {}).get("abbreviation", "")
 
-row0 = line_score.iloc[0]
-row1 = line_score.iloc[1]
+def short_name(player):
+    fn = (player.get("first_name") or "")
+    ln = (player.get("last_name") or "")
+    return f"{fn[0]}. {ln}" if fn else ln
 
-if home_team_id_raw is not None:
-    home_team_id = int(home_team_id_raw)
-    if int(row0["TEAM_ID"]) == home_team_id:
-        home_row, away_row = row0, row1
-    else:
-        home_row, away_row = row1, row0
-else:
-    home_row, away_row = row0, row1
+def clock_to_min(clock, period):
+    try:
+        parts = clock.split(":")
+        mins = int(parts[0])
+        secs = int(parts[1]) if len(parts) > 1 else 0
+        remaining = mins + secs / 60
+        dur  = 12 if period <= 4 else 5
+        base = (period - 1) * 12 if period <= 4 else 48 + (period - 5) * 5
+        return round(base + dur - remaining, 2)
+    except Exception:
+        return 0.0
 
-home_abbr = home_row["TEAM_ABBREVIATION"]
-away_abbr = away_row["TEAM_ABBREVIATION"]
-home_pts  = int(home_row["PTS"] or 0)
-away_pts  = int(away_row["PTS"] or 0)
+def fmt_clock(clock, period):
+    labels = {1: "1Q", 2: "2Q", 3: "3Q", 4: "4Q"}
+    lbl = labels.get(period, f"OT{period - 4}")
+    return f"{clock} {lbl}"
 
-print(f"  {away_abbr} {away_pts} @ {home_abbr} {home_pts} · {game_date}")
+def fmt_min(total_min):
+    total_min = max(0, total_min)
+    m = int(total_min)
+    s = int(round((total_min - m) * 60))
+    return f"{m}:{s:02d}"
 
-# ── 2. Box score ─────────────────────────────────────────────────────────────
-print("Coletando box score...")
-trad_dfs = nba_get(BoxScoreTraditionalV3)
+def agg(lst, key):
+    return sum((x.get(key) or 0) for x in lst)
 
-def parse_players(df):
-    players = []
-    for _, row in df.iterrows():
-        if not row.get("minutes") or str(row["minutes"]) in ["None","nan",""]:
+# ─── cálculos de jogo ────────────────────────────────────────────────────────
+
+def compute_game_flow(plays, home_abbr, away_abbr):
+    scoring = [
+        p for p in plays
+        if p.get("scoring_play") and p.get("team") and p.get("score_value", 0) > 0
+    ]
+
+    time_home = 0.0
+    time_away = 0.0
+    time_tied = 0.0
+    lead_changes = 0
+    score_ties = 0
+    prev_leader = None
+    prev_min = 0.0
+
+    for play in scoring:
+        cur_min = clock_to_min(play.get("clock", "0:00"), play.get("period", 1))
+        diff = cur_min - prev_min
+        if prev_leader == "home":   time_home += diff
+        elif prev_leader == "away": time_away += diff
+        else:                       time_tied += diff
+
+        h = play.get("home_score", 0)
+        a = play.get("away_score", 0)
+        new_leader = "home" if h > a else ("away" if a > h else None)
+
+        if new_leader != prev_leader:
+            if new_leader is None:    score_ties   += 1
+            elif prev_leader is not None: lead_changes += 1
+
+        prev_leader = new_leader
+        prev_min = cur_min
+
+    max_period = max((p.get("period", 1) for p in plays), default=4)
+    total = 48 + max(0, max_period - 4) * 5
+    remaining = total - prev_min
+    if prev_leader == "home":   time_home += remaining
+    elif prev_leader == "away": time_away += remaining
+    else:                       time_tied += remaining
+
+    # Maior sequência
+    best = {home_abbr: (0, 0, "", ""), away_abbr: (0, 0, "", "")}
+    for focal in [home_abbr, away_abbr]:
+        opp = away_abbr if focal == home_abbr else home_abbr
+        cur_f, cur_o = 0, 0
+        started = False
+        start_c, start_p = "", 1
+
+        for play in scoring:
+            team = abbr(play.get("team", {}))
+            val  = play.get("score_value", 0)
+            c, p = play.get("clock", ""), play.get("period", 1)
+
+            if team == focal:
+                if not started:
+                    start_c, start_p = c, p
+                    started = True
+                cur_f += val
+                if cur_f > best[focal][0]:
+                    best[focal] = (cur_f, cur_o, fmt_clock(start_c, start_p), fmt_clock(c, p))
+            else:
+                cur_o += val
+                if cur_o >= cur_f and cur_f > 0:
+                    cur_f, cur_o, started = 0, 0, False
+
+    bh, ba = best[home_abbr], best[away_abbr]
+    winner_run = home_abbr if bh[0] >= ba[0] else away_abbr
+    bw = best[winner_run]
+
+    return {
+        "time_leading": {home_abbr: fmt_min(time_home), away_abbr: fmt_min(time_away)},
+        "time_tied":    fmt_min(time_tied),
+        "lead_changes": lead_changes,
+        "score_ties":   score_ties,
+        "biggest_run": {
+            "team":  winner_run,
+            "run":   f"{bw[0]}-{bw[1]}",
+            "start": bw[2],
+            "end":   bw[3],
+            home_abbr: f"{bh[0]}-{bh[1]}",
+            away_abbr: f"{ba[0]}-{ba[1]}",
+        },
+    }
+
+
+def quarter_scores_from_game(game_data, home_abbr, away_abbr):
+    home_qs, away_qs = [], []
+    for q in range(1, 5):
+        home_qs.append(game_data.get(f"home_q{q}") or 0)
+        away_qs.append(game_data.get(f"visitor_q{q}") or 0)
+    for ot in range(1, 4):
+        h = game_data.get(f"home_ot{ot}")
+        a = game_data.get(f"visitor_ot{ot}")
+        if h is not None and (h > 0 or (a or 0) > 0):
+            home_qs.append(h or 0)
+            away_qs.append(a or 0)
+    return {home_abbr: home_qs, away_abbr: away_qs}, len(home_qs)
+
+
+def build_shot_zones(plays, home_abbr, away_abbr):
+    zones = {
+        t: {"ra": [0,0], "paint_non_ra": [0,0], "mid": [0,0], "corner_3": [0,0], "above_3": [0,0]}
+        for t in [home_abbr, away_abbr]
+    }
+    for play in plays:
+        if not play.get("shooting_play"):
             continue
+        x = play.get("coordinate_x")
+        y = play.get("coordinate_y")
+        team = abbr(play.get("team", {}))
+        if team not in zones or x is None or y is None:
+            continue
+        made = 1 if play.get("scoring_play") else 0
+        is_3 = "3" in (play.get("type") or "")
+        dist = (x**2 + y**2) ** 0.5
+        if dist <= 4:             zone = "ra"
+        elif is_3 and abs(x)>=22: zone = "corner_3"
+        elif is_3:                zone = "above_3"
+        elif dist <= 12:          zone = "paint_non_ra"
+        else:                     zone = "mid"
+        zones[team][zone][0] += made
+        zones[team][zone][1] += 1
+    return zones
+
+
+def build_players_from_box(team_section, starter_ids, lineup_pos, adv_by_pid):
+    players = []
+    for p in (team_section or {}).get("players", []):
+        player = p.get("player", {})
+        pid    = player.get("id")
+        mins   = p.get("min", "") or ""
+        if not mins or mins in ("0", "0:00"):
+            continue
+        adv = adv_by_pid.get(pid, {})
+        is_s = pid in starter_ids
         players.append({
-            "id":       str(row.get("personId","")),
-            "name":     row.get("nameI",""),
-            "pos":      row.get("position",""),
-            "jersey":   str(row.get("jerseyNum","")),
-            "minutes":  str(row.get("minutes",""))[:5],
-            "pts":      int(row.get("points",0) or 0),
-            "oreb":     int(row.get("reboundsOffensive",0) or 0),
-            "dreb":     int(row.get("reboundsDefensive",0) or 0),
-            "reb":      int(row.get("reboundsTotal",0) or 0),
-            "ast":      int(row.get("assists",0) or 0),
-            "stl":      int(row.get("steals",0) or 0),
-            "blk":      int(row.get("blocks",0) or 0),
-            "tov":      int(row.get("turnovers",0) or 0),
-            "fgm":      int(row.get("fieldGoalsMade",0) or 0),
-            "fga":      int(row.get("fieldGoalsAttempted",0) or 0),
-            "fg3m":     int(row.get("threePointersMade",0) or 0),
-            "fg3a":     int(row.get("threePointersAttempted",0) or 0),
-            "ftm":      int(row.get("freeThrowsMade",0) or 0),
-            "fta":      int(row.get("freeThrowsAttempted",0) or 0),
-            "plus_minus": int(row.get("plusMinusPoints",0) or 0),
-            "starter":  row.get("comment","") == "",
+            "name":           short_name(player),
+            "minutes":        mins,
+            "pos":            lineup_pos.get(pid, player.get("position","")) if is_s else "",
+            "starter":        is_s,
+            "pts":            p.get("pts", 0),
+            "reb":            p.get("reb", 0),
+            "oreb":           p.get("oreb", 0),
+            "ast":            p.get("ast", 0),
+            "stl":            p.get("stl", 0),
+            "blk":            p.get("blk", 0),
+            "tov":            p.get("turnover", 0),
+            "fgm":            p.get("fgm", 0),
+            "fga":            p.get("fga", 0),
+            "fg3m":           p.get("fg3m", 0),
+            "fg3a":           p.get("fg3a", 0),
+            "ftm":            p.get("ftm", 0),
+            "fta":            p.get("fta", 0),
+            "pf":             p.get("pf", 0),
+            "plus_minus":     p.get("plus_minus") or 0,
+            "off_rating":     adv.get("offensive_rating"),
+            "def_rating":     adv.get("defensive_rating"),
+            "ts_pct":         adv.get("true_shooting_percentage"),
+            "deflections":    adv.get("deflections"),
+            "charges_drawn":  adv.get("charges_drawn"),
+            "contested_shots":adv.get("contested_shots"),
         })
     return players
 
-box_home, box_away = [], []
-if trad_dfs:
-    players_df = trad_dfs[0]
-    box_home = parse_players(players_df[players_df["teamTricode"] == home_abbr])
-    box_away = parse_players(players_df[players_df["teamTricode"] == away_abbr])
 
-minutes_played = {}
-for p in box_home + box_away:
-    try:
-        parts = p["minutes"].split(":")
-        mins = int(parts[0]) + int(parts[1])/60
-        minutes_played[p["id"]] = mins
-    except:
-        minutes_played[p["id"]] = 0
-
-# ── 3. Four Factors ──────────────────────────────────────────────────────────
-print("Coletando four factors...")
-ff_dfs = nba_get(BoxScoreFourFactorsV3)
-
-ff_home, ff_away = {}, {}
-if ff_dfs:
-    for _, row in ff_dfs[1].iterrows():
-        data = {
-            "efg":      round((row.get("effectiveFieldGoalPercentage",0) or 0)*100, 1),
-            "ftr":      round(row.get("freeThrowAttemptRate",0) or 0, 3),
-            "tov":      round((row.get("teamTurnoverPercentage",0) or 0)*100, 1),
-            "oreb":     round((row.get("offensiveReboundPercentage",0) or 0)*100, 1),
-            "opp_efg":  round((row.get("oppEffectiveFieldGoalPercentage",0) or 0)*100, 1),
-            "opp_ftr":  round(row.get("oppFreeThrowAttemptRate",0) or 0, 3),
-            "opp_tov":  round((row.get("oppTeamTurnoverPercentage",0) or 0)*100, 1),
-            "opp_oreb": round((row.get("oppOffensiveReboundPercentage",0) or 0)*100, 1),
-        }
-        if row["teamTricode"] == home_abbr:
-            ff_home = data
-        else:
-            ff_away = data
-
-# ── 4. Misc stats ────────────────────────────────────────────────────────────
-print("Coletando misc stats...")
-misc_dfs = nba_get(BoxScoreMiscV3)
-
-misc_home, misc_away = {}, {}
-if misc_dfs and len(misc_dfs) >= 2:
-    for _, row in misc_dfs[1].iterrows():
-        data = {
-            "pts_fb":         int(row.get("pointsFastBreak", 0) or 0),
-            "pts_paint":      int(row.get("pointsPaint", 0) or 0),
-            "pts_2nd_chance": int(row.get("pointsSecondChance", 0) or 0),
-            "blocks":         int(row.get("blocks", 0) or 0),
-        }
-        if row["teamTricode"] == home_abbr:
-            misc_home = data
-        else:
-            misc_away = data
-
-# ── 5. Hustle stats ──────────────────────────────────────────────────────────
-print("Coletando hustle stats...")
-hustle_dfs = nba_get(BoxScoreHustleV2)
-
-hustle_home, hustle_away = {}, {}
-if hustle_dfs:
-    for i, df in enumerate(hustle_dfs):
-        if "teamTricode" in df.columns and "personId" not in df.columns and len(df) <= 3:
-            for _, row in df.iterrows():
-                data = {
-                    "deflections":     int(row.get("deflections", 0) or 0),
-                    "contested_shots": int(row.get("contestedShots", 0) or 0),
-                    "contested_2pt":   int(row.get("contestedShots2pt", 0) or 0),
-                    "contested_3pt":   int(row.get("contestedShots3pt", 0) or 0),
-                    "charges_drawn":   int(row.get("chargesDrawn", 0) or 0),
-                }
-                if row["teamTricode"] == home_abbr:
-                    hustle_home = data
-                else:
-                    hustle_away = data
-            break
-
-# ── 6. Play by play ──────────────────────────────────────────────────────────
-print("Coletando play by play...")
-pbp_dfs = nba_get(PlayByPlayV3)
-
-score_timeline = []
-shots = []
-quarter_scores_home = {}
-quarter_scores_away = {}
-lead_changes = 0
-ties = 0
-prev_diff = None
-home_lead_min = 0.0
-away_lead_min = 0.0
-tied_min = 0.0
-prev_abs_min = 0.0
-prev_period = 0
-
-# Runs em janela de 5 min
-best_run_home = {"pts_home": 0, "pts_away": 0, "start_min": 0, "end_min": 0}
-best_run_away = {"pts_home": 0, "pts_away": 0, "start_min": 0, "end_min": 0}
-
-# Sequência sem resposta
-consec_home = 0
-consec_away = 0
-max_consec_home = 0
-max_consec_away = 0
-
-# Zonas de arremesso
-ZONE_KEYS = ["at_rim","paint","mid","corner_3","arc_3"]
-shot_zones = {abbr: {k: {"fgm":0,"fga":0} for k in ZONE_KEYS} for abbr in [home_abbr, away_abbr]}
-
-def classify_zone(x, y, value):
-    dist = (x**2 + y**2) ** 0.5
-    if abs(x) >= 220 and y <= 90:
-        return "corner_3"
-    elif value == 3 or dist >= 237:
-        return "arc_3"
-    elif dist <= 40:
-        return "at_rim"
-    elif abs(x) <= 80 and y <= 190:
-        return "paint"
-    else:
-        return "mid"
-
-max_period = 4
-if pbp_dfs:
-    pbp = pbp_dfs[0]
-    last_home, last_away = 0, 0
-
-    for _, row in pbp.iterrows():
-        period = int(row.get("period", 0) or 0)
-        clock  = str(row.get("clock","PT0M0.00S"))
-
-        try:
-            clock_str = clock.replace("PT","").replace("S","")
-            parts = clock_str.split("M")
-            mins_left = float(parts[0])
-            secs_left = float(parts[1]) if len(parts)>1 else 0
-            period_elapsed = 12 - mins_left - secs_left/60
-            if period <= 4:
-                abs_min = (period-1)*12 + period_elapsed
-            else:
-                abs_min = 48 + (period-5)*5 + (5 - mins_left - secs_left/60)
-        except:
-            abs_min = prev_abs_min
-
-        if period != prev_period and prev_period > 0:
-            quarter_scores_home[prev_period] = last_home - sum(quarter_scores_home.get(q,0) for q in range(1,prev_period))
-            quarter_scores_away[prev_period] = last_away - sum(quarter_scores_away.get(q,0) for q in range(1,prev_period))
-
-        sh = str(row.get("scoreHome","") or "")
-        sa = str(row.get("scoreAway","") or "")
-        scored = False
-        prev_home = last_home
-        prev_away = last_away
-
-        if sh.isdigit():
-            last_home = int(sh)
-            scored = True
-        if sa.isdigit():
-            last_away = int(sa)
-            scored = True
-
-        if scored:
-            # Sequência sem resposta
-            home_scored_now = last_home > prev_home
-            away_scored_now = last_away > prev_away
-            if home_scored_now and not away_scored_now:
-                consec_home += last_home - prev_home
-                consec_away = 0
-                max_consec_home = max(max_consec_home, consec_home)
-            elif away_scored_now and not home_scored_now:
-                consec_away += last_away - prev_away
-                consec_home = 0
-                max_consec_away = max(max_consec_away, consec_away)
-            else:
-                consec_home = 0
-                consec_away = 0
-
-            # Liderança
-            dt = abs_min - prev_abs_min
-            if prev_diff is not None:
-                if prev_diff > 0: home_lead_min += dt
-                elif prev_diff < 0: away_lead_min += dt
-                else: tied_min += dt
-            diff = last_home - last_away
-            if prev_diff is not None:
-                if (prev_diff > 0 and diff < 0) or (prev_diff < 0 and diff > 0):
-                    lead_changes += 1
-                if diff == 0 and prev_diff != 0:
-                    ties += 1
-            prev_diff = diff
-            prev_abs_min = abs_min
-
-            score_timeline.append({
-                "min": round(abs_min, 2),
-                "home": last_home,
-                "away": last_away,
-                "period": period,
-            })
-
-        # Arremessos
-        is_shot = int(row.get("isFieldGoal", 0) or 0)
-        if is_shot:
-            x = int(row.get("xLegacy", 0) or 0)
-            y = int(row.get("yLegacy", 0) or 0)
-            made = str(row.get("shotResult","")) == "Made"
-            value = int(row.get("shotValue", 2) or 2)
-            team = str(row.get("teamTricode",""))
-            zone = ""
-            if x or y:
-                zone = classify_zone(x, y, value)
-                if team in shot_zones:
-                    shot_zones[team][zone]["fga"] += 1
-                    if made:
-                        shot_zones[team][zone]["fgm"] += 1
-            shots.append({
-                "team": team, "player": str(row.get("playerNameI","")),
-                "x": x, "y": y, "made": made, "value": value,
-                "period": period, "desc": str(row.get("description","")), "zone": zone,
-            })
-
-        prev_period = period
-
-    if prev_period > 0:
-        quarter_scores_home[prev_period] = last_home - sum(quarter_scores_home.get(q,0) for q in range(1,prev_period))
-        quarter_scores_away[prev_period] = last_away - sum(quarter_scores_away.get(q,0) for q in range(1,prev_period))
-
-    remaining = (48 if prev_period <= 4 else 48+(prev_period-4)*5) - prev_abs_min
-    if prev_diff is not None and remaining > 0:
-        if prev_diff > 0: home_lead_min += remaining
-        elif prev_diff < 0: away_lead_min += remaining
-        else: tied_min += remaining
-
-# Zonas pct
-for abbr in shot_zones:
-    for z in ZONE_KEYS:
-        fgm = shot_zones[abbr][z]["fgm"]
-        fga = shot_zones[abbr][z]["fga"]
-        shot_zones[abbr][z]["pct"] = round(fgm/fga*100, 1) if fga > 0 else 0
-
-# Maior run em janela de 5 minutos
-WINDOW = 5.0
-for i, ev in enumerate(score_timeline):
-    window_start = ev["min"] - WINDOW
-    start_home, start_away = 0, 0
-    for j in range(i-1, -1, -1):
-        if score_timeline[j]["min"] <= window_start:
-            start_home = score_timeline[j]["home"]
-            start_away = score_timeline[j]["away"]
-            break
-    pts_home = ev["home"] - start_home
-    pts_away = ev["away"] - start_away
-    if pts_home - pts_away > best_run_home["pts_home"] - best_run_home["pts_away"]:
-        best_run_home = {"pts_home": pts_home, "pts_away": pts_away,
-                         "start_min": round(max(0, window_start), 1), "end_min": round(ev["min"], 1)}
-    if pts_away - pts_home > best_run_away["pts_away"] - best_run_away["pts_home"]:
-        best_run_away = {"pts_home": pts_home, "pts_away": pts_away,
-                         "start_min": round(max(0, window_start), 1), "end_min": round(ev["min"], 1)}
-
-def fmt_min(m):
-    total_secs = int(round(m * 60))
-    return f"{total_secs//60}:{total_secs%60:02d}"
-
-def min_to_clock(m):
-    if m < 0: m = 0
-    q = min(4, int(m // 12) + 1)
-    elapsed = m - (q-1)*12
-    remaining = 12 - elapsed
-    mins = int(remaining)
-    secs = int(round((remaining - mins) * 60))
-    return f"{mins}:{secs:02d} {q}Q"
-
-gmax_period = max(quarter_scores_home.keys()) if quarter_scores_home else 4
-game_flow = {
-    "quarter_scores": {
-        home_abbr: [quarter_scores_home.get(q,0) for q in range(1, gmax_period+1)],
-        away_abbr: [quarter_scores_away.get(q,0) for q in range(1, gmax_period+1)],
-    },
-    "num_periods": gmax_period,
-    "lead_changes": lead_changes,
-    "ties": ties,
-    "time_leading_home_fmt": fmt_min(home_lead_min),
-    "time_leading_away_fmt": fmt_min(away_lead_min),
-    "time_tied_fmt": fmt_min(tied_min),
-    "best_run_home": best_run_home,
-    "best_run_away": best_run_away,
-    "max_consec_home": max_consec_home,
-    "max_consec_away": max_consec_away,
-}
-
-print(f"  Liderança: {home_abbr} {fmt_min(home_lead_min)} · {away_abbr} {fmt_min(away_lead_min)}")
-print(f"  Trocas: {lead_changes} · Empates: {ties}")
-print(f"  Run {home_abbr}: {best_run_home['pts_home']}-{best_run_home['pts_away']} ({min_to_clock(best_run_home['start_min'])} a {min_to_clock(best_run_home['end_min'])})")
-print(f"  Run {away_abbr}: {best_run_away['pts_away']}-{best_run_away['pts_home']} ({min_to_clock(best_run_away['start_min'])} a {min_to_clock(best_run_away['end_min'])})")
-print(f"  Sequência sem resposta: {home_abbr} {max_consec_home} · {away_abbr} {max_consec_away}")
-
-# ── 7. Matchups ──────────────────────────────────────────────────────────────
-print("Coletando matchups...")
-mu_dfs = nba_get(BoxScoreMatchupsV3)
-
-matchups = []
-if mu_dfs:
-    for _, row in mu_dfs[0].iterrows():
-        fga = int(row.get("matchupFieldGoalsAttempted",0) or 0)
-        off_id = str(row.get("personIdOff",""))
-        if fga < 3: continue
-        if minutes_played.get(off_id, 0) < 20: continue
-        matchups.append({
-            "off_id":   off_id,
-            "off_name": str(row.get("nameIOff","")),
-            "off_team": str(row.get("teamTricode","")),
-            "def_id":   str(row.get("personIdDef","")),
-            "def_name": str(row.get("nameIDef","")),
-            "minutes":  str(row.get("matchupMinutes","")),
-            "fgm":      int(row.get("matchupFieldGoalsMade",0) or 0),
-            "fga":      fga,
-            "fg_pct":   round((row.get("matchupFieldGoalsPercentage",0) or 0)*100, 1),
-            "fg3m":     int(row.get("matchupThreePointersMade",0) or 0),
-            "fg3a":     int(row.get("matchupThreePointersAttempted",0) or 0),
-            "pts":      int(row.get("playerPoints",0) or 0),
-            "partial_poss": round(row.get("partialPossessions",0) or 0, 1),
+def build_players_from_stats(stats_list, team_a, starter_ids, lineup_pos, adv_by_pid):
+    players = []
+    for s in stats_list:
+        player = s.get("player", {})
+        pid    = player.get("id")
+        mins   = s.get("min", "") or ""
+        if not mins or mins in ("0", "0:00"):
+            continue
+        adv = adv_by_pid.get(pid, {})
+        is_s = pid in starter_ids
+        players.append({
+            "name":           short_name(player),
+            "minutes":        mins,
+            "pos":            lineup_pos.get(pid, player.get("position","")) if is_s else "",
+            "starter":        is_s,
+            "pts":            s.get("pts", 0),
+            "reb":            s.get("reb", 0),
+            "oreb":           s.get("oreb", 0),
+            "ast":            s.get("ast", 0),
+            "stl":            s.get("stl", 0),
+            "blk":            s.get("blk", 0),
+            "tov":            s.get("turnover", 0),
+            "fgm":            s.get("fgm", 0),
+            "fga":            s.get("fga", 0),
+            "fg3m":           s.get("fg3m", 0),
+            "fg3a":           s.get("fg3a", 0),
+            "ftm":            s.get("ftm", 0),
+            "fta":            s.get("fta", 0),
+            "pf":             s.get("pf", 0),
+            "plus_minus":     s.get("plus_minus") or 0,
+            "off_rating":     adv.get("offensive_rating"),
+            "def_rating":     adv.get("defensive_rating"),
+            "ts_pct":         adv.get("true_shooting_percentage"),
+            "deflections":    adv.get("deflections"),
+            "charges_drawn":  adv.get("charges_drawn"),
+            "contested_shots":adv.get("contested_shots"),
         })
+    return players
 
-matchups.sort(key=lambda x: x["fga"], reverse=True)
+# ─── coleta ───────────────────────────────────────────────────────────────────
 
-# ── 8. Output ─────────────────────────────────────────────────────────────────
-# Fallback: se pts vieram zerados do line_score, soma pelo box score
-if home_pts == 0 and away_pts == 0 and (box_home or box_away):
-    home_pts = sum(p.get("pts", 0) for p in box_home)
-    away_pts = sum(p.get("pts", 0) for p in box_away)
+arg = sys.argv[1] if len(sys.argv) > 1 else None
+if not arg:
+    print("Uso: python3 coletar_jogo.py <YYYY-MM-DD ou bdl_game_id>")
+    sys.exit(1)
+
+# 1. Jogo
+if re.match(r"^\d{4}-\d{2}-\d{2}$", arg):
+    print(f"Buscando jogo de playoffs em {arg}...")
+    raw = get(f"{BASE_V1}/games", {"dates[]": arg, "postseason": "true"})
+    games_list = raw.get("data", [])
+    if not games_list:
+        raw = get(f"{BASE_V1}/games", {"dates[]": arg})
+        games_list = raw.get("data", [])
+    if not games_list:
+        print(f"Nenhum jogo encontrado em {arg}.")
+        sys.exit(1)
+    if len(games_list) == 1:
+        game_data = games_list[0]
+    else:
+        print("Mais de um jogo encontrado:")
+        for i, g in enumerate(games_list):
+            print(f"  [{i}] ID {g['id']} — {g['visitor_team']['abbreviation']} @ {g['home_team']['abbreviation']}")
+        idx = int(input("Escolha o número: "))
+        game_data = games_list[idx]
+else:
+    print(f"Buscando jogo BDL #{arg}...")
+    game_data = get(f"{BASE_V1}/games/{arg}").get("data", {})
+
+game_id   = game_data["id"]
+home_abbr = abbr(game_data["home_team"])
+away_abbr = abbr(game_data["visitor_team"])
+home_pts  = game_data.get("home_team_score", 0) or 0
+away_pts  = game_data.get("visitor_team_score", 0) or 0
+game_date = game_data.get("date", str(dt_date.today()))
+print(f"  {away_abbr} {away_pts} @ {home_abbr} {home_pts} · {game_date}")
+
+# 2. Box score
+print("Coletando box score...")
+bs_raw = get(f"{BASE_V1}/box_scores", {"date": game_date}).get("data", [])
+box_score_raw = None
+for bs in bs_raw:
+    ht = abbr(bs.get("home_team", {}).get("team", {}))
+    if ht == home_abbr:
+        box_score_raw = bs
+        break
+
+# 3. Lineups
+print("Coletando lineups...")
+lineups_raw = all_pages(f"{BASE_V1}/lineups", {"game_ids[]": game_id})
+starter_ids = {lu["player"]["id"] for lu in lineups_raw if lu.get("starter")}
+lineup_pos  = {lu["player"]["id"]: lu.get("position", "") for lu in lineups_raw}
+
+# 4. Advanced stats V2
+print("Coletando advanced stats...")
+adv_raw    = all_pages(f"{BASE_V2}/stats/advanced", {"game_ids[]": game_id})
+adv_by_pid = {a["player"]["id"]: a for a in adv_raw}
+
+# 5. Play-by-play
+print("Coletando play-by-play...")
+plays_raw = get(f"{BASE_V1}/plays", {"game_id": game_id}).get("data", [])
+print(f"  {len(plays_raw)} eventos")
+
+# 6. Box score → dict por time
+box_score = {}
+if box_score_raw:
+    box_score[home_abbr] = build_players_from_box(box_score_raw.get("home_team",{}), starter_ids, lineup_pos, adv_by_pid)
+    box_score[away_abbr] = build_players_from_box(box_score_raw.get("visitor_team",{}), starter_ids, lineup_pos, adv_by_pid)
+else:
+    print("  Box score via /stats endpoint...")
+    stats_raw = all_pages(f"{BASE_V1}/stats", {"game_ids[]": game_id})
+    for team_a in [home_abbr, away_abbr]:
+        team_stats = [s for s in stats_raw if abbr(s.get("team",{})) == team_a]
+        box_score[team_a] = build_players_from_stats(team_stats, team_a, starter_ids, lineup_pos, adv_by_pid)
+
+# Corrige pts zerados
+if home_pts == 0 and away_pts == 0:
+    home_pts = sum(p.get("pts",0) for p in box_score.get(home_abbr,[]))
+    away_pts = sum(p.get("pts",0) for p in box_score.get(away_abbr,[]))
     print(f"  pts corrigidos pelo box score: {away_abbr} {away_pts} @ {home_abbr} {home_pts}")
+
+# 7. Quartos
+quarter_scores, num_periods = quarter_scores_from_game(game_data, home_abbr, away_abbr)
+
+# 8. Dinâmica
+dynamics = compute_game_flow(plays_raw, home_abbr, away_abbr)
+
+# 9. Timeline
+score_timeline = [
+    {
+        "min":     clock_to_min(p.get("clock","0:00"), p.get("period",1)),
+        "home":    p.get("home_score", 0),
+        "away":    p.get("away_score", 0),
+        "period":  p.get("period", 1),
+        "scoring": p.get("scoring_play", False),
+        "text":    p.get("text", ""),
+    }
+    for p in plays_raw
+]
+
+# 10. Shot zones
+shot_zones = build_shot_zones(plays_raw, home_abbr, away_abbr)
+
+# 11. Arremessos individuais
+shots = [
+    {
+        "x":    p.get("coordinate_x"),
+        "y":    p.get("coordinate_y"),
+        "made": p.get("scoring_play", False),
+        "type": p.get("type", ""),
+        "team": abbr(p.get("team",{})),
+        "text": p.get("text", ""),
+    }
+    for p in plays_raw
+    if p.get("shooting_play") and p.get("coordinate_x") is not None
+]
+
+# 12. Four factors, misc, hustle por time
+ff, misc, hustle = {}, {}, {}
+for t in [home_abbr, away_abbr]:
+    ta    = [a for a in adv_raw if abbr(a.get("team",{})) == t]
+    first = ta[0] if ta else {}
+    ff[t] = {
+        "efg_pct":      first.get("four_factors_efg_pct"),
+        "tov_pct":      first.get("team_turnover_pct"),
+        "oreb_pct":     first.get("four_factors_oreb_pct"),
+        "ftr":          first.get("free_throw_attempt_rate"),
+        "opp_efg_pct":  first.get("opp_efg_pct"),
+        "opp_tov_pct":  first.get("opp_turnover_pct"),
+        "opp_oreb_pct": first.get("opp_oreb_pct"),
+        "opp_ftr":      first.get("opp_free_throw_attempt_rate"),
+    }
+    misc[t] = {
+        "pts_paint":      agg(ta, "points_paint"),
+        "pts_2nd_chance": agg(ta, "points_second_chance"),
+        "pts_fastbreak":  agg(ta, "points_fast_break"),
+        "pts_off_tov":    agg(ta, "points_off_turnovers"),
+    }
+    hustle[t] = {
+        "deflections":           agg(ta, "deflections"),
+        "charges_drawn":         agg(ta, "charges_drawn"),
+        "contested_shots":       agg(ta, "contested_shots"),
+        "loose_balls_recovered": agg(ta, "loose_balls_recovered_total"),
+        "screen_assists":        agg(ta, "screen_assists"),
+    }
+
+# 13. Salva
 output = {
-    "game_id":   GAME_ID,
-    "date":      game_date,
-    "home":      home_abbr,
-    "away":      away_abbr,
-    "home_pts":  home_pts,
-    "away_pts":  away_pts,
-    "winner":    home_abbr if home_pts > away_pts else away_abbr,
-    "game_flow": game_flow,
-    "four_factors": {home_abbr: ff_home, away_abbr: ff_away},
-    "misc":      {home_abbr: misc_home, away_abbr: misc_away},
-    "hustle":    {home_abbr: hustle_home, away_abbr: hustle_away},
-    "box_score": {home_abbr: box_home, away_abbr: box_away},
+    "game_id":       str(game_id),
+    "date":          game_date,
+    "home":          home_abbr,
+    "away":          away_abbr,
+    "home_pts":      home_pts,
+    "away_pts":      away_pts,
+    "winner":        home_abbr if home_pts > away_pts else away_abbr,
+    "source":        "balldontlie",
+    "game_flow": {
+        "quarter_scores": quarter_scores,
+        "num_periods":    num_periods,
+        **dynamics,
+    },
+    "four_factors":   ff,
+    "misc":           misc,
+    "hustle":         hustle,
+    "box_score":      box_score,
     "score_timeline": score_timeline,
-    "shots":     shots,
-    "shot_zones": shot_zones,
-    "matchups":  matchups,
-    "collected": str(date.today()),
+    "shots":          shots,
+    "shot_zones":     shot_zones,
+    "matchups":       [],
+    "collected":      str(dt_date.today()),
 }
 
-filename = f"jogo_{GAME_ID}.json"
+filename = f"jogo_{game_id}.json"
 with open(filename, "w") as f:
     json.dump(output, f, indent=2)
 
 print(f"\nFeito! {filename} criado.")
-print(f"  Box score: {len(box_home)} {home_abbr} · {len(box_away)} {away_abbr}")
+print(f"  Box score: {len(box_score.get(home_abbr,[]))} {home_abbr} · {len(box_score.get(away_abbr,[]))} {away_abbr}")
 print(f"  Timeline: {len(score_timeline)} eventos · Arremessos: {len(shots)}")
-print(f"  Matchups filtrados: {len(matchups)}")
+print(f"  Períodos: {num_periods}")
