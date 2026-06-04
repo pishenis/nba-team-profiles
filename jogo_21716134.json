@@ -23,56 +23,60 @@
       ]
     },
     "num_periods": 4,
-    "time_leading": {
-      "SAS": "0:00",
-      "NYK": "19:30"
-    },
-    "time_tied": "37:38",
+    "time_leading_home_fmt": "26:52",
+    "time_leading_away_fmt": "19:30",
+    "time_tied_fmt": "1:38",
     "lead_changes": 7,
-    "score_ties": 6,
-    "biggest_run": {
-      "team": "SAS",
-      "run": "79-72",
-      "start": "6:07 1Q",
-      "end": "7:38 4Q",
-      "SAS": "79-72",
-      "NYK": "54-30"
-    }
+    "ties": 6,
+    "best_run_home": {
+      "pts_home": 79,
+      "pts_away": 72,
+      "start_min": 5.88,
+      "end_min": 40.37
+    },
+    "best_run_away": {
+      "pts_away": 54,
+      "pts_home": 30,
+      "start_min": 29.83,
+      "end_min": 48.0
+    },
+    "max_consec_home": 79,
+    "max_consec_away": 54
   },
   "four_factors": {
     "SAS": {
-      "efg_pct": 0.371,
-      "tov_pct": 0.108,
-      "oreb_pct": 0.082,
+      "efg": 0.371,
+      "tov": 0.108,
+      "oreb": 0.082,
       "ftr": 0.257,
-      "opp_efg_pct": 0.464,
-      "opp_tov_pct": 0.09,
-      "opp_oreb_pct": 0.189,
+      "opp_efg": 0.464,
+      "opp_tov": 0.09,
+      "opp_oreb": 0.189,
       "opp_ftr": 0.243
     },
     "NYK": {
-      "efg_pct": 0.49,
-      "tov_pct": 0.055,
-      "oreb_pct": 0.071,
+      "efg": 0.49,
+      "tov": 0.055,
+      "oreb": 0.071,
       "ftr": 0.32,
-      "opp_efg_pct": 0.306,
-      "opp_tov_pct": 0.179,
-      "opp_oreb_pct": 0.29,
+      "opp_efg": 0.306,
+      "opp_tov": 0.179,
+      "opp_oreb": 0.29,
       "opp_ftr": 0.265
     }
   },
   "misc": {
     "SAS": {
-      "pts_paint": 84,
-      "pts_2nd_chance": 28,
-      "pts_fastbreak": 30,
-      "pts_off_tov": 28
+      "pts_paint": 42,
+      "pts_fb": 15,
+      "pts_2nd_chance": 14,
+      "pts_off_tov": 14
     },
     "NYK": {
-      "pts_paint": 100,
-      "pts_2nd_chance": 46,
-      "pts_fastbreak": 24,
-      "pts_off_tov": 38
+      "pts_paint": 50,
+      "pts_fb": 12,
+      "pts_2nd_chance": 23,
+      "pts_off_tov": 19
     }
   },
   "hustle": {
@@ -113,12 +117,12 @@
         "fta": 0,
         "pf": 1,
         "plus_minus": -13,
-        "off_rating": 75,
-        "def_rating": 145,
-        "ts_pct": 0.25,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 87,
+        "def_rating": 102.6,
+        "ts_pct": 0.409,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 6
       },
       {
         "name": "J. Champagnie",
@@ -140,12 +144,12 @@
         "fta": 2,
         "pf": 2,
         "plus_minus": -8,
-        "off_rating": 60,
-        "def_rating": 118.8,
-        "ts_pct": 0.174,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 96.9,
+        "def_rating": 106,
+        "ts_pct": 0.673,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 7
       },
       {
         "name": "V. Wembanyama",
@@ -167,12 +171,12 @@
         "fta": 13,
         "pf": 2,
         "plus_minus": -3,
-        "off_rating": 90.5,
-        "def_rating": 113.6,
-        "ts_pct": 0.539,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 93.5,
+        "def_rating": 96.2,
+        "ts_pct": 0.487,
+        "deflections": 5,
+        "charges_drawn": 0,
+        "contested_shots": 17
       },
       {
         "name": "S. Castle",
@@ -194,12 +198,12 @@
         "fta": 2,
         "pf": 3,
         "plus_minus": -9,
-        "off_rating": 90.5,
-        "def_rating": 122.7,
-        "ts_pct": 0.625,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 89.9,
+        "def_rating": 97.3,
+        "ts_pct": 0.504,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 6
       },
       {
         "name": "D. Fox",
@@ -221,12 +225,12 @@
         "fta": 2,
         "pf": 5,
         "plus_minus": 0,
-        "off_rating": 95,
-        "def_rating": 109.5,
-        "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 103.8,
+        "def_rating": 102.5,
+        "ts_pct": 0.252,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 5
       },
       {
         "name": "H. Barnes",
@@ -248,12 +252,12 @@
         "fta": 1,
         "pf": 1,
         "plus_minus": -2,
-        "off_rating": 142.9,
-        "def_rating": 125,
+        "off_rating": 96,
+        "def_rating": 100,
         "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1
       },
       {
         "name": "B. Biyombo",
@@ -305,9 +309,9 @@
         "off_rating": 88.9,
         "def_rating": 133.3,
         "ts_pct": 0.266,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2
       },
       {
         "name": "D. Harper",
@@ -329,12 +333,12 @@
         "fta": 3,
         "pf": 2,
         "plus_minus": -5,
-        "off_rating": 57.1,
-        "def_rating": 114.3,
-        "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 93.3,
+        "def_rating": 101.7,
+        "ts_pct": 0.707,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 0
       },
       {
         "name": "K. Johnson",
@@ -356,12 +360,12 @@
         "fta": 0,
         "pf": 3,
         "plus_minus": 1,
-        "off_rating": 57.1,
-        "def_rating": 166.7,
-        "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 100,
+        "def_rating": 94.7,
+        "ts_pct": 0.375,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2
       },
       {
         "name": "L. Kornet",
@@ -383,12 +387,12 @@
         "fta": 0,
         "pf": 3,
         "plus_minus": -7,
-        "off_rating": 0,
-        "def_rating": 200,
+        "off_rating": 95.8,
+        "def_rating": 120,
         "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 2
       },
       {
         "name": "J. McLaughlin",
@@ -520,12 +524,12 @@
         "fta": 1,
         "pf": 4,
         "plus_minus": 22,
-        "off_rating": 118.8,
-        "def_rating": 60,
-        "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 114.5,
+        "def_rating": 74.5,
+        "ts_pct": 0.276,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 2
       },
       {
         "name": "O. Anunoby",
@@ -547,12 +551,12 @@
         "fta": 4,
         "pf": 0,
         "plus_minus": -6,
-        "off_rating": 116.7,
-        "def_rating": 100,
-        "ts_pct": 0.773,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 86.6,
+        "def_rating": 101.6,
+        "ts_pct": 0.618,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 5
       },
       {
         "name": "K. Towns",
@@ -574,12 +578,12 @@
         "fta": 4,
         "pf": 4,
         "plus_minus": 14,
-        "off_rating": 123.5,
-        "def_rating": 114.3,
-        "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 102.8,
+        "def_rating": 88.2,
+        "ts_pct": 0.537,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 11
       },
       {
         "name": "M. Bridges",
@@ -601,12 +605,12 @@
         "fta": 4,
         "pf": 3,
         "plus_minus": 11,
-        "off_rating": 146.2,
-        "def_rating": 27.3,
-        "ts_pct": 0.532,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 100,
+        "def_rating": 86.2,
+        "ts_pct": 0.58,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 5
       },
       {
         "name": "J. Brunson",
@@ -628,12 +632,12 @@
         "fta": 4,
         "pf": 2,
         "plus_minus": 6,
-        "off_rating": 118.8,
-        "def_rating": 60,
-        "ts_pct": 0.658,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 101.3,
+        "def_rating": 94.9,
+        "ts_pct": 0.458,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4
       },
       {
         "name": "J. Alvarado",
@@ -655,12 +659,12 @@
         "fta": 0,
         "pf": 3,
         "plus_minus": 4,
-        "off_rating": 125,
-        "def_rating": 142.9,
-        "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 104.3,
+        "def_rating": 100,
+        "ts_pct": 0.583,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 0
       },
       {
         "name": "J. Clarkson",
@@ -685,9 +689,9 @@
         "off_rating": 136.4,
         "def_rating": 108.3,
         "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1
       },
       {
         "name": "P. Dadiet",
@@ -817,12 +821,12 @@
         "fta": 0,
         "pf": 1,
         "plus_minus": 11,
-        "off_rating": 155.6,
-        "def_rating": 125,
-        "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 122,
+        "def_rating": 97.5,
+        "ts_pct": 0.429,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3
       },
       {
         "name": "M. Robinson",
@@ -844,12 +848,12 @@
         "fta": 1,
         "pf": 1,
         "plus_minus": -4,
-        "off_rating": 114.3,
-        "def_rating": 50,
-        "ts_pct": 0,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 103.3,
+        "def_rating": 116.7,
+        "ts_pct": 0.41,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2
       },
       {
         "name": "L. Shamet",
@@ -871,12 +875,12 @@
         "fta": 0,
         "pf": 4,
         "plus_minus": -10,
-        "off_rating": 82.4,
-        "def_rating": 105.6,
-        "ts_pct": 0.5,
-        "deflections": null,
-        "charges_drawn": null,
-        "contested_shots": null
+        "off_rating": 95.8,
+        "def_rating": 108.3,
+        "ts_pct": 0.722,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 9
       },
       {
         "name": "J. Sochan",
@@ -1805,7 +1809,7 @@
       "text": "Mikal Bridges makes tip shot"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -1813,7 +1817,7 @@
       "text": "Victor Wembanyama misses 11-foot two point shot"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -1821,7 +1825,7 @@
       "text": "Jose Alvarado defensive rebound"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -1829,7 +1833,7 @@
       "text": "Julian Champagnie personal foul"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -1837,7 +1841,7 @@
       "text": "Stephon Castle enters the game for Harrison Barnes"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -1845,7 +1849,7 @@
       "text": "Jose Alvarado misses 26-foot three point step back jumpshot"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -1853,7 +1857,7 @@
       "text": "Julian Champagnie defensive rebound"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -1861,7 +1865,7 @@
       "text": "Stephon Castle misses 11-foot turnaround jump shot"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -1869,7 +1873,7 @@
       "text": "Karl-Anthony Towns defensive rebound"
     },
     {
-      "min": 0.0,
+      "min": 12.0,
       "home": 27,
       "away": 19,
       "period": 1,
@@ -2797,7 +2801,7 @@
       "text": "Jalen Brunson enters the game for Jose Alvarado"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 50,
       "away": 46,
       "period": 2,
@@ -2805,7 +2809,7 @@
       "text": "Jalen Brunson misses 26-foot three point step back jumpshot"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 50,
       "away": 46,
       "period": 2,
@@ -2813,7 +2817,7 @@
       "text": "Knicks offensive team rebound"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 50,
       "away": 46,
       "period": 2,
@@ -2821,7 +2825,7 @@
       "text": "Stephon Castle loose ball foul"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 50,
       "away": 47,
       "period": 2,
@@ -2829,7 +2833,7 @@
       "text": "Karl-Anthony Towns makes free throw 1 of 2"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 50,
       "away": 48,
       "period": 2,
@@ -2837,7 +2841,7 @@
       "text": "Karl-Anthony Towns makes free throw 2 of 2"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 50,
       "away": 48,
       "period": 2,
@@ -2845,7 +2849,7 @@
       "text": "Stephon Castle misses 13-foot step back jumpshot"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 50,
       "away": 48,
       "period": 2,
@@ -2853,7 +2857,7 @@
       "text": "Karl-Anthony Towns defensive rebound"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 50,
       "away": 48,
       "period": 2,
@@ -2861,7 +2865,7 @@
       "text": "Jalen Brunson lost ball turnover (De'Aaron Fox steals)"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 52,
       "away": 48,
       "period": 2,
@@ -2869,7 +2873,7 @@
       "text": "De'Aaron Fox makes 1-foot running dunk"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 52,
       "away": 48,
       "period": 2,
@@ -2877,7 +2881,7 @@
       "text": "Karl-Anthony Towns misses driving floating jump shot"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 52,
       "away": 48,
       "period": 2,
@@ -2885,7 +2889,7 @@
       "text": "Karl-Anthony Towns offensive rebound"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 52,
       "away": 48,
       "period": 2,
@@ -2893,7 +2897,7 @@
       "text": "Karl-Anthony Towns misses 1-foot tip shot"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 52,
       "away": 48,
       "period": 2,
@@ -2901,7 +2905,7 @@
       "text": "Stephon Castle defensive rebound"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 55,
       "away": 48,
       "period": 2,
@@ -2909,7 +2913,7 @@
       "text": "Julian Champagnie makes 22-foot three point jumper (De'Aaron Fox assists)"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 55,
       "away": 48,
       "period": 2,
@@ -2917,7 +2921,7 @@
       "text": "Victor Wembanyama blocks Mikal Bridges 's 64-foot heave jump shot"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 55,
       "away": 48,
       "period": 2,
@@ -2925,7 +2929,7 @@
       "text": "Knicks offensive team rebound"
     },
     {
-      "min": 0.0,
+      "min": 24.0,
       "home": 55,
       "away": 48,
       "period": 2,
@@ -3845,7 +3849,7 @@
       "text": "Mitchell Robinson defensive rebound"
     },
     {
-      "min": 0.0,
+      "min": 36.0,
       "home": 74,
       "away": 73,
       "period": 3,
@@ -3853,7 +3857,7 @@
       "text": "Jalen Brunson out of bounds bad pass turnover"
     },
     {
-      "min": 0.0,
+      "min": 36.0,
       "home": 76,
       "away": 73,
       "period": 3,
@@ -3861,7 +3865,7 @@
       "text": "Victor Wembanyama makes 1-foot driving dunk (Devin Vassell assists)"
     },
     {
-      "min": 0.0,
+      "min": 36.0,
       "home": 76,
       "away": 76,
       "period": 3,
@@ -3869,7 +3873,7 @@
       "text": "Miles McBride makes 24-foot jump bank shot (Josh Hart assists)"
     },
     {
-      "min": 0.0,
+      "min": 36.0,
       "home": 76,
       "away": 76,
       "period": 3,
@@ -3877,7 +3881,7 @@
       "text": "Spurs offensive team rebound"
     },
     {
-      "min": 0.0,
+      "min": 36.0,
       "home": 76,
       "away": 76,
       "period": 3,
@@ -3885,7 +3889,7 @@
       "text": "Victor Wembanyama misses 26-foot three point pullup jump shot"
     },
     {
-      "min": 0.0,
+      "min": 36.0,
       "home": 76,
       "away": 76,
       "period": 3,
@@ -4805,7 +4809,7 @@
       "text": "Mikal Bridges makes free throw 2 of 2"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 99,
       "period": 4,
@@ -4813,7 +4817,7 @@
       "text": "Victor Wembanyama lost ball turnover (Josh Hart steals)"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 101,
       "period": 4,
@@ -4821,7 +4825,7 @@
       "text": "Jalen Brunson makes 14-foot pullup jump shot"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 101,
       "period": 4,
@@ -4829,7 +4833,7 @@
       "text": "Victor Wembanyama misses 27-foot three point jumper"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 101,
       "period": 4,
@@ -4837,7 +4841,7 @@
       "text": "Knicks defensive team rebound"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 101,
       "period": 4,
@@ -4845,7 +4849,7 @@
       "text": "De'Aaron Fox loose ball foul"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 102,
       "period": 4,
@@ -4853,7 +4857,7 @@
       "text": "OG Anunoby makes free throw 1 of 2"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 102,
       "period": 4,
@@ -4861,7 +4865,7 @@
       "text": "Landry Shamet enters the game for Karl-Anthony Towns"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 103,
       "period": 4,
@@ -4869,7 +4873,7 @@
       "text": "OG Anunoby makes free throw 2 of 2"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 103,
       "period": 4,
@@ -4877,7 +4881,7 @@
       "text": "Spurs Full timeout"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 103,
       "period": 4,
@@ -4885,7 +4889,7 @@
       "text": "(00:21.1) [Knicks] COACH'S CHALLENGE (CALL OVERTURNED) [Knicks] retain their timeout"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 103,
       "period": 4,
@@ -4893,7 +4897,7 @@
       "text": "De'Aaron Fox out of bounds bad pass turnover"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 103,
       "period": 4,
@@ -4901,7 +4905,7 @@
       "text": "Knicks Full timeout"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 103,
       "period": 4,
@@ -4909,7 +4913,7 @@
       "text": "Karl-Anthony Towns enters the game for Landry Shamet"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 103,
       "period": 4,
@@ -4917,7 +4921,7 @@
       "text": "Stephon Castle personal take foul"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 104,
       "period": 4,
@@ -4925,7 +4929,7 @@
       "text": "OG Anunoby makes free throw 1 of 2"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 104,
       "period": 4,
@@ -4933,7 +4937,7 @@
       "text": "Landry Shamet enters the game for Karl-Anthony Towns"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 105,
       "period": 4,
@@ -4941,7 +4945,7 @@
       "text": "OG Anunoby makes free throw 2 of 2"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 105,
       "period": 4,
@@ -4949,7 +4953,7 @@
       "text": "Julian Champagnie misses 25-foot three point jumper"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 105,
       "period": 4,
@@ -4957,7 +4961,7 @@
       "text": "Josh Hart defensive rebound"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 105,
       "period": 4,
@@ -4965,7 +4969,7 @@
       "text": "End of the 4th Quarter"
     },
     {
-      "min": 0.0,
+      "min": 48.0,
       "home": 95,
       "away": 105,
       "period": 4,
@@ -6793,11 +6797,11 @@
   ],
   "shot_zones": {
     "SAS": {
-      "ra": [
+      "at_rim": [
         3,
         4
       ],
-      "paint_non_ra": [
+      "paint": [
         0,
         0
       ],
@@ -6809,17 +6813,17 @@
         0,
         0
       ],
-      "above_3": [
+      "arc_3": [
         0,
         0
       ]
     },
     "NYK": {
-      "ra": [
+      "at_rim": [
         5,
         6
       ],
-      "paint_non_ra": [
+      "paint": [
         0,
         1
       ],
@@ -6831,7 +6835,7 @@
         0,
         0
       ],
-      "above_3": [
+      "arc_3": [
         0,
         0
       ]
