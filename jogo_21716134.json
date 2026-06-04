@@ -29,19 +29,19 @@
     "lead_changes": 7,
     "ties": 6,
     "best_run_home": {
-      "pts_home": 79,
-      "pts_away": 72,
+      "pts_home": 20,
+      "pts_away": 5,
       "start_min": 5.88,
-      "end_min": 40.37
+      "end_min": 10.75
     },
     "best_run_away": {
-      "pts_away": 54,
-      "pts_home": 30,
+      "pts_away": 22,
+      "pts_home": 8,
       "start_min": 29.83,
-      "end_min": 48.0
+      "end_min": 34.38
     },
-    "max_consec_home": 79,
-    "max_consec_away": 54
+    "max_consec_home": 12,
+    "max_consec_away": 11
   },
   "four_factors": {
     "SAS": {
@@ -6797,48 +6797,58 @@
   ],
   "shot_zones": {
     "SAS": {
-      "at_rim": [
-        3,
-        4
-      ],
-      "paint": [
-        0,
-        0
-      ],
-      "mid": [
-        49,
-        110
-      ],
-      "corner_3": [
-        0,
-        0
-      ],
-      "arc_3": [
-        0,
-        0
-      ]
+      "at_rim": {
+        "fgm": 3,
+        "fga": 4,
+        "pct": 75
+      },
+      "paint": {
+        "fgm": 0,
+        "fga": 0,
+        "pct": 0
+      },
+      "mid": {
+        "fgm": 49,
+        "fga": 110,
+        "pct": 45
+      },
+      "corner_3": {
+        "fgm": 0,
+        "fga": 0,
+        "pct": 0
+      },
+      "arc_3": {
+        "fgm": 0,
+        "fga": 0,
+        "pct": 0
+      }
     },
     "NYK": {
-      "at_rim": [
-        5,
-        6
-      ],
-      "paint": [
-        0,
-        1
-      ],
-      "mid": [
-        50,
-        106
-      ],
-      "corner_3": [
-        0,
-        0
-      ],
-      "arc_3": [
-        0,
-        0
-      ]
+      "at_rim": {
+        "fgm": 5,
+        "fga": 6,
+        "pct": 83
+      },
+      "paint": {
+        "fgm": 0,
+        "fga": 1,
+        "pct": 0
+      },
+      "mid": {
+        "fgm": 50,
+        "fga": 106,
+        "pct": 47
+      },
+      "corner_3": {
+        "fgm": 0,
+        "fga": 0,
+        "pct": 0
+      },
+      "arc_3": {
+        "fgm": 0,
+        "fga": 0,
+        "pct": 0
+      }
     }
   },
   "matchups": [],
