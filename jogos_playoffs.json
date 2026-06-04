@@ -1,6 +1,6 @@
 {
   "season": "2025-26",
-  "updated": "2026-06-03",
+  "updated": "2026-06-04",
   "series": {
     "cle_tor": [
       {
@@ -829,12 +829,24 @@
         "winner": "NYK",
         "game_number": 4
       }
+    ],
+    "finals": [
+      {
+        "game_id": "0042500401",
+        "date": "2026-06-03",
+        "home": "SAS",
+        "away": "NYK",
+        "home_pts": 95,
+        "away_pts": 105,
+        "winner": "NYK",
+        "game_number": 1
+      }
     ]
   },
   "series_scores": {
     "cle_tor": {
-      "TOR": 3,
-      "CLE": 4
+      "CLE": 4,
+      "TOR": 3
     },
     "den_min": {
       "MIN": 4,
@@ -845,8 +857,8 @@
       "LAL": 4
     },
     "nyk_atl": {
-      "ATL": 2,
-      "NYK": 4
+      "NYK": 4,
+      "ATL": 2
     },
     "bos_phi": {
       "PHI": 4,
@@ -861,12 +873,12 @@
       "ORL": 3
     },
     "okc_phx": {
-      "PHX": 0,
-      "OKC": 4
+      "OKC": 4,
+      "PHX": 0
     },
     "nyk_phi": {
-      "NYK": 4,
-      "PHI": 0
+      "PHI": 0,
+      "NYK": 4
     },
     "sas_min": {
       "MIN": 2,
@@ -887,6 +899,10 @@
     "nyk_cle": {
       "NYK": 4,
       "CLE": 0
+    },
+    "finals": {
+      "NYK": 1,
+      "SAS": 0
     }
   }
 }
