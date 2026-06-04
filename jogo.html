@@ -565,6 +565,59 @@ function render(game,teams){
     '</div>'+
   '</div>';
 
+  // ── Matchups ────────────────────────────────────────────────────────────────
+  function muMinToSecs(s){
+    if(!s) return 0;
+    var p=s.split(':'); return parseInt(p[0]||0)*60+parseInt(p[1]||0);
+  }
+  function muRow(p, c){
+    if(!p.mu_fga && !p.mu_min) return '';
+    var fgPct=p.mu_fga>0?Math.round(p.mu_fgm/p.mu_fga*100)+'%':'—';
+    var ptsBold=p.mu_pts>=15?'font-weight:600;':'';
+    return '<div style="display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:0.5px solid #e5e5ea">'+
+      '<span style="font-size:12px;font-weight:500;color:'+c+';min-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+p.name+'</span>'+
+      '<span style="font-size:11px;color:#86868b;min-width:40px">'+( p.mu_min||'—')+'</span>'+
+      '<span style="font-size:11px;font-family:ui-monospace,monospace;min-width:52px">'+p.mu_fgm+'/'+p.mu_fga+'</span>'+
+      '<span style="font-size:11px;color:#86868b;min-width:36px">'+fgPct+'</span>'+
+      '<span style="font-size:11px;font-family:ui-monospace,monospace;min-width:42px">'+p.mu_3pm+'/'+p.mu_3pa+'</span>'+
+      '<span style="font-size:11px;font-weight:600;'+ptsBold+'min-width:28px;text-align:right">'+p.mu_pts+'</span>'+
+    '</div>';
+  }
+  function muHeader(){
+    return '<div style="display:flex;gap:8px;padding:4px 0 6px;border-bottom:0.5px solid #d2d2d7">'+
+      '<span style="font-size:10px;color:#86868b;min-width:110px">Defensor</span>'+
+      '<span style="font-size:10px;color:#86868b;min-width:40px">Min</span>'+
+      '<span style="font-size:10px;color:#86868b;min-width:52px">FGM/A</span>'+
+      '<span style="font-size:10px;color:#86868b;min-width:36px">FG%</span>'+
+      '<span style="font-size:10px;color:#86868b;min-width:42px">3M/A</span>'+
+      '<span style="font-size:10px;color:#86868b;min-width:28px;text-align:right">Pts</span>'+
+    '</div>';
+  }
+
+  var muHome=[].concat(box_score[home]||[]).filter(function(p){return p.mu_min;})
+    .sort(function(a,b){return muMinToSecs(b.mu_min)-muMinToSecs(a.mu_min);}).slice(0,5);
+  var muAway=[].concat(box_score[away]||[]).filter(function(p){return p.mu_min;})
+    .sort(function(a,b){return muMinToSecs(b.mu_min)-muMinToSecs(a.mu_min);}).slice(0,5);
+
+  if(muHome.length||muAway.length){
+    content+='<div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Matchups &middot; top 5 defensores por minutos</span></div>';
+    content+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:0.75rem">';
+
+    content+='<div>';
+    content+='<div style="font-size:11px;font-weight:500;color:'+c1+';text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px">'+TNAME[home]+'</div>';
+    content+=muHeader();
+    muHome.forEach(function(p){content+=muRow(p,c1);});
+    content+='</div>';
+
+    content+='<div>';
+    content+='<div style="font-size:11px;font-weight:500;color:'+c2+';text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px">'+TNAME[away]+'</div>';
+    content+=muHeader();
+    muAway.forEach(function(p){content+=muRow(p,c2);});
+    content+='</div>';
+
+    content+='</div>';
+  }
+
   content+='<div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Duelos individuais &middot; ordenados por arremessos tentados</span></div>';
   content+=matchupsHtml;
   content+='<div class="footer-note">Dados: NBA Stats &middot; '+fmtDate(date)+'</div>';
