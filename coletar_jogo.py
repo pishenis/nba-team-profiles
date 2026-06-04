@@ -55,15 +55,20 @@ if not summary_dfs:
 line_score = summary_dfs[5]
 game_info  = summary_dfs[0]
 
-game_date    = str(game_info["GAME_DATE_EST"].iloc[0])[:10]
-home_team_id = int(game_info["HOME_TEAM_ID"].iloc[0])
+game_date        = str(game_info["GAME_DATE_EST"].iloc[0])[:10]
+home_team_id_raw = game_info["HOME_TEAM_ID"].iloc[0]
 
 row0 = line_score.iloc[0]
 row1 = line_score.iloc[1]
-if int(row0["TEAM_ID"]) == home_team_id:
-    home_row, away_row = row0, row1
+
+if home_team_id_raw is not None:
+    home_team_id = int(home_team_id_raw)
+    if int(row0["TEAM_ID"]) == home_team_id:
+        home_row, away_row = row0, row1
+    else:
+        home_row, away_row = row1, row0
 else:
-    home_row, away_row = row1, row0
+    home_row, away_row = row0, row1
 
 home_abbr = home_row["TEAM_ABBREVIATION"]
 away_abbr = away_row["TEAM_ABBREVIATION"]
