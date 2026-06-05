@@ -64,6 +64,10 @@ for g in games_raw:
     away_abbr = g["visitor_team"]["abbreviation"]
     home_pts  = g.get("home_team_score", 0) or 0
     away_pts  = g.get("visitor_team_score", 0) or 0
+
+    # Ignora jogos ainda não realizados
+    if home_pts == 0 and away_pts == 0:
+        continue
     game_id   = str(g["id"])
     game_date = (g.get("date") or "")[:10]
 
