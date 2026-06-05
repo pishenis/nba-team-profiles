@@ -594,10 +594,10 @@ function render(game,teams){
     '</div>';
   }
 
-  var muHome=[].concat(box_score[home]||[]).filter(function(p){return p.mu_min;})
-    .sort(function(a,b){return muMinToSecs(b.mu_min)-muMinToSecs(a.mu_min);}).slice(0,5);
-  var muAway=[].concat(box_score[away]||[]).filter(function(p){return p.mu_min;})
-    .sort(function(a,b){return muMinToSecs(b.mu_min)-muMinToSecs(a.mu_min);}).slice(0,5);
+  var muHome=[].concat(box_score[home]||[])
+    .sort(function(a,b){return muMinToSecs(b.minutes)-muMinToSecs(a.minutes);}).slice(0,6);
+  var muAway=[].concat(box_score[away]||[])
+    .sort(function(a,b){return muMinToSecs(b.minutes)-muMinToSecs(a.minutes);}).slice(0,6);
 
   if(muHome.length||muAway.length){
     content+='<div class="sec-head" style="margin-top:1.75rem"><div class="sec-line" style="background:#1d1d1f"></div><span class="sec-name">Matchups &middot; top 5 defensores por minutos</span></div>';
