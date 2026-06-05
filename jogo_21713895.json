@@ -1,0 +1,7390 @@
+{
+  "game_id": "21713895",
+  "date": "2026-05-19",
+  "home": "NYK",
+  "away": "CLE",
+  "home_pts": 115,
+  "away_pts": 104,
+  "winner": "NYK",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "NYK": [
+        23,
+        23,
+        23,
+        32,
+        14
+      ],
+      "CLE": [
+        16,
+        32,
+        35,
+        18,
+        3
+      ]
+    },
+    "num_periods": 5,
+    "time_leading_home_fmt": "19:23",
+    "time_leading_away_fmt": "31:24",
+    "time_tied_fmt": "2:13",
+    "lead_changes": 3,
+    "ties": 3,
+    "best_run_home": {
+      "pts_home": 20,
+      "pts_away": 4,
+      "start_min": 41.03,
+      "end_min": 45.37
+    },
+    "best_run_away": {
+      "pts_away": 17,
+      "pts_home": 6,
+      "start_min": 18.83,
+      "end_min": 22.87
+    },
+    "max_consec_home": 12,
+    "max_consec_away": 10
+  },
+  "four_factors": {
+    "NYK": {
+      "efg": 0.609,
+      "tov": 0.185,
+      "oreb": 0,
+      "ftr": 0.218,
+      "opp_efg": 0.491,
+      "opp_tov": 0.225,
+      "opp_oreb": 0.31,
+      "opp_ftr": 0.278
+    },
+    "CLE": {
+      "efg": 0.478,
+      "tov": 0.175,
+      "oreb": 0.023,
+      "ftr": 0.25,
+      "opp_efg": 0.485,
+      "opp_tov": 0.183,
+      "opp_oreb": 0.25,
+      "opp_ftr": 0.382
+    }
+  },
+  "misc": {
+    "NYK": {
+      "pts_paint": 60,
+      "pts_fb": 13,
+      "pts_2nd_chance": 17,
+      "pts_off_tov": 28
+    },
+    "CLE": {
+      "pts_paint": 38,
+      "pts_fb": 12,
+      "pts_2nd_chance": 14,
+      "pts_off_tov": 20
+    }
+  },
+  "hustle": {
+    "NYK": {
+      "deflections": 26,
+      "charges_drawn": 1,
+      "contested_shots": 35,
+      "contested_2pt": 17,
+      "contested_3pt": 18,
+      "loose_balls_recovered": 4,
+      "screen_assists": 8
+    },
+    "CLE": {
+      "deflections": 16,
+      "charges_drawn": 1,
+      "contested_shots": 34,
+      "contested_2pt": 20,
+      "contested_3pt": 14,
+      "loose_balls_recovered": 3,
+      "screen_assists": 7
+    }
+  },
+  "box_score": {
+    "NYK": [
+      {
+        "name": "O. Anunoby",
+        "minutes": "34",
+        "pos": "F",
+        "starter": true,
+        "pts": 13,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 9,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 8,
+        "fta": 10,
+        "pf": 3,
+        "plus_minus": 15,
+        "off_rating": 113.2,
+        "def_rating": 89.9,
+        "ts_pct": 0.485,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "12:21",
+        "mu_fga": 9,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 8,
+        "mu_3pm": 3,
+        "mu_pts": 11,
+        "mu_ast": 3
+      },
+      {
+        "name": "J. Hart",
+        "minutes": "31",
+        "pos": "G",
+        "starter": true,
+        "pts": 13,
+        "reb": 7,
+        "oreb": 0,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 5,
+        "fga": 11,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": -23,
+        "off_rating": 68.8,
+        "def_rating": 100,
+        "ts_pct": 0.547,
+        "deflections": 6,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "11:32",
+        "mu_fga": 15,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.467,
+        "mu_3pa": 8,
+        "mu_3pm": 2,
+        "mu_pts": 17,
+        "mu_ast": 2
+      },
+      {
+        "name": "K. Towns",
+        "minutes": "40",
+        "pos": "C",
+        "starter": true,
+        "pts": 13,
+        "reb": 13,
+        "oreb": 4,
+        "ast": 5,
+        "stl": 1,
+        "blk": 1,
+        "tov": 7,
+        "fgm": 6,
+        "fga": 14,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 4,
+        "plus_minus": 13,
+        "off_rating": 107.4,
+        "def_rating": 96.1,
+        "ts_pct": 0.464,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 13,
+        "mu_min": "15:18",
+        "mu_fga": 21,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 10,
+        "mu_3pm": 4,
+        "mu_pts": 18,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Bridges",
+        "minutes": "42",
+        "pos": "G",
+        "starter": true,
+        "pts": 18,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 2,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 7,
+        "fga": 11,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": 12,
+        "off_rating": 115.1,
+        "def_rating": 101.2,
+        "ts_pct": 0.758,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "15:55",
+        "mu_fga": 13,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.385,
+        "mu_3pa": 5,
+        "mu_3pm": 1,
+        "mu_pts": 12,
+        "mu_ast": 7
+      },
+      {
+        "name": "J. Brunson",
+        "minutes": "46",
+        "pos": "G",
+        "starter": true,
+        "pts": 38,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 6,
+        "stl": 3,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 15,
+        "fga": 29,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 7,
+        "fta": 10,
+        "pf": 5,
+        "plus_minus": 15,
+        "off_rating": 108.2,
+        "def_rating": 95.7,
+        "ts_pct": 0.569,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "17:18",
+        "mu_fga": 15,
+        "mu_fgm": 8,
+        "mu_fg_pct": 0.533,
+        "mu_3pa": 7,
+        "mu_3pm": 3,
+        "mu_pts": 21,
+        "mu_ast": 5
+      },
+      {
+        "name": "J. Alvarado",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 4,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -1,
+        "off_rating": 76.9,
+        "def_rating": 84.6,
+        "ts_pct": 0.667,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "2:55",
+        "mu_fga": 2,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Clarkson",
+        "minutes": "17",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 2,
+        "off_rating": 91.9,
+        "def_rating": 84.2,
+        "ts_pct": 0.5,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "6:60",
+        "mu_fga": 7,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.571,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 10,
+        "mu_ast": 1
+      },
+      {
+        "name": "P. Dadiet",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. Diawara",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Hukporti",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Kolek",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. McBride",
+        "minutes": "17",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 5,
+        "plus_minus": 5,
+        "off_rating": 94.7,
+        "def_rating": 79.5,
+        "ts_pct": 0,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "7:02",
+        "mu_fga": 5,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 3
+      },
+      {
+        "name": "M. Robinson",
+        "minutes": "14",
+        "pos": "",
+        "starter": false,
+        "pts": 4,
+        "reb": 6,
+        "oreb": 4,
+        "ast": 1,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 8,
+        "pf": 1,
+        "plus_minus": -8,
+        "off_rating": 97,
+        "def_rating": 121.2,
+        "ts_pct": 0.307,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "5:36",
+        "mu_fga": 8,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 6,
+        "mu_3pm": 4,
+        "mu_pts": 16,
+        "mu_ast": 0
+      },
+      {
+        "name": "L. Shamet",
+        "minutes": "17",
+        "pos": "",
+        "starter": false,
+        "pts": 9,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 4,
+        "fg3m": 3,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 25,
+        "off_rating": 150,
+        "def_rating": 74.3,
+        "ts_pct": 1.125,
+        "deflections": 2,
+        "charges_drawn": 1,
+        "contested_shots": 1,
+        "mu_min": "6:26",
+        "mu_fga": 3,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Sochan",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ],
+    "CLE": [
+      {
+        "name": "E. Mobley",
+        "minutes": "40",
+        "pos": "C",
+        "starter": true,
+        "pts": 15,
+        "reb": 14,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 0,
+        "blk": 3,
+        "tov": 3,
+        "fgm": 6,
+        "fga": 16,
+        "fg3m": 2,
+        "fg3a": 8,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": -6,
+        "off_rating": 88.4,
+        "def_rating": 94.3,
+        "ts_pct": 0.444,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "16:04",
+        "mu_fga": 10,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.3,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 8,
+        "mu_ast": 3
+      },
+      {
+        "name": "D. Wade",
+        "minutes": "29",
+        "pos": "F",
+        "starter": true,
+        "pts": 10,
+        "reb": 5,
+        "oreb": 2,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 5,
+        "fg3m": 3,
+        "fg3a": 5,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 0,
+        "plus_minus": 1,
+        "off_rating": 105.5,
+        "def_rating": 101.8,
+        "ts_pct": 0.919,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "11:23",
+        "mu_fga": 9,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Allen",
+        "minutes": "35",
+        "pos": "C",
+        "starter": true,
+        "pts": 10,
+        "reb": 7,
+        "oreb": 6,
+        "ast": 3,
+        "stl": 1,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 4,
+        "fta": 8,
+        "pf": 3,
+        "plus_minus": -10,
+        "off_rating": 107.6,
+        "def_rating": 117.4,
+        "ts_pct": 0.525,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 9,
+        "mu_min": "14:36",
+        "mu_fga": 16,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.563,
+        "mu_3pa": 5,
+        "mu_3pm": 1,
+        "mu_pts": 19,
+        "mu_ast": 4
+      },
+      {
+        "name": "J. Harden",
+        "minutes": "42",
+        "pos": "G",
+        "starter": true,
+        "pts": 15,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 1,
+        "blk": 1,
+        "tov": 6,
+        "fgm": 5,
+        "fga": 16,
+        "fg3m": 1,
+        "fg3a": 8,
+        "ftm": 4,
+        "fta": 6,
+        "pf": 5,
+        "plus_minus": -6,
+        "off_rating": 101.2,
+        "def_rating": 107.1,
+        "ts_pct": 0.402,
+        "deflections": 3,
+        "charges_drawn": 1,
+        "contested_shots": 6,
+        "mu_min": "17:29",
+        "mu_fga": 24,
+        "mu_fgm": 14,
+        "mu_fg_pct": 0.583,
+        "mu_3pa": 7,
+        "mu_3pm": 4,
+        "mu_pts": 34,
+        "mu_ast": 8
+      },
+      {
+        "name": "D. Mitchell",
+        "minutes": "41",
+        "pos": "G",
+        "starter": true,
+        "pts": 29,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 6,
+        "blk": 1,
+        "tov": 4,
+        "fgm": 12,
+        "fga": 23,
+        "fg3m": 4,
+        "fg3a": 11,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 5,
+        "plus_minus": -13,
+        "off_rating": 90.7,
+        "def_rating": 104.6,
+        "ts_pct": 0.619,
+        "deflections": 6,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "16:08",
+        "mu_fga": 12,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 6,
+        "mu_3pm": 1,
+        "mu_pts": 10,
+        "mu_ast": 1
+      },
+      {
+        "name": "T. Bryant",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "K. Ellis",
+        "minutes": "06",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 1,
+        "plus_minus": 6,
+        "off_rating": 150,
+        "def_rating": 90,
+        "ts_pct": 1.136,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "2:12",
+        "mu_fga": 1,
+        "mu_fgm": 1,
+        "mu_fg_pct": 1,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "S. Merrill",
+        "minutes": "28",
+        "pos": "",
+        "starter": false,
+        "pts": 12,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 9,
+        "fg3m": 3,
+        "fg3a": 8,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 5,
+        "plus_minus": -17,
+        "off_rating": 84.7,
+        "def_rating": 106.3,
+        "ts_pct": 0.636,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "10:51",
+        "mu_fga": 3,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 3,
+        "mu_ast": 1
+      },
+      {
+        "name": "L. Nance Jr.",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "C. Porter",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Proctor",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "D. Schroder",
+        "minutes": "19",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 5,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 9,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 1,
+        "off_rating": 92.9,
+        "def_rating": 92.7,
+        "ts_pct": 0.167,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "6:10",
+        "mu_fga": 8,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.375,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 9,
+        "mu_ast": 1
+      },
+      {
+        "name": "M. Strus",
+        "minutes": "25",
+        "pos": "",
+        "starter": false,
+        "pts": 8,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 5,
+        "plus_minus": -11,
+        "off_rating": 84.5,
+        "def_rating": 101.7,
+        "ts_pct": 0.581,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "9:22",
+        "mu_fga": 10,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 12,
+        "mu_ast": 1
+      },
+      {
+        "name": "N. Tomlin",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Tyson",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen vs. Karl-Anthony Towns (Jalen Brunson gains possession)"
+    },
+    {
+      "min": 0.45,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby misses 25-foot three point jumper"
+    },
+    {
+      "min": 0.48,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 0.73,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen misses layup"
+    },
+    {
+      "min": 0.77,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade offensive rebound"
+    },
+    {
+      "min": 0.83,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "James Harden makes 6-foot driving floating jump shot (Dean Wade assists)"
+    },
+    {
+      "min": 1.15,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 1.2,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen defensive rebound"
+    },
+    {
+      "min": 1.32,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges shooting foul"
+    },
+    {
+      "min": 1.32,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley misses free throw 1 of 2"
+    },
+    {
+      "min": 1.32,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 1.32,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Evan Mobley makes free throw 2 of 2"
+    },
+    {
+      "min": 1.63,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 1.68,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 1.8,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley misses 25-foot three point jumper"
+    },
+    {
+      "min": 1.85,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 1.98,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes 7-foot driving floating jump shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 2.12,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell back court turnover"
+    },
+    {
+      "min": 2.35,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses two point shot"
+    },
+    {
+      "min": 2.37,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade defensive rebound"
+    },
+    {
+      "min": 2.6,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 25-foot three pointer (Dean Wade assists)"
+    },
+    {
+      "min": 3.07,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden personal foul"
+    },
+    {
+      "min": 3.18,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns lost ball turnover (Donovan Mitchell steals)"
+    },
+    {
+      "min": 3.27,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "Donovan Mitchell makes running layup"
+    },
+    {
+      "min": 3.47,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 3.52,
+      "home": 2,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 3.63,
+      "home": 4,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes 9-foot floating jump shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 3.87,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Donovan Mitchell makes driving layup (Dean Wade assists)"
+    },
+    {
+      "min": 4.25,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "min": 4.3,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 4.67,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 4.7,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 4.98,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart misses 23-foot three point jumper"
+    },
+    {
+      "min": 5.03,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden defensive rebound"
+    },
+    {
+      "min": 5.15,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden misses driving layup"
+    },
+    {
+      "min": 5.18,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 5.28,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell blocks OG Anunoby's driving layup"
+    },
+    {
+      "min": 5.3,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 5.3,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 5.3,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Merrill enters the game for Evan Mobley"
+    },
+    {
+      "min": 5.3,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 5.55,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen blocks Karl-Anthony Towns 's 2-foot driving floating jump shot"
+    },
+    {
+      "min": 5.58,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden defensive rebound"
+    },
+    {
+      "min": 5.75,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus misses 23-foot three point jumper"
+    },
+    {
+      "min": 5.78,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 5.98,
+      "home": 6,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes 16-foot pullup jump shot (Josh Hart assists)"
+    },
+    {
+      "min": 6.18,
+      "home": 6,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade misses 23-foot three point jumper"
+    },
+    {
+      "min": 6.22,
+      "home": 6,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 6.28,
+      "home": 6,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen misses two point shot"
+    },
+    {
+      "min": 6.32,
+      "home": 6,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 6.37,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Josh Hart makes running layup"
+    },
+    {
+      "min": 6.82,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden misses driving floating jump shot"
+    },
+    {
+      "min": 6.87,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade offensive rebound"
+    },
+    {
+      "min": 6.88,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Merrill misses 24-foot three point jumper"
+    },
+    {
+      "min": 6.9,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 6.9,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for OG Anunoby"
+    },
+    {
+      "min": 6.9,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride enters the game for Josh Hart"
+    },
+    {
+      "min": 6.9,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder enters the game for Dean Wade"
+    },
+    {
+      "min": 6.9,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns loose ball foul"
+    },
+    {
+      "min": 7.12,
+      "home": 8,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Dennis Schroder makes 23-foot three point jumper (Max Strus assists)"
+    },
+    {
+      "min": 7.45,
+      "home": 8,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder shooting foul"
+    },
+    {
+      "min": 7.45,
+      "home": 9,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 7.45,
+      "home": 9,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 7.45,
+      "home": 10,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 7.6,
+      "home": 10,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden bad pass\nturnover (Mitchell Robinson steals)"
+    },
+    {
+      "min": 7.7,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes running layup (Miles McBride assists)"
+    },
+    {
+      "min": 8.05,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder misses 26-foot three point jumper"
+    },
+    {
+      "min": 8.1,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive rebound"
+    },
+    {
+      "min": 8.23,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes two point shot"
+    },
+    {
+      "min": 8.23,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 8.23,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley enters the game for James Harden"
+    },
+    {
+      "min": 8.23,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for Jarrett Allen"
+    },
+    {
+      "min": 8.4,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus lost ball turnover (Mikal Bridges steals)"
+    },
+    {
+      "min": 8.45,
+      "home": 16,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes running dunk"
+    },
+    {
+      "min": 8.65,
+      "home": 16,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder misses driving floating jump shot"
+    },
+    {
+      "min": 8.68,
+      "home": 16,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive rebound"
+    },
+    {
+      "min": 8.82,
+      "home": 18,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes 14-foot pullup jump shot"
+    },
+    {
+      "min": 9.07,
+      "home": 18,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley traveling turnover"
+    },
+    {
+      "min": 9.27,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Mitchell Robinson makes alley oop dunk (Mikal Bridges assists)"
+    },
+    {
+      "min": 9.52,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Merrill misses 23-foot three point jumper"
+    },
+    {
+      "min": 9.55,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 9.63,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges bad pass\nturnover (Max Strus steals)"
+    },
+    {
+      "min": 9.75,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus misses 25-foot running jump shot"
+    },
+    {
+      "min": 9.77,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 9.77,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride loose ball foul"
+    },
+    {
+      "min": 9.77,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Mikal Bridges"
+    },
+    {
+      "min": 9.85,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus bad pass\nturnover (Mitchell Robinson steals)"
+    },
+    {
+      "min": 9.95,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride misses 23-foot running jump shot"
+    },
+    {
+      "min": 10.0,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson offensive rebound"
+    },
+    {
+      "min": 10.23,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart misses 19-foot pullup jump shot"
+    },
+    {
+      "min": 10.28,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 10.47,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 23-foot three point jumper"
+    },
+    {
+      "min": 10.52,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 10.6,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 26-foot running jump shot"
+    },
+    {
+      "min": 10.63,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride offensive rebound"
+    },
+    {
+      "min": 10.68,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson bad pass\nturnover (Donovan Mitchell steals)"
+    },
+    {
+      "min": 10.85,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder misses 23-foot three point jumper"
+    },
+    {
+      "min": 10.9,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Sam Merrill makes running layup (Donovan Mitchell assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart shooting foul"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Sam Merrill makes free throw 1 of 1"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Jordan Clarkson makes 24-foot three pointer (Mitchell Robinson assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 15-foot fade away jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade enters the game for Sam Merrill"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus personal foul"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for Jalen Brunson"
+    },
+    {
+      "min": 12.0,
+      "home": 23,
+      "away": 16,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for Jarrett Allen"
+    },
+    {
+      "min": 12.4,
+      "home": 23,
+      "away": 16,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley misses 19-foot fade away jump shot"
+    },
+    {
+      "min": 12.45,
+      "home": 23,
+      "away": 16,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 12.53,
+      "home": 23,
+      "away": 16,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado misses running pullup jump shot"
+    },
+    {
+      "min": 12.58,
+      "home": 23,
+      "away": 16,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 12.72,
+      "home": 23,
+      "away": 18,
+      "period": 2,
+      "scoring": true,
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "min": 13.13,
+      "home": 23,
+      "away": 18,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart misses 24-foot three point jumper"
+    },
+    {
+      "min": 13.15,
+      "home": 23,
+      "away": 18,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers defensive team rebound"
+    },
+    {
+      "min": 13.43,
+      "home": 23,
+      "away": 18,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley misses 25-foot three point jumper"
+    },
+    {
+      "min": 13.48,
+      "home": 23,
+      "away": 18,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 13.62,
+      "home": 25,
+      "away": 18,
+      "period": 2,
+      "scoring": true,
+      "text": "Jose Alvarado makes 1-foot driving floating jump shot (Josh Hart assists)"
+    },
+    {
+      "min": 13.9,
+      "home": 25,
+      "away": 20,
+      "period": 2,
+      "scoring": true,
+      "text": "Evan Mobley makes 9-foot two point shot"
+    },
+    {
+      "min": 14.13,
+      "home": 27,
+      "away": 20,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 1-foot layup (Josh Hart assists)"
+    },
+    {
+      "min": 14.43,
+      "home": 27,
+      "away": 20,
+      "period": 2,
+      "scoring": false,
+      "text": "Dennis Schroder misses 26-foot three point jumper"
+    },
+    {
+      "min": 14.48,
+      "home": 27,
+      "away": 20,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson defensive rebound"
+    },
+    {
+      "min": 14.58,
+      "home": 29,
+      "away": 20,
+      "period": 2,
+      "scoring": true,
+      "text": "Josh Hart makes driving layup"
+    },
+    {
+      "min": 14.92,
+      "home": 29,
+      "away": 22,
+      "period": 2,
+      "scoring": true,
+      "text": "Evan Mobley makes driving layup"
+    },
+    {
+      "min": 15.08,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": true,
+      "text": "Josh Hart makes 3-foot two point shot"
+    },
+    {
+      "min": 15.3,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Dennis Schroder misses driving layup"
+    },
+    {
+      "min": 15.33,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 15.5,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses 26-foot three point jumper"
+    },
+    {
+      "min": 15.55,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 15.62,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Jordan Clarkson"
+    },
+    {
+      "min": 15.62,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Miles McBride"
+    },
+    {
+      "min": 15.62,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Keon Ellis enters the game for Max Strus"
+    },
+    {
+      "min": 15.62,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen enters the game for Dennis Schroder"
+    },
+    {
+      "min": 15.62,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for Josh Hart"
+    },
+    {
+      "min": 15.62,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Miles McBride personal foul"
+    },
+    {
+      "min": 15.62,
+      "home": 31,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden enters the game for Evan Mobley"
+    },
+    {
+      "min": 15.75,
+      "home": 31,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "Dean Wade makes 23-foot three point jumper (James Harden assists)"
+    },
+    {
+      "min": 16.07,
+      "home": 33,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "Jose Alvarado makes 8-foot driving floating jump shot"
+    },
+    {
+      "min": 16.52,
+      "home": 33,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Keon Ellis out of bounds lost ball turnover"
+    },
+    {
+      "min": 16.52,
+      "home": 33,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 16.52,
+      "home": 33,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Jose Alvarado"
+    },
+    {
+      "min": 16.52,
+      "home": 33,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Sam Merrill enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 16.52,
+      "home": 33,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 16.78,
+      "home": 33,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Keon Ellis personal foul"
+    },
+    {
+      "min": 17.02,
+      "home": 33,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 17.18,
+      "home": 33,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "James Harden makes 5-foot driving floating jump shot"
+    },
+    {
+      "min": 17.57,
+      "home": 33,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby misses 25-foot three point jumper"
+    },
+    {
+      "min": 17.58,
+      "home": 33,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers defensive team rebound"
+    },
+    {
+      "min": 17.75,
+      "home": 33,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden lost ball turnover (Jalen Brunson steals)"
+    },
+    {
+      "min": 17.8,
+      "home": 35,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "min": 18.17,
+      "home": 35,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Keon Ellis out of bounds lost ball turnover"
+    },
+    {
+      "min": 18.43,
+      "home": 35,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Landry Shamet misses two point shot"
+    },
+    {
+      "min": 18.45,
+      "home": 35,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 18.6,
+      "home": 38,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes 23-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "min": 18.83,
+      "home": 38,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson shooting foul"
+    },
+    {
+      "min": 18.83,
+      "home": 38,
+      "away": 28,
+      "period": 2,
+      "scoring": true,
+      "text": "Keon Ellis makes free throw 1 of 2"
+    },
+    {
+      "min": 18.83,
+      "home": 38,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Landry Shamet"
+    },
+    {
+      "min": 18.83,
+      "home": 38,
+      "away": 29,
+      "period": 2,
+      "scoring": true,
+      "text": "Keon Ellis makes free throw 2 of 2"
+    },
+    {
+      "min": 19.03,
+      "home": 38,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby traveling turnover"
+    },
+    {
+      "min": 19.17,
+      "home": 38,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Sam Merrill makes 24-foot three point jumper (James Harden assists)"
+    },
+    {
+      "min": 19.42,
+      "home": 38,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 19.47,
+      "home": 38,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden defensive rebound"
+    },
+    {
+      "min": 19.57,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "James Harden makes 30-foot running pullup jump shot"
+    },
+    {
+      "min": 19.58,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 19.58,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 19.98,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson bad pass\nturnover (Sam Merrill steals)"
+    },
+    {
+      "min": 20.17,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Dean Wade misses 23-foot three point jumper"
+    },
+    {
+      "min": 20.22,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 20.28,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson personal foul"
+    },
+    {
+      "min": 20.47,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby shooting foul"
+    },
+    {
+      "min": 20.47,
+      "home": 38,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Jarrett Allen makes free throw 1 of 2"
+    },
+    {
+      "min": 20.47,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "min": 20.73,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Josh Hart makes driving layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 21.02,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen misses 4-foot two point shot"
+    },
+    {
+      "min": 21.03,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 21.07,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Sam Merrill personal foul"
+    },
+    {
+      "min": 21.07,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley enters the game for Sam Merrill"
+    },
+    {
+      "min": 21.07,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Max Strus enters the game for Dean Wade"
+    },
+    {
+      "min": 21.07,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for Keon Ellis"
+    },
+    {
+      "min": 21.23,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "min": 21.27,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers defensive team rebound"
+    },
+    {
+      "min": 21.53,
+      "home": 40,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden lost ball turnover (Jalen Brunson steals)"
+    },
+    {
+      "min": 21.8,
+      "home": 42,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes 9-foot jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 21.98,
+      "home": 42,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 25-foot three point jumper (Jarrett Allen assists)"
+    },
+    {
+      "min": 21.98,
+      "home": 42,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges shooting foul"
+    },
+    {
+      "min": 21.98,
+      "home": 42,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Donovan Mitchell makes free throw 1 of 1"
+    },
+    {
+      "min": 22.27,
+      "home": 42,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges misses 23-foot three point jumper"
+    },
+    {
+      "min": 22.28,
+      "home": 42,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers defensive team rebound"
+    },
+    {
+      "min": 22.42,
+      "home": 42,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden out of bounds bad pass turnover"
+    },
+    {
+      "min": 22.55,
+      "home": 42,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges bad pass\nturnover (Jarrett Allen steals)"
+    },
+    {
+      "min": 22.57,
+      "home": 42,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley bad pass\nturnover (OG Anunoby steals)"
+    },
+    {
+      "min": 22.57,
+      "home": 42,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen shooting foul"
+    },
+    {
+      "min": 22.57,
+      "home": 43,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Josh Hart makes free throw 1 of 2"
+    },
+    {
+      "min": 22.57,
+      "home": 44,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Josh Hart makes free throw 2 of 2"
+    },
+    {
+      "min": 22.87,
+      "home": 44,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Max Strus makes 25-foot three point jumper (Evan Mobley assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart shooting foul"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 46,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes 6-foot driving floating jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 46,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 26-foot three point jumper (Evan Mobley assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 46,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns bad pass\nturnover (Donovan Mitchell steals)"
+    },
+    {
+      "min": 24.0,
+      "home": 46,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell misses heave jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 46,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 46,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 46,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Dean Wade enters the game for Max Strus"
+    },
+    {
+      "min": 24.3,
+      "home": 46,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.33,
+      "home": 46,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 24.45,
+      "home": 46,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses 27-foot running jump shot"
+    },
+    {
+      "min": 24.5,
+      "home": 46,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 24.53,
+      "home": 46,
+      "away": 48,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns lost ball turnover (Donovan Mitchell steals)"
+    },
+    {
+      "min": 24.58,
+      "home": 46,
+      "away": 50,
+      "period": 3,
+      "scoring": true,
+      "text": "Donovan Mitchell makes running layup"
+    },
+    {
+      "min": 24.85,
+      "home": 46,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden personal foul"
+    },
+    {
+      "min": 25.03,
+      "home": 46,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses 25-foot three point jumper"
+    },
+    {
+      "min": 25.08,
+      "home": 46,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 25.12,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 25.32,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden misses 27-foot three point jumper"
+    },
+    {
+      "min": 25.33,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 25.33,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen loose ball foul"
+    },
+    {
+      "min": 25.55,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul turnover"
+    },
+    {
+      "min": 25.55,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul"
+    },
+    {
+      "min": 25.55,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 25.55,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "(10:27) [Cavaliers] COACH'S CHALLENGE (CALL OVERTURNED) [Cavaliers] retain their timeout"
+    },
+    {
+      "min": 25.75,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell bad pass\nturnover (Karl-Anthony Towns steals)"
+    },
+    {
+      "min": 26.07,
+      "home": 49,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart bad pass\nturnover (Donovan Mitchell steals)"
+    },
+    {
+      "min": 26.5,
+      "home": 49,
+      "away": 53,
+      "period": 3,
+      "scoring": true,
+      "text": "Evan Mobley makes 22-foot three point jumper (Donovan Mitchell assists)"
+    },
+    {
+      "min": 26.88,
+      "home": 51,
+      "away": 53,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes driving layup"
+    },
+    {
+      "min": 27.02,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": true,
+      "text": "Dean Wade makes 23-foot three point jumper (Evan Mobley assists)"
+    },
+    {
+      "min": 27.35,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses 14-foot fade away jump shot"
+    },
+    {
+      "min": 27.4,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Dean Wade defensive rebound"
+    },
+    {
+      "min": 27.53,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 25-foot three point jumper"
+    },
+    {
+      "min": 27.57,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley offensive rebound"
+    },
+    {
+      "min": 27.65,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley misses two point shot"
+    },
+    {
+      "min": 27.68,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 27.68,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson shooting foul"
+    },
+    {
+      "min": 27.68,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 27.68,
+      "home": 51,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "min": 27.68,
+      "home": 51,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "min": 27.85,
+      "home": 51,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges lost ball turnover (Donovan Mitchell steals)"
+    },
+    {
+      "min": 27.92,
+      "home": 51,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Donovan Mitchell makes running layup"
+    },
+    {
+      "min": 28.28,
+      "home": 54,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Josh Hart makes 23-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "min": 28.6,
+      "home": 54,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "min": 28.73,
+      "home": 54,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley blocks Josh Hart 's 1-foot driving layup"
+    },
+    {
+      "min": 28.77,
+      "home": 54,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 28.87,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Evan Mobley makes dunk (James Harden assists)"
+    },
+    {
+      "min": 28.87,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 29.12,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell personal foul"
+    },
+    {
+      "min": 29.32,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 9-foot fade away jump shot"
+    },
+    {
+      "min": 29.4,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 29.47,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell lost ball turnover"
+    },
+    {
+      "min": 29.47,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell loose ball foul"
+    },
+    {
+      "min": 29.47,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus enters the game for Evan Mobley"
+    },
+    {
+      "min": 29.47,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Merrill enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 29.6,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 8-foot pullup jump shot"
+    },
+    {
+      "min": 29.65,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Dean Wade defensive rebound"
+    },
+    {
+      "min": 29.75,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns kicked ball violation"
+    },
+    {
+      "min": 29.85,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus misses 26-foot three point jumper"
+    },
+    {
+      "min": 29.9,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 29.98,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen bad pass\nturnover (Josh Hart steals)"
+    },
+    {
+      "min": 30.05,
+      "home": 56,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes running layup (OG Anunoby assists)"
+    },
+    {
+      "min": 30.37,
+      "home": 56,
+      "away": 66,
+      "period": 3,
+      "scoring": true,
+      "text": "Sam Merrill makes 24-foot three pointer (Jarrett Allen assists)"
+    },
+    {
+      "min": 30.58,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes layup (Josh Hart assists)"
+    },
+    {
+      "min": 30.78,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus misses 26-foot three point jumper"
+    },
+    {
+      "min": 30.82,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden offensive rebound"
+    },
+    {
+      "min": 30.82,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden misses 25-foot three point jumper"
+    },
+    {
+      "min": 30.83,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 30.83,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder enters the game for Dean Wade"
+    },
+    {
+      "min": 30.83,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson loose ball foul"
+    },
+    {
+      "min": 30.83,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Jordan Clarkson enters the game for OG Anunoby"
+    },
+    {
+      "min": 30.83,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 30.83,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for Josh Hart"
+    },
+    {
+      "min": 30.95,
+      "home": 58,
+      "away": 68,
+      "period": 3,
+      "scoring": true,
+      "text": "Jarrett Allen makes 5-foot layup (Dennis Schroder assists)"
+    },
+    {
+      "min": 31.13,
+      "home": 58,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus shooting foul"
+    },
+    {
+      "min": 31.13,
+      "home": 58,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 31.13,
+      "home": 58,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses free throw 1 of 2"
+    },
+    {
+      "min": 31.13,
+      "home": 59,
+      "away": 68,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 31.43,
+      "home": 59,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Jarrett Allen makes layup (Dennis Schroder assists)"
+    },
+    {
+      "min": 31.72,
+      "home": 59,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 16-foot step back jumpshot"
+    },
+    {
+      "min": 31.77,
+      "home": 59,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers defensive team rebound"
+    },
+    {
+      "min": 31.98,
+      "home": 59,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Merrill misses 23-foot three point jumper"
+    },
+    {
+      "min": 32.03,
+      "home": 59,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 32.08,
+      "home": 59,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "James Harden makes driving layup (Jarrett Allen assists)"
+    },
+    {
+      "min": 32.27,
+      "home": 59,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden personal foul"
+    },
+    {
+      "min": 32.27,
+      "home": 60,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for James Harden"
+    },
+    {
+      "min": 32.27,
+      "home": 60,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes free throw 1 of 2"
+    },
+    {
+      "min": 32.27,
+      "home": 60,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley enters the game for Jarrett Allen"
+    },
+    {
+      "min": 32.27,
+      "home": 61,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes free throw 2 of 2"
+    },
+    {
+      "min": 32.57,
+      "home": 61,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Evan Mobley makes 6-foot two point shot (Donovan Mitchell assists)"
+    },
+    {
+      "min": 32.7,
+      "home": 61,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus shooting foul"
+    },
+    {
+      "min": 32.7,
+      "home": 62,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 32.7,
+      "home": 63,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 32.92,
+      "home": 63,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Sam Merrill makes 25-foot three point jumper (Dennis Schroder assists)"
+    },
+    {
+      "min": 32.97,
+      "home": 63,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder personal take foul"
+    },
+    {
+      "min": 32.97,
+      "home": 63,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 32.97,
+      "home": 63,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson misses free throw 1 of 2"
+    },
+    {
+      "min": 32.97,
+      "home": 63,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Mikal Bridges"
+    },
+    {
+      "min": 32.97,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Mitchell Robinson makes free throw 2 of 2"
+    },
+    {
+      "min": 33.25,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder misses two point shot"
+    },
+    {
+      "min": 33.28,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 33.32,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses running pullup jump shot"
+    },
+    {
+      "min": 33.35,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson offensive rebound"
+    },
+    {
+      "min": 33.35,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson misses tip shot"
+    },
+    {
+      "min": 33.37,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson offensive rebound"
+    },
+    {
+      "min": 33.37,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell shooting foul"
+    },
+    {
+      "min": 33.37,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson misses free throw 1 of 2"
+    },
+    {
+      "min": 33.37,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson misses free throw 2 of 2"
+    },
+    {
+      "min": 33.37,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 33.42,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 33.48,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 33.73,
+      "home": 64,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride personal foul"
+    },
+    {
+      "min": 33.83,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "min": 33.83,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive goaltending violation"
+    },
+    {
+      "min": 33.85,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Merrill personal take foul"
+    },
+    {
+      "min": 33.85,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 33.85,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson misses free throw 1 of 2"
+    },
+    {
+      "min": 33.85,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson misses free throw 2 of 2"
+    },
+    {
+      "min": 33.88,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 33.88,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Jordan Clarkson personal foul"
+    },
+    {
+      "min": 34.05,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley misses 22-foot three point jumper"
+    },
+    {
+      "min": 34.07,
+      "home": 64,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 34.13,
+      "home": 66,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes running layup"
+    },
+    {
+      "min": 34.38,
+      "home": 66,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder misses two point shot"
+    },
+    {
+      "min": 34.42,
+      "home": 66,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride defensive rebound"
+    },
+    {
+      "min": 34.48,
+      "home": 66,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses running pullup jump shot"
+    },
+    {
+      "min": 34.52,
+      "home": 66,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson offensive rebound"
+    },
+    {
+      "min": 34.52,
+      "home": 66,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson misses tip in dunk"
+    },
+    {
+      "min": 34.53,
+      "home": 66,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus defensive rebound"
+    },
+    {
+      "min": 34.53,
+      "home": 66,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart personal foul"
+    },
+    {
+      "min": 34.53,
+      "home": 66,
+      "away": 80,
+      "period": 3,
+      "scoring": true,
+      "text": "Max Strus makes free throw 1 of 2"
+    },
+    {
+      "min": 34.53,
+      "home": 66,
+      "away": 81,
+      "period": 3,
+      "scoring": true,
+      "text": "Max Strus makes free throw 2 of 2"
+    },
+    {
+      "min": 34.65,
+      "home": 66,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley personal foul"
+    },
+    {
+      "min": 34.65,
+      "home": 67,
+      "away": 81,
+      "period": 3,
+      "scoring": true,
+      "text": "Mitchell Robinson makes free throw 1 of 2"
+    },
+    {
+      "min": 34.65,
+      "home": 67,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Mitchell Robinson misses free throw 2 of 2"
+    },
+    {
+      "min": 34.68,
+      "home": 67,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Merrill defensive rebound"
+    },
+    {
+      "min": 34.85,
+      "home": 67,
+      "away": 83,
+      "period": 3,
+      "scoring": true,
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "min": 36.0,
+      "home": 67,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell shooting foul"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart out of bounds bad pass turnover"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Jordan Clarkson blocks Dennis Schroder 's 2-foot driving layup"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus offensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 25-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder shooting foul"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Jordan Clarkson"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 36.0,
+      "home": 68,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden enters the game for Dennis Schroder"
+    },
+    {
+      "min": 36.0,
+      "home": 69,
+      "away": 83,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 69,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 69,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden misses 25-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 69,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for OG Anunoby"
+    },
+    {
+      "min": 36.0,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Dennis Schroder enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 36.0,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Clarkson enters the game for Jalen Brunson"
+    },
+    {
+      "min": 36.0,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for Mikal Bridges"
+    },
+    {
+      "min": 36.28,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Clarkson misses 2-foot two point shot"
+    },
+    {
+      "min": 36.3,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 36.55,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley misses 4-foot two point shot"
+    },
+    {
+      "min": 36.6,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 36.65,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns traveling turnover"
+    },
+    {
+      "min": 36.85,
+      "home": 69,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Miles McBride shooting foul"
+    },
+    {
+      "min": 36.85,
+      "home": 69,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "James Harden makes free throw 1 of 2"
+    },
+    {
+      "min": 36.85,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "James Harden makes free throw 2 of 2"
+    },
+    {
+      "min": 37.12,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns lost ball turnover (James Harden steals)"
+    },
+    {
+      "min": 37.18,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden lost ball turnover"
+    },
+    {
+      "min": 37.18,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden loose ball foul"
+    },
+    {
+      "min": 37.43,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses driving layup"
+    },
+    {
+      "min": 37.48,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 37.8,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Sam Merrill misses 22-foot three point jumper"
+    },
+    {
+      "min": 37.83,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jose Alvarado defensive rebound"
+    },
+    {
+      "min": 38.0,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Clarkson misses driving floating jump shot"
+    },
+    {
+      "min": 38.02,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 38.02,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for Sam Merrill"
+    },
+    {
+      "min": 38.02,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Max Strus loose ball foul"
+    },
+    {
+      "min": 38.02,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Jose Alvarado"
+    },
+    {
+      "min": 38.02,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Josh Hart"
+    },
+    {
+      "min": 38.02,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Dean Wade enters the game for Max Strus"
+    },
+    {
+      "min": 38.23,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson bad pass\nturnover (Dennis Schroder steals)"
+    },
+    {
+      "min": 38.43,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 38.47,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 38.67,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson misses two point shot"
+    },
+    {
+      "min": 38.7,
+      "home": 69,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 38.72,
+      "home": 71,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes two point shot"
+    },
+    {
+      "min": 38.85,
+      "home": 71,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Miles McBride personal foul"
+    },
+    {
+      "min": 38.85,
+      "home": 71,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Miles McBride"
+    },
+    {
+      "min": 39.0,
+      "home": 71,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses 4-foot two point shot"
+    },
+    {
+      "min": 39.03,
+      "home": 71,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 39.15,
+      "home": 71,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley blocks Mikal Bridges 's 2-foot two point shot"
+    },
+    {
+      "min": 39.18,
+      "home": 71,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 39.35,
+      "home": 71,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "Dean Wade makes 23-foot three point jumper (Dennis Schroder assists)"
+    },
+    {
+      "min": 39.35,
+      "home": 71,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Clarkson shooting foul"
+    },
+    {
+      "min": 39.35,
+      "home": 71,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for Jordan Clarkson"
+    },
+    {
+      "min": 39.35,
+      "home": 71,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Dean Wade makes free throw 1 of 1"
+    },
+    {
+      "min": 39.53,
+      "home": 71,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses driving layup"
+    },
+    {
+      "min": 39.57,
+      "home": 71,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 39.68,
+      "home": 71,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 25-foot three point jumper (Dennis Schroder assists)"
+    },
+    {
+      "min": 39.93,
+      "home": 71,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges misses 26-foot three point jumper"
+    },
+    {
+      "min": 39.97,
+      "home": 71,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 40.13,
+      "home": 71,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns shooting foul"
+    },
+    {
+      "min": 40.13,
+      "home": 71,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 40.13,
+      "home": 71,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses free throw 2 of 2"
+    },
+    {
+      "min": 40.13,
+      "home": 71,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "James Harden makes free throw 1 of 2"
+    },
+    {
+      "min": 40.18,
+      "home": 71,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 40.35,
+      "home": 73,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 5-foot driving floating jump shot"
+    },
+    {
+      "min": 40.73,
+      "home": 73,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Max Strus enters the game for Dennis Schroder"
+    },
+    {
+      "min": 40.73,
+      "home": 73,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley offensive foul turnover"
+    },
+    {
+      "min": 40.73,
+      "home": 73,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen enters the game for Evan Mobley"
+    },
+    {
+      "min": 40.73,
+      "home": 73,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley offensive charge"
+    },
+    {
+      "min": 40.93,
+      "home": 73,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden blocks Jalen Brunson 's 12-foot driving floating jump shot"
+    },
+    {
+      "min": 40.98,
+      "home": 73,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 41.03,
+      "home": 76,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Landry Shamet makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 41.32,
+      "home": 76,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell out of bounds bad pass turnover"
+    },
+    {
+      "min": 41.32,
+      "home": 76,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 41.58,
+      "home": 78,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 2-foot reverse layup (Jalen Brunson assists)"
+    },
+    {
+      "min": 42.03,
+      "home": 78,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses 20-foot pullup jump shot"
+    },
+    {
+      "min": 42.07,
+      "home": 78,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 42.27,
+      "home": 80,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 4-foot two point shot"
+    },
+    {
+      "min": 42.4,
+      "home": 80,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson personal foul"
+    },
+    {
+      "min": 42.4,
+      "home": 80,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses free throw 1 of 2"
+    },
+    {
+      "min": 42.4,
+      "home": 80,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 42.4,
+      "home": 80,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley enters the game for Max Strus"
+    },
+    {
+      "min": 42.4,
+      "home": 80,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "James Harden makes free throw 2 of 2"
+    },
+    {
+      "min": 42.6,
+      "home": 82,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 3-foot two point shot"
+    },
+    {
+      "min": 42.93,
+      "home": 82,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby shooting foul"
+    },
+    {
+      "min": 42.93,
+      "home": 82,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "min": 42.93,
+      "home": 82,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 42.93,
+      "home": 82,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen misses free throw 2 of 2"
+    },
+    {
+      "min": 42.97,
+      "home": 82,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 43.22,
+      "home": 84,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 12-foot pullup jump shot"
+    },
+    {
+      "min": 43.65,
+      "home": 84,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses 27-foot three point step back jumpshot"
+    },
+    {
+      "min": 43.67,
+      "home": 84,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 43.67,
+      "home": 84,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 43.95,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 7-foot two point shot"
+    },
+    {
+      "min": 44.22,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 44.27,
+      "home": 86,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 44.5,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 26-foot three pointer"
+    },
+    {
+      "min": 44.5,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 44.5,
+      "home": 89,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Sam Merrill enters the game for Dean Wade"
+    },
+    {
+      "min": 44.85,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Evan Mobley makes 25-foot three point jumper (Sam Merrill assists)"
+    },
+    {
+      "min": 45.1,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen shooting foul"
+    },
+    {
+      "min": 45.1,
+      "home": 90,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 45.1,
+      "home": 90,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby misses free throw 2 of 2"
+    },
+    {
+      "min": 45.12,
+      "home": 90,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 45.12,
+      "home": 90,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Sam Merrill loose ball foul"
+    },
+    {
+      "min": 45.37,
+      "home": 93,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Mikal Bridges makes 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 45.72,
+      "home": 93,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses 25-foot three point jumper"
+    },
+    {
+      "min": 45.77,
+      "home": 93,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet defensive rebound"
+    },
+    {
+      "min": 45.98,
+      "home": 93,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul turnover"
+    },
+    {
+      "min": 45.98,
+      "home": 93,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul"
+    },
+    {
+      "min": 46.13,
+      "home": 93,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell misses two point shot"
+    },
+    {
+      "min": 46.15,
+      "home": 93,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 46.15,
+      "home": 93,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Jarrett Allen makes tip shot"
+    },
+    {
+      "min": 46.32,
+      "home": 93,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby misses 26-foot three point jumper"
+    },
+    {
+      "min": 46.37,
+      "home": 93,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 46.53,
+      "home": 93,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley misses 11-foot jumper"
+    },
+    {
+      "min": 46.58,
+      "home": 93,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 46.77,
+      "home": 96,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Mikal Bridges makes 24-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "min": 46.98,
+      "home": 96,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns blocks Donovan Mitchell 's 15-foot driving floating jump shot"
+    },
+    {
+      "min": 47.0,
+      "home": 96,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 99,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Landry Shamet makes 22-foot three point jumper (OG Anunoby assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 99,
+      "away": 101,
+      "period": 4,
+      "scoring": true,
+      "text": "James Harden makes 10-foot turnaround jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 2-foot two point shot"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Sam Merrill misses 26-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges misses heave jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Jarrett Allen vs. Karl-Anthony Towns (Mikal Bridges gains possession)"
+    },
+    {
+      "min": 48.25,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "James Harden shooting foul"
+    },
+    {
+      "min": 48.25,
+      "home": 102,
+      "away": 101,
+      "period": 5,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 48.25,
+      "home": 103,
+      "away": 101,
+      "period": 5,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 48.65,
+      "home": 103,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 48.95,
+      "home": 105,
+      "away": 101,
+      "period": 5,
+      "scoring": true,
+      "text": "Jalen Brunson makes 8-foot driving floating jump shot"
+    },
+    {
+      "min": 49.18,
+      "home": 105,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Donovan Mitchell misses two point shot"
+    },
+    {
+      "min": 49.23,
+      "home": 105,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 49.48,
+      "home": 105,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Jalen Brunson offensive charge"
+    },
+    {
+      "min": 49.48,
+      "home": 105,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Jalen Brunson offensive foul turnover"
+    },
+    {
+      "min": 49.68,
+      "home": 105,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley misses 24-foot three point jumper"
+    },
+    {
+      "min": 49.73,
+      "home": 105,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 50.07,
+      "home": 107,
+      "away": 101,
+      "period": 5,
+      "scoring": true,
+      "text": "OG Anunoby makes driving layup (Jalen Brunson assists)"
+    },
+    {
+      "min": 50.23,
+      "home": 107,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Mikal Bridges personal foul"
+    },
+    {
+      "min": 50.48,
+      "home": 107,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "James Harden misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 50.53,
+      "home": 107,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 50.85,
+      "home": 107,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley blocks OG Anunoby 's 5-foot driving layup"
+    },
+    {
+      "min": 50.87,
+      "home": 107,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Cavaliers defensive team rebound"
+    },
+    {
+      "min": 51.03,
+      "home": 107,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley misses 26-foot three point jumper"
+    },
+    {
+      "min": 51.08,
+      "home": 107,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 51.18,
+      "home": 110,
+      "away": 101,
+      "period": 5,
+      "scoring": true,
+      "text": "Landry Shamet makes 25-foot running jump shot (Jalen Brunson assists)"
+    },
+    {
+      "min": 51.18,
+      "home": 110,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 51.18,
+      "home": 110,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Max Strus enters the game for Jarrett Allen"
+    },
+    {
+      "min": 51.18,
+      "home": 110,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Jalen Brunson"
+    },
+    {
+      "min": 51.25,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": true,
+      "text": "Max Strus makes 25-foot three point jumper (Sam Merrill assists)"
+    },
+    {
+      "min": 51.25,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Josh Hart"
+    },
+    {
+      "min": 51.25,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 51.48,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Jalen Brunson misses driving floating jump shot"
+    },
+    {
+      "min": 51.5,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 51.5,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Sam Merrill loose ball foul"
+    },
+    {
+      "min": 51.68,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Sam Merrill personal foul"
+    },
+    {
+      "min": 51.68,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 51.68,
+      "home": 110,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "OG Anunoby misses free throw 1 of 2"
+    },
+    {
+      "min": 51.68,
+      "home": 111,
+      "away": 104,
+      "period": 5,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 51.78,
+      "home": 111,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Max Strus lost ball turnover (Mikal Bridges steals)"
+    },
+    {
+      "min": 53.0,
+      "home": 111,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Sam Merrill kicked ball violation"
+    },
+    {
+      "min": 53.0,
+      "home": 111,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "OG Anunoby misses 25-foot three point jumper"
+    },
+    {
+      "min": 53.0,
+      "home": 111,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Cavaliers defensive team rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 111,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "James Harden bad pass\nturnover (Jalen Brunson steals)"
+    },
+    {
+      "min": 53.0,
+      "home": 111,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Max Strus personal foul"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 104,
+      "period": 5,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 113,
+      "away": 104,
+      "period": 5,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 113,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "OG Anunoby personal foul"
+    },
+    {
+      "min": 53.0,
+      "home": 113,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 32-foot three point pullup jump shot"
+    },
+    {
+      "min": 53.0,
+      "home": 113,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 113,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Josh Hart"
+    },
+    {
+      "min": 53.0,
+      "home": 113,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Donovan Mitchell personal foul"
+    },
+    {
+      "min": 53.0,
+      "home": 114,
+      "away": 104,
+      "period": 5,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 114,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 53.0,
+      "home": 115,
+      "away": 104,
+      "period": 5,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 115,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 53.0,
+      "home": 115,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 115,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 53.0,
+      "home": 115,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "End of the 1st  Overtime"
+    },
+    {
+      "min": 53.0,
+      "home": 115,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 31,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 25-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen misses layup"
+    },
+    {
+      "x": 22,
+      "y": 6,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "James Harden makes 6-foot driving floating jump shot (Dean Wade assists)"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley makes free throw 2 of 2"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 35,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 25-foot three point jumper"
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 7-foot driving floating jump shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Jalen Brunson misses two point shot"
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 25-foot three pointer (Dean Wade assists)"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes running layup"
+    },
+    {
+      "x": 34,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 28,
+      "y": 9,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 9-foot floating jump shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes driving layup (Dean Wade assists)"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 49,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "James Harden misses driving layup"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Donovan Mitchell blocks OG Anunoby's driving layup"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jarrett Allen blocks Karl-Anthony Towns 's 2-foot driving floating jump shot"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus misses 23-foot three point jumper"
+    },
+    {
+      "x": 34,
+      "y": 14,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 16-foot pullup jump shot (Josh Hart assists)"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade misses 23-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Hook Driving Bank",
+      "team": "CLE",
+      "text": "Jarrett Allen misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes running layup"
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses driving floating jump shot"
+    },
+    {
+      "x": 42,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill misses 24-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder makes 23-foot three point jumper (Max Strus assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes running layup (Miles McBride assists)"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder misses 26-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "NYK",
+      "text": "Jalen Brunson makes two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes running dunk"
+    },
+    {
+      "x": 20,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder misses driving floating jump shot"
+    },
+    {
+      "x": 27,
+      "y": 15,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 14-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "NYK",
+      "text": "Mitchell Robinson makes alley oop dunk (Mikal Bridges assists)"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill misses 23-foot three point jumper"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus misses 25-foot running jump shot"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 23-foot running jump shot"
+    },
+    {
+      "x": 41,
+      "y": 11,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 19-foot pullup jump shot"
+    },
+    {
+      "x": 49,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 23-foot three point jumper"
+    },
+    {
+      "x": 39,
+      "y": 22,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 26-foot running jump shot"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder misses 23-foot three point jumper"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "CLE",
+      "text": "Sam Merrill makes running layup (Donovan Mitchell assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "CLE",
+      "text": "Sam Merrill makes free throw 1 of 1"
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes 24-foot three pointer (Mitchell Robinson assists)"
+    },
+    {
+      "x": 34,
+      "y": 13,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 15-foot fade away jump shot"
+    },
+    {
+      "x": 16,
+      "y": 27,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 19-foot fade away jump shot"
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado misses running pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "x": 12,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 24-foot three point jumper"
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 25-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado makes 1-foot driving floating jump shot (Josh Hart assists)"
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes 9-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 1-foot layup (Josh Hart assists)"
+    },
+    {
+      "x": 9,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes driving layup"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes driving layup"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes 3-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder misses driving layup"
+    },
+    {
+      "x": 24,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses 26-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade makes 23-foot three point jumper (James Harden assists)"
+    },
+    {
+      "x": 31,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado makes 8-foot driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 6,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "James Harden makes 5-foot driving floating jump shot"
+    },
+    {
+      "x": 47,
+      "y": 14,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 25-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Landry Shamet misses two point shot"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 23-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Keon Ellis makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Keon Ellis makes free throw 2 of 2"
+    },
+    {
+      "x": 36,
+      "y": 22,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill makes 24-foot three point jumper (James Harden assists)"
+    },
+    {
+      "x": 32,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 27,
+      "y": 31,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "CLE",
+      "text": "James Harden makes 30-foot running pullup jump shot"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade misses 23-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes driving layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 24,
+      "y": 5,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen misses 4-foot two point shot"
+    },
+    {
+      "x": 21,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 9-foot jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 25-foot three point jumper (Jarrett Allen assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes free throw 1 of 1"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 23-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Josh Hart makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Josh Hart makes free throw 2 of 2"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus makes 25-foot three point jumper (Evan Mobley assists)"
+    },
+    {
+      "x": 36,
+      "y": 25,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 6-foot driving floating jump shot"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 26-foot three point jumper (Evan Mobley assists)"
+    },
+    {
+      "x": 46,
+      "y": 65,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses heave jump shot"
+    },
+    {
+      "x": 49,
+      "y": 7,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses 27-foot running jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes running layup"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses 25-foot three point jumper"
+    },
+    {
+      "x": 33,
+      "y": 25,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 43,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 27-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes 22-foot three point jumper (Donovan Mitchell assists)"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes driving layup"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade makes 23-foot three point jumper (Evan Mobley assists)"
+    },
+    {
+      "x": 17,
+      "y": 13,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses 14-foot fade away jump shot"
+    },
+    {
+      "x": 45,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 25-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes running layup"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes 23-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Evan Mobley blocks Josh Hart 's 1-foot driving layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes dunk (James Harden assists)"
+    },
+    {
+      "x": 28,
+      "y": 9,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 9-foot fade away jump shot"
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 8-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus misses 26-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes running layup (OG Anunoby assists)"
+    },
+    {
+      "x": 48,
+      "y": 7,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill makes 24-foot three pointer (Jarrett Allen assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes layup (Josh Hart assists)"
+    },
+    {
+      "x": 43,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus misses 26-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 6,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen makes 5-foot layup (Dennis Schroder assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen makes layup (Dennis Schroder assists)"
+    },
+    {
+      "x": 35,
+      "y": 14,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 16-foot step back jumpshot"
+    },
+    {
+      "x": 48,
+      "y": 6,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "James Harden makes driving layup (Jarrett Allen assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Mikal Bridges makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Mikal Bridges makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 3,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes 6-foot two point shot (Donovan Mitchell assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill makes 25-foot three point jumper (Dennis Schroder assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Mitchell Robinson makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "CLE",
+      "text": "Dennis Schroder misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 12,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses running pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses tip shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 22-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes running layup"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder misses two point shot"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses running pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Dunk Shot",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses tip in dunk"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Max Strus makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Max Strus makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Mitchell Robinson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Mitchell Robinson misses free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Jordan Clarkson blocks Dennis Schroder 's 2-foot driving layup"
+    },
+    {
+      "x": 37,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 45,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 25-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson misses 2-foot two point shot"
+    },
+    {
+      "x": 22,
+      "y": 3,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 4-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "James Harden makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "James Harden makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses driving layup"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill misses 22-foot three point jumper"
+    },
+    {
+      "x": 31,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson misses driving floating jump shot"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses two point shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes two point shot"
+    },
+    {
+      "x": 27,
+      "y": 4,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "CLE",
+      "text": "James Harden misses 4-foot two point shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "NYK",
+      "text": "Evan Mobley blocks Mikal Bridges 's 2-foot two point shot"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade makes 23-foot three point jumper (Dennis Schroder assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "CLE",
+      "text": "Dean Wade makes free throw 1 of 1"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses driving layup"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 25-foot three point jumper (Dennis Schroder assists)"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "James Harden misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "James Harden makes free throw 1 of 2"
+    },
+    {
+      "x": 27,
+      "y": 6,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 5-foot driving floating jump shot"
+    },
+    {
+      "x": 16,
+      "y": 10,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "James Harden blocks Jalen Brunson 's 12-foot driving floating jump shot"
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Reverse Layup Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 2-foot reverse layup (Jalen Brunson assists)"
+    },
+    {
+      "x": 43,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 20-foot pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 4-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "James Harden misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "James Harden makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 3,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 3-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen misses free throw 2 of 2"
+    },
+    {
+      "x": 22,
+      "y": 12,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 12-foot pullup jump shot"
+    },
+    {
+      "x": 44,
+      "y": 19,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 27-foot three point step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "made": true,
+      "type": "Pullup Bank Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 7-foot two point shot"
+    },
+    {
+      "x": 33,
+      "y": 25,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 26-foot three pointer"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes 25-foot three point jumper (Sam Merrill assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby misses free throw 2 of 2"
+    },
+    {
+      "x": 34,
+      "y": 24,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 25-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen makes tip shot"
+    },
+    {
+      "x": 29,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 26-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 12,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 11-foot jumper"
+    },
+    {
+      "x": 49,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 24-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "x": 34,
+      "y": 13,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Karl-Anthony Towns blocks Donovan Mitchell 's 15-foot driving floating jump shot"
+    },
+    {
+      "x": 47,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 22-foot three point jumper (OG Anunoby assists)"
+    },
+    {
+      "x": 24,
+      "y": 11,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "CLE",
+      "text": "James Harden makes 10-foot turnaround jump shot"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 2-foot two point shot"
+    },
+    {
+      "x": 30,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill misses 26-foot three point jumper"
+    },
+    {
+      "x": 30,
+      "y": 73,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses heave jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 8,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 8-foot driving floating jump shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses two point shot"
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 24-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes driving layup (Jalen Brunson assists)"
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Evan Mobley blocks OG Anunoby 's 5-foot driving layup"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 26-foot three point jumper"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 25-foot running jump shot (Jalen Brunson assists)"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus makes 25-foot three point jumper (Sam Merrill assists)"
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": 41,
+      "y": 29,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 32-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": 38,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 26-foot three point pullup jump shot"
+    }
+  ],
+  "shot_zones": {
+    "NYK": {
+      "at_rim": {
+        "fgm": 20,
+        "fga": 32,
+        "pct": 62
+      },
+      "paint": {
+        "fgm": 10,
+        "fga": 18,
+        "pct": 56
+      },
+      "mid": {
+        "fgm": 23,
+        "fga": 27,
+        "pct": 85
+      },
+      "corner_3": {
+        "fgm": 4,
+        "fga": 18,
+        "pct": 22
+      },
+      "arc_3": {
+        "fgm": 6,
+        "fga": 26,
+        "pct": 23
+      }
+    },
+    "CLE": {
+      "at_rim": {
+        "fgm": 14,
+        "fga": 24,
+        "pct": 58
+      },
+      "paint": {
+        "fgm": 6,
+        "fga": 12,
+        "pct": 50
+      },
+      "mid": {
+        "fgm": 16,
+        "fga": 20,
+        "pct": 80
+      },
+      "corner_3": {
+        "fgm": 6,
+        "fga": 23,
+        "pct": 26
+      },
+      "arc_3": {
+        "fgm": 10,
+        "fga": 35,
+        "pct": 29
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

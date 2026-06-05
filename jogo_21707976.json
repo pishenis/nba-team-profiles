@@ -1,0 +1,7084 @@
+{
+  "game_id": "21707976",
+  "date": "2026-05-12",
+  "home": "SAS",
+  "away": "MIN",
+  "home_pts": 126,
+  "away_pts": 97,
+  "winner": "SAS",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "SAS": [
+        34,
+        25,
+        32,
+        35
+      ],
+      "MIN": [
+        30,
+        17,
+        26,
+        24
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "46:43",
+    "time_leading_away_fmt": "0:00",
+    "time_tied_fmt": "1:17",
+    "lead_changes": 1,
+    "ties": 3,
+    "best_run_home": {
+      "pts_home": 21,
+      "pts_away": 6,
+      "start_min": 31.88,
+      "end_min": 36.18
+    },
+    "best_run_away": {
+      "pts_away": 14,
+      "pts_home": 1,
+      "start_min": 20.9,
+      "end_min": 25.63
+    },
+    "max_consec_home": 11,
+    "max_consec_away": 10
+  },
+  "four_factors": {
+    "SAS": {
+      "efg": 0.577,
+      "tov": 0.144,
+      "oreb": 0,
+      "ftr": 0.365,
+      "opp_efg": 0.471,
+      "opp_tov": 0.114,
+      "opp_oreb": 0.154,
+      "opp_ftr": 0.269
+    },
+    "MIN": {
+      "efg": 0.465,
+      "tov": 0.139,
+      "oreb": 0.029,
+      "ftr": 0.193,
+      "opp_efg": 0.577,
+      "opp_tov": 0.181,
+      "opp_oreb": 0.2,
+      "opp_ftr": 0.327
+    }
+  },
+  "misc": {
+    "SAS": {
+      "pts_paint": 68,
+      "pts_fb": 19,
+      "pts_2nd_chance": 13,
+      "pts_off_tov": 19
+    },
+    "MIN": {
+      "pts_paint": 36,
+      "pts_fb": 15,
+      "pts_2nd_chance": 12,
+      "pts_off_tov": 18
+    }
+  },
+  "hustle": {
+    "SAS": {
+      "deflections": 19,
+      "charges_drawn": 0,
+      "contested_shots": 45,
+      "contested_2pt": 27,
+      "contested_3pt": 18,
+      "loose_balls_recovered": 4,
+      "screen_assists": 11
+    },
+    "MIN": {
+      "deflections": 14,
+      "charges_drawn": 1,
+      "contested_shots": 34,
+      "contested_2pt": 18,
+      "contested_3pt": 16,
+      "loose_balls_recovered": 0,
+      "screen_assists": 5
+    }
+  },
+  "box_score": {
+    "SAS": [
+      {
+        "name": "J. Champagnie",
+        "minutes": "29",
+        "pos": "F",
+        "starter": true,
+        "pts": 8,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 9,
+        "fg3m": 2,
+        "fg3a": 8,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 5,
+        "plus_minus": 15,
+        "off_rating": 124.6,
+        "def_rating": 98.4,
+        "ts_pct": 0.444,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "11:43",
+        "mu_fga": 13,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.462,
+        "mu_3pa": 5,
+        "mu_3pm": 2,
+        "mu_pts": 17,
+        "mu_ast": 3
+      },
+      {
+        "name": "D. Vassell",
+        "minutes": "32",
+        "pos": "G",
+        "starter": true,
+        "pts": 12,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 10,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 2,
+        "fta": 3,
+        "pf": 3,
+        "plus_minus": 22,
+        "off_rating": 118.3,
+        "def_rating": 87.3,
+        "ts_pct": 0.53,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "13:09",
+        "mu_fga": 5,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.2,
+        "mu_3pa": 5,
+        "mu_3pm": 1,
+        "mu_pts": 4,
+        "mu_ast": 2
+      },
+      {
+        "name": "V. Wembanyama",
+        "minutes": "33",
+        "pos": "F",
+        "starter": true,
+        "pts": 27,
+        "reb": 17,
+        "oreb": 2,
+        "ast": 5,
+        "stl": 0,
+        "blk": 3,
+        "tov": 4,
+        "fgm": 9,
+        "fga": 16,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 7,
+        "fta": 9,
+        "pf": 1,
+        "plus_minus": 24,
+        "off_rating": 129.4,
+        "def_rating": 92.8,
+        "ts_pct": 0.676,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 15,
+        "mu_min": "12:42",
+        "mu_fga": 20,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.35,
+        "mu_3pa": 7,
+        "mu_3pm": 2,
+        "mu_pts": 16,
+        "mu_ast": 2
+      },
+      {
+        "name": "D. Fox",
+        "minutes": "35",
+        "pos": "G",
+        "starter": true,
+        "pts": 18,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 5,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 15,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 5,
+        "fta": 5,
+        "pf": 2,
+        "plus_minus": 24,
+        "off_rating": 127.4,
+        "def_rating": 95.8,
+        "ts_pct": 0.523,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "13:40",
+        "mu_fga": 9,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 5
+      },
+      {
+        "name": "S. Castle",
+        "minutes": "27",
+        "pos": "G",
+        "starter": true,
+        "pts": 17,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 6,
+        "stl": 2,
+        "blk": 1,
+        "tov": 4,
+        "fgm": 8,
+        "fga": 11,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 1,
+        "fta": 3,
+        "pf": 3,
+        "plus_minus": 4,
+        "off_rating": 111.7,
+        "def_rating": 106.8,
+        "ts_pct": 0.69,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "10:60",
+        "mu_fga": 15,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.467,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 17,
+        "mu_ast": 2
+      },
+      {
+        "name": "H. Barnes",
+        "minutes": "04",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 100,
+        "def_rating": 100,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:12",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "B. Biyombo",
+        "minutes": "02",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 4,
+        "off_rating": 133.3,
+        "def_rating": 80,
+        "ts_pct": 0.5,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "0:29",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "C. Bryant",
+        "minutes": "13",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 9,
+        "off_rating": 103.3,
+        "def_rating": 71,
+        "ts_pct": 1.5,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "4:42",
+        "mu_fga": 5,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 0
+      },
+      {
+        "name": "D. Harper",
+        "minutes": "25",
+        "pos": "",
+        "starter": false,
+        "pts": 12,
+        "reb": 10,
+        "oreb": 5,
+        "ast": 2,
+        "stl": 1,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 5,
+        "fga": 10,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": 13,
+        "off_rating": 114.5,
+        "def_rating": 90.9,
+        "ts_pct": 0.551,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "9:39",
+        "mu_fga": 6,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 14,
+        "mu_ast": 2
+      },
+      {
+        "name": "K. Johnson",
+        "minutes": "22",
+        "pos": "",
+        "starter": false,
+        "pts": 21,
+        "reb": 2,
+        "oreb": 2,
+        "ast": 0,
+        "stl": 2,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 8,
+        "fga": 11,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 4,
+        "fta": 5,
+        "pf": 3,
+        "plus_minus": 17,
+        "off_rating": 131.9,
+        "def_rating": 93.8,
+        "ts_pct": 0.795,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "8:50",
+        "mu_fga": 6,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 7,
+        "mu_ast": 2
+      },
+      {
+        "name": "L. Kornet",
+        "minutes": "11",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 2,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -2,
+        "off_rating": 96,
+        "def_rating": 100,
+        "ts_pct": 0,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "4:41",
+        "mu_fga": 7,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.571,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 11,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. McLaughlin",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 7,
+        "off_rating": 137.5,
+        "def_rating": 50,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:02",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "K. Olynyk",
+        "minutes": "02",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 4,
+        "off_rating": 133.3,
+        "def_rating": 80,
+        "ts_pct": 1.5,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "0:29",
+        "mu_fga": 3,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Plumlee",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "L. Waters III",
+        "minutes": "02",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 4,
+        "off_rating": 133.3,
+        "def_rating": 80,
+        "ts_pct": 0.75,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "0:29",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      }
+    ],
+    "MIN": [
+      {
+        "name": "J. McDaniels",
+        "minutes": "30",
+        "pos": "F",
+        "starter": true,
+        "pts": 17,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 6,
+        "fga": 13,
+        "fg3m": 3,
+        "fg3a": 7,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 5,
+        "plus_minus": -12,
+        "off_rating": 93.9,
+        "def_rating": 112.1,
+        "ts_pct": 0.612,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "11:48",
+        "mu_fga": 13,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.308,
+        "mu_3pa": 5,
+        "mu_3pm": 1,
+        "mu_pts": 11,
+        "mu_ast": 4
+      },
+      {
+        "name": "J. Randle",
+        "minutes": "36",
+        "pos": "F",
+        "starter": true,
+        "pts": 17,
+        "reb": 10,
+        "oreb": 5,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 6,
+        "fga": 17,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 5,
+        "fta": 7,
+        "pf": 3,
+        "plus_minus": -22,
+        "off_rating": 89.7,
+        "def_rating": 119.5,
+        "ts_pct": 0.423,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "14:09",
+        "mu_fga": 10,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 12,
+        "mu_ast": 2
+      },
+      {
+        "name": "R. Gobert",
+        "minutes": "23",
+        "pos": "C",
+        "starter": true,
+        "pts": 4,
+        "reb": 5,
+        "oreb": 3,
+        "ast": 0,
+        "stl": 2,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": -15,
+        "off_rating": 91.3,
+        "def_rating": 126.7,
+        "ts_pct": 0.41,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 9,
+        "mu_min": "8:46",
+        "mu_fga": 11,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.636,
+        "mu_3pa": 5,
+        "mu_3pm": 3,
+        "mu_pts": 17,
+        "mu_ast": 2
+      },
+      {
+        "name": "A. Edwards",
+        "minutes": "39",
+        "pos": "G",
+        "starter": true,
+        "pts": 20,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 4,
+        "fgm": 6,
+        "fga": 13,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 7,
+        "fta": 7,
+        "pf": 0,
+        "plus_minus": -9,
+        "off_rating": 98.8,
+        "def_rating": 111.9,
+        "ts_pct": 0.622,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "15:07",
+        "mu_fga": 18,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 18,
+        "mu_ast": 4
+      },
+      {
+        "name": "A. Dosunmu",
+        "minutes": "33",
+        "pos": "G",
+        "starter": true,
+        "pts": 16,
+        "reb": 9,
+        "oreb": 0,
+        "ast": 4,
+        "stl": 3,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 7,
+        "fga": 14,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 4,
+        "plus_minus": -20,
+        "off_rating": 97.1,
+        "def_rating": 126.1,
+        "ts_pct": 0.538,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "13:26",
+        "mu_fga": 10,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 15,
+        "mu_ast": 3
+      },
+      {
+        "name": "K. Anderson",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 1,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 0,
+        "plus_minus": -7,
+        "off_rating": 50,
+        "def_rating": 137.5,
+        "ts_pct": 0.266,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:11",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. Beringer",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 3,
+        "fta": 4,
+        "pf": 0,
+        "plus_minus": -7,
+        "off_rating": 50,
+        "def_rating": 137.5,
+        "ts_pct": 0.543,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "1:11",
+        "mu_fga": 2,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 2
+      },
+      {
+        "name": "J. Clark",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -7,
+        "off_rating": 50,
+        "def_rating": 137.5,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:11",
+        "mu_fga": 1,
+        "mu_fgm": 1,
+        "mu_fg_pct": 1,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 3,
+        "mu_ast": 1
+      },
+      {
+        "name": "M. Conley",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 3,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -6,
+        "off_rating": 106.3,
+        "def_rating": 125,
+        "ts_pct": 0.833,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "5:51",
+        "mu_fga": 5,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 2
+      },
+      {
+        "name": "N. Hyland",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -7,
+        "off_rating": 50,
+        "def_rating": 137.5,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:11",
+        "mu_fga": 3,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 5,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Ingles",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Phillips",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -7,
+        "off_rating": 50,
+        "def_rating": 137.5,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:11",
+        "mu_fga": 1,
+        "mu_fgm": 1,
+        "mu_fg_pct": 1,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 3,
+        "mu_ast": 1
+      },
+      {
+        "name": "N. Reid",
+        "minutes": "31",
+        "pos": "",
+        "starter": false,
+        "pts": 12,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 10,
+        "fg3m": 3,
+        "fg3a": 7,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 4,
+        "plus_minus": -21,
+        "off_rating": 94,
+        "def_rating": 125.4,
+        "ts_pct": 0.551,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "12:09",
+        "mu_fga": 9,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.444,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 10,
+        "mu_ast": 2
+      },
+      {
+        "name": "T. Shannon Jr.",
+        "minutes": "18",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 4,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 0,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 4,
+        "plus_minus": -5,
+        "off_rating": 105,
+        "def_rating": 114.6,
+        "ts_pct": 0.17,
+        "deflections": 2,
+        "charges_drawn": 1,
+        "contested_shots": 2,
+        "mu_min": "7:02",
+        "mu_fga": 13,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.692,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 22,
+        "mu_ast": 1
+      },
+      {
+        "name": "D. DiVincenzo",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Rudy Gobert vs. Victor Wembanyama (Stephon Castle gains possession)"
+    },
+    {
+      "min": 0.28,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 8-foot two point shot (Stephon Castle assists)"
+    },
+    {
+      "min": 0.28,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Julius Randle shooting foul"
+    },
+    {
+      "min": 0.28,
+      "home": 3,
+      "away": 0,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 1 of 1"
+    },
+    {
+      "min": 0.4,
+      "home": 3,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell personal foul"
+    },
+    {
+      "min": 0.7,
+      "home": 3,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 1.0,
+      "home": 3,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "min": 1.05,
+      "home": 3,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 1.15,
+      "home": 3,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Julius Randle makes 14-foot running pullup jump shot"
+    },
+    {
+      "min": 1.48,
+      "home": 3,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 25-foot three point jumper"
+    },
+    {
+      "min": 1.55,
+      "home": 3,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaden McDaniels defensive rebound"
+    },
+    {
+      "min": 1.67,
+      "home": 3,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle shooting foul"
+    },
+    {
+      "min": 1.67,
+      "home": 3,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Anthony Edwards makes free throw 2 of 3"
+    },
+    {
+      "min": 1.67,
+      "home": 3,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Anthony Edwards makes free throw 3 of 3"
+    },
+    {
+      "min": 1.67,
+      "home": 3,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Anthony Edwards makes free throw 1 of 3"
+    },
+    {
+      "min": 1.82,
+      "home": 3,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Rudy Gobert flagrant foul type 1"
+    },
+    {
+      "min": 1.82,
+      "home": 3,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "(10:11) [Timberwolves] REF-INITIATED REVIEW (CALL OVERTURNED)"
+    },
+    {
+      "min": 1.82,
+      "home": 4,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw flagrant 1 of 3"
+    },
+    {
+      "min": 1.82,
+      "home": 4,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 1.82,
+      "home": 5,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw flagrant 3 of 3"
+    },
+    {
+      "min": 1.82,
+      "home": 4,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama misses free throw flagrant 2 of 3"
+    },
+    {
+      "min": 1.95,
+      "home": 5,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "min": 1.98,
+      "home": 5,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive rebound"
+    },
+    {
+      "min": 2.0,
+      "home": 7,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes tip shot"
+    },
+    {
+      "min": 2.3,
+      "home": 7,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Edwards misses 29-foot three point pullup jump shot"
+    },
+    {
+      "min": 2.35,
+      "home": 7,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 2.48,
+      "home": 9,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 3-foot turnaround jump shot"
+    },
+    {
+      "min": 2.68,
+      "home": 9,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Julius Randle misses 27-foot three point jumper"
+    },
+    {
+      "min": 2.7,
+      "home": 9,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Rudy Gobert offensive rebound"
+    },
+    {
+      "min": 2.72,
+      "home": 9,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Rudy Gobert makes dunk"
+    },
+    {
+      "min": 2.97,
+      "home": 12,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 23-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 3.2,
+      "home": 12,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaden McDaniels misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 3.28,
+      "home": 12,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 3.33,
+      "home": 15,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 23-foot running jump shot (Victor Wembanyama assists)"
+    },
+    {
+      "min": 3.8,
+      "home": 15,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Ayo Dosunmu makes 13-foot pullup jump shot"
+    },
+    {
+      "min": 3.87,
+      "home": 15,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Timberwolves delay of game violation"
+    },
+    {
+      "min": 4.2,
+      "home": 17,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 1-foot driving dunk (Stephon Castle assists)"
+    },
+    {
+      "min": 4.2,
+      "home": 17,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Timberwolves Full timeout"
+    },
+    {
+      "min": 4.38,
+      "home": 17,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Ayo Dosunmu misses driving floating jump shot"
+    },
+    {
+      "min": 4.43,
+      "home": 17,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 4.57,
+      "home": 17,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Julius Randle loose ball foul"
+    },
+    {
+      "min": 4.57,
+      "home": 17,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Naz Reid enters the game for Ayo Dosunmu"
+    },
+    {
+      "min": 4.57,
+      "home": 17,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Mike Conley enters the game for Julius Randle"
+    },
+    {
+      "min": 4.75,
+      "home": 19,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 7-foot floating jump shot"
+    },
+    {
+      "min": 5.0,
+      "home": 19,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaden McDaniels misses driving floating jump shot"
+    },
+    {
+      "min": 5.02,
+      "home": 19,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 5.15,
+      "home": 21,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes driving layup"
+    },
+    {
+      "min": 5.45,
+      "home": 21,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Edwards misses driving floating jump shot"
+    },
+    {
+      "min": 5.48,
+      "home": 21,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 5.72,
+      "home": 24,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 25-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 5.98,
+      "home": 24,
+      "away": 11,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaden McDaniels makes 3-foot two point shot (Mike Conley assists)"
+    },
+    {
+      "min": 6.08,
+      "home": 24,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie misses 24-foot three point jumper"
+    },
+    {
+      "min": 6.15,
+      "home": 24,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Rudy Gobert defensive rebound"
+    },
+    {
+      "min": 6.27,
+      "home": 24,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox personal foul"
+    },
+    {
+      "min": 6.27,
+      "home": 24,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Julian Champagnie"
+    },
+    {
+      "min": 6.27,
+      "home": 24,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 6.27,
+      "home": 24,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. enters the game for Rudy Gobert"
+    },
+    {
+      "min": 6.27,
+      "home": 24,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 6.48,
+      "home": 24,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Naz Reid makes 23-foot three pointer (Terrence Shannon Jr. assists)"
+    },
+    {
+      "min": 6.92,
+      "home": 26,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Keldon Johnson makes 6-foot pullup jump shot (Devin Vassell assists)"
+    },
+    {
+      "min": 7.13,
+      "home": 26,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaden McDaniels lost ball turnover (Dylan Harper steals)"
+    },
+    {
+      "min": 7.18,
+      "home": 26,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell misses 23-foot running jump shot"
+    },
+    {
+      "min": 7.25,
+      "home": 26,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaden McDaniels defensive rebound"
+    },
+    {
+      "min": 7.32,
+      "home": 26,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. lost ball turnover (Keldon Johnson steals)"
+    },
+    {
+      "min": 7.43,
+      "home": 26,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson misses 24-foot three point jumper"
+    },
+    {
+      "min": 7.48,
+      "home": 26,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Naz Reid defensive rebound"
+    },
+    {
+      "min": 7.68,
+      "home": 26,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Mike Conley makes 6-foot turnaround jump shot"
+    },
+    {
+      "min": 8.03,
+      "home": 26,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses 14-foot pullup jump shot"
+    },
+    {
+      "min": 8.07,
+      "home": 26,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Mike Conley defensive rebound"
+    },
+    {
+      "min": 8.18,
+      "home": 26,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Edwards out of bounds lost ball turnover"
+    },
+    {
+      "min": 8.18,
+      "home": 26,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Ayo Dosunmu enters the game for Jaden McDaniels"
+    },
+    {
+      "min": 8.42,
+      "home": 28,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Keldon Johnson makes 3-foot two point shot"
+    },
+    {
+      "min": 8.42,
+      "home": 28,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. shooting foul"
+    },
+    {
+      "min": 8.42,
+      "home": 28,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson misses free throw 1 of 1"
+    },
+    {
+      "min": 8.47,
+      "home": 28,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Naz Reid defensive rebound"
+    },
+    {
+      "min": 8.65,
+      "home": 28,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Anthony Edwards makes 28-foot three point step back jumpshot (Mike Conley assists)"
+    },
+    {
+      "min": 8.82,
+      "home": 28,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Naz Reid personal foul"
+    },
+    {
+      "min": 8.82,
+      "home": 28,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses free throw 2 of 2"
+    },
+    {
+      "min": 8.82,
+      "home": 28,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses free throw 1 of 2"
+    },
+    {
+      "min": 8.82,
+      "home": 28,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 8.82,
+      "home": 28,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Devin Vassell"
+    },
+    {
+      "min": 8.87,
+      "home": 28,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 9.02,
+      "home": 28,
+      "away": 22,
+      "period": 1,
+      "scoring": true,
+      "text": "Mike Conley makes 23-foot three point jumper (Terrence Shannon Jr. assists)"
+    },
+    {
+      "min": 9.15,
+      "home": 28,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper out of bounds lost ball turnover"
+    },
+    {
+      "min": 9.15,
+      "home": 28,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 9.15,
+      "home": 28,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 9.33,
+      "home": 28,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kornet shooting foul"
+    },
+    {
+      "min": 9.33,
+      "home": 28,
+      "away": 23,
+      "period": 1,
+      "scoring": true,
+      "text": "Terrence Shannon Jr. makes free throw 1 of 2"
+    },
+    {
+      "min": 9.33,
+      "home": 28,
+      "away": 24,
+      "period": 1,
+      "scoring": true,
+      "text": "Terrence Shannon Jr. makes free throw 2 of 2"
+    },
+    {
+      "min": 9.6,
+      "home": 28,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson offensive foul turnover"
+    },
+    {
+      "min": 9.6,
+      "home": 28,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson offensive charge"
+    },
+    {
+      "min": 9.6,
+      "home": 28,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 9.88,
+      "home": 28,
+      "away": 26,
+      "period": 1,
+      "scoring": true,
+      "text": "Anthony Edwards makes 16-foot pullup jump shot (Ayo Dosunmu assists)"
+    },
+    {
+      "min": 10.02,
+      "home": 28,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie misses 26-foot three point jumper"
+    },
+    {
+      "min": 10.05,
+      "home": 28,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson offensive rebound"
+    },
+    {
+      "min": 10.05,
+      "home": 30,
+      "away": 26,
+      "period": 1,
+      "scoring": true,
+      "text": "Keldon Johnson makes tip in dunk"
+    },
+    {
+      "min": 10.28,
+      "home": 30,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaden McDaniels enters the game for Anthony Edwards"
+    },
+    {
+      "min": 10.4,
+      "home": 30,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaden McDaniels misses 5-foot pullup jump shot"
+    },
+    {
+      "min": 10.42,
+      "home": 30,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 10.67,
+      "home": 30,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaden McDaniels shooting foul"
+    },
+    {
+      "min": 10.67,
+      "home": 31,
+      "away": 26,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 10.67,
+      "home": 32,
+      "away": 26,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 10.88,
+      "home": 32,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Naz Reid misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 10.95,
+      "home": 32,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama lost ball turnover (Ayo Dosunmu steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 28,
+      "period": 1,
+      "scoring": true,
+      "text": "Ayo Dosunmu makes running layup"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 28,
+      "period": 1,
+      "scoring": false,
+      "text": "Mike Conley shooting foul"
+    },
+    {
+      "min": 12.0,
+      "home": 33,
+      "away": 28,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 28,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 2 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 30,
+      "period": 1,
+      "scoring": true,
+      "text": "Naz Reid makes driving layup (Terrence Shannon Jr. assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson misses 26-foot three point jumper"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Keldon Johnson"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Julius Randle enters the game for Mike Conley"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Julian Champagnie"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant enters the game for Dylan Harper"
+    },
+    {
+      "min": 12.28,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Julius Randle misses 13-foot fade away jump shot"
+    },
+    {
+      "min": 12.33,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant defensive rebound"
+    },
+    {
+      "min": 12.42,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant lost ball turnover (Ayo Dosunmu steals)"
+    },
+    {
+      "min": 12.48,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Naz Reid misses 23-foot running jump shot"
+    },
+    {
+      "min": 12.53,
+      "home": 34,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 12.9,
+      "home": 37,
+      "away": 30,
+      "period": 2,
+      "scoring": true,
+      "text": "Carter Bryant makes 26-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "min": 13.37,
+      "home": 37,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle blocks Terrence Shannon Jr. 's 23-foot three point jumper"
+    },
+    {
+      "min": 13.4,
+      "home": 37,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 13.45,
+      "home": 40,
+      "away": 30,
+      "period": 2,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 23-foot running jump shot (Carter Bryant assists)"
+    },
+    {
+      "min": 13.67,
+      "home": 40,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Julius Randle misses 23-foot three point jumper"
+    },
+    {
+      "min": 13.72,
+      "home": 40,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 13.75,
+      "home": 42,
+      "away": 30,
+      "period": 2,
+      "scoring": true,
+      "text": "Stephon Castle makes 2-foot running pullup jump shot (De'Aaron Fox assists)"
+    },
+    {
+      "min": 13.75,
+      "home": 42,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. shooting foul"
+    },
+    {
+      "min": 13.75,
+      "home": 42,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Anthony Edwards enters the game for Terrence Shannon Jr."
+    },
+    {
+      "min": 13.75,
+      "home": 43,
+      "away": 30,
+      "period": 2,
+      "scoring": true,
+      "text": "Stephon Castle makes free throw 1 of 1"
+    },
+    {
+      "min": 13.85,
+      "home": 43,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle personal foul"
+    },
+    {
+      "min": 13.97,
+      "home": 43,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Naz Reid's driving layup"
+    },
+    {
+      "min": 14.0,
+      "home": 43,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 14.12,
+      "home": 43,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama out of bounds bad pass turnover"
+    },
+    {
+      "min": 14.23,
+      "home": 43,
+      "away": 33,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaden McDaniels makes 24-foot three pointer"
+    },
+    {
+      "min": 14.38,
+      "home": 43,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaden McDaniels loose ball foul"
+    },
+    {
+      "min": 14.38,
+      "home": 43,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 14.57,
+      "home": 43,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper misses 23-foot three point jumper"
+    },
+    {
+      "min": 14.63,
+      "home": 43,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Naz Reid defensive rebound"
+    },
+    {
+      "min": 14.75,
+      "home": 43,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaden McDaniels misses 23-foot three point step back jumpshot"
+    },
+    {
+      "min": 14.78,
+      "home": 43,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 14.97,
+      "home": 45,
+      "away": 33,
+      "period": 2,
+      "scoring": true,
+      "text": "Stephon Castle makes driving layup"
+    },
+    {
+      "min": 14.97,
+      "home": 45,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Timberwolves Full timeout"
+    },
+    {
+      "min": 14.97,
+      "home": 45,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. enters the game for Ayo Dosunmu"
+    },
+    {
+      "min": 14.97,
+      "home": 45,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Rudy Gobert enters the game for Naz Reid"
+    },
+    {
+      "min": 14.97,
+      "home": 45,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 15.37,
+      "home": 45,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Anthony Edwards bad pass\nturnover (Luke Kornet steals)"
+    },
+    {
+      "min": 15.45,
+      "home": 45,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell misses 24-foot running jump shot"
+    },
+    {
+      "min": 15.48,
+      "home": 45,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Julius Randle defensive rebound"
+    },
+    {
+      "min": 15.57,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Julius Randle makes 5-foot driving floating jump shot"
+    },
+    {
+      "min": 15.92,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 15.93,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Julius Randle defensive rebound"
+    },
+    {
+      "min": 16.03,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. misses two point shot"
+    },
+    {
+      "min": 16.07,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaden McDaniels offensive rebound"
+    },
+    {
+      "min": 16.1,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaden McDaniels misses 24-foot three point jumper"
+    },
+    {
+      "min": 16.13,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 16.2,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle offensive foul"
+    },
+    {
+      "min": 16.2,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle offensive foul turnover"
+    },
+    {
+      "min": 16.2,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Stephon Castle"
+    },
+    {
+      "min": 16.2,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs delay of game violation"
+    },
+    {
+      "min": 16.52,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Anthony Edwards misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 16.55,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 16.67,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson misses driving floating jump shot"
+    },
+    {
+      "min": 16.7,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Rudy Gobert defensive rebound"
+    },
+    {
+      "min": 16.82,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Julius Randle misses 8-foot pullup jump shot"
+    },
+    {
+      "min": 16.85,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 16.95,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell misses 24-foot running jump shot"
+    },
+    {
+      "min": 16.98,
+      "home": 45,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson offensive rebound"
+    },
+    {
+      "min": 17.0,
+      "home": 47,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Keldon Johnson makes tip shot"
+    },
+    {
+      "min": 17.28,
+      "home": 47,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. out of bounds bad pass turnover"
+    },
+    {
+      "min": 17.47,
+      "home": 49,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Dylan Harper makes 3-foot two point shot"
+    },
+    {
+      "min": 17.65,
+      "home": 49,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell shooting foul"
+    },
+    {
+      "min": 17.65,
+      "home": 49,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaden McDaniels makes free throw 1 of 2"
+    },
+    {
+      "min": 17.65,
+      "home": 49,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu enters the game for Rudy Gobert"
+    },
+    {
+      "min": 17.65,
+      "home": 49,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Luke Kornet"
+    },
+    {
+      "min": 17.65,
+      "home": 49,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Mike Conley enters the game for Terrence Shannon Jr."
+    },
+    {
+      "min": 17.65,
+      "home": 49,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaden McDaniels makes free throw 2 of 2"
+    },
+    {
+      "min": 17.88,
+      "home": 52,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Devin Vassell makes 26-foot three point jumper (Dylan Harper assists)"
+    },
+    {
+      "min": 18.22,
+      "home": 52,
+      "away": 39,
+      "period": 2,
+      "scoring": true,
+      "text": "Ayo Dosunmu makes layup (Jaden McDaniels assists)"
+    },
+    {
+      "min": 18.45,
+      "home": 52,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu blocks Dylan Harper's driving floating jump shot"
+    },
+    {
+      "min": 18.48,
+      "home": 52,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 18.57,
+      "home": 52,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Mike Conley misses 24-foot running jump shot"
+    },
+    {
+      "min": 18.65,
+      "home": 52,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 18.83,
+      "home": 52,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "min": 18.87,
+      "home": 52,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 18.9,
+      "home": 52,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper shooting foul"
+    },
+    {
+      "min": 18.9,
+      "home": 52,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu misses free throw 2 of 2"
+    },
+    {
+      "min": 18.9,
+      "home": 52,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Ayo Dosunmu makes free throw 1 of 2"
+    },
+    {
+      "min": 18.98,
+      "home": 52,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 18.9,
+      "home": 52,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 18.9,
+      "home": 52,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Naz Reid enters the game for Jaden McDaniels"
+    },
+    {
+      "min": 18.9,
+      "home": 52,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Harrison Barnes enters the game for Carter Bryant"
+    },
+    {
+      "min": 18.9,
+      "home": 52,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Dylan Harper"
+    },
+    {
+      "min": 19.2,
+      "home": 54,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Devin Vassell makes alley oop dunk (Harrison Barnes assists)"
+    },
+    {
+      "min": 19.65,
+      "home": 54,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 19.85,
+      "home": 56,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 15-foot pullup jump shot"
+    },
+    {
+      "min": 19.97,
+      "home": 56,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Devin Vassell"
+    },
+    {
+      "min": 20.2,
+      "home": 56,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Naz Reid misses driving floating jump shot"
+    },
+    {
+      "min": 20.23,
+      "home": 56,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 20.28,
+      "home": 56,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson offensive foul turnover"
+    },
+    {
+      "min": 20.28,
+      "home": 56,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson offensive foul"
+    },
+    {
+      "min": 20.35,
+      "home": 56,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 20.42,
+      "home": 56,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 20.6,
+      "home": 58,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 1-foot alley oop dunk (De'Aaron Fox assists)"
+    },
+    {
+      "min": 20.9,
+      "home": 58,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Ayo Dosunmu makes driving dunk (Anthony Edwards assists)"
+    },
+    {
+      "min": 21.2,
+      "home": 58,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu personal foul"
+    },
+    {
+      "min": 21.2,
+      "home": 58,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for Keldon Johnson"
+    },
+    {
+      "min": 21.33,
+      "home": 58,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 8-foot turnaround jump shot"
+    },
+    {
+      "min": 21.37,
+      "home": 58,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 21.6,
+      "home": 58,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper shooting foul"
+    },
+    {
+      "min": 21.6,
+      "home": 58,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Julius Randle makes free throw 1 of 2"
+    },
+    {
+      "min": 21.6,
+      "home": 58,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaden McDaniels enters the game for Mike Conley"
+    },
+    {
+      "min": 21.6,
+      "home": 58,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Julius Randle makes free throw 2 of 2"
+    },
+    {
+      "min": 21.6,
+      "home": 58,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Naz Reid technical foul"
+    },
+    {
+      "min": 21.6,
+      "home": 59,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes technical free throw"
+    },
+    {
+      "min": 21.9,
+      "home": 59,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 11-foot fade away jump shot"
+    },
+    {
+      "min": 21.93,
+      "home": 59,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 21.93,
+      "home": 59,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper misses two point shot"
+    },
+    {
+      "min": 21.95,
+      "home": 59,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Harrison Barnes offensive rebound"
+    },
+    {
+      "min": 22.02,
+      "home": 59,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 22.05,
+      "home": 59,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 22.13,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Naz Reid makes 24-foot running jump shot (Ayo Dosunmu assists)"
+    },
+    {
+      "min": 22.48,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaden McDaniels personal foul"
+    },
+    {
+      "min": 22.48,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Harrison Barnes"
+    },
+    {
+      "min": 22.48,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Rudy Gobert enters the game for Jaden McDaniels"
+    },
+    {
+      "min": 22.65,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 24-foot three point jumper"
+    },
+    {
+      "min": 22.7,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 22.95,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Rudy Gobert 's 1-foot dunk"
+    },
+    {
+      "min": 23.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox misses running pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Julius Randle defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Rudy Gobert offensive foul"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Rudy Gobert offensive foul turnover"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell misses 26-foot three point jumper"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Naz Reid defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Julius Randle misses 16-foot fade away jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Timberwolves offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Dylan Harper"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaden McDaniels enters the game for Naz Reid"
+    },
+    {
+      "min": 24.23,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": true,
+      "text": "Ayo Dosunmu makes 23-foot three point jumper (Anthony Edwards assists)"
+    },
+    {
+      "min": 24.58,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell misses 25-foot three point jumper"
+    },
+    {
+      "min": 24.62,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 24.77,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Julius Randle misses 25-foot three point jumper"
+    },
+    {
+      "min": 24.82,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 24.9,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu blocks De'Aaron Fox 's 6-foot driving layup"
+    },
+    {
+      "min": 24.92,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu defensive rebound"
+    },
+    {
+      "min": 25.13,
+      "home": 59,
+      "away": 50,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox shooting foul"
+    },
+    {
+      "min": 25.13,
+      "home": 59,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Anthony Edwards makes free throw 1 of 2"
+    },
+    {
+      "min": 25.13,
+      "home": 59,
+      "away": 52,
+      "period": 3,
+      "scoring": true,
+      "text": "Anthony Edwards makes free throw 2 of 2"
+    },
+    {
+      "min": 25.38,
+      "home": 59,
+      "away": 52,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell bad pass\nturnover (Jaden McDaniels steals)"
+    },
+    {
+      "min": 25.63,
+      "home": 59,
+      "away": 54,
+      "period": 3,
+      "scoring": true,
+      "text": "Anthony Edwards makes 15-foot jumper"
+    },
+    {
+      "min": 25.77,
+      "home": 59,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu personal foul"
+    },
+    {
+      "min": 25.92,
+      "home": 61,
+      "away": 54,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes 5-foot driving floating jump shot"
+    },
+    {
+      "min": 26.1,
+      "home": 61,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie personal foul"
+    },
+    {
+      "min": 26.37,
+      "home": 61,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu misses 10-foot pullup jump shot"
+    },
+    {
+      "min": 26.4,
+      "home": 61,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 26.4,
+      "home": 61,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Rudy Gobert personal foul"
+    },
+    {
+      "min": 26.65,
+      "home": 61,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox misses driving layup"
+    },
+    {
+      "min": 26.67,
+      "home": 61,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaden McDaniels defensive rebound"
+    },
+    {
+      "min": 26.73,
+      "home": 61,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie personal foul"
+    },
+    {
+      "min": 26.97,
+      "home": 61,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaden McDaniels makes 23-foot three point jumper (Julius Randle assists)"
+    },
+    {
+      "min": 27.2,
+      "home": 61,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle out of bounds lost ball turnover"
+    },
+    {
+      "min": 27.52,
+      "home": 61,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Julius Randle misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 27.55,
+      "home": 61,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 27.68,
+      "home": 61,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie misses 25-foot three point jumper"
+    },
+    {
+      "min": 27.7,
+      "home": 61,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaden McDaniels defensive rebound"
+    },
+    {
+      "min": 27.82,
+      "home": 61,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaden McDaniels makes 11-foot pullup jump shot (Ayo Dosunmu assists)"
+    },
+    {
+      "min": 27.87,
+      "home": 61,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 28.07,
+      "home": 61,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle bad pass\nturnover (Rudy Gobert steals)"
+    },
+    {
+      "min": 28.15,
+      "home": 61,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Ayo Dosunmu makes two point shot (Jaden McDaniels assists)"
+    },
+    {
+      "min": 28.42,
+      "home": 61,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox bad pass\nturnover (Rudy Gobert steals)"
+    },
+    {
+      "min": 28.65,
+      "home": 61,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Anthony Edwards misses 17-foot step back jumpshot"
+    },
+    {
+      "min": 28.68,
+      "home": 61,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 28.83,
+      "home": 64,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Julian Champagnie makes 23-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "min": 29.22,
+      "home": 64,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 29.22,
+      "home": 64,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaden McDaniels misses driving floating jump shot"
+    },
+    {
+      "min": 29.22,
+      "home": 64,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaden McDaniels loose ball foul"
+    },
+    {
+      "min": 29.22,
+      "home": 64,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Devin Vassell"
+    },
+    {
+      "min": 29.22,
+      "home": 64,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. enters the game for Jaden McDaniels"
+    },
+    {
+      "min": 29.22,
+      "home": 64,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 29.48,
+      "home": 66,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes 2-foot two point shot"
+    },
+    {
+      "min": 29.75,
+      "home": 66,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. misses 23-foot three point jumper"
+    },
+    {
+      "min": 29.8,
+      "home": 66,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Rudy Gobert offensive rebound"
+    },
+    {
+      "min": 29.8,
+      "home": 66,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson blocks Rudy Gobert's two point shot"
+    },
+    {
+      "min": 29.8,
+      "home": 66,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 29.8,
+      "home": 66,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Naz Reid enters the game for Julius Randle"
+    },
+    {
+      "min": 29.95,
+      "home": 68,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes driving dunk (Victor Wembanyama assists)"
+    },
+    {
+      "min": 30.23,
+      "home": 68,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Ayo Dosunmu makes 9-foot driving floating jump shot"
+    },
+    {
+      "min": 30.38,
+      "home": 70,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes 8-foot pullup jump shot"
+    },
+    {
+      "min": 30.63,
+      "home": 70,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu bad pass\nturnover (Julian Champagnie steals)"
+    },
+    {
+      "min": 30.85,
+      "home": 72,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Keldon Johnson makes 1-foot two point shot"
+    },
+    {
+      "min": 30.85,
+      "home": 72,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Timberwolves Full timeout"
+    },
+    {
+      "min": 30.85,
+      "home": 72,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Julius Randle enters the game for Rudy Gobert"
+    },
+    {
+      "min": 31.12,
+      "home": 72,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Anthony Edwards makes 8-foot two point shot (Ayo Dosunmu assists)"
+    },
+    {
+      "min": 31.48,
+      "home": 72,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses layup"
+    },
+    {
+      "min": 31.5,
+      "home": 72,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 31.5,
+      "home": 72,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper misses tip in dunk"
+    },
+    {
+      "min": 31.53,
+      "home": 72,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Julius Randle defensive rebound"
+    },
+    {
+      "min": 31.65,
+      "home": 72,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie shooting foul"
+    },
+    {
+      "min": 31.65,
+      "home": 72,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Anthony Edwards makes free throw 2 of 2"
+    },
+    {
+      "min": 31.65,
+      "home": 72,
+      "away": 66,
+      "period": 3,
+      "scoring": true,
+      "text": "Anthony Edwards makes free throw 1 of 2"
+    },
+    {
+      "min": 31.65,
+      "home": 72,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 31.87,
+      "home": 72,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive rebound"
+    },
+    {
+      "min": 31.87,
+      "home": 72,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper misses 10-foot fade away jump shot"
+    },
+    {
+      "min": 31.88,
+      "home": 74,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes tip shot"
+    },
+    {
+      "min": 31.88,
+      "home": 74,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. shooting foul"
+    },
+    {
+      "min": 31.88,
+      "home": 75,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 1"
+    },
+    {
+      "min": 32.07,
+      "home": 75,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper blocks Anthony Edwards 's 8-foot driving layup"
+    },
+    {
+      "min": 32.1,
+      "home": 75,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 32.2,
+      "home": 75,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. shooting foul"
+    },
+    {
+      "min": 32.2,
+      "home": 77,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Keldon Johnson makes free throw 2 of 2"
+    },
+    {
+      "min": 32.2,
+      "home": 76,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Keldon Johnson makes free throw 1 of 2"
+    },
+    {
+      "min": 32.2,
+      "home": 77,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Julian Champagnie"
+    },
+    {
+      "min": 32.2,
+      "home": 77,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Mike Conley enters the game for Terrence Shannon Jr."
+    },
+    {
+      "min": 32.48,
+      "home": 77,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Julius Randle misses driving layup"
+    },
+    {
+      "min": 32.52,
+      "home": 77,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Julius Randle offensive rebound"
+    },
+    {
+      "min": 32.53,
+      "home": 77,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Julius Randle misses tip shot"
+    },
+    {
+      "min": 32.55,
+      "home": 77,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 32.7,
+      "home": 77,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Naz Reid personal foul"
+    },
+    {
+      "min": 32.7,
+      "home": 78,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Keldon Johnson makes free throw 1 of 2"
+    },
+    {
+      "min": 32.7,
+      "home": 78,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 32.7,
+      "home": 78,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Rudy Gobert enters the game for Ayo Dosunmu"
+    },
+    {
+      "min": 32.7,
+      "home": 79,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Keldon Johnson makes free throw 2 of 2"
+    },
+    {
+      "min": 33.02,
+      "home": 79,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "Anthony Edwards makes 1-foot two point shot"
+    },
+    {
+      "min": 33.17,
+      "home": 81,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "Devin Vassell makes 11-foot fade away jump shot (De'Aaron Fox assists)"
+    },
+    {
+      "min": 33.48,
+      "home": 81,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Anthony Edwards bad pass\nturnover (Keldon Johnson steals)"
+    },
+    {
+      "min": 33.53,
+      "home": 83,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "Keldon Johnson makes two point shot"
+    },
+    {
+      "min": 33.7,
+      "home": 83,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu enters the game for Anthony Edwards"
+    },
+    {
+      "min": 33.83,
+      "home": 83,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Rudy Gobert offensive rebound"
+    },
+    {
+      "min": 33.83,
+      "home": 83,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet blocks Ayo Dosunmu 's 2-foot two point shot"
+    },
+    {
+      "min": 33.83,
+      "home": 83,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper shooting foul"
+    },
+    {
+      "min": 33.83,
+      "home": 83,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Rudy Gobert makes free throw 1 of 2"
+    },
+    {
+      "min": 33.83,
+      "home": 83,
+      "away": 71,
+      "period": 3,
+      "scoring": true,
+      "text": "Rudy Gobert makes free throw 2 of 2"
+    },
+    {
+      "min": 34.13,
+      "home": 83,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Rudy Gobert blocks Luke Kornet 's 2-foot alley oop dunk"
+    },
+    {
+      "min": 34.15,
+      "home": 83,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 34.15,
+      "home": 85,
+      "away": 71,
+      "period": 3,
+      "scoring": true,
+      "text": "Dylan Harper makes two point shot"
+    },
+    {
+      "min": 34.55,
+      "home": 85,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson shooting foul"
+    },
+    {
+      "min": 34.55,
+      "home": 85,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Julius Randle makes free throw 1 of 2"
+    },
+    {
+      "min": 34.55,
+      "home": 85,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Julius Randle makes free throw 2 of 2"
+    },
+    {
+      "min": 34.92,
+      "home": 85,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 26-foot three point jumper"
+    },
+    {
+      "min": 34.98,
+      "home": 85,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 35.0,
+      "home": 87,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Dylan Harper makes two point shot"
+    },
+    {
+      "min": 36.0,
+      "home": 87,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Rudy Gobert misses driving layup"
+    },
+    {
+      "min": 36.0,
+      "home": 87,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Dylan Harper makes two point shot (Devin Vassell assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu bad pass\nturnover (Luke Kornet steals)"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Ayo Dosunmu shooting foul"
+    },
+    {
+      "min": 36.0,
+      "home": 90,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Anthony Edwards enters the game for Rudy Gobert"
+    },
+    {
+      "min": 36.0,
+      "home": 90,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 90,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Luke Kornet"
+    },
+    {
+      "min": 36.0,
+      "home": 90,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Dylan Harper"
+    },
+    {
+      "min": 36.0,
+      "home": 91,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 91,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Julius Randle misses 22-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 91,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Timberwolves offensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 91,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 91,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Carter Bryant enters the game for Julian Champagnie"
+    },
+    {
+      "min": 36.0,
+      "home": 91,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaden McDaniels enters the game for Mike Conley"
+    },
+    {
+      "min": 36.0,
+      "home": 91,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. enters the game for Ayo Dosunmu"
+    },
+    {
+      "min": 36.0,
+      "home": 91,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Keldon Johnson"
+    },
+    {
+      "min": 36.18,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 1-foot two point shot (Stephon Castle assists)"
+    },
+    {
+      "min": 36.47,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Naz Reid misses 26-foot three point jumper"
+    },
+    {
+      "min": 36.52,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 36.58,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive foul turnover"
+    },
+    {
+      "min": 36.58,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive foul"
+    },
+    {
+      "min": 36.72,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "8 second turnover"
+    },
+    {
+      "min": 36.87,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle misses 26-foot three point jumper"
+    },
+    {
+      "min": 36.9,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell offensive rebound"
+    },
+    {
+      "min": 37.03,
+      "home": 93,
+      "away": 73,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama kicked ball turnover"
+    },
+    {
+      "min": 37.23,
+      "home": 93,
+      "away": 75,
+      "period": 4,
+      "scoring": true,
+      "text": "Jaden McDaniels makes two point shot (Terrence Shannon Jr. assists)"
+    },
+    {
+      "min": 37.35,
+      "home": 93,
+      "away": 75,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "min": 37.38,
+      "home": 93,
+      "away": 75,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Edwards defensive rebound"
+    },
+    {
+      "min": 37.47,
+      "home": 93,
+      "away": 77,
+      "period": 4,
+      "scoring": true,
+      "text": "Anthony Edwards makes 2-foot two point shot"
+    },
+    {
+      "min": 37.67,
+      "home": 93,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 23-foot three point jumper"
+    },
+    {
+      "min": 37.73,
+      "home": 93,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Julius Randle defensive rebound"
+    },
+    {
+      "min": 37.77,
+      "home": 93,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaden McDaniels misses 25-foot running jump shot"
+    },
+    {
+      "min": 37.83,
+      "home": 93,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Julius Randle offensive rebound"
+    },
+    {
+      "min": 37.85,
+      "home": 93,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell shooting foul"
+    },
+    {
+      "min": 37.85,
+      "home": 93,
+      "away": 78,
+      "period": 4,
+      "scoring": true,
+      "text": "Julius Randle makes free throw 1 of 2"
+    },
+    {
+      "min": 37.85,
+      "home": 93,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Julius Randle misses free throw 2 of 2"
+    },
+    {
+      "min": 37.85,
+      "home": 93,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 38.07,
+      "home": 93,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle bad pass\nturnover (Naz Reid steals)"
+    },
+    {
+      "min": 38.13,
+      "home": 93,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Terrence Shannon Jr. misses 23-foot running jump shot"
+    },
+    {
+      "min": 38.2,
+      "home": 93,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Julius Randle offensive rebound"
+    },
+    {
+      "min": 38.43,
+      "home": 93,
+      "away": 81,
+      "period": 4,
+      "scoring": true,
+      "text": "Naz Reid makes 22-foot three point step back jumpshot"
+    },
+    {
+      "min": 38.43,
+      "home": 93,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 38.43,
+      "home": 93,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Carter Bryant"
+    },
+    {
+      "min": 38.58,
+      "home": 93,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Naz Reid personal foul"
+    },
+    {
+      "min": 38.72,
+      "home": 95,
+      "away": 81,
+      "period": 4,
+      "scoring": true,
+      "text": "Stephon Castle makes 1-foot driving dunk"
+    },
+    {
+      "min": 38.95,
+      "home": 95,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "Jaden McDaniels makes 26-foot three pointer"
+    },
+    {
+      "min": 39.13,
+      "home": 97,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes two point shot (Stephon Castle assists)"
+    },
+    {
+      "min": 39.45,
+      "home": 97,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Terrence Shannon Jr. 's 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 39.48,
+      "home": 97,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 39.53,
+      "home": 97,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 26-foot running jump shot"
+    },
+    {
+      "min": 39.57,
+      "home": 97,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaden McDaniels defensive rebound"
+    },
+    {
+      "min": 39.68,
+      "home": 97,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Julius Randle makes 1-foot running dunk"
+    },
+    {
+      "min": 40.02,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Vassell makes 25-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 40.27,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Edwards bad pass\nturnover (Stephon Castle steals)"
+    },
+    {
+      "min": 40.3,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Stephon Castle makes 1-foot running dunk"
+    },
+    {
+      "min": 40.3,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Timberwolves Full timeout"
+    },
+    {
+      "min": 40.3,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 40.3,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 40.3,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Ayo Dosunmu enters the game for Terrence Shannon Jr."
+    },
+    {
+      "min": 40.55,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaden McDaniels lost ball turnover (Stephon Castle steals)"
+    },
+    {
+      "min": 40.63,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaden McDaniels shooting foul"
+    },
+    {
+      "min": 40.63,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 40.63,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell misses free throw 1 of 3"
+    },
+    {
+      "min": 40.63,
+      "home": 103,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Vassell makes free throw 2 of 3"
+    },
+    {
+      "min": 40.63,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Vassell makes free throw 3 of 3"
+    },
+    {
+      "min": 40.85,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Julius Randle offensive rebound"
+    },
+    {
+      "min": 40.85,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Edwards misses two point shot"
+    },
+    {
+      "min": 40.85,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell blocks Julius Randle 's 1-foot tip in dunk"
+    },
+    {
+      "min": 40.85,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 40.88,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper bad pass\nturnover (Ayo Dosunmu steals)"
+    },
+    {
+      "min": 40.93,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Ayo Dosunmu misses 27-foot three point jumper"
+    },
+    {
+      "min": 40.95,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 41.08,
+      "home": 104,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Ayo Dosunmu shooting foul"
+    },
+    {
+      "min": 41.08,
+      "home": 105,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 1 of 2"
+    },
+    {
+      "min": 41.08,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 2 of 2"
+    },
+    {
+      "min": 41.08,
+      "home": 105,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Devin Vassell"
+    },
+    {
+      "min": 41.08,
+      "home": 105,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Rudy Gobert enters the game for Jaden McDaniels"
+    },
+    {
+      "min": 41.45,
+      "home": 105,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie shooting foul"
+    },
+    {
+      "min": 41.45,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Naz Reid misses free throw 1 of 2"
+    },
+    {
+      "min": 41.45,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Timberwolves offensive team rebound"
+    },
+    {
+      "min": 41.45,
+      "home": 106,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "Naz Reid makes free throw 2 of 2"
+    },
+    {
+      "min": 41.65,
+      "home": 106,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle misses driving layup"
+    },
+    {
+      "min": 41.67,
+      "home": 106,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Edwards defensive rebound"
+    },
+    {
+      "min": 41.92,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Julius Randle makes two point shot (Naz Reid assists)"
+    },
+    {
+      "min": 42.1,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Stephon Castle"
+    },
+    {
+      "min": 42.1,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Luke Kornet"
+    },
+    {
+      "min": 42.18,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 23-foot three point jumper"
+    },
+    {
+      "min": 42.22,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Naz Reid defensive rebound"
+    },
+    {
+      "min": 42.38,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Julius Randle makes 6-foot driving floating jump shot (Naz Reid assists)"
+    },
+    {
+      "min": 42.38,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie shooting foul"
+    },
+    {
+      "min": 42.38,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Julius Randle misses free throw 1 of 1"
+    },
+    {
+      "min": 42.42,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 42.55,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes 1-foot driving dunk"
+    },
+    {
+      "min": 42.8,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Edwards misses 23-foot three point jumper"
+    },
+    {
+      "min": 42.87,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 43.07,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Naz Reid personal foul"
+    },
+    {
+      "min": 43.23,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Julian Champagnie makes layup (Victor Wembanyama assists)"
+    },
+    {
+      "min": 43.23,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Timberwolves Full timeout"
+    },
+    {
+      "min": 43.23,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaden McDaniels enters the game for Rudy Gobert"
+    },
+    {
+      "min": 43.57,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Naz Reid misses 23-foot three point jumper"
+    },
+    {
+      "min": 43.62,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 43.78,
+      "home": 112,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 1-foot two point shot"
+    },
+    {
+      "min": 44.02,
+      "home": 112,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Ayo Dosunmu misses driving dunk"
+    },
+    {
+      "min": 44.05,
+      "home": 112,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Julius Randle offensive rebound"
+    },
+    {
+      "min": 44.05,
+      "home": 112,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Julius Randle makes dunk"
+    },
+    {
+      "min": 44.35,
+      "home": 112,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Julius Randle personal foul"
+    },
+    {
+      "min": 44.35,
+      "home": 112,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses free throw 1 of 2"
+    },
+    {
+      "min": 44.35,
+      "home": 112,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 44.35,
+      "home": 113,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 44.58,
+      "home": 113,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Ayo Dosunmu misses 23-foot three point jumper"
+    },
+    {
+      "min": 44.62,
+      "home": 113,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 44.85,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Keldon Johnson makes 3-foot turnaround jump shot (De'Aaron Fox assists)"
+    },
+    {
+      "min": 44.87,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Timberwolves Full timeout"
+    },
+    {
+      "min": 44.87,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Bones Hyland enters the game for Ayo Dosunmu"
+    },
+    {
+      "min": 44.87,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylen Clark enters the game for Jaden McDaniels"
+    },
+    {
+      "min": 44.87,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Phillips enters the game for Julius Randle"
+    },
+    {
+      "min": 44.87,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Carter Bryant enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 44.87,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan McLaughlin enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 44.87,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Kyle Anderson enters the game for Naz Reid"
+    },
+    {
+      "min": 44.87,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Joan Beringer enters the game for Anthony Edwards"
+    },
+    {
+      "min": 45.13,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Bones Hyland misses 25-foot three point jumper"
+    },
+    {
+      "min": 45.17,
+      "home": 115,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 45.37,
+      "home": 118,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Keldon Johnson makes 26-foot three point jumper (Dylan Harper assists)"
+    },
+    {
+      "min": 45.65,
+      "home": 118,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Joan Beringer bad pass\nturnover (Julian Champagnie steals)"
+    },
+    {
+      "min": 45.73,
+      "home": 118,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 25-foot running jump shot"
+    },
+    {
+      "min": 45.77,
+      "home": 118,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Joan Beringer defensive rebound"
+    },
+    {
+      "min": 45.87,
+      "home": 118,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Bones Hyland out of bounds bad pass turnover"
+    },
+    {
+      "min": 45.87,
+      "home": 118,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Lindy Waters III enters the game for Dylan Harper"
+    },
+    {
+      "min": 45.87,
+      "home": 118,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Bismack Biyombo enters the game for Julian Champagnie"
+    },
+    {
+      "min": 45.87,
+      "home": 118,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Olynyk enters the game for Keldon Johnson"
+    },
+    {
+      "min": 46.17,
+      "home": 121,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Lindy Waters III makes 24-foot three point jumper (Jordan McLaughlin assists)"
+    },
+    {
+      "min": 46.33,
+      "home": 121,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Kyle Anderson misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 46.4,
+      "home": 121,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Carter Bryant defensive rebound"
+    },
+    {
+      "min": 46.68,
+      "home": 123,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Bismack Biyombo makes layup (Jordan McLaughlin assists)"
+    },
+    {
+      "min": 46.87,
+      "home": 123,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Joan Beringer misses layup"
+    },
+    {
+      "min": 46.87,
+      "home": 123,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Joan Beringer offensive rebound"
+    },
+    {
+      "min": 46.87,
+      "home": 123,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Bismack Biyombo shooting foul"
+    },
+    {
+      "min": 46.87,
+      "home": 123,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Joan Beringer makes free throw 1 of 2"
+    },
+    {
+      "min": 46.87,
+      "home": 123,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Joan Beringer makes free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 123,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Lindy Waters III misses 17-foot pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 123,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Joan Beringer defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 123,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Carter Bryant shooting foul"
+    },
+    {
+      "min": 48.0,
+      "home": 123,
+      "away": 96,
+      "period": 4,
+      "scoring": false,
+      "text": "Kyle Anderson misses free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 123,
+      "away": 96,
+      "period": 4,
+      "scoring": true,
+      "text": "Kyle Anderson makes free throw 1 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 123,
+      "away": 96,
+      "period": 4,
+      "scoring": false,
+      "text": "Carter Bryant defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 96,
+      "period": 4,
+      "scoring": true,
+      "text": "Kelly Olynyk makes 23-foot three point jumper (Carter Bryant assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 96,
+      "period": 4,
+      "scoring": false,
+      "text": "Bismack Biyombo personal foul"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Joan Beringer misses free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Joan Beringer makes free throw 1 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Bismack Biyombo defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Joan Beringer blocks Bismack Biyombo 's 2-foot reverse layup"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Bones Hyland defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Phillips misses 22-foot running jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Carter Bryant defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 126,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 32,
+      "y": 5,
+      "made": true,
+      "type": "Driving Jump Shot Bank",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 8-foot two point shot (Stephon Castle assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 1 of 1"
+    },
+    {
+      "x": 31,
+      "y": 3,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "x": 35,
+      "y": 11,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle makes 14-foot running pullup jump shot"
+    },
+    {
+      "x": 39,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 3",
+      "team": "MIN",
+      "text": "Anthony Edwards makes free throw 2 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 3 of 3",
+      "team": "MIN",
+      "text": "Anthony Edwards makes free throw 3 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 3",
+      "team": "MIN",
+      "text": "Anthony Edwards makes free throw 1 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Flagrant 1 of 3",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw flagrant 1 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Flagrant 3 of 3",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw flagrant 3 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - Flagrant 2 of 3",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses free throw flagrant 2 of 3"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes tip shot"
+    },
+    {
+      "x": 20,
+      "y": 29,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards misses 29-foot three point pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 3-foot turnaround jump shot"
+    },
+    {
+      "x": 23,
+      "y": 28,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses 27-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Putback Dunk Shot",
+      "team": "MIN",
+      "text": "Rudy Gobert makes dunk"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 23-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": 30,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 23-foot running jump shot (Victor Wembanyama assists)"
+    },
+    {
+      "x": 39,
+      "y": -1,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu makes 13-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 1-foot driving dunk (Stephon Castle assists)"
+    },
+    {
+      "x": 26,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu misses driving floating jump shot"
+    },
+    {
+      "x": 28,
+      "y": 7,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 7-foot floating jump shot"
+    },
+    {
+      "x": 20,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels misses driving floating jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes driving layup"
+    },
+    {
+      "x": 23,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards misses driving floating jump shot"
+    },
+    {
+      "x": 34,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 25-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 28,
+      "y": 3,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels makes 3-foot two point shot (Mike Conley assists)"
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 24-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Naz Reid makes 23-foot three pointer (Terrence Shannon Jr. assists)"
+    },
+    {
+      "x": 26,
+      "y": 6,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 6-foot pullup jump shot (Devin Vassell assists)"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 23-foot running jump shot"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses 24-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 6,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "MIN",
+      "text": "Mike Conley makes 6-foot turnaround jump shot"
+    },
+    {
+      "x": 36,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 14-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 3-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Keldon Johnson misses free throw 1 of 1"
+    },
+    {
+      "x": 27,
+      "y": 28,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards makes 28-foot three point step back jumpshot (Mike Conley assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Stephon Castle misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Stephon Castle misses free throw 1 of 2"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Mike Conley makes 23-foot three point jumper (Terrence Shannon Jr. assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Terrence Shannon Jr. makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Terrence Shannon Jr. makes free throw 2 of 2"
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards makes 16-foot pullup jump shot (Ayo Dosunmu assists)"
+    },
+    {
+      "x": 40,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Dunk Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes tip in dunk"
+    },
+    {
+      "x": 30,
+      "y": 2,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels misses 5-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 21,
+      "y": 26,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "MIN",
+      "text": "Naz Reid misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu makes running layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "MIN",
+      "text": "Naz Reid makes driving layup (Terrence Shannon Jr. assists)"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses 26-foot three point jumper"
+    },
+    {
+      "x": 31,
+      "y": 12,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses 13-foot fade away jump shot"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "MIN",
+      "text": "Naz Reid misses 23-foot running jump shot"
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Carter Bryant makes 26-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "x": 48,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Stephon Castle blocks Terrence Shannon Jr. 's 23-foot three point jumper"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 23-foot running jump shot (Carter Bryant assists)"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses 23-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 2-foot running pullup jump shot (De'Aaron Fox assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Stephon Castle makes free throw 1 of 1"
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "MIN",
+      "text": "Victor Wembanyama blocks Naz Reid's driving layup"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels makes 24-foot three pointer"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses 23-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels misses 23-foot three point step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes driving layup"
+    },
+    {
+      "x": 40,
+      "y": 20,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 24-foot running jump shot"
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle makes 5-foot driving floating jump shot"
+    },
+    {
+      "x": 36,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "MIN",
+      "text": "Terrence Shannon Jr. misses two point shot"
+    },
+    {
+      "x": 27,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels misses 24-foot three point jumper"
+    },
+    {
+      "x": 35,
+      "y": 15,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses driving floating jump shot"
+    },
+    {
+      "x": 26,
+      "y": 9,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses 8-foot pullup jump shot"
+    },
+    {
+      "x": 49,
+      "y": 6,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 24-foot running jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes tip shot"
+    },
+    {
+      "x": 22,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "Dylan Harper makes 3-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Jaden McDaniels makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Jaden McDaniels makes free throw 2 of 2"
+    },
+    {
+      "x": 44,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 26-foot three point jumper (Dylan Harper assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu makes layup (Jaden McDaniels assists)"
+    },
+    {
+      "x": 25,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Ayo Dosunmu blocks Dylan Harper's driving floating jump shot"
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "MIN",
+      "text": "Mike Conley misses 24-foot running jump shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Ayo Dosunmu misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Ayo Dosunmu makes free throw 1 of 2"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes alley oop dunk (Harrison Barnes assists)"
+    },
+    {
+      "x": 34,
+      "y": 12,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 15-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "MIN",
+      "text": "Naz Reid misses driving floating jump shot"
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 1-foot alley oop dunk (De'Aaron Fox assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu makes driving dunk (Anthony Edwards assists)"
+    },
+    {
+      "x": 26,
+      "y": 9,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 8-foot turnaround jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Julius Randle makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Julius Randle makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes technical free throw"
+    },
+    {
+      "x": 13,
+      "y": -1,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 11-foot fade away jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "SAS",
+      "text": "Dylan Harper misses two point shot"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 48,
+      "y": 7,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "MIN",
+      "text": "Naz Reid makes 24-foot running jump shot (Ayo Dosunmu assists)"
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 24-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Dunk Shot",
+      "team": "MIN",
+      "text": "Victor Wembanyama blocks Rudy Gobert 's 1-foot dunk"
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses running pullup jump shot"
+    },
+    {
+      "x": 29,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 26-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "x": 26,
+      "y": 17,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses 16-foot fade away jump shot"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu makes 23-foot three point jumper (Anthony Edwards assists)"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 25-foot three point jumper"
+    },
+    {
+      "x": 33,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses 25-foot three point jumper"
+    },
+    {
+      "x": 19,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Ayo Dosunmu blocks De'Aaron Fox 's 6-foot driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Anthony Edwards makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Anthony Edwards makes free throw 2 of 2"
+    },
+    {
+      "x": 41,
+      "y": -1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards makes 15-foot jumper"
+    },
+    {
+      "x": 24,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 5-foot driving floating jump shot"
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu misses 10-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses driving layup"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels makes 23-foot three point jumper (Julius Randle assists)"
+    },
+    {
+      "x": 33,
+      "y": 15,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 25-foot three point jumper"
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels makes 11-foot pullup jump shot (Ayo Dosunmu assists)"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "MIN",
+      "text": "Ayo Dosunmu makes two point shot (Jaden McDaniels assists)"
+    },
+    {
+      "x": 39,
+      "y": 10,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards misses 17-foot step back jumpshot"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 23-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels misses driving floating jump shot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": true,
+      "type": "Turnaround Fadeaway Bank Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 2-foot two point shot"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Terrence Shannon Jr. misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "MIN",
+      "text": "Keldon Johnson blocks Rudy Gobert's two point shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes driving dunk (Victor Wembanyama assists)"
+    },
+    {
+      "x": 32,
+      "y": 7,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu makes 9-foot driving floating jump shot"
+    },
+    {
+      "x": 28,
+      "y": 8,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 8-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Turnaround Hook Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 1-foot two point shot"
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards makes 8-foot two point shot (Ayo Dosunmu assists)"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Layup Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Dunk Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses tip in dunk"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Anthony Edwards makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Anthony Edwards makes free throw 1 of 2"
+    },
+    {
+      "x": 33,
+      "y": 7,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses 10-foot fade away jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes tip shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 1"
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "MIN",
+      "text": "Dylan Harper blocks Anthony Edwards 's 8-foot driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Keldon Johnson makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Keldon Johnson makes free throw 1 of 2"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses driving layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses tip shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Keldon Johnson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Keldon Johnson makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "MIN",
+      "text": "Anthony Edwards makes 1-foot two point shot"
+    },
+    {
+      "x": 36,
+      "y": -1,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 11-foot fade away jump shot (De'Aaron Fox assists)"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "SAS",
+      "text": "Keldon Johnson makes two point shot"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "MIN",
+      "text": "Luke Kornet blocks Ayo Dosunmu 's 2-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Rudy Gobert makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Rudy Gobert makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Alley Oop Dunk Shot",
+      "team": "SAS",
+      "text": "Rudy Gobert blocks Luke Kornet 's 2-foot alley oop dunk"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "SAS",
+      "text": "Dylan Harper makes two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Julius Randle makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Julius Randle makes free throw 2 of 2"
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "SAS",
+      "text": "Dylan Harper makes two point shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "MIN",
+      "text": "Rudy Gobert misses driving layup"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "SAS",
+      "text": "Dylan Harper makes two point shot (Devin Vassell assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 2 of 2"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle misses 22-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 1-foot two point shot (Stephon Castle assists)"
+    },
+    {
+      "x": 16,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Naz Reid misses 26-foot three point jumper"
+    },
+    {
+      "x": 41,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 26-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "MIN",
+      "text": "Jaden McDaniels makes two point shot (Terrence Shannon Jr. assists)"
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses two point shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards makes 2-foot two point shot"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 23-foot three point jumper"
+    },
+    {
+      "x": 46,
+      "y": 14,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels misses 25-foot running jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Julius Randle makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Julius Randle misses free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "MIN",
+      "text": "Terrence Shannon Jr. misses 23-foot running jump shot"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "MIN",
+      "text": "Naz Reid makes 22-foot three point step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 1-foot driving dunk"
+    },
+    {
+      "x": 23,
+      "y": 26,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Jaden McDaniels makes 26-foot three pointer"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes two point shot (Stephon Castle assists)"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Victor Wembanyama blocks Terrence Shannon Jr. 's 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 26-foot running jump shot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "MIN",
+      "text": "Julius Randle makes 1-foot running dunk"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 25-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 1-foot running dunk"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 3",
+      "team": "SAS",
+      "text": "Devin Vassell misses free throw 1 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 3",
+      "team": "SAS",
+      "text": "Devin Vassell makes free throw 2 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 3 of 3",
+      "team": "SAS",
+      "text": "Devin Vassell makes free throw 3 of 3"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "MIN",
+      "text": "Anthony Edwards misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Tip Dunk Shot",
+      "team": "MIN",
+      "text": "Devin Vassell blocks Julius Randle 's 1-foot tip in dunk"
+    },
+    {
+      "x": 44,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu misses 27-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Naz Reid misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Naz Reid makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses driving layup"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "MIN",
+      "text": "Julius Randle makes two point shot (Naz Reid assists)"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "MIN",
+      "text": "Julius Randle makes 6-foot driving floating jump shot (Naz Reid assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "MIN",
+      "text": "Julius Randle misses free throw 1 of 1"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 1-foot driving dunk"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Anthony Edwards misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes layup (Victor Wembanyama assists)"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Naz Reid misses 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 1-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Driving Dunk Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu misses driving dunk"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Putback Dunk Shot",
+      "team": "MIN",
+      "text": "Julius Randle makes dunk"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Ayo Dosunmu misses 23-foot three point jumper"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 3-foot turnaround jump shot (De'Aaron Fox assists)"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "MIN",
+      "text": "Bones Hyland misses 25-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 26-foot three point jumper (Dylan Harper assists)"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 25-foot running jump shot"
+    },
+    {
+      "x": 48,
+      "y": 10,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Lindy Waters III makes 24-foot three point jumper (Jordan McLaughlin assists)"
+    },
+    {
+      "x": 15,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "MIN",
+      "text": "Kyle Anderson misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "SAS",
+      "text": "Bismack Biyombo makes layup (Jordan McLaughlin assists)"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "MIN",
+      "text": "Joan Beringer misses layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Joan Beringer makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Joan Beringer makes free throw 2 of 2"
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Lindy Waters III misses 17-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Kyle Anderson misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Kyle Anderson makes free throw 1 of 2"
+    },
+    {
+      "x": 49,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Kelly Olynyk makes 23-foot three point jumper (Carter Bryant assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "MIN",
+      "text": "Joan Beringer misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "MIN",
+      "text": "Joan Beringer makes free throw 1 of 2"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Reverse Layup Shot",
+      "team": "SAS",
+      "text": "Joan Beringer blocks Bismack Biyombo 's 2-foot reverse layup"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "MIN",
+      "text": "Julian Phillips misses 22-foot running jump shot"
+    }
+  ],
+  "shot_zones": {
+    "SAS": {
+      "at_rim": {
+        "fgm": 29,
+        "fga": 39,
+        "pct": 74
+      },
+      "paint": {
+        "fgm": 6,
+        "fga": 14,
+        "pct": 43
+      },
+      "mid": {
+        "fgm": 22,
+        "fga": 25,
+        "pct": 88
+      },
+      "corner_3": {
+        "fgm": 6,
+        "fga": 17,
+        "pct": 35
+      },
+      "arc_3": {
+        "fgm": 5,
+        "fga": 21,
+        "pct": 24
+      }
+    },
+    "MIN": {
+      "at_rim": {
+        "fgm": 12,
+        "fga": 24,
+        "pct": 50
+      },
+      "paint": {
+        "fgm": 7,
+        "fga": 17,
+        "pct": 41
+      },
+      "mid": {
+        "fgm": 28,
+        "fga": 33,
+        "pct": 85
+      },
+      "corner_3": {
+        "fgm": 6,
+        "fga": 24,
+        "pct": 25
+      },
+      "arc_3": {
+        "fgm": 3,
+        "fga": 15,
+        "pct": 20
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

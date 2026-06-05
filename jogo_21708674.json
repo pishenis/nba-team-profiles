@@ -1,0 +1,6436 @@
+{
+  "game_id": "21708674",
+  "date": "2026-05-06",
+  "home": "NYK",
+  "away": "PHI",
+  "home_pts": 108,
+  "away_pts": 102,
+  "winner": "NYK",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "NYK": [
+        31,
+        30,
+        28,
+        19
+      ],
+      "PHI": [
+        33,
+        29,
+        28,
+        12
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "16:04",
+    "time_leading_away_fmt": "25:44",
+    "time_tied_fmt": "6:12",
+    "lead_changes": 15,
+    "ties": 14,
+    "best_run_home": {
+      "pts_home": 9,
+      "pts_away": 1,
+      "start_min": 41.58,
+      "end_min": 46.45
+    },
+    "best_run_away": {
+      "pts_away": 18,
+      "pts_home": 12,
+      "start_min": 3.75,
+      "end_min": 8.58
+    },
+    "max_consec_home": 9,
+    "max_consec_away": 8
+  },
+  "four_factors": {
+    "NYK": {
+      "efg": 0.609,
+      "tov": 0.095,
+      "oreb": 0.071,
+      "ftr": 0.266,
+      "opp_efg": 0.58,
+      "opp_tov": 0.22,
+      "opp_oreb": 0.286,
+      "opp_ftr": 0.357
+    },
+    "PHI": {
+      "efg": 0.529,
+      "tov": 0.187,
+      "oreb": 0.024,
+      "ftr": 0.348,
+      "opp_efg": 0.549,
+      "opp_tov": 0.131,
+      "opp_oreb": 0.206,
+      "opp_ftr": 0.296
+    }
+  },
+  "misc": {
+    "NYK": {
+      "pts_paint": 56,
+      "pts_fb": 15,
+      "pts_2nd_chance": 11,
+      "pts_off_tov": 23
+    },
+    "PHI": {
+      "pts_paint": 30,
+      "pts_fb": 8,
+      "pts_2nd_chance": 8,
+      "pts_off_tov": 9
+    }
+  },
+  "hustle": {
+    "NYK": {
+      "deflections": 18,
+      "charges_drawn": 0,
+      "contested_shots": 47,
+      "contested_2pt": 24,
+      "contested_3pt": 23,
+      "loose_balls_recovered": 3,
+      "screen_assists": 8
+    },
+    "PHI": {
+      "deflections": 14,
+      "charges_drawn": 0,
+      "contested_shots": 42,
+      "contested_2pt": 27,
+      "contested_3pt": 15,
+      "loose_balls_recovered": 3,
+      "screen_assists": 4
+    }
+  },
+  "box_score": {
+    "NYK": [
+      {
+        "name": "O. Anunoby",
+        "minutes": "37",
+        "pos": "F",
+        "starter": true,
+        "pts": 24,
+        "reb": 5,
+        "oreb": 2,
+        "ast": 2,
+        "stl": 4,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 9,
+        "fga": 17,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 3,
+        "plus_minus": 12,
+        "off_rating": 124.3,
+        "def_rating": 108.1,
+        "ts_pct": 0.64,
+        "deflections": 5,
+        "charges_drawn": 0,
+        "contested_shots": 12,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Hart",
+        "minutes": "44",
+        "pos": "G",
+        "starter": true,
+        "pts": 5,
+        "reb": 7,
+        "oreb": 0,
+        "ast": 6,
+        "stl": 3,
+        "blk": 0,
+        "tov": 4,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 5,
+        "off_rating": 114.1,
+        "def_rating": 108.2,
+        "ts_pct": 0.417,
+        "deflections": 7,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "K. Towns",
+        "minutes": "27",
+        "pos": "C",
+        "starter": true,
+        "pts": 20,
+        "reb": 10,
+        "oreb": 2,
+        "ast": 7,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 6,
+        "fga": 8,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 7,
+        "fta": 9,
+        "pf": 4,
+        "plus_minus": 6,
+        "off_rating": 113.7,
+        "def_rating": 100,
+        "ts_pct": 0.836,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. Bridges",
+        "minutes": "38",
+        "pos": "G",
+        "starter": true,
+        "pts": 18,
+        "reb": 5,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 1,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 9,
+        "fga": 13,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 7,
+        "off_rating": 113.2,
+        "def_rating": 105.3,
+        "ts_pct": 0.692,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Brunson",
+        "minutes": "41",
+        "pos": "G",
+        "starter": true,
+        "pts": 26,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 6,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 9,
+        "fga": 21,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 7,
+        "fta": 8,
+        "pf": 1,
+        "plus_minus": 7,
+        "off_rating": 116,
+        "def_rating": 110.1,
+        "ts_pct": 0.53,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Alvarado",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -1,
+        "off_rating": 100,
+        "def_rating": 107.1,
+        "ts_pct": 0.75,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Clarkson",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 6,
+        "reb": 5,
+        "oreb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 0,
+        "plus_minus": -6,
+        "off_rating": 105.6,
+        "def_rating": 131.6,
+        "ts_pct": 0.615,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "P. Dadiet",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. Diawara",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Hukporti",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 4,
+        "plus_minus": -3,
+        "off_rating": 113.3,
+        "def_rating": 125,
+        "ts_pct": 0.333,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Kolek",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. McBride",
+        "minutes": "22",
+        "pos": "",
+        "starter": false,
+        "pts": 4,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": -2,
+        "off_rating": 95.5,
+        "def_rating": 102.3,
+        "ts_pct": 0.34,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. Robinson",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "L. Shamet",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 6,
+        "off_rating": 100,
+        "def_rating": 81.3,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Sochan",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -1,
+        "off_rating": 66.7,
+        "def_rating": 150,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ],
+    "PHI": [
+      {
+        "name": "P. George",
+        "minutes": "43",
+        "pos": "F",
+        "starter": true,
+        "pts": 19,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 4,
+        "stl": 2,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 7,
+        "fga": 18,
+        "fg3m": 5,
+        "fg3a": 13,
+        "ftm": 0,
+        "fta": 1,
+        "pf": 4,
+        "plus_minus": -4,
+        "off_rating": 105.8,
+        "def_rating": 111.8,
+        "ts_pct": 0.515,
+        "deflections": 5,
+        "charges_drawn": 0,
+        "contested_shots": 11,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "K. Oubre Jr.",
+        "minutes": "40",
+        "pos": "G",
+        "starter": true,
+        "pts": 19,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 12,
+        "fg3m": 3,
+        "fg3a": 6,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 2,
+        "plus_minus": -8,
+        "off_rating": 108.8,
+        "def_rating": 118.8,
+        "ts_pct": 0.69,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Drummond",
+        "minutes": "15",
+        "pos": "C",
+        "starter": true,
+        "pts": 6,
+        "reb": 8,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 4,
+        "plus_minus": -3,
+        "off_rating": 119.4,
+        "def_rating": 125,
+        "ts_pct": 1.042,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "V. Edgecombe",
+        "minutes": "40",
+        "pos": "G",
+        "starter": true,
+        "pts": 17,
+        "reb": 5,
+        "oreb": 2,
+        "ast": 3,
+        "stl": 1,
+        "blk": 0,
+        "tov": 4,
+        "fgm": 6,
+        "fga": 13,
+        "fg3m": 3,
+        "fg3a": 7,
+        "ftm": 2,
+        "fta": 4,
+        "pf": 3,
+        "plus_minus": -5,
+        "off_rating": 107.6,
+        "def_rating": 112.5,
+        "ts_pct": 0.576,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Maxey",
+        "minutes": "47",
+        "pos": "G",
+        "starter": true,
+        "pts": 26,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 6,
+        "stl": 1,
+        "blk": 0,
+        "tov": 6,
+        "fgm": 9,
+        "fga": 23,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 7,
+        "fta": 9,
+        "pf": 1,
+        "plus_minus": 0,
+        "off_rating": 109.8,
+        "def_rating": 109.8,
+        "ts_pct": 0.482,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "D. Barlow",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 6,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -6,
+        "off_rating": 80.8,
+        "def_rating": 100,
+        "ts_pct": 1,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Bona",
+        "minutes": "16",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 7,
+        "oreb": 6,
+        "ast": 1,
+        "stl": 0,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 4,
+        "pf": 5,
+        "plus_minus": 2,
+        "off_rating": 127.3,
+        "def_rating": 125,
+        "ts_pct": 0.568,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Broome",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Edwards",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "Q. Grimes",
+        "minutes": "24",
+        "pos": "",
+        "starter": false,
+        "pts": 7,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 3,
+        "plus_minus": -6,
+        "off_rating": 95.8,
+        "def_rating": 106.1,
+        "ts_pct": 0.608,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "K. Lowry",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "D. Terry",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Walker",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Watford",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Embiid",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Andre Drummond vs. Karl-Anthony Towns (Josh Hart gains possession)"
+    },
+    {
+      "min": 0.37,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 0.4,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 0.5,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 1-foot running dunk (Paul George assists)"
+    },
+    {
+      "min": 0.77,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 1.1,
+      "home": 2,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Paul George makes 11-foot jumper"
+    },
+    {
+      "min": 1.52,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes 23-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "min": 1.8,
+      "home": 5,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Paul George makes 25-foot three pointer"
+    },
+    {
+      "min": 2.07,
+      "home": 5,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Andre Drummond personal foul"
+    },
+    {
+      "min": 2.17,
+      "home": 5,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul"
+    },
+    {
+      "min": 2.17,
+      "home": 5,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul turnover"
+    },
+    {
+      "min": 2.42,
+      "home": 5,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey back court turnover"
+    },
+    {
+      "min": 2.63,
+      "home": 5,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. flagrant foul type 1"
+    },
+    {
+      "min": 2.63,
+      "home": 5,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "(09:22) [76ers] REF-INITIATED REVIEW (CALL OVERTURNED)"
+    },
+    {
+      "min": 2.63,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 2.63,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses free throw flagrant 2 of 2"
+    },
+    {
+      "min": 2.63,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw flagrant 1 of 2"
+    },
+    {
+      "min": 2.8,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 1-foot two point shot"
+    },
+    {
+      "min": 3.02,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George offensive foul"
+    },
+    {
+      "min": 3.02,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George offensive foul turnover"
+    },
+    {
+      "min": 3.23,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart misses 23-foot three point jumper"
+    },
+    {
+      "min": 3.28,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 3.55,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. lost ball turnover (OG Anunoby steals)"
+    },
+    {
+      "min": 3.58,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby misses 24-foot running jump shot"
+    },
+    {
+      "min": 3.63,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 3.75,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Paul George makes 23-foot three point jumper (Andre Drummond assists)"
+    },
+    {
+      "min": 4.02,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges misses 25-foot three point jumper"
+    },
+    {
+      "min": 4.05,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 4.17,
+      "home": 8,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Paul George makes 22-foot three point jumper (Tyrese Maxey assists)"
+    },
+    {
+      "min": 4.4,
+      "home": 8,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 4.45,
+      "home": 8,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey defensive rebound"
+    },
+    {
+      "min": 4.52,
+      "home": 8,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Tyrese Maxey makes two point shot"
+    },
+    {
+      "min": 4.62,
+      "home": 8,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart lost ball turnover (VJ Edgecombe steals)"
+    },
+    {
+      "min": 4.67,
+      "home": 8,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 24-foot running jump shot"
+    },
+    {
+      "min": 4.7,
+      "home": 8,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 4.88,
+      "home": 10,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 9-foot driving floating jump shot (OG Anunoby assists)"
+    },
+    {
+      "min": 5.08,
+      "home": 10,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George bad pass\nturnover (Karl-Anthony Towns steals)"
+    },
+    {
+      "min": 5.17,
+      "home": 12,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes dunk (Jalen Brunson assists)"
+    },
+    {
+      "min": 5.42,
+      "home": 12,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey misses driving floating jump shot"
+    },
+    {
+      "min": 5.45,
+      "home": 12,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 5.52,
+      "home": 14,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes running layup (Josh Hart assists)"
+    },
+    {
+      "min": 5.95,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 7-foot driving floating jump shot"
+    },
+    {
+      "min": 6.1,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Andre Drummond shooting foul"
+    },
+    {
+      "min": 6.1,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 6.1,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Adem Bona enters the game for Andre Drummond"
+    },
+    {
+      "min": 6.1,
+      "home": 15,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "min": 6.1,
+      "home": 16,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "min": 6.33,
+      "home": 16,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George misses 23-foot three point jumper"
+    },
+    {
+      "min": 6.38,
+      "home": 16,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 6.55,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes driving layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 6.87,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges blocks VJ Edgecombe 's 5-foot driving layup"
+    },
+    {
+      "min": 6.88,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 6.88,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride enters the game for Mikal Bridges"
+    },
+    {
+      "min": 6.88,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes enters the game for VJ Edgecombe"
+    },
+    {
+      "min": 6.88,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson enters the game for OG Anunoby"
+    },
+    {
+      "min": 6.97,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 20-foot step back jumpshot"
+    },
+    {
+      "min": 7.0,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Adem Bona offensive rebound"
+    },
+    {
+      "min": 7.17,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 7.2,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson defensive rebound"
+    },
+    {
+      "min": 7.33,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses driving layup"
+    },
+    {
+      "min": 7.37,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 7.52,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns shooting foul"
+    },
+    {
+      "min": 7.52,
+      "home": 18,
+      "away": 18,
+      "period": 1,
+      "scoring": true,
+      "text": "Quentin Grimes makes free throw 1 of 2"
+    },
+    {
+      "min": 7.52,
+      "home": 18,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Quentin Grimes makes free throw 2 of 2"
+    },
+    {
+      "min": 7.52,
+      "home": 18,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe enters the game for Paul George"
+    },
+    {
+      "min": 7.52,
+      "home": 18,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Ariel Hukporti enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 7.75,
+      "home": 18,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses driving floating jump shot"
+    },
+    {
+      "min": 7.8,
+      "home": 18,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "76ers defensive team rebound"
+    },
+    {
+      "min": 8.03,
+      "home": 18,
+      "away": 22,
+      "period": 1,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 23-foot three point jumper (VJ Edgecombe assists)"
+    },
+    {
+      "min": 8.35,
+      "home": 18,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Adem Bona shooting foul"
+    },
+    {
+      "min": 8.35,
+      "home": 19,
+      "away": 22,
+      "period": 1,
+      "scoring": true,
+      "text": "Jordan Clarkson makes free throw 1 of 2"
+    },
+    {
+      "min": 8.35,
+      "home": 19,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes lane violation"
+    },
+    {
+      "min": 8.35,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": true,
+      "text": "Jordan Clarkson makes free throw 2 of 2"
+    },
+    {
+      "min": 8.58,
+      "home": 20,
+      "away": 25,
+      "period": 1,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 22-foot three point jumper (Quentin Grimes assists)"
+    },
+    {
+      "min": 8.92,
+      "home": 20,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes personal foul"
+    },
+    {
+      "min": 8.92,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Josh Hart"
+    },
+    {
+      "min": 8.92,
+      "home": 21,
+      "away": 25,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 8.92,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 9.18,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes misses 12-foot step back jumpshot"
+    },
+    {
+      "min": 9.22,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson defensive rebound"
+    },
+    {
+      "min": 9.38,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson lost ball turnover (Kelly Oubre Jr. steals)"
+    },
+    {
+      "min": 9.42,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride shooting foul"
+    },
+    {
+      "min": 9.42,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 9.42,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George enters the game for Tyrese Maxey"
+    },
+    {
+      "min": 9.42,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 9.42,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe misses free throw 1 of 2"
+    },
+    {
+      "min": 9.42,
+      "home": 22,
+      "away": 26,
+      "period": 1,
+      "scoring": true,
+      "text": "VJ Edgecombe makes free throw 2 of 2"
+    },
+    {
+      "min": 9.73,
+      "home": 22,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George blocks Miles McBride 's 3-foot two point shot"
+    },
+    {
+      "min": 9.75,
+      "home": 22,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 9.78,
+      "home": 24,
+      "away": 26,
+      "period": 1,
+      "scoring": true,
+      "text": "Ariel Hukporti makes 1-foot dunk (Jalen Brunson assists)"
+    },
+    {
+      "min": 10.07,
+      "home": 24,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Ariel Hukporti shooting foul"
+    },
+    {
+      "min": 10.07,
+      "home": 24,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Adem Bona misses free throw 2 of 2"
+    },
+    {
+      "min": 10.07,
+      "home": 24,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Adem Bona makes free throw 1 of 2"
+    },
+    {
+      "min": 10.08,
+      "home": 24,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Ariel Hukporti defensive rebound"
+    },
+    {
+      "min": 10.35,
+      "home": 27,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes 25-foot three pointer"
+    },
+    {
+      "min": 10.6,
+      "home": 27,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes out of bounds lost ball turnover"
+    },
+    {
+      "min": 10.62,
+      "home": 27,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe personal foul"
+    },
+    {
+      "min": 10.62,
+      "home": 28,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 10.62,
+      "home": 28,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey enters the game for Kelly Oubre Jr."
+    },
+    {
+      "min": 10.62,
+      "home": 29,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 10.83,
+      "home": 29,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Ariel Hukporti shooting foul"
+    },
+    {
+      "min": 10.83,
+      "home": 29,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 10.83,
+      "home": 29,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe misses free throw 1 of 2"
+    },
+    {
+      "min": 10.83,
+      "home": 29,
+      "away": 28,
+      "period": 1,
+      "scoring": true,
+      "text": "VJ Edgecombe makes free throw 2 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 29,
+      "away": 28,
+      "period": 1,
+      "scoring": false,
+      "text": "Adem Bona blocks Jalen Brunson 's 2-foot driving layup"
+    },
+    {
+      "min": 12.0,
+      "home": 29,
+      "away": 28,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 29,
+      "away": 28,
+      "period": 1,
+      "scoring": false,
+      "text": "Ariel Hukporti shooting foul"
+    },
+    {
+      "min": 12.0,
+      "home": 29,
+      "away": 29,
+      "period": 1,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 29,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Jeremy Sochan enters the game for Ariel Hukporti"
+    },
+    {
+      "min": 12.0,
+      "home": 29,
+      "away": 30,
+      "period": 1,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 30,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes 9-foot step back jumpshot"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 1,
+      "scoring": true,
+      "text": "Quentin Grimes makes 23-foot three point jumper (VJ Edgecombe assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby misses 10-foot fade away jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Jordan Clarkson"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for Jalen Brunson"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Jeremy Sochan"
+    },
+    {
+      "min": 12.0,
+      "home": 31,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. enters the game for VJ Edgecombe"
+    },
+    {
+      "min": 12.25,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 1-foot dunk (Paul George assists)"
+    },
+    {
+      "min": 12.6,
+      "home": 33,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 5-foot two point shot"
+    },
+    {
+      "min": 12.77,
+      "home": 33,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 12.77,
+      "home": 33,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns personal foul"
+    },
+    {
+      "min": 12.83,
+      "home": 33,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Miles McBride shooting foul"
+    },
+    {
+      "min": 12.83,
+      "home": 33,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "min": 12.83,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "min": 12.95,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona blocks Jose Alvarado's two point shot"
+    },
+    {
+      "min": 12.97,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey defensive rebound"
+    },
+    {
+      "min": 13.18,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona lost ball turnover (Josh Hart steals)"
+    },
+    {
+      "min": 13.4,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby misses 26-foot three point jumper"
+    },
+    {
+      "min": 13.43,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 13.62,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey misses driving layup"
+    },
+    {
+      "min": 13.65,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona offensive rebound"
+    },
+    {
+      "min": 13.67,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby shooting foul"
+    },
+    {
+      "min": 13.67,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona misses free throw 1 of 2"
+    },
+    {
+      "min": 13.67,
+      "home": 33,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 13.67,
+      "home": 33,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Adem Bona makes free throw 2 of 2"
+    },
+    {
+      "min": 13.87,
+      "home": 35,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes 12-foot fade away jump shot (Jose Alvarado assists)"
+    },
+    {
+      "min": 14.02,
+      "home": 35,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 24-foot three point jumper (Paul George assists)"
+    },
+    {
+      "min": 14.27,
+      "home": 37,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes driving layup"
+    },
+    {
+      "min": 14.5,
+      "home": 37,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby blocks Quentin Grimes 's 1-foot two point shot"
+    },
+    {
+      "min": 14.53,
+      "home": 37,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Miles McBride defensive rebound"
+    },
+    {
+      "min": 14.62,
+      "home": 40,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Jose Alvarado makes 25-foot three pointer (Miles McBride assists)"
+    },
+    {
+      "min": 14.88,
+      "home": 40,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 13-foot two point shot"
+    },
+    {
+      "min": 15.13,
+      "home": 40,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart offensive foul"
+    },
+    {
+      "min": 15.13,
+      "home": 40,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart offensive foul turnover"
+    },
+    {
+      "min": 15.13,
+      "home": 40,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe enters the game for Quentin Grimes"
+    },
+    {
+      "min": 15.43,
+      "home": 40,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 17-foot fade away jump shot"
+    },
+    {
+      "min": 15.75,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes 19-foot pullup jump shot (Josh Hart assists)"
+    },
+    {
+      "min": 15.93,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 15.97,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona offensive rebound"
+    },
+    {
+      "min": 16.03,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Ariel Hukporti enters the game for OG Anunoby"
+    },
+    {
+      "min": 16.03,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado personal foul"
+    },
+    {
+      "min": 16.03,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson enters the game for Miles McBride"
+    },
+    {
+      "min": 16.22,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado shooting foul"
+    },
+    {
+      "min": 16.22,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey misses free throw 1 of 2"
+    },
+    {
+      "min": 16.22,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Jose Alvarado"
+    },
+    {
+      "min": 16.22,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Andre Drummond enters the game for Adem Bona"
+    },
+    {
+      "min": 16.22,
+      "home": 42,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 16.22,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "min": 16.52,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart misses 23-foot three point jumper"
+    },
+    {
+      "min": 16.57,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson offensive rebound"
+    },
+    {
+      "min": 16.65,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses driving floating jump shot"
+    },
+    {
+      "min": 16.68,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Ariel Hukporti offensive rebound"
+    },
+    {
+      "min": 16.68,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Ariel Hukporti misses two point shot"
+    },
+    {
+      "min": 16.7,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson offensive rebound"
+    },
+    {
+      "min": 16.7,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson misses 1-foot tip shot"
+    },
+    {
+      "min": 16.72,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 16.85,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses dunk"
+    },
+    {
+      "min": 16.87,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 17.25,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson bad pass\nturnover (Andre Drummond steals)"
+    },
+    {
+      "min": 17.28,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey misses running pullup jump shot"
+    },
+    {
+      "min": 17.33,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Andre Drummond offensive rebound"
+    },
+    {
+      "min": 17.33,
+      "home": 42,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Andre Drummond makes tip shot"
+    },
+    {
+      "min": 17.47,
+      "home": 42,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Ariel Hukporti misses layup"
+    },
+    {
+      "min": 17.52,
+      "home": 42,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson offensive rebound"
+    },
+    {
+      "min": 17.55,
+      "home": 44,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Jordan Clarkson makes 3-foot floating jump shot (Mikal Bridges assists)"
+    },
+    {
+      "min": 17.82,
+      "home": 44,
+      "away": 50,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes driving layup"
+    },
+    {
+      "min": 17.95,
+      "home": 46,
+      "away": 50,
+      "period": 2,
+      "scoring": true,
+      "text": "Jordan Clarkson makes driving layup"
+    },
+    {
+      "min": 18.0,
+      "home": 46,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 18.28,
+      "home": 46,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey misses driving floating jump shot"
+    },
+    {
+      "min": 18.32,
+      "home": 46,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Ariel Hukporti defensive rebound"
+    },
+    {
+      "min": 18.47,
+      "home": 46,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson lost ball turnover (Tyrese Maxey steals)"
+    },
+    {
+      "min": 18.63,
+      "home": 46,
+      "away": 52,
+      "period": 2,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes dunk (Tyrese Maxey assists)"
+    },
+    {
+      "min": 18.92,
+      "home": 48,
+      "away": 52,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes 5-foot driving floating jump shot"
+    },
+    {
+      "min": 19.12,
+      "home": 48,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey bad pass\nturnover (Josh Hart steals)"
+    },
+    {
+      "min": 19.18,
+      "home": 48,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Clarkson misses 23-foot running jump shot"
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Ariel Hukporti personal foul"
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 53,
+      "period": 2,
+      "scoring": true,
+      "text": "Andre Drummond makes free throw 1 of 2"
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Quentin Grimes enters the game for Paul George"
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Ariel Hukporti"
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Jordan Clarkson"
+    },
+    {
+      "min": 19.22,
+      "home": 48,
+      "away": 54,
+      "period": 2,
+      "scoring": true,
+      "text": "Andre Drummond makes free throw 2 of 2"
+    },
+    {
+      "min": 19.43,
+      "home": 50,
+      "away": 54,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "min": 19.8,
+      "home": 50,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 2-foot floating jump shot"
+    },
+    {
+      "min": 19.83,
+      "home": 50,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe offensive rebound"
+    },
+    {
+      "min": 19.87,
+      "home": 50,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe lost ball turnover (OG Anunoby steals)"
+    },
+    {
+      "min": 20.0,
+      "home": 52,
+      "away": 54,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes running dunk (Jalen Brunson assists)"
+    },
+    {
+      "min": 20.38,
+      "home": 52,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 8-foot two point shot"
+    },
+    {
+      "min": 20.4,
+      "home": 52,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 20.45,
+      "home": 54,
+      "away": 54,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes 1-foot dunk (Josh Hart assists)"
+    },
+    {
+      "min": 20.68,
+      "home": 54,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 20.68,
+      "home": 54,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona enters the game for Andre Drummond"
+    },
+    {
+      "min": 20.68,
+      "home": 54,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George enters the game for VJ Edgecombe"
+    },
+    {
+      "min": 20.87,
+      "home": 54,
+      "away": 56,
+      "period": 2,
+      "scoring": true,
+      "text": "Paul George makes 13-foot jumper (Tyrese Maxey assists)"
+    },
+    {
+      "min": 20.87,
+      "home": 54,
+      "away": 56,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart shooting foul"
+    },
+    {
+      "min": 20.87,
+      "home": 54,
+      "away": 56,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart technical foul"
+    },
+    {
+      "min": 20.87,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes technical free throw"
+    },
+    {
+      "min": 20.87,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George misses free throw 1 of 1"
+    },
+    {
+      "min": 20.9,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 21.03,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 21.08,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Quentin Grimes defensive rebound"
+    },
+    {
+      "min": 21.35,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses 26-foot three point jumper"
+    },
+    {
+      "min": 21.38,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 21.38,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona personal foul"
+    },
+    {
+      "min": 21.63,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby misses 19-foot step back jumpshot"
+    },
+    {
+      "min": 21.68,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 22.0,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses 12-foot turnaround jump shot"
+    },
+    {
+      "min": 22.03,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona offensive rebound"
+    },
+    {
+      "min": 22.13,
+      "home": 54,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey bad pass\nturnover (Jalen Brunson steals)"
+    },
+    {
+      "min": 22.2,
+      "home": 56,
+      "away": 57,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes two point shot"
+    },
+    {
+      "min": 22.5,
+      "home": 56,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Quentin Grimes misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 22.53,
+      "home": 56,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona offensive rebound"
+    },
+    {
+      "min": 22.57,
+      "home": 56,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona bad pass\nturnover (Mikal Bridges steals)"
+    },
+    {
+      "min": 22.67,
+      "home": 58,
+      "away": 57,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes running layup (Josh Hart assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 15-foot fade away jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George personal foul"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe enters the game for Quentin Grimes"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 57,
+      "period": 2,
+      "scoring": true,
+      "text": "Josh Hart makes driving layup"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George misses 23-foot three point jumper"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona offensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 59,
+      "period": 2,
+      "scoring": true,
+      "text": "VJ Edgecombe makes driving layup (Adem Bona assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses driving layup"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 62,
+      "period": 2,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 25-foot three point jumper (Tyrese Maxey assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "Adem Bona loose ball foul"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "76ers delay of game violation"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses free throw 1 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "Quentin Grimes enters the game for Adem Bona"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 62,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Landry Shamet"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond enters the game for Quentin Grimes"
+    },
+    {
+      "min": 24.22,
+      "home": 61,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George misses 25-foot three point jumper"
+    },
+    {
+      "min": 24.27,
+      "home": 61,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 24.5,
+      "home": 63,
+      "away": 62,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes 1-foot layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 24.85,
+      "home": 63,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe offensive foul turnover"
+    },
+    {
+      "min": 24.85,
+      "home": 63,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe offensive foul"
+    },
+    {
+      "min": 25.13,
+      "home": 63,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 25.17,
+      "home": 63,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 25.35,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 24-foot three point jumper (Kelly Oubre Jr. assists)"
+    },
+    {
+      "min": 25.57,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges misses 7-foot two point shot"
+    },
+    {
+      "min": 25.6,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 25.8,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart personal foul"
+    },
+    {
+      "min": 25.8,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe out of bounds bad pass turnover"
+    },
+    {
+      "min": 26.08,
+      "home": 66,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 24-foot three point jumper (Josh Hart assists)"
+    },
+    {
+      "min": 26.38,
+      "home": 66,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses driving floating jump shot"
+    },
+    {
+      "min": 26.4,
+      "home": 66,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond offensive rebound"
+    },
+    {
+      "min": 26.4,
+      "home": 66,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Andre Drummond makes tip shot"
+    },
+    {
+      "min": 26.58,
+      "home": 66,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges misses 22-foot three point jumper"
+    },
+    {
+      "min": 26.62,
+      "home": 66,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 26.88,
+      "home": 66,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 1-foot two point shot"
+    },
+    {
+      "min": 27.2,
+      "home": 66,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby misses 23-foot three point jumper"
+    },
+    {
+      "min": 27.23,
+      "home": 66,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges offensive rebound"
+    },
+    {
+      "min": 27.25,
+      "home": 68,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes 8-foot jumper"
+    },
+    {
+      "min": 27.45,
+      "home": 68,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Paul George makes 27-foot three point jumper (Tyrese Maxey assists)"
+    },
+    {
+      "min": 27.63,
+      "home": 70,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 2-foot two point shot (Mikal Bridges assists)"
+    },
+    {
+      "min": 27.63,
+      "home": 70,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond shooting foul"
+    },
+    {
+      "min": 27.63,
+      "home": 71,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 1"
+    },
+    {
+      "min": 27.88,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes driving layup (Paul George assists)"
+    },
+    {
+      "min": 28.1,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond shooting foul"
+    },
+    {
+      "min": 28.1,
+      "home": 72,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "min": 28.1,
+      "home": 72,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Adem Bona enters the game for Andre Drummond"
+    },
+    {
+      "min": 28.1,
+      "home": 73,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "min": 28.43,
+      "home": 73,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 20-foot pullup jump shot"
+    },
+    {
+      "min": 28.85,
+      "home": 73,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Adem Bona personal foul"
+    },
+    {
+      "min": 28.98,
+      "home": 75,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes 5-foot two point shot"
+    },
+    {
+      "min": 29.22,
+      "home": 75,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Paul George makes 23-foot three point step back jumpshot (Kelly Oubre Jr. assists)"
+    },
+    {
+      "min": 29.48,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes 1-foot layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 29.73,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Tyrese Maxey bad pass\nturnover"
+    },
+    {
+      "min": 29.73,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George loose ball foul"
+    },
+    {
+      "min": 29.73,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 29.73,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Quentin Grimes enters the game for VJ Edgecombe"
+    },
+    {
+      "min": 29.95,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes two point shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 30.23,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 30.25,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 30.6,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 30.63,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Quentin Grimes defensive rebound"
+    },
+    {
+      "min": 30.9,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses 26-foot three point jumper"
+    },
+    {
+      "min": 30.95,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 31.12,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Adem Bona shooting foul"
+    },
+    {
+      "min": 31.12,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Dominick Barlow enters the game for Adem Bona"
+    },
+    {
+      "min": 31.12,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses free throw 1 of 2"
+    },
+    {
+      "min": 31.12,
+      "home": 79,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 31.12,
+      "home": 80,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "min": 31.48,
+      "home": 80,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns shooting foul"
+    },
+    {
+      "min": 31.48,
+      "home": 80,
+      "away": 80,
+      "period": 3,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes free throw 1 of 2"
+    },
+    {
+      "min": 31.48,
+      "home": 80,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 31.48,
+      "home": 80,
+      "away": 81,
+      "period": 3,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes free throw 2 of 2"
+    },
+    {
+      "min": 31.6,
+      "home": 80,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Quentin Grimes shooting foul"
+    },
+    {
+      "min": 31.6,
+      "home": 81,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe enters the game for Kelly Oubre Jr."
+    },
+    {
+      "min": 31.6,
+      "home": 81,
+      "away": 81,
+      "period": 3,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 31.6,
+      "home": 82,
+      "away": 81,
+      "period": 3,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 31.98,
+      "home": 82,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Tyrese Maxey lost ball turnover (OG Anunoby steals)"
+    },
+    {
+      "min": 32.23,
+      "home": 82,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart traveling turnover"
+    },
+    {
+      "min": 32.4,
+      "home": 82,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Dominick Barlow offensive foul"
+    },
+    {
+      "min": 32.4,
+      "home": 82,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Dominick Barlow offensive foul turnover"
+    },
+    {
+      "min": 32.75,
+      "home": 84,
+      "away": 81,
+      "period": 3,
+      "scoring": true,
+      "text": "OG Anunoby makes 7-foot jump bank shot (Jalen Brunson assists)"
+    },
+    {
+      "min": 33.07,
+      "home": 84,
+      "away": 83,
+      "period": 3,
+      "scoring": true,
+      "text": "Dominick Barlow makes 1-foot dunk"
+    },
+    {
+      "min": 33.37,
+      "home": 84,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Dominick Barlow blocks Jalen Brunson 's 2-foot driving layup"
+    },
+    {
+      "min": 33.4,
+      "home": 84,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 33.77,
+      "home": 84,
+      "away": 86,
+      "period": 3,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 23-foot three point jumper (Quentin Grimes assists)"
+    },
+    {
+      "min": 34.18,
+      "home": 84,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George personal foul"
+    },
+    {
+      "min": 34.18,
+      "home": 84,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride enters the game for Landry Shamet"
+    },
+    {
+      "min": 34.18,
+      "home": 84,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 34.18,
+      "home": 86,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. enters the game for Paul George"
+    },
+    {
+      "min": 34.18,
+      "home": 85,
+      "away": 86,
+      "period": 3,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 34.18,
+      "home": 86,
+      "away": 86,
+      "period": 3,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 34.35,
+      "home": 86,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe bad pass\nturnover (OG Anunoby steals)"
+    },
+    {
+      "min": 34.4,
+      "home": 86,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 24-foot running jump shot"
+    },
+    {
+      "min": 34.43,
+      "home": 86,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby offensive rebound"
+    },
+    {
+      "min": 34.5,
+      "home": 86,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 34.53,
+      "home": 86,
+      "away": 86,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby offensive rebound"
+    },
+    {
+      "min": 34.72,
+      "home": 89,
+      "away": 86,
+      "period": 3,
+      "scoring": true,
+      "text": "OG Anunoby makes 25-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 88,
+      "period": 3,
+      "scoring": true,
+      "text": "Dominick Barlow makes dunk (Quentin Grimes assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 88,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges misses 2-foot reverse layup"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 88,
+      "period": 3,
+      "scoring": false,
+      "text": "Dominick Barlow defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 88,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby shooting foul"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 89,
+      "period": 3,
+      "scoring": true,
+      "text": "Quentin Grimes makes free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 89,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 89,
+      "period": 3,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Josh Hart"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 3,
+      "scoring": true,
+      "text": "Quentin Grimes makes free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 3,
+      "scoring": false,
+      "text": "Jeremy Sochan enters the game for Jalen Brunson"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George enters the game for Dominick Barlow"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride traveling turnover"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 3,
+      "scoring": false,
+      "text": "Tyrese Maxey misses driving floating jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Dominick Barlow enters the game for Kelly Oubre Jr."
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Jeremy Sochan"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for OG Anunoby"
+    },
+    {
+      "min": 36.0,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Landry Shamet"
+    },
+    {
+      "min": 36.2,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Jose Alvarado bad pass\nturnover (Paul George steals)"
+    },
+    {
+      "min": 36.4,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 36.43,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 36.68,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Miles McBride misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 36.73,
+      "home": 89,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 37.02,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Dominick Barlow makes 1-foot layup (VJ Edgecombe assists)"
+    },
+    {
+      "min": 37.28,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart out of bounds lost ball turnover"
+    },
+    {
+      "min": 37.53,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George misses 23-foot three point jumper"
+    },
+    {
+      "min": 37.58,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe offensive rebound"
+    },
+    {
+      "min": 37.73,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 15-foot fade away jump shot"
+    },
+    {
+      "min": 37.77,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 37.85,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns bad pass\nturnover (Quentin Grimes steals)"
+    },
+    {
+      "min": 38.0,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 22-foot three point jumper"
+    },
+    {
+      "min": 38.03,
+      "home": 89,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 38.18,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Miles McBride makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 38.67,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George misses 17-foot two point shot"
+    },
+    {
+      "min": 38.7,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 38.85,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Jose Alvarado"
+    },
+    {
+      "min": 38.85,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Quentin Grimes personal foul"
+    },
+    {
+      "min": 38.85,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Mikal Bridges"
+    },
+    {
+      "min": 38.92,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses driving dunk"
+    },
+    {
+      "min": 38.95,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 39.05,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby misses 24-foot three point jumper"
+    },
+    {
+      "min": 39.1,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Dominick Barlow defensive rebound"
+    },
+    {
+      "min": 39.28,
+      "home": 92,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 14-foot step back jumpshot"
+    },
+    {
+      "min": 39.5,
+      "home": 94,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 8-foot fade away jump shot"
+    },
+    {
+      "min": 39.88,
+      "home": 94,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe misses layup"
+    },
+    {
+      "min": 39.92,
+      "home": 94,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 40.05,
+      "home": 96,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "OG Anunoby makes driving layup (Josh Hart assists)"
+    },
+    {
+      "min": 40.22,
+      "home": 96,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. enters the game for Quentin Grimes"
+    },
+    {
+      "min": 40.22,
+      "home": 96,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 40.42,
+      "home": 96,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George misses 12-foot fade away jump shot"
+    },
+    {
+      "min": 40.45,
+      "home": 96,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 40.63,
+      "home": 96,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns lost ball turnover (Paul George steals)"
+    },
+    {
+      "min": 40.7,
+      "home": 96,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby shooting foul"
+    },
+    {
+      "min": 40.7,
+      "home": 96,
+      "away": 96,
+      "period": 4,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes free throw 2 of 2"
+    },
+    {
+      "min": 40.7,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes free throw 1 of 2"
+    },
+    {
+      "min": 40.97,
+      "home": 96,
+      "away": 96,
+      "period": 4,
+      "scoring": false,
+      "text": "Dominick Barlow blocks OG Anunoby 's 23-foot three point jumper"
+    },
+    {
+      "min": 41.0,
+      "home": 96,
+      "away": 96,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 41.13,
+      "home": 96,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 23-foot three point jumper (Tyrese Maxey assists)"
+    },
+    {
+      "min": 41.58,
+      "home": 99,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Josh Hart makes 24-foot three point jumper (OG Anunoby assists)"
+    },
+    {
+      "min": 41.98,
+      "home": 99,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 24-foot three point jumper"
+    },
+    {
+      "min": 42.03,
+      "home": 99,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 42.23,
+      "home": 99,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses two point shot"
+    },
+    {
+      "min": 42.28,
+      "home": 99,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 42.53,
+      "home": 99,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses 26-foot three point jumper"
+    },
+    {
+      "min": 42.58,
+      "home": 99,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 42.9,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 17-foot pullup jump shot"
+    },
+    {
+      "min": 43.3,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 23-foot three point step back jumpshot"
+    },
+    {
+      "min": 43.33,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 43.58,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson misses 20-foot step back jumpshot"
+    },
+    {
+      "min": 43.63,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 43.73,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey misses driving layup"
+    },
+    {
+      "min": 43.88,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 23-foot three point jumper"
+    },
+    {
+      "min": 43.83,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George offensive rebound"
+    },
+    {
+      "min": 43.93,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 43.98,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Miles McBride"
+    },
+    {
+      "min": 43.98,
+      "home": 101,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 44.23,
+      "home": 103,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes 16-foot turnaround jump shot"
+    },
+    {
+      "min": 44.65,
+      "home": 103,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 44.68,
+      "home": 103,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 44.77,
+      "home": 103,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 44.95,
+      "home": 103,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George blocks OG Anunoby 's 3-foot dunk"
+    },
+    {
+      "min": 44.98,
+      "home": 103,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 45.07,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Mikal Bridges makes 20-foot step back jumpshot (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 45.35,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey lost ball turnover (Josh Hart steals)"
+    },
+    {
+      "min": 45.48,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 45.48,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Miles McBride enters the game for OG Anunoby"
+    },
+    {
+      "min": 45.65,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson lost ball turnover (Dominick Barlow steals)"
+    },
+    {
+      "min": 45.68,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 45.87,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Dominick Barlow out of bounds bad pass turnover"
+    },
+    {
+      "min": 46.13,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Miles McBride misses 22-foot three point jumper"
+    },
+    {
+      "min": 46.18,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 46.22,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Mikal Bridges personal foul"
+    },
+    {
+      "min": 46.45,
+      "home": 105,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson shooting foul"
+    },
+    {
+      "min": 46.45,
+      "home": 105,
+      "away": 100,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "min": 46.45,
+      "home": 105,
+      "away": 100,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey misses free throw 2 of 2"
+    },
+    {
+      "min": 46.48,
+      "home": 105,
+      "away": 100,
+      "period": 4,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 46.72,
+      "home": 105,
+      "away": 100,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. personal foul"
+    },
+    {
+      "min": 46.9,
+      "home": 105,
+      "away": 100,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe shooting foul"
+    },
+    {
+      "min": 46.9,
+      "home": 106,
+      "away": 100,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 46.9,
+      "home": 106,
+      "away": 100,
+      "period": 4,
+      "scoring": false,
+      "text": "Quentin Grimes enters the game for Dominick Barlow"
+    },
+    {
+      "min": 46.9,
+      "home": 107,
+      "away": 100,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 47.0,
+      "home": 107,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyrese Maxey makes driving layup"
+    },
+    {
+      "min": 48.0,
+      "home": 107,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Josh Hart misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 48.0,
+      "home": 107,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 107,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George misses 26-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 107,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 107,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 107,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey personal take foul"
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Quentin Grimes defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Miles McBride makes free throw 1 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Miles McBride misses free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 108,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 29,
+      "y": 25,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 1-foot running dunk (Paul George assists)"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 11-foot jumper"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 23-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 25-foot three pointer"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - Flagrant 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses free throw flagrant 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Flagrant 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw flagrant 1 of 2"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 1-foot two point shot"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 23-foot three point jumper"
+    },
+    {
+      "x": 49,
+      "y": 3,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 24-foot running jump shot"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 23-foot three point jumper (Andre Drummond assists)"
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 25-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 22-foot three point jumper (Tyrese Maxey assists)"
+    },
+    {
+      "x": 33,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Running Reverse",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes two point shot"
+    },
+    {
+      "x": 38,
+      "y": 21,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 24-foot running jump shot"
+    },
+    {
+      "x": 24,
+      "y": 10,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 9-foot driving floating jump shot (OG Anunoby assists)"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Reverse Dunk Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes dunk (Jalen Brunson assists)"
+    },
+    {
+      "x": 29,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses driving floating jump shot"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes running layup (Josh Hart assists)"
+    },
+    {
+      "x": 31,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 7-foot driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 23-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes driving layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Mikal Bridges blocks VJ Edgecombe 's 5-foot driving layup"
+    },
+    {
+      "x": 29,
+      "y": 20,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 20-foot step back jumpshot"
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Quentin Grimes makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Quentin Grimes makes free throw 2 of 2"
+    },
+    {
+      "x": 20,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses driving floating jump shot"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 23-foot three point jumper (VJ Edgecombe assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 22-foot three point jumper (Quentin Grimes assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 13,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Quentin Grimes misses 12-foot step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "NYK",
+      "text": "Paul George blocks Miles McBride 's 3-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "NYK",
+      "text": "Ariel Hukporti makes 1-foot dunk (Jalen Brunson assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Adem Bona misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Adem Bona makes free throw 1 of 2"
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 25-foot three pointer"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Adem Bona blocks Jalen Brunson 's 2-foot driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "x": 34,
+      "y": 0,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 9-foot step back jumpshot"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Quentin Grimes makes 23-foot three point jumper (VJ Edgecombe assists)"
+    },
+    {
+      "x": 24,
+      "y": 11,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 10-foot fade away jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 1-foot dunk (Paul George assists)"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 5-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Adem Bona blocks Jose Alvarado's two point shot"
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Adem Bona misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Adem Bona makes free throw 2 of 2"
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 12-foot fade away jump shot (Jose Alvarado assists)"
+    },
+    {
+      "x": 14,
+      "y": 22,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 24-foot three point jumper (Paul George assists)"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes driving layup"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "PHI",
+      "text": "OG Anunoby blocks Quentin Grimes 's 1-foot two point shot"
+    },
+    {
+      "x": 40,
+      "y": 21,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado makes 25-foot three pointer (Miles McBride assists)"
+    },
+    {
+      "x": 36,
+      "y": 7,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 13-foot two point shot"
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 17-foot fade away jump shot"
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 19-foot pullup jump shot (Josh Hart assists)"
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 23-foot three point jumper"
+    },
+    {
+      "x": 22,
+      "y": 12,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses driving floating jump shot"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "NYK",
+      "text": "Ariel Hukporti misses two point shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson misses 1-foot tip shot"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": false,
+      "type": "Cutting Dunk Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses dunk"
+    },
+    {
+      "x": 39,
+      "y": 24,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses running pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "PHI",
+      "text": "Andre Drummond makes tip shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "NYK",
+      "text": "Ariel Hukporti misses layup"
+    },
+    {
+      "x": 28,
+      "y": 3,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes 3-foot floating jump shot (Mikal Bridges assists)"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes driving layup"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes driving layup"
+    },
+    {
+      "x": 31,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes dunk (Tyrese Maxey assists)"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 5-foot driving floating jump shot"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson misses 23-foot running jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Andre Drummond makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Andre Drummond makes free throw 2 of 2"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Floating Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 2-foot floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes running dunk (Jalen Brunson assists)"
+    },
+    {
+      "x": 30,
+      "y": 7,
+      "made": false,
+      "type": "Turnaround Bank Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 8-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Alley Oop Dunk Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 1-foot dunk (Josh Hart assists)"
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 13-foot jumper (Tyrese Maxey assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes technical free throw"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "PHI",
+      "text": "Paul George misses free throw 1 of 1"
+    },
+    {
+      "x": 37,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses 26-foot three point jumper"
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 19-foot step back jumpshot"
+    },
+    {
+      "x": 28,
+      "y": 12,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses 12-foot turnaround jump shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "NYK",
+      "text": "Jalen Brunson makes two point shot"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Quentin Grimes misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes running layup (Josh Hart assists)"
+    },
+    {
+      "x": 24,
+      "y": 15,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 15-foot fade away jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes driving layup"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 23-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes driving layup (Adem Bona assists)"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses driving layup"
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 25-foot three point jumper (Tyrese Maxey assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 25-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 1-foot layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 32,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 15-foot pullup jump shot"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 24-foot three point jumper (Kelly Oubre Jr. assists)"
+    },
+    {
+      "x": 30,
+      "y": 5,
+      "made": false,
+      "type": "Fade Away Bank Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 7-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 24-foot three point jumper (Josh Hart assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses driving floating jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "PHI",
+      "text": "Andre Drummond makes tip shot"
+    },
+    {
+      "x": 48,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 22-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 1-foot two point shot"
+    },
+    {
+      "x": 48,
+      "y": 7,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 23-foot three point jumper"
+    },
+    {
+      "x": 33,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 8-foot jumper"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 27-foot three point jumper (Tyrese Maxey assists)"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": true,
+      "type": "Driving Jump Shot Bank",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 2-foot two point shot (Mikal Bridges assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 1"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes driving layup (Paul George assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 19,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 20-foot pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "made": true,
+      "type": "Turnaround Bank Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes 5-foot two point shot"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 23-foot three point step back jumpshot (Kelly Oubre Jr. assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 1-foot layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "NYK",
+      "text": "Jalen Brunson makes two point shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 35,
+      "y": 24,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 29,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 5,
+      "made": true,
+      "type": "Jump Shot Bank",
+      "team": "NYK",
+      "text": "OG Anunoby makes 7-foot jump bank shot (Jalen Brunson assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "PHI",
+      "text": "Dominick Barlow makes 1-foot dunk"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Dominick Barlow blocks Jalen Brunson 's 2-foot driving layup"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 23-foot three point jumper (Quentin Grimes assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": 49,
+      "y": 1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 24-foot running jump shot"
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 34,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 25-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "PHI",
+      "text": "Dominick Barlow makes dunk (Quentin Grimes assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Reverse Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 2-foot reverse layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Quentin Grimes makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Quentin Grimes makes free throw 2 of 2"
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses driving floating jump shot"
+    },
+    {
+      "x": 33,
+      "y": 17,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "PHI",
+      "text": "Dominick Barlow makes 1-foot layup (VJ Edgecombe assists)"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 23-foot three point jumper"
+    },
+    {
+      "x": 36,
+      "y": 12,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 15-foot fade away jump shot"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 22-foot three point jumper"
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 14,
+      "y": 14,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 17-foot two point shot"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "made": false,
+      "type": "Driving Dunk Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses driving dunk"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 24-foot three point jumper"
+    },
+    {
+      "x": 38,
+      "y": 7,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 14-foot step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 9,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 8-foot fade away jump shot"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses layup"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes driving layup (Josh Hart assists)"
+    },
+    {
+      "x": 38,
+      "y": 3,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 12-foot fade away jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes free throw 1 of 2"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Dominick Barlow blocks OG Anunoby 's 23-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 23-foot three point jumper (Tyrese Maxey assists)"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes 24-foot three point jumper (OG Anunoby assists)"
+    },
+    {
+      "x": 41,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 24-foot three point jumper"
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses two point shot"
+    },
+    {
+      "x": 36,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses 26-foot three point jumper"
+    },
+    {
+      "x": 19,
+      "y": 16,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 17-foot pullup jump shot"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 23-foot three point step back jumpshot"
+    },
+    {
+      "x": 35,
+      "y": 18,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 20-foot step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses driving layup"
+    },
+    {
+      "x": 47,
+      "y": 7,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 16-foot turnaround jump shot"
+    },
+    {
+      "x": 36,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": false,
+      "type": "Dunk Shot",
+      "team": "NYK",
+      "text": "Paul George blocks OG Anunoby 's 3-foot dunk"
+    },
+    {
+      "x": 33,
+      "y": 19,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 20-foot step back jumpshot (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 22-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes driving layup"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Miles McBride makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Miles McBride misses free throw 2 of 2"
+    },
+    {
+      "x": 44,
+      "y": 18,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 25-foot three point pullup jump shot"
+    }
+  ],
+  "shot_zones": {
+    "NYK": {
+      "at_rim": {
+        "fgm": 18,
+        "fga": 28,
+        "pct": 64
+      },
+      "paint": {
+        "fgm": 11,
+        "fga": 18,
+        "pct": 61
+      },
+      "mid": {
+        "fgm": 25,
+        "fga": 28,
+        "pct": 89
+      },
+      "corner_3": {
+        "fgm": 2,
+        "fga": 16,
+        "pct": 12
+      },
+      "arc_3": {
+        "fgm": 5,
+        "fga": 14,
+        "pct": 36
+      }
+    },
+    "PHI": {
+      "at_rim": {
+        "fgm": 14,
+        "fga": 21,
+        "pct": 67
+      },
+      "paint": {
+        "fgm": 3,
+        "fga": 11,
+        "pct": 27
+      },
+      "mid": {
+        "fgm": 25,
+        "fga": 30,
+        "pct": 83
+      },
+      "corner_3": {
+        "fgm": 9,
+        "fga": 22,
+        "pct": 41
+      },
+      "arc_3": {
+        "fgm": 4,
+        "fga": 19,
+        "pct": 21
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

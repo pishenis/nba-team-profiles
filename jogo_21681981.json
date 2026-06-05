@@ -1,0 +1,7262 @@
+{
+  "game_id": "21681981",
+  "date": "2026-04-24",
+  "home": "HOU",
+  "away": "LAL",
+  "home_pts": 108,
+  "away_pts": 112,
+  "winner": "LAL",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "HOU": [
+        32,
+        20,
+        23,
+        26,
+        7
+      ],
+      "LAL": [
+        39,
+        24,
+        17,
+        21,
+        11
+      ]
+    },
+    "num_periods": 5,
+    "time_leading_home_fmt": "6:11",
+    "time_leading_away_fmt": "43:53",
+    "time_tied_fmt": "3:32",
+    "lead_changes": 6,
+    "ties": 8,
+    "best_run_home": {
+      "pts_home": 15,
+      "pts_away": 6,
+      "start_min": 38.83,
+      "end_min": 43.48
+    },
+    "best_run_away": {
+      "pts_away": 17,
+      "pts_home": 7,
+      "start_min": 48.0,
+      "end_min": 53.0
+    },
+    "max_consec_home": 6,
+    "max_consec_away": 11
+  },
+  "four_factors": {
+    "HOU": {
+      "efg": 0.524,
+      "tov": 0.136,
+      "oreb": 0.042,
+      "ftr": 0.205,
+      "opp_efg": 0.53,
+      "opp_tov": 0.185,
+      "opp_oreb": 0.25,
+      "opp_ftr": 0.47
+    },
+    "LAL": {
+      "efg": 0.531,
+      "tov": 0.202,
+      "oreb": 0,
+      "ftr": 0.385,
+      "opp_efg": 0.488,
+      "opp_tov": 0.138,
+      "opp_oreb": 0.279,
+      "opp_ftr": 0.2
+    }
+  },
+  "misc": {
+    "HOU": {
+      "pts_paint": 54,
+      "pts_fb": 15,
+      "pts_2nd_chance": 18,
+      "pts_off_tov": 17
+    },
+    "LAL": {
+      "pts_paint": 50,
+      "pts_fb": 9,
+      "pts_2nd_chance": 17,
+      "pts_off_tov": 22
+    }
+  },
+  "hustle": {
+    "HOU": {
+      "deflections": 28,
+      "charges_drawn": 0,
+      "contested_shots": 37,
+      "contested_2pt": 26,
+      "contested_3pt": 11,
+      "loose_balls_recovered": 2,
+      "screen_assists": 3
+    },
+    "LAL": {
+      "deflections": 22,
+      "charges_drawn": 0,
+      "contested_shots": 48,
+      "contested_2pt": 31,
+      "contested_3pt": 17,
+      "loose_balls_recovered": 10,
+      "screen_assists": 4
+    }
+  },
+  "box_score": {
+    "HOU": [
+      {
+        "name": "T. Eason",
+        "minutes": "46",
+        "pos": "F",
+        "starter": true,
+        "pts": 5,
+        "reb": 4,
+        "oreb": 2,
+        "ast": 2,
+        "stl": 4,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 9,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 3,
+        "plus_minus": 6,
+        "off_rating": 112.5,
+        "def_rating": 102.2,
+        "ts_pct": 0.265,
+        "deflections": 12,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "18:09",
+        "mu_fga": 11,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.364,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 7
+      },
+      {
+        "name": "J. Smith Jr.",
+        "minutes": "44",
+        "pos": "F",
+        "starter": true,
+        "pts": 24,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 8,
+        "fga": 16,
+        "fg3m": 6,
+        "fg3a": 10,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 4,
+        "plus_minus": 4,
+        "off_rating": 110,
+        "def_rating": 101.2,
+        "ts_pct": 0.711,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "17:17",
+        "mu_fga": 8,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.625,
+        "mu_3pa": 4,
+        "mu_3pm": 2,
+        "mu_pts": 15,
+        "mu_ast": 3
+      },
+      {
+        "name": "A. Sengun",
+        "minutes": "47",
+        "pos": "C",
+        "starter": true,
+        "pts": 33,
+        "reb": 16,
+        "oreb": 5,
+        "ast": 6,
+        "stl": 3,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 15,
+        "fga": 27,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 3,
+        "pf": 2,
+        "plus_minus": 10,
+        "off_rating": 107.7,
+        "def_rating": 93.6,
+        "ts_pct": 0.583,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 13,
+        "mu_min": "18:43",
+        "mu_fga": 21,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.286,
+        "mu_3pa": 7,
+        "mu_3pm": 1,
+        "mu_pts": 16,
+        "mu_ast": 5
+      },
+      {
+        "name": "R. Sheppard",
+        "minutes": "46",
+        "pos": "G",
+        "starter": true,
+        "pts": 17,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 7,
+        "stl": 3,
+        "blk": 2,
+        "tov": 5,
+        "fgm": 6,
+        "fga": 21,
+        "fg3m": 4,
+        "fg3a": 13,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 5,
+        "plus_minus": -2,
+        "off_rating": 108.3,
+        "def_rating": 109.4,
+        "ts_pct": 0.388,
+        "deflections": 5,
+        "charges_drawn": 0,
+        "contested_shots": 8,
+        "mu_min": "18:19",
+        "mu_fga": 21,
+        "mu_fgm": 12,
+        "mu_fg_pct": 0.571,
+        "mu_3pa": 6,
+        "mu_3pm": 3,
+        "mu_pts": 31,
+        "mu_ast": 4
+      },
+      {
+        "name": "A. Thompson",
+        "minutes": "48",
+        "pos": "G",
+        "starter": true,
+        "pts": 26,
+        "reb": 11,
+        "oreb": 5,
+        "ast": 4,
+        "stl": 3,
+        "blk": 3,
+        "tov": 1,
+        "fgm": 8,
+        "fga": 14,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 10,
+        "fta": 13,
+        "pf": 2,
+        "plus_minus": 6,
+        "off_rating": 107.3,
+        "def_rating": 98,
+        "ts_pct": 0.659,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "19:14",
+        "mu_fga": 11,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.545,
+        "mu_3pa": 5,
+        "mu_3pm": 3,
+        "mu_pts": 16,
+        "mu_ast": 3
+      },
+      {
+        "name": "C. Capela",
+        "minutes": "04",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 2,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -11,
+        "off_rating": 87.5,
+        "def_rating": 200,
+        "ts_pct": 0.5,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:20",
+        "mu_fga": 3,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 5,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Davison",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "K. Durant",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "D. Finney-Smith",
+        "minutes": "11",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -6,
+        "off_rating": 69.2,
+        "def_rating": 88.9,
+        "ts_pct": 0,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "4:40",
+        "mu_fga": 3,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Green",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -4,
+        "off_rating": 64.7,
+        "def_rating": 88.2,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "2:53",
+        "mu_fga": 2,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 1
+      },
+      {
+        "name": "A. Holiday",
+        "minutes": "05",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -1,
+        "off_rating": 93.8,
+        "def_rating": 94.1,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "1:52",
+        "mu_fga": 2,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. Okogie",
+        "minutes": "04",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -13,
+        "off_rating": 57.1,
+        "def_rating": 212.5,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:32",
+        "mu_fga": 2,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 2
+      },
+      {
+        "name": "J. Tate",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 1,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 1,
+        "plus_minus": -9,
+        "off_rating": 75,
+        "def_rating": 150,
+        "ts_pct": 0.568,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:18",
+        "mu_fga": 1,
+        "mu_fgm": 1,
+        "mu_fg_pct": 1,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 6,
+        "mu_ast": 3
+      },
+      {
+        "name": "S. Adams",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "F. VanVleet",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ],
+    "LAL": [
+      {
+        "name": "L. James",
+        "minutes": "45",
+        "pos": "F",
+        "starter": true,
+        "pts": 29,
+        "reb": 13,
+        "oreb": 0,
+        "ast": 6,
+        "stl": 3,
+        "blk": 1,
+        "tov": 8,
+        "fgm": 10,
+        "fga": 22,
+        "fg3m": 4,
+        "fg3a": 9,
+        "ftm": 5,
+        "fta": 6,
+        "pf": 1,
+        "plus_minus": 0,
+        "off_rating": 101.1,
+        "def_rating": 103.5,
+        "ts_pct": 0.588,
+        "deflections": 7,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "17:40",
+        "mu_fga": 13,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.462,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 13,
+        "mu_ast": 2
+      },
+      {
+        "name": "R. Hachimura",
+        "minutes": "44",
+        "pos": "F",
+        "starter": true,
+        "pts": 22,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 8,
+        "fga": 14,
+        "fg3m": 4,
+        "fg3a": 7,
+        "ftm": 2,
+        "fta": 4,
+        "pf": 5,
+        "plus_minus": 0,
+        "off_rating": 98.9,
+        "def_rating": 102.2,
+        "ts_pct": 0.698,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": "16:38",
+        "mu_fga": 21,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.429,
+        "mu_3pa": 5,
+        "mu_3pm": 2,
+        "mu_pts": 25,
+        "mu_ast": 5
+      },
+      {
+        "name": "D. Ayton",
+        "minutes": "33",
+        "pos": "C",
+        "starter": true,
+        "pts": 2,
+        "reb": 6,
+        "oreb": 2,
+        "ast": 2,
+        "stl": 1,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": -6,
+        "off_rating": 108.3,
+        "def_rating": 120.3,
+        "ts_pct": 0.333,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 9,
+        "mu_min": "12:39",
+        "mu_fga": 15,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.467,
+        "mu_3pa": 7,
+        "mu_3pm": 2,
+        "mu_pts": 17,
+        "mu_ast": 7
+      },
+      {
+        "name": "M. Smart",
+        "minutes": "39",
+        "pos": "G",
+        "starter": true,
+        "pts": 21,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 10,
+        "stl": 5,
+        "blk": 2,
+        "tov": 3,
+        "fgm": 5,
+        "fga": 9,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 9,
+        "fta": 11,
+        "pf": 2,
+        "plus_minus": 3,
+        "off_rating": 104.8,
+        "def_rating": 105,
+        "ts_pct": 0.759,
+        "deflections": 7,
+        "charges_drawn": 0,
+        "contested_shots": 9,
+        "mu_min": "14:45",
+        "mu_fga": 15,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 3
+      },
+      {
+        "name": "L. Kennard",
+        "minutes": "45",
+        "pos": "G",
+        "starter": true,
+        "pts": 14,
+        "reb": 6,
+        "oreb": 0,
+        "ast": 6,
+        "stl": 0,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 4,
+        "fga": 12,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 5,
+        "fta": 6,
+        "pf": 3,
+        "plus_minus": -3,
+        "off_rating": 95.7,
+        "def_rating": 103.3,
+        "ts_pct": 0.478,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "16:56",
+        "mu_fga": 14,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.286,
+        "mu_3pa": 5,
+        "mu_3pm": 1,
+        "mu_pts": 10,
+        "mu_ast": 6
+      },
+      {
+        "name": "J. Hayes",
+        "minutes": "20",
+        "pos": "",
+        "starter": false,
+        "pts": 12,
+        "reb": 4,
+        "oreb": 2,
+        "ast": 0,
+        "stl": 1,
+        "blk": 2,
+        "tov": 1,
+        "fgm": 5,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 3,
+        "pf": 2,
+        "plus_minus": 7,
+        "off_rating": 95.7,
+        "def_rating": 86,
+        "ts_pct": 0.644,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 10,
+        "mu_min": "7:43",
+        "mu_fga": 14,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 16,
+        "mu_ast": 0
+      },
+      {
+        "name": "B. James",
+        "minutes": "09",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 4,
+        "off_rating": 140,
+        "def_rating": 113.3,
+        "ts_pct": 1.25,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "3:51",
+        "mu_fga": 6,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 4,
+        "mu_3pm": 2,
+        "mu_pts": 6,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Kleber",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "D. Knecht",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. LaRavia",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 2,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 9,
+        "off_rating": 121.2,
+        "def_rating": 93.9,
+        "ts_pct": 0.25,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "6:11",
+        "mu_fga": 6,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 5,
+        "mu_ast": 0
+      },
+      {
+        "name": "A. Reaves",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "N. Smith Jr.",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Thiero",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Vanderbilt",
+        "minutes": "14",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": 6,
+        "off_rating": 121.4,
+        "def_rating": 96.6,
+        "ts_pct": 0.425,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "6:03",
+        "mu_fga": 6,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 8,
+        "mu_ast": 1
+      },
+      {
+        "name": "L. Doncic",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton vs. Alperen Sengun (Rui Hachimura gains possession)"
+    },
+    {
+      "min": 0.25,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes 23-foot three point jumper (LeBron James assists)"
+    },
+    {
+      "min": 0.6,
+      "home": 3,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Reed Sheppard makes 25-foot three point jumper (Amen Thompson assists)"
+    },
+    {
+      "min": 0.92,
+      "home": 3,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "LeBron James makes 25-foot three point jumper (Deandre Ayton assists)"
+    },
+    {
+      "min": 1.35,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes 23-foot three point jumper (Alperen Sengun assists)"
+    },
+    {
+      "min": 1.7,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Jabari Smith Jr. shooting foul"
+    },
+    {
+      "min": 1.7,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Tari Eason defensive rebound"
+    },
+    {
+      "min": 1.7,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes free throw 1 of 2"
+    },
+    {
+      "min": 1.7,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Rui Hachimura misses free throw 2 of 2"
+    },
+    {
+      "min": 1.95,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Reed Sheppard makes 4-foot two point shot"
+    },
+    {
+      "min": 2.38,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Alperen Sengun kicked ball violation"
+    },
+    {
+      "min": 2.57,
+      "home": 8,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes 9-foot two point shot (Marcus Smart assists)"
+    },
+    {
+      "min": 2.88,
+      "home": 10,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Alperen Sengun makes 3-foot two point shot (Reed Sheppard assists)"
+    },
+    {
+      "min": 3.12,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes 24-foot three point jumper (Marcus Smart assists)"
+    },
+    {
+      "min": 3.37,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Reed Sheppard misses 23-foot three point jumper"
+    },
+    {
+      "min": 3.4,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton defensive rebound"
+    },
+    {
+      "min": 3.43,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton lost ball turnover (Tari Eason steals)"
+    },
+    {
+      "min": 3.67,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Amen Thompson misses 23-foot three point jumper"
+    },
+    {
+      "min": 3.68,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Jabari Smith Jr. offensive rebound"
+    },
+    {
+      "min": 3.77,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Jabari Smith Jr. misses 13-foot two point shot"
+    },
+    {
+      "min": 3.8,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart defensive rebound"
+    },
+    {
+      "min": 3.98,
+      "home": 10,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Luke Kennard makes 26-foot three point jumper (LeBron James assists)"
+    },
+    {
+      "min": 4.32,
+      "home": 13,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes 25-foot three point jumper (Tari Eason assists)"
+    },
+    {
+      "min": 4.53,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes 2-foot alley oop dunk (Deandre Ayton assists)"
+    },
+    {
+      "min": 4.75,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Reed Sheppard misses 30-foot three point pullup jump shot"
+    },
+    {
+      "min": 4.77,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Alperen Sengun offensive rebound"
+    },
+    {
+      "min": 4.8,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Reed Sheppard misses 30-foot three point jumper"
+    },
+    {
+      "min": 4.83,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton defensive rebound"
+    },
+    {
+      "min": 5.05,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton misses layup"
+    },
+    {
+      "min": 5.07,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Amen Thompson defensive rebound"
+    },
+    {
+      "min": 5.12,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard shooting foul"
+    },
+    {
+      "min": 5.12,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 5.12,
+      "home": 13,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jake LaRavia enters the game for Marcus Smart"
+    },
+    {
+      "min": 5.12,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "min": 5.12,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton defensive rebound"
+    },
+    {
+      "min": 5.12,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Amen Thompson misses free throw 2 of 2"
+    },
+    {
+      "min": 5.42,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jake LaRavia offensive foul"
+    },
+    {
+      "min": 5.42,
+      "home": 14,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jake LaRavia offensive foul turnover"
+    },
+    {
+      "min": 5.72,
+      "home": 16,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Tari Eason makes 2-foot two point shot (Alperen Sengun assists)"
+    },
+    {
+      "min": 5.87,
+      "home": 16,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard misses 24-foot three point step back jumpshot"
+    },
+    {
+      "min": 5.9,
+      "home": 16,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jabari Smith Jr. defensive rebound"
+    },
+    {
+      "min": 6.1,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Alperen Sengun makes driving layup"
+    },
+    {
+      "min": 6.1,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Rui Hachimura shooting foul"
+    },
+    {
+      "min": 6.1,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Okogie enters the game for Amen Thompson"
+    },
+    {
+      "min": 6.1,
+      "home": 19,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Alperen Sengun makes free throw 1 of 1"
+    },
+    {
+      "min": 6.45,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "LeBron James makes driving layup (Luke Kennard assists)"
+    },
+    {
+      "min": 6.68,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Alperen Sengun misses 27-foot three point jumper"
+    },
+    {
+      "min": 6.72,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 6.82,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton misses 18-foot running jump shot"
+    },
+    {
+      "min": 6.83,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jake LaRavia offensive rebound"
+    },
+    {
+      "min": 6.9,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 6.9,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard misses 25-foot three point jumper"
+    },
+    {
+      "min": 6.95,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for LeBron James"
+    },
+    {
+      "min": 6.95,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Deandre Ayton"
+    },
+    {
+      "min": 6.95,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Clint Capela enters the game for Alperen Sengun"
+    },
+    {
+      "min": 7.0,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jabari Smith Jr. shooting foul"
+    },
+    {
+      "min": 7.0,
+      "home": 19,
+      "away": 20,
+      "period": 1,
+      "scoring": true,
+      "text": "Luke Kennard makes free throw 1 of 2"
+    },
+    {
+      "min": 7.0,
+      "home": 19,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Luke Kennard makes free throw 2 of 2"
+    },
+    {
+      "min": 7.25,
+      "home": 19,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jabari Smith Jr. misses 9-foot pullup jump shot"
+    },
+    {
+      "min": 7.27,
+      "home": 19,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Clint Capela offensive rebound"
+    },
+    {
+      "min": 7.28,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Clint Capela makes tip shot"
+    },
+    {
+      "min": 7.4,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jabari Smith Jr. personal foul"
+    },
+    {
+      "min": 7.4,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jabari Smith Jr. technical foul"
+    },
+    {
+      "min": 7.4,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard misses technical free throw"
+    },
+    {
+      "min": 7.4,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 7.4,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Dorian Finney-Smith enters the game for Tari Eason"
+    },
+    {
+      "min": 7.4,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Amen Thompson enters the game for Jabari Smith Jr."
+    },
+    {
+      "min": 7.52,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Amen Thompson blocks Marcus Smart 's 7-foot driving floating jump shot"
+    },
+    {
+      "min": 7.52,
+      "home": 21,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 7.62,
+      "home": 21,
+      "away": 23,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaxson Hayes makes 3-foot layup (Luke Kennard assists)"
+    },
+    {
+      "min": 7.73,
+      "home": 21,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaxson Hayes shooting foul"
+    },
+    {
+      "min": 7.73,
+      "home": 22,
+      "away": 23,
+      "period": 1,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "min": 7.73,
+      "home": 23,
+      "away": 23,
+      "period": 1,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 2 of 2"
+    },
+    {
+      "min": 7.95,
+      "home": 23,
+      "away": 25,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaxson Hayes makes 4-foot dunk (Marcus Smart assists)"
+    },
+    {
+      "min": 7.95,
+      "home": 23,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Clint Capela shooting foul"
+    },
+    {
+      "min": 7.95,
+      "home": 23,
+      "away": 26,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaxson Hayes makes free throw 1 of 1"
+    },
+    {
+      "min": 8.23,
+      "home": 23,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Reed Sheppard lost ball turnover (Jaxson Hayes steals)"
+    },
+    {
+      "min": 8.33,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes 23-foot three point jumper (Luke Kennard assists)"
+    },
+    {
+      "min": 8.48,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Amen Thompson misses 13-foot two point shot"
+    },
+    {
+      "min": 8.5,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Dorian Finney-Smith offensive rebound"
+    },
+    {
+      "min": 8.52,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Dorian Finney-Smith misses tip shot"
+    },
+    {
+      "min": 8.52,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Clint Capela offensive rebound"
+    },
+    {
+      "min": 8.53,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Okogie offensive rebound"
+    },
+    {
+      "min": 8.53,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Clint Capela misses tip shot"
+    },
+    {
+      "min": 8.53,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Okogie misses tip shot"
+    },
+    {
+      "min": 8.55,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard defensive rebound"
+    },
+    {
+      "min": 8.75,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Aaron Holiday enters the game for Reed Sheppard"
+    },
+    {
+      "min": 8.75,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Alperen Sengun enters the game for Clint Capela"
+    },
+    {
+      "min": 8.8,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaxson Hayes vs. Dorian Finney-Smith (Alperen Sengun gains possession)"
+    },
+    {
+      "min": 8.8,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart bad pass\nturnover (Dorian Finney-Smith steals)"
+    },
+    {
+      "min": 8.95,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Dorian Finney-Smith misses 26-foot jump bank shot"
+    },
+    {
+      "min": 8.97,
+      "home": 23,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart defensive rebound"
+    },
+    {
+      "min": 9.12,
+      "home": 23,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "Marcus Smart makes 25-foot three pointer (Jake LaRavia assists)"
+    },
+    {
+      "min": 9.48,
+      "home": 23,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Okogie lost ball turnover (Marcus Smart steals)"
+    },
+    {
+      "min": 9.65,
+      "home": 23,
+      "away": 34,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaxson Hayes makes 2-foot alley oop dunk (Luke Kennard assists)"
+    },
+    {
+      "min": 9.65,
+      "home": 23,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 9.65,
+      "home": 23,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Tari Eason enters the game for Josh Okogie"
+    },
+    {
+      "min": 9.8,
+      "home": 25,
+      "away": 34,
+      "period": 1,
+      "scoring": true,
+      "text": "Alperen Sengun makes 7-foot two point shot"
+    },
+    {
+      "min": 9.8,
+      "home": 25,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Jake LaRavia personal foul"
+    },
+    {
+      "min": 9.8,
+      "home": 26,
+      "away": 34,
+      "period": 1,
+      "scoring": true,
+      "text": "Tari Eason makes free throw 1 of 1"
+    },
+    {
+      "min": 9.8,
+      "home": 27,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaxson Hayes loose ball foul"
+    },
+    {
+      "min": 9.8,
+      "home": 27,
+      "away": 34,
+      "period": 1,
+      "scoring": true,
+      "text": "Alperen Sengun makes free throw 1 of 1"
+    },
+    {
+      "min": 9.93,
+      "home": 27,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart bad pass\nturnover (Alperen Sengun steals)"
+    },
+    {
+      "min": 9.98,
+      "home": 27,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart blocks Alperen Sengun 's 3-foot running layup"
+    },
+    {
+      "min": 10.0,
+      "home": 29,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Tari Eason offensive rebound"
+    },
+    {
+      "min": 10.6,
+      "home": 29,
+      "away": 36,
+      "period": 1,
+      "scoring": true,
+      "text": "Luke Kennard makes running layup (Rui Hachimura assists)"
+    },
+    {
+      "min": 10.48,
+      "home": 29,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Aaron Holiday misses 25-foot running jump shot"
+    },
+    {
+      "min": 10.4,
+      "home": 29,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 10.4,
+      "home": 29,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard misses layup"
+    },
+    {
+      "min": 10.0,
+      "home": 29,
+      "away": 34,
+      "period": 1,
+      "scoring": true,
+      "text": "Tari Eason makes two point shot"
+    },
+    {
+      "min": 10.78,
+      "home": 32,
+      "away": 36,
+      "period": 1,
+      "scoring": true,
+      "text": "Alperen Sengun makes 26-foot three point jumper (Amen Thompson assists)"
+    },
+    {
+      "min": 10.05,
+      "home": 29,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Rockets delay of game violation"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 38,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes 11-foot two point shot (Marcus Smart assists)"
+    },
+    {
+      "min": 10.5,
+      "home": 29,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Rui Hachimura defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 38,
+      "period": 1,
+      "scoring": false,
+      "text": "Alperen Sengun lost ball turnover (Rui Hachimura steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 38,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard misses two point shot"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 38,
+      "period": 1,
+      "scoring": false,
+      "text": "Tari Eason defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 38,
+      "period": 1,
+      "scoring": false,
+      "text": "Aaron Holiday lost ball turnover (Marcus Smart steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 38,
+      "period": 1,
+      "scoring": false,
+      "text": "Dorian Finney-Smith transition take foul"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 1,
+      "scoring": true,
+      "text": "Luke Kennard makes free throw 1 of 1"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James enters the game for Jake LaRavia"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 1,
+      "scoring": false,
+      "text": "Reed Sheppard enters the game for Aaron Holiday"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard misses 22-foot three point jumper"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 1,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Bronny James enters the game for Marcus Smart"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Jabari Smith Jr. enters the game for Dorian Finney-Smith"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Jake LaRavia enters the game for Luke Kennard"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt enters the game for Rui Hachimura"
+    },
+    {
+      "min": 12.27,
+      "home": 35,
+      "away": 39,
+      "period": 2,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes 25-foot three point jumper (Reed Sheppard assists)"
+    },
+    {
+      "min": 12.75,
+      "home": 35,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt offensive rebound"
+    },
+    {
+      "min": 12.75,
+      "home": 35,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Jake LaRavia misses 9-foot two point shot"
+    },
+    {
+      "min": 12.77,
+      "home": 35,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Jarred Vanderbilt makes tip shot"
+    },
+    {
+      "min": 13.15,
+      "home": 35,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Alperen Sengun bad pass\nturnover (Deandre Ayton steals)"
+    },
+    {
+      "min": 13.47,
+      "home": 35,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Tari Eason shooting foul"
+    },
+    {
+      "min": 13.47,
+      "home": 35,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "min": 13.47,
+      "home": 35,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "min": 13.72,
+      "home": 38,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes 25-foot three point jumper (Reed Sheppard assists)"
+    },
+    {
+      "min": 14.05,
+      "home": 38,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Amen Thompson blocks Jake LaRavia 's 6-foot driving layup"
+    },
+    {
+      "min": 14.07,
+      "home": 38,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 14.23,
+      "home": 38,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Tari Eason misses 26-foot three point jumper"
+    },
+    {
+      "min": 14.25,
+      "home": 38,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 14.43,
+      "home": 38,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Jake LaRavia makes 2-foot layup (LeBron James assists)"
+    },
+    {
+      "min": 14.55,
+      "home": 38,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Bronny James personal foul"
+    },
+    {
+      "min": 14.62,
+      "home": 38,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt shooting foul"
+    },
+    {
+      "min": 14.62,
+      "home": 39,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "min": 14.62,
+      "home": 40,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 2 of 2"
+    },
+    {
+      "min": 14.62,
+      "home": 40,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton personal foul"
+    },
+    {
+      "min": 14.62,
+      "home": 40,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Alperen Sengun misses free throw 1 of 1"
+    },
+    {
+      "min": 14.63,
+      "home": 40,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Amen Thompson offensive rebound"
+    },
+    {
+      "min": 14.9,
+      "home": 40,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Rockets offensive team rebound"
+    },
+    {
+      "min": 14.9,
+      "home": 40,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Reed Sheppard misses 22-foot three point pullup jump shot"
+    },
+    {
+      "min": 14.9,
+      "home": 40,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 15.3,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes 17-foot two point shot"
+    },
+    {
+      "min": 15.67,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Amen Thompson offensive rebound"
+    },
+    {
+      "min": 15.67,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jabari Smith Jr. misses 23-foot three point jumper"
+    },
+    {
+      "min": 15.82,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Reed Sheppard misses 23-foot three point jumper"
+    },
+    {
+      "min": 15.87,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Tari Eason offensive rebound"
+    },
+    {
+      "min": 15.87,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jake LaRavia personal foul"
+    },
+    {
+      "min": 15.87,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers delay of game violation"
+    },
+    {
+      "min": 15.87,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Clint Capela enters the game for Alperen Sengun"
+    },
+    {
+      "min": 15.87,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jae'Sean Tate enters the game for Amen Thompson"
+    },
+    {
+      "min": 15.98,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Tari Eason misses 12-foot fade away jump shot"
+    },
+    {
+      "min": 16.0,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt defensive rebound"
+    },
+    {
+      "min": 16.22,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt misses 23-foot three point jumper"
+    },
+    {
+      "min": 16.27,
+      "home": 40,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jake LaRavia offensive rebound"
+    },
+    {
+      "min": 16.38,
+      "home": 40,
+      "away": 50,
+      "period": 2,
+      "scoring": true,
+      "text": "Bronny James makes 25-foot three pointer"
+    },
+    {
+      "min": 16.7,
+      "home": 40,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton blocks Reed Sheppard 's 2-foot two point shot"
+    },
+    {
+      "min": 16.72,
+      "home": 40,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 16.82,
+      "home": 40,
+      "away": 52,
+      "period": 2,
+      "scoring": true,
+      "text": "Bronny James makes 1-foot layup (LeBron James assists)"
+    },
+    {
+      "min": 17.17,
+      "home": 43,
+      "away": 52,
+      "period": 2,
+      "scoring": true,
+      "text": "Reed Sheppard makes 26-foot three pointer (Clint Capela assists)"
+    },
+    {
+      "min": 17.47,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes 24-foot three pointer"
+    },
+    {
+      "min": 17.65,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Reed Sheppard misses driving floating jump shot"
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers defensive team rebound"
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Jake LaRavia"
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for Bronny James"
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Dorian Finney-Smith enters the game for Clint Capela"
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Amen Thompson enters the game for Tari Eason"
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura enters the game for Jarred Vanderbilt"
+    },
+    {
+      "min": 17.73,
+      "home": 43,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "(06:16) [Lakers] COACH'S CHALLENGE (CALL REPLAYCENTER)"
+    },
+    {
+      "min": 17.9,
+      "home": 43,
+      "away": 57,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes layup (Marcus Smart assists)"
+    },
+    {
+      "min": 18.2,
+      "home": 43,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James personal foul"
+    },
+    {
+      "min": 18.2,
+      "home": 43,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Rockets offensive team rebound"
+    },
+    {
+      "min": 18.2,
+      "home": 43,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Jae'Sean Tate misses free throw 1 of 2"
+    },
+    {
+      "min": 18.2,
+      "home": 43,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Deandre Ayton"
+    },
+    {
+      "min": 18.2,
+      "home": 44,
+      "away": 57,
+      "period": 2,
+      "scoring": true,
+      "text": "Jae'Sean Tate makes free throw 2 of 2"
+    },
+    {
+      "min": 18.38,
+      "home": 44,
+      "away": 59,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaxson Hayes makes 2-foot alley oop dunk (Marcus Smart assists)"
+    },
+    {
+      "min": 18.63,
+      "home": 44,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Amen Thompson misses two point shot"
+    },
+    {
+      "min": 18.65,
+      "home": 44,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaxson Hayes defensive rebound"
+    },
+    {
+      "min": 18.83,
+      "home": 44,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura out of bounds lost ball turnover"
+    },
+    {
+      "min": 18.83,
+      "home": 44,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Alperen Sengun enters the game for Jae'Sean Tate"
+    },
+    {
+      "min": 19.1,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": true,
+      "text": "Amen Thompson makes 2-foot dunk (Alperen Sengun assists)"
+    },
+    {
+      "min": 19.48,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James misses two point shot"
+    },
+    {
+      "min": 19.5,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 19.67,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Reed Sheppard out of bounds bad pass turnover"
+    },
+    {
+      "min": 19.67,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt enters the game for LeBron James"
+    },
+    {
+      "min": 20.03,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura misses 12-foot two point shot"
+    },
+    {
+      "min": 20.05,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Dorian Finney-Smith defensive rebound"
+    },
+    {
+      "min": 20.35,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Reed Sheppard misses 19-foot fade away jump shot"
+    },
+    {
+      "min": 20.37,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Rockets offensive team rebound"
+    },
+    {
+      "min": 20.37,
+      "home": 46,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt loose ball foul"
+    },
+    {
+      "min": 20.37,
+      "home": 47,
+      "away": 59,
+      "period": 2,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes free throw 1 of 2"
+    },
+    {
+      "min": 20.37,
+      "home": 47,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Tari Eason enters the game for Reed Sheppard"
+    },
+    {
+      "min": 20.37,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes free throw 2 of 2"
+    },
+    {
+      "min": 20.65,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt misses layup"
+    },
+    {
+      "min": 20.68,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Dorian Finney-Smith defensive rebound"
+    },
+    {
+      "min": 20.85,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Alperen Sengun misses 10-foot two point shot"
+    },
+    {
+      "min": 20.87,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt defensive rebound"
+    },
+    {
+      "min": 21.05,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Amen Thompson blocks Luke Kennard 's 2-foot driving layup"
+    },
+    {
+      "min": 21.05,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 21.05,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 21.05,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James enters the game for Jarred Vanderbilt"
+    },
+    {
+      "min": 21.28,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura misses 24-foot three point jumper"
+    },
+    {
+      "min": 21.3,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Dorian Finney-Smith defensive rebound"
+    },
+    {
+      "min": 21.65,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Reed Sheppard enters the game for Dorian Finney-Smith"
+    },
+    {
+      "min": 21.68,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Alperen Sengun misses 27-foot three point jumper"
+    },
+    {
+      "min": 21.72,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers defensive team rebound"
+    },
+    {
+      "min": 22.05,
+      "home": 48,
+      "away": 59,
+      "period": 2,
+      "scoring": false,
+      "text": "Alperen Sengun shooting foul"
+    },
+    {
+      "min": 22.05,
+      "home": 48,
+      "away": 60,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "min": 22.05,
+      "home": 48,
+      "away": 61,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "min": 22.2,
+      "home": 48,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura shooting foul"
+    },
+    {
+      "min": 22.2,
+      "home": 49,
+      "away": 61,
+      "period": 2,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "min": 22.2,
+      "home": 49,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 22.2,
+      "home": 50,
+      "away": 61,
+      "period": 2,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 2 of 2"
+    },
+    {
+      "min": 22.42,
+      "home": 50,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Amen Thompson steals)"
+    },
+    {
+      "min": 22.48,
+      "home": 50,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Amen Thompson out of bounds lost ball turnover"
+    },
+    {
+      "min": 22.87,
+      "home": 50,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Marcus Smart bad pass\nturnover (Tari Eason steals)"
+    },
+    {
+      "min": 22.95,
+      "home": 50,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Tari Eason misses running layup"
+    },
+    {
+      "min": 22.98,
+      "home": 50,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kennard defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 50,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton out of bounds bad pass turnover"
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 61,
+      "period": 2,
+      "scoring": true,
+      "text": "Amen Thompson makes 9-foot two point shot"
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura misses 17-foot step back jumpshot"
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 61,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton offensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 63,
+      "period": 2,
+      "scoring": true,
+      "text": "Luke Kennard makes 8-foot pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 63,
+      "period": 2,
+      "scoring": false,
+      "text": "Amen Thompson misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 63,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kennard defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 52,
+      "away": 63,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.33,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Alperen Sengun makes 5-foot two point shot"
+    },
+    {
+      "min": 24.77,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James misses 10-foot two point shot"
+    },
+    {
+      "min": 24.8,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 25.05,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Alperen Sengun misses 25-foot three point jumper"
+    },
+    {
+      "min": 25.07,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Deandre Ayton defensive rebound"
+    },
+    {
+      "min": 25.2,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard personal foul"
+    },
+    {
+      "min": 25.48,
+      "home": 54,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Marcus Smart makes 3-foot two point shot"
+    },
+    {
+      "min": 25.85,
+      "home": 54,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Jabari Smith Jr. lost ball turnover"
+    },
+    {
+      "min": 25.85,
+      "home": 54,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Jabari Smith Jr. loose ball foul"
+    },
+    {
+      "min": 26.2,
+      "home": 54,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Rui Hachimura misses 13-foot jumper"
+    },
+    {
+      "min": 26.22,
+      "home": 54,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard defensive rebound"
+    },
+    {
+      "min": 26.43,
+      "home": 54,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Deandre Ayton shooting foul"
+    },
+    {
+      "min": 26.43,
+      "home": 54,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Rockets offensive team rebound"
+    },
+    {
+      "min": 26.43,
+      "home": 54,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Amen Thompson misses free throw 1 of 2"
+    },
+    {
+      "min": 26.43,
+      "home": 55,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 2 of 2"
+    },
+    {
+      "min": 26.68,
+      "home": 55,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James misses two point shot"
+    },
+    {
+      "min": 26.72,
+      "home": 55,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 26.82,
+      "home": 57,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes two point shot (Tari Eason assists)"
+    },
+    {
+      "min": 27.3,
+      "home": 57,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 27.58,
+      "home": 57,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Jabari Smith Jr. misses 25-foot three point jumper"
+    },
+    {
+      "min": 27.6,
+      "home": 57,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 27.85,
+      "home": 57,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart misses 22-foot three point jumper"
+    },
+    {
+      "min": 27.87,
+      "home": 57,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Amen Thompson defensive rebound"
+    },
+    {
+      "min": 27.97,
+      "home": 59,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes 17-foot running jump shot (Amen Thompson assists)"
+    },
+    {
+      "min": 27.97,
+      "home": 59,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 28.27,
+      "home": 59,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Deandre Ayton makes alley oop layup (Marcus Smart assists)"
+    },
+    {
+      "min": 28.53,
+      "home": 59,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 28.57,
+      "home": 59,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 28.7,
+      "home": 59,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart misses 25-foot three point jumper"
+    },
+    {
+      "min": 28.72,
+      "home": 59,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 28.88,
+      "home": 61,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Reed Sheppard makes 2-foot two point shot"
+    },
+    {
+      "min": 28.88,
+      "home": 61,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Rui Hachimura shooting foul"
+    },
+    {
+      "min": 28.88,
+      "home": 62,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Reed Sheppard makes free throw 1 of 1"
+    },
+    {
+      "min": 29.1,
+      "home": 62,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James misses driving layup"
+    },
+    {
+      "min": 29.12,
+      "home": 62,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Deandre Ayton offensive rebound"
+    },
+    {
+      "min": 29.15,
+      "home": 62,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Deandre Ayton bad pass\nturnover (Amen Thompson steals)"
+    },
+    {
+      "min": 29.2,
+      "home": 64,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Amen Thompson makes 3-foot running dunk"
+    },
+    {
+      "min": 29.53,
+      "home": 64,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Rui Hachimura misses 23-foot three point jumper"
+    },
+    {
+      "min": 29.55,
+      "home": 64,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Jabari Smith Jr. defensive rebound"
+    },
+    {
+      "min": 29.68,
+      "home": 64,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard lost ball turnover (Marcus Smart steals)"
+    },
+    {
+      "min": 29.73,
+      "home": 64,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Amen Thompson shooting foul"
+    },
+    {
+      "min": 29.73,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": true,
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "min": 29.73,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 29.73,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James misses free throw 2 of 2"
+    },
+    {
+      "min": 29.73,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Jake LaRavia enters the game for Marcus Smart"
+    },
+    {
+      "min": 29.93,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Jeff Green enters the game for Alperen Sengun"
+    },
+    {
+      "min": 29.93,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Dorian Finney-Smith enters the game for Tari Eason"
+    },
+    {
+      "min": 30.03,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Jeff Green bad pass\nturnover (Jake LaRavia steals)"
+    },
+    {
+      "min": 30.12,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Rui Hachimura misses 23-foot running jump shot"
+    },
+    {
+      "min": 30.13,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Amen Thompson defensive rebound"
+    },
+    {
+      "min": 30.28,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Dorian Finney-Smith misses 25-foot three point jumper"
+    },
+    {
+      "min": 30.3,
+      "home": 64,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 30.43,
+      "home": 64,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Luke Kennard makes 13-foot pullup jump shot (LeBron James assists)"
+    },
+    {
+      "min": 30.62,
+      "home": 64,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 30.63,
+      "home": 64,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Amen Thompson offensive rebound"
+    },
+    {
+      "min": 30.67,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Amen Thompson makes 2-foot dunk"
+    },
+    {
+      "min": 30.97,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard blocks Jake LaRavia 's 9-foot turnaround jump shot"
+    },
+    {
+      "min": 31.0,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard defensive rebound"
+    },
+    {
+      "min": 31.05,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Dorian Finney-Smith misses 23-foot running jump shot"
+    },
+    {
+      "min": 31.08,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 31.32,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Deandre Ayton"
+    },
+    {
+      "min": 31.32,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Alperen Sengun enters the game for Jabari Smith Jr."
+    },
+    {
+      "min": 31.43,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James out of bounds bad pass turnover"
+    },
+    {
+      "min": 31.83,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Rockets offensive team rebound"
+    },
+    {
+      "min": 31.83,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Alperen Sengun misses 17-foot fade away jump shot"
+    },
+    {
+      "min": 31.83,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 32.1,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Reed Sheppard steals)"
+    },
+    {
+      "min": 32.22,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Dorian Finney-Smith misses 23-foot three point jumper"
+    },
+    {
+      "min": 32.25,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaxson Hayes defensive rebound"
+    },
+    {
+      "min": 32.25,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaxson Hayes lost ball turnover (Amen Thompson steals)"
+    },
+    {
+      "min": 32.38,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Rockets offensive team rebound"
+    },
+    {
+      "min": 32.38,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jeff Green misses two point shot"
+    },
+    {
+      "min": 32.42,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Tari Eason enters the game for Dorian Finney-Smith"
+    },
+    {
+      "min": 32.42,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarred Vanderbilt enters the game for LeBron James"
+    },
+    {
+      "min": 32.42,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for Jake LaRavia"
+    },
+    {
+      "min": 32.45,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard misses 23-foot three point jumper"
+    },
+    {
+      "min": 32.47,
+      "home": 66,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Amen Thompson offensive rebound"
+    },
+    {
+      "min": 32.5,
+      "home": 68,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Amen Thompson makes two point shot"
+    },
+    {
+      "min": 32.5,
+      "home": 68,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarred Vanderbilt shooting foul"
+    },
+    {
+      "min": 32.5,
+      "home": 69,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 1 of 1"
+    },
+    {
+      "min": 32.83,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Rui Hachimura makes 24-foot three point jumper (Luke Kennard assists)"
+    },
+    {
+      "min": 33.12,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Alperen Sengun misses driving layup"
+    },
+    {
+      "min": 33.13,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarred Vanderbilt defensive rebound"
+    },
+    {
+      "min": 33.32,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Reed Sheppard shooting foul"
+    },
+    {
+      "min": 33.32,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 33.32,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Aaron Holiday enters the game for Reed Sheppard"
+    },
+    {
+      "min": 33.32,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 33.32,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart misses free throw 1 of 2"
+    },
+    {
+      "min": 33.32,
+      "home": 69,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 2 of 2"
+    },
+    {
+      "min": 33.62,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Alperen Sengun makes 10-foot two point shot"
+    },
+    {
+      "min": 34.02,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kennard bad pass\nturnover (Tari Eason steals)"
+    },
+    {
+      "min": 34.07,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Tari Eason lost ball turnover (Marcus Smart steals)"
+    },
+    {
+      "min": 34.12,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kennard bad pass\nturnover (Alperen Sengun steals)"
+    },
+    {
+      "min": 34.3,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart personal foul"
+    },
+    {
+      "min": 34.3,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James enters the game for Luke Kennard"
+    },
+    {
+      "min": 34.38,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart blocks Amen Thompson 's 5-foot layup"
+    },
+    {
+      "min": 34.4,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 34.47,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Jeff Green shooting foul"
+    },
+    {
+      "min": 34.47,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "(01:32) [Lakers] REF-INITIATED REVIEW (CALL STANDS)"
+    },
+    {
+      "min": 34.47,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 34.47,
+      "home": 71,
+      "away": 74,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaxson Hayes misses free throw 1 of 2"
+    },
+    {
+      "min": 34.47,
+      "home": 71,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaxson Hayes makes free throw 2 of 2"
+    },
+    {
+      "min": 34.75,
+      "home": 71,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Jeff Green misses 25-foot three point jumper"
+    },
+    {
+      "min": 34.77,
+      "home": 71,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarred Vanderbilt defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 71,
+      "away": 78,
+      "period": 3,
+      "scoring": true,
+      "text": "LeBron James makes 28-foot three point jumper (Marcus Smart assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 73,
+      "away": 78,
+      "period": 3,
+      "scoring": true,
+      "text": "Alperen Sengun makes 5-foot two point shot"
+    },
+    {
+      "min": 36.0,
+      "home": 73,
+      "away": 80,
+      "period": 3,
+      "scoring": true,
+      "text": "Jarred Vanderbilt makes 1-foot reverse layup (Marcus Smart assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 3,
+      "scoring": true,
+      "text": "Amen Thompson makes 16-foot pullup jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James misses 33-foot three point pullup jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Amen Thompson defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Jabari Smith Jr. enters the game for Aaron Holiday"
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Marcus Smart"
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Bronny James enters the game for Rui Hachimura"
+    },
+    {
+      "min": 36.0,
+      "home": 75,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Reed Sheppard enters the game for Amen Thompson"
+    },
+    {
+      "min": 36.42,
+      "home": 75,
+      "away": 82,
+      "period": 4,
+      "scoring": true,
+      "text": "LeBron James makes layup (Jarred Vanderbilt assists)"
+    },
+    {
+      "min": 36.78,
+      "home": 75,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Reed Sheppard misses two point shot"
+    },
+    {
+      "min": 36.8,
+      "home": 75,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarred Vanderbilt defensive rebound"
+    },
+    {
+      "min": 37.05,
+      "home": 75,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarred Vanderbilt misses 23-foot three point jumper"
+    },
+    {
+      "min": 37.07,
+      "home": 75,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Jabari Smith Jr. defensive rebound"
+    },
+    {
+      "min": 37.28,
+      "home": 75,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Tari Eason misses 25-foot three point jumper"
+    },
+    {
+      "min": 37.3,
+      "home": 75,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 37.45,
+      "home": 75,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun shooting foul"
+    },
+    {
+      "min": 37.45,
+      "home": 75,
+      "away": 83,
+      "period": 4,
+      "scoring": true,
+      "text": "Jarred Vanderbilt makes free throw 1 of 2"
+    },
+    {
+      "min": 37.45,
+      "home": 75,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarred Vanderbilt misses free throw 2 of 2"
+    },
+    {
+      "min": 37.45,
+      "home": 75,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Jabari Smith Jr. defensive rebound"
+    },
+    {
+      "min": 37.45,
+      "home": 75,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Amen Thompson enters the game for Jeff Green"
+    },
+    {
+      "min": 37.45,
+      "home": 75,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Deandre Ayton enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 37.77,
+      "home": 78,
+      "away": 83,
+      "period": 4,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes 26-foot three point jumper (Amen Thompson assists)"
+    },
+    {
+      "min": 38.08,
+      "home": 78,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Reed Sheppard steals)"
+    },
+    {
+      "min": 38.35,
+      "home": 78,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Jabari Smith Jr. misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 38.37,
+      "home": 78,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Amen Thompson offensive rebound"
+    },
+    {
+      "min": 38.43,
+      "home": 78,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Tari Eason misses 25-foot three point jumper"
+    },
+    {
+      "min": 38.47,
+      "home": 78,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 38.58,
+      "home": 78,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Reed Sheppard shooting foul"
+    },
+    {
+      "min": 38.58,
+      "home": 78,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "Luke Kennard makes free throw 1 of 2"
+    },
+    {
+      "min": 38.58,
+      "home": 78,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "Luke Kennard makes free throw 2 of 2"
+    },
+    {
+      "min": 38.83,
+      "home": 81,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "Jabari Smith Jr. makes 24-foot three point jumper (Reed Sheppard assists)"
+    },
+    {
+      "min": 39.22,
+      "home": 81,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James misses 18-foot fade away jump shot"
+    },
+    {
+      "min": 39.23,
+      "home": 81,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Amen Thompson defensive rebound"
+    },
+    {
+      "min": 39.47,
+      "home": 81,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura enters the game for Bronny James"
+    },
+    {
+      "min": 39.47,
+      "home": 81,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for Jarred Vanderbilt"
+    },
+    {
+      "min": 39.53,
+      "home": 81,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James vs. Alperen Sengun (Jabari Smith Jr. gains possession)"
+    },
+    {
+      "min": 39.62,
+      "home": 81,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Deandre Ayton personal foul"
+    },
+    {
+      "min": 39.85,
+      "home": 83,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "Alperen Sengun makes 13-foot two point shot"
+    },
+    {
+      "min": 40.47,
+      "home": 83,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James lost ball turnover (Tari Eason steals)"
+    },
+    {
+      "min": 40.53,
+      "home": 83,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James vs. Reed Sheppard (Marcus Smart gains possession)"
+    },
+    {
+      "min": 40.53,
+      "home": 83,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Reed Sheppard lost ball turnover (LeBron James steals)"
+    },
+    {
+      "min": 40.83,
+      "home": 83,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "LeBron James makes 2-foot two point shot"
+    },
+    {
+      "min": 41.13,
+      "home": 83,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun misses 11-foot two point shot"
+    },
+    {
+      "min": 41.17,
+      "home": 83,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun offensive rebound"
+    },
+    {
+      "min": 41.17,
+      "home": 83,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun misses tip shot"
+    },
+    {
+      "min": 41.17,
+      "home": 83,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun offensive rebound"
+    },
+    {
+      "min": 41.17,
+      "home": 83,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart personal foul"
+    },
+    {
+      "min": 41.17,
+      "home": 83,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 41.25,
+      "home": 85,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "Amen Thompson makes 3-foot dunk (Alperen Sengun assists)"
+    },
+    {
+      "min": 41.58,
+      "home": 85,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Reed Sheppard blocks Marcus Smart 's 10-foot driving floating jump shot"
+    },
+    {
+      "min": 41.63,
+      "home": 85,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 41.65,
+      "home": 87,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "Amen Thompson makes running layup (Alperen Sengun assists)"
+    },
+    {
+      "min": 41.93,
+      "home": 87,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Marcus Smart makes 9-foot two point shot"
+    },
+    {
+      "min": 42.37,
+      "home": 87,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Tari Eason misses 9-foot jumper"
+    },
+    {
+      "min": 42.38,
+      "home": 87,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun offensive rebound"
+    },
+    {
+      "min": 42.38,
+      "home": 89,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Alperen Sengun makes tip shot"
+    },
+    {
+      "min": 42.75,
+      "home": 89,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Marcus Smart makes 3-foot two point shot"
+    },
+    {
+      "min": 43.02,
+      "home": 92,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Reed Sheppard makes 25-foot three point jumper (Alperen Sengun assists)"
+    },
+    {
+      "min": 43.02,
+      "home": 92,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 43.02,
+      "home": 92,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Deandre Ayton"
+    },
+    {
+      "min": 43.38,
+      "home": 92,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun blocks Jaxson Hayes 's 3-foot driving dunk"
+    },
+    {
+      "min": 43.4,
+      "home": 92,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Amen Thompson defensive rebound"
+    },
+    {
+      "min": 43.48,
+      "home": 92,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura shooting foul"
+    },
+    {
+      "min": 43.48,
+      "home": 93,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "min": 43.48,
+      "home": 93,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Amen Thompson misses free throw 2 of 2"
+    },
+    {
+      "min": 43.48,
+      "home": 93,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura defensive rebound"
+    },
+    {
+      "min": 43.8,
+      "home": 93,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes misses driving layup"
+    },
+    {
+      "min": 43.82,
+      "home": 93,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 44.22,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Alperen Sengun makes 2-foot two point shot (Reed Sheppard assists)"
+    },
+    {
+      "min": 44.47,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Reed Sheppard personal foul"
+    },
+    {
+      "min": 44.47,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 44.63,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James misses 13-foot two point shot"
+    },
+    {
+      "min": 44.65,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jabari Smith Jr. defensive rebound"
+    },
+    {
+      "min": 45.05,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jabari Smith Jr. misses 27-foot three point jumper"
+    },
+    {
+      "min": 45.08,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 45.2,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kennard misses 25-foot running jump shot"
+    },
+    {
+      "min": 45.22,
+      "home": 95,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes offensive rebound"
+    },
+    {
+      "min": 45.22,
+      "home": 95,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Jaxson Hayes makes tip in dunk"
+    },
+    {
+      "min": 45.62,
+      "home": 97,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Alperen Sengun makes 3-foot driving dunk (Reed Sheppard assists)"
+    },
+    {
+      "min": 45.82,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "LeBron James makes 2-foot alley oop dunk (Marcus Smart assists)"
+    },
+    {
+      "min": 46.23,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes blocks Amen Thompson 's 9-foot driving layup"
+    },
+    {
+      "min": 46.25,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kennard defensive rebound"
+    },
+    {
+      "min": 46.3,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kennard misses 25-foot running jump shot"
+    },
+    {
+      "min": 46.32,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 46.73,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes blocks Reed Sheppard 's 2-foot two point shot"
+    },
+    {
+      "min": 46.75,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kennard defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Jabari Smith Jr. steals)"
+    },
+    {
+      "min": 48.0,
+      "home": 99,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Alperen Sengun makes 3-foot two point shot (Reed Sheppard assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 99,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 99,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jae'Sean Tate enters the game for Reed Sheppard"
+    },
+    {
+      "min": 48.0,
+      "home": 99,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Alperen Sengun steals)"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Alperen Sengun makes 3-foot running dunk"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes offensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes misses 2-foot tip shot"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jae'Sean Tate defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jabari Smith Jr. bad pass\nturnover (Marcus Smart steals)"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jae'Sean Tate shooting foul"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 96,
+      "period": 4,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 1 of 3"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 2 of 3"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 98,
+      "period": 4,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 3 of 3"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 98,
+      "period": 4,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 98,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarred Vanderbilt enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 98,
+      "period": 4,
+      "scoring": false,
+      "text": "Reed Sheppard enters the game for Jae'Sean Tate"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 98,
+      "period": 4,
+      "scoring": false,
+      "text": "Reed Sheppard lost ball turnover (LeBron James steals)"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": true,
+      "text": "LeBron James makes 24-foot running jump shot (Luke Kennard assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Luke Kennard"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura personal take foul"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Alperen Sengun misses 7-foot two point shot"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Nick Smith Jr. enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Jarred Vanderbilt"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Jae'Sean Tate enters the game for Reed Sheppard"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James misses 26-foot three point shot"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Deandre Ayton enters the game for Nick Smith Jr."
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Reed Sheppard enters the game for Jae'Sean Tate"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Deandre Ayton vs. Alperen Sengun (LeBron James gains possession)"
+    },
+    {
+      "min": 48.17,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Luke Kennard offensive foul turnover"
+    },
+    {
+      "min": 48.17,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Luke Kennard offensive foul"
+    },
+    {
+      "min": 48.58,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Deandre Ayton vs. Alperen Sengun (LeBron James gains possession)"
+    },
+    {
+      "min": 48.58,
+      "home": 101,
+      "away": 101,
+      "period": 5,
+      "scoring": false,
+      "text": "Alperen Sengun lost ball turnover (LeBron James steals)"
+    },
+    {
+      "min": 48.85,
+      "home": 101,
+      "away": 104,
+      "period": 5,
+      "scoring": true,
+      "text": "Marcus Smart makes 22-foot three point jumper (Rui Hachimura assists)"
+    },
+    {
+      "min": 49.17,
+      "home": 101,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Jabari Smith Jr. misses 11-foot pullup jump shot"
+    },
+    {
+      "min": 49.18,
+      "home": 101,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Luke Kennard defensive rebound"
+    },
+    {
+      "min": 49.3,
+      "home": 101,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Reed Sheppard shooting foul"
+    },
+    {
+      "min": 49.3,
+      "home": 101,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 49.3,
+      "home": 101,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Rui Hachimura misses free throw 1 of 2"
+    },
+    {
+      "min": 49.3,
+      "home": 101,
+      "away": 105,
+      "period": 5,
+      "scoring": true,
+      "text": "Rui Hachimura makes free throw 2 of 2"
+    },
+    {
+      "min": 49.6,
+      "home": 103,
+      "away": 105,
+      "period": 5,
+      "scoring": true,
+      "text": "Alperen Sengun makes driving layup"
+    },
+    {
+      "min": 50.1,
+      "home": 103,
+      "away": 105,
+      "period": 5,
+      "scoring": false,
+      "text": "LeBron James misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 50.17,
+      "home": 103,
+      "away": 105,
+      "period": 5,
+      "scoring": false,
+      "text": "Rui Hachimura offensive rebound"
+    },
+    {
+      "min": 50.42,
+      "home": 103,
+      "away": 107,
+      "period": 5,
+      "scoring": true,
+      "text": "Rui Hachimura makes driving layup (LeBron James assists)"
+    },
+    {
+      "min": 50.68,
+      "home": 103,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "Luke Kennard personal foul"
+    },
+    {
+      "min": 50.85,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": true,
+      "text": "Alperen Sengun makes 11-foot two point shot"
+    },
+    {
+      "min": 51.35,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "LeBron James misses driving layup"
+    },
+    {
+      "min": 51.42,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "Reed Sheppard defensive rebound"
+    },
+    {
+      "min": 51.52,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "Reed Sheppard misses running pullup jump shot"
+    },
+    {
+      "min": 51.57,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "Reed Sheppard offensive rebound"
+    },
+    {
+      "min": 51.67,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "LeBron James blocks Alperen Sengun 's 5-foot driving layup"
+    },
+    {
+      "min": 51.7,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 51.77,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "LeBron James vs. Jabari Smith Jr. (Deandre Ayton gains possession)"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "LeBron James misses 26-foot three point jumper"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "Marcus Smart offensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 107,
+      "period": 5,
+      "scoring": false,
+      "text": "Tari Eason shooting foul"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 108,
+      "period": 5,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 1 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 109,
+      "period": 5,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 2 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 109,
+      "period": 5,
+      "scoring": false,
+      "text": "Jabari Smith Jr. misses 22-foot three point step back jumpshot"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 109,
+      "period": 5,
+      "scoring": false,
+      "text": "Marcus Smart defensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 109,
+      "period": 5,
+      "scoring": false,
+      "text": "Amen Thompson personal foul"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 109,
+      "period": 5,
+      "scoring": false,
+      "text": "Marcus Smart technical foul"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 109,
+      "period": 5,
+      "scoring": false,
+      "text": "Reed Sheppard misses technical free throw"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 109,
+      "period": 5,
+      "scoring": false,
+      "text": "Lakers defensive team rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 110,
+      "period": 5,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 1 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 111,
+      "period": 5,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 2 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 111,
+      "period": 5,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 111,
+      "period": 5,
+      "scoring": false,
+      "text": "Reed Sheppard misses 22-foot three point jumper"
+    },
+    {
+      "min": 53.0,
+      "home": 105,
+      "away": 111,
+      "period": 5,
+      "scoring": false,
+      "text": "Alperen Sengun offensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 111,
+      "period": 5,
+      "scoring": true,
+      "text": "Reed Sheppard makes 25-foot three pointer (Jabari Smith Jr. assists)"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 111,
+      "period": 5,
+      "scoring": false,
+      "text": "Tari Eason personal take foul"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 1 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Marcus Smart misses free throw 2 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Alperen Sengun defensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Alperen Sengun misses 25-foot three point jumper"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Lakers defensive team rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Reed Sheppard steals)"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Rockets Full timeout"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Jarred Vanderbilt enters the game for Deandre Ayton"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Tari Eason misses 26-foot turnaround jump shot"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "Rui Hachimura defensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "End of the 1st  Overtime"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 112,
+      "period": 5,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 2,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 23-foot three point jumper (LeBron James assists)"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard makes 25-foot three point jumper (Amen Thompson assists)"
+    },
+    {
+      "x": 30,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 25-foot three point jumper (Deandre Ayton assists)"
+    },
+    {
+      "x": 49,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes 23-foot three point jumper (Alperen Sengun assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Rui Hachimura makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Rui Hachimura misses free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "HOU",
+      "text": "Reed Sheppard makes 4-foot two point shot"
+    },
+    {
+      "x": 31,
+      "y": 8,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 9-foot two point shot (Marcus Smart assists)"
+    },
+    {
+      "x": 28,
+      "y": 3,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 3-foot two point shot (Reed Sheppard assists)"
+    },
+    {
+      "x": 22,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 24-foot three point jumper (Marcus Smart assists)"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 23-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 6,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Amen Thompson misses 23-foot three point jumper"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. misses 13-foot two point shot"
+    },
+    {
+      "x": 30,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard makes 26-foot three point jumper (LeBron James assists)"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes 25-foot three point jumper (Tari Eason assists)"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 2-foot alley oop dunk (Deandre Ayton assists)"
+    },
+    {
+      "x": 13,
+      "y": 28,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 30-foot three point pullup jump shot"
+    },
+    {
+      "x": 5,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 30-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "LAL",
+      "text": "Deandre Ayton misses layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson misses free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "HOU",
+      "text": "Tari Eason makes 2-foot two point shot (Alperen Sengun assists)"
+    },
+    {
+      "x": 18,
+      "y": 24,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses 24-foot three point step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "HOU",
+      "text": "Alperen Sengun makes free throw 1 of 1"
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "LeBron James makes driving layup (Luke Kennard assists)"
+    },
+    {
+      "x": 6,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses 27-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 19,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "LAL",
+      "text": "Deandre Ayton misses 18-foot running jump shot"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Luke Kennard makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Luke Kennard makes free throw 2 of 2"
+    },
+    {
+      "x": 34,
+      "y": 2,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. misses 9-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "HOU",
+      "text": "Clint Capela makes tip shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - Technical",
+      "team": "LAL",
+      "text": "Luke Kennard misses technical free throw"
+    },
+    {
+      "x": 22,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "LAL",
+      "text": "Amen Thompson blocks Marcus Smart 's 7-foot driving floating jump shot"
+    },
+    {
+      "x": 27,
+      "y": 4,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes 3-foot layup (Luke Kennard assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 5,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes 4-foot dunk (Marcus Smart assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes free throw 1 of 1"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 23-foot three point jumper (Luke Kennard assists)"
+    },
+    {
+      "x": 27,
+      "y": 14,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "HOU",
+      "text": "Amen Thompson misses 13-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "HOU",
+      "text": "Dorian Finney-Smith misses tip shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "HOU",
+      "text": "Clint Capela misses tip shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "HOU",
+      "text": "Josh Okogie misses tip shot"
+    },
+    {
+      "x": 42,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot Bank",
+      "team": "HOU",
+      "text": "Dorian Finney-Smith misses 26-foot jump bank shot"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart makes 25-foot three pointer (Jake LaRavia assists)"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes 2-foot alley oop dunk (Luke Kennard assists)"
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 7-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "HOU",
+      "text": "Tari Eason makes free throw 1 of 1"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "HOU",
+      "text": "Alperen Sengun makes free throw 1 of 1"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "HOU",
+      "text": "Marcus Smart blocks Alperen Sengun 's 3-foot running layup"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "LAL",
+      "text": "Luke Kennard makes running layup (Rui Hachimura assists)"
+    },
+    {
+      "x": 44,
+      "y": 17,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "HOU",
+      "text": "Aaron Holiday misses 25-foot running jump shot"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": false,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses layup"
+    },
+    {
+      "x": 24,
+      "y": 5,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "HOU",
+      "text": "Tari Eason makes two point shot"
+    },
+    {
+      "x": 29,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 26-foot three point jumper (Amen Thompson assists)"
+    },
+    {
+      "x": 30,
+      "y": 11,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 11-foot two point shot (Marcus Smart assists)"
+    },
+    {
+      "x": 22,
+      "y": 0,
+      "made": false,
+      "type": "Layup Running Reverse",
+      "team": "LAL",
+      "text": "Luke Kennard misses two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "LAL",
+      "text": "Luke Kennard makes free throw 1 of 1"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses 22-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes 25-foot three point jumper (Reed Sheppard assists)"
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "Jake LaRavia misses 9-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "LAL",
+      "text": "Jarred Vanderbilt makes tip shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "x": 28,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes 25-foot three point jumper (Reed Sheppard assists)"
+    },
+    {
+      "x": 19,
+      "y": 4,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "Amen Thompson blocks Jake LaRavia 's 6-foot driving layup"
+    },
+    {
+      "x": 48,
+      "y": 13,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Tari Eason misses 26-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "LAL",
+      "text": "Jake LaRavia makes 2-foot layup (LeBron James assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "HOU",
+      "text": "Alperen Sengun misses free throw 1 of 1"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 22-foot three point pullup jump shot"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "made": true,
+      "type": "Fade Away Bank Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 17-foot two point shot"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. misses 23-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 23-foot three point jumper"
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "HOU",
+      "text": "Tari Eason misses 12-foot fade away jump shot"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Jarred Vanderbilt misses 23-foot three point jumper"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Bronny James makes 25-foot three pointer"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "HOU",
+      "text": "Deandre Ayton blocks Reed Sheppard 's 2-foot two point shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Running Alley Oop Layup Shot",
+      "team": "LAL",
+      "text": "Bronny James makes 1-foot layup (LeBron James assists)"
+    },
+    {
+      "x": 36,
+      "y": 24,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard makes 26-foot three pointer (Clint Capela assists)"
+    },
+    {
+      "x": 25,
+      "y": 25,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 24-foot three pointer"
+    },
+    {
+      "x": 27,
+      "y": 4,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses driving floating jump shot"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "LAL",
+      "text": "LeBron James makes layup (Marcus Smart assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "HOU",
+      "text": "Jae'Sean Tate misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "HOU",
+      "text": "Jae'Sean Tate makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes 2-foot alley oop dunk (Marcus Smart assists)"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "HOU",
+      "text": "Amen Thompson misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "HOU",
+      "text": "Amen Thompson makes 2-foot dunk (Alperen Sengun assists)"
+    },
+    {
+      "x": 32,
+      "y": 6,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "LAL",
+      "text": "LeBron James misses two point shot"
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 12-foot two point shot"
+    },
+    {
+      "x": 29,
+      "y": 19,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 19-foot fade away jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "LAL",
+      "text": "Jarred Vanderbilt misses layup"
+    },
+    {
+      "x": 31,
+      "y": 9,
+      "made": false,
+      "type": "Turnaround Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses 10-foot two point shot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "Amen Thompson blocks Luke Kennard 's 2-foot driving layup"
+    },
+    {
+      "x": 12,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 24-foot three point jumper"
+    },
+    {
+      "x": 41,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses 27-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "HOU",
+      "text": "Tari Eason misses running layup"
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "HOU",
+      "text": "Amen Thompson makes 9-foot two point shot"
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 17-foot step back jumpshot"
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard makes 8-foot pullup jump shot"
+    },
+    {
+      "x": 20,
+      "y": 18,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Amen Thompson misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 6,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 5-foot two point shot"
+    },
+    {
+      "x": 36,
+      "y": 2,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 10-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses 25-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "LAL",
+      "text": "Marcus Smart makes 3-foot two point shot"
+    },
+    {
+      "x": 18,
+      "y": 12,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 13-foot jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 2 of 2"
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "LAL",
+      "text": "LeBron James misses two point shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes two point shot (Tari Eason assists)"
+    },
+    {
+      "x": 33,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. misses 25-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart misses 22-foot three point jumper"
+    },
+    {
+      "x": 37,
+      "y": 13,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes 17-foot running jump shot (Amen Thompson assists)"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Layup Shot",
+      "team": "LAL",
+      "text": "Deandre Ayton makes alley oop layup (Marcus Smart assists)"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 34,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart misses 25-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "HOU",
+      "text": "Reed Sheppard makes 2-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "HOU",
+      "text": "Reed Sheppard makes free throw 1 of 1"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "LeBron James misses driving layup"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "HOU",
+      "text": "Amen Thompson makes 3-foot running dunk"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 23-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "LeBron James misses free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 23-foot running jump shot"
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Dorian Finney-Smith misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 13,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard makes 13-foot pullup jump shot (LeBron James assists)"
+    },
+    {
+      "x": 16,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Putback Dunk Shot",
+      "team": "HOU",
+      "text": "Amen Thompson makes 2-foot dunk"
+    },
+    {
+      "x": 27,
+      "y": 9,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "LAL",
+      "text": "Reed Sheppard blocks Jake LaRavia 's 9-foot turnaround jump shot"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "HOU",
+      "text": "Dorian Finney-Smith misses 23-foot running jump shot"
+    },
+    {
+      "x": 20,
+      "y": 17,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses 17-foot fade away jump shot"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Dorian Finney-Smith misses 23-foot three point jumper"
+    },
+    {
+      "x": 34,
+      "y": 4,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "HOU",
+      "text": "Jeff Green misses two point shot"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 23-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "HOU",
+      "text": "Amen Thompson makes two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 1 of 1"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 24-foot three point jumper (Luke Kennard assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Marcus Smart misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 2 of 2"
+    },
+    {
+      "x": 30,
+      "y": 10,
+      "made": true,
+      "type": "Turnaround Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 10-foot two point shot"
+    },
+    {
+      "x": 20,
+      "y": 3,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "HOU",
+      "text": "Marcus Smart blocks Amen Thompson 's 5-foot layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Jaxson Hayes misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes free throw 2 of 2"
+    },
+    {
+      "x": 38,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jeff Green misses 25-foot three point jumper"
+    },
+    {
+      "x": 7,
+      "y": 22,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 28-foot three point jumper (Marcus Smart assists)"
+    },
+    {
+      "x": 25,
+      "y": 5,
+      "made": true,
+      "type": "Turnaround Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 5-foot two point shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Reverse Layup Shot",
+      "team": "LAL",
+      "text": "Jarred Vanderbilt makes 1-foot reverse layup (Marcus Smart assists)"
+    },
+    {
+      "x": 26,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Amen Thompson makes 16-foot pullup jump shot"
+    },
+    {
+      "x": 7,
+      "y": 28,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 33-foot three point pullup jump shot"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "LAL",
+      "text": "LeBron James makes layup (Jarred Vanderbilt assists)"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "HOU",
+      "text": "Reed Sheppard misses two point shot"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Jarred Vanderbilt misses 23-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 12,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Tari Eason misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Jarred Vanderbilt makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Jarred Vanderbilt misses free throw 2 of 2"
+    },
+    {
+      "x": 33,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes 26-foot three point jumper (Amen Thompson assists)"
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. misses 15-foot pullup jump shot"
+    },
+    {
+      "x": 45,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Tari Eason misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Luke Kennard makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Luke Kennard makes free throw 2 of 2"
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. makes 24-foot three point jumper (Reed Sheppard assists)"
+    },
+    {
+      "x": 37,
+      "y": 14,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 18-foot fade away jump shot"
+    },
+    {
+      "x": 25,
+      "y": 14,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 13-foot two point shot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "LAL",
+      "text": "LeBron James makes 2-foot two point shot"
+    },
+    {
+      "x": 29,
+      "y": 11,
+      "made": false,
+      "type": "Turnaround Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses 11-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses tip shot"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "HOU",
+      "text": "Amen Thompson makes 3-foot dunk (Alperen Sengun assists)"
+    },
+    {
+      "x": 24,
+      "y": 11,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "LAL",
+      "text": "Reed Sheppard blocks Marcus Smart 's 10-foot driving floating jump shot"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "HOU",
+      "text": "Amen Thompson makes running layup (Alperen Sengun assists)"
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart makes 9-foot two point shot"
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Tari Eason misses 9-foot jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes tip shot"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "LAL",
+      "text": "Marcus Smart makes 3-foot two point shot"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard makes 25-foot three point jumper (Alperen Sengun assists)"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": false,
+      "type": "Driving Dunk Shot",
+      "team": "LAL",
+      "text": "Alperen Sengun blocks Jaxson Hayes 's 3-foot driving dunk"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "HOU",
+      "text": "Amen Thompson misses free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes misses driving layup"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Hook Driving Bank",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 2-foot two point shot (Reed Sheppard assists)"
+    },
+    {
+      "x": 22,
+      "y": 14,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 13-foot two point shot"
+    },
+    {
+      "x": 8,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. misses 27-foot three point jumper"
+    },
+    {
+      "x": 47,
+      "y": 14,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses 25-foot running jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Dunk Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes tip in dunk"
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 3-foot driving dunk (Reed Sheppard assists)"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 2-foot alley oop dunk (Marcus Smart assists)"
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "HOU",
+      "text": "Jaxson Hayes blocks Amen Thompson 's 9-foot driving layup"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses 25-foot running jump shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "HOU",
+      "text": "Jaxson Hayes blocks Reed Sheppard 's 2-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 3-foot two point shot (Reed Sheppard assists)"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 3-foot running dunk"
+    },
+    {
+      "x": 10,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes misses 2-foot tip shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 3",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 1 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 3",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 2 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 3 of 3",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 3 of 3"
+    },
+    {
+      "x": 47,
+      "y": 13,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 24-foot running jump shot (Luke Kennard assists)"
+    },
+    {
+      "x": 33,
+      "y": 2,
+      "made": false,
+      "type": "Turnaround Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses 7-foot two point shot"
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 26-foot three point shot"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart makes 22-foot three point jumper (Rui Hachimura assists)"
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. misses 11-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Rui Hachimura misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Rui Hachimura makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes driving layup"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes driving layup (LeBron James assists)"
+    },
+    {
+      "x": 31,
+      "y": 11,
+      "made": true,
+      "type": "Turnaround Hook Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun makes 11-foot two point shot"
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "LeBron James misses driving layup"
+    },
+    {
+      "x": 32,
+      "y": 3,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses running pullup jump shot"
+    },
+    {
+      "x": 28,
+      "y": 5,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "HOU",
+      "text": "LeBron James blocks Alperen Sengun 's 5-foot driving layup"
+    },
+    {
+      "x": 25,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "HOU",
+      "text": "Jabari Smith Jr. misses 22-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - Technical",
+      "team": "HOU",
+      "text": "Reed Sheppard misses technical free throw"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard misses 22-foot three point jumper"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "HOU",
+      "text": "Reed Sheppard makes 25-foot three pointer (Jabari Smith Jr. assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Marcus Smart misses free throw 2 of 2"
+    },
+    {
+      "x": 18,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "HOU",
+      "text": "Alperen Sengun misses 25-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 13,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "HOU",
+      "text": "Tari Eason misses 26-foot turnaround jump shot"
+    }
+  ],
+  "shot_zones": {
+    "HOU": {
+      "at_rim": {
+        "fgm": 16,
+        "fga": 25,
+        "pct": 64
+      },
+      "paint": {
+        "fgm": 10,
+        "fga": 26,
+        "pct": 38
+      },
+      "mid": {
+        "fgm": 20,
+        "fga": 25,
+        "pct": 80
+      },
+      "corner_3": {
+        "fgm": 1,
+        "fga": 17,
+        "pct": 6
+      },
+      "arc_3": {
+        "fgm": 10,
+        "fga": 28,
+        "pct": 36
+      }
+    },
+    "LAL": {
+      "at_rim": {
+        "fgm": 18,
+        "fga": 25,
+        "pct": 72
+      },
+      "paint": {
+        "fgm": 7,
+        "fga": 20,
+        "pct": 35
+      },
+      "mid": {
+        "fgm": 25,
+        "fga": 29,
+        "pct": 86
+      },
+      "corner_3": {
+        "fgm": 4,
+        "fga": 18,
+        "pct": 22
+      },
+      "arc_3": {
+        "fgm": 8,
+        "fga": 19,
+        "pct": 42
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

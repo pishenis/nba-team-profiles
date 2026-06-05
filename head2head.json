@@ -14,7 +14,7 @@
       },
       "games": [
         {
-          "game_id": "0022500012",
+          "game_id": "18447235",
           "date": "2025-12-25",
           "home": "LAL",
           "away": "HOU",
@@ -23,7 +23,7 @@
           "winner": "HOU"
         },
         {
-          "game_id": "0022500989",
+          "game_id": "18447807",
           "date": "2026-03-16",
           "home": "HOU",
           "away": "LAL",
@@ -32,7 +32,7 @@
           "winner": "LAL"
         },
         {
-          "game_id": "0022501007",
+          "game_id": "18447825",
           "date": "2026-03-18",
           "home": "HOU",
           "away": "LAL",
@@ -54,7 +54,7 @@
       },
       "games": [
         {
-          "game_id": "0022500008",
+          "game_id": "18446862",
           "date": "2025-10-27",
           "home": "MIN",
           "away": "DEN",
@@ -63,7 +63,7 @@
           "winner": "DEN"
         },
         {
-          "game_id": "0022500232",
+          "game_id": "18447009",
           "date": "2025-11-15",
           "home": "MIN",
           "away": "DEN",
@@ -72,7 +72,7 @@
           "winner": "DEN"
         },
         {
-          "game_id": "0022500013",
+          "game_id": "18447236",
           "date": "2025-12-25",
           "home": "DEN",
           "away": "MIN",
@@ -81,7 +81,7 @@
           "winner": "DEN"
         },
         {
-          "game_id": "0022500871",
+          "game_id": "18447689",
           "date": "2026-03-01",
           "home": "DEN",
           "away": "MIN",
@@ -99,20 +99,21 @@
       "away_seed": 5,
       "regular_season_record": {
         "CLE": 0,
-        "TOR": 3
+        "TOR": 2
       },
       "games": [
         {
-          "game_id": "0022500022",
+          "game_id": "18446893",
           "date": "2025-10-31",
           "home": "CLE",
           "away": "TOR",
           "home_pts": 101,
           "away_pts": 112,
-          "winner": "TOR"
+          "winner": "TOR",
+          "is_cup": true
         },
         {
-          "game_id": "0022500225",
+          "game_id": "18446993",
           "date": "2025-11-13",
           "home": "CLE",
           "away": "TOR",
@@ -121,7 +122,7 @@
           "winner": "TOR"
         },
         {
-          "game_id": "0022500284",
+          "game_id": "18447070",
           "date": "2025-11-24",
           "home": "TOR",
           "away": "CLE",
@@ -143,7 +144,7 @@
       },
       "games": [
         {
-          "game_id": "0022500435",
+          "game_id": "18447249",
           "date": "2025-12-27",
           "home": "ATL",
           "away": "NYK",
@@ -152,7 +153,7 @@
           "winner": "NYK"
         },
         {
-          "game_id": "0022500479",
+          "game_id": "18447293",
           "date": "2026-01-02",
           "home": "NYK",
           "away": "ATL",
@@ -161,7 +162,7 @@
           "winner": "ATL"
         },
         {
-          "game_id": "0022501143",
+          "game_id": "18447961",
           "date": "2026-04-06",
           "home": "ATL",
           "away": "NYK",
@@ -178,21 +179,22 @@
       "home_seed": 2,
       "away_seed": 7,
       "regular_season_record": {
-        "SAS": 2,
+        "SAS": 1,
         "POR": 1
       },
       "games": [
         {
-          "game_id": "0022500067",
+          "game_id": "18447089",
           "date": "2025-11-26",
           "home": "POR",
           "away": "SAS",
           "home_pts": 102,
           "away_pts": 115,
-          "winner": "SAS"
+          "winner": "SAS",
+          "is_cup": true
         },
         {
-          "game_id": "0022500490",
+          "game_id": "18447304",
           "date": "2026-01-03",
           "home": "SAS",
           "away": "POR",
@@ -201,7 +203,7 @@
           "winner": "POR"
         },
         {
-          "game_id": "0022501161",
+          "game_id": "18447979",
           "date": "2026-04-08",
           "home": "SAS",
           "away": "POR",
@@ -218,12 +220,12 @@
       "home_seed": 2,
       "away_seed": 7,
       "regular_season_record": {
-        "BOS": 2,
+        "BOS": 1,
         "PHI": 2
       },
       "games": [
         {
-          "game_id": "0022500083",
+          "game_id": "18446826",
           "date": "2025-10-22",
           "home": "BOS",
           "away": "PHI",
@@ -232,16 +234,17 @@
           "winner": "PHI"
         },
         {
-          "game_id": "0022500021",
+          "game_id": "18446892",
           "date": "2025-10-31",
           "home": "PHI",
           "away": "BOS",
           "home_pts": 108,
           "away_pts": 109,
-          "winner": "BOS"
+          "winner": "BOS",
+          "is_cup": true
         },
         {
-          "game_id": "0022500209",
+          "game_id": "18446977",
           "date": "2025-11-11",
           "home": "PHI",
           "away": "BOS",
@@ -250,7 +253,7 @@
           "winner": "PHI"
         },
         {
-          "game_id": "0022500874",
+          "game_id": "18447692",
           "date": "2026-03-01",
           "home": "BOS",
           "away": "PHI",
@@ -268,11 +271,11 @@
       "away_seed": 8,
       "regular_season_record": {
         "DET": 2,
-        "ORL": 2
+        "ORL": 1
       },
       "games": [
         {
-          "game_id": "0022500129",
+          "game_id": "18446878",
           "date": "2025-10-29",
           "home": "DET",
           "away": "ORL",
@@ -281,16 +284,17 @@
           "winner": "DET"
         },
         {
-          "game_id": "0022500072",
+          "game_id": "18447094",
           "date": "2025-11-28",
           "home": "DET",
           "away": "ORL",
           "home_pts": 109,
           "away_pts": 112,
-          "winner": "ORL"
+          "winner": "ORL",
+          "is_cup": true
         },
         {
-          "game_id": "0022500875",
+          "game_id": "18447693",
           "date": "2026-03-01",
           "home": "ORL",
           "away": "DET",
@@ -299,7 +303,7 @@
           "winner": "DET"
         },
         {
-          "game_id": "0022501144",
+          "game_id": "18447962",
           "date": "2026-04-06",
           "home": "ORL",
           "away": "DET",
@@ -316,30 +320,32 @@
       "home_seed": 1,
       "away_seed": 8,
       "regular_season_record": {
-        "OKC": 3,
+        "OKC": 1,
         "PHX": 2
       },
       "games": [
         {
-          "game_id": "0022500075",
+          "game_id": "18447097",
           "date": "2025-11-28",
           "home": "OKC",
           "away": "PHX",
           "home_pts": 123,
           "away_pts": 119,
-          "winner": "OKC"
+          "winner": "OKC",
+          "is_cup": true
         },
         {
-          "game_id": "0022501203",
+          "game_id": "20054035",
           "date": "2025-12-10",
           "home": "OKC",
           "away": "PHX",
           "home_pts": 138,
           "away_pts": 89,
-          "winner": "OKC"
+          "winner": "OKC",
+          "is_cup": true
         },
         {
-          "game_id": "0022500499",
+          "game_id": "18447313",
           "date": "2026-01-04",
           "home": "PHX",
           "away": "OKC",
@@ -348,7 +354,7 @@
           "winner": "PHX"
         },
         {
-          "game_id": "0022500785",
+          "game_id": "18447603",
           "date": "2026-02-11",
           "home": "PHX",
           "away": "OKC",
@@ -357,7 +363,7 @@
           "winner": "OKC"
         },
         {
-          "game_id": "0022501196",
+          "game_id": "18448014",
           "date": "2026-04-12",
           "home": "OKC",
           "away": "PHX",
@@ -379,7 +385,7 @@
       },
       "games": [
         {
-          "game_id": "0022500306",
+          "game_id": "18447115",
           "date": "2025-11-30",
           "home": "MIN",
           "away": "SAS",
@@ -388,7 +394,7 @@
           "winner": "MIN"
         },
         {
-          "game_id": "0022500552",
+          "game_id": "18447366",
           "date": "2026-01-11",
           "home": "MIN",
           "away": "SAS",
@@ -397,7 +403,7 @@
           "winner": "MIN"
         },
         {
-          "game_id": "0022500598",
+          "game_id": "18447412",
           "date": "2026-01-17",
           "home": "SAS",
           "away": "MIN",
@@ -419,7 +425,7 @@
       },
       "games": [
         {
-          "game_id": "0022500222",
+          "game_id": "18446990",
           "date": "2025-11-12",
           "home": "OKC",
           "away": "LAL",
@@ -428,7 +434,7 @@
           "winner": "OKC"
         },
         {
-          "game_id": "0022500769",
+          "game_id": "18447587",
           "date": "2026-02-09",
           "home": "LAL",
           "away": "OKC",
@@ -437,7 +443,7 @@
           "winner": "OKC"
         },
         {
-          "game_id": "0022501116",
+          "game_id": "18447934",
           "date": "2026-04-02",
           "home": "OKC",
           "away": "LAL",
@@ -446,7 +452,7 @@
           "winner": "OKC"
         },
         {
-          "game_id": "0022501155",
+          "game_id": "18447973",
           "date": "2026-04-07",
           "home": "LAL",
           "away": "OKC",
@@ -468,7 +474,7 @@
       },
       "games": [
         {
-          "game_id": "0022500382",
+          "game_id": "18447191",
           "date": "2025-12-19",
           "home": "NYK",
           "away": "PHI",
@@ -477,7 +483,7 @@
           "winner": "PHI"
         },
         {
-          "game_id": "0022500487",
+          "game_id": "18447301",
           "date": "2026-01-03",
           "home": "NYK",
           "away": "PHI",
@@ -486,7 +492,7 @@
           "winner": "PHI"
         },
         {
-          "game_id": "0022500643",
+          "game_id": "18447461",
           "date": "2026-01-24",
           "home": "PHI",
           "away": "NYK",
@@ -495,7 +501,7 @@
           "winner": "NYK"
         },
         {
-          "game_id": "0022500780",
+          "game_id": "18447598",
           "date": "2026-02-11",
           "home": "PHI",
           "away": "NYK",
@@ -517,7 +523,7 @@
       },
       "games": [
         {
-          "game_id": "0022500007",
+          "game_id": "18446861",
           "date": "2025-10-27",
           "home": "DET",
           "away": "CLE",
@@ -526,7 +532,7 @@
           "winner": "CLE"
         },
         {
-          "game_id": "0022500494",
+          "game_id": "18447308",
           "date": "2026-01-04",
           "home": "CLE",
           "away": "DET",
@@ -535,7 +541,7 @@
           "winner": "DET"
         },
         {
-          "game_id": "0022500858",
+          "game_id": "18447676",
           "date": "2026-02-27",
           "home": "DET",
           "away": "CLE",
@@ -544,7 +550,7 @@
           "winner": "DET"
         },
         {
-          "game_id": "0022500884",
+          "game_id": "18447702",
           "date": "2026-03-03",
           "home": "CLE",
           "away": "DET",
@@ -566,7 +572,17 @@
       },
       "games": [
         {
-          "game_id": "0022500417",
+          "game_id": "20314126",
+          "date": "2025-12-13",
+          "home": "OKC",
+          "away": "SAS",
+          "home_pts": 109,
+          "away_pts": 111,
+          "winner": "SAS",
+          "is_cup": true
+        },
+        {
+          "game_id": "18447226",
           "date": "2025-12-23",
           "home": "SAS",
           "away": "OKC",
@@ -575,7 +591,7 @@
           "winner": "SAS"
         },
         {
-          "game_id": "0022500010",
+          "game_id": "18447233",
           "date": "2025-12-25",
           "home": "OKC",
           "away": "SAS",
@@ -584,7 +600,7 @@
           "winner": "SAS"
         },
         {
-          "game_id": "0022500568",
+          "game_id": "18447382",
           "date": "2026-01-13",
           "home": "OKC",
           "away": "SAS",
@@ -593,7 +609,7 @@
           "winner": "OKC"
         },
         {
-          "game_id": "0022500730",
+          "game_id": "18447548",
           "date": "2026-02-04",
           "home": "SAS",
           "away": "OKC",
@@ -615,7 +631,7 @@
       },
       "games": [
         {
-          "game_id": "0022500003",
+          "game_id": "18446821",
           "date": "2025-10-22",
           "home": "NYK",
           "away": "CLE",
@@ -624,7 +640,7 @@
           "winner": "NYK"
         },
         {
-          "game_id": "0022500009",
+          "game_id": "18447232",
           "date": "2025-12-25",
           "home": "NYK",
           "away": "CLE",
@@ -633,7 +649,7 @@
           "winner": "NYK"
         },
         {
-          "game_id": "0022500835",
+          "game_id": "18447653",
           "date": "2026-02-24",
           "home": "CLE",
           "away": "NYK",
@@ -655,7 +671,17 @@
       },
       "games": [
         {
-          "game_id": "0022500467",
+          "game_id": "20377171",
+          "date": "2025-12-16",
+          "home": "NYK",
+          "away": "SAS",
+          "home_pts": 124,
+          "away_pts": 113,
+          "winner": "NYK",
+          "is_cup": true
+        },
+        {
+          "game_id": "18447281",
           "date": "2025-12-31",
           "home": "SAS",
           "away": "NYK",
@@ -664,7 +690,7 @@
           "winner": "SAS"
         },
         {
-          "game_id": "0022500868",
+          "game_id": "18447686",
           "date": "2026-03-01",
           "home": "NYK",
           "away": "SAS",

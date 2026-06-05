@@ -1,0 +1,6636 @@
+{
+  "game_id": "21684819",
+  "date": "2026-05-03",
+  "home": "DET",
+  "away": "ORL",
+  "home_pts": 116,
+  "away_pts": 94,
+  "winner": "DET",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "DET": [
+        20,
+        40,
+        23,
+        33
+      ],
+      "ORL": [
+        22,
+        27,
+        15,
+        30
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "36:25",
+    "time_leading_away_fmt": "7:34",
+    "time_tied_fmt": "4:01",
+    "lead_changes": 10,
+    "ties": 7,
+    "best_run_home": {
+      "pts_home": 24,
+      "pts_away": 8,
+      "start_min": 20.55,
+      "end_min": 25.3
+    },
+    "best_run_away": {
+      "pts_away": 18,
+      "pts_home": 9,
+      "start_min": 38.9,
+      "end_min": 43.63
+    },
+    "max_consec_home": 7,
+    "max_consec_away": 8
+  },
+  "four_factors": {
+    "DET": {
+      "efg": 0.625,
+      "tov": 0.184,
+      "oreb": 0.074,
+      "ftr": 0.25,
+      "opp_efg": 0.509,
+      "opp_tov": 0.137,
+      "opp_oreb": 0.233,
+      "opp_ftr": 0.263
+    },
+    "ORL": {
+      "efg": 0.353,
+      "tov": 0.24,
+      "oreb": 0.077,
+      "ftr": 0.324,
+      "opp_efg": 0.467,
+      "opp_tov": 0.088,
+      "opp_oreb": 0.308,
+      "opp_ftr": 0.174
+    }
+  },
+  "misc": {
+    "DET": {
+      "pts_paint": 38,
+      "pts_fb": 16,
+      "pts_2nd_chance": 19,
+      "pts_off_tov": 19
+    },
+    "ORL": {
+      "pts_paint": 28,
+      "pts_fb": 9,
+      "pts_2nd_chance": 15,
+      "pts_off_tov": 15
+    }
+  },
+  "hustle": {
+    "DET": {
+      "deflections": 16,
+      "charges_drawn": 0,
+      "contested_shots": 40,
+      "contested_2pt": 24,
+      "contested_3pt": 16,
+      "loose_balls_recovered": 3,
+      "screen_assists": 6
+    },
+    "ORL": {
+      "deflections": 15,
+      "charges_drawn": 1,
+      "contested_shots": 26,
+      "contested_2pt": 18,
+      "contested_3pt": 8,
+      "loose_balls_recovered": 1,
+      "screen_assists": 6
+    }
+  },
+  "box_score": {
+    "DET": [
+      {
+        "name": "A. Thompson",
+        "minutes": "34",
+        "pos": "G",
+        "starter": true,
+        "pts": 8,
+        "reb": 4,
+        "oreb": 2,
+        "ast": 4,
+        "stl": 2,
+        "blk": 2,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 1,
+        "pf": 1,
+        "plus_minus": 12,
+        "off_rating": 125,
+        "def_rating": 106.3,
+        "ts_pct": 0.735,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "13:52",
+        "mu_fga": 4,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.25,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 1
+      },
+      {
+        "name": "T. Harris",
+        "minutes": "36",
+        "pos": "F",
+        "starter": true,
+        "pts": 30,
+        "reb": 9,
+        "oreb": 2,
+        "ast": 2,
+        "stl": 3,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 11,
+        "fga": 18,
+        "fg3m": 5,
+        "fg3a": 7,
+        "ftm": 3,
+        "fta": 3,
+        "pf": 2,
+        "plus_minus": 22,
+        "off_rating": 132.9,
+        "def_rating": 101.4,
+        "ts_pct": 0.776,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 8,
+        "mu_min": "14:38",
+        "mu_fga": 20,
+        "mu_fgm": 10,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 5,
+        "mu_3pm": 3,
+        "mu_pts": 24,
+        "mu_ast": 2
+      },
+      {
+        "name": "J. Duren",
+        "minutes": "37",
+        "pos": "C",
+        "starter": true,
+        "pts": 15,
+        "reb": 15,
+        "oreb": 6,
+        "ast": 3,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 5,
+        "fga": 9,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 5,
+        "fta": 6,
+        "pf": 3,
+        "plus_minus": 27,
+        "off_rating": 142.3,
+        "def_rating": 101.4,
+        "ts_pct": 0.644,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 8,
+        "mu_min": "14:18",
+        "mu_fga": 13,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.308,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 12,
+        "mu_ast": 4
+      },
+      {
+        "name": "D. Robinson",
+        "minutes": "36",
+        "pos": "F",
+        "starter": true,
+        "pts": 10,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 3,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 13,
+        "fg3m": 2,
+        "fg3a": 10,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 15,
+        "off_rating": 120.8,
+        "def_rating": 98.6,
+        "ts_pct": 0.385,
+        "deflections": 5,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "14:17",
+        "mu_fga": 9,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.222,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 0
+      },
+      {
+        "name": "C. Cunningham",
+        "minutes": "40",
+        "pos": "G",
+        "starter": true,
+        "pts": 32,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 12,
+        "stl": 0,
+        "blk": 2,
+        "tov": 4,
+        "fgm": 10,
+        "fga": 18,
+        "fg3m": 4,
+        "fg3a": 6,
+        "ftm": 8,
+        "fta": 10,
+        "pf": 4,
+        "plus_minus": 29,
+        "off_rating": 132.9,
+        "def_rating": 94.7,
+        "ts_pct": 0.714,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 10,
+        "mu_min": "15:38",
+        "mu_fga": 20,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.3,
+        "mu_3pa": 11,
+        "mu_3pm": 2,
+        "mu_pts": 15,
+        "mu_ast": 4
+      },
+      {
+        "name": "J. Green",
+        "minutes": "14",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 3,
+        "off_rating": 111.1,
+        "def_rating": 90,
+        "ts_pct": 0.3,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "5:44",
+        "mu_fga": 4,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 0
+      },
+      {
+        "name": "R. Holland II",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 100,
+        "def_rating": 100,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:29",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "K. Huerter",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "D. Jenkins",
+        "minutes": "29",
+        "pos": "",
+        "starter": false,
+        "pts": 16,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 5,
+        "stl": 0,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 5,
+        "fga": 8,
+        "fg3m": 4,
+        "fg3a": 5,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": 5,
+        "off_rating": 121.8,
+        "def_rating": 110.7,
+        "ts_pct": 0.901,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "11:19",
+        "mu_fga": 8,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.625,
+        "mu_3pa": 3,
+        "mu_3pm": 2,
+        "mu_pts": 13,
+        "mu_ast": 5
+      },
+      {
+        "name": "C. Lanier",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 2,
+        "off_rating": 100,
+        "def_rating": 0,
+        "ts_pct": 1,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:23",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "C. LeVert",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "P. Reed",
+        "minutes": "02",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -5,
+        "off_rating": 0,
+        "def_rating": 125,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "1:09",
+        "mu_fga": 2,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Sasser",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 100,
+        "def_rating": 100,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:29",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "T. Smith",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 100,
+        "def_rating": 100,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:29",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "I. Stewart",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 0,
+        "off_rating": 81.3,
+        "def_rating": 81.3,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "3:17",
+        "mu_fga": 3,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 0
+      }
+    ],
+    "ORL": [
+      {
+        "name": "J. Cain",
+        "minutes": "24",
+        "pos": "F",
+        "starter": true,
+        "pts": 5,
+        "reb": 4,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 0,
+        "blk": 2,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 1,
+        "pf": 1,
+        "plus_minus": -16,
+        "off_rating": 72.3,
+        "def_rating": 108.7,
+        "ts_pct": 0.388,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "8:42",
+        "mu_fga": 9,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.222,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 3
+      },
+      {
+        "name": "P. Banchero",
+        "minutes": "42",
+        "pos": "F",
+        "starter": true,
+        "pts": 38,
+        "reb": 9,
+        "oreb": 2,
+        "ast": 6,
+        "stl": 0,
+        "blk": 1,
+        "tov": 5,
+        "fgm": 14,
+        "fga": 25,
+        "fg3m": 4,
+        "fg3a": 7,
+        "ftm": 6,
+        "fta": 8,
+        "pf": 4,
+        "plus_minus": -18,
+        "off_rating": 98.8,
+        "def_rating": 121,
+        "ts_pct": 0.666,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "16:03",
+        "mu_fga": 20,
+        "mu_fgm": 11,
+        "mu_fg_pct": 0.55,
+        "mu_3pa": 10,
+        "mu_3pm": 4,
+        "mu_pts": 30,
+        "mu_ast": 4
+      },
+      {
+        "name": "W. Carter Jr.",
+        "minutes": "38",
+        "pos": "C",
+        "starter": true,
+        "pts": 13,
+        "reb": 5,
+        "oreb": 2,
+        "ast": 2,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 7,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 6,
+        "fta": 8,
+        "pf": 3,
+        "plus_minus": -27,
+        "off_rating": 101.3,
+        "def_rating": 141.1,
+        "ts_pct": 0.618,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "14:56",
+        "mu_fga": 9,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 3,
+        "mu_3pm": 2,
+        "mu_pts": 16,
+        "mu_ast": 6
+      },
+      {
+        "name": "D. Bane",
+        "minutes": "38",
+        "pos": "G",
+        "starter": true,
+        "pts": 16,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 2,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 10,
+        "fg3m": 3,
+        "fg3a": 5,
+        "ftm": 3,
+        "fta": 5,
+        "pf": 4,
+        "plus_minus": -8,
+        "off_rating": 113.3,
+        "def_rating": 127.4,
+        "ts_pct": 0.656,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "15:08",
+        "mu_fga": 12,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.583,
+        "mu_3pa": 5,
+        "mu_3pm": 4,
+        "mu_pts": 21,
+        "mu_ast": 5
+      },
+      {
+        "name": "J. Suggs",
+        "minutes": "36",
+        "pos": "G",
+        "starter": true,
+        "pts": 6,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 4,
+        "stl": 4,
+        "blk": 2,
+        "tov": 3,
+        "fgm": 2,
+        "fga": 9,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 4,
+        "plus_minus": -28,
+        "off_rating": 93.2,
+        "def_rating": 132.9,
+        "ts_pct": 0.304,
+        "deflections": 6,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "14:16",
+        "mu_fga": 12,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.417,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 13,
+        "mu_ast": 6
+      },
+      {
+        "name": "G. Bitadze",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Black",
+        "minutes": "33",
+        "pos": "",
+        "starter": false,
+        "pts": 11,
+        "reb": 5,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 5,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 12,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 3,
+        "fta": 4,
+        "pf": 3,
+        "plus_minus": -11,
+        "off_rating": 109.5,
+        "def_rating": 131.1,
+        "ts_pct": 0.4,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "11:60",
+        "mu_fga": 11,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.364,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 10,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. Carter",
+        "minutes": "11",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 5,
+        "off_rating": 119,
+        "def_rating": 100,
+        "ts_pct": 0,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "3:44",
+        "mu_fga": 4,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 3,
+        "mu_3pm": 2,
+        "mu_pts": 8,
+        "mu_ast": 1
+      },
+      {
+        "name": "T. Da Silva",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -12,
+        "off_rating": 87.5,
+        "def_rating": 162.5,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "3:34",
+        "mu_fga": 4,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 7,
+        "mu_ast": 5
+      },
+      {
+        "name": "J. Howard",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "N. Penda",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Richardson",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. Wagner",
+        "minutes": "10",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": 5,
+        "off_rating": 90,
+        "def_rating": 68.4,
+        "ts_pct": 0.644,
+        "deflections": 0,
+        "charges_drawn": 1,
+        "contested_shots": 2,
+        "mu_min": "3:25",
+        "mu_fga": 3,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 3,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Isaac",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "F. Wagner",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Wendell Carter Jr. vs. Jalen Duren (Desmond Bane gains possession)"
+    },
+    {
+      "min": 0.42,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Cain misses driving layup"
+    },
+    {
+      "min": 0.45,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson defensive rebound"
+    },
+    {
+      "min": 0.55,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Cade Cunningham lost ball turnover (Jalen Suggs steals)"
+    },
+    {
+      "min": 0.63,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Ausar Thompson blocks Paolo Banchero 's 5-foot running layup"
+    },
+    {
+      "min": 0.67,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Tobias Harris defensive rebound"
+    },
+    {
+      "min": 0.67,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Paolo Banchero personal foul"
+    },
+    {
+      "min": 0.88,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Cade Cunningham misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 0.9,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Duren offensive rebound"
+    },
+    {
+      "min": 0.93,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Duren makes two point shot"
+    },
+    {
+      "min": 1.22,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Cain misses 23-foot three point jumper"
+    },
+    {
+      "min": 1.25,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson defensive rebound"
+    },
+    {
+      "min": 1.38,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson misses 27-foot running jump shot"
+    },
+    {
+      "min": 1.4,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Suggs defensive rebound"
+    },
+    {
+      "min": 1.5,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Wendell Carter Jr. misses 26-foot three point jumper"
+    },
+    {
+      "min": 1.5,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson defensive rebound"
+    },
+    {
+      "min": 1.85,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Tobias Harris misses 10-foot turnaround jump shot"
+    },
+    {
+      "min": 1.88,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Desmond Bane defensive rebound"
+    },
+    {
+      "min": 2.07,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Paolo Banchero makes 27-foot three point jumper (Jamal Cain assists)"
+    },
+    {
+      "min": 2.47,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 2.52,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson offensive rebound"
+    },
+    {
+      "min": 2.62,
+      "home": 5,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Cade Cunningham makes 27-foot three point jumper (Jalen Duren assists)"
+    },
+    {
+      "min": 2.97,
+      "home": 5,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Paolo Banchero makes 15-foot turnaround jump shot (Jalen Suggs assists)"
+    },
+    {
+      "min": 3.2,
+      "home": 5,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Duren bad pass\nturnover (Jalen Suggs steals)"
+    },
+    {
+      "min": 3.48,
+      "home": 5,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Ausar Thompson blocks Paolo Banchero 's 8-foot turnaround jump shot"
+    },
+    {
+      "min": 3.52,
+      "home": 5,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Ausar Thompson defensive rebound"
+    },
+    {
+      "min": 3.67,
+      "home": 8,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Duncan Robinson makes 23-foot three point jumper (Ausar Thompson assists)"
+    },
+    {
+      "min": 3.92,
+      "home": 8,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Black enters the game for Jamal Cain"
+    },
+    {
+      "min": 3.97,
+      "home": 8,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Cade Cunningham blocks Desmond Bane 's 3-foot layup"
+    },
+    {
+      "min": 4.0,
+      "home": 8,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 4.13,
+      "home": 10,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Duren makes 3-foot alley oop dunk (Cade Cunningham assists)"
+    },
+    {
+      "min": 4.63,
+      "home": 10,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Black misses 25-foot three point jumper"
+    },
+    {
+      "min": 4.68,
+      "home": 10,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Tobias Harris defensive rebound"
+    },
+    {
+      "min": 4.8,
+      "home": 10,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Tobias Harris misses 10-foot pullup jump shot"
+    },
+    {
+      "min": 4.82,
+      "home": 10,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Suggs defensive rebound"
+    },
+    {
+      "min": 4.92,
+      "home": 10,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Desmond Bane misses running pullup jump shot"
+    },
+    {
+      "min": 4.93,
+      "home": 10,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 4.93,
+      "home": 10,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson personal foul"
+    },
+    {
+      "min": 5.2,
+      "home": 10,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "Paolo Banchero makes 26-foot three point jumper (Desmond Bane assists)"
+    },
+    {
+      "min": 5.6,
+      "home": 10,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson misses 27-foot three point jumper"
+    },
+    {
+      "min": 5.63,
+      "home": 10,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Paolo Banchero defensive rebound"
+    },
+    {
+      "min": 5.7,
+      "home": 10,
+      "away": 11,
+      "period": 1,
+      "scoring": true,
+      "text": "Paolo Banchero makes 26-foot running pullup jump shot"
+    },
+    {
+      "min": 5.72,
+      "home": 10,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Pistons Full timeout"
+    },
+    {
+      "min": 5.72,
+      "home": 10,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Daniss Jenkins enters the game for Cade Cunningham"
+    },
+    {
+      "min": 6.02,
+      "home": 10,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Daniss Jenkins misses 15-foot step back jumpshot"
+    },
+    {
+      "min": 6.05,
+      "home": 10,
+      "away": 11,
+      "period": 1,
+      "scoring": false,
+      "text": "Wendell Carter Jr. defensive rebound"
+    },
+    {
+      "min": 6.23,
+      "home": 10,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Suggs makes 8-foot two point shot (Paolo Banchero assists)"
+    },
+    {
+      "min": 6.38,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Ausar Thompson makes 4-foot two point shot"
+    },
+    {
+      "min": 6.38,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Desmond Bane shooting foul"
+    },
+    {
+      "min": 6.38,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jevon Carter enters the game for Jalen Suggs"
+    },
+    {
+      "min": 6.38,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Cain enters the game for Paolo Banchero"
+    },
+    {
+      "min": 6.38,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Ausar Thompson misses free throw 1 of 1"
+    },
+    {
+      "min": 6.42,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Wendell Carter Jr. defensive rebound"
+    },
+    {
+      "min": 6.75,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Desmond Bane misses 23-foot three point step back jumpshot"
+    },
+    {
+      "min": 6.78,
+      "home": 12,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Daniss Jenkins defensive rebound"
+    },
+    {
+      "min": 6.85,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Tobias Harris makes 3-foot running dunk (Daniss Jenkins assists)"
+    },
+    {
+      "min": 7.18,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Daniss Jenkins blocks Anthony Black 's 7-foot driving floating jump shot"
+    },
+    {
+      "min": 7.2,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Tobias Harris defensive rebound"
+    },
+    {
+      "min": 7.53,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson misses 24-foot three point jumper"
+    },
+    {
+      "min": 7.55,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Duren offensive rebound"
+    },
+    {
+      "min": 7.57,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Black shooting foul"
+    },
+    {
+      "min": 7.57,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Duren misses free throw 1 of 2"
+    },
+    {
+      "min": 7.57,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Pistons offensive team rebound"
+    },
+    {
+      "min": 7.57,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Javonte Green enters the game for Duncan Robinson"
+    },
+    {
+      "min": 7.57,
+      "home": 14,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Cade Cunningham enters the game for Tobias Harris"
+    },
+    {
+      "min": 7.57,
+      "home": 15,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Duren makes free throw 2 of 2"
+    },
+    {
+      "min": 7.87,
+      "home": 15,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Javonte Green shooting foul"
+    },
+    {
+      "min": 7.87,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Desmond Bane makes free throw 1 of 2"
+    },
+    {
+      "min": 7.87,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Stewart enters the game for Jalen Duren"
+    },
+    {
+      "min": 7.87,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Moritz Wagner enters the game for Wendell Carter Jr."
+    },
+    {
+      "min": 7.87,
+      "home": 15,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Desmond Bane makes free throw 2 of 2"
+    },
+    {
+      "min": 8.13,
+      "home": 18,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Daniss Jenkins makes 26-foot three point jumper (Cade Cunningham assists)"
+    },
+    {
+      "min": 8.5,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Jamal Cain makes 18-foot pullup jump shot (Anthony Black assists)"
+    },
+    {
+      "min": 8.87,
+      "home": 18,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Cade Cunningham bad pass\nturnover (Anthony Black steals)"
+    },
+    {
+      "min": 9.17,
+      "home": 18,
+      "away": 20,
+      "period": 1,
+      "scoring": true,
+      "text": "Moritz Wagner makes 24-foot three point jumper (Jevon Carter assists)"
+    },
+    {
+      "min": 9.45,
+      "home": 18,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Cain shooting foul"
+    },
+    {
+      "min": 9.45,
+      "home": 18,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Magic Full timeout"
+    },
+    {
+      "min": 9.45,
+      "home": 18,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Suggs enters the game for Jevon Carter"
+    },
+    {
+      "min": 9.45,
+      "home": 18,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Paolo Banchero enters the game for Desmond Bane"
+    },
+    {
+      "min": 9.45,
+      "home": 18,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson enters the game for Ausar Thompson"
+    },
+    {
+      "min": 9.45,
+      "home": 19,
+      "away": 20,
+      "period": 1,
+      "scoring": true,
+      "text": "Cade Cunningham makes free throw 1 of 2"
+    },
+    {
+      "min": 9.45,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": true,
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "min": 9.77,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Paolo Banchero out of bounds lost ball turnover"
+    },
+    {
+      "min": 9.97,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Suggs blocks Isaiah Stewart 's 7-foot layup"
+    },
+    {
+      "min": 10.0,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Cain defensive rebound"
+    },
+    {
+      "min": 10.1,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": true,
+      "text": "Anthony Black makes 5-foot dunk (Jalen Suggs assists)"
+    },
+    {
+      "min": 10.3,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Cade Cunningham misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 10.32,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Black defensive rebound"
+    },
+    {
+      "min": 10.6,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Moritz Wagner misses layup"
+    },
+    {
+      "min": 10.62,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Stewart defensive rebound"
+    },
+    {
+      "min": 10.7,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Cain blocks Duncan Robinson 's 2-foot running layup"
+    },
+    {
+      "min": 10.75,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Paolo Banchero defensive rebound"
+    },
+    {
+      "min": 10.78,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Black misses 25-foot running jump shot"
+    },
+    {
+      "min": 10.83,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Javonte Green defensive rebound"
+    },
+    {
+      "min": 10.93,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson misses 27-foot running jump shot"
+    },
+    {
+      "min": 10.95,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Black defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Moritz Wagner offensive foul"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Moritz Wagner offensive foul turnover"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Javonte Green misses 27-foot three point jumper"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Anthony Black defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Suggs bad pass\nturnover (Duncan Robinson steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Suggs blocks Cade Cunningham 's 6-foot driving layup"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Paolo Banchero defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Paolo Banchero misses driving layup"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Duncan Robinson misses heave jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "Pistons offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Ausar Thompson enters the game for Daniss Jenkins"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Tristan da Silva enters the game for Moritz Wagner"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Wendell Carter Jr. enters the game for Jamal Cain"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren enters the game for Isaiah Stewart"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Desmond Bane enters the game for Anthony Black"
+    },
+    {
+      "min": 12.22,
+      "home": 20,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs shooting foul"
+    },
+    {
+      "min": 12.22,
+      "home": 20,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Pistons offensive team rebound"
+    },
+    {
+      "min": 12.22,
+      "home": 20,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Cade Cunningham misses free throw 1 of 2"
+    },
+    {
+      "min": 12.22,
+      "home": 21,
+      "away": 22,
+      "period": 2,
+      "scoring": true,
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "min": 12.48,
+      "home": 21,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 12.52,
+      "home": 21,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Javonte Green defensive rebound"
+    },
+    {
+      "min": 12.72,
+      "home": 23,
+      "away": 22,
+      "period": 2,
+      "scoring": true,
+      "text": "Ausar Thompson makes 3-foot dunk (Cade Cunningham assists)"
+    },
+    {
+      "min": 12.97,
+      "home": 23,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Tristan da Silva bad pass\nturnover (Ausar Thompson steals)"
+    },
+    {
+      "min": 13.07,
+      "home": 23,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Javonte Green misses 26-foot running jump shot"
+    },
+    {
+      "min": 13.12,
+      "home": 23,
+      "away": 22,
+      "period": 2,
+      "scoring": false,
+      "text": "Paolo Banchero defensive rebound"
+    },
+    {
+      "min": 13.37,
+      "home": 23,
+      "away": 24,
+      "period": 2,
+      "scoring": true,
+      "text": "Paolo Banchero makes 5-foot two point shot"
+    },
+    {
+      "min": 13.37,
+      "home": 23,
+      "away": 24,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren defensive goaltending violation"
+    },
+    {
+      "min": 13.37,
+      "home": 23,
+      "away": 24,
+      "period": 2,
+      "scoring": false,
+      "text": "Ausar Thompson shooting foul"
+    },
+    {
+      "min": 13.37,
+      "home": 23,
+      "away": 24,
+      "period": 2,
+      "scoring": false,
+      "text": "Tobias Harris enters the game for Javonte Green"
+    },
+    {
+      "min": 13.37,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "Paolo Banchero makes free throw 1 of 1"
+    },
+    {
+      "min": 13.73,
+      "home": 26,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "Cade Cunningham makes 27-foot three pointer (Duncan Robinson assists)"
+    },
+    {
+      "min": 13.88,
+      "home": 26,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs lost ball turnover (Ausar Thompson steals)"
+    },
+    {
+      "min": 13.93,
+      "home": 28,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "Ausar Thompson makes 2-foot running dunk"
+    },
+    {
+      "min": 14.03,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes 4-foot layup (Paolo Banchero assists)"
+    },
+    {
+      "min": 14.23,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Desmond Bane shooting foul"
+    },
+    {
+      "min": 14.23,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Pistons offensive team rebound"
+    },
+    {
+      "min": 14.23,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Cade Cunningham misses free throw 1 of 2"
+    },
+    {
+      "min": 14.23,
+      "home": 29,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "min": 14.52,
+      "home": 29,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs misses 26-foot three point jumper"
+    },
+    {
+      "min": 14.53,
+      "home": 29,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 14.78,
+      "home": 31,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes 6-foot driving floating jump shot (Cade Cunningham assists)"
+    },
+    {
+      "min": 14.87,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": true,
+      "text": "Desmond Bane makes 26-foot three point jumper (Jalen Suggs assists)"
+    },
+    {
+      "min": 15.23,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Desmond Bane blocks Cade Cunningham 's 9-foot turnaround jump shot"
+    },
+    {
+      "min": 15.27,
+      "home": 31,
+      "away": 30,
+      "period": 2,
+      "scoring": false,
+      "text": "Paolo Banchero defensive rebound"
+    },
+    {
+      "min": 15.42,
+      "home": 31,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Paolo Banchero makes 9-foot turnaround jump shot"
+    },
+    {
+      "min": 15.42,
+      "home": 31,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Magic delay of game violation"
+    },
+    {
+      "min": 15.68,
+      "home": 31,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren misses 3-foot two point shot"
+    },
+    {
+      "min": 15.7,
+      "home": 31,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Ausar Thompson offensive rebound"
+    },
+    {
+      "min": 15.72,
+      "home": 31,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Ausar Thompson misses tip shot"
+    },
+    {
+      "min": 15.75,
+      "home": 31,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Magic defensive team rebound"
+    },
+    {
+      "min": 15.75,
+      "home": 31,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Anthony Black enters the game for Desmond Bane"
+    },
+    {
+      "min": 15.75,
+      "home": 31,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Cain enters the game for Tristan da Silva"
+    },
+    {
+      "min": 16.07,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Paolo Banchero makes 26-foot three pointer"
+    },
+    {
+      "min": 16.07,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Duncan Robinson personal foul"
+    },
+    {
+      "min": 16.07,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Daniss Jenkins enters the game for Duncan Robinson"
+    },
+    {
+      "min": 16.07,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Cain misses free throw 1 of 1"
+    },
+    {
+      "min": 16.08,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 16.37,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Cade Cunningham misses 29-foot three point jumper"
+    },
+    {
+      "min": 16.4,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren offensive rebound"
+    },
+    {
+      "min": 16.53,
+      "home": 33,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes 10-foot pullup jump shot (Cade Cunningham assists)"
+    },
+    {
+      "min": 16.8,
+      "home": 33,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Paolo Banchero bad pass\nturnover (Tobias Harris steals)"
+    },
+    {
+      "min": 16.95,
+      "home": 35,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Duren makes 5-foot dunk (Daniss Jenkins assists)"
+    },
+    {
+      "min": 17.38,
+      "home": 35,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Anthony Black bad pass\nturnover (Jalen Duren steals)"
+    },
+    {
+      "min": 17.48,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Cade Cunningham makes 27-foot running pullup jump shot"
+    },
+    {
+      "min": 17.52,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul Reed enters the game for Jalen Duren"
+    },
+    {
+      "min": 17.52,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Duncan Robinson enters the game for Cade Cunningham"
+    },
+    {
+      "min": 17.52,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jevon Carter enters the game for Jalen Suggs"
+    },
+    {
+      "min": 17.52,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Moritz Wagner enters the game for Wendell Carter Jr."
+    },
+    {
+      "min": 17.52,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Magic Full timeout"
+    },
+    {
+      "min": 17.73,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul Reed shooting foul"
+    },
+    {
+      "min": 17.73,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Pistons Full timeout"
+    },
+    {
+      "min": 17.73,
+      "home": 38,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "(06:16) [Pistons] COACH'S CHALLENGE (CALL STANDS) [Pistons] charged with a timeout"
+    },
+    {
+      "min": 17.73,
+      "home": 38,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Anthony Black makes free throw 1 of 2"
+    },
+    {
+      "min": 17.73,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Anthony Black makes free throw 2 of 2"
+    },
+    {
+      "min": 17.98,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Duncan Robinson misses 27-foot three point jumper"
+    },
+    {
+      "min": 18.0,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Moritz Wagner defensive rebound"
+    },
+    {
+      "min": 18.3,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Paolo Banchero misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 18.32,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Moritz Wagner offensive rebound"
+    },
+    {
+      "min": 18.48,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Tobias Harris blocks Moritz Wagner 's 2-foot two point shot"
+    },
+    {
+      "min": 18.5,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Pistons defensive team rebound"
+    },
+    {
+      "min": 18.5,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Moritz Wagner loose ball foul"
+    },
+    {
+      "min": 18.5,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Cade Cunningham enters the game for Ausar Thompson"
+    },
+    {
+      "min": 18.7,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Cade Cunningham misses 11-foot two point shot"
+    },
+    {
+      "min": 18.73,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Cain defensive rebound"
+    },
+    {
+      "min": 19.07,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Anthony Black misses 23-foot three point jumper"
+    },
+    {
+      "min": 19.12,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Jevon Carter offensive rebound"
+    },
+    {
+      "min": 19.13,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Jevon Carter misses 13-foot fade away jump shot"
+    },
+    {
+      "min": 19.15,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 19.15,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Daniss Jenkins personal foul"
+    },
+    {
+      "min": 19.15,
+      "home": 38,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Desmond Bane enters the game for Paolo Banchero"
+    },
+    {
+      "min": 19.27,
+      "home": 38,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Jamal Cain makes 26-foot three point jumper (Desmond Bane assists)"
+    },
+    {
+      "min": 19.62,
+      "home": 38,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul Reed misses finger roll layup"
+    },
+    {
+      "min": 19.63,
+      "home": 38,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Magic defensive team rebound"
+    },
+    {
+      "min": 19.63,
+      "home": 38,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren enters the game for Paul Reed"
+    },
+    {
+      "min": 19.63,
+      "home": 38,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Wendell Carter Jr. enters the game for Moritz Wagner"
+    },
+    {
+      "min": 19.83,
+      "home": 38,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Wendell Carter Jr. offensive foul"
+    },
+    {
+      "min": 19.83,
+      "home": 38,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Wendell Carter Jr. offensive foul turnover"
+    },
+    {
+      "min": 19.98,
+      "home": 38,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Desmond Bane shooting foul"
+    },
+    {
+      "min": 19.98,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes free throw 1 of 2"
+    },
+    {
+      "min": 19.98,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Paolo Banchero enters the game for Jevon Carter"
+    },
+    {
+      "min": 19.98,
+      "home": 39,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs enters the game for Jamal Cain"
+    },
+    {
+      "min": 19.98,
+      "home": 40,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes free throw 2 of 2"
+    },
+    {
+      "min": 20.18,
+      "home": 40,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Desmond Bane makes 28-foot three point jumper (Paolo Banchero assists)"
+    },
+    {
+      "min": 20.43,
+      "home": 40,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Tobias Harris misses 27-foot three point jumper"
+    },
+    {
+      "min": 20.48,
+      "home": 40,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren offensive rebound"
+    },
+    {
+      "min": 20.55,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Daniss Jenkins makes 26-foot three point jumper (Duncan Robinson assists)"
+    },
+    {
+      "min": 20.95,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs misses driving floating jump shot"
+    },
+    {
+      "min": 20.98,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Daniss Jenkins defensive rebound"
+    },
+    {
+      "min": 21.02,
+      "home": 43,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Paolo Banchero shooting foul"
+    },
+    {
+      "min": 21.02,
+      "home": 44,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Cade Cunningham makes free throw 1 of 2"
+    },
+    {
+      "min": 21.02,
+      "home": 44,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Ausar Thompson enters the game for Daniss Jenkins"
+    },
+    {
+      "min": 21.02,
+      "home": 45,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "min": 21.22,
+      "home": 45,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Paolo Banchero makes 9-foot fade away jump shot"
+    },
+    {
+      "min": 21.5,
+      "home": 48,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes 26-foot three point jumper (Cade Cunningham assists)"
+    },
+    {
+      "min": 21.68,
+      "home": 48,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs out of bounds bad pass turnover"
+    },
+    {
+      "min": 21.8,
+      "home": 50,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes driving layup (Cade Cunningham assists)"
+    },
+    {
+      "min": 21.8,
+      "home": 50,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Wendell Carter Jr. shooting foul"
+    },
+    {
+      "min": 21.8,
+      "home": 51,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes free throw 1 of 1"
+    },
+    {
+      "min": 22.17,
+      "home": 51,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Paolo Banchero misses 28-foot three point pullup jump shot"
+    },
+    {
+      "min": 22.18,
+      "home": 51,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Wendell Carter Jr. offensive rebound"
+    },
+    {
+      "min": 22.2,
+      "home": 51,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren personal foul"
+    },
+    {
+      "min": 22.2,
+      "home": 51,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "(01:48) [Magic] REF-INITIATED REVIEW (CALL STANDS)"
+    },
+    {
+      "min": 22.2,
+      "home": 51,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes free throw 2 of 2"
+    },
+    {
+      "min": 22.2,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes free throw 1 of 2"
+    },
+    {
+      "min": 22.2,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Cain enters the game for Desmond Bane"
+    },
+    {
+      "min": 22.55,
+      "home": 53,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes 12-foot pullup jump shot"
+    },
+    {
+      "min": 22.82,
+      "home": 53,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs misses driving floating jump shot"
+    },
+    {
+      "min": 22.85,
+      "home": 53,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Cain offensive rebound"
+    },
+    {
+      "min": 22.88,
+      "home": 53,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Cain misses driving floating jump shot"
+    },
+    {
+      "min": 22.92,
+      "home": 53,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Tobias Harris defensive rebound"
+    },
+    {
+      "min": 23.0,
+      "home": 56,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Tobias Harris makes 23-foot running jump shot (Cade Cunningham assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 56,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Anthony Black misses driving layup"
+    },
+    {
+      "min": 24.0,
+      "home": 56,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Duncan Robinson makes 9-foot two point shot"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Paolo Banchero makes driving layup"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Tobias Harris misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Pistons offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs loose ball foul"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Duren makes free throw 1 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 59,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Javonte Green enters the game for Duncan Robinson"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Duren makes free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Suggs misses heave jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "(00:00) [Magic] REF-INITIATED REVIEW (CALL STANDS)"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Desmond Bane enters the game for Anthony Black"
+    },
+    {
+      "min": 24.0,
+      "home": 60,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Duncan Robinson enters the game for Javonte Green"
+    },
+    {
+      "min": 24.43,
+      "home": 62,
+      "away": 49,
+      "period": 3,
+      "scoring": true,
+      "text": "Cade Cunningham makes 3-foot layup (Jalen Duren assists)"
+    },
+    {
+      "min": 24.72,
+      "home": 62,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero lost ball turnover (Tobias Harris steals)"
+    },
+    {
+      "min": 24.82,
+      "home": 62,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Duncan Robinson misses 26-foot running jump shot"
+    },
+    {
+      "min": 24.85,
+      "home": 62,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero defensive rebound"
+    },
+    {
+      "min": 25.03,
+      "home": 62,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero bad pass\nturnover (Duncan Robinson steals)"
+    },
+    {
+      "min": 25.08,
+      "home": 64,
+      "away": 49,
+      "period": 3,
+      "scoring": true,
+      "text": "Duncan Robinson makes 3-foot driving dunk"
+    },
+    {
+      "min": 25.3,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes 14-foot jumper (Desmond Bane assists)"
+    },
+    {
+      "min": 25.73,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris misses 10-foot pullup jump shot"
+    },
+    {
+      "min": 25.75,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Wendell Carter Jr. defensive rebound"
+    },
+    {
+      "min": 25.92,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero lost ball turnover (Tobias Harris steals)"
+    },
+    {
+      "min": 26.02,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero personal foul"
+    },
+    {
+      "min": 26.17,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Duren misses 5-foot hook shot"
+    },
+    {
+      "min": 26.18,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris offensive rebound"
+    },
+    {
+      "min": 26.2,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris misses tip shot"
+    },
+    {
+      "min": 26.22,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Desmond Bane defensive rebound"
+    },
+    {
+      "min": 26.35,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Wendell Carter Jr. misses 15-foot jumper"
+    },
+    {
+      "min": 26.38,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris defensive rebound"
+    },
+    {
+      "min": 26.68,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Cade Cunningham misses 13-foot pullup jump shot"
+    },
+    {
+      "min": 26.7,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Ausar Thompson offensive rebound"
+    },
+    {
+      "min": 26.75,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Cade Cunningham misses 27-foot three point jumper"
+    },
+    {
+      "min": 26.77,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Suggs defensive rebound"
+    },
+    {
+      "min": 26.97,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 27.0,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris defensive rebound"
+    },
+    {
+      "min": 27.12,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero blocks Jalen Duren 's 5-foot running layup"
+    },
+    {
+      "min": 27.13,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris offensive rebound"
+    },
+    {
+      "min": 27.17,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Duncan Robinson misses 24-foot three point jumper"
+    },
+    {
+      "min": 27.18,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Duren offensive rebound"
+    },
+    {
+      "min": 27.2,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jamal Cain blocks Jalen Duren 's 1-foot two point shot"
+    },
+    {
+      "min": 27.22,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Pistons offensive team rebound"
+    },
+    {
+      "min": 27.33,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris misses 14-foot fade away jump shot"
+    },
+    {
+      "min": 27.38,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Suggs defensive rebound"
+    },
+    {
+      "min": 27.63,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero misses 10-foot pullup jump shot"
+    },
+    {
+      "min": 27.65,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Cade Cunningham defensive rebound"
+    },
+    {
+      "min": 27.78,
+      "home": 66,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Cade Cunningham makes 3-foot running dunk"
+    },
+    {
+      "min": 27.78,
+      "home": 66,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Magic Full timeout"
+    },
+    {
+      "min": 27.78,
+      "home": 66,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Anthony Black enters the game for Jamal Cain"
+    },
+    {
+      "min": 28.1,
+      "home": 66,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Cade Cunningham blocks Jalen Suggs 's 6-foot layup"
+    },
+    {
+      "min": 28.12,
+      "home": 66,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Duncan Robinson defensive rebound"
+    },
+    {
+      "min": 28.42,
+      "home": 69,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Tobias Harris makes 23-foot three point jumper (Ausar Thompson assists)"
+    },
+    {
+      "min": 28.68,
+      "home": 69,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Suggs misses 29-foot three point jumper"
+    },
+    {
+      "min": 28.72,
+      "home": 69,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 28.95,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Cade Cunningham makes 7-foot driving floating jump shot (Tobias Harris assists)"
+    },
+    {
+      "min": 29.27,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Wendell Carter Jr. misses 27-foot three point jumper"
+    },
+    {
+      "min": 29.28,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Anthony Black offensive rebound"
+    },
+    {
+      "min": 29.33,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero misses driving layup"
+    },
+    {
+      "min": 29.33,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 29.33,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Daniss Jenkins enters the game for Cade Cunningham"
+    },
+    {
+      "min": 29.33,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jevon Carter enters the game for Jalen Suggs"
+    },
+    {
+      "min": 29.45,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jevon Carter misses 26-foot three point jumper"
+    },
+    {
+      "min": 29.5,
+      "home": 71,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero offensive rebound"
+    },
+    {
+      "min": 29.53,
+      "home": 71,
+      "away": 53,
+      "period": 3,
+      "scoring": true,
+      "text": "Paolo Banchero makes two point shot"
+    },
+    {
+      "min": 29.88,
+      "home": 71,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Daniss Jenkins misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 29.93,
+      "home": 71,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Anthony Black defensive rebound"
+    },
+    {
+      "min": 30.2,
+      "home": 71,
+      "away": 55,
+      "period": 3,
+      "scoring": true,
+      "text": "Desmond Bane makes 7-foot driving floating jump shot"
+    },
+    {
+      "min": 30.65,
+      "home": 71,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris lost ball turnover (Anthony Black steals)"
+    },
+    {
+      "min": 30.8,
+      "home": 71,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris shooting foul"
+    },
+    {
+      "min": 30.8,
+      "home": 71,
+      "away": 56,
+      "period": 3,
+      "scoring": true,
+      "text": "Paolo Banchero makes free throw 1 of 2"
+    },
+    {
+      "min": 30.8,
+      "home": 71,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero misses free throw 2 of 2"
+    },
+    {
+      "min": 30.85,
+      "home": 71,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Ausar Thompson defensive rebound"
+    },
+    {
+      "min": 30.98,
+      "home": 71,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "8 second turnover"
+    },
+    {
+      "min": 31.13,
+      "home": 71,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Paolo Banchero makes 8-foot two point shot"
+    },
+    {
+      "min": 31.13,
+      "home": 71,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Pistons Full timeout"
+    },
+    {
+      "min": 31.13,
+      "home": 71,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Cade Cunningham enters the game for Duncan Robinson"
+    },
+    {
+      "min": 31.13,
+      "home": 71,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Tristan da Silva enters the game for Desmond Bane"
+    },
+    {
+      "min": 31.47,
+      "home": 73,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Daniss Jenkins makes 14-foot pullup jump shot (Ausar Thompson assists)"
+    },
+    {
+      "min": 31.93,
+      "home": 73,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero misses 13-foot jumper"
+    },
+    {
+      "min": 31.95,
+      "home": 73,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Daniss Jenkins defensive rebound"
+    },
+    {
+      "min": 32.13,
+      "home": 75,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Cade Cunningham makes 9-foot pullup jump shot"
+    },
+    {
+      "min": 32.55,
+      "home": 75,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Moritz Wagner enters the game for Wendell Carter Jr."
+    },
+    {
+      "min": 32.55,
+      "home": 75,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Stewart enters the game for Jalen Duren"
+    },
+    {
+      "min": 32.55,
+      "home": 75,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Javonte Green enters the game for Tobias Harris"
+    },
+    {
+      "min": 32.55,
+      "home": 75,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Tristan da Silva misses 27-foot three point jumper"
+    },
+    {
+      "min": 32.57,
+      "home": 75,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 32.57,
+      "home": 75,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 32.83,
+      "home": 78,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Cade Cunningham makes 27-foot three pointer (Ausar Thompson assists)"
+    },
+    {
+      "min": 33.13,
+      "home": 78,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Stewart defensive 3-seconds (technical foul)\n"
+    },
+    {
+      "min": 33.13,
+      "home": 78,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 33.13,
+      "home": 78,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero misses technical free throw"
+    },
+    {
+      "min": 33.13,
+      "home": 78,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Desmond Bane enters the game for Tristan da Silva"
+    },
+    {
+      "min": 33.33,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Paolo Banchero makes 12-foot two point shot"
+    },
+    {
+      "min": 33.72,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Cade Cunningham lost ball turnover (Anthony Black steals)"
+    },
+    {
+      "min": 33.9,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Cade Cunningham personal foul"
+    },
+    {
+      "min": 33.9,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Jamal Cain enters the game for Jevon Carter"
+    },
+    {
+      "min": 33.9,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris enters the game for Ausar Thompson"
+    },
+    {
+      "min": 34.12,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Anthony Black misses 13-foot pullup jump shot"
+    },
+    {
+      "min": 34.13,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 34.13,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 34.32,
+      "home": 78,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Anthony Black personal foul"
+    },
+    {
+      "min": 34.57,
+      "home": 80,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Tobias Harris makes 10-foot turnaround jump shot (Daniss Jenkins assists)"
+    },
+    {
+      "min": 34.75,
+      "home": 80,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero misses 18-foot jumper"
+    },
+    {
+      "min": 34.78,
+      "home": 80,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Jamal Cain offensive rebound"
+    },
+    {
+      "min": 34.78,
+      "home": 80,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Tobias Harris personal foul"
+    },
+    {
+      "min": 34.78,
+      "home": 80,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Duncan Robinson enters the game for Cade Cunningham"
+    },
+    {
+      "min": 34.78,
+      "home": 80,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Jevon Carter enters the game for Anthony Black"
+    },
+    {
+      "min": 34.87,
+      "home": 80,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Duncan Robinson personal foul"
+    },
+    {
+      "min": 34.87,
+      "home": 80,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Paolo Banchero makes free throw 1 of 2"
+    },
+    {
+      "min": 34.87,
+      "home": 80,
+      "away": 62,
+      "period": 3,
+      "scoring": true,
+      "text": "Paolo Banchero makes free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Stewart offensive foul turnover"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Stewart offensive charge"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Pistons defensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Desmond Bane misses two point shot"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Stewart misses alley oop layup"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Paolo Banchero defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 62,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Stewart personal foul"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Moritz Wagner makes free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Suggs enters the game for Paolo Banchero"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 64,
+      "period": 3,
+      "scoring": true,
+      "text": "Moritz Wagner makes free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 83,
+      "away": 64,
+      "period": 3,
+      "scoring": true,
+      "text": "Daniss Jenkins makes 27-foot three pointer"
+    },
+    {
+      "min": 36.0,
+      "home": 83,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "(00:00) [Magic] REF-INITIATED REVIEW (REPLAY SUPPORTS CALL)"
+    },
+    {
+      "min": 36.0,
+      "home": 83,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 83,
+      "away": 64,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren enters the game for Tobias Harris"
+    },
+    {
+      "min": 36.0,
+      "home": 83,
+      "away": 64,
+      "period": 4,
+      "scoring": false,
+      "text": "Wendell Carter Jr. enters the game for Jevon Carter"
+    },
+    {
+      "min": 36.0,
+      "home": 83,
+      "away": 64,
+      "period": 4,
+      "scoring": false,
+      "text": "Cade Cunningham enters the game for Isaiah Stewart"
+    },
+    {
+      "min": 36.0,
+      "home": 83,
+      "away": 64,
+      "period": 4,
+      "scoring": false,
+      "text": "Tristan da Silva enters the game for Moritz Wagner"
+    },
+    {
+      "min": 36.27,
+      "home": 83,
+      "away": 64,
+      "period": 4,
+      "scoring": false,
+      "text": "Tristan da Silva bad pass\nturnover (Duncan Robinson steals)"
+    },
+    {
+      "min": 36.57,
+      "home": 83,
+      "away": 64,
+      "period": 4,
+      "scoring": false,
+      "text": "Javonte Green misses 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 36.58,
+      "home": 83,
+      "away": 64,
+      "period": 4,
+      "scoring": false,
+      "text": "Desmond Bane defensive rebound"
+    },
+    {
+      "min": 36.88,
+      "home": 83,
+      "away": 66,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Suggs makes 11-foot driving floating jump shot (Wendell Carter Jr. assists)"
+    },
+    {
+      "min": 37.22,
+      "home": 85,
+      "away": 66,
+      "period": 4,
+      "scoring": true,
+      "text": "Cade Cunningham makes 4-foot two point shot"
+    },
+    {
+      "min": 37.53,
+      "home": 85,
+      "away": 66,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamal Cain misses 28-foot three point jumper"
+    },
+    {
+      "min": 37.57,
+      "home": 85,
+      "away": 66,
+      "period": 4,
+      "scoring": false,
+      "text": "Pistons defensive team rebound"
+    },
+    {
+      "min": 37.87,
+      "home": 88,
+      "away": 66,
+      "period": 4,
+      "scoring": true,
+      "text": "Javonte Green makes 24-foot three point jumper (Duncan Robinson assists)"
+    },
+    {
+      "min": 38.12,
+      "home": 88,
+      "away": 66,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren shooting foul"
+    },
+    {
+      "min": 38.12,
+      "home": 88,
+      "away": 67,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Suggs makes free throw 1 of 2"
+    },
+    {
+      "min": 38.12,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Paolo Banchero enters the game for Jamal Cain"
+    },
+    {
+      "min": 38.12,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Suggs makes free throw 2 of 2"
+    },
+    {
+      "min": 38.45,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren offensive rebound"
+    },
+    {
+      "min": 38.45,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Javonte Green misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 38.68,
+      "home": 91,
+      "away": 68,
+      "period": 4,
+      "scoring": true,
+      "text": "Daniss Jenkins makes 23-foot three point jumper (Cade Cunningham assists)"
+    },
+    {
+      "min": 38.68,
+      "home": 91,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Magic Full timeout"
+    },
+    {
+      "min": 38.68,
+      "home": 91,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Black enters the game for Tristan da Silva"
+    },
+    {
+      "min": 38.9,
+      "home": 91,
+      "away": 70,
+      "period": 4,
+      "scoring": true,
+      "text": "Desmond Bane makes 6-foot two point shot (Wendell Carter Jr. assists)"
+    },
+    {
+      "min": 38.9,
+      "home": 91,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Javonte Green shooting foul"
+    },
+    {
+      "min": 38.9,
+      "home": 91,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Desmond Bane misses free throw 1 of 1"
+    },
+    {
+      "min": 38.95,
+      "home": 91,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 39.25,
+      "home": 93,
+      "away": 70,
+      "period": 4,
+      "scoring": true,
+      "text": "Cade Cunningham makes 5-foot two point shot (Jalen Duren assists)"
+    },
+    {
+      "min": 39.35,
+      "home": 93,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Daniss Jenkins shooting foul"
+    },
+    {
+      "min": 39.35,
+      "home": 93,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Desmond Bane misses free throw 1 of 2"
+    },
+    {
+      "min": 39.35,
+      "home": 93,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 39.35,
+      "home": 93,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Tobias Harris enters the game for Javonte Green"
+    },
+    {
+      "min": 39.35,
+      "home": 93,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Ausar Thompson enters the game for Cade Cunningham"
+    },
+    {
+      "min": 39.35,
+      "home": 93,
+      "away": 71,
+      "period": 4,
+      "scoring": true,
+      "text": "Desmond Bane makes free throw 2 of 2"
+    },
+    {
+      "min": 39.72,
+      "home": 96,
+      "away": 71,
+      "period": 4,
+      "scoring": true,
+      "text": "Tobias Harris makes 27-foot three point jumper (Daniss Jenkins assists)"
+    },
+    {
+      "min": 39.97,
+      "home": 96,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren shooting foul"
+    },
+    {
+      "min": 39.97,
+      "home": 96,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 39.97,
+      "home": 96,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Wendell Carter Jr. misses free throw 1 of 2"
+    },
+    {
+      "min": 39.97,
+      "home": 96,
+      "away": 72,
+      "period": 4,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes free throw 2 of 2"
+    },
+    {
+      "min": 40.18,
+      "home": 96,
+      "away": 72,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren lost ball turnover (Desmond Bane steals)"
+    },
+    {
+      "min": 40.27,
+      "home": 96,
+      "away": 74,
+      "period": 4,
+      "scoring": true,
+      "text": "Paolo Banchero makes running layup"
+    },
+    {
+      "min": 40.43,
+      "home": 96,
+      "away": 74,
+      "period": 4,
+      "scoring": false,
+      "text": "Daniss Jenkins lost ball turnover (Anthony Black steals)"
+    },
+    {
+      "min": 40.47,
+      "home": 96,
+      "away": 76,
+      "period": 4,
+      "scoring": true,
+      "text": "Anthony Black makes 1-foot driving dunk (Jalen Suggs assists)"
+    },
+    {
+      "min": 40.47,
+      "home": 96,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Pistons Full timeout"
+    },
+    {
+      "min": 40.47,
+      "home": 96,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Cade Cunningham enters the game for Duncan Robinson"
+    },
+    {
+      "min": 40.83,
+      "home": 96,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Ausar Thompson bad pass\nturnover (Desmond Bane steals)"
+    },
+    {
+      "min": 41.02,
+      "home": 96,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Suggs misses 28-foot three point pullup jump shot"
+    },
+    {
+      "min": 41.05,
+      "home": 96,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 41.4,
+      "home": 98,
+      "away": 76,
+      "period": 4,
+      "scoring": true,
+      "text": "Ausar Thompson makes 3-foot two point shot (Cade Cunningham assists)"
+    },
+    {
+      "min": 41.83,
+      "home": 98,
+      "away": 79,
+      "period": 4,
+      "scoring": true,
+      "text": "Desmond Bane makes 24-foot three point jumper (Paolo Banchero assists)"
+    },
+    {
+      "min": 42.22,
+      "home": 98,
+      "away": 79,
+      "period": 4,
+      "scoring": false,
+      "text": "Daniss Jenkins steps out of bounds turnover"
+    },
+    {
+      "min": 42.43,
+      "home": 98,
+      "away": 79,
+      "period": 4,
+      "scoring": false,
+      "text": "Desmond Bane misses 27-foot three point jumper"
+    },
+    {
+      "min": 42.45,
+      "home": 98,
+      "away": 79,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 42.57,
+      "home": 98,
+      "away": 79,
+      "period": 4,
+      "scoring": false,
+      "text": "Paolo Banchero shooting foul"
+    },
+    {
+      "min": 42.57,
+      "home": 100,
+      "away": 79,
+      "period": 4,
+      "scoring": true,
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "min": 42.57,
+      "home": 99,
+      "away": 79,
+      "period": 4,
+      "scoring": true,
+      "text": "Cade Cunningham makes free throw 1 of 2"
+    },
+    {
+      "min": 42.75,
+      "home": 100,
+      "away": 82,
+      "period": 4,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes 23-foot three point step back jumpshot (Paolo Banchero assists)"
+    },
+    {
+      "min": 43.07,
+      "home": 100,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Cade Cunningham bad pass\nturnover (Jalen Suggs steals)"
+    },
+    {
+      "min": 43.15,
+      "home": 100,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "Anthony Black makes running layup (Paolo Banchero assists)"
+    },
+    {
+      "min": 43.52,
+      "home": 100,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Daniss Jenkins bad pass\nturnover (Anthony Black steals)"
+    },
+    {
+      "min": 43.58,
+      "home": 100,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Paolo Banchero misses running layup"
+    },
+    {
+      "min": 43.6,
+      "home": 100,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Paolo Banchero offensive rebound"
+    },
+    {
+      "min": 43.63,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Paolo Banchero makes tip shot"
+    },
+    {
+      "min": 43.63,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Pistons Full timeout"
+    },
+    {
+      "min": 43.63,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Duncan Robinson enters the game for Ausar Thompson"
+    },
+    {
+      "min": 43.88,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Suggs personal foul"
+    },
+    {
+      "min": 44.1,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Duren makes alley oop layup (Cade Cunningham assists)"
+    },
+    {
+      "min": 44.35,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Wendell Carter Jr. misses 26-foot three point jumper"
+    },
+    {
+      "min": 44.42,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Duren defensive rebound"
+    },
+    {
+      "min": 44.43,
+      "home": 102,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Desmond Bane personal foul"
+    },
+    {
+      "min": 44.62,
+      "home": 105,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Tobias Harris makes 23-foot three point jumper (Daniss Jenkins assists)"
+    },
+    {
+      "min": 44.62,
+      "home": 105,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Magic Full timeout"
+    },
+    {
+      "min": 44.7,
+      "home": 105,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Cade Cunningham personal foul"
+    },
+    {
+      "min": 44.7,
+      "home": 105,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes free throw 1 of 2"
+    },
+    {
+      "min": 44.7,
+      "home": 105,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes free throw 2 of 2"
+    },
+    {
+      "min": 44.87,
+      "home": 105,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Wendell Carter Jr. blocks Daniss Jenkins's driving layup"
+    },
+    {
+      "min": 44.88,
+      "home": 105,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Pistons offensive team rebound"
+    },
+    {
+      "min": 45.05,
+      "home": 108,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "Duncan Robinson makes 26-foot three point jumper (Cade Cunningham assists)"
+    },
+    {
+      "min": 45.27,
+      "home": 108,
+      "away": 90,
+      "period": 4,
+      "scoring": true,
+      "text": "Anthony Black makes 18-foot pullup jump shot"
+    },
+    {
+      "min": 45.53,
+      "home": 108,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Duncan Robinson bad pass\nturnover (Jalen Suggs steals)"
+    },
+    {
+      "min": 45.55,
+      "home": 108,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Cade Cunningham personal foul"
+    },
+    {
+      "min": 45.55,
+      "home": 108,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Black misses free throw 1 of 2"
+    },
+    {
+      "min": 45.55,
+      "home": 108,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 45.55,
+      "home": 108,
+      "away": 90,
+      "period": 4,
+      "scoring": false,
+      "text": "Ausar Thompson enters the game for Duncan Robinson"
+    },
+    {
+      "min": 45.55,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Anthony Black makes free throw 2 of 2"
+    },
+    {
+      "min": 45.57,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Suggs personal foul"
+    },
+    {
+      "min": 45.9,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Duren makes 4-foot alley oop dunk (Tobias Harris assists)"
+    },
+    {
+      "min": 46.13,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Black misses driving layup"
+    },
+    {
+      "min": 46.15,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Wendell Carter Jr. offensive rebound"
+    },
+    {
+      "min": 46.18,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Cade Cunningham shooting foul"
+    },
+    {
+      "min": 46.18,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Wendell Carter Jr. misses free throw 1 of 2"
+    },
+    {
+      "min": 46.18,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Magic offensive team rebound"
+    },
+    {
+      "min": 46.18,
+      "home": 110,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Duncan Robinson enters the game for Ausar Thompson"
+    },
+    {
+      "min": 46.18,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Wendell Carter Jr. makes free throw 2 of 2"
+    },
+    {
+      "min": 46.45,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Wendell Carter Jr. personal foul"
+    },
+    {
+      "min": 46.45,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Magic Full timeout"
+    },
+    {
+      "min": 46.45,
+      "home": 111,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Duren makes free throw 1 of 2"
+    },
+    {
+      "min": 46.45,
+      "home": 111,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Javonte Green enters the game for Cade Cunningham"
+    },
+    {
+      "min": 46.45,
+      "home": 112,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Duren makes free throw 2 of 2"
+    },
+    {
+      "min": 46.55,
+      "home": 112,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Black misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 46.62,
+      "home": 112,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Tobias Harris defensive rebound"
+    },
+    {
+      "min": 46.78,
+      "home": 112,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Anthony Black shooting foul"
+    },
+    {
+      "min": 46.78,
+      "home": 113,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Daniss Jenkins makes free throw 1 of 2"
+    },
+    {
+      "min": 46.78,
+      "home": 113,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Tolu Smith enters the game for Duncan Robinson"
+    },
+    {
+      "min": 46.78,
+      "home": 113,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Ronald Holland II enters the game for Tobias Harris"
+    },
+    {
+      "min": 46.78,
+      "home": 113,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Sasser enters the game for Jalen Duren"
+    },
+    {
+      "min": 46.78,
+      "home": 114,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Daniss Jenkins makes free throw 2 of 2"
+    },
+    {
+      "min": 46.95,
+      "home": 114,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Javonte Green shooting foul"
+    },
+    {
+      "min": 46.95,
+      "home": 114,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Paolo Banchero makes free throw 1 of 2"
+    },
+    {
+      "min": 46.95,
+      "home": 114,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Chaz Lanier enters the game for Daniss Jenkins"
+    },
+    {
+      "min": 46.95,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Paolo Banchero makes free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 116,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Chaz Lanier makes 12-foot driving floating jump shot (Marcus Sasser assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 116,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 48.0,
+      "home": 116,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 116,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 29,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ORL",
+      "text": "Jamal Cain misses driving layup"
+    },
+    {
+      "x": 29,
+      "y": 3,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "ORL",
+      "text": "Ausar Thompson blocks Paolo Banchero 's 5-foot running layup"
+    },
+    {
+      "x": 25,
+      "y": 17,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "DET",
+      "text": "Jalen Duren makes two point shot"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Jamal Cain misses 23-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 28,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses 27-foot running jump shot"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. misses 26-foot three point jumper"
+    },
+    {
+      "x": 29,
+      "y": 10,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris misses 10-foot turnaround jump shot"
+    },
+    {
+      "x": 39,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 27-foot three point jumper (Jamal Cain assists)"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham makes 27-foot three point jumper (Jalen Duren assists)"
+    },
+    {
+      "x": 37,
+      "y": 10,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 15-foot turnaround jump shot (Jalen Suggs assists)"
+    },
+    {
+      "x": 31,
+      "y": 6,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "ORL",
+      "text": "Ausar Thompson blocks Paolo Banchero 's 8-foot turnaround jump shot"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson makes 23-foot three point jumper (Ausar Thompson assists)"
+    },
+    {
+      "x": 28,
+      "y": 3,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "ORL",
+      "text": "Cade Cunningham blocks Desmond Bane 's 3-foot layup"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "DET",
+      "text": "Jalen Duren makes 3-foot alley oop dunk (Cade Cunningham assists)"
+    },
+    {
+      "x": 44,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Anthony Black misses 25-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris misses 10-foot pullup jump shot"
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Desmond Bane misses running pullup jump shot"
+    },
+    {
+      "x": 27,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 26-foot three point jumper (Desmond Bane assists)"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses 27-foot three point jumper"
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 26-foot running pullup jump shot"
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "DET",
+      "text": "Daniss Jenkins misses 15-foot step back jumpshot"
+    },
+    {
+      "x": 32,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs makes 8-foot two point shot (Paolo Banchero assists)"
+    },
+    {
+      "x": 20,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "DET",
+      "text": "Ausar Thompson makes 4-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "DET",
+      "text": "Ausar Thompson misses free throw 1 of 1"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "ORL",
+      "text": "Desmond Bane misses 23-foot three point step back jumpshot"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 3-foot running dunk (Daniss Jenkins assists)"
+    },
+    {
+      "x": 31,
+      "y": 3,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ORL",
+      "text": "Daniss Jenkins blocks Anthony Black 's 7-foot driving floating jump shot"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses 24-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Jalen Duren misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Jalen Duren makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Desmond Bane makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Desmond Bane makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 27,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Daniss Jenkins makes 26-foot three point jumper (Cade Cunningham assists)"
+    },
+    {
+      "x": 38,
+      "y": 13,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Jamal Cain makes 18-foot pullup jump shot (Anthony Black assists)"
+    },
+    {
+      "x": 49,
+      "y": 3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Moritz Wagner makes 24-foot three point jumper (Jevon Carter assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 8,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "DET",
+      "text": "Jalen Suggs blocks Isaiah Stewart 's 7-foot layup"
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "made": true,
+      "type": "Running Alley Oop Dunk Shot",
+      "team": "ORL",
+      "text": "Anthony Black makes 5-foot dunk (Jalen Suggs assists)"
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham misses 15-foot pullup jump shot"
+    },
+    {
+      "x": 29,
+      "y": 1,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "ORL",
+      "text": "Moritz Wagner misses layup"
+    },
+    {
+      "x": 28,
+      "y": 0,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "DET",
+      "text": "Jamal Cain blocks Duncan Robinson 's 2-foot running layup"
+    },
+    {
+      "x": 48,
+      "y": 11,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "ORL",
+      "text": "Anthony Black misses 25-foot running jump shot"
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses 27-foot running jump shot"
+    },
+    {
+      "x": 1,
+      "y": 13,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Javonte Green misses 27-foot three point jumper"
+    },
+    {
+      "x": 19,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "DET",
+      "text": "Jalen Suggs blocks Cade Cunningham 's 6-foot driving layup"
+    },
+    {
+      "x": 30,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses driving layup"
+    },
+    {
+      "x": 16,
+      "y": 64,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses heave jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "DET",
+      "text": "Ausar Thompson makes 3-foot dunk (Cade Cunningham assists)"
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "DET",
+      "text": "Javonte Green misses 26-foot running jump shot"
+    },
+    {
+      "x": 29,
+      "y": 3,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 5-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "ORL",
+      "text": "Paolo Banchero makes free throw 1 of 1"
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham makes 27-foot three pointer (Duncan Robinson assists)"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "DET",
+      "text": "Ausar Thompson makes 2-foot running dunk"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes 4-foot layup (Paolo Banchero assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "x": 43,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs misses 26-foot three point jumper"
+    },
+    {
+      "x": 29,
+      "y": 6,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 6-foot driving floating jump shot (Cade Cunningham assists)"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Desmond Bane makes 26-foot three point jumper (Jalen Suggs assists)"
+    },
+    {
+      "x": 30,
+      "y": 8,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "DET",
+      "text": "Desmond Bane blocks Cade Cunningham 's 9-foot turnaround jump shot"
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 9-foot turnaround jump shot"
+    },
+    {
+      "x": 27,
+      "y": 3,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "DET",
+      "text": "Jalen Duren misses 3-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "DET",
+      "text": "Ausar Thompson misses tip shot"
+    },
+    {
+      "x": 33,
+      "y": 26,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 26-foot three pointer"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "ORL",
+      "text": "Jamal Cain misses free throw 1 of 1"
+    },
+    {
+      "x": 7,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham misses 29-foot three point jumper"
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 10-foot pullup jump shot (Cade Cunningham assists)"
+    },
+    {
+      "x": 26,
+      "y": 6,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "DET",
+      "text": "Jalen Duren makes 5-foot dunk (Daniss Jenkins assists)"
+    },
+    {
+      "x": 8,
+      "y": 22,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham makes 27-foot running pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Anthony Black makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Anthony Black makes free throw 2 of 2"
+    },
+    {
+      "x": 20,
+      "y": 28,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses 27-foot three point jumper"
+    },
+    {
+      "x": 7,
+      "y": 19,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": false,
+      "type": "Turnaround Hook Shot",
+      "team": "ORL",
+      "text": "Tobias Harris blocks Moritz Wagner 's 2-foot two point shot"
+    },
+    {
+      "x": 31,
+      "y": 10,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham misses 11-foot two point shot"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Anthony Black misses 23-foot three point jumper"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "ORL",
+      "text": "Jevon Carter misses 13-foot fade away jump shot"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Jamal Cain makes 26-foot three point jumper (Desmond Bane assists)"
+    },
+    {
+      "x": 20,
+      "y": 1,
+      "made": false,
+      "type": "Finger Roll Layup",
+      "team": "DET",
+      "text": "Paul Reed misses finger roll layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Tobias Harris makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Tobias Harris makes free throw 2 of 2"
+    },
+    {
+      "x": 41,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Desmond Bane makes 28-foot three point jumper (Paolo Banchero assists)"
+    },
+    {
+      "x": 15,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris misses 27-foot three point jumper"
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Daniss Jenkins makes 26-foot three point jumper (Duncan Robinson assists)"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs misses driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "x": 16,
+      "y": -1,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 9-foot fade away jump shot"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 26-foot three point jumper (Cade Cunningham assists)"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes driving layup (Cade Cunningham assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "DET",
+      "text": "Tobias Harris makes free throw 1 of 1"
+    },
+    {
+      "x": 45,
+      "y": 22,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses 28-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes free throw 1 of 2"
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 12-foot pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs misses driving floating jump shot"
+    },
+    {
+      "x": 29,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ORL",
+      "text": "Jamal Cain misses driving floating jump shot"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 23-foot running jump shot (Cade Cunningham assists)"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ORL",
+      "text": "Anthony Black misses driving layup"
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson makes 9-foot two point shot"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes driving layup"
+    },
+    {
+      "x": 41,
+      "y": 22,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Jalen Duren makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Jalen Duren makes free throw 2 of 2"
+    },
+    {
+      "x": 5,
+      "y": 45,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs misses heave jump shot"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "DET",
+      "text": "Cade Cunningham makes 3-foot layup (Jalen Duren assists)"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses 26-foot running jump shot"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "DET",
+      "text": "Duncan Robinson makes 3-foot driving dunk"
+    },
+    {
+      "x": 30,
+      "y": 14,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes 14-foot jumper (Desmond Bane assists)"
+    },
+    {
+      "x": 27,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris misses 10-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 5,
+      "made": false,
+      "type": "Hook Shot",
+      "team": "DET",
+      "text": "Jalen Duren misses 5-foot hook shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "DET",
+      "text": "Tobias Harris misses tip shot"
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. misses 15-foot jumper"
+    },
+    {
+      "x": 19,
+      "y": 12,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham misses 13-foot pullup jump shot"
+    },
+    {
+      "x": 45,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham misses 27-foot three point jumper"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 30,
+      "y": 3,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "DET",
+      "text": "Paolo Banchero blocks Jalen Duren 's 5-foot running layup"
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson misses 24-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "DET",
+      "text": "Jamal Cain blocks Jalen Duren 's 1-foot two point shot"
+    },
+    {
+      "x": 34,
+      "y": 12,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris misses 14-foot fade away jump shot"
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses 10-foot pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 3,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "DET",
+      "text": "Cade Cunningham makes 3-foot running dunk"
+    },
+    {
+      "x": 19,
+      "y": 0,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "ORL",
+      "text": "Cade Cunningham blocks Jalen Suggs 's 6-foot layup"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 23-foot three point jumper (Ausar Thompson assists)"
+    },
+    {
+      "x": 7,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs misses 29-foot three point jumper"
+    },
+    {
+      "x": 29,
+      "y": 6,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham makes 7-foot driving floating jump shot (Tobias Harris assists)"
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. misses 27-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": -1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses driving layup"
+    },
+    {
+      "x": 39,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Jevon Carter misses 26-foot three point jumper"
+    },
+    {
+      "x": 21,
+      "y": -1,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "ORL",
+      "text": "Paolo Banchero makes two point shot"
+    },
+    {
+      "x": 19,
+      "y": 27,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Daniss Jenkins misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "ORL",
+      "text": "Desmond Bane makes 7-foot driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Paolo Banchero makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Paolo Banchero misses free throw 2 of 2"
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 8-foot two point shot"
+    },
+    {
+      "x": 40,
+      "y": 0,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Daniss Jenkins makes 14-foot pullup jump shot (Ausar Thompson assists)"
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses 13-foot jumper"
+    },
+    {
+      "x": 26,
+      "y": 10,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham makes 9-foot pullup jump shot"
+    },
+    {
+      "x": 43,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Tristan da Silva misses 27-foot three point jumper"
+    },
+    {
+      "x": 33,
+      "y": 27,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Cade Cunningham makes 27-foot three pointer (Ausar Thompson assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - Technical",
+      "team": "ORL",
+      "text": "Paolo Banchero misses technical free throw"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "made": true,
+      "type": "Fade Away Bank Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes 12-foot two point shot"
+    },
+    {
+      "x": 35,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Anthony Black misses 13-foot pullup jump shot"
+    },
+    {
+      "x": 15,
+      "y": -1,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 10-foot turnaround jump shot (Daniss Jenkins assists)"
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses 18-foot jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Paolo Banchero makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Paolo Banchero makes free throw 2 of 2"
+    },
+    {
+      "x": 18,
+      "y": 0,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "ORL",
+      "text": "Desmond Bane misses two point shot"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "made": false,
+      "type": "Alley Oop Layup Shot",
+      "team": "DET",
+      "text": "Isaiah Stewart misses alley oop layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Moritz Wagner makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Moritz Wagner makes free throw 2 of 2"
+    },
+    {
+      "x": 33,
+      "y": 26,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Daniss Jenkins makes 27-foot three pointer"
+    },
+    {
+      "x": 49,
+      "y": 3,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Javonte Green misses 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 11,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs makes 11-foot driving floating jump shot (Wendell Carter Jr. assists)"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "DET",
+      "text": "Cade Cunningham makes 4-foot two point shot"
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Jamal Cain misses 28-foot three point jumper"
+    },
+    {
+      "x": 49,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Javonte Green makes 24-foot three point jumper (Duncan Robinson assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Jalen Suggs makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Jalen Suggs makes free throw 2 of 2"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "DET",
+      "text": "Javonte Green misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 49,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Daniss Jenkins makes 23-foot three point jumper (Cade Cunningham assists)"
+    },
+    {
+      "x": 31,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "ORL",
+      "text": "Desmond Bane makes 6-foot two point shot (Wendell Carter Jr. assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "ORL",
+      "text": "Desmond Bane misses free throw 1 of 1"
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "DET",
+      "text": "Cade Cunningham makes 5-foot two point shot (Jalen Duren assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Desmond Bane misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Desmond Bane makes free throw 2 of 2"
+    },
+    {
+      "x": 16,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 27-foot three point jumper (Daniss Jenkins assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes running layup"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "ORL",
+      "text": "Anthony Black makes 1-foot driving dunk (Jalen Suggs assists)"
+    },
+    {
+      "x": 5,
+      "y": 21,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Jalen Suggs misses 28-foot three point pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "DET",
+      "text": "Ausar Thompson makes 3-foot two point shot (Cade Cunningham assists)"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Desmond Bane makes 24-foot three point jumper (Paolo Banchero assists)"
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Desmond Bane misses 27-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Cade Cunningham makes free throw 1 of 2"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes 23-foot three point step back jumpshot (Paolo Banchero assists)"
+    },
+    {
+      "x": 29,
+      "y": 0,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "ORL",
+      "text": "Anthony Black makes running layup (Paolo Banchero assists)"
+    },
+    {
+      "x": 31,
+      "y": 4,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero misses running layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "ORL",
+      "text": "Paolo Banchero makes tip shot"
+    },
+    {
+      "x": 26,
+      "y": 6,
+      "made": true,
+      "type": "Alley Oop Layup Shot",
+      "team": "DET",
+      "text": "Jalen Duren makes alley oop layup (Cade Cunningham assists)"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. misses 26-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Tobias Harris makes 23-foot three point jumper (Daniss Jenkins assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes free throw 2 of 2"
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "DET",
+      "text": "Wendell Carter Jr. blocks Daniss Jenkins's driving layup"
+    },
+    {
+      "x": 10,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "DET",
+      "text": "Duncan Robinson makes 26-foot three point jumper (Cade Cunningham assists)"
+    },
+    {
+      "x": 32,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Anthony Black makes 18-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Anthony Black misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Anthony Black makes free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "DET",
+      "text": "Jalen Duren makes 4-foot alley oop dunk (Tobias Harris assists)"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ORL",
+      "text": "Anthony Black misses driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Wendell Carter Jr. makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Jalen Duren makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Jalen Duren makes free throw 2 of 2"
+    },
+    {
+      "x": 18,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ORL",
+      "text": "Anthony Black misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "DET",
+      "text": "Daniss Jenkins makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "DET",
+      "text": "Daniss Jenkins makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ORL",
+      "text": "Paolo Banchero makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ORL",
+      "text": "Paolo Banchero makes free throw 2 of 2"
+    },
+    {
+      "x": 38,
+      "y": 2,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "DET",
+      "text": "Chaz Lanier makes 12-foot driving floating jump shot (Marcus Sasser assists)"
+    }
+  ],
+  "shot_zones": {
+    "DET": {
+      "at_rim": {
+        "fgm": 7,
+        "fga": 12,
+        "pct": 58
+      },
+      "paint": {
+        "fgm": 17,
+        "fga": 30,
+        "pct": 57
+      },
+      "mid": {
+        "fgm": 19,
+        "fga": 23,
+        "pct": 83
+      },
+      "corner_3": {
+        "fgm": 6,
+        "fga": 12,
+        "pct": 50
+      },
+      "arc_3": {
+        "fgm": 10,
+        "fga": 26,
+        "pct": 38
+      }
+    },
+    "ORL": {
+      "at_rim": {
+        "fgm": 2,
+        "fga": 5,
+        "pct": 40
+      },
+      "paint": {
+        "fgm": 15,
+        "fga": 33,
+        "pct": 45
+      },
+      "mid": {
+        "fgm": 26,
+        "fga": 29,
+        "pct": 90
+      },
+      "corner_3": {
+        "fgm": 3,
+        "fga": 14,
+        "pct": 21
+      },
+      "arc_3": {
+        "fgm": 7,
+        "fga": 25,
+        "pct": 28
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

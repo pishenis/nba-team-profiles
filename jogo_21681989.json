@@ -1,0 +1,7092 @@
+{
+  "game_id": "21681989",
+  "date": "2026-04-28",
+  "home": "SAS",
+  "away": "POR",
+  "home_pts": 114,
+  "away_pts": 95,
+  "winner": "SAS",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "SAS": [
+        36,
+        29,
+        21,
+        28
+      ],
+      "POR": [
+        24,
+        21,
+        20,
+        30
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "47:27",
+    "time_leading_away_fmt": "0:00",
+    "time_tied_fmt": "0:33",
+    "lead_changes": 0,
+    "ties": 1,
+    "best_run_home": {
+      "pts_home": 18,
+      "pts_away": 4,
+      "start_min": 12.25,
+      "end_min": 17.25
+    },
+    "best_run_away": {
+      "pts_away": 20,
+      "pts_home": 9,
+      "start_min": 37.48,
+      "end_min": 42.23
+    },
+    "max_consec_home": 11,
+    "max_consec_away": 11
+  },
+  "four_factors": {
+    "SAS": {
+      "efg": 0.627,
+      "tov": 0.132,
+      "oreb": 0,
+      "ftr": 0.418,
+      "opp_efg": 0.358,
+      "opp_tov": 0.072,
+      "opp_oreb": 0.333,
+      "opp_ftr": 0.313
+    },
+    "POR": {
+      "efg": 0.412,
+      "tov": 0.091,
+      "oreb": 0.027,
+      "ftr": 0.404,
+      "opp_efg": 0.644,
+      "opp_tov": 0.135,
+      "opp_oreb": 0.286,
+      "opp_ftr": 0.519
+    }
+  },
+  "misc": {
+    "SAS": {
+      "pts_paint": 44,
+      "pts_fb": 16,
+      "pts_2nd_chance": 9,
+      "pts_off_tov": 13
+    },
+    "POR": {
+      "pts_paint": 38,
+      "pts_fb": 12,
+      "pts_2nd_chance": 19,
+      "pts_off_tov": 13
+    }
+  },
+  "hustle": {
+    "SAS": {
+      "deflections": 16,
+      "charges_drawn": 0,
+      "contested_shots": 39,
+      "contested_2pt": 21,
+      "contested_3pt": 18,
+      "loose_balls_recovered": 3,
+      "screen_assists": 16
+    },
+    "POR": {
+      "deflections": 17,
+      "charges_drawn": 1,
+      "contested_shots": 39,
+      "contested_2pt": 25,
+      "contested_3pt": 14,
+      "loose_balls_recovered": 4,
+      "screen_assists": 8
+    }
+  },
+  "box_score": {
+    "SAS": [
+      {
+        "name": "D. Vassell",
+        "minutes": "34",
+        "pos": "G",
+        "starter": true,
+        "pts": 10,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 11,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": 22,
+        "off_rating": 132.3,
+        "def_rating": 95.5,
+        "ts_pct": 0.421,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "13:58",
+        "mu_fga": 10,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 12,
+        "mu_ast": 2
+      },
+      {
+        "name": "J. Champagnie",
+        "minutes": "30",
+        "pos": "F",
+        "starter": true,
+        "pts": 19,
+        "reb": 7,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 6,
+        "fga": 9,
+        "fg3m": 5,
+        "fg3a": 7,
+        "ftm": 2,
+        "fta": 3,
+        "pf": 2,
+        "plus_minus": 10,
+        "off_rating": 125,
+        "def_rating": 108.3,
+        "ts_pct": 0.921,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "12:01",
+        "mu_fga": 11,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.455,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 11,
+        "mu_ast": 3
+      },
+      {
+        "name": "V. Wembanyama",
+        "minutes": "34",
+        "pos": "F",
+        "starter": true,
+        "pts": 17,
+        "reb": 14,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 0,
+        "blk": 6,
+        "tov": 1,
+        "fgm": 5,
+        "fga": 7,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 6,
+        "fta": 6,
+        "pf": 3,
+        "plus_minus": 20,
+        "off_rating": 123.2,
+        "def_rating": 95.6,
+        "ts_pct": 0.882,
+        "deflections": 7,
+        "charges_drawn": 0,
+        "contested_shots": 13,
+        "mu_min": "13:27",
+        "mu_fga": 18,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.389,
+        "mu_3pa": 9,
+        "mu_3pm": 3,
+        "mu_pts": 18,
+        "mu_ast": 5
+      },
+      {
+        "name": "D. Fox",
+        "minutes": "34",
+        "pos": "G",
+        "starter": true,
+        "pts": 21,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 9,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 8,
+        "fga": 14,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 3,
+        "fta": 4,
+        "pf": 4,
+        "plus_minus": 26,
+        "off_rating": 139.7,
+        "def_rating": 101.5,
+        "ts_pct": 0.666,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "13:47",
+        "mu_fga": 16,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.25,
+        "mu_3pa": 7,
+        "mu_3pm": 2,
+        "mu_pts": 12,
+        "mu_ast": 6
+      },
+      {
+        "name": "S. Castle",
+        "minutes": "33",
+        "pos": "G",
+        "starter": true,
+        "pts": 15,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 5,
+        "stl": 0,
+        "blk": 1,
+        "tov": 7,
+        "fgm": 6,
+        "fga": 11,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 6,
+        "plus_minus": 12,
+        "off_rating": 123.8,
+        "def_rating": 100,
+        "ts_pct": 0.631,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "13:40",
+        "mu_fga": 12,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 7,
+        "mu_3pm": 2,
+        "mu_pts": 11,
+        "mu_ast": 4
+      },
+      {
+        "name": "H. Barnes",
+        "minutes": "13",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 1,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 1,
+        "plus_minus": 0,
+        "off_rating": 100,
+        "def_rating": 96.4,
+        "ts_pct": 0.387,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "5:40",
+        "mu_fga": 2,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 1
+      },
+      {
+        "name": "B. Biyombo",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:13",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "C. Bryant",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:13",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "D. Harper",
+        "minutes": "26",
+        "pos": "",
+        "starter": false,
+        "pts": 17,
+        "reb": 3,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 3,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 9,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 4,
+        "fta": 5,
+        "pf": 2,
+        "plus_minus": 4,
+        "off_rating": 113.7,
+        "def_rating": 108,
+        "ts_pct": 0.759,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "10:13",
+        "mu_fga": 11,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.455,
+        "mu_3pa": 6,
+        "mu_3pm": 2,
+        "mu_pts": 14,
+        "mu_ast": 1
+      },
+      {
+        "name": "K. Johnson",
+        "minutes": "18",
+        "pos": "",
+        "starter": false,
+        "pts": 7,
+        "reb": 5,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 8,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 2,
+        "pf": 1,
+        "plus_minus": 2,
+        "off_rating": 102.8,
+        "def_rating": 97.2,
+        "ts_pct": 0.394,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "7:31",
+        "mu_fga": 6,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 1
+      },
+      {
+        "name": "L. Kornet",
+        "minutes": "13",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 3,
+        "plus_minus": -1,
+        "off_rating": 120.8,
+        "def_rating": 115.4,
+        "ts_pct": 1.025,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "5:45",
+        "mu_fga": 9,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.222,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 7,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. McLaughlin",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:13",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "K. Olynyk",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 2,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:13",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Plumlee",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "L. Waters III",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:13",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      }
+    ],
+    "POR": [
+      {
+        "name": "D. Avdija",
+        "minutes": "32",
+        "pos": "F",
+        "starter": true,
+        "pts": 22,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 0,
+        "blk": 1,
+        "tov": 4,
+        "fgm": 7,
+        "fga": 15,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 7,
+        "fta": 11,
+        "pf": 4,
+        "plus_minus": -20,
+        "off_rating": 101.6,
+        "def_rating": 132.8,
+        "ts_pct": 0.554,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "13:07",
+        "mu_fga": 11,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.455,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 3
+      },
+      {
+        "name": "T. Camara",
+        "minutes": "33",
+        "pos": "F",
+        "starter": true,
+        "pts": 7,
+        "reb": 8,
+        "oreb": 3,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 10,
+        "fg3m": 1,
+        "fg3a": 7,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": -22,
+        "off_rating": 98.5,
+        "def_rating": 135.9,
+        "ts_pct": 0.322,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "14:04",
+        "mu_fga": 8,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.875,
+        "mu_3pa": 3,
+        "mu_3pm": 2,
+        "mu_pts": 16,
+        "mu_ast": 2
+      },
+      {
+        "name": "D. Clingan",
+        "minutes": "27",
+        "pos": "C",
+        "starter": true,
+        "pts": 10,
+        "reb": 5,
+        "oreb": 3,
+        "ast": 6,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 4,
+        "fga": 11,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": -9,
+        "off_rating": 119.2,
+        "def_rating": 131.5,
+        "ts_pct": 0.455,
+        "deflections": 3,
+        "charges_drawn": 1,
+        "contested_shots": 6,
+        "mu_min": "10:30",
+        "mu_fga": 13,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.692,
+        "mu_3pa": 4,
+        "mu_3pm": 2,
+        "mu_pts": 21,
+        "mu_ast": 7
+      },
+      {
+        "name": "J. Holiday",
+        "minutes": "40",
+        "pos": "G",
+        "starter": true,
+        "pts": 8,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 7,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 14,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 3,
+        "plus_minus": -22,
+        "off_rating": 98.7,
+        "def_rating": 128.9,
+        "ts_pct": 0.277,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "15:27",
+        "mu_fga": 16,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.438,
+        "mu_3pa": 5,
+        "mu_3pm": 2,
+        "mu_pts": 18,
+        "mu_ast": 3
+      },
+      {
+        "name": "S. Henderson",
+        "minutes": "17",
+        "pos": "G",
+        "starter": true,
+        "pts": 5,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -19,
+        "off_rating": 85.3,
+        "def_rating": 145.5,
+        "ts_pct": 0.417,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "6:23",
+        "mu_fga": 6,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 7,
+        "mu_ast": 5
+      },
+      {
+        "name": "S. Cissoko",
+        "minutes": "20",
+        "pos": "",
+        "starter": false,
+        "pts": 11,
+        "reb": 4,
+        "oreb": 2,
+        "ast": 0,
+        "stl": 3,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 6,
+        "fg3m": 2,
+        "fg3a": 3,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 4,
+        "plus_minus": 9,
+        "off_rating": 104.8,
+        "def_rating": 87.5,
+        "ts_pct": 0.854,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "7:07",
+        "mu_fga": 4,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 7,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Grant",
+        "minutes": "17",
+        "pos": "",
+        "starter": false,
+        "pts": 12,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 7,
+        "fta": 8,
+        "pf": 3,
+        "plus_minus": 3,
+        "off_rating": 111.4,
+        "def_rating": 109.1,
+        "ts_pct": 0.63,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "7:30",
+        "mu_fga": 8,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 12,
+        "mu_ast": 0
+      },
+      {
+        "name": "H. Yang",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:17",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "V. Krejci",
+        "minutes": "13",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 1,
+        "off_rating": 100,
+        "def_rating": 103.7,
+        "ts_pct": 0.333,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "5:40",
+        "mu_fga": 3,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 0
+      },
+      {
+        "name": "K. Murray",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:17",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "S. Sharpe",
+        "minutes": "06",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -7,
+        "off_rating": 81.8,
+        "def_rating": 145.5,
+        "ts_pct": 0.5,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "1:60",
+        "mu_fga": 1,
+        "mu_fgm": 1,
+        "mu_fg_pct": 1,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 3,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Thybulle",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 2,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -5,
+        "off_rating": 87.5,
+        "def_rating": 103.1,
+        "ts_pct": 0.167,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "5:56",
+        "mu_fga": 5,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 5,
+        "mu_ast": 1
+      },
+      {
+        "name": "B. Wesley",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:17",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "R. Williams III",
+        "minutes": "17",
+        "pos": "",
+        "starter": false,
+        "pts": 11,
+        "reb": 7,
+        "oreb": 3,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 10,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -4,
+        "off_rating": 82.9,
+        "def_rating": 97.1,
+        "ts_pct": 0.55,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "6:36",
+        "mu_fga": 5,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 8,
+        "mu_ast": 3
+      },
+      {
+        "name": "D. Lillard",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Clingan vs. Victor Wembanyama (De'Aaron Fox gains possession)"
+    },
+    {
+      "min": 0.33,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Vassell makes 16-foot pullup jump shot"
+    },
+    {
+      "min": 0.7,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jrue Holiday misses layup"
+    },
+    {
+      "min": 0.73,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 0.78,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie misses 25-foot running jump shot"
+    },
+    {
+      "min": 0.83,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jrue Holiday defensive rebound"
+    },
+    {
+      "min": 0.93,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Toumani Camara misses 23-foot three point jumper"
+    },
+    {
+      "min": 0.97,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 0.97,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Scoot Henderson vs. De'Aaron Fox (Donovan Clingan gains possession)"
+    },
+    {
+      "min": 1.13,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Deni Avdija makes layup (Donovan Clingan assists)"
+    },
+    {
+      "min": 1.35,
+      "home": 4,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 1-foot dunk"
+    },
+    {
+      "min": 1.53,
+      "home": 4,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 1.53,
+      "home": 4,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Clingan misses alley oop layup"
+    },
+    {
+      "min": 1.62,
+      "home": 7,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 26-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "min": 1.9,
+      "home": 7,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie personal foul"
+    },
+    {
+      "min": 2.05,
+      "home": 7,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Deni Avdija misses 25-foot three point jumper"
+    },
+    {
+      "min": 2.12,
+      "home": 7,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Scoot Henderson offensive rebound"
+    },
+    {
+      "min": 2.13,
+      "home": 7,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 2.13,
+      "home": 7,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Scoot Henderson misses 15-foot jumper"
+    },
+    {
+      "min": 2.13,
+      "home": 7,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Clingan loose ball foul"
+    },
+    {
+      "min": 2.38,
+      "home": 10,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 25-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 2.77,
+      "home": 10,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Toumani Camara 's 2-foot driving layup"
+    },
+    {
+      "min": 2.8,
+      "home": 10,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 2.9,
+      "home": 12,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes driving layup (De'Aaron Fox assists)"
+    },
+    {
+      "min": 2.9,
+      "home": 12,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Trail Blazers Full timeout"
+    },
+    {
+      "min": 3.17,
+      "home": 12,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Deni Avdija makes driving layup (Donovan Clingan assists)"
+    },
+    {
+      "min": 3.5,
+      "home": 15,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 23-foot three pointer (Julian Champagnie assists)"
+    },
+    {
+      "min": 3.73,
+      "home": 15,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Toumani Camara misses 24-foot three point jumper"
+    },
+    {
+      "min": 3.78,
+      "home": 15,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 3.9,
+      "home": 17,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 19-foot running pullup jump shot (Devin Vassell assists)"
+    },
+    {
+      "min": 4.12,
+      "home": 17,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox personal foul"
+    },
+    {
+      "min": 4.23,
+      "home": 17,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Jrue Holiday misses 11-foot two point shot"
+    },
+    {
+      "min": 4.27,
+      "home": 17,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Clingan offensive rebound"
+    },
+    {
+      "min": 4.27,
+      "home": 17,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "Donovan Clingan makes two point shot"
+    },
+    {
+      "min": 4.55,
+      "home": 17,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 25-foot three point jumper"
+    },
+    {
+      "min": 4.6,
+      "home": 17,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Deni Avdija defensive rebound"
+    },
+    {
+      "min": 4.67,
+      "home": 17,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "Deni Avdija makes two point shot"
+    },
+    {
+      "min": 4.83,
+      "home": 17,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Jrue Holiday shooting foul"
+    },
+    {
+      "min": 4.83,
+      "home": 19,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "(07:10) [Trail Blazers] COACH'S CHALLENGE (CALL REPLAYCENTER)"
+    },
+    {
+      "min": 4.83,
+      "home": 18,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "min": 4.83,
+      "home": 18,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Jerami Grant enters the game for Jrue Holiday"
+    },
+    {
+      "min": 4.83,
+      "home": 18,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 4.83,
+      "home": 19,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 2 of 2"
+    },
+    {
+      "min": 5.0,
+      "home": 19,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Clingan misses 25-foot three point jumper"
+    },
+    {
+      "min": 5.02,
+      "home": 19,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Toumani Camara offensive rebound"
+    },
+    {
+      "min": 5.02,
+      "home": 19,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Toumani Camara makes tip shot"
+    },
+    {
+      "min": 5.28,
+      "home": 19,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 5.32,
+      "home": 19,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Scoot Henderson defensive rebound"
+    },
+    {
+      "min": 5.38,
+      "home": 19,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Scoot Henderson makes 25-foot running pullup jump shot"
+    },
+    {
+      "min": 5.72,
+      "home": 21,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes 8-foot pullup jump shot (Luke Kornet assists)"
+    },
+    {
+      "min": 5.95,
+      "home": 21,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Scoot Henderson misses 13-foot fade away jump shot"
+    },
+    {
+      "min": 5.98,
+      "home": 21,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 6.1,
+      "home": 23,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes running layup (Julian Champagnie assists)"
+    },
+    {
+      "min": 6.35,
+      "home": 23,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Jerami Grant makes 11-foot pullup jump shot (Toumani Camara assists)"
+    },
+    {
+      "min": 6.57,
+      "home": 26,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 25-foot three point jumper (Luke Kornet assists)"
+    },
+    {
+      "min": 6.78,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Deni Avdija makes 1-foot two point shot"
+    },
+    {
+      "min": 7.18,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Deni Avdija blocks De'Aaron Fox 's 8-foot layup"
+    },
+    {
+      "min": 7.2,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 7.2,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Matisse Thybulle enters the game for Scoot Henderson"
+    },
+    {
+      "min": 7.2,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for Julian Champagnie"
+    },
+    {
+      "min": 7.2,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Robert Williams III enters the game for Donovan Clingan"
+    },
+    {
+      "min": 7.2,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 7.42,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 7.47,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 7.47,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper misses tip shot"
+    },
+    {
+      "min": 7.47,
+      "home": 26,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 7.67,
+      "home": 28,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes 8-foot two point shot"
+    },
+    {
+      "min": 7.88,
+      "home": 28,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson defensive rebound"
+    },
+    {
+      "min": 7.88,
+      "home": 28,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Deni Avdija misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 8.15,
+      "home": 30,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Keldon Johnson makes 1-foot reverse layup"
+    },
+    {
+      "min": 8.15,
+      "home": 30,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Trail Blazers Full timeout"
+    },
+    {
+      "min": 8.15,
+      "home": 30,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Jrue Holiday enters the game for Toumani Camara"
+    },
+    {
+      "min": 8.15,
+      "home": 30,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Sidy Cissoko enters the game for Deni Avdija"
+    },
+    {
+      "min": 8.58,
+      "home": 30,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Sidy Cissoko makes driving layup (Matisse Thybulle assists)"
+    },
+    {
+      "min": 8.75,
+      "home": 30,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Sidy Cissoko personal foul"
+    },
+    {
+      "min": 8.95,
+      "home": 32,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Vassell makes 13-foot pullup jump shot"
+    },
+    {
+      "min": 9.07,
+      "home": 32,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jerami Grant misses driving layup"
+    },
+    {
+      "min": 9.08,
+      "home": 32,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Robert Williams III offensive rebound"
+    },
+    {
+      "min": 9.1,
+      "home": 32,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Robert Williams III makes tip shot"
+    },
+    {
+      "min": 9.38,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Dylan Harper makes 11-foot two point shot"
+    },
+    {
+      "min": 9.55,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jrue Holiday misses 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 9.62,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson defensive rebound"
+    },
+    {
+      "min": 9.73,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses 24-foot three point jumper"
+    },
+    {
+      "min": 9.78,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Robert Williams III defensive rebound"
+    },
+    {
+      "min": 9.98,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Matisse Thybulle misses 24-foot three point jumper"
+    },
+    {
+      "min": 10.05,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Sidy Cissoko offensive rebound"
+    },
+    {
+      "min": 10.13,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jrue Holiday misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 10.18,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 10.25,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle bad pass\nturnover (Matisse Thybulle steals)"
+    },
+    {
+      "min": 10.35,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Matisse Thybulle misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 10.38,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kornet defensive rebound"
+    },
+    {
+      "min": 10.6,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Matisse Thybulle blocks Devin Vassell 's 25-foot three point jumper"
+    },
+    {
+      "min": 10.65,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Matisse Thybulle defensive rebound"
+    },
+    {
+      "min": 10.68,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 10.68,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle blocks Jrue Holiday 's 1-foot running layup"
+    },
+    {
+      "min": 10.68,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Stephon Castle"
+    },
+    {
+      "min": 10.68,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Toumani Camara enters the game for Jerami Grant"
+    },
+    {
+      "min": 10.68,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Devin Vassell"
+    },
+    {
+      "min": 10.68,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Harrison Barnes enters the game for Luke Kornet"
+    },
+    {
+      "min": 10.72,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Matisse Thybulle misses 23-foot three point jumper"
+    },
+    {
+      "min": 10.73,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 10.73,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Harrison Barnes loose ball foul"
+    },
+    {
+      "min": 10.93,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Robert Williams III misses layup"
+    },
+    {
+      "min": 10.95,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Robert Williams III offensive rebound"
+    },
+    {
+      "min": 10.97,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Robert Williams III misses tip shot"
+    },
+    {
+      "min": 10.97,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson out of bounds lost ball turnover"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jrue Holiday bad pass\nturnover (Dylan Harper steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 23-foot running jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 34,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Harrison Barnes offensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 36,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Harrison Barnes makes 8-foot driving floating jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 36,
+      "away": 24,
+      "period": 1,
+      "scoring": true,
+      "text": "Robert Williams III makes 23-foot three point jumper (Jrue Holiday assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 36,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 36,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper misses heave jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 36,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 36,
+      "away": 24,
+      "period": 2,
+      "scoring": false,
+      "text": "Deni Avdija enters the game for Sidy Cissoko"
+    },
+    {
+      "min": 12.25,
+      "home": 36,
+      "away": 26,
+      "period": 2,
+      "scoring": true,
+      "text": "Deni Avdija makes driving layup (Robert Williams III assists)"
+    },
+    {
+      "min": 12.62,
+      "home": 36,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Harrison Barnes misses 22-foot three point jumper"
+    },
+    {
+      "min": 12.68,
+      "home": 36,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Toumani Camara defensive rebound"
+    },
+    {
+      "min": 12.72,
+      "home": 36,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Deni Avdija out of bounds lost ball turnover"
+    },
+    {
+      "min": 12.97,
+      "home": 39,
+      "away": 26,
+      "period": 2,
+      "scoring": true,
+      "text": "Keldon Johnson makes 25-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 13.23,
+      "home": 39,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Toumani Camara misses 23-foot three point jumper"
+    },
+    {
+      "min": 13.28,
+      "home": 39,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 13.42,
+      "home": 41,
+      "away": 26,
+      "period": 2,
+      "scoring": true,
+      "text": "Dylan Harper makes driving dunk"
+    },
+    {
+      "min": 13.62,
+      "home": 41,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Jrue Holiday 's 1-foot driving layup"
+    },
+    {
+      "min": 13.65,
+      "home": 41,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson defensive rebound"
+    },
+    {
+      "min": 13.72,
+      "home": 41,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Toumani Camara personal foul"
+    },
+    {
+      "min": 13.92,
+      "home": 41,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Deni Avdija personal foul"
+    },
+    {
+      "min": 14.07,
+      "home": 43,
+      "away": 26,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 14-foot turnaround jump shot (Dylan Harper assists)"
+    },
+    {
+      "min": 14.08,
+      "home": 43,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Trail Blazers Full timeout"
+    },
+    {
+      "min": 14.08,
+      "home": 43,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Scoot Henderson enters the game for Matisse Thybulle"
+    },
+    {
+      "min": 14.48,
+      "home": 43,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "Robert Williams III misses 22-foot three point jumper"
+    },
+    {
+      "min": 14.53,
+      "home": 43,
+      "away": 26,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 14.58,
+      "home": 45,
+      "away": 26,
+      "period": 2,
+      "scoring": true,
+      "text": "Keldon Johnson makes running layup (De'Aaron Fox assists)"
+    },
+    {
+      "min": 14.78,
+      "home": 45,
+      "away": 28,
+      "period": 2,
+      "scoring": true,
+      "text": "Robert Williams III makes 14-foot jumper (Jrue Holiday assists)"
+    },
+    {
+      "min": 15.1,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": true,
+      "text": "Dylan Harper makes alley oop dunk (Keldon Johnson assists)"
+    },
+    {
+      "min": 15.42,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Scoot Henderson misses 23-foot three point pullup jump shot"
+    },
+    {
+      "min": 15.45,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 15.58,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Robert Williams III shooting foul"
+    },
+    {
+      "min": 15.58,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Harrison Barnes misses free throw 1 of 2"
+    },
+    {
+      "min": 15.58,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 15.58,
+      "home": 48,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 15.58,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Clingan enters the game for Deni Avdija"
+    },
+    {
+      "min": 15.58,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Shaedon Sharpe enters the game for Robert Williams III"
+    },
+    {
+      "min": 15.58,
+      "home": 47,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Keldon Johnson"
+    },
+    {
+      "min": 15.58,
+      "home": 48,
+      "away": 28,
+      "period": 2,
+      "scoring": true,
+      "text": "Harrison Barnes makes free throw 2 of 2"
+    },
+    {
+      "min": 15.97,
+      "home": 48,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Clingan misses 26-foot three point jumper"
+    },
+    {
+      "min": 16.03,
+      "home": 48,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 16.17,
+      "home": 48,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Clingan personal foul"
+    },
+    {
+      "min": 16.4,
+      "home": 48,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 16.55,
+      "home": 48,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Scoot Henderson bad pass\nturnover (Dylan Harper steals)"
+    },
+    {
+      "min": 16.6,
+      "home": 50,
+      "away": 28,
+      "period": 2,
+      "scoring": true,
+      "text": "Dylan Harper makes running dunk (Julian Champagnie assists)"
+    },
+    {
+      "min": 16.6,
+      "home": 50,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Jrue Holiday shooting foul"
+    },
+    {
+      "min": 16.6,
+      "home": 51,
+      "away": 28,
+      "period": 2,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 1 of 1"
+    },
+    {
+      "min": 16.92,
+      "home": 51,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Jrue Holiday misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 16.97,
+      "home": 51,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Clingan offensive rebound"
+    },
+    {
+      "min": 17.0,
+      "home": 51,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Shaedon Sharpe misses 19-foot fade away jump shot"
+    },
+    {
+      "min": 17.08,
+      "home": 51,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 17.25,
+      "home": 54,
+      "away": 28,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 27-foot three pointer"
+    },
+    {
+      "min": 17.27,
+      "home": 54,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Trail Blazers Full timeout"
+    },
+    {
+      "min": 17.27,
+      "home": 54,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Matisse Thybulle enters the game for Scoot Henderson"
+    },
+    {
+      "min": 17.27,
+      "home": 54,
+      "away": 28,
+      "period": 2,
+      "scoring": false,
+      "text": "Sidy Cissoko enters the game for Toumani Camara"
+    },
+    {
+      "min": 17.67,
+      "home": 54,
+      "away": 31,
+      "period": 2,
+      "scoring": true,
+      "text": "Shaedon Sharpe makes 27-foot three point step back jumpshot (Donovan Clingan assists)"
+    },
+    {
+      "min": 18.12,
+      "home": 54,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie misses two point shot"
+    },
+    {
+      "min": 18.15,
+      "home": 54,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Jrue Holiday defensive rebound"
+    },
+    {
+      "min": 18.22,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": true,
+      "text": "Jrue Holiday makes driving layup"
+    },
+    {
+      "min": 18.53,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle lost ball turnover (Sidy Cissoko steals)"
+    },
+    {
+      "min": 18.63,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Sidy Cissoko misses 22-foot three point jumper"
+    },
+    {
+      "min": 18.68,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 18.88,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle out of bounds bad pass turnover"
+    },
+    {
+      "min": 18.88,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 18.88,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Harrison Barnes"
+    },
+    {
+      "min": 19.2,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Shaedon Sharpe misses 25-foot three point jumper"
+    },
+    {
+      "min": 19.28,
+      "home": 54,
+      "away": 33,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Clingan offensive rebound"
+    },
+    {
+      "min": 19.45,
+      "home": 54,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Shaedon Sharpe makes driving layup (Matisse Thybulle assists)"
+    },
+    {
+      "min": 19.47,
+      "home": 54,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 19.47,
+      "home": 54,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Dylan Harper"
+    },
+    {
+      "min": 19.75,
+      "home": 54,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell lost ball turnover (Sidy Cissoko steals)"
+    },
+    {
+      "min": 19.98,
+      "home": 54,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Donovan Clingan makes 1-foot driving dunk (Jrue Holiday assists)"
+    },
+    {
+      "min": 20.32,
+      "home": 57,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Julian Champagnie makes 23-foot three point jumper (Luke Kornet assists)"
+    },
+    {
+      "min": 20.47,
+      "home": 57,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Shaedon Sharpe misses 14-foot step back jumpshot"
+    },
+    {
+      "min": 20.53,
+      "home": 57,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kornet defensive rebound"
+    },
+    {
+      "min": 20.72,
+      "home": 59,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Luke Kornet makes 1-foot reverse layup (De'Aaron Fox assists)"
+    },
+    {
+      "min": 21.03,
+      "home": 59,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Clingan lost ball turnover (De'Aaron Fox steals)"
+    },
+    {
+      "min": 21.1,
+      "home": 61,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Devin Vassell makes running dunk (De'Aaron Fox assists)"
+    },
+    {
+      "min": 21.4,
+      "home": 61,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell blocks Donovan Clingan's dunk"
+    },
+    {
+      "min": 21.43,
+      "home": 61,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 21.63,
+      "home": 63,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Luke Kornet makes 1-foot layup (De'Aaron Fox assists)"
+    },
+    {
+      "min": 21.63,
+      "home": 63,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Clingan shooting foul"
+    },
+    {
+      "min": 21.63,
+      "home": 63,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Robert Williams III enters the game for Donovan Clingan"
+    },
+    {
+      "min": 21.63,
+      "home": 63,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Deni Avdija enters the game for Shaedon Sharpe"
+    },
+    {
+      "min": 21.63,
+      "home": 64,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Luke Kornet makes free throw 1 of 1"
+    },
+    {
+      "min": 21.9,
+      "home": 64,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Jrue Holiday misses driving floating jump shot"
+    },
+    {
+      "min": 21.95,
+      "home": 64,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 22.07,
+      "home": 64,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Matisse Thybulle shooting foul"
+    },
+    {
+      "min": 22.07,
+      "home": 64,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Jerami Grant enters the game for Matisse Thybulle"
+    },
+    {
+      "min": 22.07,
+      "home": 65,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Stephon Castle makes free throw 2 of 2"
+    },
+    {
+      "min": 22.07,
+      "home": 64,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 22.07,
+      "home": 64,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle misses free throw 1 of 2"
+    },
+    {
+      "min": 22.28,
+      "home": 65,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox personal foul"
+    },
+    {
+      "min": 22.28,
+      "home": 65,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Toumani Camara enters the game for Sidy Cissoko"
+    },
+    {
+      "min": 22.45,
+      "home": 65,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kornet shooting foul"
+    },
+    {
+      "min": 22.45,
+      "home": 65,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 22.45,
+      "home": 65,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Deni Avdija misses free throw 1 of 2"
+    },
+    {
+      "min": 22.45,
+      "home": 65,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Deni Avdija makes free throw 2 of 2"
+    },
+    {
+      "min": 22.63,
+      "home": 65,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell misses 23-foot three point jumper"
+    },
+    {
+      "min": 22.67,
+      "home": 65,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Robert Williams III defensive rebound"
+    },
+    {
+      "min": 22.82,
+      "home": 65,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Robert Williams III makes 1-foot dunk (Deni Avdija assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle discontinue dribble turnover"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Robert Williams III misses alley oop layup"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jrue Holiday offensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Deni Avdija makes 25-foot three point jumper (Jrue Holiday assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox lost ball turnover (Jerami Grant steals)"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell shooting foul"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Deni Avdija makes free throw 1 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Sidy Cissoko enters the game for Jrue Holiday"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Deni Avdija makes free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 16-foot step back jumpshot"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Robert Williams III defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 45,
+      "period": 3,
+      "scoring": false,
+      "text": "Jrue Holiday enters the game for Robert Williams III"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 45,
+      "period": 3,
+      "scoring": false,
+      "text": "Scoot Henderson enters the game for Jerami Grant"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 45,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Clingan enters the game for Sidy Cissoko"
+    },
+    {
+      "min": 24.22,
+      "home": 65,
+      "away": 47,
+      "period": 3,
+      "scoring": true,
+      "text": "Deni Avdija makes layup (Donovan Clingan assists)"
+    },
+    {
+      "min": 24.4,
+      "home": 65,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija personal foul"
+    },
+    {
+      "min": 24.53,
+      "home": 65,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive foul"
+    },
+    {
+      "min": 24.53,
+      "home": 65,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive foul turnover"
+    },
+    {
+      "min": 24.77,
+      "home": 65,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox personal foul"
+    },
+    {
+      "min": 24.95,
+      "home": 65,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Clingan misses 25-foot three point jumper"
+    },
+    {
+      "min": 25.0,
+      "home": 65,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 25.35,
+      "home": 65,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Toumani Camara personal foul"
+    },
+    {
+      "min": 25.57,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes 25-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "min": 25.72,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Jrue Holiday misses 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 25.75,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 25.85,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive charge"
+    },
+    {
+      "min": 25.85,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive foul turnover"
+    },
+    {
+      "min": 25.97,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle personal foul"
+    },
+    {
+      "min": 26.05,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija misses 26-foot three point jumper"
+    },
+    {
+      "min": 26.1,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 26.15,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Scoot Henderson personal foul"
+    },
+    {
+      "min": 26.27,
+      "home": 68,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Scoot Henderson personal foul"
+    },
+    {
+      "min": 26.35,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": true,
+      "text": "Stephon Castle makes 25-foot three pointer (De'Aaron Fox assists)"
+    },
+    {
+      "min": 26.75,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Jrue Holiday misses driving floating jump shot"
+    },
+    {
+      "min": 26.78,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 26.85,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle misses 24-foot running jump shot"
+    },
+    {
+      "min": 26.9,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Toumani Camara defensive rebound"
+    },
+    {
+      "min": 26.97,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Deni Avdija's running layup"
+    },
+    {
+      "min": 26.98,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 27.12,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija misses 10-foot fade away jump shot"
+    },
+    {
+      "min": 27.15,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 27.23,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell misses 24-foot three point jumper"
+    },
+    {
+      "min": 27.27,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Toumani Camara defensive rebound"
+    },
+    {
+      "min": 27.45,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija bad pass\nturnover (Devin Vassell steals)"
+    },
+    {
+      "min": 27.55,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija flagrant foul type 1"
+    },
+    {
+      "min": 27.55,
+      "home": 71,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "(08:27) [Trail Blazers] REF-INITIATED REVIEW (CALL OVERTURNED)"
+    },
+    {
+      "min": 27.55,
+      "home": 72,
+      "away": 47,
+      "period": 3,
+      "scoring": true,
+      "text": "Julian Champagnie makes free throw flagrant 1 of 3"
+    },
+    {
+      "min": 27.55,
+      "home": 73,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie misses free throw flagrant 3 of 3"
+    },
+    {
+      "min": 27.55,
+      "home": 73,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 27.55,
+      "home": 73,
+      "away": 47,
+      "period": 3,
+      "scoring": true,
+      "text": "Julian Champagnie makes free throw flagrant 2 of 3"
+    },
+    {
+      "min": 27.55,
+      "home": 73,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Jerami Grant enters the game for Deni Avdija"
+    },
+    {
+      "min": 27.55,
+      "home": 73,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Devin Vassell"
+    },
+    {
+      "min": 27.55,
+      "home": 73,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 27.72,
+      "home": 73,
+      "away": 47,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson lost ball turnover (Jerami Grant steals)"
+    },
+    {
+      "min": 27.78,
+      "home": 73,
+      "away": 49,
+      "period": 3,
+      "scoring": true,
+      "text": "Scoot Henderson makes running dunk (Donovan Clingan assists)"
+    },
+    {
+      "min": 27.95,
+      "home": 73,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle misses 26-foot three point jumper"
+    },
+    {
+      "min": 28.03,
+      "home": 73,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Jrue Holiday defensive rebound"
+    },
+    {
+      "min": 28.17,
+      "home": 73,
+      "away": 52,
+      "period": 3,
+      "scoring": true,
+      "text": "Toumani Camara makes 24-foot three point jumper (Jerami Grant assists)"
+    },
+    {
+      "min": 28.18,
+      "home": 73,
+      "away": 52,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 28.52,
+      "home": 73,
+      "away": 52,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 13-foot two point shot"
+    },
+    {
+      "min": 28.55,
+      "home": 73,
+      "away": 52,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Clingan defensive rebound"
+    },
+    {
+      "min": 28.68,
+      "home": 73,
+      "away": 52,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Jerami Grant 's 2-foot driving layup"
+    },
+    {
+      "min": 28.73,
+      "home": 73,
+      "away": 52,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 28.85,
+      "home": 73,
+      "away": 52,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle misses 22-foot three point jumper"
+    },
+    {
+      "min": 28.88,
+      "home": 73,
+      "away": 52,
+      "period": 3,
+      "scoring": false,
+      "text": "Jerami Grant defensive rebound"
+    },
+    {
+      "min": 29.05,
+      "home": 73,
+      "away": 55,
+      "period": 3,
+      "scoring": true,
+      "text": "Jerami Grant makes 25-foot three point jumper (Jrue Holiday assists)"
+    },
+    {
+      "min": 29.5,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": true,
+      "text": "Dylan Harper makes 25-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 29.83,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Jerami Grant misses 25-foot three point jumper"
+    },
+    {
+      "min": 29.87,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 29.87,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 29.87,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Robert Williams III enters the game for Donovan Clingan"
+    },
+    {
+      "min": 29.87,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Julian Champagnie"
+    },
+    {
+      "min": 30.17,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Trail Blazers defensive team rebound"
+    },
+    {
+      "min": 30.17,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson misses 6-foot two point shot"
+    },
+    {
+      "min": 30.17,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet loose ball foul"
+    },
+    {
+      "min": 30.17,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 30.3,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson personal foul"
+    },
+    {
+      "min": 30.42,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Scoot Henderson misses 13-foot fade away jump shot"
+    },
+    {
+      "min": 30.45,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Toumani Camara offensive rebound"
+    },
+    {
+      "min": 30.48,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Trail Blazers Full timeout"
+    },
+    {
+      "min": 30.48,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "(05:31) [Trail Blazers] COACH'S CHALLENGE (CALL OVERTURNED) [Trail Blazers] retain their timeout"
+    },
+    {
+      "min": 30.48,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija enters the game for Scoot Henderson"
+    },
+    {
+      "min": 30.48,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Jrue Holiday vs. Dylan Harper (Robert Williams III gains possession)"
+    },
+    {
+      "min": 30.63,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper kicked ball violation"
+    },
+    {
+      "min": 30.85,
+      "home": 76,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet shooting foul"
+    },
+    {
+      "min": 30.85,
+      "home": 76,
+      "away": 56,
+      "period": 3,
+      "scoring": true,
+      "text": "Jerami Grant makes free throw 1 of 2"
+    },
+    {
+      "min": 30.85,
+      "home": 76,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Jerami Grant makes free throw 2 of 2"
+    },
+    {
+      "min": 31.17,
+      "home": 76,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jerami Grant shooting foul"
+    },
+    {
+      "min": 31.17,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox misses free throw 2 of 2"
+    },
+    {
+      "min": 31.17,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "min": 31.23,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Toumani Camara defensive rebound"
+    },
+    {
+      "min": 31.53,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jrue Holiday offensive foul turnover"
+    },
+    {
+      "min": 31.53,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jrue Holiday offensive foul"
+    },
+    {
+      "min": 31.8,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper misses driving layup"
+    },
+    {
+      "min": 31.83,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet offensive rebound"
+    },
+    {
+      "min": 31.85,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 31.9,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox bad pass\nturnover (Robert Williams III steals)"
+    },
+    {
+      "min": 32.27,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Toumani Camara misses 26-foot three point jumper"
+    },
+    {
+      "min": 32.3,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox defensive rebound"
+    },
+    {
+      "min": 32.37,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell misses 23-foot running jump shot"
+    },
+    {
+      "min": 32.4,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 32.4,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper misses two point shot"
+    },
+    {
+      "min": 32.42,
+      "home": 77,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija defensive rebound"
+    },
+    {
+      "min": 32.6,
+      "home": 77,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Robert Williams III makes reverse dunk (Toumani Camara assists)"
+    },
+    {
+      "min": 32.67,
+      "home": 77,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Jerami Grant shooting foul"
+    },
+    {
+      "min": 32.67,
+      "home": 78,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Devin Vassell makes free throw 1 of 2"
+    },
+    {
+      "min": 32.67,
+      "home": 78,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Dylan Harper"
+    },
+    {
+      "min": 32.67,
+      "home": 78,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Vit Krejci enters the game for Toumani Camara"
+    },
+    {
+      "min": 32.67,
+      "home": 79,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Devin Vassell makes free throw 2 of 2"
+    },
+    {
+      "min": 33.02,
+      "home": 79,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Jerami Grant misses 9-foot fade away jump shot"
+    },
+    {
+      "min": 33.05,
+      "home": 79,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 33.13,
+      "home": 81,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "De'Aaron Fox makes running layup (Victor Wembanyama assists)"
+    },
+    {
+      "min": 33.22,
+      "home": 81,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell shooting foul"
+    },
+    {
+      "min": 33.22,
+      "home": 81,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Jerami Grant makes free throw 1 of 2"
+    },
+    {
+      "min": 33.22,
+      "home": 81,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 33.22,
+      "home": 81,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Jerami Grant makes free throw 2 of 2"
+    },
+    {
+      "min": 33.63,
+      "home": 81,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell misses 19-foot fade away jump shot"
+    },
+    {
+      "min": 33.65,
+      "home": 81,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive rebound"
+    },
+    {
+      "min": 33.72,
+      "home": 83,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 9-foot two point shot (Stephon Castle assists)"
+    },
+    {
+      "min": 33.72,
+      "home": 83,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Robert Williams III shooting foul"
+    },
+    {
+      "min": 33.72,
+      "home": 83,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Harrison Barnes enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 33.72,
+      "home": 83,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Sidy Cissoko enters the game for Jerami Grant"
+    },
+    {
+      "min": 33.72,
+      "home": 84,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 1"
+    },
+    {
+      "min": 33.97,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Vit Krejci makes 18-foot jumper (Jrue Holiday assists)"
+    },
+    {
+      "min": 34.32,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson misses driving floating jump shot"
+    },
+    {
+      "min": 34.33,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson offensive rebound"
+    },
+    {
+      "min": 34.33,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson misses tip shot"
+    },
+    {
+      "min": 34.35,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson offensive rebound"
+    },
+    {
+      "min": 34.37,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson misses tip shot"
+    },
+    {
+      "min": 34.4,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Robert Williams III defensive rebound"
+    },
+    {
+      "min": 34.52,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jrue Holiday misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 34.55,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 34.55,
+      "home": 84,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Sidy Cissoko loose ball foul"
+    },
+    {
+      "min": 34.55,
+      "home": 85,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 34.55,
+      "home": 85,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Matisse Thybulle enters the game for Jrue Holiday"
+    },
+    {
+      "min": 34.55,
+      "home": 86,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 34.78,
+      "home": 86,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Matisse Thybulle misses 24-foot three point jumper"
+    },
+    {
+      "min": 34.82,
+      "home": 86,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija offensive rebound"
+    },
+    {
+      "min": 34.92,
+      "home": 86,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Robert Williams III misses 25-foot three point jumper"
+    },
+    {
+      "min": 34.97,
+      "home": 86,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Robert Williams III offensive rebound"
+    },
+    {
+      "min": 35.0,
+      "home": 86,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Vit Krejci misses 25-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama bad pass\nturnover (Matisse Thybulle steals)"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Matisse Thybulle makes driving layup"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle out of bounds lost ball turnover"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Deni Avdija misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle misses 13-foot fade away jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Vit Krejci defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Clingan enters the game for Robert Williams III"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for Keldon Johnson"
+    },
+    {
+      "min": 36.0,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Devin Vassell"
+    },
+    {
+      "min": 36.07,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Sidy Cissoko personal foul"
+    },
+    {
+      "min": 36.17,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Vit Krejci personal foul"
+    },
+    {
+      "min": 36.25,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Vit Krejci personal foul"
+    },
+    {
+      "min": 36.38,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Harrison Barnes misses 24-foot three point jumper"
+    },
+    {
+      "min": 36.45,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Clingan defensive rebound"
+    },
+    {
+      "min": 36.52,
+      "home": 86,
+      "away": 68,
+      "period": 4,
+      "scoring": true,
+      "text": "Sidy Cissoko makes 24-foot running jump shot (Vit Krejci assists)"
+    },
+    {
+      "min": 36.77,
+      "home": 86,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper bad pass\nturnover (Sidy Cissoko steals)"
+    },
+    {
+      "min": 37.02,
+      "home": 86,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Matisse Thybulle misses 23-foot three point jumper"
+    },
+    {
+      "min": 37.07,
+      "home": 86,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 37.18,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes driving layup"
+    },
+    {
+      "min": 37.48,
+      "home": 88,
+      "away": 71,
+      "period": 4,
+      "scoring": true,
+      "text": "Donovan Clingan makes 25-foot three point jumper (Deni Avdija assists)"
+    },
+    {
+      "min": 37.87,
+      "home": 90,
+      "away": 71,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes 1-foot two point shot (De'Aaron Fox assists)"
+    },
+    {
+      "min": 38.02,
+      "home": 90,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox shooting foul"
+    },
+    {
+      "min": 38.02,
+      "home": 90,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija technical foul"
+    },
+    {
+      "min": 38.02,
+      "home": 91,
+      "away": 71,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes technical free throw"
+    },
+    {
+      "min": 38.02,
+      "home": 91,
+      "away": 72,
+      "period": 4,
+      "scoring": true,
+      "text": "Deni Avdija makes free throw 1 of 2"
+    },
+    {
+      "min": 38.02,
+      "home": 91,
+      "away": 73,
+      "period": 4,
+      "scoring": true,
+      "text": "Deni Avdija makes free throw 2 of 2"
+    },
+    {
+      "min": 38.15,
+      "home": 91,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "8 second turnover"
+    },
+    {
+      "min": 38.25,
+      "home": 91,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija lost ball turnover (Dylan Harper steals)"
+    },
+    {
+      "min": 38.28,
+      "home": 91,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Jrue Holiday enters the game for Matisse Thybulle"
+    },
+    {
+      "min": 38.32,
+      "home": 91,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 22-foot three point jumper"
+    },
+    {
+      "min": 38.35,
+      "home": 91,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Jrue Holiday defensive rebound"
+    },
+    {
+      "min": 38.52,
+      "home": 91,
+      "away": 74,
+      "period": 4,
+      "scoring": true,
+      "text": "Donovan Clingan makes 23-foot three point jumper (Vit Krejci assists)"
+    },
+    {
+      "min": 38.52,
+      "home": 91,
+      "away": 74,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 38.52,
+      "home": 91,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Dylan Harper"
+    },
+    {
+      "min": 38.52,
+      "home": 91,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Toumani Camara enters the game for Deni Avdija"
+    },
+    {
+      "min": 38.52,
+      "home": 91,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Harrison Barnes"
+    },
+    {
+      "min": 38.77,
+      "home": 91,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell misses 17-foot step back jumpshot"
+    },
+    {
+      "min": 38.82,
+      "home": 91,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers defensive team rebound"
+    },
+    {
+      "min": 39.07,
+      "home": 91,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Toumani Camara misses 23-foot three point jumper"
+    },
+    {
+      "min": 39.08,
+      "home": 91,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 39.08,
+      "home": 91,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle loose ball foul"
+    },
+    {
+      "min": 39.3,
+      "home": 91,
+      "away": 79,
+      "period": 4,
+      "scoring": true,
+      "text": "Jrue Holiday makes 25-foot three pointer"
+    },
+    {
+      "min": 39.73,
+      "home": 91,
+      "away": 79,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 5-foot two point shot"
+    },
+    {
+      "min": 39.78,
+      "home": 91,
+      "away": 79,
+      "period": 4,
+      "scoring": false,
+      "text": "Toumani Camara defensive rebound"
+    },
+    {
+      "min": 39.97,
+      "home": 91,
+      "away": 82,
+      "period": 4,
+      "scoring": true,
+      "text": "Sidy Cissoko makes 25-foot three pointer (Donovan Clingan assists)"
+    },
+    {
+      "min": 39.98,
+      "home": 91,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 40.4,
+      "home": 93,
+      "away": 82,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Vassell makes 17-foot pullup jump shot (Stephon Castle assists)"
+    },
+    {
+      "min": 40.63,
+      "home": 93,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Clingan misses 25-foot three point jumper"
+    },
+    {
+      "min": 40.65,
+      "home": 93,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Sidy Cissoko offensive rebound"
+    },
+    {
+      "min": 40.65,
+      "home": 93,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Sidy Cissoko misses tip shot"
+    },
+    {
+      "min": 40.7,
+      "home": 93,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 40.8,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes running dunk (Stephon Castle assists)"
+    },
+    {
+      "min": 41.02,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Vit Krejci misses 25-foot three point jumper"
+    },
+    {
+      "min": 41.07,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 41.07,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 41.07,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija enters the game for Vit Krejci"
+    },
+    {
+      "min": 41.07,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 41.07,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Julian Champagnie"
+    },
+    {
+      "min": 41.25,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Toumani Camara kicked ball violation"
+    },
+    {
+      "min": 41.38,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Sidy Cissoko shooting foul"
+    },
+    {
+      "min": 41.38,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 41.38,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Keldon Johnson misses free throw 1 of 2"
+    },
+    {
+      "min": 41.38,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Keldon Johnson misses free throw 2 of 2"
+    },
+    {
+      "min": 41.43,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Jrue Holiday defensive rebound"
+    },
+    {
+      "min": 41.63,
+      "home": 95,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama personal foul"
+    },
+    {
+      "min": 41.72,
+      "home": 95,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "Sidy Cissoko makes driving dunk (Jrue Holiday assists)"
+    },
+    {
+      "min": 41.72,
+      "home": 95,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama shooting foul"
+    },
+    {
+      "min": 41.72,
+      "home": 95,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 41.72,
+      "home": 95,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "(06:17) [Trail Blazers] REF-INITIATED REVIEW (CALL STANDS)"
+    },
+    {
+      "min": 41.72,
+      "home": 95,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 41.72,
+      "home": 95,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "Sidy Cissoko makes free throw 1 of 1"
+    },
+    {
+      "min": 42.03,
+      "home": 97,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 15-foot pullup jump shot"
+    },
+    {
+      "min": 42.23,
+      "home": 97,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "Jrue Holiday makes 2-foot two point shot (Deni Avdija assists)"
+    },
+    {
+      "min": 42.23,
+      "home": 97,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper shooting foul"
+    },
+    {
+      "min": 42.23,
+      "home": 97,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Keldon Johnson"
+    },
+    {
+      "min": 42.23,
+      "home": 97,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Luke Kornet"
+    },
+    {
+      "min": 42.23,
+      "home": 97,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "Jrue Holiday makes free throw 1 of 1"
+    },
+    {
+      "min": 42.6,
+      "home": 100,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 28-foot three pointer"
+    },
+    {
+      "min": 42.82,
+      "home": 100,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Clingan misses 26-foot three point jumper"
+    },
+    {
+      "min": 42.87,
+      "home": 100,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 43.1,
+      "home": 102,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes two point shot (Stephon Castle assists)"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle personal foul"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle technical foul"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija misses technical free throw"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Deni Avdija makes free throw 1 of 2"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija misses free throw 2 of 2"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Vit Krejci enters the game for Sidy Cissoko"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle loose ball foul"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Stephon Castle"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 90,
+      "period": 4,
+      "scoring": true,
+      "text": "Toumani Camara makes free throw 1 of 2"
+    },
+    {
+      "min": 43.4,
+      "home": 102,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Toumani Camara makes free throw 2 of 2"
+    },
+    {
+      "min": 43.82,
+      "home": 104,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes two point shot"
+    },
+    {
+      "min": 44.0,
+      "home": 104,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Toumani Camara misses 26-foot three point jumper"
+    },
+    {
+      "min": 44.05,
+      "home": 104,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 44.05,
+      "home": 104,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jerami Grant enters the game for Donovan Clingan"
+    },
+    {
+      "min": 44.33,
+      "home": 104,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 28-foot three point pullup jump shot"
+    },
+    {
+      "min": 44.38,
+      "home": 104,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 44.43,
+      "home": 104,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Vit Krejci shooting foul"
+    },
+    {
+      "min": 44.43,
+      "home": 105,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 44.43,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 44.57,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Deni Avdija's driving floating jump shot"
+    },
+    {
+      "min": 44.6,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 44.68,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie shooting foul"
+    },
+    {
+      "min": 44.68,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 44.68,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jerami Grant misses free throw 1 of 2"
+    },
+    {
+      "min": 44.68,
+      "home": 106,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Jerami Grant makes free throw 2 of 2"
+    },
+    {
+      "min": 45.02,
+      "home": 108,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes driving layup"
+    },
+    {
+      "min": 45.1,
+      "home": 108,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija out of bounds bad pass turnover"
+    },
+    {
+      "min": 45.45,
+      "home": 108,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 27-foot three point jumper"
+    },
+    {
+      "min": 45.5,
+      "home": 108,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers defensive team rebound"
+    },
+    {
+      "min": 45.62,
+      "home": 108,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija misses 26-foot three point jumper"
+    },
+    {
+      "min": 45.68,
+      "home": 108,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 45.95,
+      "home": 108,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija shooting foul"
+    },
+    {
+      "min": 45.95,
+      "home": 109,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 1 of 2"
+    },
+    {
+      "min": 45.95,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 2 of 2"
+    },
+    {
+      "min": 46.03,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Toumani Camara's driving layup"
+    },
+    {
+      "min": 46.07,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Toumani Camara offensive rebound"
+    },
+    {
+      "min": 46.08,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Toumani Camara out of bounds bad pass turnover"
+    },
+    {
+      "min": 46.08,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers Full timeout"
+    },
+    {
+      "min": 46.08,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "(01:55) [Trail Blazers] COACH'S CHALLENGE (CALL STANDS) [Trail Blazers] charged with a timeout"
+    },
+    {
+      "min": 46.32,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Jerami Grant personal foul"
+    },
+    {
+      "min": 46.32,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper misses free throw 1 of 2"
+    },
+    {
+      "min": 46.32,
+      "home": 110,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 46.32,
+      "home": 111,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes free throw 2 of 2"
+    },
+    {
+      "min": 46.45,
+      "home": 111,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama shooting foul"
+    },
+    {
+      "min": 46.45,
+      "home": 111,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Jerami Grant makes free throw 1 of 2"
+    },
+    {
+      "min": 46.45,
+      "home": 111,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Jerami Grant makes free throw 2 of 2"
+    },
+    {
+      "min": 46.75,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Julian Champagnie makes 23-foot three point jumper (Devin Vassell assists)"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper personal foul"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Trail Blazers offensive team rebound"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Deni Avdija misses free throw 1 of 2"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Blake Wesley enters the game for Jerami Grant"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Olynyk enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan McLaughlin enters the game for Devin Vassell"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Lindy Waters III enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Yang Hansen enters the game for Toumani Camara"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Bismack Biyombo enters the game for Julian Champagnie"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Carter Bryant enters the game for Dylan Harper"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Kris Murray enters the game for Jrue Holiday"
+    },
+    {
+      "min": 46.82,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Deni Avdija makes free throw 2 of 2"
+    },
+    {
+      "min": 46.9,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Kris Murray personal take foul"
+    },
+    {
+      "min": 46.9,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Sidy Cissoko enters the game for Deni Avdija"
+    },
+    {
+      "min": 46.9,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Olynyk misses free throw 1 of 2"
+    },
+    {
+      "min": 46.9,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 46.9,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Olynyk misses free throw 2 of 2"
+    },
+    {
+      "min": 46.95,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Sidy Cissoko defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Yang Hansen misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Lindy Waters III defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Lindy Waters III misses 27-foot three point step back jumpshot"
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Sidy Cissoko defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Yang Hansen misses 25-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Bismack Biyombo defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 114,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 38,
+      "y": 10,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 16-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses layup"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 25-foot running jump shot"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Toumani Camara misses 23-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "POR",
+      "text": "Deni Avdija makes layup (Donovan Clingan assists)"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 1-foot dunk"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Alley Oop Layup Shot",
+      "team": "POR",
+      "text": "Donovan Clingan misses alley oop layup"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 26-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Deni Avdija misses 25-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Scoot Henderson misses 15-foot jumper"
+    },
+    {
+      "x": 7,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 25-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Victor Wembanyama blocks Toumani Camara 's 2-foot driving layup"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes driving layup (De'Aaron Fox assists)"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Deni Avdija makes driving layup (Donovan Clingan assists)"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 23-foot three pointer (Julian Champagnie assists)"
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Toumani Camara misses 24-foot three point jumper"
+    },
+    {
+      "x": 45,
+      "y": 4,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 19-foot running pullup jump shot (Devin Vassell assists)"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "made": false,
+      "type": "Pullup Bank Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses 11-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "POR",
+      "text": "Donovan Clingan makes two point shot"
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 25-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "POR",
+      "text": "Deni Avdija makes two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 2 of 2"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Donovan Clingan misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "POR",
+      "text": "Toumani Camara makes tip shot"
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "POR",
+      "text": "Scoot Henderson makes 25-foot running pullup jump shot"
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 8-foot pullup jump shot (Luke Kornet assists)"
+    },
+    {
+      "x": 18,
+      "y": 12,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "POR",
+      "text": "Scoot Henderson misses 13-foot fade away jump shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes running layup (Julian Champagnie assists)"
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Jerami Grant makes 11-foot pullup jump shot (Toumani Camara assists)"
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 25-foot three point jumper (Luke Kornet assists)"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "POR",
+      "text": "Deni Avdija makes 1-foot two point shot"
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "made": false,
+      "type": "Layup Shot",
+      "team": "SAS",
+      "text": "Deni Avdija blocks De'Aaron Fox 's 8-foot layup"
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses tip shot"
+    },
+    {
+      "x": 25,
+      "y": 9,
+      "made": true,
+      "type": "Pullup Bank Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 8-foot two point shot"
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Deni Avdija misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Reverse Layup Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 1-foot reverse layup"
+    },
+    {
+      "x": 22,
+      "y": 0,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Sidy Cissoko makes driving layup (Matisse Thybulle assists)"
+    },
+    {
+      "x": 38,
+      "y": 1,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 13-foot pullup jump shot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Jerami Grant misses driving layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "POR",
+      "text": "Robert Williams III makes tip shot"
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 11-foot two point shot"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 48,
+      "y": 7,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 24-foot three point jumper"
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Matisse Thybulle misses 24-foot three point jumper"
+    },
+    {
+      "x": 47,
+      "y": 13,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 6,
+      "y": 16,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Matisse Thybulle misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 48,
+      "y": 9,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Matisse Thybulle blocks Devin Vassell 's 25-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "POR",
+      "text": "Stephon Castle blocks Jrue Holiday 's 1-foot running layup"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Matisse Thybulle misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Layup Shot",
+      "team": "POR",
+      "text": "Robert Williams III misses layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "POR",
+      "text": "Robert Williams III misses tip shot"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 23-foot running jump shot"
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Harrison Barnes makes 8-foot driving floating jump shot"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Robert Williams III makes 23-foot three point jumper (Jrue Holiday assists)"
+    },
+    {
+      "x": 41,
+      "y": 48,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses heave jump shot"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Deni Avdija makes driving layup (Robert Williams III assists)"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Harrison Barnes misses 22-foot three point jumper"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 25-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Toumani Camara misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes driving dunk"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Victor Wembanyama blocks Jrue Holiday 's 1-foot driving layup"
+    },
+    {
+      "x": 33,
+      "y": 12,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 14-foot turnaround jump shot (Dylan Harper assists)"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Robert Williams III misses 22-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes running layup (De'Aaron Fox assists)"
+    },
+    {
+      "x": 25,
+      "y": 15,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Robert Williams III makes 14-foot jumper (Jrue Holiday assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes alley oop dunk (Keldon Johnson assists)"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Scoot Henderson misses 23-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Harrison Barnes misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Harrison Barnes makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Donovan Clingan misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes running dunk (Julian Champagnie assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 1 of 1"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 38,
+      "y": 15,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "POR",
+      "text": "Shaedon Sharpe misses 19-foot fade away jump shot"
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 27-foot three pointer"
+    },
+    {
+      "x": 28,
+      "y": 28,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "POR",
+      "text": "Shaedon Sharpe makes 27-foot three point step back jumpshot (Donovan Clingan assists)"
+    },
+    {
+      "x": 35,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses two point shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Jrue Holiday makes driving layup"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Sidy Cissoko misses 22-foot three point jumper"
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Shaedon Sharpe misses 25-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 5,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Shaedon Sharpe makes driving layup (Matisse Thybulle assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "POR",
+      "text": "Donovan Clingan makes 1-foot driving dunk (Jrue Holiday assists)"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 23-foot three point jumper (Luke Kornet assists)"
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "POR",
+      "text": "Shaedon Sharpe misses 14-foot step back jumpshot"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Reverse Layup Shot",
+      "team": "SAS",
+      "text": "Luke Kornet makes 1-foot reverse layup (De'Aaron Fox assists)"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes running dunk (De'Aaron Fox assists)"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Cutting Dunk Shot",
+      "team": "POR",
+      "text": "Devin Vassell blocks Donovan Clingan's dunk"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "SAS",
+      "text": "Luke Kornet makes 1-foot layup (De'Aaron Fox assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Luke Kornet makes free throw 1 of 1"
+    },
+    {
+      "x": 29,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Stephon Castle makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Stephon Castle misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Deni Avdija misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Deni Avdija makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "POR",
+      "text": "Robert Williams III makes 1-foot dunk (Deni Avdija assists)"
+    },
+    {
+      "x": 27,
+      "y": 4,
+      "made": false,
+      "type": "Alley Oop Layup Shot",
+      "team": "POR",
+      "text": "Robert Williams III misses alley oop layup"
+    },
+    {
+      "x": 21,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Deni Avdija makes 25-foot three point jumper (Jrue Holiday assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Deni Avdija makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Deni Avdija makes free throw 2 of 2"
+    },
+    {
+      "x": 34,
+      "y": 14,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 16-foot step back jumpshot"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "POR",
+      "text": "Deni Avdija makes layup (Donovan Clingan assists)"
+    },
+    {
+      "x": 40,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Donovan Clingan misses 25-foot three point jumper"
+    },
+    {
+      "x": 14,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 25-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "x": 5,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Deni Avdija misses 26-foot three point jumper"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 25-foot three pointer (De'Aaron Fox assists)"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses driving floating jump shot"
+    },
+    {
+      "x": 47,
+      "y": 12,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 24-foot running jump shot"
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "POR",
+      "text": "Victor Wembanyama blocks Deni Avdija's running layup"
+    },
+    {
+      "x": 35,
+      "y": -1,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "POR",
+      "text": "Deni Avdija misses 10-foot fade away jump shot"
+    },
+    {
+      "x": 49,
+      "y": 7,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 24-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Flagrant 1 of 3",
+      "team": "SAS",
+      "text": "Julian Champagnie makes free throw flagrant 1 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - Flagrant 3 of 3",
+      "team": "SAS",
+      "text": "Julian Champagnie misses free throw flagrant 3 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Flagrant 2 of 3",
+      "team": "SAS",
+      "text": "Julian Champagnie makes free throw flagrant 2 of 3"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "POR",
+      "text": "Scoot Henderson makes running dunk (Donovan Clingan assists)"
+    },
+    {
+      "x": 23,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 26-foot three point jumper"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Toumani Camara makes 24-foot three point jumper (Jerami Grant assists)"
+    },
+    {
+      "x": 34,
+      "y": 11,
+      "made": false,
+      "type": "Turnaround Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 13-foot two point shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Victor Wembanyama blocks Jerami Grant 's 2-foot driving layup"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 22-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Jerami Grant makes 25-foot three point jumper (Jrue Holiday assists)"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 25-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Jerami Grant misses 25-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 7,
+      "made": false,
+      "type": "Turnaround Hook Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses 6-foot two point shot"
+    },
+    {
+      "x": 19,
+      "y": 12,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "POR",
+      "text": "Scoot Henderson misses 13-foot fade away jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Jerami Grant makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Jerami Grant makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes free throw 1 of 2"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses driving layup"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Toumani Camara misses 26-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 23-foot running jump shot"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "SAS",
+      "text": "Dylan Harper misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Reverse Dunk Shot",
+      "team": "POR",
+      "text": "Robert Williams III makes reverse dunk (Toumani Camara assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Devin Vassell makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Devin Vassell makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 9,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "POR",
+      "text": "Jerami Grant misses 9-foot fade away jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes running layup (Victor Wembanyama assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Jerami Grant makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Jerami Grant makes free throw 2 of 2"
+    },
+    {
+      "x": 41,
+      "y": 10,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 19-foot fade away jump shot"
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 9-foot two point shot (Stephon Castle assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 1"
+    },
+    {
+      "x": 33,
+      "y": 17,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Vit Krejci makes 18-foot jumper (Jrue Holiday assists)"
+    },
+    {
+      "x": 25,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses tip shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses tip shot"
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Matisse Thybulle misses 24-foot three point jumper"
+    },
+    {
+      "x": 29,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Robert Williams III misses 25-foot three point jumper"
+    },
+    {
+      "x": 39,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Vit Krejci misses 25-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Matisse Thybulle makes driving layup"
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Deni Avdija misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 38,
+      "y": 0,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 13-foot fade away jump shot"
+    },
+    {
+      "x": 49,
+      "y": 8,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Harrison Barnes misses 24-foot three point jumper"
+    },
+    {
+      "x": 42,
+      "y": 18,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "POR",
+      "text": "Sidy Cissoko makes 24-foot running jump shot (Vit Krejci assists)"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Matisse Thybulle misses 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes driving layup"
+    },
+    {
+      "x": 32,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Donovan Clingan makes 25-foot three point jumper (Deni Avdija assists)"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "Dylan Harper makes 1-foot two point shot (De'Aaron Fox assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes technical free throw"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Deni Avdija makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Deni Avdija makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 22-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Donovan Clingan makes 23-foot three point jumper (Vit Krejci assists)"
+    },
+    {
+      "x": 33,
+      "y": 16,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 17-foot step back jumpshot"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Toumani Camara misses 23-foot three point jumper"
+    },
+    {
+      "x": 36,
+      "y": 23,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday makes 25-foot three pointer"
+    },
+    {
+      "x": 19,
+      "y": 1,
+      "made": false,
+      "type": "Pullup Bank Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 5-foot two point shot"
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Sidy Cissoko makes 25-foot three pointer (Donovan Clingan assists)"
+    },
+    {
+      "x": 25,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 17-foot pullup jump shot (Stephon Castle assists)"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Donovan Clingan misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "POR",
+      "text": "Sidy Cissoko misses tip shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes running dunk (Stephon Castle assists)"
+    },
+    {
+      "x": 39,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Vit Krejci misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Keldon Johnson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Keldon Johnson misses free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "POR",
+      "text": "Sidy Cissoko makes driving dunk (Jrue Holiday assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "POR",
+      "text": "Sidy Cissoko makes free throw 1 of 1"
+    },
+    {
+      "x": 26,
+      "y": 16,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 15-foot pullup jump shot"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "POR",
+      "text": "Jrue Holiday makes 2-foot two point shot (Deni Avdija assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "POR",
+      "text": "Jrue Holiday makes free throw 1 of 1"
+    },
+    {
+      "x": 44,
+      "y": 22,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 28-foot three pointer"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Donovan Clingan misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes two point shot (Stephon Castle assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - Technical",
+      "team": "POR",
+      "text": "Deni Avdija misses technical free throw"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Deni Avdija makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Deni Avdija misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Toumani Camara makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Toumani Camara makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes two point shot"
+    },
+    {
+      "x": 30,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Toumani Camara misses 26-foot three point jumper"
+    },
+    {
+      "x": 39,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 28-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "POR",
+      "text": "Victor Wembanyama blocks Deni Avdija's driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Jerami Grant misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Jerami Grant makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes driving layup"
+    },
+    {
+      "x": 47,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 27-foot three point jumper"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Deni Avdija misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "POR",
+      "text": "Victor Wembanyama blocks Toumani Camara's driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Dylan Harper misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Dylan Harper makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Jerami Grant makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Jerami Grant makes free throw 2 of 2"
+    },
+    {
+      "x": 49,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 23-foot three point jumper (Devin Vassell assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "POR",
+      "text": "Deni Avdija misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "POR",
+      "text": "Deni Avdija makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Kelly Olynyk misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Kelly Olynyk misses free throw 2 of 2"
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "POR",
+      "text": "Yang Hansen misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 41,
+      "y": 22,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Lindy Waters III misses 27-foot three point step back jumpshot"
+    },
+    {
+      "x": 43,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "POR",
+      "text": "Yang Hansen misses 25-foot three point jumper"
+    }
+  ],
+  "shot_zones": {
+    "SAS": {
+      "at_rim": {
+        "fgm": 18,
+        "fga": 23,
+        "pct": 78
+      },
+      "paint": {
+        "fgm": 6,
+        "fga": 12,
+        "pct": 50
+      },
+      "mid": {
+        "fgm": 25,
+        "fga": 30,
+        "pct": 83
+      },
+      "corner_3": {
+        "fgm": 3,
+        "fga": 22,
+        "pct": 14
+      },
+      "arc_3": {
+        "fgm": 9,
+        "fga": 18,
+        "pct": 50
+      }
+    },
+    "POR": {
+      "at_rim": {
+        "fgm": 18,
+        "fga": 31,
+        "pct": 58
+      },
+      "paint": {
+        "fgm": 2,
+        "fga": 11,
+        "pct": 18
+      },
+      "mid": {
+        "fgm": 20,
+        "fga": 23,
+        "pct": 87
+      },
+      "corner_3": {
+        "fgm": 2,
+        "fga": 15,
+        "pct": 13
+      },
+      "arc_3": {
+        "fgm": 9,
+        "fga": 37,
+        "pct": 24
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

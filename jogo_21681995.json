@@ -1,0 +1,7278 @@
+{
+  "game_id": "21681995",
+  "date": "2026-05-01",
+  "home": "TOR",
+  "away": "CLE",
+  "home_pts": 112,
+  "away_pts": 110,
+  "winner": "TOR",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "TOR": [
+        32,
+        29,
+        31,
+        12,
+        8
+      ],
+      "CLE": [
+        32,
+        19,
+        30,
+        23,
+        6
+      ]
+    },
+    "num_periods": 5,
+    "time_leading_home_fmt": "37:40",
+    "time_leading_away_fmt": "10:17",
+    "time_tied_fmt": "5:03",
+    "lead_changes": 8,
+    "ties": 5,
+    "best_run_home": {
+      "pts_home": 19,
+      "pts_away": 6,
+      "start_min": 12.0,
+      "end_min": 16.93
+    },
+    "best_run_away": {
+      "pts_away": 14,
+      "pts_home": 4,
+      "start_min": 40.05,
+      "end_min": 44.92
+    },
+    "max_consec_home": 9,
+    "max_consec_away": 10
+  },
+  "four_factors": {
+    "TOR": {
+      "efg": 0.541,
+      "tov": 0.121,
+      "oreb": 0.049,
+      "ftr": 0.26,
+      "opp_efg": 0.474,
+      "opp_tov": 0.162,
+      "opp_oreb": 0.415,
+      "opp_ftr": 0.25
+    },
+    "CLE": {
+      "efg": 0.556,
+      "tov": 0.17,
+      "oreb": 0.05,
+      "ftr": 0.333,
+      "opp_efg": 0.662,
+      "opp_tov": 0.102,
+      "opp_oreb": 0.133,
+      "opp_ftr": 0.206
+    }
+  },
+  "misc": {
+    "TOR": {
+      "pts_paint": 48,
+      "pts_fb": 20,
+      "pts_2nd_chance": 10,
+      "pts_off_tov": 25
+    },
+    "CLE": {
+      "pts_paint": 54,
+      "pts_fb": 6,
+      "pts_2nd_chance": 22,
+      "pts_off_tov": 17
+    }
+  },
+  "hustle": {
+    "TOR": {
+      "deflections": 24,
+      "charges_drawn": 0,
+      "contested_shots": 59,
+      "contested_2pt": 37,
+      "contested_3pt": 22,
+      "loose_balls_recovered": 1,
+      "screen_assists": 3
+    },
+    "CLE": {
+      "deflections": 20,
+      "charges_drawn": 0,
+      "contested_shots": 48,
+      "contested_2pt": 31,
+      "contested_3pt": 17,
+      "loose_balls_recovered": 5,
+      "screen_assists": 3
+    }
+  },
+  "box_score": {
+    "TOR": [
+      {
+        "name": "R. Barrett",
+        "minutes": "43",
+        "pos": "F",
+        "starter": true,
+        "pts": 24,
+        "reb": 9,
+        "oreb": 2,
+        "ast": 3,
+        "stl": 1,
+        "blk": 0,
+        "tov": 5,
+        "fgm": 8,
+        "fga": 21,
+        "fg3m": 4,
+        "fg3a": 12,
+        "ftm": 4,
+        "fta": 5,
+        "pf": 4,
+        "plus_minus": 9,
+        "off_rating": 117.5,
+        "def_rating": 103.7,
+        "ts_pct": 0.517,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 13,
+        "mu_min": "17:30",
+        "mu_fga": 22,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.409,
+        "mu_3pa": 6,
+        "mu_3pm": 1,
+        "mu_pts": 20,
+        "mu_ast": 2
+      },
+      {
+        "name": "S. Barnes",
+        "minutes": "48",
+        "pos": "F",
+        "starter": true,
+        "pts": 25,
+        "reb": 7,
+        "oreb": 2,
+        "ast": 14,
+        "stl": 3,
+        "blk": 3,
+        "tov": 3,
+        "fgm": 11,
+        "fga": 21,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 3,
+        "fta": 4,
+        "pf": 2,
+        "plus_minus": 2,
+        "off_rating": 107.8,
+        "def_rating": 104.4,
+        "ts_pct": 0.549,
+        "deflections": 5,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "19:30",
+        "mu_fga": 12,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.167,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 5
+      },
+      {
+        "name": "J. Poeltl",
+        "minutes": "22",
+        "pos": "C",
+        "starter": true,
+        "pts": 2,
+        "reb": 4,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 2,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 0,
+        "off_rating": 109.1,
+        "def_rating": 106.7,
+        "ts_pct": 0.333,
+        "deflections": 6,
+        "charges_drawn": 0,
+        "contested_shots": 11,
+        "mu_min": "8:10",
+        "mu_fga": 13,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.462,
+        "mu_3pa": 6,
+        "mu_3pm": 2,
+        "mu_pts": 17,
+        "mu_ast": 7
+      },
+      {
+        "name": "J. Walter",
+        "minutes": "43",
+        "pos": "G",
+        "starter": true,
+        "pts": 24,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 3,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 7,
+        "fga": 13,
+        "fg3m": 4,
+        "fg3a": 9,
+        "ftm": 6,
+        "fta": 6,
+        "pf": 4,
+        "plus_minus": -6,
+        "off_rating": 104.7,
+        "def_rating": 109.2,
+        "ts_pct": 0.767,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": "17:32",
+        "mu_fga": 13,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.462,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 18,
+        "mu_ast": 4
+      },
+      {
+        "name": "J. Shead",
+        "minutes": "33",
+        "pos": "G",
+        "starter": true,
+        "pts": 7,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 6,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 2,
+        "fga": 9,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 5,
+        "plus_minus": 6,
+        "off_rating": 104.8,
+        "def_rating": 92.3,
+        "ts_pct": 0.354,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "13:19",
+        "mu_fga": 14,
+        "mu_fgm": 8,
+        "mu_fg_pct": 0.571,
+        "mu_3pa": 6,
+        "mu_3pm": 3,
+        "mu_pts": 21,
+        "mu_ast": 5
+      },
+      {
+        "name": "J. Battle",
+        "minutes": "11",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -6,
+        "off_rating": 104.2,
+        "def_rating": 129.2,
+        "ts_pct": 0.625,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "4:26",
+        "mu_fga": 7,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.286,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 1
+      },
+      {
+        "name": "G. Dick",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Jackson-Davis",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Lawson",
+        "minutes": "10",
+        "pos": "",
+        "starter": false,
+        "pts": 6,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 3,
+        "fg3m": 2,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -1,
+        "off_rating": 127.8,
+        "def_rating": 114.3,
+        "ts_pct": 1,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "4:17",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "S. Mamukelashvili",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 1,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 4,
+        "off_rating": 113.8,
+        "def_rating": 103.6,
+        "ts_pct": 0.333,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "5:47",
+        "mu_fga": 6,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 3,
+        "mu_3pm": 2,
+        "mu_pts": 8,
+        "mu_ast": 2
+      },
+      {
+        "name": "J. Mogbo",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "C. Murray-Boyles",
+        "minutes": "40",
+        "pos": "",
+        "starter": false,
+        "pts": 17,
+        "reb": 7,
+        "oreb": 4,
+        "ast": 2,
+        "stl": 2,
+        "blk": 3,
+        "tov": 4,
+        "fgm": 6,
+        "fga": 10,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 5,
+        "fta": 6,
+        "pf": 4,
+        "plus_minus": 2,
+        "off_rating": 113.3,
+        "def_rating": 106.4,
+        "ts_pct": 0.672,
+        "deflections": 7,
+        "charges_drawn": 0,
+        "contested_shots": 12,
+        "mu_min": "16:44",
+        "mu_fga": 20,
+        "mu_fgm": 11,
+        "mu_fg_pct": 0.55,
+        "mu_3pa": 7,
+        "mu_3pm": 2,
+        "mu_pts": 25,
+        "mu_ast": 2
+      },
+      {
+        "name": "G. Temple",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "B. Ingram",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "I. Quickley",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ],
+    "CLE": [
+      {
+        "name": "M. Strus",
+        "minutes": "20",
+        "pos": "G",
+        "starter": true,
+        "pts": 6,
+        "reb": 5,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -4,
+        "off_rating": 114.3,
+        "def_rating": 136.8,
+        "ts_pct": 0.5,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "7:44",
+        "mu_fga": 9,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.556,
+        "mu_3pa": 5,
+        "mu_3pm": 3,
+        "mu_pts": 15,
+        "mu_ast": 2
+      },
+      {
+        "name": "E. Mobley",
+        "minutes": "41",
+        "pos": "C",
+        "starter": true,
+        "pts": 26,
+        "reb": 14,
+        "oreb": 4,
+        "ast": 3,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 9,
+        "fga": 15,
+        "fg3m": 3,
+        "fg3a": 7,
+        "ftm": 5,
+        "fta": 8,
+        "pf": 2,
+        "plus_minus": -3,
+        "off_rating": 98.8,
+        "def_rating": 105.1,
+        "ts_pct": 0.702,
+        "deflections": 6,
+        "charges_drawn": 0,
+        "contested_shots": 10,
+        "mu_min": "15:07",
+        "mu_fga": 17,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.529,
+        "mu_3pa": 7,
+        "mu_3pm": 3,
+        "mu_pts": 24,
+        "mu_ast": 5
+      },
+      {
+        "name": "J. Allen",
+        "minutes": "34",
+        "pos": "C",
+        "starter": true,
+        "pts": 14,
+        "reb": 7,
+        "oreb": 3,
+        "ast": 1,
+        "stl": 1,
+        "blk": 2,
+        "tov": 0,
+        "fgm": 6,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 6,
+        "pf": 2,
+        "plus_minus": 8,
+        "off_rating": 112.7,
+        "def_rating": 98.4,
+        "ts_pct": 0.658,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 15,
+        "mu_min": "12:54",
+        "mu_fga": 17,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.235,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 9,
+        "mu_ast": 1
+      },
+      {
+        "name": "D. Mitchell",
+        "minutes": "41",
+        "pos": "G",
+        "starter": true,
+        "pts": 24,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 11,
+        "fga": 26,
+        "fg3m": 2,
+        "fg3a": 10,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -4,
+        "off_rating": 98.7,
+        "def_rating": 105.3,
+        "ts_pct": 0.462,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "15:11",
+        "mu_fga": 13,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.308,
+        "mu_3pa": 6,
+        "mu_3pm": 2,
+        "mu_pts": 14,
+        "mu_ast": 3
+      },
+      {
+        "name": "J. Harden",
+        "minutes": "44",
+        "pos": "G",
+        "starter": true,
+        "pts": 16,
+        "reb": 9,
+        "oreb": 5,
+        "ast": 9,
+        "stl": 2,
+        "blk": 1,
+        "tov": 4,
+        "fgm": 5,
+        "fga": 14,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 5,
+        "fta": 5,
+        "pf": 2,
+        "plus_minus": 11,
+        "off_rating": 112.5,
+        "def_rating": 103.5,
+        "ts_pct": 0.494,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "16:22",
+        "mu_fga": 12,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.583,
+        "mu_3pa": 5,
+        "mu_3pm": 2,
+        "mu_pts": 18,
+        "mu_ast": 3
+      },
+      {
+        "name": "T. Bryant",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -7,
+        "off_rating": 73.3,
+        "def_rating": 120,
+        "ts_pct": 0,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "2:45",
+        "mu_fga": 5,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 2
+      },
+      {
+        "name": "K. Ellis",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "S. Merrill",
+        "minutes": "18",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 1,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": -6,
+        "off_rating": 100,
+        "def_rating": 121.6,
+        "ts_pct": 0.2,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "6:39",
+        "mu_fga": 7,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.571,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 14,
+        "mu_ast": 3
+      },
+      {
+        "name": "L. Nance Jr.",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "C. Porter",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Proctor",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "D. Schroder",
+        "minutes": "16",
+        "pos": "",
+        "starter": false,
+        "pts": 7,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 2,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 0,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 7,
+        "fta": 8,
+        "pf": 2,
+        "plus_minus": -9,
+        "off_rating": 87.5,
+        "def_rating": 123.3,
+        "ts_pct": 0.465,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "5:37",
+        "mu_fga": 5,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 2
+      },
+      {
+        "name": "N. Tomlin",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Tyson",
+        "minutes": "16",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 4,
+        "oreb": 2,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -6,
+        "off_rating": 118.8,
+        "def_rating": 137.5,
+        "ts_pct": 0.417,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "5:56",
+        "mu_fga": 6,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 9,
+        "mu_ast": 3
+      },
+      {
+        "name": "D. Wade",
+        "minutes": "28",
+        "pos": "",
+        "starter": false,
+        "pts": 10,
+        "reb": 5,
+        "oreb": 2,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 4,
+        "fga": 8,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 4,
+        "plus_minus": 10,
+        "off_rating": 121.6,
+        "def_rating": 100,
+        "ts_pct": 0.625,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "10:31",
+        "mu_fga": 4,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 4
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen vs. Jakob Poeltl (Max Strus gains possession)"
+    },
+    {
+      "min": 0.3,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Jarrett Allen makes 1-foot reverse dunk (Evan Mobley assists)"
+    },
+    {
+      "min": 0.45,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Ja'Kobe Walter misses 22-foot three point jumper"
+    },
+    {
+      "min": 0.5,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 0.53,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "RJ Barrett personal foul"
+    },
+    {
+      "min": 0.68,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Jakob Poeltl shooting foul"
+    },
+    {
+      "min": 0.68,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Evan Mobley makes free throw 1 of 2"
+    },
+    {
+      "min": 0.68,
+      "home": 0,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Evan Mobley makes free throw 2 of 2"
+    },
+    {
+      "min": 1.07,
+      "home": 3,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Jamal Shead makes 27-foot three point jumper (Jakob Poeltl assists)"
+    },
+    {
+      "min": 1.38,
+      "home": 3,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden misses driving floating jump shot"
+    },
+    {
+      "min": 1.42,
+      "home": 3,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden offensive rebound"
+    },
+    {
+      "min": 1.43,
+      "home": 3,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "James Harden makes two point shot"
+    },
+    {
+      "min": 1.45,
+      "home": 3,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Double technical foul: James Harden and RJ Barrett"
+    },
+    {
+      "min": 1.45,
+      "home": 3,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "(10:33) [Cavaliers] REF-INITIATED REVIEW (CALL OVERTURNED)"
+    },
+    {
+      "min": 1.7,
+      "home": 5,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "Scottie Barnes makes 1-foot dunk (RJ Barrett assists)"
+    },
+    {
+      "min": 1.85,
+      "home": 5,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus lost ball turnover (Ja'Kobe Walter steals)"
+    },
+    {
+      "min": 1.92,
+      "home": 5,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Ja'Kobe Walter misses 24-foot running jump shot"
+    },
+    {
+      "min": 1.98,
+      "home": 5,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 2.37,
+      "home": 5,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "James Harden bad pass\nturnover (RJ Barrett steals)"
+    },
+    {
+      "min": 2.43,
+      "home": 7,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "RJ Barrett makes two point shot"
+    },
+    {
+      "min": 2.78,
+      "home": 7,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 2.97,
+      "home": 7,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Scottie Barnes misses 24-foot three point jumper"
+    },
+    {
+      "min": 3.02,
+      "home": 7,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus defensive rebound"
+    },
+    {
+      "min": 3.13,
+      "home": 7,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 28-foot three point pullup jump shot"
+    },
+    {
+      "min": 3.18,
+      "home": 7,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus offensive rebound"
+    },
+    {
+      "min": 3.27,
+      "home": 7,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "Max Strus makes 26-foot three point jumper (Evan Mobley assists)"
+    },
+    {
+      "min": 3.45,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "RJ Barrett makes 28-foot three point jumper (Scottie Barnes assists)"
+    },
+    {
+      "min": 3.68,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Jakob Poeltl shooting foul"
+    },
+    {
+      "min": 3.68,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "min": 3.68,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen misses free throw 2 of 2"
+    },
+    {
+      "min": 3.68,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 3.68,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Collin Murray-Boyles enters the game for Jakob Poeltl"
+    },
+    {
+      "min": 3.68,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamison Battle enters the game for Jamal Shead"
+    },
+    {
+      "min": 3.72,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "RJ Barrett defensive rebound"
+    },
+    {
+      "min": 4.1,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Scottie Barnes misses 20-foot step back jumpshot"
+    },
+    {
+      "min": 4.17,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 4.33,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley lost ball turnover (Collin Murray-Boyles steals)"
+    },
+    {
+      "min": 4.4,
+      "home": 13,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "Jamison Battle makes 25-foot running jump shot (Scottie Barnes assists)"
+    },
+    {
+      "min": 4.77,
+      "home": 13,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Evan Mobley makes driving layup (James Harden assists)"
+    },
+    {
+      "min": 5.07,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Scottie Barnes makes 13-foot pullup jump shot"
+    },
+    {
+      "min": 5.28,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 3-foot two point shot"
+    },
+    {
+      "min": 5.28,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Raptors Full timeout"
+    },
+    {
+      "min": 5.28,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Merrill enters the game for Evan Mobley"
+    },
+    {
+      "min": 5.28,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Shead enters the game for Scottie Barnes"
+    },
+    {
+      "min": 5.28,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 5.52,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamison Battle misses layup"
+    },
+    {
+      "min": 5.55,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus defensive rebound"
+    },
+    {
+      "min": 5.88,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Merrill misses 23-foot three point jumper"
+    },
+    {
+      "min": 5.9,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Raptors defensive team rebound"
+    },
+    {
+      "min": 5.9,
+      "home": 15,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade loose ball foul"
+    },
+    {
+      "min": 6.12,
+      "home": 18,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes 26-foot three point jumper (RJ Barrett assists)"
+    },
+    {
+      "min": 6.35,
+      "home": 18,
+      "away": 18,
+      "period": 1,
+      "scoring": true,
+      "text": "Jarrett Allen makes 1-foot two point shot (Sam Merrill assists)"
+    },
+    {
+      "min": 6.67,
+      "home": 18,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "RJ Barrett misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 6.72,
+      "home": 18,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Max Strus defensive rebound"
+    },
+    {
+      "min": 6.78,
+      "home": 18,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "RJ Barrett shooting foul"
+    },
+    {
+      "min": 6.78,
+      "home": 18,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 6.78,
+      "home": 18,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "min": 6.78,
+      "home": 18,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "min": 6.78,
+      "home": 18,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Scottie Barnes enters the game for RJ Barrett"
+    },
+    {
+      "min": 7.1,
+      "home": 18,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Scottie Barnes lost ball turnover (Dean Wade steals)"
+    },
+    {
+      "min": 7.4,
+      "home": 18,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Sam Merrill makes 12-foot fade away jump shot"
+    },
+    {
+      "min": 7.57,
+      "home": 20,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes two point shot (Jamal Shead assists)"
+    },
+    {
+      "min": 7.7,
+      "home": 20,
+      "away": 24,
+      "period": 1,
+      "scoring": true,
+      "text": "Max Strus makes 23-foot three point jumper (James Harden assists)"
+    },
+    {
+      "min": 8.07,
+      "home": 22,
+      "away": 24,
+      "period": 1,
+      "scoring": true,
+      "text": "Scottie Barnes makes 11-foot pullup jump shot"
+    },
+    {
+      "min": 8.15,
+      "home": 22,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Shead personal foul"
+    },
+    {
+      "min": 8.15,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": true,
+      "text": "James Harden makes free throw 1 of 2"
+    },
+    {
+      "min": 8.15,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder enters the game for Max Strus"
+    },
+    {
+      "min": 8.15,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley enters the game for Jarrett Allen"
+    },
+    {
+      "min": 8.15,
+      "home": 22,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili enters the game for Jamison Battle"
+    },
+    {
+      "min": 8.15,
+      "home": 22,
+      "away": 26,
+      "period": 1,
+      "scoring": true,
+      "text": "James Harden makes free throw 2 of 2"
+    },
+    {
+      "min": 8.3,
+      "home": 22,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Shead misses 25-foot three point jumper"
+    },
+    {
+      "min": 8.35,
+      "home": 22,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 8.5,
+      "home": 22,
+      "away": 26,
+      "period": 1,
+      "scoring": false,
+      "text": "Ja'Kobe Walter personal foul"
+    },
+    {
+      "min": 8.5,
+      "home": 22,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Evan Mobley makes free throw 1 of 2"
+    },
+    {
+      "min": 8.5,
+      "home": 22,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for James Harden"
+    },
+    {
+      "min": 8.5,
+      "home": 22,
+      "away": 28,
+      "period": 1,
+      "scoring": true,
+      "text": "Evan Mobley makes free throw 2 of 2"
+    },
+    {
+      "min": 8.73,
+      "home": 24,
+      "away": 28,
+      "period": 1,
+      "scoring": true,
+      "text": "Scottie Barnes makes 12-foot turnaround jump shot"
+    },
+    {
+      "min": 8.88,
+      "home": 24,
+      "away": 28,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade offensive foul"
+    },
+    {
+      "min": 8.88,
+      "home": 24,
+      "away": 28,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade offensive foul turnover"
+    },
+    {
+      "min": 9.05,
+      "home": 24,
+      "away": 28,
+      "period": 1,
+      "scoring": false,
+      "text": "Scottie Barnes misses 12-foot step back jumpshot"
+    },
+    {
+      "min": 9.13,
+      "home": 24,
+      "away": 28,
+      "period": 1,
+      "scoring": false,
+      "text": "Dean Wade defensive rebound"
+    },
+    {
+      "min": 9.37,
+      "home": 24,
+      "away": 30,
+      "period": 1,
+      "scoring": true,
+      "text": "Evan Mobley makes hook shot (Dennis Schroder assists)"
+    },
+    {
+      "min": 9.58,
+      "home": 24,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Shead misses 11-foot pullup jump shot"
+    },
+    {
+      "min": 9.65,
+      "home": 24,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 9.83,
+      "home": 24,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 9.87,
+      "home": 24,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili defensive rebound"
+    },
+    {
+      "min": 9.92,
+      "home": 24,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder personal foul"
+    },
+    {
+      "min": 9.92,
+      "home": 24,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 9.92,
+      "home": 24,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "RJ Barrett enters the game for Ja'Kobe Walter"
+    },
+    {
+      "min": 10.18,
+      "home": 26,
+      "away": 30,
+      "period": 1,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes driving dunk (Scottie Barnes assists)"
+    },
+    {
+      "min": 10.55,
+      "home": 26,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder misses two point shot"
+    },
+    {
+      "min": 10.58,
+      "home": 26,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili defensive rebound"
+    },
+    {
+      "min": 10.67,
+      "home": 28,
+      "away": 30,
+      "period": 1,
+      "scoring": true,
+      "text": "RJ Barrett makes running layup (Scottie Barnes assists)"
+    },
+    {
+      "min": 10.92,
+      "home": 28,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Jamal Shead shooting foul"
+    },
+    {
+      "min": 10.92,
+      "home": 28,
+      "away": 31,
+      "period": 1,
+      "scoring": true,
+      "text": "Dennis Schroder makes free throw 1 of 2"
+    },
+    {
+      "min": 10.92,
+      "home": 28,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Ja'Kobe Walter enters the game for Jamal Shead"
+    },
+    {
+      "min": 10.92,
+      "home": 28,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "Dennis Schroder makes free throw 2 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 28,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "RJ Barrett misses driving floating jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 28,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "RJ Barrett offensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 28,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Merrill shooting foul"
+    },
+    {
+      "min": 12.0,
+      "home": 29,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "RJ Barrett makes free throw 1 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "RJ Barrett makes free throw 2 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Dennis Schroder lost ball turnover (Sandro Mamukelashvili steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "Sandro Mamukelashvili makes 1-foot two point shot (Scottie Barnes assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Merrill misses 28-foot three point jumper"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Thomas Bryant enters the game for Dean Wade"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylon Tyson enters the game for Sam Merrill"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Shead enters the game for Collin Murray-Boyles"
+    },
+    {
+      "min": 12.0,
+      "home": 32,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jakob Poeltl enters the game for Ja'Kobe Walter"
+    },
+    {
+      "min": 12.3,
+      "home": 34,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Scottie Barnes makes 4-foot driving floating jump shot"
+    },
+    {
+      "min": 12.43,
+      "home": 34,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Shead personal foul"
+    },
+    {
+      "min": 12.62,
+      "home": 34,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell misses finger roll layup"
+    },
+    {
+      "min": 12.67,
+      "home": 34,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes defensive rebound"
+    },
+    {
+      "min": 12.82,
+      "home": 34,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 12.87,
+      "home": 34,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jakob Poeltl offensive rebound"
+    },
+    {
+      "min": 12.95,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "RJ Barrett makes 24-foot three point jumper (Scottie Barnes assists)"
+    },
+    {
+      "min": 13.18,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley misses 26-foot three point jumper"
+    },
+    {
+      "min": 13.22,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili defensive rebound"
+    },
+    {
+      "min": 13.48,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Shead misses 26-foot three point jumper"
+    },
+    {
+      "min": 13.53,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylon Tyson defensive rebound"
+    },
+    {
+      "min": 13.57,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "RJ Barrett personal foul"
+    },
+    {
+      "min": 13.57,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Ja'Kobe Walter enters the game for RJ Barrett"
+    },
+    {
+      "min": 13.57,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden enters the game for Dennis Schroder"
+    },
+    {
+      "min": 13.73,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell lost ball turnover (Scottie Barnes steals)"
+    },
+    {
+      "min": 13.78,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Shead bad pass\nturnover (James Harden steals)"
+    },
+    {
+      "min": 13.88,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Raptors defensive team rebound"
+    },
+    {
+      "min": 13.88,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell misses running pullup jump shot"
+    },
+    {
+      "min": 13.88,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Thomas Bryant loose ball foul"
+    },
+    {
+      "min": 14.03,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Shead out of bounds lost ball turnover"
+    },
+    {
+      "min": 14.27,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylon Tyson offensive foul turnover"
+    },
+    {
+      "min": 14.27,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylon Tyson offensive foul"
+    },
+    {
+      "min": 14.27,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 14.27,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "(09:44) [Cavaliers] COACH'S CHALLENGE (REPLAY SUPPORTS CALL) [Cavaliers] charged with a timeout"
+    },
+    {
+      "min": 14.27,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamison Battle enters the game for Jamal Shead"
+    },
+    {
+      "min": 14.58,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili misses 26-foot three point jumper"
+    },
+    {
+      "min": 14.63,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 14.8,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Thomas Bryant misses 23-foot three point jumper"
+    },
+    {
+      "min": 14.85,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley offensive rebound"
+    },
+    {
+      "min": 14.93,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden misses driving floating jump shot"
+    },
+    {
+      "min": 14.95,
+      "home": 37,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden offensive rebound"
+    },
+    {
+      "min": 15.02,
+      "home": 37,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Evan Mobley makes 26-foot three point jumper (Jaylon Tyson assists)"
+    },
+    {
+      "min": 15.18,
+      "home": 37,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylon Tyson personal foul"
+    },
+    {
+      "min": 15.27,
+      "home": 39,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Jamison Battle makes 11-foot driving floating jump shot (Scottie Barnes assists)"
+    },
+    {
+      "min": 15.47,
+      "home": 39,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylon Tyson makes 26-foot three point jumper (James Harden assists)"
+    },
+    {
+      "min": 15.72,
+      "home": 39,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell shooting foul"
+    },
+    {
+      "min": 15.72,
+      "home": 40,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Scottie Barnes makes free throw 1 of 2"
+    },
+    {
+      "min": 15.72,
+      "home": 40,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 15.72,
+      "home": 40,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Sam Merrill enters the game for Evan Mobley"
+    },
+    {
+      "min": 15.72,
+      "home": 41,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Scottie Barnes makes free throw 2 of 2"
+    },
+    {
+      "min": 15.92,
+      "home": 41,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylon Tyson misses 24-foot three point jumper"
+    },
+    {
+      "min": 15.97,
+      "home": 41,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Jakob Poeltl defensive rebound"
+    },
+    {
+      "min": 16.07,
+      "home": 41,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen blocks Jakob Poeltl's running dunk"
+    },
+    {
+      "min": 16.12,
+      "home": 41,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Thomas Bryant defensive rebound"
+    },
+    {
+      "min": 16.25,
+      "home": 41,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden bad pass\nturnover (Jakob Poeltl steals)"
+    },
+    {
+      "min": 16.32,
+      "home": 41,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Sam Merrill shooting foul"
+    },
+    {
+      "min": 16.32,
+      "home": 42,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes free throw 1 of 2"
+    },
+    {
+      "min": 16.32,
+      "home": 42,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Murray-Boyles enters the game for Sandro Mamukelashvili"
+    },
+    {
+      "min": 16.32,
+      "home": 43,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes free throw 2 of 2"
+    },
+    {
+      "min": 16.48,
+      "home": 43,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylon Tyson bad pass\nturnover (Ja'Kobe Walter steals)"
+    },
+    {
+      "min": 16.57,
+      "home": 45,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes running layup (Scottie Barnes assists)"
+    },
+    {
+      "min": 16.6,
+      "home": 45,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 16.6,
+      "home": 45,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Dean Wade enters the game for Thomas Bryant"
+    },
+    {
+      "min": 16.82,
+      "home": 45,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Dean Wade misses 22-foot three point jumper"
+    },
+    {
+      "min": 16.85,
+      "home": 45,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes defensive rebound"
+    },
+    {
+      "min": 16.93,
+      "home": 47,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Scottie Barnes makes running dunk"
+    },
+    {
+      "min": 17.13,
+      "home": 47,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 17.13,
+      "home": 47,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes blocks James Harden 's 8-foot driving floating jump shot"
+    },
+    {
+      "min": 17.38,
+      "home": 47,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylon Tyson makes 9-foot fade away jump shot (James Harden assists)"
+    },
+    {
+      "min": 17.67,
+      "home": 47,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Murray-Boyles out of bounds bad pass turnover"
+    },
+    {
+      "min": 17.95,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Jarrett Allen makes 4-foot two point shot (Jaylon Tyson assists)"
+    },
+    {
+      "min": 18.22,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Jakob Poeltl misses 8-foot floating jump shot"
+    },
+    {
+      "min": 18.25,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Murray-Boyles offensive rebound"
+    },
+    {
+      "min": 18.27,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamison Battle misses 25-foot three point jumper"
+    },
+    {
+      "min": 18.3,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Dean Wade defensive rebound"
+    },
+    {
+      "min": 18.42,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Jakob Poeltl shooting foul"
+    },
+    {
+      "min": 18.42,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "min": 18.42,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 18.42,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamal Shead enters the game for Jakob Poeltl"
+    },
+    {
+      "min": 18.42,
+      "home": 47,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "RJ Barrett enters the game for Scottie Barnes"
+    },
+    {
+      "min": 18.42,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "min": 18.7,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarrett Allen blocks Collin Murray-Boyles 's 4-foot driving floating jump shot"
+    },
+    {
+      "min": 18.73,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Murray-Boyles offensive rebound"
+    },
+    {
+      "min": 18.73,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Murray-Boyles offensive foul"
+    },
+    {
+      "min": 18.73,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Murray-Boyles offensive foul turnover"
+    },
+    {
+      "min": 18.73,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "(05:16) [Cavaliers] REF-INITIATED REVIEW (CALL STANDS)"
+    },
+    {
+      "min": 18.73,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Max Strus enters the game for Sam Merrill"
+    },
+    {
+      "min": 18.97,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Max Strus misses 29-foot three point jumper"
+    },
+    {
+      "min": 19.03,
+      "home": 47,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Dean Wade offensive rebound"
+    },
+    {
+      "min": 19.03,
+      "home": 47,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Dean Wade makes two point shot"
+    },
+    {
+      "min": 19.25,
+      "home": 50,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes 22-foot three point jumper (Jamal Shead assists)"
+    },
+    {
+      "min": 19.55,
+      "home": 50,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jamison Battle shooting foul"
+    },
+    {
+      "min": 19.55,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "James Harden makes free throw 1 of 2"
+    },
+    {
+      "min": 19.55,
+      "home": 50,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes enters the game for Jamison Battle"
+    },
+    {
+      "min": 19.55,
+      "home": 50,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "James Harden makes free throw 2 of 2"
+    },
+    {
+      "min": 19.92,
+      "home": 50,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes misses two point shot"
+    },
+    {
+      "min": 19.93,
+      "home": 50,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Raptors offensive team rebound"
+    },
+    {
+      "min": 19.93,
+      "home": 50,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden loose ball foul"
+    },
+    {
+      "min": 19.93,
+      "home": 51,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes free throw 1 of 2"
+    },
+    {
+      "min": 19.93,
+      "home": 51,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for Dean Wade"
+    },
+    {
+      "min": 19.93,
+      "home": 51,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley enters the game for Jarrett Allen"
+    },
+    {
+      "min": 19.93,
+      "home": 52,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes free throw 2 of 2"
+    },
+    {
+      "min": 20.17,
+      "home": 52,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 10-foot two point shot"
+    },
+    {
+      "min": 20.38,
+      "home": 55,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "RJ Barrett makes 26-foot three point jumper (Scottie Barnes assists)"
+    },
+    {
+      "min": 20.68,
+      "home": 55,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 20.68,
+      "home": 55,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Sam Merrill enters the game for Jaylon Tyson"
+    },
+    {
+      "min": 20.87,
+      "home": 55,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Max Strus misses two point shot"
+    },
+    {
+      "min": 20.92,
+      "home": 55,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes defensive rebound"
+    },
+    {
+      "min": 21.12,
+      "home": 55,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "RJ Barrett lost ball turnover (Sam Merrill steals)"
+    },
+    {
+      "min": 21.28,
+      "home": 55,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell bad pass\nturnover (Jamal Shead steals)"
+    },
+    {
+      "min": 21.33,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes 27-foot three point jumper (Jamal Shead assists)"
+    },
+    {
+      "min": 21.48,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": true,
+      "text": "James Harden makes driving layup"
+    },
+    {
+      "min": 21.95,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "RJ Barrett misses 10-foot two point shot"
+    },
+    {
+      "min": 22.02,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden defensive rebound"
+    },
+    {
+      "min": 22.25,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes blocks Sam Merrill 's 5-foot driving layup"
+    },
+    {
+      "min": 22.25,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 22.25,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Dennis Schroder enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 22.35,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden misses 26-foot three point jumper"
+    },
+    {
+      "min": 22.42,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "RJ Barrett defensive rebound"
+    },
+    {
+      "min": 22.5,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes misses 25-foot running jump shot"
+    },
+    {
+      "min": 22.53,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "James Harden defensive rebound"
+    },
+    {
+      "min": 22.7,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Dennis Schroder misses 12-foot pullup jump shot"
+    },
+    {
+      "min": 22.75,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Evan Mobley offensive rebound"
+    },
+    {
+      "min": 22.9,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Sam Merrill misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 22.97,
+      "home": 58,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "RJ Barrett defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": true,
+      "text": "Jamal Shead makes 26-foot three point jumper (Scottie Barnes assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "RJ Barrett kicked ball violation"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili enters the game for Jamal Shead"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for Dennis Schroder"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "A.J. Lawson enters the game for RJ Barrett"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Max Strus misses 26-foot three point jumper"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Murray-Boyles defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Scottie Barnes bad pass\nturnover (James Harden steals)"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Donovan Mitchell misses heave jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jakob Poeltl enters the game for A.J. Lawson"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen enters the game for Sam Merrill"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jamal Shead enters the game for Sandro Mamukelashvili"
+    },
+    {
+      "min": 24.0,
+      "home": 61,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett enters the game for Collin Murray-Boyles"
+    },
+    {
+      "min": 24.3,
+      "home": 61,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Ja'Kobe Walter misses 26-foot three point jumper"
+    },
+    {
+      "min": 24.37,
+      "home": 61,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett offensive rebound"
+    },
+    {
+      "min": 24.38,
+      "home": 61,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett misses 26-foot three point jumper"
+    },
+    {
+      "min": 24.42,
+      "home": 61,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jakob Poeltl offensive rebound"
+    },
+    {
+      "min": 24.52,
+      "home": 63,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes 10-foot driving floating jump shot"
+    },
+    {
+      "min": 24.82,
+      "home": 63,
+      "away": 53,
+      "period": 3,
+      "scoring": true,
+      "text": "Jarrett Allen makes 7-foot two point shot (Max Strus assists)"
+    },
+    {
+      "min": 25.22,
+      "home": 63,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Ja'Kobe Walter misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 25.27,
+      "home": 63,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 25.45,
+      "home": 63,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden bad pass\nturnover (Jakob Poeltl steals)"
+    },
+    {
+      "min": 25.5,
+      "home": 63,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus shooting foul"
+    },
+    {
+      "min": 25.5,
+      "home": 64,
+      "away": 53,
+      "period": 3,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes free throw 1 of 2"
+    },
+    {
+      "min": 25.5,
+      "home": 65,
+      "away": 53,
+      "period": 3,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes free throw 2 of 2"
+    },
+    {
+      "min": 25.75,
+      "home": 65,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 25.8,
+      "home": 65,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Ja'Kobe Walter defensive rebound"
+    },
+    {
+      "min": 25.93,
+      "home": 65,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett misses two point shot"
+    },
+    {
+      "min": 25.97,
+      "home": 65,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus defensive rebound"
+    },
+    {
+      "min": 26.1,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": true,
+      "text": "Evan Mobley makes 25-foot three point jumper (James Harden assists)"
+    },
+    {
+      "min": 26.4,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett misses 26-foot three point jumper"
+    },
+    {
+      "min": 26.43,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 26.52,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen misses running layup"
+    },
+    {
+      "min": 26.55,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett defensive rebound"
+    },
+    {
+      "min": 26.63,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jamal Shead misses 23-foot three point jumper"
+    },
+    {
+      "min": 26.7,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden defensive rebound"
+    },
+    {
+      "min": 26.77,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jamal Shead personal foul"
+    },
+    {
+      "min": 26.77,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles enters the game for Jamal Shead"
+    },
+    {
+      "min": 26.88,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jakob Poeltl blocks Evan Mobley 's 5-foot two point shot"
+    },
+    {
+      "min": 26.93,
+      "home": 65,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles defensive rebound"
+    },
+    {
+      "min": 27.15,
+      "home": 67,
+      "away": 56,
+      "period": 3,
+      "scoring": true,
+      "text": "Scottie Barnes makes 11-foot turnaround jump shot"
+    },
+    {
+      "min": 27.42,
+      "home": 67,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley misses 5-foot two point shot"
+    },
+    {
+      "min": 27.43,
+      "home": 67,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 27.45,
+      "home": 67,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Jarrett Allen makes two point shot"
+    },
+    {
+      "min": 27.65,
+      "home": 67,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell shooting foul"
+    },
+    {
+      "min": 27.65,
+      "home": 68,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes free throw 1 of 2"
+    },
+    {
+      "min": 27.65,
+      "home": 69,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes free throw 2 of 2"
+    },
+    {
+      "min": 27.93,
+      "home": 69,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "Max Strus misses 12-foot two point shot"
+    },
+    {
+      "min": 27.97,
+      "home": 69,
+      "away": 58,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett defensive rebound"
+    },
+    {
+      "min": 28.1,
+      "home": 71,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Jakob Poeltl makes reverse layup (RJ Barrett assists)"
+    },
+    {
+      "min": 28.37,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Jarrett Allen makes 1-foot layup (Max Strus assists)"
+    },
+    {
+      "min": 28.67,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles offensive foul turnover"
+    },
+    {
+      "min": 28.67,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles offensive foul"
+    },
+    {
+      "min": 28.67,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Merrill enters the game for Jarrett Allen"
+    },
+    {
+      "min": 28.67,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylon Tyson enters the game for Donovan Mitchell"
+    },
+    {
+      "min": 28.8,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylon Tyson misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 28.85,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylon Tyson offensive rebound"
+    },
+    {
+      "min": 28.87,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Ja'Kobe Walter shooting foul"
+    },
+    {
+      "min": 28.87,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Raptors Full timeout"
+    },
+    {
+      "min": 28.87,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "A.J. Lawson enters the game for Scottie Barnes"
+    },
+    {
+      "min": 28.87,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley misses free throw 1 of 2"
+    },
+    {
+      "min": 28.87,
+      "home": 71,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 28.87,
+      "home": 71,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Evan Mobley makes free throw 2 of 2"
+    },
+    {
+      "min": 29.12,
+      "home": 74,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "A.J. Lawson makes 26-foot three point jumper (Collin Murray-Boyles assists)"
+    },
+    {
+      "min": 29.27,
+      "home": 74,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Evan Mobley makes dunk (Jaylon Tyson assists)"
+    },
+    {
+      "min": 29.53,
+      "home": 74,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "A.J. Lawson misses 22-foot three point jumper"
+    },
+    {
+      "min": 29.57,
+      "home": 74,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylon Tyson defensive rebound"
+    },
+    {
+      "min": 29.75,
+      "home": 74,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylon Tyson misses 23-foot three point jumper"
+    },
+    {
+      "min": 29.78,
+      "home": 74,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Merrill offensive rebound"
+    },
+    {
+      "min": 29.85,
+      "home": 74,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Merrill out of bounds lost ball turnover"
+    },
+    {
+      "min": 30.03,
+      "home": 76,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "RJ Barrett makes 1-foot two point shot"
+    },
+    {
+      "min": 30.03,
+      "home": 76,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Merrill shooting foul"
+    },
+    {
+      "min": 30.03,
+      "home": 76,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder enters the game for Max Strus"
+    },
+    {
+      "min": 30.03,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "RJ Barrett makes free throw 1 of 1"
+    },
+    {
+      "min": 30.27,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles kicked ball violation"
+    },
+    {
+      "min": 30.3,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "James Harden bad pass\nturnover (Collin Murray-Boyles steals)"
+    },
+    {
+      "min": 30.33,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Evan Mobley shooting foul"
+    },
+    {
+      "min": 30.33,
+      "home": 78,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes free throw 2 of 2"
+    },
+    {
+      "min": 30.33,
+      "home": 78,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Raptors offensive team rebound"
+    },
+    {
+      "min": 30.33,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles misses free throw 1 of 2"
+    },
+    {
+      "min": 30.48,
+      "home": 78,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Ja'Kobe Walter shooting foul"
+    },
+    {
+      "min": 30.48,
+      "home": 78,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Dennis Schroder makes free throw 2 of 2"
+    },
+    {
+      "min": 30.48,
+      "home": 78,
+      "away": 64,
+      "period": 3,
+      "scoring": true,
+      "text": "Dennis Schroder makes free throw 1 of 2"
+    },
+    {
+      "min": 30.72,
+      "home": 78,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett bad pass\nturnover (Dennis Schroder steals)"
+    },
+    {
+      "min": 30.9,
+      "home": 78,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder lost ball turnover (Ja'Kobe Walter steals)"
+    },
+    {
+      "min": 30.97,
+      "home": 80,
+      "away": 64,
+      "period": 3,
+      "scoring": true,
+      "text": "RJ Barrett makes running layup"
+    },
+    {
+      "min": 31.28,
+      "home": 80,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "James Harden makes 24-foot three point step back jumpshot"
+    },
+    {
+      "min": 31.28,
+      "home": 80,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles shooting foul"
+    },
+    {
+      "min": 31.28,
+      "home": 80,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Dean Wade enters the game for Evan Mobley"
+    },
+    {
+      "min": 31.28,
+      "home": 80,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Scottie Barnes enters the game for Ja'Kobe Walter"
+    },
+    {
+      "min": 31.28,
+      "home": 80,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili enters the game for Jakob Poeltl"
+    },
+    {
+      "min": 31.28,
+      "home": 80,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "James Harden makes free throw 1 of 1"
+    },
+    {
+      "min": 31.55,
+      "home": 80,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Dean Wade personal foul"
+    },
+    {
+      "min": 31.55,
+      "home": 80,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett misses free throw 1 of 2"
+    },
+    {
+      "min": 31.55,
+      "home": 80,
+      "away": 69,
+      "period": 3,
+      "scoring": false,
+      "text": "Raptors offensive team rebound"
+    },
+    {
+      "min": 31.55,
+      "home": 81,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "RJ Barrett makes free throw 2 of 2"
+    },
+    {
+      "min": 31.73,
+      "home": 81,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Dean Wade makes 23-foot three point jumper (James Harden assists)"
+    },
+    {
+      "min": 31.93,
+      "home": 83,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes 1-foot layup (Scottie Barnes assists)"
+    },
+    {
+      "min": 32.07,
+      "home": 83,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "A.J. Lawson shooting foul"
+    },
+    {
+      "min": 32.07,
+      "home": 83,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Dennis Schroder makes free throw 1 of 2"
+    },
+    {
+      "min": 32.07,
+      "home": 83,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell enters the game for James Harden"
+    },
+    {
+      "min": 32.07,
+      "home": 83,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Dennis Schroder makes free throw 2 of 2"
+    },
+    {
+      "min": 32.33,
+      "home": 85,
+      "away": 74,
+      "period": 3,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes 1-foot layup (Sandro Mamukelashvili assists)"
+    },
+    {
+      "min": 32.72,
+      "home": 85,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 10-foot driving floating jump shot"
+    },
+    {
+      "min": 32.98,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "Scottie Barnes makes 1-foot driving dunk"
+    },
+    {
+      "min": 33.18,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles blocks Jaylon Tyson 's 25-foot three point jumper"
+    },
+    {
+      "min": 33.2,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 33.2,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 33.2,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Ja'Kobe Walter enters the game for RJ Barrett"
+    },
+    {
+      "min": 33.2,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Thomas Bryant enters the game for Sam Merrill"
+    },
+    {
+      "min": 33.3,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Ja'Kobe Walter personal foul"
+    },
+    {
+      "min": 33.3,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 33.3,
+      "home": 87,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder misses free throw 1 of 2"
+    },
+    {
+      "min": 33.3,
+      "home": 87,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Dennis Schroder makes free throw 2 of 2"
+    },
+    {
+      "min": 33.52,
+      "home": 89,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes 12-foot floating jump shot (Scottie Barnes assists)"
+    },
+    {
+      "min": 33.88,
+      "home": 89,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles blocks Donovan Mitchell 's 11-foot pullup jump shot"
+    },
+    {
+      "min": 33.92,
+      "home": 89,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 34.07,
+      "home": 89,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 9-foot driving floating jump shot"
+    },
+    {
+      "min": 34.3,
+      "home": 89,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles out of bounds lost ball turnover"
+    },
+    {
+      "min": 34.3,
+      "home": 89,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett enters the game for Ja'Kobe Walter"
+    },
+    {
+      "min": 34.53,
+      "home": 89,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili blocks Dennis Schroder's two point shot"
+    },
+    {
+      "min": 34.62,
+      "home": 89,
+      "away": 81,
+      "period": 3,
+      "scoring": true,
+      "text": "Dean Wade makes two point shot"
+    },
+    {
+      "min": 34.62,
+      "home": 89,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Dean Wade offensive rebound"
+    },
+    {
+      "min": 34.85,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": true,
+      "text": "A.J. Lawson makes 27-foot three point jumper (Collin Murray-Boyles assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylon Tyson offensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Dennis Schroder misses 25-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Thomas Bryant offensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Donovan Mitchell misses driving floating jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles offensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "RJ Barrett misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Raptors offensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Murray-Boyles misses 1-foot tip shot"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Jakob Poeltl enters the game for Collin Murray-Boyles"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden enters the game for Dean Wade"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamal Shead enters the game for Sandro Mamukelashvili"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen enters the game for Thomas Bryant"
+    },
+    {
+      "min": 36.0,
+      "home": 92,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley enters the game for Jaylon Tyson"
+    },
+    {
+      "min": 36.37,
+      "home": 92,
+      "away": 83,
+      "period": 4,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 8-foot floating jump shot (Jarrett Allen assists)"
+    },
+    {
+      "min": 36.78,
+      "home": 94,
+      "away": 83,
+      "period": 4,
+      "scoring": true,
+      "text": "Scottie Barnes makes 12-foot fade away jump shot"
+    },
+    {
+      "min": 36.93,
+      "home": 94,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "A.J. Lawson personal foul"
+    },
+    {
+      "min": 37.1,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 9-foot floating jump shot"
+    },
+    {
+      "min": 37.53,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamal Shead misses 23-foot three point jumper"
+    },
+    {
+      "min": 37.6,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 37.77,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley misses 22-foot three point jumper"
+    },
+    {
+      "min": 37.83,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "A.J. Lawson defensive rebound"
+    },
+    {
+      "min": 37.92,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett misses 26-foot running jump shot"
+    },
+    {
+      "min": 37.97,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes offensive rebound"
+    },
+    {
+      "min": 38.13,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "A.J. Lawson bad pass\nturnover (Dennis Schroder steals)"
+    },
+    {
+      "min": 38.33,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes personal foul"
+    },
+    {
+      "min": 38.33,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Collin Murray-Boyles enters the game for A.J. Lawson"
+    },
+    {
+      "min": 38.42,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Collin Murray-Boyles shooting foul"
+    },
+    {
+      "min": 38.42,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 38.42,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley misses free throw 2 of 2"
+    },
+    {
+      "min": 38.42,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley misses free throw 1 of 2"
+    },
+    {
+      "min": 38.45,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett defensive rebound"
+    },
+    {
+      "min": 38.68,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamal Shead misses 23-foot three point jumper"
+    },
+    {
+      "min": 38.73,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden defensive rebound"
+    },
+    {
+      "min": 39.03,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses 27-foot three point step back jumpshot"
+    },
+    {
+      "min": 39.08,
+      "home": 94,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jakob Poeltl defensive rebound"
+    },
+    {
+      "min": 39.17,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "Scottie Barnes makes two point shot"
+    },
+    {
+      "min": 39.35,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell misses driving floating jump shot"
+    },
+    {
+      "min": 39.4,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamal Shead defensive rebound"
+    },
+    {
+      "min": 39.52,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Dennis Schroder personal foul"
+    },
+    {
+      "min": 39.52,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Dean Wade enters the game for Dennis Schroder"
+    },
+    {
+      "min": 39.7,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes misses 19-foot step back jumpshot"
+    },
+    {
+      "min": 39.73,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 39.82,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamal Shead personal foul"
+    },
+    {
+      "min": 39.82,
+      "home": 96,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Ja'Kobe Walter enters the game for Jamal Shead"
+    },
+    {
+      "min": 40.05,
+      "home": 96,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "Dean Wade makes 22-foot three point jumper (James Harden assists)"
+    },
+    {
+      "min": 40.13,
+      "home": 96,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Raptors Full timeout"
+    },
+    {
+      "min": 40.13,
+      "home": 96,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Sandro Mamukelashvili enters the game for Jakob Poeltl"
+    },
+    {
+      "min": 40.33,
+      "home": 96,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden blocks Sandro Mamukelashvili's hook shot"
+    },
+    {
+      "min": 40.38,
+      "home": 96,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen defensive rebound"
+    },
+    {
+      "min": 40.45,
+      "home": 96,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 22-foot running jump shot (James Harden assists)"
+    },
+    {
+      "min": 40.92,
+      "home": 96,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett misses 11-foot two point shot"
+    },
+    {
+      "min": 40.97,
+      "home": 96,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 41.1,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "min": 41.1,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Raptors Full timeout"
+    },
+    {
+      "min": 41.1,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamison Battle enters the game for Sandro Mamukelashvili"
+    },
+    {
+      "min": 41.38,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Collin Murray-Boyles misses layup"
+    },
+    {
+      "min": 41.43,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 41.82,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley misses 24-foot three point jumper"
+    },
+    {
+      "min": 41.85,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Ja'Kobe Walter defensive rebound"
+    },
+    {
+      "min": 41.95,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett offensive foul turnover"
+    },
+    {
+      "min": 41.95,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett offensive foul"
+    },
+    {
+      "min": 42.15,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Collin Murray-Boyles blocks Jarrett Allen 's 5-foot hook shot"
+    },
+    {
+      "min": 42.2,
+      "home": 96,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley offensive rebound"
+    },
+    {
+      "min": 42.2,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Evan Mobley makes dunk"
+    },
+    {
+      "min": 42.53,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes misses 6-foot two point shot"
+    },
+    {
+      "min": 42.57,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Dean Wade defensive rebound"
+    },
+    {
+      "min": 42.67,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Dean Wade misses 22-foot three point jumper"
+    },
+    {
+      "min": 42.72,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Collin Murray-Boyles defensive rebound"
+    },
+    {
+      "min": 42.72,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen personal foul"
+    },
+    {
+      "min": 42.72,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamal Shead enters the game for Jamison Battle"
+    },
+    {
+      "min": 42.93,
+      "home": 96,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Evan Mobley shooting foul"
+    },
+    {
+      "min": 42.93,
+      "home": 97,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes free throw 1 of 2"
+    },
+    {
+      "min": 42.93,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes free throw 2 of 2"
+    },
+    {
+      "min": 43.28,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden misses 8-foot two point shot"
+    },
+    {
+      "min": 43.32,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden offensive rebound"
+    },
+    {
+      "min": 43.35,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 26-foot three point jumper"
+    },
+    {
+      "min": 43.43,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Ja'Kobe Walter defensive rebound"
+    },
+    {
+      "min": 43.48,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Ja'Kobe Walter misses running pullup jump shot"
+    },
+    {
+      "min": 43.53,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen defensive rebound"
+    },
+    {
+      "min": 43.62,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes blocks James Harden 's 6-foot running layup"
+    },
+    {
+      "min": 43.67,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden offensive rebound"
+    },
+    {
+      "min": 43.78,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 28-foot three point pullup jump shot"
+    },
+    {
+      "min": 43.83,
+      "home": 98,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Ja'Kobe Walter defensive rebound"
+    },
+    {
+      "min": 44.03,
+      "home": 100,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes 2-foot layup (Scottie Barnes assists)"
+    },
+    {
+      "min": 44.4,
+      "home": 100,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Evan Mobley makes dunk (Donovan Mitchell assists)"
+    },
+    {
+      "min": 44.82,
+      "home": 100,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes lost ball turnover (Evan Mobley steals)"
+    },
+    {
+      "min": 44.92,
+      "home": 100,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Donovan Mitchell makes running layup"
+    },
+    {
+      "min": 45.05,
+      "home": 100,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Raptors Full timeout"
+    },
+    {
+      "min": 45.28,
+      "home": 100,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett bad pass\nturnover (Jarrett Allen steals)"
+    },
+    {
+      "min": 45.48,
+      "home": 100,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell bad pass\nturnover (Scottie Barnes steals)"
+    },
+    {
+      "min": 45.6,
+      "home": 100,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett misses 26-foot running jump shot"
+    },
+    {
+      "min": 45.67,
+      "home": 100,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell defensive rebound"
+    },
+    {
+      "min": 45.98,
+      "home": 100,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Ja'Kobe Walter blocks Donovan Mitchell 's 7-foot driving floating jump shot"
+    },
+    {
+      "min": 46.03,
+      "home": 100,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Ja'Kobe Walter defensive rebound"
+    },
+    {
+      "min": 46.1,
+      "home": 103,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Ja'Kobe Walter makes 25-foot three point jumper (Jamal Shead assists)"
+    },
+    {
+      "min": 46.3,
+      "home": 103,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Evan Mobley makes 23-foot three point jumper (James Harden assists)"
+    },
+    {
+      "min": 46.72,
+      "home": 103,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes misses driving floating jump shot"
+    },
+    {
+      "min": 46.72,
+      "home": 103,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes offensive rebound"
+    },
+    {
+      "min": 46.72,
+      "home": 103,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "James Harden shooting foul"
+    },
+    {
+      "min": 46.72,
+      "home": 103,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Scottie Barnes misses free throw 1 of 2"
+    },
+    {
+      "min": 46.72,
+      "home": 103,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Raptors offensive team rebound"
+    },
+    {
+      "min": 46.72,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Scottie Barnes makes free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Dean Wade misses 23-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "RJ Barrett misses 27-foot three point step back jumpshot"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Raptors offensive team rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "(00:15.6) [Cavaliers] REF-INITIATED REVIEW (CALL STANDS)"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Max Strus enters the game for Jarrett Allen"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 104,
+      "period": 4,
+      "scoring": true,
+      "text": "Evan Mobley makes two point shot (Max Strus assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Raptors Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarrett Allen enters the game for Max Strus"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamal Shead misses 17-foot fade away jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Raptors offensive team rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 104,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Jarrett Allen vs. Scottie Barnes (James Harden gains possession)"
+    },
+    {
+      "min": 48.43,
+      "home": 104,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "James Harden misses 15-foot fade away jump shot"
+    },
+    {
+      "min": 48.5,
+      "home": 104,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Scottie Barnes defensive rebound"
+    },
+    {
+      "min": 48.68,
+      "home": 106,
+      "away": 104,
+      "period": 5,
+      "scoring": true,
+      "text": "Collin Murray-Boyles makes 16-foot jumper (Jamal Shead assists)"
+    },
+    {
+      "min": 49.07,
+      "home": 106,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Donovan Mitchell misses 17-foot pullup jump shot"
+    },
+    {
+      "min": 49.15,
+      "home": 106,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Scottie Barnes defensive rebound"
+    },
+    {
+      "min": 49.32,
+      "home": 106,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "RJ Barrett misses 26-foot three point jumper"
+    },
+    {
+      "min": 49.35,
+      "home": 106,
+      "away": 104,
+      "period": 5,
+      "scoring": false,
+      "text": "Jarrett Allen defensive rebound"
+    },
+    {
+      "min": 49.48,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": true,
+      "text": "James Harden makes driving layup (Evan Mobley assists)"
+    },
+    {
+      "min": 49.93,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Scottie Barnes misses driving floating jump shot"
+    },
+    {
+      "min": 49.97,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 50.3,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Dean Wade misses 23-foot three point jumper"
+    },
+    {
+      "min": 50.35,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "James Harden offensive rebound"
+    },
+    {
+      "min": 50.58,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Donovan Mitchell misses driving floating jump shot"
+    },
+    {
+      "min": 50.6,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Jarrett Allen offensive rebound"
+    },
+    {
+      "min": 50.7,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Dean Wade offensive foul turnover"
+    },
+    {
+      "min": 50.7,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Dean Wade offensive foul"
+    },
+    {
+      "min": 50.7,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Raptors Coach's Challenge"
+    },
+    {
+      "min": 50.7,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "(02:18) [Raptors] COACH'S CHALLENGE (CALL OVERTURNED) [Raptors] retain their timeout"
+    },
+    {
+      "min": 50.9,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "RJ Barrett misses driving floating jump shot"
+    },
+    {
+      "min": 50.93,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "Collin Murray-Boyles offensive rebound"
+    },
+    {
+      "min": 51.0,
+      "home": 106,
+      "away": 106,
+      "period": 5,
+      "scoring": false,
+      "text": "RJ Barrett out of bounds bad pass turnover"
+    },
+    {
+      "min": 51.4,
+      "home": 106,
+      "away": 108,
+      "period": 5,
+      "scoring": true,
+      "text": "James Harden makes 12-foot pullup jump shot (Donovan Mitchell assists)"
+    },
+    {
+      "min": 51.58,
+      "home": 108,
+      "away": 108,
+      "period": 5,
+      "scoring": true,
+      "text": "Scottie Barnes makes 8-foot driving floating jump shot (Jamal Shead assists)"
+    },
+    {
+      "min": 51.97,
+      "home": 108,
+      "away": 108,
+      "period": 5,
+      "scoring": false,
+      "text": "James Harden misses 28-foot three point pullup jump shot"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 108,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley offensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 108,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley bad pass\nturnover (Scottie Barnes steals)"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 108,
+      "period": 5,
+      "scoring": false,
+      "text": "Raptors offensive team rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 108,
+      "period": 5,
+      "scoring": false,
+      "text": "Donovan Mitchell blocks Collin Murray-Boyles 's 1-foot running layup"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 108,
+      "period": 5,
+      "scoring": false,
+      "text": "Ja'Kobe Walter misses driving floating jump shot"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 108,
+      "period": 5,
+      "scoring": false,
+      "text": "Jarrett Allen defensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 110,
+      "period": 5,
+      "scoring": true,
+      "text": "Donovan Mitchell makes 2-foot two point shot"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Raptors Full timeout"
+    },
+    {
+      "min": 53.0,
+      "home": 108,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Jarrett Allen shooting foul"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": true,
+      "text": "Jamal Shead makes free throw 1 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Jamal Shead misses free throw 2 of 2"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley defensive rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Scottie Barnes personal take foul"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Dennis Schroder enters the game for Dean Wade"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "A.J. Lawson enters the game for Jamal Shead"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Max Strus enters the game for Jarrett Allen"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley out of bounds lost ball turnover"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Jarrett Allen enters the game for Dennis Schroder"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Jamal Shead enters the game for A.J. Lawson"
+    },
+    {
+      "min": 53.0,
+      "home": 109,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Dean Wade enters the game for Max Strus"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 110,
+      "period": 5,
+      "scoring": true,
+      "text": "RJ Barrett makes 29-foot three pointer (Scottie Barnes assists)"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Cavaliers Full timeout"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Max Strus enters the game for Jarrett Allen"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Cavaliers offensive team rebound"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "Evan Mobley misses 28-foot three point jumper"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "End of the 1st  Overtime"
+    },
+    {
+      "min": 53.0,
+      "home": 112,
+      "away": 110,
+      "period": 5,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Reverse Dunk Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen makes 1-foot reverse dunk (Evan Mobley assists)"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter misses 22-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley makes free throw 2 of 2"
+    },
+    {
+      "x": 39,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead makes 27-foot three point jumper (Jakob Poeltl assists)"
+    },
+    {
+      "x": 26,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "CLE",
+      "text": "James Harden makes two point shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 1-foot dunk (RJ Barrett assists)"
+    },
+    {
+      "x": 49,
+      "y": 7,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter misses 24-foot running jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "TOR",
+      "text": "RJ Barrett makes two point shot"
+    },
+    {
+      "x": 31,
+      "y": 27,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses 24-foot three point jumper"
+    },
+    {
+      "x": 22,
+      "y": 29,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 28-foot three point pullup jump shot"
+    },
+    {
+      "x": 7,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus makes 26-foot three point jumper (Evan Mobley assists)"
+    },
+    {
+      "x": 39,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett makes 28-foot three point jumper (Scottie Barnes assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen misses free throw 2 of 2"
+    },
+    {
+      "x": 16,
+      "y": 18,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses 20-foot step back jumpshot"
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "TOR",
+      "text": "Jamison Battle makes 25-foot running jump shot (Scottie Barnes assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes driving layup (James Harden assists)"
+    },
+    {
+      "x": 31,
+      "y": 13,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 13-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 3-foot two point shot"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "TOR",
+      "text": "Jamison Battle misses layup"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill misses 23-foot three point jumper"
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes 26-foot three point jumper (RJ Barrett assists)"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Hook Turnaround Bank",
+      "team": "CLE",
+      "text": "Jarrett Allen makes 1-foot two point shot (Sam Merrill assists)"
+    },
+    {
+      "x": 34,
+      "y": 25,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill makes 12-foot fade away jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes two point shot (Jamal Shead assists)"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus makes 23-foot three point jumper (James Harden assists)"
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 11-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "James Harden makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "James Harden makes free throw 2 of 2"
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 11,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 12-foot turnaround jump shot"
+    },
+    {
+      "x": 21,
+      "y": 12,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses 12-foot step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Hook Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes hook shot (Dennis Schroder assists)"
+    },
+    {
+      "x": 27,
+      "y": 11,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead misses 11-foot pullup jump shot"
+    },
+    {
+      "x": 29,
+      "y": 26,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes driving dunk (Scottie Barnes assists)"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "CLE",
+      "text": "Dennis Schroder misses two point shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "TOR",
+      "text": "RJ Barrett makes running layup (Scottie Barnes assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Dennis Schroder makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Dennis Schroder makes free throw 2 of 2"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "RJ Barrett makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "RJ Barrett makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "TOR",
+      "text": "Sandro Mamukelashvili makes 1-foot two point shot (Scottie Barnes assists)"
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill misses 28-foot three point jumper"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 4-foot driving floating jump shot"
+    },
+    {
+      "x": 28,
+      "y": 4,
+      "made": false,
+      "type": "Finger Roll Layup",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses finger roll layup"
+    },
+    {
+      "x": 25,
+      "y": 16,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses 15-foot pullup jump shot"
+    },
+    {
+      "x": 27,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett makes 24-foot three point jumper (Scottie Barnes assists)"
+    },
+    {
+      "x": 22,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 26-foot three point jumper"
+    },
+    {
+      "x": 40,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead misses 26-foot three point jumper"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses running pullup jump shot"
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Sandro Mamukelashvili misses 26-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Thomas Bryant misses 23-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses driving floating jump shot"
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes 26-foot three point jumper (Jaylon Tyson assists)"
+    },
+    {
+      "x": 30,
+      "y": 11,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "Jamison Battle makes 11-foot driving floating jump shot (Scottie Barnes assists)"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Jaylon Tyson makes 26-foot three point jumper (James Harden assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Scottie Barnes makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Scottie Barnes makes free throw 2 of 2"
+    },
+    {
+      "x": 49,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Jaylon Tyson misses 24-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": false,
+      "type": "Running Dunk Shot",
+      "team": "TOR",
+      "text": "Jarrett Allen blocks Jakob Poeltl's running dunk"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes running layup (Scottie Barnes assists)"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade misses 22-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes running dunk"
+    },
+    {
+      "x": 25,
+      "y": 9,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Scottie Barnes blocks James Harden 's 8-foot driving floating jump shot"
+    },
+    {
+      "x": 35,
+      "y": -1,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "CLE",
+      "text": "Jaylon Tyson makes 9-foot fade away jump shot (James Harden assists)"
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "made": true,
+      "type": "Hook Shot Bank",
+      "team": "CLE",
+      "text": "Jarrett Allen makes 4-foot two point shot (Jaylon Tyson assists)"
+    },
+    {
+      "x": 34,
+      "y": 2,
+      "made": false,
+      "type": "Floating Jump Shot",
+      "team": "TOR",
+      "text": "Jakob Poeltl misses 8-foot floating jump shot"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Jamison Battle misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Jarrett Allen makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "Jarrett Allen blocks Collin Murray-Boyles 's 4-foot driving floating jump shot"
+    },
+    {
+      "x": 9,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus misses 29-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "CLE",
+      "text": "Dean Wade makes two point shot"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes 22-foot three point jumper (Jamal Shead assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "James Harden makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "James Harden makes free throw 2 of 2"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 11,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 10-foot two point shot"
+    },
+    {
+      "x": 44,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett makes 26-foot three point jumper (Scottie Barnes assists)"
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus misses two point shot"
+    },
+    {
+      "x": 39,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes 27-foot three point jumper (Jamal Shead assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "James Harden makes driving layup"
+    },
+    {
+      "x": 30,
+      "y": 9,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 10-foot two point shot"
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Scottie Barnes blocks Sam Merrill 's 5-foot driving layup"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 26-foot three point jumper"
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses 25-foot running jump shot"
+    },
+    {
+      "x": 32,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder misses 12-foot pullup jump shot"
+    },
+    {
+      "x": 47,
+      "y": 14,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "Sam Merrill misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead makes 26-foot three point jumper (Scottie Barnes assists)"
+    },
+    {
+      "x": 47,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus misses 26-foot three point jumper"
+    },
+    {
+      "x": 20,
+      "y": 63,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses heave jump shot"
+    },
+    {
+      "x": 45,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter misses 26-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 26-foot three point jumper"
+    },
+    {
+      "x": 35,
+      "y": 1,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes 10-foot driving floating jump shot"
+    },
+    {
+      "x": 30,
+      "y": 6,
+      "made": true,
+      "type": "Driving Hook Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen makes 7-foot two point shot (Max Strus assists)"
+    },
+    {
+      "x": 39,
+      "y": 23,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes free throw 2 of 2"
+    },
+    {
+      "x": 43,
+      "y": 18,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 12,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses two point shot"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes 25-foot three point jumper (James Harden assists)"
+    },
+    {
+      "x": 49,
+      "y": 11,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 26-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen misses running layup"
+    },
+    {
+      "x": 49,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead misses 23-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 5,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "CLE",
+      "text": "Jakob Poeltl blocks Evan Mobley 's 5-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 12,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 11-foot turnaround jump shot"
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "made": false,
+      "type": "Turnaround Hook Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 5-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "CLE",
+      "text": "Jarrett Allen makes two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes free throw 2 of 2"
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "made": false,
+      "type": "Pullup Bank Jump Shot",
+      "team": "CLE",
+      "text": "Max Strus misses 12-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Reverse Layup Shot",
+      "team": "TOR",
+      "text": "Jakob Poeltl makes reverse layup (RJ Barrett assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "CLE",
+      "text": "Jarrett Allen makes 1-foot layup (Max Strus assists)"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "Jaylon Tyson misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "A.J. Lawson makes 26-foot three point jumper (Collin Murray-Boyles assists)"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes dunk (Jaylon Tyson assists)"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "A.J. Lawson misses 22-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Jaylon Tyson misses 23-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "TOR",
+      "text": "RJ Barrett makes 1-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "TOR",
+      "text": "RJ Barrett makes free throw 1 of 1"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Dennis Schroder makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Dennis Schroder makes free throw 1 of 2"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "TOR",
+      "text": "RJ Barrett makes running layup"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "James Harden makes 24-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "CLE",
+      "text": "James Harden makes free throw 1 of 1"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "RJ Barrett misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "RJ Barrett makes free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade makes 23-foot three point jumper (James Harden assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes 1-foot layup (Scottie Barnes assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Dennis Schroder makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Dennis Schroder makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes 1-foot layup (Sandro Mamukelashvili assists)"
+    },
+    {
+      "x": 36,
+      "y": 0,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 10-foot driving floating jump shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 1-foot driving dunk"
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Collin Murray-Boyles blocks Jaylon Tyson 's 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Dennis Schroder misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Dennis Schroder makes free throw 2 of 2"
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes 12-foot floating jump shot (Scottie Barnes assists)"
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Collin Murray-Boyles blocks Donovan Mitchell 's 11-foot pullup jump shot"
+    },
+    {
+      "x": 28,
+      "y": 9,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 9-foot driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "CLE",
+      "text": "Sandro Mamukelashvili blocks Dennis Schroder's two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "CLE",
+      "text": "Dean Wade makes two point shot"
+    },
+    {
+      "x": 21,
+      "y": 27,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "A.J. Lawson makes 27-foot three point jumper (Collin Murray-Boyles assists)"
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dennis Schroder misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses driving floating jump shot"
+    },
+    {
+      "x": 41,
+      "y": 22,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles misses 1-foot tip shot"
+    },
+    {
+      "x": 28,
+      "y": 8,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 8-foot floating jump shot (Jarrett Allen assists)"
+    },
+    {
+      "x": 37,
+      "y": 2,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 12-foot fade away jump shot"
+    },
+    {
+      "x": 30,
+      "y": 8,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 9-foot floating jump shot"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead misses 23-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 22-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 14,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 26-foot running jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "CLE",
+      "text": "Evan Mobley misses free throw 1 of 2"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead misses 23-foot three point jumper"
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 27-foot three point step back jumpshot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "TOR",
+      "text": "Scottie Barnes makes two point shot"
+    },
+    {
+      "x": 29,
+      "y": 10,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses driving floating jump shot"
+    },
+    {
+      "x": 32,
+      "y": 18,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses 19-foot step back jumpshot"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade makes 22-foot three point jumper (James Harden assists)"
+    },
+    {
+      "x": 25,
+      "y": 6,
+      "made": false,
+      "type": "Hook Shot",
+      "team": "TOR",
+      "text": "James Harden blocks Sandro Mamukelashvili's hook shot"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 22-foot running jump shot (James Harden assists)"
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "made": false,
+      "type": "Turnaround Bank Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 11-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes driving layup"
+    },
+    {
+      "x": 25,
+      "y": 5,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles misses layup"
+    },
+    {
+      "x": 48,
+      "y": 6,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 24-foot three point jumper"
+    },
+    {
+      "x": 30,
+      "y": -1,
+      "made": false,
+      "type": "Hook Shot",
+      "team": "CLE",
+      "text": "Collin Murray-Boyles blocks Jarrett Allen 's 5-foot hook shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Putback Dunk Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes dunk"
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses 6-foot two point shot"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade misses 22-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes free throw 2 of 2"
+    },
+    {
+      "x": 22,
+      "y": 8,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "CLE",
+      "text": "James Harden misses 8-foot two point shot"
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 26-foot three point jumper"
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter misses running pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 6,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "CLE",
+      "text": "Scottie Barnes blocks James Harden 's 6-foot running layup"
+    },
+    {
+      "x": 10,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 28-foot three point pullup jump shot"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes 2-foot layup (Scottie Barnes assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes dunk (Donovan Mitchell assists)"
+    },
+    {
+      "x": 27,
+      "y": 4,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes running layup"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 26-foot running jump shot"
+    },
+    {
+      "x": 28,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Ja'Kobe Walter blocks Donovan Mitchell 's 7-foot driving floating jump shot"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter makes 25-foot three point jumper (Jamal Shead assists)"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley makes 23-foot three point jumper (James Harden assists)"
+    },
+    {
+      "x": 24,
+      "y": 9,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Scottie Barnes misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Scottie Barnes makes free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade misses 23-foot three point jumper"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 11,
+      "y": 23,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 27-foot three point step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "CLE",
+      "text": "Evan Mobley makes two point shot (Max Strus assists)"
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "TOR",
+      "text": "Jamal Shead misses 17-foot fade away jump shot"
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 15-foot fade away jump shot"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "Collin Murray-Boyles makes 16-foot jumper (Jamal Shead assists)"
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses 17-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "CLE",
+      "text": "James Harden makes driving layup (Evan Mobley assists)"
+    },
+    {
+      "x": 23,
+      "y": 18,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes misses driving floating jump shot"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Dean Wade misses 23-foot three point jumper"
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "CLE",
+      "text": "Donovan Mitchell misses driving floating jump shot"
+    },
+    {
+      "x": 29,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett misses driving floating jump shot"
+    },
+    {
+      "x": 21,
+      "y": 12,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "James Harden makes 12-foot pullup jump shot (Donovan Mitchell assists)"
+    },
+    {
+      "x": 22,
+      "y": 8,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "Scottie Barnes makes 8-foot driving floating jump shot (Jamal Shead assists)"
+    },
+    {
+      "x": 34,
+      "y": 27,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "CLE",
+      "text": "James Harden misses 28-foot three point pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "TOR",
+      "text": "Donovan Mitchell blocks Collin Murray-Boyles 's 1-foot running layup"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "TOR",
+      "text": "Ja'Kobe Walter misses driving floating jump shot"
+    },
+    {
+      "x": 28,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "CLE",
+      "text": "Donovan Mitchell makes 2-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "TOR",
+      "text": "Jamal Shead makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "TOR",
+      "text": "Jamal Shead misses free throw 2 of 2"
+    },
+    {
+      "x": 21,
+      "y": 29,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "TOR",
+      "text": "RJ Barrett makes 29-foot three pointer (Scottie Barnes assists)"
+    },
+    {
+      "x": 24,
+      "y": 29,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "CLE",
+      "text": "Evan Mobley misses 28-foot three point jumper"
+    }
+  ],
+  "shot_zones": {
+    "TOR": {
+      "at_rim": {
+        "fgm": 16,
+        "fga": 21,
+        "pct": 76
+      },
+      "paint": {
+        "fgm": 9,
+        "fga": 23,
+        "pct": 39
+      },
+      "mid": {
+        "fgm": 21,
+        "fga": 26,
+        "pct": 81
+      },
+      "corner_3": {
+        "fgm": 1,
+        "fga": 11,
+        "pct": 9
+      },
+      "arc_3": {
+        "fgm": 12,
+        "fga": 29,
+        "pct": 41
+      }
+    },
+    "CLE": {
+      "at_rim": {
+        "fgm": 18,
+        "fga": 21,
+        "pct": 86
+      },
+      "paint": {
+        "fgm": 11,
+        "fga": 29,
+        "pct": 38
+      },
+      "mid": {
+        "fgm": 19,
+        "fga": 21,
+        "pct": 90
+      },
+      "corner_3": {
+        "fgm": 5,
+        "fga": 23,
+        "pct": 22
+      },
+      "arc_3": {
+        "fgm": 6,
+        "fga": 27,
+        "pct": 22
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

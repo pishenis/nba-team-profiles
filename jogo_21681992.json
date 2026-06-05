@@ -1,0 +1,6836 @@
+{
+  "game_id": "21681992",
+  "date": "2026-04-30",
+  "home": "ATL",
+  "away": "NYK",
+  "home_pts": 89,
+  "away_pts": 140,
+  "winner": "NYK",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "ATL": [
+        15,
+        21,
+        28,
+        25
+      ],
+      "NYK": [
+        40,
+        43,
+        34,
+        23
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "1:23",
+    "time_leading_away_fmt": "46:01",
+    "time_tied_fmt": "0:37",
+    "lead_changes": 2,
+    "ties": 1,
+    "best_run_home": {
+      "pts_home": 19,
+      "pts_away": 10,
+      "start_min": 27.07,
+      "end_min": 32.05
+    },
+    "best_run_away": {
+      "pts_away": 24,
+      "pts_home": 4,
+      "start_min": 12.0,
+      "end_min": 16.8
+    },
+    "max_consec_home": 11,
+    "max_consec_away": 16
+  },
+  "four_factors": {
+    "ATL": {
+      "efg": 0.348,
+      "tov": 0.291,
+      "oreb": 0,
+      "ftr": 0.087,
+      "opp_efg": 0.823,
+      "opp_tov": 0.09,
+      "opp_oreb": 0.286,
+      "opp_ftr": 0.097
+    },
+    "NYK": {
+      "efg": 0.74,
+      "tov": 0.104,
+      "oreb": 0,
+      "ftr": 0.417,
+      "opp_efg": 0.398,
+      "opp_tov": 0.205,
+      "opp_oreb": 0.233,
+      "opp_ftr": 0.204
+    }
+  },
+  "misc": {
+    "ATL": {
+      "pts_paint": 38,
+      "pts_fb": 8,
+      "pts_2nd_chance": 14,
+      "pts_off_tov": 8
+    },
+    "NYK": {
+      "pts_paint": 66,
+      "pts_fb": 35,
+      "pts_2nd_chance": 17,
+      "pts_off_tov": 26
+    }
+  },
+  "hustle": {
+    "ATL": {
+      "deflections": 14,
+      "charges_drawn": 0,
+      "contested_shots": 37,
+      "contested_2pt": 18,
+      "contested_3pt": 19,
+      "loose_balls_recovered": 3,
+      "screen_assists": 7
+    },
+    "NYK": {
+      "deflections": 20,
+      "charges_drawn": 0,
+      "contested_shots": 46,
+      "contested_2pt": 27,
+      "contested_3pt": 19,
+      "loose_balls_recovered": 6,
+      "screen_assists": 7
+    }
+  },
+  "box_score": {
+    "ATL": [
+      {
+        "name": "D. Daniels",
+        "minutes": "15",
+        "pos": "G",
+        "starter": true,
+        "pts": 3,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -36,
+        "off_rating": 54.5,
+        "def_rating": 168.8,
+        "ts_pct": 0.375,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "5:38",
+        "mu_fga": 6,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.833,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 4
+      },
+      {
+        "name": "J. Johnson",
+        "minutes": "32",
+        "pos": "F",
+        "starter": true,
+        "pts": 21,
+        "reb": 8,
+        "oreb": 2,
+        "ast": 6,
+        "stl": 0,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 7,
+        "fga": 15,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 5,
+        "fta": 5,
+        "pf": 2,
+        "plus_minus": -43,
+        "off_rating": 91.3,
+        "def_rating": 155.9,
+        "ts_pct": 0.61,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "12:16",
+        "mu_fga": 12,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 3,
+        "mu_3pm": 3,
+        "mu_pts": 23,
+        "mu_ast": 2
+      },
+      {
+        "name": "O. Okongwu",
+        "minutes": "32",
+        "pos": "F",
+        "starter": true,
+        "pts": 4,
+        "reb": 6,
+        "oreb": 2,
+        "ast": 5,
+        "stl": 1,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": -38,
+        "off_rating": 94.2,
+        "def_rating": 149.3,
+        "ts_pct": 0.333,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "12:55",
+        "mu_fga": 10,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 4,
+        "mu_3pm": 2,
+        "mu_pts": 18,
+        "mu_ast": 9
+      },
+      {
+        "name": "N. Alexander-Walker",
+        "minutes": "29",
+        "pos": "G",
+        "starter": true,
+        "pts": 11,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 5,
+        "fgm": 3,
+        "fga": 8,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 4,
+        "fta": 6,
+        "pf": 3,
+        "plus_minus": -29,
+        "off_rating": 88.9,
+        "def_rating": 139.3,
+        "ts_pct": 0.517,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "11:44",
+        "mu_fga": 11,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.636,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 20,
+        "mu_ast": 3
+      },
+      {
+        "name": "C. McCollum",
+        "minutes": "23",
+        "pos": "G",
+        "starter": true,
+        "pts": 11,
+        "reb": 3,
+        "oreb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 4,
+        "fga": 13,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": -24,
+        "off_rating": 96.1,
+        "def_rating": 143.1,
+        "ts_pct": 0.396,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "9:41",
+        "mu_fga": 11,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.455,
+        "mu_3pa": 8,
+        "mu_3pm": 3,
+        "mu_pts": 15,
+        "mu_ast": 1
+      },
+      {
+        "name": "T. Bradley",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 0,
+        "plus_minus": 2,
+        "off_rating": 85.7,
+        "def_rating": 71.4,
+        "ts_pct": 1.33,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "3:07",
+        "mu_fga": 3,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 3,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Gueye",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -15,
+        "off_rating": 66.7,
+        "def_rating": 150,
+        "ts_pct": 0.333,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "2:59",
+        "mu_fga": 5,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 7,
+        "mu_ast": 2
+      },
+      {
+        "name": "B. Hield",
+        "minutes": "09",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -10,
+        "off_rating": 84.2,
+        "def_rating": 136.8,
+        "ts_pct": 1.25,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "3:26",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 1
+      },
+      {
+        "name": "C. Kispert",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 4,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 1,
+        "fga": 7,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": 5,
+        "off_rating": 116.7,
+        "def_rating": 103.4,
+        "ts_pct": 0.254,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "6:01",
+        "mu_fga": 6,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 12,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. Kuminga",
+        "minutes": "23",
+        "pos": "",
+        "starter": false,
+        "pts": 11,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 7,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 4,
+        "fta": 6,
+        "pf": 2,
+        "plus_minus": -44,
+        "off_rating": 74,
+        "def_rating": 165.3,
+        "ts_pct": 0.571,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "8:37",
+        "mu_fga": 6,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 2
+      },
+      {
+        "name": "A. Newell",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 4,
+        "off_rating": 84.6,
+        "def_rating": 53.8,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "2:54",
+        "mu_fga": 2,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "Z. Risacher",
+        "minutes": "16",
+        "pos": "",
+        "starter": false,
+        "pts": 8,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 9,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -2,
+        "off_rating": 109.4,
+        "def_rating": 112.1,
+        "ts_pct": 0.444,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "6:53",
+        "mu_fga": 7,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.714,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 10,
+        "mu_ast": 1
+      },
+      {
+        "name": "G. Vincent",
+        "minutes": "13",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -27,
+        "off_rating": 63,
+        "def_rating": 163,
+        "ts_pct": 0,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "4:53",
+        "mu_fga": 9,
+        "mu_fgm": 8,
+        "mu_fg_pct": 0.889,
+        "mu_3pa": 3,
+        "mu_3pm": 2,
+        "mu_pts": 20,
+        "mu_ast": 1
+      },
+      {
+        "name": "K. Wallace",
+        "minutes": "10",
+        "pos": "",
+        "starter": false,
+        "pts": 4,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 2,
+        "off_rating": 105.6,
+        "def_rating": 89.5,
+        "ts_pct": 0.4,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "4:01",
+        "mu_fga": 3,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Landale",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ],
+    "NYK": [
+      {
+        "name": "O. Anunoby",
+        "minutes": "27",
+        "pos": "F",
+        "starter": true,
+        "pts": 29,
+        "reb": 7,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 4,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 11,
+        "fga": 14,
+        "fg3m": 4,
+        "fg3a": 6,
+        "ftm": 3,
+        "fta": 5,
+        "pf": 0,
+        "plus_minus": 42,
+        "off_rating": 150.8,
+        "def_rating": 77,
+        "ts_pct": 0.895,
+        "deflections": 7,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": "9:53",
+        "mu_fga": 10,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. Hart",
+        "minutes": "27",
+        "pos": "G",
+        "starter": true,
+        "pts": 14,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 6,
+        "fga": 10,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 1,
+        "pf": 1,
+        "plus_minus": 35,
+        "off_rating": 153.4,
+        "def_rating": 93.1,
+        "ts_pct": 0.67,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "9:43",
+        "mu_fga": 14,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.143,
+        "mu_3pa": 8,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 5
+      },
+      {
+        "name": "K. Towns",
+        "minutes": "27",
+        "pos": "C",
+        "starter": true,
+        "pts": 12,
+        "reb": 11,
+        "oreb": 4,
+        "ast": 10,
+        "stl": 3,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 10,
+        "fta": 10,
+        "pf": 3,
+        "plus_minus": 35,
+        "off_rating": 150,
+        "def_rating": 86.7,
+        "ts_pct": 0.714,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": "9:37",
+        "mu_fga": 15,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.2,
+        "mu_3pa": 7,
+        "mu_3pm": 2,
+        "mu_pts": 8,
+        "mu_ast": 3
+      },
+      {
+        "name": "M. Bridges",
+        "minutes": "27",
+        "pos": "G",
+        "starter": true,
+        "pts": 24,
+        "reb": 5,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 10,
+        "fga": 12,
+        "fg3m": 2,
+        "fg3a": 2,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": 40,
+        "off_rating": 154.4,
+        "def_rating": 81.4,
+        "ts_pct": 0.932,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "9:48",
+        "mu_fga": 5,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 5,
+        "mu_ast": 3
+      },
+      {
+        "name": "J. Brunson",
+        "minutes": "29",
+        "pos": "G",
+        "starter": true,
+        "pts": 17,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 8,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 6,
+        "fga": 12,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 2,
+        "plus_minus": 41,
+        "off_rating": 154.1,
+        "def_rating": 85.5,
+        "ts_pct": 0.618,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "10:04",
+        "mu_fga": 8,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 15,
+        "mu_ast": 2
+      },
+      {
+        "name": "J. Alvarado",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 12,
+        "off_rating": 153.3,
+        "def_rating": 68.8,
+        "ts_pct": 0.75,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "2:51",
+        "mu_fga": 3,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Clarkson",
+        "minutes": "11",
+        "pos": "",
+        "starter": false,
+        "pts": 7,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 3,
+        "fta": 4,
+        "pf": 0,
+        "plus_minus": 22,
+        "off_rating": 148,
+        "def_rating": 57.7,
+        "ts_pct": 0.608,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "4:03",
+        "mu_fga": 6,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 0
+      },
+      {
+        "name": "P. Dadiet",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -2,
+        "off_rating": 71.4,
+        "def_rating": 85.7,
+        "ts_pct": 0.625,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "3:07",
+        "mu_fga": 5,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.2,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Diawara",
+        "minutes": "12",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -2,
+        "off_rating": 95.8,
+        "def_rating": 108.7,
+        "ts_pct": 0.25,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "4:54",
+        "mu_fga": 3,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 5,
+        "mu_ast": 1
+      },
+      {
+        "name": "A. Hukporti",
+        "minutes": "12",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 3,
+        "fta": 6,
+        "pf": 3,
+        "plus_minus": -4,
+        "off_rating": 96.2,
+        "def_rating": 120.8,
+        "ts_pct": 0.568,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "4:56",
+        "mu_fga": 2,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 5
+      },
+      {
+        "name": "T. Kolek",
+        "minutes": "12",
+        "pos": "",
+        "starter": false,
+        "pts": 6,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 1,
+        "plus_minus": -2,
+        "off_rating": 95.8,
+        "def_rating": 108.7,
+        "ts_pct": 0.51,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "4:54",
+        "mu_fga": 4,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 7,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. McBride",
+        "minutes": "10",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 4,
+        "plus_minus": 13,
+        "off_rating": 145,
+        "def_rating": 76.2,
+        "ts_pct": 0.5,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "3:08",
+        "mu_fga": 4,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.25,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 3,
+        "mu_ast": 0
+      },
+      {
+        "name": "M. Robinson",
+        "minutes": "09",
+        "pos": "",
+        "starter": false,
+        "pts": 6,
+        "reb": 3,
+        "oreb": 2,
+        "ast": 0,
+        "stl": 0,
+        "blk": 2,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 29,
+        "off_rating": 205.3,
+        "def_rating": 47.6,
+        "ts_pct": 1,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "3:14",
+        "mu_fga": 7,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.286,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 2
+      },
+      {
+        "name": "L. Shamet",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -4,
+        "off_rating": 96.6,
+        "def_rating": 114.3,
+        "ts_pct": 0.5,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "6:02",
+        "mu_fga": 4,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 3,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. Sochan",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 4,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 0,
+        "off_rating": 123.1,
+        "def_rating": 123.1,
+        "ts_pct": 0.667,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "2:53",
+        "mu_fga": 2,
+        "mu_fgm": 2,
+        "mu_fg_pct": 1,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 0
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns vs. Onyeka Okongwu (Josh Hart gains possession)"
+    },
+    {
+      "min": 0.32,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 0.72,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker bad pass\nturnover (Jalen Brunson steals)"
+    },
+    {
+      "min": 0.82,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 26-foot running jump shot"
+    },
+    {
+      "min": 0.87,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Onyeka Okongwu defensive rebound"
+    },
+    {
+      "min": 0.97,
+      "home": 0,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "CJ McCollum out of bounds lost ball turnover"
+    },
+    {
+      "min": 1.23,
+      "home": 0,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes 1-foot dunk (Jalen Brunson assists)"
+    },
+    {
+      "min": 1.42,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Johnson makes dunk (Onyeka Okongwu assists)"
+    },
+    {
+      "min": 1.68,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart bad pass\nturnover (Dyson Daniels steals)"
+    },
+    {
+      "min": 1.88,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Josh Hart shooting foul"
+    },
+    {
+      "min": 1.88,
+      "home": 3,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Nickeil Alexander-Walker makes free throw 1 of 2"
+    },
+    {
+      "min": 1.88,
+      "home": 4,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Nickeil Alexander-Walker makes free throw 2 of 2"
+    },
+    {
+      "min": 2.28,
+      "home": 4,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 2.5,
+      "home": 6,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Onyeka Okongwu makes 1-foot layup (Nickeil Alexander-Walker assists)"
+    },
+    {
+      "min": 2.67,
+      "home": 6,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Johnson blocks Josh Hart's driving layup"
+    },
+    {
+      "min": 2.7,
+      "home": 6,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Johnson defensive rebound"
+    },
+    {
+      "min": 2.78,
+      "home": 9,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Nickeil Alexander-Walker makes 22-foot running jump shot (Jalen Johnson assists)"
+    },
+    {
+      "min": 3.12,
+      "home": 9,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes 17-foot jumper"
+    },
+    {
+      "min": 3.4,
+      "home": 9,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Dyson Daniels misses 23-foot three point jumper"
+    },
+    {
+      "min": 3.45,
+      "home": 9,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 3.53,
+      "home": 9,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes running layup (OG Anunoby assists)"
+    },
+    {
+      "min": 3.82,
+      "home": 11,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Johnson makes 13-foot pullup jump shot"
+    },
+    {
+      "min": 4.17,
+      "home": 11,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 4.38,
+      "home": 11,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "CJ McCollum misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 4.42,
+      "home": 11,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 4.6,
+      "home": 11,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses driving floating jump shot"
+    },
+    {
+      "min": 4.67,
+      "home": 11,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Onyeka Okongwu defensive rebound"
+    },
+    {
+      "min": 4.8,
+      "home": 11,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Onyeka Okongwu misses 25-foot three point jumper"
+    },
+    {
+      "min": 4.85,
+      "home": 11,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 5.08,
+      "home": 11,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 5.08,
+      "home": 11,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Hawks Full timeout"
+    },
+    {
+      "min": 5.08,
+      "home": 11,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Mouhamed Gueye enters the game for Onyeka Okongwu"
+    },
+    {
+      "min": 5.08,
+      "home": 11,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Gabe Vincent enters the game for CJ McCollum"
+    },
+    {
+      "min": 5.27,
+      "home": 11,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Mouhamed Gueye misses 24-foot three point jumper"
+    },
+    {
+      "min": 5.3,
+      "home": 11,
+      "away": 15,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 5.73,
+      "home": 11,
+      "away": 17,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 5.9,
+      "home": 11,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns blocks Dyson Daniels 's 3-foot layup"
+    },
+    {
+      "min": 5.92,
+      "home": 11,
+      "away": 17,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 6.0,
+      "home": 11,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes two point shot (Jalen Brunson assists)"
+    },
+    {
+      "min": 6.22,
+      "home": 11,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges personal foul"
+    },
+    {
+      "min": 6.33,
+      "home": 11,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Dyson Daniels bad pass\nturnover (OG Anunoby steals)"
+    },
+    {
+      "min": 6.42,
+      "home": 11,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson misses 23-foot running jump shot"
+    },
+    {
+      "min": 6.47,
+      "home": 11,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker defensive rebound"
+    },
+    {
+      "min": 6.6,
+      "home": 11,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker bad pass\nturnover (OG Anunoby steals)"
+    },
+    {
+      "min": 6.67,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Josh Hart makes running layup (OG Anunoby assists)"
+    },
+    {
+      "min": 7.0,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Johnson misses 10-foot turnaround jump shot"
+    },
+    {
+      "min": 7.07,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Mouhamed Gueye offensive rebound"
+    },
+    {
+      "min": 7.12,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for Mikal Bridges"
+    },
+    {
+      "min": 7.12,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride enters the game for OG Anunoby"
+    },
+    {
+      "min": 7.12,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jonathan Kuminga enters the game for Nickeil Alexander-Walker"
+    },
+    {
+      "min": 7.12,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns vs. Mouhamed Gueye (Miles McBride gains possession)"
+    },
+    {
+      "min": 7.18,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Mouhamed Gueye lost ball turnover (Karl-Anthony Towns steals)"
+    },
+    {
+      "min": 7.57,
+      "home": 11,
+      "away": 23,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes 9-foot two point shot"
+    },
+    {
+      "min": 7.83,
+      "home": 13,
+      "away": 23,
+      "period": 1,
+      "scoring": true,
+      "text": "Mouhamed Gueye makes alley oop dunk (Jalen Johnson assists)"
+    },
+    {
+      "min": 7.98,
+      "home": 13,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Jonathan Kuminga blocks Josh Hart's driving layup"
+    },
+    {
+      "min": 8.0,
+      "home": 13,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 8.0,
+      "home": 13,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Onyeka Okongwu enters the game for Mouhamed Gueye"
+    },
+    {
+      "min": 8.15,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes two point shot (Josh Hart assists)"
+    },
+    {
+      "min": 8.47,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Dyson Daniels lost ball turnover (Jalen Brunson steals)"
+    },
+    {
+      "min": 8.68,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Dyson Daniels personal foul"
+    },
+    {
+      "min": 8.68,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 8.68,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Josh Hart"
+    },
+    {
+      "min": 8.68,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 8.68,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "CJ McCollum enters the game for Gabe Vincent"
+    },
+    {
+      "min": 8.82,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 8.87,
+      "home": 13,
+      "away": 25,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson offensive rebound"
+    },
+    {
+      "min": 8.93,
+      "home": 13,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes 11-foot two point shot (Jalen Brunson assists)"
+    },
+    {
+      "min": 9.13,
+      "home": 13,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride personal foul"
+    },
+    {
+      "min": 9.27,
+      "home": 13,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Onyeka Okongwu lost ball turnover (Miles McBride steals)"
+    },
+    {
+      "min": 9.4,
+      "home": 13,
+      "away": 29,
+      "period": 1,
+      "scoring": true,
+      "text": "Mitchell Robinson makes alley oop layup (Jordan Clarkson assists)"
+    },
+    {
+      "min": 9.65,
+      "home": 13,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Johnson misses driving floating jump shot"
+    },
+    {
+      "min": 9.7,
+      "home": 13,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 9.82,
+      "home": 13,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "Miles McBride makes 25-foot running pullup jump shot"
+    },
+    {
+      "min": 9.98,
+      "home": 15,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "CJ McCollum makes 10-foot driving floating jump shot"
+    },
+    {
+      "min": 10.17,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": true,
+      "text": "OG Anunoby makes driving layup (Jalen Brunson assists)"
+    },
+    {
+      "min": 10.2,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Hawks Full timeout"
+    },
+    {
+      "min": 10.2,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker enters the game for Jalen Johnson"
+    },
+    {
+      "min": 10.42,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "CJ McCollum lost ball turnover (Miles McBride steals)"
+    },
+    {
+      "min": 10.63,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson misses 5-foot floating jump shot"
+    },
+    {
+      "min": 10.67,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Onyeka Okongwu defensive rebound"
+    },
+    {
+      "min": 10.75,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson blocks CJ McCollum 's 6-foot running layup"
+    },
+    {
+      "min": 10.77,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 10.93,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Clarkson misses 24-foot three point jumper"
+    },
+    {
+      "min": 10.97,
+      "home": 15,
+      "away": 34,
+      "period": 1,
+      "scoring": false,
+      "text": "Mitchell Robinson offensive rebound"
+    },
+    {
+      "min": 10.97,
+      "home": 15,
+      "away": 36,
+      "period": 1,
+      "scoring": true,
+      "text": "Mitchell Robinson makes tip shot"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 36,
+      "period": 1,
+      "scoring": false,
+      "text": "Miles McBride personal take foul"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 36,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges enters the game for Miles McBride"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 36,
+      "period": 1,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 36,
+      "period": 1,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 36,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 38,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 38,
+      "period": 1,
+      "scoring": false,
+      "text": "Mikal Bridges blocks CJ McCollum's driving layup"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 38,
+      "period": 1,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 40,
+      "period": 1,
+      "scoring": true,
+      "text": "Mikal Bridges makes 11-foot jumper (Jalen Brunson assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 40,
+      "period": 1,
+      "scoring": false,
+      "text": "Hawks offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 40,
+      "period": 1,
+      "scoring": false,
+      "text": "Dyson Daniels misses heave jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 40,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for Jalen Brunson"
+    },
+    {
+      "min": 12.0,
+      "home": 15,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Buddy Hield enters the game for Dyson Daniels"
+    },
+    {
+      "min": 12.25,
+      "home": 15,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker bad pass\nturnover (Jose Alvarado steals)"
+    },
+    {
+      "min": 12.28,
+      "home": 15,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "CJ McCollum loose ball foul"
+    },
+    {
+      "min": 12.52,
+      "home": 15,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes 25-foot three point jumper (Jose Alvarado assists)"
+    },
+    {
+      "min": 12.67,
+      "home": 15,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Jonathan Kuminga bad pass\nturnover (OG Anunoby steals)"
+    },
+    {
+      "min": 12.73,
+      "home": 15,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Jonathan Kuminga shooting foul"
+    },
+    {
+      "min": 12.73,
+      "home": 15,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby misses free throw 1 of 2"
+    },
+    {
+      "min": 12.73,
+      "home": 15,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 12.73,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "min": 12.88,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado shooting foul"
+    },
+    {
+      "min": 12.88,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jonathan Kuminga misses free throw 2 of 2"
+    },
+    {
+      "min": 12.88,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jonathan Kuminga misses free throw 1 of 2"
+    },
+    {
+      "min": 12.88,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Hawks offensive team rebound"
+    },
+    {
+      "min": 12.92,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 13.22,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby vs. Jonathan Kuminga (Karl-Anthony Towns gains possession)"
+    },
+    {
+      "min": 13.3,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Onyeka Okongwu blocks Karl-Anthony Towns 's 26-foot turnaround jump shot"
+    },
+    {
+      "min": 13.33,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Buddy Hield defensive rebound"
+    },
+    {
+      "min": 13.53,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jonathan Kuminga misses 12-foot turnaround jump shot"
+    },
+    {
+      "min": 13.57,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 13.68,
+      "home": 15,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker shooting foul"
+    },
+    {
+      "min": 13.68,
+      "home": 15,
+      "away": 45,
+      "period": 2,
+      "scoring": true,
+      "text": "Jordan Clarkson makes free throw 1 of 2"
+    },
+    {
+      "min": 13.68,
+      "home": 15,
+      "away": 45,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson enters the game for CJ McCollum"
+    },
+    {
+      "min": 13.68,
+      "home": 15,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Jordan Clarkson makes free throw 2 of 2"
+    },
+    {
+      "min": 13.92,
+      "home": 15,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson misses driving layup"
+    },
+    {
+      "min": 13.95,
+      "home": 15,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 14.03,
+      "home": 15,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Onyeka Okongwu shooting foul"
+    },
+    {
+      "min": 14.03,
+      "home": 15,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "min": 14.03,
+      "home": 15,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "min": 14.42,
+      "home": 15,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker out of bounds lost ball turnover"
+    },
+    {
+      "min": 14.68,
+      "home": 15,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul"
+    },
+    {
+      "min": 14.68,
+      "home": 15,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive foul turnover"
+    },
+    {
+      "min": 14.68,
+      "home": 15,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns technical foul"
+    },
+    {
+      "min": 14.68,
+      "home": 16,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Nickeil Alexander-Walker makes technical free throw"
+    },
+    {
+      "min": 14.68,
+      "home": 16,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart enters the game for Jordan Clarkson"
+    },
+    {
+      "min": 14.68,
+      "home": 16,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson enters the game for OG Anunoby"
+    },
+    {
+      "min": 14.92,
+      "home": 16,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson misses 25-foot three point jumper"
+    },
+    {
+      "min": 14.95,
+      "home": 16,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Jose Alvarado defensive rebound"
+    },
+    {
+      "min": 15.02,
+      "home": 16,
+      "away": 50,
+      "period": 2,
+      "scoring": true,
+      "text": "Josh Hart makes running layup (Jose Alvarado assists)"
+    },
+    {
+      "min": 15.02,
+      "home": 16,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson shooting foul"
+    },
+    {
+      "min": 15.02,
+      "home": 16,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart misses free throw 1 of 1"
+    },
+    {
+      "min": 15.07,
+      "home": 16,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Onyeka Okongwu defensive rebound"
+    },
+    {
+      "min": 15.22,
+      "home": 19,
+      "away": 50,
+      "period": 2,
+      "scoring": true,
+      "text": "Jonathan Kuminga makes 24-foot three point jumper (Onyeka Okongwu assists)"
+    },
+    {
+      "min": 15.5,
+      "home": 19,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Onyeka Okongwu shooting foul"
+    },
+    {
+      "min": 15.5,
+      "home": 19,
+      "away": 51,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes free throw 1 of 2"
+    },
+    {
+      "min": 15.5,
+      "home": 19,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Gabe Vincent enters the game for Buddy Hield"
+    },
+    {
+      "min": 15.5,
+      "home": 19,
+      "away": 52,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes free throw 2 of 2"
+    },
+    {
+      "min": 15.73,
+      "home": 19,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Gabe Vincent misses 23-foot three point jumper"
+    },
+    {
+      "min": 15.77,
+      "home": 19,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 15.95,
+      "home": 19,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges misses 17-foot fade away jump shot"
+    },
+    {
+      "min": 15.98,
+      "home": 19,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 16.2,
+      "home": 19,
+      "away": 55,
+      "period": 2,
+      "scoring": true,
+      "text": "Josh Hart makes 25-foot three pointer (Mikal Bridges assists)"
+    },
+    {
+      "min": 16.33,
+      "home": 19,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker bad pass\nturnover (Jose Alvarado steals)"
+    },
+    {
+      "min": 16.38,
+      "home": 19,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges misses 20-foot running jump shot"
+    },
+    {
+      "min": 16.43,
+      "home": 19,
+      "away": 57,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes two point shot"
+    },
+    {
+      "min": 16.43,
+      "home": 19,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges offensive rebound"
+    },
+    {
+      "min": 16.48,
+      "home": 19,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "technical foul"
+    },
+    {
+      "min": 16.48,
+      "home": 19,
+      "away": 58,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes technical free throw"
+    },
+    {
+      "min": 16.48,
+      "home": 19,
+      "away": 58,
+      "period": 2,
+      "scoring": false,
+      "text": "Mouhamed Gueye enters the game for Onyeka Okongwu"
+    },
+    {
+      "min": 16.48,
+      "home": 19,
+      "away": 58,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson enters the game for Jose Alvarado"
+    },
+    {
+      "min": 16.48,
+      "home": 19,
+      "away": 58,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 16.48,
+      "home": 19,
+      "away": 58,
+      "period": 2,
+      "scoring": false,
+      "text": "Dyson Daniels enters the game for Nickeil Alexander-Walker"
+    },
+    {
+      "min": 16.67,
+      "home": 19,
+      "away": 58,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson bad pass\nturnover (OG Anunoby steals)"
+    },
+    {
+      "min": 16.8,
+      "home": 19,
+      "away": 60,
+      "period": 2,
+      "scoring": true,
+      "text": "Mitchell Robinson makes alley oop dunk (Mikal Bridges assists)"
+    },
+    {
+      "min": 16.82,
+      "home": 19,
+      "away": 60,
+      "period": 2,
+      "scoring": false,
+      "text": "Hawks Full timeout"
+    },
+    {
+      "min": 17.05,
+      "home": 19,
+      "away": 60,
+      "period": 2,
+      "scoring": false,
+      "text": "Jonathan Kuminga misses 9-foot turnaround jump shot"
+    },
+    {
+      "min": 17.1,
+      "home": 19,
+      "away": 60,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 17.2,
+      "home": 19,
+      "away": 60,
+      "period": 2,
+      "scoring": false,
+      "text": "Dyson Daniels personal foul"
+    },
+    {
+      "min": 17.2,
+      "home": 19,
+      "away": 61,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 17.2,
+      "home": 19,
+      "away": 62,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 17.3,
+      "home": 19,
+      "away": 62,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson personal foul"
+    },
+    {
+      "min": 17.47,
+      "home": 22,
+      "away": 62,
+      "period": 2,
+      "scoring": true,
+      "text": "Dyson Daniels makes 25-foot three point jumper (Jonathan Kuminga assists)"
+    },
+    {
+      "min": 17.73,
+      "home": 22,
+      "away": 65,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes 25-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "min": 17.98,
+      "home": 22,
+      "away": 65,
+      "period": 2,
+      "scoring": false,
+      "text": "Dyson Daniels misses 25-foot three point jumper"
+    },
+    {
+      "min": 18.0,
+      "home": 22,
+      "away": 65,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson offensive rebound"
+    },
+    {
+      "min": 18.02,
+      "home": 22,
+      "away": 65,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson misses tip shot"
+    },
+    {
+      "min": 18.05,
+      "home": 22,
+      "away": 65,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson defensive rebound"
+    },
+    {
+      "min": 18.32,
+      "home": 22,
+      "away": 67,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes 11-foot pullup jump shot"
+    },
+    {
+      "min": 18.48,
+      "home": 22,
+      "away": 67,
+      "period": 2,
+      "scoring": false,
+      "text": "Mouhamed Gueye misses 23-foot three point jumper"
+    },
+    {
+      "min": 18.53,
+      "home": 22,
+      "away": 67,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson defensive rebound"
+    },
+    {
+      "min": 18.57,
+      "home": 22,
+      "away": 69,
+      "period": 2,
+      "scoring": true,
+      "text": "Mikal Bridges makes dunk (Jalen Brunson assists)"
+    },
+    {
+      "min": 18.75,
+      "home": 22,
+      "away": 69,
+      "period": 2,
+      "scoring": false,
+      "text": "Mikal Bridges personal foul"
+    },
+    {
+      "min": 18.92,
+      "home": 22,
+      "away": 69,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson blocks Jonathan Kuminga 's 23-foot three point jumper"
+    },
+    {
+      "min": 18.98,
+      "home": 22,
+      "away": 69,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 19.0,
+      "home": 22,
+      "away": 69,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart bad pass\nturnover (Gabe Vincent steals)"
+    },
+    {
+      "min": 19.25,
+      "home": 22,
+      "away": 69,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson misses two point shot"
+    },
+    {
+      "min": 19.28,
+      "home": 22,
+      "away": 69,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 71,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes driving layup (Josh Hart assists)"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 71,
+      "period": 2,
+      "scoring": false,
+      "text": "Mouhamed Gueye shooting foul"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 71,
+      "period": 2,
+      "scoring": false,
+      "text": "CJ McCollum enters the game for Jonathan Kuminga"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 71,
+      "period": 2,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker enters the game for Gabe Vincent"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 71,
+      "period": 2,
+      "scoring": false,
+      "text": "Onyeka Okongwu enters the game for Mouhamed Gueye"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 1"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson loose ball foul"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "(04:39) [Knicks] COACH'S CHALLENGE (CALL REPLAYCENTER)"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "Double technical foul: Mitchell Robinson and Dyson Daniels"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "Mitchell Robinson ejected"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "Dyson Daniels ejected"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Mitchell Robinson"
+    },
+    {
+      "min": 19.35,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "Corey Kispert enters the game for Dyson Daniels"
+    },
+    {
+      "min": 19.5,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "CJ McCollum misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 19.55,
+      "home": 22,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "Onyeka Okongwu offensive rebound"
+    },
+    {
+      "min": 19.57,
+      "home": 25,
+      "away": 72,
+      "period": 2,
+      "scoring": true,
+      "text": "CJ McCollum makes 25-foot three point jumper (Onyeka Okongwu assists)"
+    },
+    {
+      "min": 19.83,
+      "home": 25,
+      "away": 72,
+      "period": 2,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker personal foul"
+    },
+    {
+      "min": 19.83,
+      "home": 25,
+      "away": 73,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "min": 19.83,
+      "home": 25,
+      "away": 74,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "min": 20.05,
+      "home": 25,
+      "away": 74,
+      "period": 2,
+      "scoring": false,
+      "text": "Corey Kispert bad pass\nturnover (Karl-Anthony Towns steals)"
+    },
+    {
+      "min": 20.28,
+      "home": 25,
+      "away": 74,
+      "period": 2,
+      "scoring": false,
+      "text": "CJ McCollum personal foul"
+    },
+    {
+      "min": 20.28,
+      "home": 25,
+      "away": 75,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "min": 20.28,
+      "home": 25,
+      "away": 76,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "min": 20.5,
+      "home": 25,
+      "away": 76,
+      "period": 2,
+      "scoring": false,
+      "text": "Corey Kispert misses driving floating jump shot"
+    },
+    {
+      "min": 20.53,
+      "home": 25,
+      "away": 76,
+      "period": 2,
+      "scoring": false,
+      "text": "CJ McCollum offensive rebound"
+    },
+    {
+      "min": 20.55,
+      "home": 27,
+      "away": 76,
+      "period": 2,
+      "scoring": true,
+      "text": "CJ McCollum makes two point shot"
+    },
+    {
+      "min": 20.83,
+      "home": 27,
+      "away": 76,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses 35-foot three point jumper"
+    },
+    {
+      "min": 20.87,
+      "home": 27,
+      "away": 76,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 20.87,
+      "home": 27,
+      "away": 76,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson shooting foul"
+    },
+    {
+      "min": 20.87,
+      "home": 27,
+      "away": 77,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "min": 20.87,
+      "home": 27,
+      "away": 78,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "min": 21.02,
+      "home": 29,
+      "away": 78,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Johnson makes driving layup"
+    },
+    {
+      "min": 21.02,
+      "home": 29,
+      "away": 78,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns shooting foul"
+    },
+    {
+      "min": 21.02,
+      "home": 29,
+      "away": 78,
+      "period": 2,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 21.02,
+      "home": 30,
+      "away": 78,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Johnson makes free throw 1 of 1"
+    },
+    {
+      "min": 21.27,
+      "home": 30,
+      "away": 80,
+      "period": 2,
+      "scoring": true,
+      "text": "OG Anunoby makes layup (Mikal Bridges assists)"
+    },
+    {
+      "min": 21.48,
+      "home": 32,
+      "away": 80,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Johnson makes 19-foot pullup jump shot"
+    },
+    {
+      "min": 21.75,
+      "home": 32,
+      "away": 80,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns bad pass\nturnover (Onyeka Okongwu steals)"
+    },
+    {
+      "min": 21.82,
+      "home": 32,
+      "away": 80,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson misses running pullup jump shot"
+    },
+    {
+      "min": 21.85,
+      "home": 32,
+      "away": 80,
+      "period": 2,
+      "scoring": false,
+      "text": "CJ McCollum offensive rebound"
+    },
+    {
+      "min": 21.87,
+      "home": 32,
+      "away": 80,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson shooting foul"
+    },
+    {
+      "min": 21.87,
+      "home": 33,
+      "away": 80,
+      "period": 2,
+      "scoring": true,
+      "text": "CJ McCollum makes free throw 1 of 2"
+    },
+    {
+      "min": 21.87,
+      "home": 34,
+      "away": 80,
+      "period": 2,
+      "scoring": true,
+      "text": "CJ McCollum makes free throw 2 of 2"
+    },
+    {
+      "min": 22.08,
+      "home": 34,
+      "away": 80,
+      "period": 2,
+      "scoring": false,
+      "text": "Onyeka Okongwu shooting foul"
+    },
+    {
+      "min": 22.08,
+      "home": 34,
+      "away": 80,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson technical foul"
+    },
+    {
+      "min": 22.08,
+      "home": 34,
+      "away": 81,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes technical free throw"
+    },
+    {
+      "min": 22.08,
+      "home": 34,
+      "away": 82,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "min": 22.08,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "min": 22.28,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "CJ McCollum misses 25-foot three point jumper"
+    },
+    {
+      "min": 22.32,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 22.57,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "min": 22.6,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson defensive rebound"
+    },
+    {
+      "min": 22.77,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker misses 25-foot three point jumper"
+    },
+    {
+      "min": 22.82,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "OG Anunoby misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Hawks defensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Johnson offensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 34,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Karl-Anthony Towns shooting foul"
+    },
+    {
+      "min": 24.0,
+      "home": 35,
+      "away": 83,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Johnson makes free throw 1 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 35,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Miles McBride enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 24.0,
+      "home": 36,
+      "away": 83,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Johnson makes free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 36,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Corey Kispert defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 36,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Brunson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 36,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Hawks offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 36,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "Corey Kispert misses 34-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 36,
+      "away": 83,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 36,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Zaccharie Risacher enters the game for Corey Kispert"
+    },
+    {
+      "min": 24.0,
+      "home": 36,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns enters the game for Miles McBride"
+    },
+    {
+      "min": 24.22,
+      "home": 36,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Onyeka Okongwu misses 3-foot reverse layup"
+    },
+    {
+      "min": 24.25,
+      "home": 36,
+      "away": 83,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 24.37,
+      "home": 36,
+      "away": 85,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "min": 24.5,
+      "home": 36,
+      "away": 85,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby blocks Zaccharie Risacher 's 3-foot layup"
+    },
+    {
+      "min": 24.53,
+      "home": 36,
+      "away": 85,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 24.6,
+      "home": 36,
+      "away": 88,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes 25-foot running pullup jump shot"
+    },
+    {
+      "min": 24.77,
+      "home": 36,
+      "away": 88,
+      "period": 3,
+      "scoring": false,
+      "text": "CJ McCollum misses two point shot"
+    },
+    {
+      "min": 24.8,
+      "home": 36,
+      "away": 88,
+      "period": 3,
+      "scoring": false,
+      "text": "Mikal Bridges defensive rebound"
+    },
+    {
+      "min": 25.02,
+      "home": 36,
+      "away": 90,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes 12-foot two point shot"
+    },
+    {
+      "min": 25.23,
+      "home": 36,
+      "away": 90,
+      "period": 3,
+      "scoring": false,
+      "text": "CJ McCollum misses driving layup"
+    },
+    {
+      "min": 25.27,
+      "home": 36,
+      "away": 90,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 25.33,
+      "home": 36,
+      "away": 93,
+      "period": 3,
+      "scoring": true,
+      "text": "Mikal Bridges makes 25-foot running jump shot (Jalen Brunson assists)"
+    },
+    {
+      "min": 25.57,
+      "home": 38,
+      "away": 93,
+      "period": 3,
+      "scoring": true,
+      "text": "Zaccharie Risacher makes 3-foot hook shot (Jalen Johnson assists)"
+    },
+    {
+      "min": 25.88,
+      "home": 38,
+      "away": 95,
+      "period": 3,
+      "scoring": true,
+      "text": "OG Anunoby makes reverse layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 26.02,
+      "home": 38,
+      "away": 95,
+      "period": 3,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker misses 23-foot three point jumper"
+    },
+    {
+      "min": 26.05,
+      "home": 38,
+      "away": 95,
+      "period": 3,
+      "scoring": false,
+      "text": "CJ McCollum offensive rebound"
+    },
+    {
+      "min": 26.12,
+      "home": 38,
+      "away": 95,
+      "period": 3,
+      "scoring": false,
+      "text": "Zaccharie Risacher misses 25-foot three point jumper"
+    },
+    {
+      "min": 26.17,
+      "home": 38,
+      "away": 95,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 26.52,
+      "home": 38,
+      "away": 95,
+      "period": 3,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker shooting foul"
+    },
+    {
+      "min": 26.52,
+      "home": 38,
+      "away": 96,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby misses free throw 2 of 2"
+    },
+    {
+      "min": 26.52,
+      "home": 38,
+      "away": 96,
+      "period": 3,
+      "scoring": true,
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "min": 26.55,
+      "home": 38,
+      "away": 96,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Johnson defensive rebound"
+    },
+    {
+      "min": 26.65,
+      "home": 38,
+      "away": 96,
+      "period": 3,
+      "scoring": false,
+      "text": "CJ McCollum misses 25-foot three point jumper"
+    },
+    {
+      "min": 26.68,
+      "home": 38,
+      "away": 96,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 26.9,
+      "home": 38,
+      "away": 99,
+      "period": 3,
+      "scoring": true,
+      "text": "Josh Hart makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 27.07,
+      "home": 40,
+      "away": 99,
+      "period": 3,
+      "scoring": true,
+      "text": "CJ McCollum makes 2-foot layup (Jalen Johnson assists)"
+    },
+    {
+      "min": 27.32,
+      "home": 40,
+      "away": 99,
+      "period": 3,
+      "scoring": false,
+      "text": "Zaccharie Risacher personal foul"
+    },
+    {
+      "min": 27.58,
+      "home": 40,
+      "away": 99,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 23-foot three point jumper"
+    },
+    {
+      "min": 27.6,
+      "home": 40,
+      "away": 99,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 27.62,
+      "home": 40,
+      "away": 99,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns misses tip shot"
+    },
+    {
+      "min": 27.63,
+      "home": 40,
+      "away": 99,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns offensive rebound"
+    },
+    {
+      "min": 27.65,
+      "home": 40,
+      "away": 101,
+      "period": 3,
+      "scoring": true,
+      "text": "Karl-Anthony Towns makes tip shot"
+    },
+    {
+      "min": 27.78,
+      "home": 43,
+      "away": 101,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Johnson makes 24-foot three point jumper (Nickeil Alexander-Walker assists)"
+    },
+    {
+      "min": 28.13,
+      "home": 43,
+      "away": 103,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "min": 28.15,
+      "home": 43,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks delay of game violation"
+    },
+    {
+      "min": 28.43,
+      "home": 45,
+      "away": 103,
+      "period": 3,
+      "scoring": true,
+      "text": "Nickeil Alexander-Walker makes 2-foot layup (Onyeka Okongwu assists)"
+    },
+    {
+      "min": 28.65,
+      "home": 45,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Brunson misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 28.68,
+      "home": 45,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Johnson defensive rebound"
+    },
+    {
+      "min": 28.85,
+      "home": 48,
+      "away": 103,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Johnson makes 25-foot three point jumper (Onyeka Okongwu assists)"
+    },
+    {
+      "min": 29.32,
+      "home": 48,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "min": 29.35,
+      "home": 48,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Johnson defensive rebound"
+    },
+    {
+      "min": 29.43,
+      "home": 50,
+      "away": 103,
+      "period": 3,
+      "scoring": true,
+      "text": "Zaccharie Risacher makes running layup (Jalen Johnson assists)"
+    },
+    {
+      "min": 29.43,
+      "home": 50,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 29.83,
+      "home": 50,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "OG Anunoby misses 19-foot two point shot"
+    },
+    {
+      "min": 29.87,
+      "home": 50,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Zaccharie Risacher defensive rebound"
+    },
+    {
+      "min": 30.08,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Johnson makes 12-foot pullup jump shot"
+    },
+    {
+      "min": 30.4,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns bad pass\nturnover (Nickeil Alexander-Walker steals)"
+    },
+    {
+      "min": 30.47,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Johnson bad pass\nturnover (Karl-Anthony Towns steals)"
+    },
+    {
+      "min": 30.6,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "CJ McCollum personal foul"
+    },
+    {
+      "min": 30.6,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Gabe Vincent enters the game for Zaccharie Risacher"
+    },
+    {
+      "min": 30.6,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Jordan Clarkson enters the game for OG Anunoby"
+    },
+    {
+      "min": 30.6,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride enters the game for Mikal Bridges"
+    },
+    {
+      "min": 30.6,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Buddy Hield enters the game for CJ McCollum"
+    },
+    {
+      "min": 30.6,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Jonathan Kuminga enters the game for Nickeil Alexander-Walker"
+    },
+    {
+      "min": 30.75,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride misses 25-foot three point jumper"
+    },
+    {
+      "min": 30.78,
+      "home": 52,
+      "away": 103,
+      "period": 3,
+      "scoring": false,
+      "text": "Buddy Hield defensive rebound"
+    },
+    {
+      "min": 30.93,
+      "home": 54,
+      "away": 103,
+      "period": 3,
+      "scoring": true,
+      "text": "Buddy Hield makes 3-foot layup (Jonathan Kuminga assists)"
+    },
+    {
+      "min": 31.22,
+      "home": 54,
+      "away": 105,
+      "period": 3,
+      "scoring": true,
+      "text": "Josh Hart makes alley oop layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 31.37,
+      "home": 54,
+      "away": 105,
+      "period": 3,
+      "scoring": false,
+      "text": "Onyeka Okongwu misses 23-foot three point jumper"
+    },
+    {
+      "min": 31.4,
+      "home": 54,
+      "away": 105,
+      "period": 3,
+      "scoring": false,
+      "text": "Karl-Anthony Towns defensive rebound"
+    },
+    {
+      "min": 31.47,
+      "home": 54,
+      "away": 107,
+      "period": 3,
+      "scoring": true,
+      "text": "Jordan Clarkson makes running layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 31.62,
+      "home": 54,
+      "away": 107,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Johnson out of bounds bad pass turnover"
+    },
+    {
+      "min": 31.87,
+      "home": 54,
+      "away": 109,
+      "period": 3,
+      "scoring": true,
+      "text": "Jordan Clarkson makes 5-foot floating jump shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 32.05,
+      "home": 57,
+      "away": 109,
+      "period": 3,
+      "scoring": true,
+      "text": "Buddy Hield makes 25-foot three point jumper (Jalen Johnson assists)"
+    },
+    {
+      "min": 32.28,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": true,
+      "text": "Josh Hart makes layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "min": 32.6,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Jonathan Kuminga misses 25-foot three point jumper"
+    },
+    {
+      "min": 32.63,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride defensive rebound"
+    },
+    {
+      "min": 32.83,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 32.88,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Johnson defensive rebound"
+    },
+    {
+      "min": 33.03,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Johnson misses 25-foot three point jumper"
+    },
+    {
+      "min": 33.08,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Josh Hart defensive rebound"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Gabe Vincent shooting foul"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Hawks Full timeout"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker enters the game for Jalen Johnson"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Jose Alvarado enters the game for Josh Hart"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Landry Shamet enters the game for Jalen Brunson"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Ariel Hukporti enters the game for Karl-Anthony Towns"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Mouhamed Gueye enters the game for Onyeka Okongwu"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 111,
+      "period": 3,
+      "scoring": false,
+      "text": "Jordan Clarkson misses free throw 1 of 2"
+    },
+    {
+      "min": 33.25,
+      "home": 57,
+      "away": 112,
+      "period": 3,
+      "scoring": true,
+      "text": "Jordan Clarkson makes free throw 2 of 2"
+    },
+    {
+      "min": 33.43,
+      "home": 57,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride personal foul"
+    },
+    {
+      "min": 33.67,
+      "home": 57,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker misses 21-foot step back jumpshot"
+    },
+    {
+      "min": 33.7,
+      "home": 57,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Jonathan Kuminga offensive rebound"
+    },
+    {
+      "min": 33.82,
+      "home": 59,
+      "away": 112,
+      "period": 3,
+      "scoring": true,
+      "text": "Nickeil Alexander-Walker makes driving layup (Jonathan Kuminga assists)"
+    },
+    {
+      "min": 33.82,
+      "home": 59,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Miles McBride shooting foul"
+    },
+    {
+      "min": 33.82,
+      "home": 59,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Ariel Hukporti defensive goaltending violation"
+    },
+    {
+      "min": 33.82,
+      "home": 60,
+      "away": 112,
+      "period": 3,
+      "scoring": true,
+      "text": "Nickeil Alexander-Walker makes free throw 1 of 1"
+    },
+    {
+      "min": 34.13,
+      "home": 60,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Landry Shamet misses 22-foot three point jumper"
+    },
+    {
+      "min": 34.18,
+      "home": 60,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Mouhamed Gueye defensive rebound"
+    },
+    {
+      "min": 34.32,
+      "home": 60,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Buddy Hield lost ball turnover (Jordan Clarkson steals)"
+    },
+    {
+      "min": 34.55,
+      "home": 60,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Jonathan Kuminga personal foul"
+    },
+    {
+      "min": 34.55,
+      "home": 60,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 34.55,
+      "home": 60,
+      "away": 112,
+      "period": 3,
+      "scoring": false,
+      "text": "Ariel Hukporti misses free throw 1 of 2"
+    },
+    {
+      "min": 34.55,
+      "home": 60,
+      "away": 113,
+      "period": 3,
+      "scoring": true,
+      "text": "Ariel Hukporti makes free throw 2 of 2"
+    },
+    {
+      "min": 34.8,
+      "home": 60,
+      "away": 113,
+      "period": 3,
+      "scoring": false,
+      "text": "Ariel Hukporti personal foul"
+    },
+    {
+      "min": 34.88,
+      "home": 62,
+      "away": 113,
+      "period": 3,
+      "scoring": true,
+      "text": "Jonathan Kuminga makes 1-foot alley oop dunk (Mouhamed Gueye assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 62,
+      "away": 116,
+      "period": 3,
+      "scoring": true,
+      "text": "Jose Alvarado makes 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 116,
+      "period": 3,
+      "scoring": true,
+      "text": "Jonathan Kuminga makes 16-foot pullup jump shot (Mouhamed Gueye assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 116,
+      "period": 3,
+      "scoring": false,
+      "text": "Jose Alvarado misses 24-foot three point step back jumpshot"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 116,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 116,
+      "period": 3,
+      "scoring": false,
+      "text": "Gabe Vincent loose ball foul"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 116,
+      "period": 3,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 116,
+      "period": 3,
+      "scoring": false,
+      "text": "Ariel Hukporti misses free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 3,
+      "scoring": true,
+      "text": "Ariel Hukporti makes free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 3,
+      "scoring": false,
+      "text": "Hawks offensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 3,
+      "scoring": false,
+      "text": "Gabe Vincent misses driving floating jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Johnson enters the game for Gabe Vincent"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 4,
+      "scoring": false,
+      "text": "CJ McCollum enters the game for Buddy Hield"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 4,
+      "scoring": false,
+      "text": "Onyeka Okongwu enters the game for Mouhamed Gueye"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyler Kolek enters the game for Jose Alvarado"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara enters the game for Miles McBride"
+    },
+    {
+      "min": 36.0,
+      "home": 64,
+      "away": 117,
+      "period": 4,
+      "scoring": false,
+      "text": "Jeremy Sochan enters the game for Jordan Clarkson"
+    },
+    {
+      "min": 36.23,
+      "home": 64,
+      "away": 119,
+      "period": 4,
+      "scoring": true,
+      "text": "Landry Shamet makes 10-foot step back jumpshot (Tyler Kolek assists)"
+    },
+    {
+      "min": 36.57,
+      "home": 64,
+      "away": 119,
+      "period": 4,
+      "scoring": false,
+      "text": "Jeremy Sochan shooting foul"
+    },
+    {
+      "min": 36.57,
+      "home": 65,
+      "away": 119,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Johnson makes free throw 1 of 2"
+    },
+    {
+      "min": 36.57,
+      "home": 66,
+      "away": 119,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Johnson makes free throw 2 of 2"
+    },
+    {
+      "min": 36.68,
+      "home": 66,
+      "away": 119,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 36.72,
+      "home": 66,
+      "away": 119,
+      "period": 4,
+      "scoring": false,
+      "text": "Jonathan Kuminga defensive rebound"
+    },
+    {
+      "min": 36.95,
+      "home": 66,
+      "away": 119,
+      "period": 4,
+      "scoring": false,
+      "text": "CJ McCollum misses driving floating jump shot"
+    },
+    {
+      "min": 36.98,
+      "home": 66,
+      "away": 119,
+      "period": 4,
+      "scoring": false,
+      "text": "Onyeka Okongwu offensive rebound"
+    },
+    {
+      "min": 36.98,
+      "home": 68,
+      "away": 119,
+      "period": 4,
+      "scoring": true,
+      "text": "Onyeka Okongwu makes tip shot"
+    },
+    {
+      "min": 37.27,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": true,
+      "text": "Mohamed Diawara makes driving layup"
+    },
+    {
+      "min": 37.58,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti shooting foul"
+    },
+    {
+      "min": 37.58,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker misses free throw 2 of 2"
+    },
+    {
+      "min": 37.58,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Nickeil Alexander-Walker misses free throw 1 of 2"
+    },
+    {
+      "min": 37.58,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Hawks offensive team rebound"
+    },
+    {
+      "min": 37.63,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti defensive rebound"
+    },
+    {
+      "min": 37.68,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti offensive foul turnover"
+    },
+    {
+      "min": 37.68,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti offensive foul"
+    },
+    {
+      "min": 37.68,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert enters the game for Nickeil Alexander-Walker"
+    },
+    {
+      "min": 37.97,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Onyeka Okongwu misses 9-foot two point shot"
+    },
+    {
+      "min": 38.0,
+      "home": 68,
+      "away": 121,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara defensive rebound"
+    },
+    {
+      "min": 38.08,
+      "home": 68,
+      "away": 123,
+      "period": 4,
+      "scoring": true,
+      "text": "Jeremy Sochan makes running dunk (Tyler Kolek assists)"
+    },
+    {
+      "min": 38.27,
+      "home": 68,
+      "away": 123,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet shooting foul"
+    },
+    {
+      "min": 38.27,
+      "home": 69,
+      "away": 123,
+      "period": 4,
+      "scoring": true,
+      "text": "Jonathan Kuminga makes free throw 1 of 2"
+    },
+    {
+      "min": 38.27,
+      "home": 69,
+      "away": 123,
+      "period": 4,
+      "scoring": false,
+      "text": "Zaccharie Risacher enters the game for Jalen Johnson"
+    },
+    {
+      "min": 38.27,
+      "home": 69,
+      "away": 123,
+      "period": 4,
+      "scoring": false,
+      "text": "Keaton Wallace enters the game for CJ McCollum"
+    },
+    {
+      "min": 38.27,
+      "home": 70,
+      "away": 123,
+      "period": 4,
+      "scoring": true,
+      "text": "Jonathan Kuminga makes free throw 2 of 2"
+    },
+    {
+      "min": 38.5,
+      "home": 70,
+      "away": 125,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyler Kolek makes 5-foot two point shot"
+    },
+    {
+      "min": 38.78,
+      "home": 70,
+      "away": 125,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyler Kolek shooting foul"
+    },
+    {
+      "min": 38.78,
+      "home": 71,
+      "away": 125,
+      "period": 4,
+      "scoring": true,
+      "text": "Jonathan Kuminga makes free throw 1 of 2"
+    },
+    {
+      "min": 38.78,
+      "home": 72,
+      "away": 125,
+      "period": 4,
+      "scoring": true,
+      "text": "Jonathan Kuminga makes free throw 2 of 2"
+    },
+    {
+      "min": 39.08,
+      "home": 72,
+      "away": 125,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara misses 25-foot three point jumper"
+    },
+    {
+      "min": 39.13,
+      "home": 72,
+      "away": 125,
+      "period": 4,
+      "scoring": false,
+      "text": "Keaton Wallace defensive rebound"
+    },
+    {
+      "min": 39.2,
+      "home": 75,
+      "away": 125,
+      "period": 4,
+      "scoring": true,
+      "text": "Corey Kispert makes 26-foot running pullup jump shot (Keaton Wallace assists)"
+    },
+    {
+      "min": 39.38,
+      "home": 75,
+      "away": 127,
+      "period": 4,
+      "scoring": true,
+      "text": "Jeremy Sochan makes driving layup"
+    },
+    {
+      "min": 39.58,
+      "home": 75,
+      "away": 127,
+      "period": 4,
+      "scoring": false,
+      "text": "Onyeka Okongwu bad pass\nturnover (Jeremy Sochan steals)"
+    },
+    {
+      "min": 39.67,
+      "home": 75,
+      "away": 130,
+      "period": 4,
+      "scoring": true,
+      "text": "Landry Shamet makes 25-foot running jump shot (Mohamed Diawara assists)"
+    },
+    {
+      "min": 40.02,
+      "home": 77,
+      "away": 130,
+      "period": 4,
+      "scoring": true,
+      "text": "Zaccharie Risacher makes 12-foot jumper (Corey Kispert assists)"
+    },
+    {
+      "min": 40.3,
+      "home": 77,
+      "away": 130,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti 3 second turnover"
+    },
+    {
+      "min": 40.3,
+      "home": 77,
+      "away": 130,
+      "period": 4,
+      "scoring": false,
+      "text": "Tony Bradley enters the game for Onyeka Okongwu"
+    },
+    {
+      "min": 40.3,
+      "home": 77,
+      "away": 130,
+      "period": 4,
+      "scoring": false,
+      "text": "Pacome Dadiet enters the game for Ariel Hukporti"
+    },
+    {
+      "min": 40.62,
+      "home": 77,
+      "away": 130,
+      "period": 4,
+      "scoring": false,
+      "text": "Keaton Wallace misses driving floating jump shot"
+    },
+    {
+      "min": 40.67,
+      "home": 77,
+      "away": 130,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara defensive rebound"
+    },
+    {
+      "min": 40.9,
+      "home": 77,
+      "away": 133,
+      "period": 4,
+      "scoring": true,
+      "text": "Pacome Dadiet makes 24-foot three point jumper (Mohamed Diawara assists)"
+    },
+    {
+      "min": 41.17,
+      "home": 77,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet personal foul"
+    },
+    {
+      "min": 41.17,
+      "home": 77,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Hawks Full timeout"
+    },
+    {
+      "min": 41.17,
+      "home": 77,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Asa Newell enters the game for Jonathan Kuminga"
+    },
+    {
+      "min": 41.17,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": true,
+      "text": "Corey Kispert makes free throw 1 of 2"
+    },
+    {
+      "min": 41.17,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert misses free throw 2 of 2"
+    },
+    {
+      "min": 41.2,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyler Kolek defensive rebound"
+    },
+    {
+      "min": 41.58,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Pacome Dadiet misses 23-foot three point jumper"
+    },
+    {
+      "min": 41.65,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara offensive rebound"
+    },
+    {
+      "min": 41.85,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Jeremy Sochan misses 25-foot three point jumper"
+    },
+    {
+      "min": 41.92,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Keaton Wallace defensive rebound"
+    },
+    {
+      "min": 42.1,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Keaton Wallace misses 28-foot three point pullup jump shot"
+    },
+    {
+      "min": 42.12,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Zaccharie Risacher offensive rebound"
+    },
+    {
+      "min": 42.15,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Zaccharie Risacher misses 2-foot hook shot"
+    },
+    {
+      "min": 42.17,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Hawks offensive team rebound"
+    },
+    {
+      "min": 42.37,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert misses 9-foot turnaround jump shot"
+    },
+    {
+      "min": 42.38,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks defensive team rebound"
+    },
+    {
+      "min": 42.65,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Pacome Dadiet misses 25-foot three point jumper"
+    },
+    {
+      "min": 42.68,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Keaton Wallace defensive rebound"
+    },
+    {
+      "min": 42.83,
+      "home": 78,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Pacome Dadiet shooting foul"
+    },
+    {
+      "min": 42.83,
+      "home": 79,
+      "away": 133,
+      "period": 4,
+      "scoring": true,
+      "text": "Tony Bradley makes free throw 1 of 2"
+    },
+    {
+      "min": 42.83,
+      "home": 80,
+      "away": 133,
+      "period": 4,
+      "scoring": true,
+      "text": "Tony Bradley makes free throw 2 of 2"
+    },
+    {
+      "min": 42.83,
+      "home": 79,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti enters the game for Jeremy Sochan"
+    },
+    {
+      "min": 42.9,
+      "home": 80,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyler Kolek lost ball turnover (Keaton Wallace steals)"
+    },
+    {
+      "min": 42.97,
+      "home": 82,
+      "away": 133,
+      "period": 4,
+      "scoring": true,
+      "text": "Keaton Wallace makes driving dunk"
+    },
+    {
+      "min": 43.33,
+      "home": 82,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara misses driving layup"
+    },
+    {
+      "min": 43.35,
+      "home": 82,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti offensive rebound"
+    },
+    {
+      "min": 43.35,
+      "home": 82,
+      "away": 133,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert shooting foul"
+    },
+    {
+      "min": 43.35,
+      "home": 82,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti misses free throw 2 of 2"
+    },
+    {
+      "min": 43.35,
+      "home": 82,
+      "away": 134,
+      "period": 4,
+      "scoring": true,
+      "text": "Ariel Hukporti makes free throw 1 of 2"
+    },
+    {
+      "min": 43.38,
+      "home": 82,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Tony Bradley defensive rebound"
+    },
+    {
+      "min": 43.72,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": true,
+      "text": "Keaton Wallace makes 11-foot driving floating jump shot"
+    },
+    {
+      "min": 43.95,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet misses 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 44.0,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Hawks defensive team rebound"
+    },
+    {
+      "min": 44.2,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 44.25,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Pacome Dadiet defensive rebound"
+    },
+    {
+      "min": 44.45,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara misses 25-foot three point jumper"
+    },
+    {
+      "min": 44.47,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks offensive team rebound"
+    },
+    {
+      "min": 44.47,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Asa Newell loose ball foul"
+    },
+    {
+      "min": 44.6,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara out of bounds bad pass turnover"
+    },
+    {
+      "min": 45.0,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 45.05,
+      "home": 84,
+      "away": 134,
+      "period": 4,
+      "scoring": false,
+      "text": "Landry Shamet defensive rebound"
+    },
+    {
+      "min": 45.18,
+      "home": 84,
+      "away": 136,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyler Kolek makes driving layup"
+    },
+    {
+      "min": 45.4,
+      "home": 84,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert lost ball turnover (Mohamed Diawara steals)"
+    },
+    {
+      "min": 45.43,
+      "home": 84,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Knicks Full timeout"
+    },
+    {
+      "min": 45.5,
+      "home": 84,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyler Kolek misses 26-foot three point jumper"
+    },
+    {
+      "min": 45.53,
+      "home": 84,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Tony Bradley defensive rebound"
+    },
+    {
+      "min": 45.77,
+      "home": 86,
+      "away": 136,
+      "period": 4,
+      "scoring": true,
+      "text": "Zaccharie Risacher makes driving layup (Tony Bradley assists)"
+    },
+    {
+      "min": 46.02,
+      "home": 86,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Tony Bradley kicked ball violation"
+    },
+    {
+      "min": 46.18,
+      "home": 86,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyler Kolek misses 23-foot three point jumper"
+    },
+    {
+      "min": 46.22,
+      "home": 86,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Zaccharie Risacher defensive rebound"
+    },
+    {
+      "min": 46.35,
+      "home": 86,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Zaccharie Risacher misses 25-foot three point jumper"
+    },
+    {
+      "min": 46.4,
+      "home": 86,
+      "away": 136,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti defensive rebound"
+    },
+    {
+      "min": 46.48,
+      "home": 86,
+      "away": 138,
+      "period": 4,
+      "scoring": true,
+      "text": "Pacome Dadiet makes running layup (Tyler Kolek assists)"
+    },
+    {
+      "min": 46.72,
+      "home": 86,
+      "away": 138,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti blocks Keaton Wallace's driving layup"
+    },
+    {
+      "min": 46.75,
+      "home": 86,
+      "away": 138,
+      "period": 4,
+      "scoring": false,
+      "text": "Ariel Hukporti defensive rebound"
+    },
+    {
+      "min": 46.85,
+      "home": 86,
+      "away": 138,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert shooting foul"
+    },
+    {
+      "min": 46.85,
+      "home": 86,
+      "away": 139,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyler Kolek makes free throw 1 of 2"
+    },
+    {
+      "min": 46.85,
+      "home": 86,
+      "away": 140,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyler Kolek makes free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": true,
+      "text": "Tony Bradley makes 23-foot three point jumper (Keaton Wallace assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": false,
+      "text": "Tony Bradley blocks Tyler Kolek 's 1-foot two point shot"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": false,
+      "text": "Tony Bradley defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert misses 23-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": false,
+      "text": "Corey Kispert offensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": false,
+      "text": "Zaccharie Risacher misses 24-foot three point step back jumpshot"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": false,
+      "text": "Mohamed Diawara defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 89,
+      "away": 140,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 23,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 26-foot running jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 1-foot dunk (Jalen Brunson assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson makes dunk (Onyeka Okongwu assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "ATL",
+      "text": "Onyeka Okongwu makes 1-foot layup (Nickeil Alexander-Walker assists)"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Johnson blocks Josh Hart's driving layup"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker makes 22-foot running jump shot (Jalen Johnson assists)"
+    },
+    {
+      "x": 33,
+      "y": 16,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 17-foot jumper"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Dyson Daniels misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes running layup (OG Anunoby assists)"
+    },
+    {
+      "x": 28,
+      "y": 13,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson makes 13-foot pullup jump shot"
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 38,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "CJ McCollum misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses driving floating jump shot"
+    },
+    {
+      "x": 38,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Onyeka Okongwu misses 25-foot three point jumper"
+    },
+    {
+      "x": 46,
+      "y": 14,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 49,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Mouhamed Gueye misses 24-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Finger Roll Layup Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "ATL",
+      "text": "Karl-Anthony Towns blocks Dyson Daniels 's 3-foot layup"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Layup Running Reverse",
+      "team": "NYK",
+      "text": "Mikal Bridges makes two point shot (Jalen Brunson assists)"
+    },
+    {
+      "x": 49,
+      "y": 4,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 23-foot running jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes running layup (OG Anunoby assists)"
+    },
+    {
+      "x": 25,
+      "y": 11,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson misses 10-foot turnaround jump shot"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes 9-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "ATL",
+      "text": "Mouhamed Gueye makes alley oop dunk (Jalen Johnson assists)"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jonathan Kuminga blocks Josh Hart's driving layup"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "NYK",
+      "text": "Jalen Brunson makes two point shot (Josh Hart assists)"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 12,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 11-foot two point shot (Jalen Brunson assists)"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Layup Shot",
+      "team": "NYK",
+      "text": "Mitchell Robinson makes alley oop layup (Jordan Clarkson assists)"
+    },
+    {
+      "x": 25,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson misses driving floating jump shot"
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride makes 25-foot running pullup jump shot"
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "ATL",
+      "text": "CJ McCollum makes 10-foot driving floating jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes driving layup (Jalen Brunson assists)"
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "made": false,
+      "type": "Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson misses 5-foot floating jump shot"
+    },
+    {
+      "x": 30,
+      "y": 4,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "ATL",
+      "text": "Mitchell Robinson blocks CJ McCollum 's 6-foot running layup"
+    },
+    {
+      "x": 49,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson misses 24-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "NYK",
+      "text": "Mitchell Robinson makes tip shot"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ATL",
+      "text": "Mikal Bridges blocks CJ McCollum's driving layup"
+    },
+    {
+      "x": 25,
+      "y": 12,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 11-foot jumper (Jalen Brunson assists)"
+    },
+    {
+      "x": 22,
+      "y": 43,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "ATL",
+      "text": "Dyson Daniels misses heave jump shot"
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 25-foot three point jumper (Jose Alvarado assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Jonathan Kuminga misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Jonathan Kuminga misses free throw 1 of 2"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "NYK",
+      "text": "Onyeka Okongwu blocks Karl-Anthony Towns 's 26-foot turnaround jump shot"
+    },
+    {
+      "x": 22,
+      "y": 13,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "ATL",
+      "text": "Jonathan Kuminga misses 12-foot turnaround jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson misses driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker makes technical free throw"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes running layup (Jose Alvarado assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "NYK",
+      "text": "Josh Hart misses free throw 1 of 1"
+    },
+    {
+      "x": 44,
+      "y": 16,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Jonathan Kuminga makes 24-foot three point jumper (Onyeka Okongwu assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Mikal Bridges makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Mikal Bridges makes free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Gabe Vincent misses 23-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 17,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 17-foot fade away jump shot"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes 25-foot three pointer (Mikal Bridges assists)"
+    },
+    {
+      "x": 39,
+      "y": 16,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges misses 20-foot running jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "NYK",
+      "text": "Mikal Bridges makes two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes technical free throw"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "NYK",
+      "text": "Mitchell Robinson makes alley oop dunk (Mikal Bridges assists)"
+    },
+    {
+      "x": 22,
+      "y": 10,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "ATL",
+      "text": "Jonathan Kuminga misses 9-foot turnaround jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Dyson Daniels makes 25-foot three point jumper (Jonathan Kuminga assists)"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes 25-foot three point jumper (Jalen Brunson assists)"
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Dyson Daniels misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson misses tip shot"
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 11-foot pullup jump shot"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Mouhamed Gueye misses 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Running Alley Oop Dunk Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes dunk (Jalen Brunson assists)"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Mitchell Robinson blocks Jonathan Kuminga 's 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes driving layup (Josh Hart assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 1"
+    },
+    {
+      "x": 29,
+      "y": 18,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "CJ McCollum misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "CJ McCollum makes 25-foot three point jumper (Onyeka Okongwu assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jalen Brunson makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 8,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ATL",
+      "text": "Corey Kispert misses driving floating jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "ATL",
+      "text": "CJ McCollum makes two point shot"
+    },
+    {
+      "x": 33,
+      "y": 35,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 35-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "ATL",
+      "text": "Jalen Johnson makes free throw 1 of 1"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes layup (Mikal Bridges assists)"
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson makes 19-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 26,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson misses running pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "CJ McCollum makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "CJ McCollum makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes technical free throw"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes free throw 2 of 2"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "CJ McCollum misses 25-foot three point jumper"
+    },
+    {
+      "x": 43,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "x": 46,
+      "y": 15,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker misses 25-foot three point jumper"
+    },
+    {
+      "x": 31,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker misses 15-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Jalen Johnson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Jalen Johnson makes free throw 2 of 2"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 7,
+      "y": 30,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Corey Kispert misses 34-foot three point pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "made": false,
+      "type": "Reverse Layup Shot",
+      "team": "ATL",
+      "text": "Onyeka Okongwu misses 3-foot reverse layup"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "made": false,
+      "type": "Layup Shot",
+      "team": "ATL",
+      "text": "OG Anunoby blocks Zaccharie Risacher 's 3-foot layup"
+    },
+    {
+      "x": 34,
+      "y": 24,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 25-foot running pullup jump shot"
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "ATL",
+      "text": "CJ McCollum misses two point shot"
+    },
+    {
+      "x": 24,
+      "y": 12,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 12-foot two point shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ATL",
+      "text": "CJ McCollum misses driving layup"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Mikal Bridges makes 25-foot running jump shot (Jalen Brunson assists)"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": true,
+      "type": "Hook Shot",
+      "team": "ATL",
+      "text": "Zaccharie Risacher makes 3-foot hook shot (Jalen Johnson assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Reverse Layup Shot",
+      "team": "NYK",
+      "text": "OG Anunoby makes reverse layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker misses 23-foot three point jumper"
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Zaccharie Risacher misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "OG Anunoby makes free throw 1 of 2"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "CJ McCollum misses 25-foot three point jumper"
+    },
+    {
+      "x": 45,
+      "y": 16,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes 25-foot three point jumper (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "ATL",
+      "text": "CJ McCollum makes 2-foot layup (Jalen Johnson assists)"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns misses tip shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "NYK",
+      "text": "Karl-Anthony Towns makes tip shot"
+    },
+    {
+      "x": 19,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson makes 24-foot three point jumper (Nickeil Alexander-Walker assists)"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson makes driving layup"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker makes 2-foot layup (Onyeka Okongwu assists)"
+    },
+    {
+      "x": 33,
+      "y": 17,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Jalen Brunson misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 40,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson makes 25-foot three point jumper (Onyeka Okongwu assists)"
+    },
+    {
+      "x": 41,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Josh Hart misses 25-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "ATL",
+      "text": "Zaccharie Risacher makes running layup (Jalen Johnson assists)"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "NYK",
+      "text": "OG Anunoby misses 19-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 13,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson makes 12-foot pullup jump shot"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 25-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "ATL",
+      "text": "Buddy Hield makes 3-foot layup (Jonathan Kuminga assists)"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Layup Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes alley oop layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 49,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Onyeka Okongwu misses 23-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes running layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes 5-foot floating jump shot (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Buddy Hield makes 25-foot three point jumper (Jalen Johnson assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "NYK",
+      "text": "Josh Hart makes layup (Karl-Anthony Towns assists)"
+    },
+    {
+      "x": 13,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Jonathan Kuminga misses 25-foot three point jumper"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Miles McBride misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 32,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Jalen Johnson misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Jordan Clarkson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Jordan Clarkson makes free throw 2 of 2"
+    },
+    {
+      "x": 34,
+      "y": 20,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker misses 21-foot step back jumpshot"
+    },
+    {
+      "x": 22,
+      "y": 3,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker makes driving layup (Jonathan Kuminga assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker makes free throw 1 of 1"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet misses 22-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Ariel Hukporti misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Ariel Hukporti makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "ATL",
+      "text": "Jonathan Kuminga makes 1-foot alley oop dunk (Mouhamed Gueye assists)"
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado makes 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 22,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Jonathan Kuminga makes 16-foot pullup jump shot (Mouhamed Gueye assists)"
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Jose Alvarado misses 24-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Ariel Hukporti misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Ariel Hukporti makes free throw 2 of 2"
+    },
+    {
+      "x": 27,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ATL",
+      "text": "Gabe Vincent misses driving floating jump shot"
+    },
+    {
+      "x": 34,
+      "y": 5,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 10-foot step back jumpshot (Tyler Kolek assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Jalen Johnson makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Jalen Johnson makes free throw 2 of 2"
+    },
+    {
+      "x": 37,
+      "y": 12,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 19,
+      "y": 3,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ATL",
+      "text": "CJ McCollum misses driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "ATL",
+      "text": "Onyeka Okongwu makes tip shot"
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Mohamed Diawara makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Nickeil Alexander-Walker misses free throw 1 of 2"
+    },
+    {
+      "x": 25,
+      "y": 10,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "ATL",
+      "text": "Onyeka Okongwu misses 9-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "NYK",
+      "text": "Jeremy Sochan makes running dunk (Tyler Kolek assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Jonathan Kuminga makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Jonathan Kuminga makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 5,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "NYK",
+      "text": "Tyler Kolek makes 5-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Jonathan Kuminga makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Jonathan Kuminga makes free throw 2 of 2"
+    },
+    {
+      "x": 36,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mohamed Diawara misses 25-foot three point jumper"
+    },
+    {
+      "x": 15,
+      "y": 25,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Corey Kispert makes 26-foot running pullup jump shot (Keaton Wallace assists)"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Jeremy Sochan makes driving layup"
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet makes 25-foot running jump shot (Mohamed Diawara assists)"
+    },
+    {
+      "x": 24,
+      "y": 12,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Zaccharie Risacher makes 12-foot jumper (Corey Kispert assists)"
+    },
+    {
+      "x": 24,
+      "y": 11,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "ATL",
+      "text": "Keaton Wallace misses driving floating jump shot"
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Pacome Dadiet makes 24-foot three point jumper (Mohamed Diawara assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Corey Kispert makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Corey Kispert misses free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Pacome Dadiet misses 23-foot three point jumper"
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Jeremy Sochan misses 25-foot three point jumper"
+    },
+    {
+      "x": 40,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Keaton Wallace misses 28-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Hook Shot",
+      "team": "ATL",
+      "text": "Zaccharie Risacher misses 2-foot hook shot"
+    },
+    {
+      "x": 27,
+      "y": 10,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "ATL",
+      "text": "Corey Kispert misses 9-foot turnaround jump shot"
+    },
+    {
+      "x": 45,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Pacome Dadiet misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "ATL",
+      "text": "Tony Bradley makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "ATL",
+      "text": "Tony Bradley makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "ATL",
+      "text": "Keaton Wallace makes driving dunk"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Mohamed Diawara misses driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Ariel Hukporti misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Ariel Hukporti makes free throw 1 of 2"
+    },
+    {
+      "x": 22,
+      "y": 11,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "ATL",
+      "text": "Keaton Wallace makes 11-foot driving floating jump shot"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "NYK",
+      "text": "Landry Shamet misses 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Corey Kispert misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Mohamed Diawara misses 25-foot three point jumper"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "ATL",
+      "text": "Corey Kispert misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "NYK",
+      "text": "Tyler Kolek makes driving layup"
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Tyler Kolek misses 26-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 3,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "ATL",
+      "text": "Zaccharie Risacher makes driving layup (Tony Bradley assists)"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "NYK",
+      "text": "Tyler Kolek misses 23-foot three point jumper"
+    },
+    {
+      "x": 36,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Zaccharie Risacher misses 25-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "NYK",
+      "text": "Pacome Dadiet makes running layup (Tyler Kolek assists)"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "ATL",
+      "text": "Ariel Hukporti blocks Keaton Wallace's driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "NYK",
+      "text": "Tyler Kolek makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "NYK",
+      "text": "Tyler Kolek makes free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Tony Bradley makes 23-foot three point jumper (Keaton Wallace assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "NYK",
+      "text": "Tony Bradley blocks Tyler Kolek 's 1-foot two point shot"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "ATL",
+      "text": "Corey Kispert misses 23-foot three point jumper"
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "ATL",
+      "text": "Zaccharie Risacher misses 24-foot three point step back jumpshot"
+    }
+  ],
+  "shot_zones": {
+    "ATL": {
+      "at_rim": {
+        "fgm": 13,
+        "fga": 21,
+        "pct": 62
+      },
+      "paint": {
+        "fgm": 7,
+        "fga": 21,
+        "pct": 33
+      },
+      "mid": {
+        "fgm": 20,
+        "fga": 23,
+        "pct": 87
+      },
+      "corner_3": {
+        "fgm": 2,
+        "fga": 16,
+        "pct": 12
+      },
+      "arc_3": {
+        "fgm": 7,
+        "fga": 25,
+        "pct": 28
+      }
+    },
+    "NYK": {
+      "at_rim": {
+        "fgm": 26,
+        "fga": 32,
+        "pct": 81
+      },
+      "paint": {
+        "fgm": 10,
+        "fga": 11,
+        "pct": 91
+      },
+      "mid": {
+        "fgm": 28,
+        "fga": 33,
+        "pct": 85
+      },
+      "corner_3": {
+        "fgm": 1,
+        "fga": 14,
+        "pct": 7
+      },
+      "arc_3": {
+        "fgm": 12,
+        "fga": 29,
+        "pct": 41
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

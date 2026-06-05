@@ -1,0 +1,6716 @@
+{
+  "game_id": "21708305",
+  "date": "2026-05-11",
+  "home": "LAL",
+  "away": "OKC",
+  "home_pts": 110,
+  "away_pts": 115,
+  "winner": "OKC",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "LAL": [
+        26,
+        19,
+        39,
+        26
+      ],
+      "OKC": [
+        21,
+        28,
+        31,
+        35
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "12:02",
+    "time_leading_away_fmt": "34:34",
+    "time_tied_fmt": "1:24",
+    "lead_changes": 7,
+    "ties": 7,
+    "best_run_home": {
+      "pts_home": 23,
+      "pts_away": 11,
+      "start_min": 29.77,
+      "end_min": 34.63
+    },
+    "best_run_away": {
+      "pts_away": 13,
+      "pts_home": 0,
+      "start_min": 12.33,
+      "end_min": 16.2
+    },
+    "max_consec_home": 9,
+    "max_consec_away": 17
+  },
+  "four_factors": {
+    "LAL": {
+      "efg": 0.537,
+      "tov": 0.181,
+      "oreb": 0,
+      "ftr": 0.239,
+      "opp_efg": 0.594,
+      "opp_tov": 0.109,
+      "opp_oreb": 0.2,
+      "opp_ftr": 0.348
+    },
+    "OKC": {
+      "efg": 0.618,
+      "tov": 0.083,
+      "oreb": 0,
+      "ftr": 0.294,
+      "opp_efg": 0.58,
+      "opp_tov": 0.161,
+      "opp_oreb": 0.192,
+      "opp_ftr": 0.25
+    }
+  },
+  "misc": {
+    "LAL": {
+      "pts_paint": 46,
+      "pts_fb": 8,
+      "pts_2nd_chance": 12,
+      "pts_off_tov": 9
+    },
+    "OKC": {
+      "pts_paint": 44,
+      "pts_fb": 11,
+      "pts_2nd_chance": 10,
+      "pts_off_tov": 22
+    }
+  },
+  "hustle": {
+    "LAL": {
+      "deflections": 12,
+      "charges_drawn": 0,
+      "contested_shots": 40,
+      "contested_2pt": 26,
+      "contested_3pt": 14,
+      "loose_balls_recovered": 4,
+      "screen_assists": 9
+    },
+    "OKC": {
+      "deflections": 21,
+      "charges_drawn": 0,
+      "contested_shots": 30,
+      "contested_2pt": 22,
+      "contested_3pt": 8,
+      "loose_balls_recovered": 3,
+      "screen_assists": 6
+    }
+  },
+  "box_score": {
+    "LAL": [
+      {
+        "name": "L. James",
+        "minutes": "40",
+        "pos": "F",
+        "starter": true,
+        "pts": 24,
+        "reb": 12,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 0,
+        "blk": 1,
+        "tov": 4,
+        "fgm": 8,
+        "fga": 18,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 6,
+        "fta": 8,
+        "pf": 1,
+        "plus_minus": -17,
+        "off_rating": 103.7,
+        "def_rating": 122.9,
+        "ts_pct": 0.558,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "15:02",
+        "mu_fga": 10,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 1
+      },
+      {
+        "name": "R. Hachimura",
+        "minutes": "43",
+        "pos": "F",
+        "starter": true,
+        "pts": 25,
+        "reb": 5,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 9,
+        "fga": 15,
+        "fg3m": 4,
+        "fg3a": 8,
+        "ftm": 3,
+        "fta": 3,
+        "pf": 5,
+        "plus_minus": -2,
+        "off_rating": 116.3,
+        "def_rating": 117.2,
+        "ts_pct": 0.766,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "16:21",
+        "mu_fga": 13,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.462,
+        "mu_3pa": 7,
+        "mu_3pm": 2,
+        "mu_pts": 23,
+        "mu_ast": 4
+      },
+      {
+        "name": "D. Ayton",
+        "minutes": "21",
+        "pos": "C",
+        "starter": true,
+        "pts": 6,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -2,
+        "off_rating": 105,
+        "def_rating": 112.8,
+        "ts_pct": 1,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 8,
+        "mu_min": "7:47",
+        "mu_fga": 10,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 9,
+        "mu_ast": 1
+      },
+      {
+        "name": "A. Reaves",
+        "minutes": "43",
+        "pos": "G",
+        "starter": true,
+        "pts": 27,
+        "reb": 7,
+        "oreb": 1,
+        "ast": 6,
+        "stl": 0,
+        "blk": 2,
+        "tov": 8,
+        "fgm": 8,
+        "fga": 16,
+        "fg3m": 3,
+        "fg3a": 7,
+        "ftm": 8,
+        "fta": 9,
+        "pf": 5,
+        "plus_minus": -6,
+        "off_rating": 114.4,
+        "def_rating": 122.5,
+        "ts_pct": 0.676,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "16:03",
+        "mu_fga": 16,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.563,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 24,
+        "mu_ast": 5
+      },
+      {
+        "name": "M. Smart",
+        "minutes": "35",
+        "pos": "G",
+        "starter": true,
+        "pts": 5,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 2,
+        "blk": 0,
+        "tov": 6,
+        "fgm": 2,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 4,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 5,
+        "plus_minus": 5,
+        "off_rating": 115.8,
+        "def_rating": 110.7,
+        "ts_pct": 0.296,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "13:20",
+        "mu_fga": 9,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.778,
+        "mu_3pa": 4,
+        "mu_3pm": 3,
+        "mu_pts": 19,
+        "mu_ast": 6
+      },
+      {
+        "name": "J. Hayes",
+        "minutes": "27",
+        "pos": "",
+        "starter": false,
+        "pts": 18,
+        "reb": 5,
+        "oreb": 3,
+        "ast": 1,
+        "stl": 0,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 6,
+        "fta": 6,
+        "pf": 2,
+        "plus_minus": -1,
+        "off_rating": 123.6,
+        "def_rating": 121.1,
+        "ts_pct": 0.846,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "10:06",
+        "mu_fga": 11,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.364,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 10,
+        "mu_ast": 3
+      },
+      {
+        "name": "B. James",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "L. Kennard",
+        "minutes": "24",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 15,
+        "off_rating": 119.2,
+        "def_rating": 92.2,
+        "ts_pct": 0.5,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "8:52",
+        "mu_fga": 13,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.538,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 16,
+        "mu_ast": 2
+      },
+      {
+        "name": "M. Kleber",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "D. Knecht",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. LaRavia",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "N. Smith Jr.",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Thiero",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -5,
+        "off_rating": 40,
+        "def_rating": 175,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:49",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Vanderbilt",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -12,
+        "off_rating": 0,
+        "def_rating": 150,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "1:09",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "L. Doncic",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ],
+    "OKC": [
+      {
+        "name": "L. Dort",
+        "minutes": "31",
+        "pos": "G",
+        "starter": true,
+        "pts": 6,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": -1,
+        "off_rating": 121,
+        "def_rating": 113.4,
+        "ts_pct": 0.5,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "12:38",
+        "mu_fga": 7,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.429,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 3
+      },
+      {
+        "name": "C. Holmgren",
+        "minutes": "35",
+        "pos": "C",
+        "starter": true,
+        "pts": 16,
+        "reb": 9,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 9,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 2,
+        "plus_minus": 1,
+        "off_rating": 114.5,
+        "def_rating": 117.8,
+        "ts_pct": 0.743,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 8,
+        "mu_min": "13:14",
+        "mu_fga": 17,
+        "mu_fgm": 11,
+        "mu_fg_pct": 0.647,
+        "mu_3pa": 4,
+        "mu_3pm": 2,
+        "mu_pts": 26,
+        "mu_ast": 3
+      },
+      {
+        "name": "I. Hartenstein",
+        "minutes": "28",
+        "pos": "C",
+        "starter": true,
+        "pts": 5,
+        "reb": 10,
+        "oreb": 3,
+        "ast": 5,
+        "stl": 3,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 5,
+        "plus_minus": 30,
+        "off_rating": 141.1,
+        "def_rating": 90.7,
+        "ts_pct": 0.512,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "11:26",
+        "mu_fga": 10,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 14,
+        "mu_ast": 2
+      },
+      {
+        "name": "A. Mitchell",
+        "minutes": "33",
+        "pos": "G",
+        "starter": true,
+        "pts": 28,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 4,
+        "stl": 4,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 12,
+        "fga": 19,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 3,
+        "fta": 3,
+        "pf": 2,
+        "plus_minus": 17,
+        "off_rating": 121.7,
+        "def_rating": 101.5,
+        "ts_pct": 0.689,
+        "deflections": 5,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": "12:17",
+        "mu_fga": 11,
+        "mu_fgm": 8,
+        "mu_fg_pct": 0.727,
+        "mu_3pa": 3,
+        "mu_3pm": 2,
+        "mu_pts": 21,
+        "mu_ast": 2
+      },
+      {
+        "name": "S. Gilgeous-Alexander",
+        "minutes": "39",
+        "pos": "G",
+        "starter": true,
+        "pts": 35,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 8,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 11,
+        "fga": 22,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 12,
+        "fta": 15,
+        "pf": 1,
+        "plus_minus": -7,
+        "off_rating": 118.1,
+        "def_rating": 128,
+        "ts_pct": 0.612,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "15:23",
+        "mu_fga": 8,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.375,
+        "mu_3pa": 6,
+        "mu_3pm": 2,
+        "mu_pts": 11,
+        "mu_ast": 4
+      },
+      {
+        "name": "A. Caruso",
+        "minutes": "22",
+        "pos": "",
+        "starter": false,
+        "pts": 9,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 2,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 7,
+        "fg3m": 3,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 5,
+        "plus_minus": 7,
+        "off_rating": 111.4,
+        "def_rating": 89.4,
+        "ts_pct": 0.643,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "9:54",
+        "mu_fga": 9,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.444,
+        "mu_3pa": 4,
+        "mu_3pm": 2,
+        "mu_pts": 13,
+        "mu_ast": 0
+      },
+      {
+        "name": "I. Joe",
+        "minutes": "07",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": -12,
+        "off_rating": 68.8,
+        "def_rating": 127.8,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "3:08",
+        "mu_fga": 3,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 9,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. McCain",
+        "minutes": "16",
+        "pos": "",
+        "starter": false,
+        "pts": 13,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 10,
+        "fg3m": 3,
+        "fg3a": 8,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 27,
+        "off_rating": 140.6,
+        "def_rating": 62.1,
+        "ts_pct": 0.65,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "6:38",
+        "mu_fga": 3,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "N. Topic",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "C. Wallace",
+        "minutes": "19",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 1,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -24,
+        "off_rating": 87.5,
+        "def_rating": 140.5,
+        "ts_pct": 0.75,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "8:30",
+        "mu_fga": 11,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.364,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 0
+      },
+      {
+        "name": "A. Wiggins",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Williams",
+        "minutes": "09",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -13,
+        "off_rating": 70.6,
+        "def_rating": 138.9,
+        "ts_pct": 0,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "3:30",
+        "mu_fga": 3,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 2
+      },
+      {
+        "name": "K. Williams",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Sorber",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Williams",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren vs. Deandre Ayton (LeBron James gains possession)"
+    },
+    {
+      "min": 0.43,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James misses 5-foot two point shot"
+    },
+    {
+      "min": 0.45,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton offensive rebound"
+    },
+    {
+      "min": 0.45,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": true,
+      "text": "Deandre Ayton makes tip shot"
+    },
+    {
+      "min": 0.68,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": true,
+      "text": "Luguentz Dort makes 25-foot three point jumper (Ajay Mitchell assists)"
+    },
+    {
+      "min": 0.95,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James misses 27-foot three point jumper"
+    },
+    {
+      "min": 1.0,
+      "home": 2,
+      "away": 3,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander defensive rebound"
+    },
+    {
+      "min": 1.13,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Ajay Mitchell makes driving layup"
+    },
+    {
+      "min": 1.37,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart misses 24-foot three point jumper"
+    },
+    {
+      "min": 1.42,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 1.48,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive foul"
+    },
+    {
+      "min": 1.48,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive foul turnover"
+    },
+    {
+      "min": 1.73,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart misses 24-foot three point jumper"
+    },
+    {
+      "min": 1.78,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 2.0,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 2.05,
+      "home": 2,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 2.2,
+      "home": 4,
+      "away": 5,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes 10-foot turnaround jump shot (Austin Reaves assists)"
+    },
+    {
+      "min": 2.38,
+      "home": 4,
+      "away": 5,
+      "period": 1,
+      "scoring": false,
+      "text": "Austin Reaves personal foul"
+    },
+    {
+      "min": 2.65,
+      "home": 4,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes layup"
+    },
+    {
+      "min": 2.93,
+      "home": 4,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Rui Hachimura misses 27-foot three point jumper"
+    },
+    {
+      "min": 2.98,
+      "home": 4,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 3.15,
+      "home": 4,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Austin Reaves blocks Shai Gilgeous-Alexander 's 19-foot pullup jump shot"
+    },
+    {
+      "min": 3.2,
+      "home": 4,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Austin Reaves defensive rebound"
+    },
+    {
+      "min": 3.22,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "Rui Hachimura makes running layup (LeBron James assists)"
+    },
+    {
+      "min": 3.38,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Deandre Ayton personal foul"
+    },
+    {
+      "min": 3.57,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 23-foot three point jumper"
+    },
+    {
+      "min": 3.58,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart defensive rebound"
+    },
+    {
+      "min": 3.67,
+      "home": 6,
+      "away": 7,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell shooting foul"
+    },
+    {
+      "min": 3.67,
+      "home": 7,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "min": 3.67,
+      "home": 8,
+      "away": 7,
+      "period": 1,
+      "scoring": true,
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "min": 3.87,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Luguentz Dort makes 23-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 4.12,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Rui Hachimura misses 26-foot three point jumper"
+    },
+    {
+      "min": 4.18,
+      "home": 8,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 4.4,
+      "home": 8,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 16-foot step back jumpshot"
+    },
+    {
+      "min": 4.68,
+      "home": 8,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James misses driving layup"
+    },
+    {
+      "min": 4.72,
+      "home": 8,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 4.87,
+      "home": 8,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 4.93,
+      "home": 8,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Austin Reaves defensive rebound"
+    },
+    {
+      "min": 5.13,
+      "home": 8,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart misses driving layup"
+    },
+    {
+      "min": 5.15,
+      "home": 8,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell defensive rebound"
+    },
+    {
+      "min": 5.3,
+      "home": 8,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 12-foot step back jumpshot"
+    },
+    {
+      "min": 5.3,
+      "home": 8,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 5.3,
+      "home": 8,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 5.52,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Austin Reaves makes 28-foot three point step back jumpshot"
+    },
+    {
+      "min": 5.78,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 5.78,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Marcus Smart"
+    },
+    {
+      "min": 5.93,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Luguentz Dort misses 13-foot pullup jump shot"
+    },
+    {
+      "min": 6.0,
+      "home": 11,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 6.12,
+      "home": 13,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "LeBron James makes 13-foot two point shot"
+    },
+    {
+      "min": 6.35,
+      "home": 13,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Luguentz Dort misses 26-foot three point jumper"
+    },
+    {
+      "min": 6.38,
+      "home": 13,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 6.65,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Austin Reaves makes 1-foot two point shot (Luke Kennard assists)"
+    },
+    {
+      "min": 6.95,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren misses 14-foot two point shot"
+    },
+    {
+      "min": 6.98,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 7.12,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Deandre Ayton makes 2-foot layup"
+    },
+    {
+      "min": 7.45,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace misses 12-foot pullup jump shot"
+    },
+    {
+      "min": 7.5,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Rui Hachimura defensive rebound"
+    },
+    {
+      "min": 7.7,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James misses 27-foot three point jumper"
+    },
+    {
+      "min": 7.75,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 7.82,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren traveling turnover"
+    },
+    {
+      "min": 7.82,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Deandre Ayton"
+    },
+    {
+      "min": 7.82,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Chet Holmgren"
+    },
+    {
+      "min": 8.2,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard misses driving floating jump shot"
+    },
+    {
+      "min": 8.23,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaxson Hayes offensive rebound"
+    },
+    {
+      "min": 8.23,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaxson Hayes misses tip shot"
+    },
+    {
+      "min": 8.27,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 8.38,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 14-foot driving floating jump shot"
+    },
+    {
+      "min": 8.55,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kennard misses 28-foot three point pullup jump shot"
+    },
+    {
+      "min": 8.58,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 8.58,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 8.58,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Joe enters the game for Luguentz Dort"
+    },
+    {
+      "min": 8.58,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for LeBron James"
+    },
+    {
+      "min": 8.77,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Joe offensive foul"
+    },
+    {
+      "min": 8.77,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Joe offensive foul turnover"
+    },
+    {
+      "min": 9.07,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart misses 9-foot pullup jump shot"
+    },
+    {
+      "min": 9.1,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 9.25,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Joe misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 9.32,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Austin Reaves defensive rebound"
+    },
+    {
+      "min": 9.47,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams shooting foul"
+    },
+    {
+      "min": 9.47,
+      "home": 18,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaxson Hayes makes free throw 1 of 2"
+    },
+    {
+      "min": 9.47,
+      "home": 19,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaxson Hayes makes free throw 2 of 2"
+    },
+    {
+      "min": 9.82,
+      "home": 19,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Alex Caruso makes 25-foot three point jumper (Isaiah Joe assists)"
+    },
+    {
+      "min": 10.12,
+      "home": 22,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Austin Reaves makes 27-foot three pointer"
+    },
+    {
+      "min": 10.35,
+      "home": 22,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 2-foot two point shot"
+    },
+    {
+      "min": 10.72,
+      "home": 22,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Marcus Smart out of bounds bad pass turnover"
+    },
+    {
+      "min": 10.72,
+      "home": 22,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Jaylin Williams"
+    },
+    {
+      "min": 10.72,
+      "home": 22,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James enters the game for Austin Reaves"
+    },
+    {
+      "min": 10.93,
+      "home": 22,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James blocks Isaiah Hartenstein 's 4-foot layup"
+    },
+    {
+      "min": 11.0,
+      "home": 22,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso personal foul"
+    },
+    {
+      "min": 12.0,
+      "home": 24,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "LeBron James makes 13-foot fade away jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 24,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 11-foot step back jumpshot"
+    },
+    {
+      "min": 12.0,
+      "home": 24,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 24,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Joe personal foul"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaxson Hayes makes free throw 1 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Aaron Wiggins enters the game for Cason Wallace"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jarred Vanderbilt enters the game for Luke Kennard"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Alex Caruso"
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaxson Hayes makes free throw 2 of 2"
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander lost ball turnover (Marcus Smart steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 21,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Marcus Smart"
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 21,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Shai Gilgeous-Alexander"
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 21,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Aaron Wiggins"
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 21,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Isaiah Joe"
+    },
+    {
+      "min": 12.0,
+      "home": 26,
+      "away": 21,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves enters the game for Rui Hachimura"
+    },
+    {
+      "min": 12.18,
+      "home": 26,
+      "away": 21,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James personal foul"
+    },
+    {
+      "min": 12.33,
+      "home": 26,
+      "away": 24,
+      "period": 2,
+      "scoring": true,
+      "text": "Alex Caruso makes 26-foot three point jumper (Ajay Mitchell assists)"
+    },
+    {
+      "min": 12.67,
+      "home": 26,
+      "away": 24,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves misses 22-foot three point jumper"
+    },
+    {
+      "min": 12.7,
+      "home": 26,
+      "away": 24,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell defensive rebound"
+    },
+    {
+      "min": 12.83,
+      "home": 26,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "Alex Caruso makes 27-foot running jump shot (Ajay Mitchell assists)"
+    },
+    {
+      "min": 13.07,
+      "home": 26,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaxson Hayes bad pass\nturnover (Ajay Mitchell steals)"
+    },
+    {
+      "min": 13.1,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": true,
+      "text": "Ajay Mitchell makes driving layup"
+    },
+    {
+      "min": 13.1,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 13.1,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 13.47,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves misses driving floating jump shot"
+    },
+    {
+      "min": 13.48,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 13.63,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses 24-foot three point jumper"
+    },
+    {
+      "min": 13.68,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton defensive rebound"
+    },
+    {
+      "min": 13.97,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kennard misses 11-foot fade away jump shot"
+    },
+    {
+      "min": 14.0,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt offensive rebound"
+    },
+    {
+      "min": 14.0,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt misses tip shot"
+    },
+    {
+      "min": 14.02,
+      "home": 26,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 14.15,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 19-foot running pullup jump shot"
+    },
+    {
+      "min": 14.17,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 14.17,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura enters the game for Jarred Vanderbilt"
+    },
+    {
+      "min": 14.53,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Ajay Mitchell steals)"
+    },
+    {
+      "min": 14.77,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Jared McCain misses 25-foot three point jumper"
+    },
+    {
+      "min": 14.85,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 14.87,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein steps out of bounds turnover"
+    },
+    {
+      "min": 15.17,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James lost ball turnover (Isaiah Hartenstein steals)"
+    },
+    {
+      "min": 15.47,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves blocks Ajay Mitchell 's 15-foot pullup jump shot"
+    },
+    {
+      "min": 15.5,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell offensive rebound"
+    },
+    {
+      "min": 15.53,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura blocks Isaiah Hartenstein 's 3-foot alley oop dunk"
+    },
+    {
+      "min": 15.55,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 15.55,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 15.55,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Adou Thiero enters the game for Luke Kennard"
+    },
+    {
+      "min": 15.92,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves out of bounds bad pass turnover"
+    },
+    {
+      "min": 16.08,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Jared McCain misses 27-foot three point jumper"
+    },
+    {
+      "min": 16.18,
+      "home": 26,
+      "away": 31,
+      "period": 2,
+      "scoring": false,
+      "text": "Jared McCain offensive rebound"
+    },
+    {
+      "min": 16.2,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": true,
+      "text": "Jared McCain makes 26-foot three point jumper"
+    },
+    {
+      "min": 16.45,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura misses 26-foot three point jumper"
+    },
+    {
+      "min": 16.52,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 16.68,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Adou Thiero personal foul"
+    },
+    {
+      "min": 16.68,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Chet Holmgren"
+    },
+    {
+      "min": 16.77,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses 24-foot three point jumper"
+    },
+    {
+      "min": 16.8,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers defensive team rebound"
+    },
+    {
+      "min": 16.8,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for Austin Reaves"
+    },
+    {
+      "min": 17.17,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James misses layup"
+    },
+    {
+      "min": 17.18,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 17.27,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Jared McCain misses running pullup jump shot"
+    },
+    {
+      "min": 17.3,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 17.3,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Deandre Ayton loose ball foul"
+    },
+    {
+      "min": 17.3,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander enters the game for Alex Caruso"
+    },
+    {
+      "min": 17.3,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 17.42,
+      "home": 26,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura shooting foul"
+    },
+    {
+      "min": 17.42,
+      "home": 26,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 17.42,
+      "home": 26,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 17.68,
+      "home": 26,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Adou Thiero misses 25-foot three point jumper"
+    },
+    {
+      "min": 17.72,
+      "home": 26,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 17.82,
+      "home": 26,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James misses 14-foot turnaround jump shot"
+    },
+    {
+      "min": 17.87,
+      "home": 26,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Jared McCain defensive rebound"
+    },
+    {
+      "min": 17.98,
+      "home": 26,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Jared McCain makes driving layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 18.37,
+      "home": 26,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Luguentz Dort shooting foul"
+    },
+    {
+      "min": 18.52,
+      "home": 28,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander out of bounds lost ball turnover"
+    },
+    {
+      "min": 18.37,
+      "home": 27,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "min": 18.37,
+      "home": 27,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Adou Thiero"
+    },
+    {
+      "min": 18.37,
+      "home": 27,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves enters the game for Deandre Ayton"
+    },
+    {
+      "min": 18.37,
+      "home": 28,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "min": 18.52,
+      "home": 28,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 18.75,
+      "home": 30,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaxson Hayes makes driving layup (Rui Hachimura assists)"
+    },
+    {
+      "min": 18.95,
+      "home": 30,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura personal foul"
+    },
+    {
+      "min": 18.95,
+      "home": 30,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 18.95,
+      "home": 30,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe enters the game for Luguentz Dort"
+    },
+    {
+      "min": 18.95,
+      "home": 30,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for LeBron James"
+    },
+    {
+      "min": 18.95,
+      "home": 30,
+      "away": 39,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Jared McCain"
+    },
+    {
+      "min": 18.95,
+      "home": 30,
+      "away": 39,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 18.95,
+      "home": 30,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 19.2,
+      "home": 30,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves bad pass\nturnover (Cason Wallace steals)"
+    },
+    {
+      "min": 19.38,
+      "home": 30,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses finger roll layup"
+    },
+    {
+      "min": 19.43,
+      "home": 30,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura defensive rebound"
+    },
+    {
+      "min": 19.72,
+      "home": 32,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Marcus Smart makes 9-foot driving floating jump shot"
+    },
+    {
+      "min": 19.93,
+      "home": 32,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 12-foot pullup jump shot"
+    },
+    {
+      "min": 20.25,
+      "home": 34,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Austin Reaves makes 8-foot pullup jump shot"
+    },
+    {
+      "min": 20.55,
+      "home": 34,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren misses 25-foot three point jumper"
+    },
+    {
+      "min": 20.6,
+      "home": 34,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kennard defensive rebound"
+    },
+    {
+      "min": 20.75,
+      "home": 34,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe shooting foul"
+    },
+    {
+      "min": 20.75,
+      "home": 35,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Austin Reaves makes free throw 1 of 2"
+    },
+    {
+      "min": 20.75,
+      "home": 35,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Cason Wallace"
+    },
+    {
+      "min": 20.75,
+      "home": 36,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Austin Reaves makes free throw 2 of 2"
+    },
+    {
+      "min": 20.98,
+      "home": 36,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 21.03,
+      "home": 36,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaxson Hayes defensive rebound"
+    },
+    {
+      "min": 21.17,
+      "home": 36,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves bad pass\nturnover (Alex Caruso steals)"
+    },
+    {
+      "min": 21.22,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Chet Holmgren makes running dunk (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 21.42,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Marcus Smart bad pass\nturnover (Chet Holmgren steals)"
+    },
+    {
+      "min": 21.6,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso bad pass\nturnover (Luke Kennard steals)"
+    },
+    {
+      "min": 21.73,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves misses two point shot"
+    },
+    {
+      "min": 21.75,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaxson Hayes offensive rebound"
+    },
+    {
+      "min": 21.75,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaxson Hayes makes tip in dunk"
+    },
+    {
+      "min": 22.0,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses driving floating jump shot"
+    },
+    {
+      "min": 22.03,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura defensive rebound"
+    },
+    {
+      "min": 22.08,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso personal foul"
+    },
+    {
+      "min": 22.08,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Isaiah Joe"
+    },
+    {
+      "min": 22.08,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "LeBron James enters the game for Marcus Smart"
+    },
+    {
+      "min": 22.08,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Alex Caruso"
+    },
+    {
+      "min": 22.38,
+      "home": 40,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Austin Reaves makes 8-foot two point shot (Rui Hachimura assists)"
+    },
+    {
+      "min": 22.57,
+      "home": 40,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 10-foot pullup jump shot"
+    },
+    {
+      "min": 22.77,
+      "home": 40,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell personal foul"
+    },
+    {
+      "min": 22.77,
+      "home": 41,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Austin Reaves makes free throw 1 of 2"
+    },
+    {
+      "min": 22.77,
+      "home": 41,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves misses free throw 2 of 2"
+    },
+    {
+      "min": 22.8,
+      "home": 41,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 22.77,
+      "home": 41,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 23.0,
+      "home": 41,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Chet Holmgren makes alley oop layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "LeBron James makes 17-foot pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 16-foot step back jumpshot"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Rui Hachimura loose ball foul"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes free throw 1 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein misses free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers defensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for Luke Kennard"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein lane violation"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 43,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein loose ball foul"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaxson Hayes makes free throw 1 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Jarred Vanderbilt enters the game for Austin Reaves"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Luguentz Dort"
+    },
+    {
+      "min": 24.0,
+      "home": 44,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Cason Wallace"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaxson Hayes makes free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell out of bounds bad pass turnover"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Jared McCain"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Austin Reaves enters the game for Jarred Vanderbilt"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Deandre Ayton enters the game for Luke Kennard"
+    },
+    {
+      "min": 24.0,
+      "home": 45,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Alex Caruso"
+    },
+    {
+      "min": 24.25,
+      "home": 45,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 11-foot pullup jump shot (Ajay Mitchell assists)"
+    },
+    {
+      "min": 24.53,
+      "home": 47,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Rui Hachimura makes 17-foot jumper (Austin Reaves assists)"
+    },
+    {
+      "min": 24.65,
+      "home": 47,
+      "away": 53,
+      "period": 3,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 16-foot pullup jump shot"
+    },
+    {
+      "min": 24.98,
+      "home": 47,
+      "away": 53,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Ajay Mitchell steals)"
+    },
+    {
+      "min": 25.07,
+      "home": 47,
+      "away": 55,
+      "period": 3,
+      "scoring": true,
+      "text": "Ajay Mitchell makes running layup"
+    },
+    {
+      "min": 25.37,
+      "home": 49,
+      "away": 55,
+      "period": 3,
+      "scoring": true,
+      "text": "Rui Hachimura makes 12-foot pullup jump shot (LeBron James assists)"
+    },
+    {
+      "min": 25.63,
+      "home": 49,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren misses 24-foot three point jumper"
+    },
+    {
+      "min": 25.7,
+      "home": 49,
+      "away": 55,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 25.73,
+      "home": 49,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes 3-foot hook shot"
+    },
+    {
+      "min": 26.0,
+      "home": 52,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Rui Hachimura makes 24-foot three point jumper (Deandre Ayton assists)"
+    },
+    {
+      "min": 26.35,
+      "home": 52,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 12-foot step back jumpshot"
+    },
+    {
+      "min": 26.67,
+      "home": 52,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves lost ball turnover (Isaiah Hartenstein steals)"
+    },
+    {
+      "min": 26.87,
+      "home": 52,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 11-foot fade away jump shot"
+    },
+    {
+      "min": 26.87,
+      "home": 52,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart shooting foul"
+    },
+    {
+      "min": 26.87,
+      "home": 52,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses free throw 1 of 1"
+    },
+    {
+      "min": 26.9,
+      "home": 52,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 27.12,
+      "home": 52,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves lost ball turnover (Shai Gilgeous-Alexander steals)"
+    },
+    {
+      "min": 27.2,
+      "home": 52,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Ajay Mitchell makes running layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 27.2,
+      "home": 52,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart defensive goaltending violation"
+    },
+    {
+      "min": 27.48,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Deandre Ayton makes layup (Marcus Smart assists)"
+    },
+    {
+      "min": 27.7,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves personal foul"
+    },
+    {
+      "min": 27.83,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort misses 23-foot three point jumper"
+    },
+    {
+      "min": 27.85,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Lakers defensive team rebound"
+    },
+    {
+      "min": 27.85,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein loose ball foul"
+    },
+    {
+      "min": 27.85,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Chet Holmgren"
+    },
+    {
+      "min": 28.12,
+      "home": 54,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves out of bounds bad pass turnover"
+    },
+    {
+      "min": 28.42,
+      "home": 54,
+      "away": 66,
+      "period": 3,
+      "scoring": true,
+      "text": "Cason Wallace makes 23-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 28.42,
+      "home": 54,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 28.65,
+      "home": 54,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein shooting foul"
+    },
+    {
+      "min": 28.65,
+      "home": 54,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James misses free throw 1 of 2"
+    },
+    {
+      "min": 28.65,
+      "home": 54,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 28.65,
+      "home": 54,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 28.65,
+      "home": 55,
+      "away": 66,
+      "period": 3,
+      "scoring": true,
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "min": 28.93,
+      "home": 55,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort misses 27-foot three point jumper"
+    },
+    {
+      "min": 29.0,
+      "home": 55,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 29.1,
+      "home": 55,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Rui Hachimura misses 19-foot pullup jump shot"
+    },
+    {
+      "min": 29.15,
+      "home": 55,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort defensive rebound"
+    },
+    {
+      "min": 29.4,
+      "home": 55,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 19-foot pullup jump shot"
+    },
+    {
+      "min": 29.45,
+      "home": 55,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Deandre Ayton defensive rebound"
+    },
+    {
+      "min": 29.77,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": true,
+      "text": "Rui Hachimura makes 23-foot three point jumper (Marcus Smart assists)"
+    },
+    {
+      "min": 30.1,
+      "home": 58,
+      "away": 66,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves shooting foul"
+    },
+    {
+      "min": 30.1,
+      "home": 58,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 30.1,
+      "home": 58,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Deandre Ayton"
+    },
+    {
+      "min": 30.1,
+      "home": 58,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Marcus Smart"
+    },
+    {
+      "min": 30.1,
+      "home": 58,
+      "away": 68,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 30.18,
+      "home": 58,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace personal foul"
+    },
+    {
+      "min": 30.35,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": true,
+      "text": "LeBron James makes 26-foot three point jumper (Jaxson Hayes assists)"
+    },
+    {
+      "min": 30.58,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses two point shot"
+    },
+    {
+      "min": 30.6,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves defensive rebound"
+    },
+    {
+      "min": 30.63,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves out of bounds bad pass turnover"
+    },
+    {
+      "min": 30.63,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 30.63,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Luguentz Dort"
+    },
+    {
+      "min": 30.85,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kennard shooting foul"
+    },
+    {
+      "min": 30.85,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses free throw 1 of 2"
+    },
+    {
+      "min": 30.85,
+      "home": 61,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 30.85,
+      "home": 61,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 31.1,
+      "home": 63,
+      "away": 69,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaxson Hayes makes 1-foot alley oop dunk (Austin Reaves assists)"
+    },
+    {
+      "min": 31.3,
+      "home": 63,
+      "away": 71,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 18-foot pullup jump shot"
+    },
+    {
+      "min": 31.6,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": true,
+      "text": "LeBron James makes 26-foot three pointer"
+    },
+    {
+      "min": 31.83,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 28-foot three point step back jumpshot"
+    },
+    {
+      "min": 31.85,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 31.9,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Rui Hachimura misses 25-foot running jump shot"
+    },
+    {
+      "min": 31.93,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 31.93,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "(04:04) [Lakers] COACH'S CHALLENGE (CALL OVERTURNED) [Lakers] retain their timeout"
+    },
+    {
+      "min": 31.95,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Joe enters the game for Jaylin Williams"
+    },
+    {
+      "min": 31.93,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 32.17,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James misses 27-foot three point shot"
+    },
+    {
+      "min": 32.22,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 32.33,
+      "home": 66,
+      "away": 71,
+      "period": 3,
+      "scoring": false,
+      "text": "Rui Hachimura shooting foul"
+    },
+    {
+      "min": 32.33,
+      "home": 66,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes free throw 1 of 2"
+    },
+    {
+      "min": 32.33,
+      "home": 66,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "Deandre Ayton enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 32.33,
+      "home": 66,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for LeBron James"
+    },
+    {
+      "min": 32.33,
+      "home": 66,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes free throw 2 of 2"
+    },
+    {
+      "min": 32.6,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Luke Kennard makes 27-foot three pointer"
+    },
+    {
+      "min": 32.67,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace offensive foul"
+    },
+    {
+      "min": 32.67,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace offensive foul turnover"
+    },
+    {
+      "min": 32.87,
+      "home": 69,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander shooting foul"
+    },
+    {
+      "min": 32.87,
+      "home": 70,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Austin Reaves makes free throw 1 of 3"
+    },
+    {
+      "min": 32.87,
+      "home": 71,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Isaiah Joe"
+    },
+    {
+      "min": 32.87,
+      "home": 71,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Austin Reaves makes free throw 2 of 3"
+    },
+    {
+      "min": 32.87,
+      "home": 72,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Austin Reaves makes free throw 3 of 3"
+    },
+    {
+      "min": 33.18,
+      "home": 72,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 12-foot pullup jump shot"
+    },
+    {
+      "min": 33.48,
+      "home": 74,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Austin Reaves makes driving layup"
+    },
+    {
+      "min": 33.73,
+      "home": 74,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso misses driving layup"
+    },
+    {
+      "min": 33.77,
+      "home": 74,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kennard defensive rebound"
+    },
+    {
+      "min": 33.95,
+      "home": 74,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso shooting foul"
+    },
+    {
+      "min": 33.95,
+      "home": 75,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Austin Reaves makes free throw 1 of 2"
+    },
+    {
+      "min": 33.95,
+      "home": 75,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaxson Hayes enters the game for Deandre Ayton"
+    },
+    {
+      "min": 33.95,
+      "home": 76,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Austin Reaves makes free throw 2 of 2"
+    },
+    {
+      "min": 34.27,
+      "home": 76,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Ajay Mitchell makes driving layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 34.63,
+      "home": 76,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso shooting foul"
+    },
+    {
+      "min": 34.63,
+      "home": 77,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Rui Hachimura makes free throw 1 of 2"
+    },
+    {
+      "min": 34.63,
+      "home": 77,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James enters the game for Marcus Smart"
+    },
+    {
+      "min": 34.63,
+      "home": 77,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 34.63,
+      "home": 78,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Rui Hachimura makes free throw 2 of 2"
+    },
+    {
+      "min": 34.92,
+      "home": 78,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves shooting foul"
+    },
+    {
+      "min": 34.92,
+      "home": 78,
+      "away": 78,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes free throw 1 of 2"
+    },
+    {
+      "min": 34.92,
+      "home": 78,
+      "away": 78,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for Rui Hachimura"
+    },
+    {
+      "min": 34.92,
+      "home": 78,
+      "away": 78,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Alex Caruso"
+    },
+    {
+      "min": 34.92,
+      "home": 78,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaxson Hayes makes 1-foot dunk (Luke Kennard assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 3-foot two point shot"
+    },
+    {
+      "min": 36.0,
+      "home": 80,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Luke Kennard makes two point shot (Austin Reaves assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Marcus Smart personal foul"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 80,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Austin Reaves misses two point shot"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaxson Hayes offensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 84,
+      "away": 80,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaxson Hayes makes tip shot"
+    },
+    {
+      "min": 36.0,
+      "home": 84,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Cason Wallace"
+    },
+    {
+      "min": 36.0,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Chet Holmgren"
+    },
+    {
+      "min": 36.0,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura enters the game for Austin Reaves"
+    },
+    {
+      "min": 36.0,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Shai Gilgeous-Alexander"
+    },
+    {
+      "min": 36.38,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart out of bounds bad pass turnover"
+    },
+    {
+      "min": 36.77,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 29-foot three point step back jumpshot"
+    },
+    {
+      "min": 36.8,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers defensive team rebound"
+    },
+    {
+      "min": 37.13,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso shooting foul"
+    },
+    {
+      "min": 37.13,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James misses free throw 1 of 2"
+    },
+    {
+      "min": 37.13,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers offensive team rebound"
+    },
+    {
+      "min": 37.13,
+      "home": 84,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Alex Caruso"
+    },
+    {
+      "min": 37.13,
+      "home": 85,
+      "away": 80,
+      "period": 4,
+      "scoring": true,
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "min": 37.28,
+      "home": 85,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes personal foul"
+    },
+    {
+      "min": 37.35,
+      "home": 85,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart personal foul"
+    },
+    {
+      "min": 37.47,
+      "home": 85,
+      "away": 82,
+      "period": 4,
+      "scoring": true,
+      "text": "Jared McCain makes 3-foot layup (Isaiah Hartenstein assists)"
+    },
+    {
+      "min": 37.77,
+      "home": 85,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart misses 25-foot three point jumper"
+    },
+    {
+      "min": 37.82,
+      "home": 85,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 37.9,
+      "home": 85,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive foul"
+    },
+    {
+      "min": 37.9,
+      "home": 85,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive foul turnover"
+    },
+    {
+      "min": 37.9,
+      "home": 85,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Austin Reaves enters the game for Rui Hachimura"
+    },
+    {
+      "min": 37.9,
+      "home": 85,
+      "away": 82,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 38.23,
+      "home": 87,
+      "away": 82,
+      "period": 4,
+      "scoring": true,
+      "text": "LeBron James makes 7-foot pullup jump shot"
+    },
+    {
+      "min": 38.48,
+      "home": 87,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 3-foot two point shot"
+    },
+    {
+      "min": 38.87,
+      "home": 87,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James misses 14-foot two point shot"
+    },
+    {
+      "min": 38.9,
+      "home": 87,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 38.97,
+      "home": 87,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain misses 26-foot running jump shot"
+    },
+    {
+      "min": 39.02,
+      "home": 87,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Austin Reaves defensive rebound"
+    },
+    {
+      "min": 39.18,
+      "home": 87,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Austin Reaves bad pass\nturnover (Ajay Mitchell steals)"
+    },
+    {
+      "min": 39.27,
+      "home": 87,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes blocks Ajay Mitchell 's 3-foot running layup"
+    },
+    {
+      "min": 39.28,
+      "home": 87,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart defensive rebound"
+    },
+    {
+      "min": 39.33,
+      "home": 89,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "LeBron James makes two point shot (Marcus Smart assists)"
+    },
+    {
+      "min": 39.38,
+      "home": 89,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 39.38,
+      "home": 89,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura enters the game for Marcus Smart"
+    },
+    {
+      "min": 39.38,
+      "home": 89,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 39.38,
+      "home": 89,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander enters the game for Chet Holmgren"
+    },
+    {
+      "min": 39.6,
+      "home": 89,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "Jared McCain makes 28-foot three point jumper (Isaiah Hartenstein assists)"
+    },
+    {
+      "min": 40.1,
+      "home": 92,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "Austin Reaves makes 26-foot three point jumper"
+    },
+    {
+      "min": 40.25,
+      "home": 92,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes shooting foul"
+    },
+    {
+      "min": 40.25,
+      "home": 92,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 40.25,
+      "home": 92,
+      "away": 88,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart enters the game for Luke Kennard"
+    },
+    {
+      "min": 40.25,
+      "home": 92,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 40.57,
+      "home": 92,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart bad pass\nturnover (Alex Caruso steals)"
+    },
+    {
+      "min": 40.63,
+      "home": 92,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain misses 26-foot running jump shot"
+    },
+    {
+      "min": 40.68,
+      "home": 92,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 40.9,
+      "home": 92,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Austin Reaves misses 25-foot three point jumper"
+    },
+    {
+      "min": 40.93,
+      "home": 92,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort defensive rebound"
+    },
+    {
+      "min": 41.12,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Jared McCain makes 26-foot three point jumper (Alex Caruso assists)"
+    },
+    {
+      "min": 41.42,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart out of bounds bad pass turnover"
+    },
+    {
+      "min": 41.42,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 41.42,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "(06:35) [Thunder] COACH'S CHALLENGE (CALL OVERTURNED) [Thunder] retain their timeout"
+    },
+    {
+      "min": 41.42,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Luguentz Dort"
+    },
+    {
+      "min": 41.42,
+      "home": 92,
+      "away": 92,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Alex Caruso"
+    },
+    {
+      "min": 41.77,
+      "home": 92,
+      "away": 94,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 6-foot driving floating jump shot"
+    },
+    {
+      "min": 41.77,
+      "home": 92,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart shooting foul"
+    },
+    {
+      "min": 41.77,
+      "home": 92,
+      "away": 94,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 41.77,
+      "home": 92,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes free throw 1 of 1"
+    },
+    {
+      "min": 41.97,
+      "home": 92,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart offensive foul"
+    },
+    {
+      "min": 41.97,
+      "home": 92,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart offensive foul turnover"
+    },
+    {
+      "min": 42.12,
+      "home": 92,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 42.18,
+      "home": 92,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura defensive rebound"
+    },
+    {
+      "min": 42.48,
+      "home": 94,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Rui Hachimura makes 18-foot pullup jump shot (Austin Reaves assists)"
+    },
+    {
+      "min": 42.82,
+      "home": 94,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell misses two point shot"
+    },
+    {
+      "min": 42.83,
+      "home": 94,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren offensive rebound"
+    },
+    {
+      "min": 42.83,
+      "home": 94,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Chet Holmgren makes tip in dunk"
+    },
+    {
+      "min": 43.0,
+      "home": 94,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort personal foul"
+    },
+    {
+      "min": 43.07,
+      "home": 96,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Jaxson Hayes makes 1-foot dunk (Austin Reaves assists)"
+    },
+    {
+      "min": 43.43,
+      "home": 96,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 14-foot two point shot"
+    },
+    {
+      "min": 43.68,
+      "home": 98,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "LeBron James makes 1-foot driving dunk"
+    },
+    {
+      "min": 44.05,
+      "home": 98,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 28-foot three point step back jumpshot"
+    },
+    {
+      "min": 44.2,
+      "home": 98,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort personal foul"
+    },
+    {
+      "min": 44.2,
+      "home": 98,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Jared McCain"
+    },
+    {
+      "min": 44.3,
+      "home": 100,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Austin Reaves makes 9-foot fade away jump shot"
+    },
+    {
+      "min": 44.58,
+      "home": 100,
+      "away": 105,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 26-foot three point jumper (Isaiah Hartenstein assists)"
+    },
+    {
+      "min": 44.83,
+      "home": 103,
+      "away": 105,
+      "period": 4,
+      "scoring": true,
+      "text": "Rui Hachimura makes 22-foot three point jumper (LeBron James assists)"
+    },
+    {
+      "min": 45.12,
+      "home": 103,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 20-foot pullup jump shot"
+    },
+    {
+      "min": 45.15,
+      "home": 103,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James defensive rebound"
+    },
+    {
+      "min": 45.17,
+      "home": 103,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James bad pass\nturnover (Isaiah Hartenstein steals)"
+    },
+    {
+      "min": 45.32,
+      "home": 103,
+      "away": 107,
+      "period": 4,
+      "scoring": true,
+      "text": "Chet Holmgren makes 3-foot hook shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 45.65,
+      "home": 103,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura misses two point shot"
+    },
+    {
+      "min": 45.68,
+      "home": 103,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 45.95,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": true,
+      "text": "Chet Holmgren makes 1-foot alley oop dunk (Isaiah Hartenstein assists)"
+    },
+    {
+      "min": 46.23,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James misses 24-foot three point jumper"
+    },
+    {
+      "min": 46.28,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura offensive rebound"
+    },
+    {
+      "min": 46.32,
+      "home": 106,
+      "away": 109,
+      "period": 4,
+      "scoring": true,
+      "text": "Rui Hachimura makes 22-foot three point step back jumpshot"
+    },
+    {
+      "min": 46.32,
+      "home": 106,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren shooting foul"
+    },
+    {
+      "min": 46.32,
+      "home": 107,
+      "away": 109,
+      "period": 4,
+      "scoring": true,
+      "text": "Rui Hachimura makes free throw 1 of 1"
+    },
+    {
+      "min": 46.52,
+      "home": 107,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander bad pass\nturnover (Marcus Smart steals)"
+    },
+    {
+      "min": 46.65,
+      "home": 107,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes misses running layup"
+    },
+    {
+      "min": 46.67,
+      "home": 107,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 46.93,
+      "home": 107,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 25-foot three point jumper"
+    },
+    {
+      "min": 47.0,
+      "home": 107,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaxson Hayes defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 109,
+      "away": 109,
+      "period": 4,
+      "scoring": true,
+      "text": "Marcus Smart makes driving layup"
+    },
+    {
+      "min": 48.0,
+      "home": 109,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren shooting foul"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 109,
+      "period": 4,
+      "scoring": true,
+      "text": "Marcus Smart makes free throw 1 of 1"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Luguentz Dort"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 111,
+      "period": 4,
+      "scoring": true,
+      "text": "Chet Holmgren makes 1-foot dunk (Isaiah Hartenstein assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 111,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 111,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Chet Holmgren"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 111,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Jared McCain"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 111,
+      "period": 4,
+      "scoring": false,
+      "text": "LeBron James misses two point shot"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 111,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 111,
+      "period": 4,
+      "scoring": false,
+      "text": "Austin Reaves personal take foul"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 112,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 112,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Lakers Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Maxi Kleber enters the game for Rui Hachimura"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Jaxson Hayes"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Austin Reaves misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Cason Wallace"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura enters the game for Luke Kennard"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Luguentz Dort"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Jarred Vanderbilt enters the game for Maxi Kleber"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 113,
+      "period": 4,
+      "scoring": false,
+      "text": "Rui Hachimura personal take foul"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 114,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes free throw 1 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 114,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Chet Holmgren"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 114,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Jared McCain"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 114,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kennard enters the game for Jarred Vanderbilt"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 115,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 115,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 115,
+      "period": 4,
+      "scoring": false,
+      "text": "Marcus Smart misses 24-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 115,
+      "period": 4,
+      "scoring": false,
+      "text": "Austin Reaves offensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 115,
+      "period": 4,
+      "scoring": false,
+      "text": "Austin Reaves misses tip shot"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 115,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 115,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 110,
+      "away": 115,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 22,
+      "y": 4,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 5-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "LAL",
+      "text": "Deandre Ayton makes tip shot"
+    },
+    {
+      "x": 43,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort makes 25-foot three point jumper (Ajay Mitchell assists)"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 27-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes driving layup"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart misses 24-foot three point jumper"
+    },
+    {
+      "x": 49,
+      "y": 5,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart misses 24-foot three point jumper"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 10-foot turnaround jump shot (Austin Reaves assists)"
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "made": true,
+      "type": "Layup Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes layup"
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 27-foot three point jumper"
+    },
+    {
+      "x": 36,
+      "y": 16,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Austin Reaves blocks Shai Gilgeous-Alexander 's 19-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes running layup (LeBron James assists)"
+    },
+    {
+      "x": 48,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 23-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort makes 23-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 16,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 16-foot step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "LeBron James misses driving layup"
+    },
+    {
+      "x": 42,
+      "y": 20,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "Marcus Smart misses driving layup"
+    },
+    {
+      "x": 37,
+      "y": -2,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 12-foot step back jumpshot"
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves makes 28-foot three point step back jumpshot"
+    },
+    {
+      "x": 29,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 13-foot pullup jump shot"
+    },
+    {
+      "x": 20,
+      "y": 13,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 13-foot two point shot"
+    },
+    {
+      "x": 49,
+      "y": 9,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "LAL",
+      "text": "Austin Reaves makes 1-foot two point shot (Luke Kennard assists)"
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses 14-foot two point shot"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "LAL",
+      "text": "Deandre Ayton makes 2-foot layup"
+    },
+    {
+      "x": 18,
+      "y": 11,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses 12-foot pullup jump shot"
+    },
+    {
+      "x": 13,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 27-foot three point jumper"
+    },
+    {
+      "x": 18,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes misses tip shot"
+    },
+    {
+      "x": 36,
+      "y": 9,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 14-foot driving floating jump shot"
+    },
+    {
+      "x": 19,
+      "y": 28,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses 28-foot three point pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart misses 9-foot pullup jump shot"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes free throw 2 of 2"
+    },
+    {
+      "x": 46,
+      "y": 15,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso makes 25-foot three point jumper (Isaiah Joe assists)"
+    },
+    {
+      "x": 39,
+      "y": 23,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves makes 27-foot three pointer"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 2-foot two point shot"
+    },
+    {
+      "x": 29,
+      "y": 1,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "OKC",
+      "text": "LeBron James blocks Isaiah Hartenstein 's 4-foot layup"
+    },
+    {
+      "x": 35,
+      "y": 9,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 13-foot fade away jump shot"
+    },
+    {
+      "x": 21,
+      "y": 11,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 11-foot step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes free throw 2 of 2"
+    },
+    {
+      "x": 44,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso makes 26-foot three point jumper (Ajay Mitchell assists)"
+    },
+    {
+      "x": 47,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves misses 22-foot three point jumper"
+    },
+    {
+      "x": 40,
+      "y": 23,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso makes 27-foot running jump shot (Ajay Mitchell assists)"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes driving layup"
+    },
+    {
+      "x": 31,
+      "y": 4,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves misses driving floating jump shot"
+    },
+    {
+      "x": 12,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 24-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 12,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard misses 11-foot fade away jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "LAL",
+      "text": "Jarred Vanderbilt misses tip shot"
+    },
+    {
+      "x": 41,
+      "y": 11,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 19-foot running pullup jump shot"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 25-foot three point jumper"
+    },
+    {
+      "x": 34,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Austin Reaves blocks Ajay Mitchell 's 15-foot pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 3,
+      "made": false,
+      "type": "Alley Oop Dunk Shot",
+      "team": "OKC",
+      "text": "Rui Hachimura blocks Isaiah Hartenstein 's 3-foot alley oop dunk"
+    },
+    {
+      "x": 17,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 27-foot three point jumper"
+    },
+    {
+      "x": 20,
+      "y": 27,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes 26-foot three point jumper"
+    },
+    {
+      "x": 21,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 26-foot three point jumper"
+    },
+    {
+      "x": 49,
+      "y": 5,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 24-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "LAL",
+      "text": "LeBron James misses layup"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses running pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 48,
+      "y": 12,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Adou Thiero misses 25-foot three point jumper"
+    },
+    {
+      "x": 38,
+      "y": 7,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 14-foot turnaround jump shot"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes driving layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes driving layup (Rui Hachimura assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Finger Roll Layup",
+      "team": "OKC",
+      "text": "Alex Caruso misses finger roll layup"
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart makes 9-foot driving floating jump shot"
+    },
+    {
+      "x": 32,
+      "y": 11,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 12-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 9,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves makes 8-foot pullup jump shot"
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Austin Reaves makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Austin Reaves makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes running dunk (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "LAL",
+      "text": "Austin Reaves misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Dunk Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes tip in dunk"
+    },
+    {
+      "x": 30,
+      "y": 4,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses driving floating jump shot"
+    },
+    {
+      "x": 28,
+      "y": 8,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "LAL",
+      "text": "Austin Reaves makes 8-foot two point shot (Rui Hachimura assists)"
+    },
+    {
+      "x": 24,
+      "y": 11,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 10-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Austin Reaves makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Austin Reaves misses free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Layup Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes alley oop layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 17-foot pullup jump shot"
+    },
+    {
+      "x": 42,
+      "y": 0,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 16-foot step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein misses free throw 2 of 2"
+    },
+    {
+      "x": 39,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes free throw 2 of 2"
+    },
+    {
+      "x": 36,
+      "y": 2,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 11-foot pullup jump shot (Ajay Mitchell assists)"
+    },
+    {
+      "x": 34,
+      "y": 16,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 17-foot jumper (Austin Reaves assists)"
+    },
+    {
+      "x": 25,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 16-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes running layup"
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 12-foot pullup jump shot (LeBron James assists)"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses 24-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "made": true,
+      "type": "Hook Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes 3-foot hook shot"
+    },
+    {
+      "x": 49,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 24-foot three point jumper (Deandre Ayton assists)"
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 12-foot step back jumpshot"
+    },
+    {
+      "x": 36,
+      "y": 3,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 11-foot fade away jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses free throw 1 of 1"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes running layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 27,
+      "y": 3,
+      "made": true,
+      "type": "Layup Shot",
+      "team": "LAL",
+      "text": "Deandre Ayton makes layup (Marcus Smart assists)"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 23-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 6,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace makes 23-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "LeBron James misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "x": 39,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 27-foot three point jumper"
+    },
+    {
+      "x": 42,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 19-foot pullup jump shot"
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 19-foot pullup jump shot"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 23-foot three point jumper (Marcus Smart assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 44,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 26-foot three point jumper (Jaxson Hayes assists)"
+    },
+    {
+      "x": 23,
+      "y": 6,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes 1-foot alley oop dunk (Austin Reaves assists)"
+    },
+    {
+      "x": 33,
+      "y": 16,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 18-foot pullup jump shot"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 26-foot three pointer"
+    },
+    {
+      "x": 7,
+      "y": 22,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 28-foot three point step back jumpshot"
+    },
+    {
+      "x": 35,
+      "y": 24,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura misses 25-foot running jump shot"
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Bank Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 27-foot three point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren makes free throw 2 of 2"
+    },
+    {
+      "x": 6,
+      "y": 20,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Luke Kennard makes 27-foot three pointer"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 3",
+      "team": "LAL",
+      "text": "Austin Reaves makes free throw 1 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 3",
+      "team": "LAL",
+      "text": "Austin Reaves makes free throw 2 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 3 of 3",
+      "team": "LAL",
+      "text": "Austin Reaves makes free throw 3 of 3"
+    },
+    {
+      "x": 25,
+      "y": 13,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 12-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "Austin Reaves makes driving layup"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Austin Reaves makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Austin Reaves makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes driving layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "Rui Hachimura makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "Rui Hachimura makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes 1-foot dunk (Luke Kennard assists)"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 3-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Layup Running Reverse",
+      "team": "LAL",
+      "text": "Luke Kennard makes two point shot (Austin Reaves assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 4,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes tip shot"
+    },
+    {
+      "x": 21,
+      "y": 29,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 29-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "LAL",
+      "text": "LeBron James misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "LAL",
+      "text": "LeBron James makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes 3-foot layup (Isaiah Hartenstein assists)"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart misses 25-foot three point jumper"
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 7-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 3-foot two point shot"
+    },
+    {
+      "x": 21,
+      "y": 14,
+      "made": false,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 14-foot two point shot"
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 26-foot running jump shot"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "OKC",
+      "text": "Jaxson Hayes blocks Ajay Mitchell 's 3-foot running layup"
+    },
+    {
+      "x": 27,
+      "y": -2,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "LAL",
+      "text": "LeBron James makes two point shot (Marcus Smart assists)"
+    },
+    {
+      "x": 8,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes 28-foot three point jumper (Isaiah Hartenstein assists)"
+    },
+    {
+      "x": 44,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves makes 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 26-foot running jump shot"
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves misses 25-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 13,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes 26-foot three point jumper (Alex Caruso assists)"
+    },
+    {
+      "x": 24,
+      "y": 7,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 6-foot driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes free throw 1 of 1"
+    },
+    {
+      "x": 37,
+      "y": 12,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 18-foot pullup jump shot (Austin Reaves assists)"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Dunk Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes tip in dunk"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes makes 1-foot dunk (Austin Reaves assists)"
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 14-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "LAL",
+      "text": "LeBron James makes 1-foot driving dunk"
+    },
+    {
+      "x": 10,
+      "y": 25,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 28-foot three point step back jumpshot"
+    },
+    {
+      "x": 28,
+      "y": 9,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves makes 9-foot fade away jump shot"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 26-foot three point jumper (Isaiah Hartenstein assists)"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 22-foot three point jumper (LeBron James assists)"
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 20-foot pullup jump shot"
+    },
+    {
+      "x": 27,
+      "y": 3,
+      "made": true,
+      "type": "Hook Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 3-foot hook shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "LAL",
+      "text": "Rui Hachimura misses two point shot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 1-foot alley oop dunk (Isaiah Hartenstein assists)"
+    },
+    {
+      "x": 18,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses 24-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "LAL",
+      "text": "Rui Hachimura makes 22-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "LAL",
+      "text": "Rui Hachimura makes free throw 1 of 1"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "LAL",
+      "text": "Jaxson Hayes misses running layup"
+    },
+    {
+      "x": 49,
+      "y": 7,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "LAL",
+      "text": "Marcus Smart makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "LAL",
+      "text": "Marcus Smart makes free throw 1 of 1"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 1-foot dunk (Isaiah Hartenstein assists)"
+    },
+    {
+      "x": 30,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "LAL",
+      "text": "LeBron James misses two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "LAL",
+      "text": "Austin Reaves misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes free throw 2 of 2"
+    },
+    {
+      "x": 49,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "LAL",
+      "text": "Marcus Smart misses 24-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "LAL",
+      "text": "Austin Reaves misses tip shot"
+    }
+  ],
+  "shot_zones": {
+    "LAL": {
+      "at_rim": {
+        "fgm": 15,
+        "fga": 21,
+        "pct": 71
+      },
+      "paint": {
+        "fgm": 10,
+        "fga": 20,
+        "pct": 50
+      },
+      "mid": {
+        "fgm": 27,
+        "fga": 30,
+        "pct": 90
+      },
+      "corner_3": {
+        "fgm": 4,
+        "fga": 11,
+        "pct": 36
+      },
+      "arc_3": {
+        "fgm": 6,
+        "fga": 20,
+        "pct": 30
+      }
+    },
+    "OKC": {
+      "at_rim": {
+        "fgm": 13,
+        "fga": 18,
+        "pct": 72
+      },
+      "paint": {
+        "fgm": 12,
+        "fga": 19,
+        "pct": 63
+      },
+      "mid": {
+        "fgm": 26,
+        "fga": 33,
+        "pct": 79
+      },
+      "corner_3": {
+        "fgm": 2,
+        "fga": 12,
+        "pct": 17
+      },
+      "arc_3": {
+        "fgm": 9,
+        "fga": 23,
+        "pct": 39
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

@@ -1,0 +1,6892 @@
+{
+  "game_id": "21684886",
+  "date": "2026-04-22",
+  "home": "OKC",
+  "away": "PHX",
+  "home_pts": 120,
+  "away_pts": 107,
+  "winner": "OKC",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "OKC": [
+        30,
+        35,
+        35,
+        20
+      ],
+      "PHX": [
+        29,
+        28,
+        20,
+        30
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "44:04",
+    "time_leading_away_fmt": "2:19",
+    "time_tied_fmt": "1:37",
+    "lead_changes": 8,
+    "ties": 2,
+    "best_run_home": {
+      "pts_home": 22,
+      "pts_away": 8,
+      "start_min": 32.32,
+      "end_min": 37.22
+    },
+    "best_run_away": {
+      "pts_away": 17,
+      "pts_home": 4,
+      "start_min": 38.02,
+      "end_min": 43.0
+    },
+    "max_consec_home": 9,
+    "max_consec_away": 9
+  },
+  "four_factors": {
+    "OKC": {
+      "efg": 0.596,
+      "tov": 0.06,
+      "oreb": 0,
+      "ftr": 0.298,
+      "opp_efg": 0.488,
+      "opp_tov": 0.182,
+      "opp_oreb": 0.261,
+      "opp_ftr": 0.186
+    },
+    "PHX": {
+      "efg": 0.506,
+      "tov": 0.173,
+      "oreb": 0.065,
+      "ftr": 0.215,
+      "opp_efg": 0.555,
+      "opp_tov": 0.093,
+      "opp_oreb": 0.324,
+      "opp_ftr": 0.22
+    }
+  },
+  "misc": {
+    "OKC": {
+      "pts_paint": 48,
+      "pts_fb": 11,
+      "pts_2nd_chance": 11,
+      "pts_off_tov": 22
+    },
+    "PHX": {
+      "pts_paint": 42,
+      "pts_fb": 14,
+      "pts_2nd_chance": 18,
+      "pts_off_tov": 9
+    }
+  },
+  "hustle": {
+    "OKC": {
+      "deflections": 23,
+      "charges_drawn": 2,
+      "contested_shots": 43,
+      "contested_2pt": 31,
+      "contested_3pt": 12,
+      "loose_balls_recovered": 3,
+      "screen_assists": 8
+    },
+    "PHX": {
+      "deflections": 15,
+      "charges_drawn": 0,
+      "contested_shots": 36,
+      "contested_2pt": 17,
+      "contested_3pt": 19,
+      "loose_balls_recovered": 6,
+      "screen_assists": 9
+    }
+  },
+  "box_score": {
+    "OKC": [
+      {
+        "name": "J. Williams",
+        "minutes": "23",
+        "pos": "G",
+        "starter": true,
+        "pts": 19,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 7,
+        "fga": 11,
+        "fg3m": 2,
+        "fg3a": 3,
+        "ftm": 3,
+        "fta": 5,
+        "pf": 1,
+        "plus_minus": 17,
+        "off_rating": 132,
+        "def_rating": 96.1,
+        "ts_pct": 0.72,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "9:16",
+        "mu_fga": 5,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 0
+      },
+      {
+        "name": "C. Holmgren",
+        "minutes": "32",
+        "pos": "C",
+        "starter": true,
+        "pts": 19,
+        "reb": 8,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 4,
+        "tov": 3,
+        "fgm": 7,
+        "fga": 12,
+        "fg3m": 3,
+        "fg3a": 6,
+        "ftm": 2,
+        "fta": 3,
+        "pf": 2,
+        "plus_minus": 6,
+        "off_rating": 111.6,
+        "def_rating": 104.4,
+        "ts_pct": 0.713,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 16,
+        "mu_min": "11:59",
+        "mu_fga": 24,
+        "mu_fgm": 13,
+        "mu_fg_pct": 0.542,
+        "mu_3pa": 7,
+        "mu_3pm": 3,
+        "mu_pts": 30,
+        "mu_ast": 4
+      },
+      {
+        "name": "I. Hartenstein",
+        "minutes": "22",
+        "pos": "C",
+        "starter": true,
+        "pts": 9,
+        "reb": 10,
+        "oreb": 6,
+        "ast": 2,
+        "stl": 1,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 3,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 3,
+        "fta": 4,
+        "pf": 4,
+        "plus_minus": 7,
+        "off_rating": 130.4,
+        "def_rating": 115.2,
+        "ts_pct": 0.58,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 9,
+        "mu_min": "9:00",
+        "mu_fga": 13,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.154,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 8,
+        "mu_ast": 2
+      },
+      {
+        "name": "L. Dort",
+        "minutes": "24",
+        "pos": "G",
+        "starter": true,
+        "pts": 9,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 7,
+        "fg3m": 3,
+        "fg3a": 7,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 12,
+        "off_rating": 131.3,
+        "def_rating": 106.3,
+        "ts_pct": 0.643,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "8:56",
+        "mu_fga": 7,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.429,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 3
+      },
+      {
+        "name": "S. Gilgeous-Alexander",
+        "minutes": "38",
+        "pos": "G",
+        "starter": true,
+        "pts": 37,
+        "reb": 5,
+        "oreb": 1,
+        "ast": 9,
+        "stl": 1,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 13,
+        "fga": 25,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 9,
+        "fta": 9,
+        "pf": 1,
+        "plus_minus": 16,
+        "off_rating": 118.5,
+        "def_rating": 100,
+        "ts_pct": 0.639,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "14:19",
+        "mu_fga": 9,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 1
+      },
+      {
+        "name": "A. Caruso",
+        "minutes": "23",
+        "pos": "",
+        "starter": false,
+        "pts": 7,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 3,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 3,
+        "fga": 7,
+        "fg3m": 1,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 3,
+        "off_rating": 118.8,
+        "def_rating": 112.5,
+        "ts_pct": 0.5,
+        "deflections": 4,
+        "charges_drawn": 1,
+        "contested_shots": 0,
+        "mu_min": "9:16",
+        "mu_fga": 7,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.714,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 2
+      },
+      {
+        "name": "I. Joe",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 6,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 7,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -9,
+        "off_rating": 100,
+        "def_rating": 133.3,
+        "ts_pct": 0.429,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "6:11",
+        "mu_fga": 5,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 8,
+        "mu_ast": 3
+      },
+      {
+        "name": "J. McCain",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Mitchell",
+        "minutes": "29",
+        "pos": "",
+        "starter": false,
+        "pts": 14,
+        "reb": 5,
+        "oreb": 3,
+        "ast": 5,
+        "stl": 2,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 5,
+        "fga": 12,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 3,
+        "fta": 4,
+        "pf": 2,
+        "plus_minus": 9,
+        "off_rating": 117.7,
+        "def_rating": 108.5,
+        "ts_pct": 0.509,
+        "deflections": 2,
+        "charges_drawn": 1,
+        "contested_shots": 1,
+        "mu_min": "11:11",
+        "mu_fga": 12,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.417,
+        "mu_3pa": 5,
+        "mu_3pm": 4,
+        "mu_pts": 16,
+        "mu_ast": 1
+      },
+      {
+        "name": "N. Topic",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "C. Wallace",
+        "minutes": "21",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 3,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 3,
+        "off_rating": 108.3,
+        "def_rating": 106.5,
+        "ts_pct": 0,
+        "deflections": 8,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "9:26",
+        "mu_fga": 8,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 2
+      },
+      {
+        "name": "A. Wiggins",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Williams",
+        "minutes": "11",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 1,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 1,
+        "off_rating": 96.2,
+        "def_rating": 92.3,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "4:43",
+        "mu_fga": 6,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 2
+      },
+      {
+        "name": "K. Williams",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Sorber",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ],
+    "PHX": [
+      {
+        "name": "J. Green",
+        "minutes": "41",
+        "pos": "G",
+        "starter": true,
+        "pts": 21,
+        "reb": 5,
+        "oreb": 3,
+        "ast": 3,
+        "stl": 2,
+        "blk": 0,
+        "tov": 7,
+        "fgm": 8,
+        "fga": 23,
+        "fg3m": 1,
+        "fg3a": 8,
+        "ftm": 4,
+        "fta": 5,
+        "pf": 2,
+        "plus_minus": -12,
+        "off_rating": 109.4,
+        "def_rating": 125,
+        "ts_pct": 0.417,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "16:40",
+        "mu_fga": 17,
+        "mu_fgm": 10,
+        "mu_fg_pct": 0.588,
+        "mu_3pa": 7,
+        "mu_3pm": 4,
+        "mu_pts": 24,
+        "mu_ast": 7
+      },
+      {
+        "name": "D. Brooks",
+        "minutes": "38",
+        "pos": "F",
+        "starter": true,
+        "pts": 30,
+        "reb": 6,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 12,
+        "fga": 23,
+        "fg3m": 5,
+        "fg3a": 9,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 6,
+        "plus_minus": -11,
+        "off_rating": 115.6,
+        "def_rating": 128.2,
+        "ts_pct": 0.64,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "15:20",
+        "mu_fga": 13,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.538,
+        "mu_3pa": 6,
+        "mu_3pm": 3,
+        "mu_pts": 22,
+        "mu_ast": 4
+      },
+      {
+        "name": "O. Ighodaro",
+        "minutes": "29",
+        "pos": "F",
+        "starter": true,
+        "pts": 7,
+        "reb": 8,
+        "oreb": 4,
+        "ast": 5,
+        "stl": 0,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 8,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": -23,
+        "off_rating": 96.8,
+        "def_rating": 133.9,
+        "ts_pct": 0.394,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "11:19",
+        "mu_fga": 11,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.636,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 17,
+        "mu_ast": 6
+      },
+      {
+        "name": "D. Booker",
+        "minutes": "40",
+        "pos": "G",
+        "starter": true,
+        "pts": 22,
+        "reb": 7,
+        "oreb": 3,
+        "ast": 4,
+        "stl": 1,
+        "blk": 0,
+        "tov": 5,
+        "fgm": 7,
+        "fga": 14,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 8,
+        "fta": 10,
+        "pf": 3,
+        "plus_minus": -12,
+        "off_rating": 103.6,
+        "def_rating": 116.7,
+        "ts_pct": 0.598,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "15:53",
+        "mu_fga": 13,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.692,
+        "mu_3pa": 5,
+        "mu_3pm": 2,
+        "mu_pts": 20,
+        "mu_ast": 4
+      },
+      {
+        "name": "C. Gillespie",
+        "minutes": "29",
+        "pos": "G",
+        "starter": true,
+        "pts": 7,
+        "reb": 6,
+        "oreb": 3,
+        "ast": 6,
+        "stl": 2,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 9,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 4,
+        "plus_minus": -14,
+        "off_rating": 101.6,
+        "def_rating": 123.8,
+        "ts_pct": 0.389,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "10:43",
+        "mu_fga": 14,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.429,
+        "mu_3pa": 6,
+        "mu_3pm": 2,
+        "mu_pts": 18,
+        "mu_ast": 3
+      },
+      {
+        "name": "G. Allen",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Bouyea",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Coffey",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "R. Dunn",
+        "minutes": "08",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 1,
+        "off_rating": 88.9,
+        "def_rating": 78.9,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "2:40",
+        "mu_fga": 2,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 1
+      },
+      {
+        "name": "R. Fleming",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "H. Highsmith",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "K. Maluach",
+        "minutes": "19",
+        "pos": "",
+        "starter": false,
+        "pts": 4,
+        "reb": 2,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 2,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": 10,
+        "off_rating": 123.7,
+        "def_rating": 94.9,
+        "ts_pct": 0.667,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "7:28",
+        "mu_fga": 10,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 8,
+        "mu_ast": 1
+      },
+      {
+        "name": "R. O'Neale",
+        "minutes": "34",
+        "pos": "",
+        "starter": false,
+        "pts": 16,
+        "reb": 9,
+        "oreb": 2,
+        "ast": 4,
+        "stl": 2,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 4,
+        "fga": 5,
+        "fg3m": 4,
+        "fg3a": 5,
+        "ftm": 4,
+        "fta": 4,
+        "pf": 4,
+        "plus_minus": -4,
+        "off_rating": 114.3,
+        "def_rating": 116.7,
+        "ts_pct": 1.183,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 10,
+        "mu_min": "13:52",
+        "mu_fga": 20,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.35,
+        "mu_3pa": 10,
+        "mu_3pm": 3,
+        "mu_pts": 18,
+        "mu_ast": 2
+      },
+      {
+        "name": "J. Goodwin",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. Williams",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Oso Ighodaro vs. Chet Holmgren (Jalen Williams gains possession)"
+    },
+    {
+      "min": 0.35,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 0.37,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 0.4,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren misses 25-foot three point jumper"
+    },
+    {
+      "min": 0.48,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Collin Gillespie defensive rebound"
+    },
+    {
+      "min": 0.6,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Collin Gillespie makes 8-foot step back jumpshot (Devin Booker assists)"
+    },
+    {
+      "min": 0.9,
+      "home": 3,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Luguentz Dort makes 25-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 1.27,
+      "home": 3,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Dillon Brooks makes 10-foot pullup jump shot (Collin Gillespie assists)"
+    },
+    {
+      "min": 1.47,
+      "home": 3,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Luguentz Dort misses 22-foot three point jumper"
+    },
+    {
+      "min": 1.53,
+      "home": 3,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Green defensive rebound"
+    },
+    {
+      "min": 1.67,
+      "home": 3,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Green bad pass\nturnover (Shai Gilgeous-Alexander steals)"
+    },
+    {
+      "min": 1.88,
+      "home": 6,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Chet Holmgren makes 22-foot three point jumper (Isaiah Hartenstein assists)"
+    },
+    {
+      "min": 2.22,
+      "home": 6,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Dillon Brooks misses 7-foot two point shot"
+    },
+    {
+      "min": 2.27,
+      "home": 6,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 2.47,
+      "home": 6,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 14-foot fade away jump shot"
+    },
+    {
+      "min": 2.5,
+      "home": 6,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Collin Gillespie defensive rebound"
+    },
+    {
+      "min": 2.57,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Green makes running layup (Collin Gillespie assists)"
+    },
+    {
+      "min": 2.73,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Williams out of bounds lost ball turnover"
+    },
+    {
+      "min": 2.97,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Oso Ighodaro misses 6-foot two point shot"
+    },
+    {
+      "min": 2.98,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 3.13,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses driving layup"
+    },
+    {
+      "min": 3.18,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein misses tip shot"
+    },
+    {
+      "min": 3.2,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Booker defensive rebound"
+    },
+    {
+      "min": 3.18,
+      "home": 6,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 3.27,
+      "home": 6,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Collin Gillespie makes 26-foot running jump shot (Devin Booker assists)"
+    },
+    {
+      "min": 3.4,
+      "home": 6,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Dillon Brooks shooting foul"
+    },
+    {
+      "min": 3.4,
+      "home": 7,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Williams makes free throw 1 of 2"
+    },
+    {
+      "min": 3.4,
+      "home": 8,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Williams makes free throw 2 of 2"
+    },
+    {
+      "min": 3.62,
+      "home": 8,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Oso Ighodaro misses 8-foot floating jump shot"
+    },
+    {
+      "min": 3.65,
+      "home": 8,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 3.78,
+      "home": 10,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes two point shot"
+    },
+    {
+      "min": 3.95,
+      "home": 10,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "Dillon Brooks makes 27-foot three pointer"
+    },
+    {
+      "min": 4.2,
+      "home": 12,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Williams makes 6-foot driving floating jump shot"
+    },
+    {
+      "min": 4.52,
+      "home": 12,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Dillon Brooks makes 11-foot fade away jump shot"
+    },
+    {
+      "min": 4.78,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Luguentz Dort makes 25-foot three point jumper (Jalen Williams assists)"
+    },
+    {
+      "min": 4.98,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Dillon Brooks misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 5.03,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 5.18,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 16-foot pullup jump shot"
+    },
+    {
+      "min": 5.2,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Booker defensive rebound"
+    },
+    {
+      "min": 5.35,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Booker misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 5.4,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Oso Ighodaro offensive rebound"
+    },
+    {
+      "min": 5.43,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Collin Gillespie misses 30-foot three point jumper"
+    },
+    {
+      "min": 5.5,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 5.62,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Jalen Williams makes driving layup"
+    },
+    {
+      "min": 5.62,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Suns Full timeout"
+    },
+    {
+      "min": 5.85,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Oso Ighodaro misses layup"
+    },
+    {
+      "min": 5.88,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 6.12,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Oso Ighodaro shooting foul"
+    },
+    {
+      "min": 6.12,
+      "home": 18,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes free throw 1 of 2"
+    },
+    {
+      "min": 6.12,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes free throw 2 of 2"
+    },
+    {
+      "min": 6.43,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Oso Ighodaro bad pass\nturnover (Jalen Williams steals)"
+    },
+    {
+      "min": 6.58,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Green shooting foul"
+    },
+    {
+      "min": 6.58,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Williams misses free throw 1 of 2"
+    },
+    {
+      "min": 6.58,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Williams misses free throw 2 of 2"
+    },
+    {
+      "min": 6.58,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 6.58,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Royce O'Neale enters the game for Collin Gillespie"
+    },
+    {
+      "min": 6.58,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 6.62,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Royce O'Neale defensive rebound"
+    },
+    {
+      "min": 6.65,
+      "home": 19,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Green lost ball turnover (Alex Caruso steals)"
+    },
+    {
+      "min": 6.73,
+      "home": 21,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes driving layup (Alex Caruso assists)"
+    },
+    {
+      "min": 6.93,
+      "home": 21,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Luguentz Dort shooting foul"
+    },
+    {
+      "min": 6.93,
+      "home": 21,
+      "away": 15,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Booker makes free throw 1 of 2"
+    },
+    {
+      "min": 6.93,
+      "home": 21,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Booker makes free throw 2 of 2"
+    },
+    {
+      "min": 7.22,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 20-foot pullup jump shot"
+    },
+    {
+      "min": 7.5,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander personal foul"
+    },
+    {
+      "min": 7.5,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Jalen Williams"
+    },
+    {
+      "min": 7.62,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Booker misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 7.65,
+      "home": 23,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 7.83,
+      "home": 25,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 5-foot two point shot"
+    },
+    {
+      "min": 8.23,
+      "home": 25,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Dillon Brooks misses 27-foot three point step back jumpshot"
+    },
+    {
+      "min": 8.28,
+      "home": 25,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Royce O'Neale offensive rebound"
+    },
+    {
+      "min": 8.33,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Royce O'Neale makes 22-foot three point jumper (Jalen Green assists)"
+    },
+    {
+      "min": 8.73,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren misses 16-foot jumper"
+    },
+    {
+      "min": 8.77,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell offensive rebound"
+    },
+    {
+      "min": 8.82,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Luguentz Dort misses 26-foot three point jumper"
+    },
+    {
+      "min": 8.85,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 8.85,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Oso Ighodaro loose ball foul"
+    },
+    {
+      "min": 8.85,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Khaman Maluach enters the game for Oso Ighodaro"
+    },
+    {
+      "min": 8.85,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Chet Holmgren"
+    },
+    {
+      "min": 8.85,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Ryan Dunn enters the game for Dillon Brooks"
+    },
+    {
+      "min": 8.85,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 8.85,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Luguentz Dort"
+    },
+    {
+      "min": 9.07,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 9.12,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jalen Green defensive rebound"
+    },
+    {
+      "min": 9.33,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams blocks Jalen Green 's 1-foot two point shot"
+    },
+    {
+      "min": 9.4,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 9.47,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams misses 23-foot running jump shot"
+    },
+    {
+      "min": 9.52,
+      "home": 25,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Royce O'Neale defensive rebound"
+    },
+    {
+      "min": 9.63,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Khaman Maluach makes 1-foot alley oop dunk (Royce O'Neale assists)"
+    },
+    {
+      "min": 9.85,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 25-foot three point jumper"
+    },
+    {
+      "min": 9.9,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Suns defensive team rebound"
+    },
+    {
+      "min": 9.9,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Collin Gillespie enters the game for Jalen Green"
+    },
+    {
+      "min": 9.97,
+      "home": 25,
+      "away": 21,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams personal foul"
+    },
+    {
+      "min": 10.2,
+      "home": 25,
+      "away": 24,
+      "period": 1,
+      "scoring": true,
+      "text": "Royce O'Neale makes 26-foot three point jumper (Collin Gillespie assists)"
+    },
+    {
+      "min": 10.53,
+      "home": 28,
+      "away": 24,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 10.93,
+      "home": 28,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Royce O'Neale lost ball turnover (Alex Caruso steals)"
+    },
+    {
+      "min": 10.98,
+      "home": 30,
+      "away": 24,
+      "period": 1,
+      "scoring": true,
+      "text": "Alex Caruso makes running dunk"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Collin Gillespie bad pass\nturnover (Jaylin Williams steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 23-foot running jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Booker defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace away from play foul"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 25,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Booker makes free throw 1 of 1"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Collin Gillespie makes 12-foot pullup jump shot (Royce O'Neale assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander lost ball turnover (Collin Gillespie steals)"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Booker makes running layup (Collin Gillespie assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Ajay Mitchell misses heave jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Williams enters the game for Alex Caruso"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Shai Gilgeous-Alexander"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe enters the game for Jaylin Williams"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Green enters the game for Devin Booker"
+    },
+    {
+      "min": 12.0,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Dillon Brooks enters the game for Ryan Dunn"
+    },
+    {
+      "min": 12.37,
+      "home": 30,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Royce O'Neale makes 24-foot three pointer (Dillon Brooks assists)"
+    },
+    {
+      "min": 12.75,
+      "home": 33,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Isaiah Joe makes 24-foot three point jumper (Jalen Williams assists)"
+    },
+    {
+      "min": 12.9,
+      "home": 33,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Khaman Maluach offensive foul turnover"
+    },
+    {
+      "min": 12.9,
+      "home": 33,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Khaman Maluach offensive foul"
+    },
+    {
+      "min": 13.17,
+      "home": 36,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Isaiah Joe makes 23-foot three point jumper (Ajay Mitchell assists)"
+    },
+    {
+      "min": 13.55,
+      "home": 36,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein blocks Jalen Green 's 2-foot driving layup"
+    },
+    {
+      "min": 13.6,
+      "home": 36,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell defensive rebound"
+    },
+    {
+      "min": 13.63,
+      "home": 38,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Williams makes running dunk (Ajay Mitchell assists)"
+    },
+    {
+      "min": 13.63,
+      "home": 38,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Suns Full timeout"
+    },
+    {
+      "min": 13.88,
+      "home": 38,
+      "away": 34,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Green makes 15-foot step back jumpshot"
+    },
+    {
+      "min": 14.17,
+      "home": 38,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe misses 25-foot three point jumper"
+    },
+    {
+      "min": 14.22,
+      "home": 38,
+      "away": 34,
+      "period": 2,
+      "scoring": false,
+      "text": "Cason Wallace offensive rebound"
+    },
+    {
+      "min": 14.27,
+      "home": 40,
+      "away": 34,
+      "period": 2,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 6-foot driving floating jump shot (Cason Wallace assists)"
+    },
+    {
+      "min": 14.48,
+      "home": 40,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Green makes driving layup"
+    },
+    {
+      "min": 14.72,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 10-foot pullup jump shot"
+    },
+    {
+      "min": 14.9,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Khaman Maluach misses 26-foot three point jumper"
+    },
+    {
+      "min": 14.95,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe defensive rebound"
+    },
+    {
+      "min": 15.15,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Khaman Maluach vs. Isaiah Joe (Royce O'Neale gains possession)"
+    },
+    {
+      "min": 15.15,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe lost ball turnover (Royce O'Neale steals)"
+    },
+    {
+      "min": 15.38,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Dillon Brooks misses driving layup"
+    },
+    {
+      "min": 15.4,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Suns offensive team rebound"
+    },
+    {
+      "min": 15.4,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Oso Ighodaro enters the game for Khaman Maluach"
+    },
+    {
+      "min": 15.43,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Green misses 23-foot three point jumper"
+    },
+    {
+      "min": 15.48,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Royce O'Neale offensive rebound"
+    },
+    {
+      "min": 15.48,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe shooting foul"
+    },
+    {
+      "min": 15.48,
+      "home": 42,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Royce O'Neale makes free throw 1 of 2"
+    },
+    {
+      "min": 15.48,
+      "home": 42,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Royce O'Neale makes free throw 2 of 2"
+    },
+    {
+      "min": 15.68,
+      "home": 42,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Dillon Brooks shooting foul"
+    },
+    {
+      "min": 15.68,
+      "home": 42,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein misses free throw 1 of 2"
+    },
+    {
+      "min": 15.68,
+      "home": 42,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 15.68,
+      "home": 43,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes free throw 2 of 2"
+    },
+    {
+      "min": 15.98,
+      "home": 43,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Green makes 23-foot three point step back jumpshot"
+    },
+    {
+      "min": 16.23,
+      "home": 43,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Cason Wallace misses 22-foot three point jumper"
+    },
+    {
+      "min": 16.27,
+      "home": 43,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 16.3,
+      "home": 43,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe misses 25-foot three point jumper"
+    },
+    {
+      "min": 16.32,
+      "home": 43,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Oso Ighodaro defensive rebound"
+    },
+    {
+      "min": 16.5,
+      "home": 43,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Green misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 16.53,
+      "home": 43,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 16.58,
+      "home": 45,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Williams makes two point shot (Cason Wallace assists)"
+    },
+    {
+      "min": 16.58,
+      "home": 45,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Royce O'Neale shooting foul"
+    },
+    {
+      "min": 16.58,
+      "home": 45,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker enters the game for Collin Gillespie"
+    },
+    {
+      "min": 16.58,
+      "home": 45,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 16.58,
+      "home": 46,
+      "away": 41,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Williams makes free throw 1 of 1"
+    },
+    {
+      "min": 16.93,
+      "home": 46,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Green misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 16.98,
+      "home": 46,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Oso Ighodaro offensive rebound"
+    },
+    {
+      "min": 17.0,
+      "home": 46,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Oso Ighodaro misses two point shot"
+    },
+    {
+      "min": 17.03,
+      "home": 46,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Devin Booker makes tip shot"
+    },
+    {
+      "min": 17.03,
+      "home": 46,
+      "away": 41,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker offensive rebound"
+    },
+    {
+      "min": 17.32,
+      "home": 48,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Williams makes driving layup"
+    },
+    {
+      "min": 17.6,
+      "home": 48,
+      "away": 43,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein shooting foul"
+    },
+    {
+      "min": 17.6,
+      "home": 48,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Green misses free throw 2 of 2"
+    },
+    {
+      "min": 17.6,
+      "home": 48,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Green makes free throw 1 of 2"
+    },
+    {
+      "min": 17.6,
+      "home": 48,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Isaiah Joe"
+    },
+    {
+      "min": 17.6,
+      "home": 48,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 17.63,
+      "home": 48,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 17.8,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Williams makes 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 17.98,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Green makes two point shot"
+    },
+    {
+      "min": 18.2,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Williams misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 18.22,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander offensive rebound"
+    },
+    {
+      "min": 18.3,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren misses 25-foot three point jumper"
+    },
+    {
+      "min": 18.32,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Suns defensive team rebound"
+    },
+    {
+      "min": 18.58,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker misses 5-foot pullup jump shot"
+    },
+    {
+      "min": 18.6,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander defensive rebound"
+    },
+    {
+      "min": 18.68,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses running layup"
+    },
+    {
+      "min": 18.72,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Royce O'Neale defensive rebound"
+    },
+    {
+      "min": 18.78,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Oso Ighodaro lost ball turnover (Cason Wallace steals)"
+    },
+    {
+      "min": 18.87,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Jalen Williams"
+    },
+    {
+      "min": 18.87,
+      "home": 51,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Cason Wallace"
+    },
+    {
+      "min": 19.08,
+      "home": 53,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 11-foot pullup jump shot"
+    },
+    {
+      "min": 19.37,
+      "home": 53,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Devin Booker makes 1-foot layup (Oso Ighodaro assists)"
+    },
+    {
+      "min": 19.37,
+      "home": 53,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 19.72,
+      "home": 55,
+      "away": 48,
+      "period": 2,
+      "scoring": true,
+      "text": "Chet Holmgren makes 5-foot pullup jump shot"
+    },
+    {
+      "min": 19.97,
+      "home": 55,
+      "away": 48,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso shooting foul"
+    },
+    {
+      "min": 19.97,
+      "home": 55,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Green makes free throw 1 of 2"
+    },
+    {
+      "min": 19.97,
+      "home": 55,
+      "away": 50,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Green makes free throw 2 of 2"
+    },
+    {
+      "min": 20.2,
+      "home": 57,
+      "away": 50,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes driving layup"
+    },
+    {
+      "min": 20.35,
+      "home": 57,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Dillon Brooks offensive charge"
+    },
+    {
+      "min": 20.35,
+      "home": 57,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Dillon Brooks offensive foul turnover"
+    },
+    {
+      "min": 20.7,
+      "home": 60,
+      "away": 50,
+      "period": 2,
+      "scoring": true,
+      "text": "Chet Holmgren makes 25-foot three pointer (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 21.13,
+      "home": 60,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Green misses 26-foot three point jumper"
+    },
+    {
+      "min": 21.17,
+      "home": 60,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Oso Ighodaro offensive rebound"
+    },
+    {
+      "min": 21.17,
+      "home": 60,
+      "away": 50,
+      "period": 2,
+      "scoring": false,
+      "text": "Luguentz Dort shooting foul"
+    },
+    {
+      "min": 21.17,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Oso Ighodaro misses free throw 2 of 2"
+    },
+    {
+      "min": 21.17,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": true,
+      "text": "Oso Ighodaro makes free throw 1 of 2"
+    },
+    {
+      "min": 21.17,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Gillespie enters the game for Dillon Brooks"
+    },
+    {
+      "min": 21.17,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Williams enters the game for Luguentz Dort"
+    },
+    {
+      "min": 21.17,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Ryan Dunn enters the game for Jalen Green"
+    },
+    {
+      "min": 21.2,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Williams defensive rebound"
+    },
+    {
+      "min": 21.37,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander bad pass\nturnover (Devin Booker steals)"
+    },
+    {
+      "min": 21.48,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker offensive foul turnover"
+    },
+    {
+      "min": 21.48,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker offensive charge"
+    },
+    {
+      "min": 21.48,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Suns Full timeout"
+    },
+    {
+      "min": 21.48,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "(02:31) [Suns] COACH'S CHALLENGE (CALL STANDS) [Suns] charged with a timeout"
+    },
+    {
+      "min": 21.72,
+      "home": 60,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Gillespie shooting foul"
+    },
+    {
+      "min": 21.72,
+      "home": 61,
+      "away": 51,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 21.72,
+      "home": 62,
+      "away": 51,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 21.93,
+      "home": 62,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker out of bounds bad pass turnover"
+    },
+    {
+      "min": 22.13,
+      "home": 62,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses 25-foot three point jumper"
+    },
+    {
+      "min": 22.18,
+      "home": 62,
+      "away": 51,
+      "period": 2,
+      "scoring": false,
+      "text": "Oso Ighodaro defensive rebound"
+    },
+    {
+      "min": 22.33,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": true,
+      "text": "Oso Ighodaro makes 1-foot dunk (Collin Gillespie assists)"
+    },
+    {
+      "min": 22.67,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses 1-foot reverse layup"
+    },
+    {
+      "min": 22.7,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker defensive rebound"
+    },
+    {
+      "min": 22.88,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker lost ball turnover"
+    },
+    {
+      "min": 22.88,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Booker loose ball foul"
+    },
+    {
+      "min": 22.88,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 23.0,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Ryan Dunn defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 62,
+      "away": 53,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein shooting foul"
+    },
+    {
+      "min": 24.0,
+      "home": 62,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe enters the game for Alex Caruso"
+    },
+    {
+      "min": 24.0,
+      "home": 62,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 24.0,
+      "home": 62,
+      "away": 55,
+      "period": 2,
+      "scoring": true,
+      "text": "Devin Booker makes free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 62,
+      "away": 54,
+      "period": 2,
+      "scoring": true,
+      "text": "Devin Booker makes free throw 1 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 62,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Jalen Green enters the game for Ryan Dunn"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 55,
+      "period": 2,
+      "scoring": true,
+      "text": "Jalen Williams makes 25-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Gillespie misses 25-foot three point jumper"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 55,
+      "period": 2,
+      "scoring": false,
+      "text": "Collin Gillespie offensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 57,
+      "period": 2,
+      "scoring": true,
+      "text": "Oso Ighodaro makes 2-foot dunk (Collin Gillespie assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Joe misses 32-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 57,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Dillon Brooks enters the game for Royce O'Neale"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Isaiah Joe"
+    },
+    {
+      "min": 24.0,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 24.23,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie misses 15-foot step back jumpshot"
+    },
+    {
+      "min": 24.28,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 24.45,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Williams misses driving floating jump shot"
+    },
+    {
+      "min": 24.48,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Oso Ighodaro defensive rebound"
+    },
+    {
+      "min": 24.53,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Booker misses running pullup jump shot"
+    },
+    {
+      "min": 24.58,
+      "home": 65,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 24.78,
+      "home": 67,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 15-foot pullup jump shot"
+    },
+    {
+      "min": 25.17,
+      "home": 67,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie misses 20-foot step back jumpshot"
+    },
+    {
+      "min": 25.22,
+      "home": 67,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 25.35,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 15-foot step back jumpshot"
+    },
+    {
+      "min": 25.63,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Dillon Brooks misses 22-foot three point jumper"
+    },
+    {
+      "min": 25.67,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander defensive rebound"
+    },
+    {
+      "min": 25.83,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein misses 8-foot two point shot"
+    },
+    {
+      "min": 25.85,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 25.85,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Green loose ball foul"
+    },
+    {
+      "min": 26.02,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Williams misses driving floating jump shot"
+    },
+    {
+      "min": 26.03,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Suns defensive team rebound"
+    },
+    {
+      "min": 26.32,
+      "home": 69,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Dillon Brooks makes 13-foot two point shot"
+    },
+    {
+      "min": 26.68,
+      "home": 69,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort misses 26-foot three point jumper"
+    },
+    {
+      "min": 26.72,
+      "home": 69,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Oso Ighodaro defensive rebound"
+    },
+    {
+      "min": 26.82,
+      "home": 69,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Dillon Brooks makes running layup (Oso Ighodaro assists)"
+    },
+    {
+      "min": 27.18,
+      "home": 72,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes 23-foot three point step back jumpshot (Jalen Williams assists)"
+    },
+    {
+      "min": 27.47,
+      "home": 72,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Green makes layup (Oso Ighodaro assists)"
+    },
+    {
+      "min": 27.68,
+      "home": 72,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Oso Ighodaro blocks Shai Gilgeous-Alexander 's 1-foot driving layup"
+    },
+    {
+      "min": 27.7,
+      "home": 72,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 27.75,
+      "home": 74,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes 8-foot two point shot"
+    },
+    {
+      "min": 27.75,
+      "home": 74,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie shooting foul"
+    },
+    {
+      "min": 27.75,
+      "home": 75,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes free throw 1 of 1"
+    },
+    {
+      "min": 27.75,
+      "home": 75,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Double technical foul: Dillon Brooks and Luguentz Dort"
+    },
+    {
+      "min": 27.95,
+      "home": 75,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Booker bad pass\nturnover (Isaiah Hartenstein steals)"
+    },
+    {
+      "min": 28.07,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes alley oop dunk (Isaiah Hartenstein assists)"
+    },
+    {
+      "min": 28.07,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Suns Full timeout"
+    },
+    {
+      "min": 28.28,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Green misses 25-foot three point jumper"
+    },
+    {
+      "min": 28.3,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Suns offensive team rebound"
+    },
+    {
+      "min": 28.3,
+      "home": 77,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein loose ball foul"
+    },
+    {
+      "min": 28.5,
+      "home": 77,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Jalen Green makes 15-foot pullup jump shot (Devin Booker assists)"
+    },
+    {
+      "min": 28.82,
+      "home": 79,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes 1-foot alley oop dunk (Jalen Williams assists)"
+    },
+    {
+      "min": 29.05,
+      "home": 79,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Dillon Brooks misses 15-foot pullup jump shot"
+    },
+    {
+      "min": 29.08,
+      "home": 79,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 29.28,
+      "home": 79,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie shooting foul"
+    },
+    {
+      "min": 29.28,
+      "home": 79,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren misses free throw 1 of 2"
+    },
+    {
+      "min": 29.28,
+      "home": 79,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 29.28,
+      "home": 80,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes free throw 2 of 2"
+    },
+    {
+      "min": 29.47,
+      "home": 80,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren blocks Oso Ighodaro 's 1-foot layup"
+    },
+    {
+      "min": 29.48,
+      "home": 80,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander defensive rebound"
+    },
+    {
+      "min": 29.53,
+      "home": 80,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Williams misses running layup"
+    },
+    {
+      "min": 29.57,
+      "home": 80,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie defensive rebound"
+    },
+    {
+      "min": 29.67,
+      "home": 80,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Dillon Brooks misses 23-foot running jump shot"
+    },
+    {
+      "min": 29.72,
+      "home": 80,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Oso Ighodaro offensive rebound"
+    },
+    {
+      "min": 29.72,
+      "home": 80,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Oso Ighodaro makes two point shot"
+    },
+    {
+      "min": 29.98,
+      "home": 82,
+      "away": 67,
+      "period": 3,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes 1-foot layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 30.12,
+      "home": 82,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Williams personal foul"
+    },
+    {
+      "min": 30.12,
+      "home": 82,
+      "away": 67,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Jalen Williams"
+    },
+    {
+      "min": 30.23,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Dillon Brooks makes 23-foot three point jumper (Oso Ighodaro assists)"
+    },
+    {
+      "min": 30.48,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren misses 27-foot three point jumper"
+    },
+    {
+      "min": 30.55,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Dillon Brooks defensive rebound"
+    },
+    {
+      "min": 30.62,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Dillon Brooks misses running layup"
+    },
+    {
+      "min": 30.63,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Booker offensive rebound"
+    },
+    {
+      "min": 30.63,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren blocks Devin Booker 's 2-foot two point shot"
+    },
+    {
+      "min": 30.65,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Green offensive rebound"
+    },
+    {
+      "min": 30.77,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Green misses 23-foot three point jumper"
+    },
+    {
+      "min": 30.78,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 30.78,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Dillon Brooks loose ball foul"
+    },
+    {
+      "min": 30.78,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 30.78,
+      "home": 82,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Royce O'Neale enters the game for Dillon Brooks"
+    },
+    {
+      "min": 30.97,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Chet Holmgren makes alley oop layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 31.23,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren blocks Jalen Green 's 7-foot two point shot"
+    },
+    {
+      "min": 31.28,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie offensive rebound"
+    },
+    {
+      "min": 31.4,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Green misses 18-foot pullup jump shot"
+    },
+    {
+      "min": 31.45,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Green offensive rebound"
+    },
+    {
+      "min": 31.48,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Royce O'Neale misses 27-foot three point jumper"
+    },
+    {
+      "min": 31.52,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 31.52,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 31.52,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Luguentz Dort"
+    },
+    {
+      "min": 31.52,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Dillon Brooks enters the game for Collin Gillespie"
+    },
+    {
+      "min": 31.85,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 14-foot pullup jump shot"
+    },
+    {
+      "min": 31.87,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Suns defensive team rebound"
+    },
+    {
+      "min": 31.87,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Ajay Mitchell loose ball foul"
+    },
+    {
+      "min": 31.87,
+      "home": 84,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Chet Holmgren"
+    },
+    {
+      "min": 31.95,
+      "home": 84,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Devin Booker makes 8-foot pullup jump shot (Royce O'Neale assists)"
+    },
+    {
+      "min": 32.18,
+      "home": 84,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 32.23,
+      "home": 84,
+      "away": 72,
+      "period": 3,
+      "scoring": false,
+      "text": "Ajay Mitchell offensive rebound"
+    },
+    {
+      "min": 32.32,
+      "home": 87,
+      "away": 72,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 25-foot three point step back jumpshot (Ajay Mitchell assists)"
+    },
+    {
+      "min": 32.67,
+      "home": 87,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Dillon Brooks makes 27-foot three pointer (Oso Ighodaro assists)"
+    },
+    {
+      "min": 32.95,
+      "home": 90,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Alex Caruso makes 23-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 33.18,
+      "home": 90,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Booker misses 14-foot fade away jump shot"
+    },
+    {
+      "min": 33.23,
+      "home": 90,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Ajay Mitchell defensive rebound"
+    },
+    {
+      "min": 33.32,
+      "home": 92,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Ajay Mitchell makes running layup"
+    },
+    {
+      "min": 33.52,
+      "home": 92,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Royce O'Neale offensive foul"
+    },
+    {
+      "min": 33.52,
+      "home": 92,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Royce O'Neale offensive foul turnover"
+    },
+    {
+      "min": 33.52,
+      "home": 92,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie enters the game for Dillon Brooks"
+    },
+    {
+      "min": 33.52,
+      "home": 92,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Ryan Dunn enters the game for Jalen Green"
+    },
+    {
+      "min": 33.7,
+      "home": 92,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie personal foul"
+    },
+    {
+      "min": 33.7,
+      "home": 92,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 33.7,
+      "home": 92,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Ajay Mitchell misses free throw 1 of 2"
+    },
+    {
+      "min": 33.7,
+      "home": 93,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Ajay Mitchell makes free throw 2 of 2"
+    },
+    {
+      "min": 33.82,
+      "home": 93,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace personal foul"
+    },
+    {
+      "min": 33.92,
+      "home": 93,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylin Williams personal foul"
+    },
+    {
+      "min": 33.92,
+      "home": 93,
+      "away": 75,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Booker technical foul"
+    },
+    {
+      "min": 33.92,
+      "home": 94,
+      "away": 75,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes technical free throw"
+    },
+    {
+      "min": 33.92,
+      "home": 94,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "Devin Booker makes free throw 1 of 2"
+    },
+    {
+      "min": 33.92,
+      "home": 94,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Devin Booker makes free throw 2 of 2"
+    },
+    {
+      "min": 34.2,
+      "home": 96,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 15-foot pullup jump shot (Ajay Mitchell assists)"
+    },
+    {
+      "min": 34.53,
+      "home": 96,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie bad pass\nturnover (Cason Wallace steals)"
+    },
+    {
+      "min": 34.6,
+      "home": 98,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Alex Caruso makes running layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 34.83,
+      "home": 98,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 34.88,
+      "home": 98,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 98,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 36.0,
+      "home": 98,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Suns defensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 98,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Collin Gillespie misses 22-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 98,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 98,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Ryan Dunn personal foul"
+    },
+    {
+      "min": 36.0,
+      "home": 99,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 99,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Green enters the game for Ryan Dunn"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Jalen Green lost ball turnover (Ajay Mitchell steals)"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Ajay Mitchell bad pass\nturnover (Collin Gillespie steals)"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Booker offensive foul turnover"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Booker offensive foul"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "(00:08.3) [Suns] REF-INITIATED REVIEW (CALL STANDS)"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Cason Wallace"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Joe enters the game for Alex Caruso"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 27-foot three point step back jumpshot"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Royce O'Neale defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Jared McCain"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Shai Gilgeous-Alexander"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Jaylin Williams"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Khaman Maluach enters the game for Oso Ighodaro"
+    },
+    {
+      "min": 36.0,
+      "home": 100,
+      "away": 77,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks enters the game for Devin Booker"
+    },
+    {
+      "min": 36.23,
+      "home": 102,
+      "away": 77,
+      "period": 4,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes 1-foot alley oop dunk (Ajay Mitchell assists)"
+    },
+    {
+      "min": 36.53,
+      "home": 102,
+      "away": 79,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Green makes 4-foot two point shot"
+    },
+    {
+      "min": 36.53,
+      "home": 102,
+      "away": 79,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein shooting foul"
+    },
+    {
+      "min": 36.53,
+      "home": 102,
+      "away": 80,
+      "period": 4,
+      "scoring": true,
+      "text": "Jalen Green makes free throw 1 of 1"
+    },
+    {
+      "min": 36.73,
+      "home": 104,
+      "away": 80,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 3-foot two point shot"
+    },
+    {
+      "min": 37.0,
+      "home": 104,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 37.03,
+      "home": 104,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 37.22,
+      "home": 104,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Khaman Maluach shooting foul"
+    },
+    {
+      "min": 37.22,
+      "home": 105,
+      "away": 80,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes free throw 1 of 2"
+    },
+    {
+      "min": 37.22,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes free throw 2 of 2"
+    },
+    {
+      "min": 37.48,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green misses two point shot"
+    },
+    {
+      "min": 37.5,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 37.5,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Khaman Maluach loose ball foul"
+    },
+    {
+      "min": 37.82,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell misses two point shot"
+    },
+    {
+      "min": 37.85,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 37.85,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein misses two point shot"
+    },
+    {
+      "min": 37.87,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 37.92,
+      "home": 106,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein bad pass\nturnover (Royce O'Neale steals)"
+    },
+    {
+      "min": 38.02,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": true,
+      "text": "Dillon Brooks makes 25-foot running jump shot (Royce O'Neale assists)"
+    },
+    {
+      "min": 38.28,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Royce O'Neale personal foul"
+    },
+    {
+      "min": 38.42,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren misses 11-foot fade away jump shot"
+    },
+    {
+      "min": 38.48,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks defensive rebound"
+    },
+    {
+      "min": 38.57,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren blocks Dillon Brooks 's 3-foot running layup"
+    },
+    {
+      "min": 38.58,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Collin Gillespie offensive rebound"
+    },
+    {
+      "min": 38.68,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green lost ball turnover (Isaiah Joe steals)"
+    },
+    {
+      "min": 38.75,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Joe misses 25-foot running jump shot"
+    },
+    {
+      "min": 38.78,
+      "home": 106,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Royce O'Neale defensive rebound"
+    },
+    {
+      "min": 38.93,
+      "home": 106,
+      "away": 85,
+      "period": 4,
+      "scoring": true,
+      "text": "Dillon Brooks makes 10-foot pullup jump shot"
+    },
+    {
+      "min": 38.93,
+      "home": 106,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Joe shooting foul"
+    },
+    {
+      "min": 38.93,
+      "home": 106,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 38.93,
+      "home": 106,
+      "away": 85,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Booker enters the game for Collin Gillespie"
+    },
+    {
+      "min": 38.93,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Dillon Brooks makes free throw 1 of 1"
+    },
+    {
+      "min": 39.05,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Royce O'Neale personal foul"
+    },
+    {
+      "min": 39.07,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren offensive foul"
+    },
+    {
+      "min": 39.07,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren offensive foul turnover"
+    },
+    {
+      "min": 39.35,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks misses driving layup"
+    },
+    {
+      "min": 39.37,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 39.5,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace misses 25-foot three point jumper"
+    },
+    {
+      "min": 39.55,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks defensive rebound"
+    },
+    {
+      "min": 39.78,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 39.85,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 39.92,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Joe misses 24-foot running jump shot"
+    },
+    {
+      "min": 39.93,
+      "home": 106,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Khaman Maluach defensive rebound"
+    },
+    {
+      "min": 40.13,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Dillon Brooks makes 24-foot three point jumper (Jalen Green assists)"
+    },
+    {
+      "min": 40.15,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 40.15,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Cason Wallace"
+    },
+    {
+      "min": 40.15,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander enters the game for Chet Holmgren"
+    },
+    {
+      "min": 40.45,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 12-foot step back jumpshot (Jaylin Williams assists)"
+    },
+    {
+      "min": 40.78,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks misses 11-foot fade away jump shot"
+    },
+    {
+      "min": 40.82,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 41.05,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander bad pass\nturnover (Jalen Green steals)"
+    },
+    {
+      "min": 41.12,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green misses running layup"
+    },
+    {
+      "min": 41.15,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green offensive rebound"
+    },
+    {
+      "min": 41.17,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green lost ball turnover (Ajay Mitchell steals)"
+    },
+    {
+      "min": 41.53,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell misses driving layup"
+    },
+    {
+      "min": 41.57,
+      "home": 108,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Royce O'Neale defensive rebound"
+    },
+    {
+      "min": 41.72,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Dillon Brooks makes 5-foot pullup jump shot"
+    },
+    {
+      "min": 41.98,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylin Williams misses 24-foot three point jumper"
+    },
+    {
+      "min": 42.03,
+      "home": 108,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks defensive rebound"
+    },
+    {
+      "min": 42.35,
+      "home": 108,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Dillon Brooks makes 5-foot fade away jump shot"
+    },
+    {
+      "min": 42.63,
+      "home": 110,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 11-foot pullup jump shot"
+    },
+    {
+      "min": 42.8,
+      "home": 110,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 42.82,
+      "home": 110,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Suns offensive team rebound"
+    },
+    {
+      "min": 42.82,
+      "home": 110,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso loose ball foul"
+    },
+    {
+      "min": 42.82,
+      "home": 110,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Jaylin Williams"
+    },
+    {
+      "min": 42.82,
+      "home": 110,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Ajay Mitchell"
+    },
+    {
+      "min": 42.92,
+      "home": 110,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Booker makes 12-foot pullup jump shot"
+    },
+    {
+      "min": 42.92,
+      "home": 110,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort shooting foul"
+    },
+    {
+      "min": 42.92,
+      "home": 110,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Booker misses free throw 1 of 1"
+    },
+    {
+      "min": 42.98,
+      "home": 110,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Booker offensive rebound"
+    },
+    {
+      "min": 43.0,
+      "home": 110,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Booker makes 7-foot pullup jump shot"
+    },
+    {
+      "min": 43.27,
+      "home": 110,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren traveling turnover"
+    },
+    {
+      "min": 43.43,
+      "home": 110,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green lost ball turnover (Luguentz Dort steals)"
+    },
+    {
+      "min": 43.72,
+      "home": 110,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 16-foot step back jumpshot"
+    },
+    {
+      "min": 43.77,
+      "home": 110,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Khaman Maluach defensive rebound"
+    },
+    {
+      "min": 43.85,
+      "home": 110,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Khaman Maluach bad pass\nturnover (Alex Caruso steals)"
+    },
+    {
+      "min": 44.02,
+      "home": 110,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso misses 23-foot three point jumper"
+    },
+    {
+      "min": 44.08,
+      "home": 110,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks defensive rebound"
+    },
+    {
+      "min": 44.22,
+      "home": 110,
+      "away": 100,
+      "period": 4,
+      "scoring": true,
+      "text": "Royce O'Neale makes 23-foot three point jumper (Devin Booker assists)"
+    },
+    {
+      "min": 44.23,
+      "home": 110,
+      "away": 100,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 44.23,
+      "home": 110,
+      "away": 100,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell enters the game for Isaiah Joe"
+    },
+    {
+      "min": 44.42,
+      "home": 113,
+      "away": 100,
+      "period": 4,
+      "scoring": true,
+      "text": "Ajay Mitchell makes 23-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 44.62,
+      "home": 113,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Khaman Maluach makes dunk (Jalen Green assists)"
+    },
+    {
+      "min": 44.97,
+      "home": 113,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks personal foul"
+    },
+    {
+      "min": 44.97,
+      "home": 114,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 44.97,
+      "home": 114,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Suns Full timeout"
+    },
+    {
+      "min": 44.97,
+      "home": 115,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 45.23,
+      "home": 115,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren shooting foul"
+    },
+    {
+      "min": 45.23,
+      "home": 115,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Suns offensive team rebound"
+    },
+    {
+      "min": 45.23,
+      "home": 115,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Booker misses free throw 1 of 2"
+    },
+    {
+      "min": 45.23,
+      "home": 115,
+      "away": 103,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Booker makes free throw 2 of 2"
+    },
+    {
+      "min": 45.62,
+      "home": 115,
+      "away": 103,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso misses 29-foot three point jumper"
+    },
+    {
+      "min": 45.7,
+      "home": 115,
+      "away": 103,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell offensive rebound"
+    },
+    {
+      "min": 45.88,
+      "home": 118,
+      "away": 103,
+      "period": 4,
+      "scoring": true,
+      "text": "Luguentz Dort makes 26-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 46.15,
+      "home": 118,
+      "away": 105,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Booker makes 21-foot pullup jump shot"
+    },
+    {
+      "min": 46.38,
+      "home": 118,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 14-foot pullup jump shot"
+    },
+    {
+      "min": 46.43,
+      "home": 118,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren offensive rebound"
+    },
+    {
+      "min": 46.45,
+      "home": 118,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren lost ball turnover (Jalen Green steals)"
+    },
+    {
+      "min": 46.57,
+      "home": 118,
+      "away": 105,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell personal foul"
+    },
+    {
+      "min": 46.57,
+      "home": 118,
+      "away": 106,
+      "period": 4,
+      "scoring": true,
+      "text": "Royce O'Neale makes free throw 1 of 2"
+    },
+    {
+      "min": 46.57,
+      "home": 118,
+      "away": 106,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Alex Caruso"
+    },
+    {
+      "min": 46.57,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": true,
+      "text": "Royce O'Neale makes free throw 2 of 2"
+    },
+    {
+      "min": 46.9,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Ajay Mitchell misses 23-foot three point jumper"
+    },
+    {
+      "min": 46.93,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Jalen Green bad pass\nturnover (Cason Wallace steals)"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort misses 23-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Royce O'Neale defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Booker misses running pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Dillon Brooks personal foul"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Amir Coffey enters the game for Dillon Brooks"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Jamaree Bouyea enters the game for Jalen Green"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Rasheer Fleming enters the game for Royce O'Neale"
+    },
+    {
+      "min": 48.0,
+      "home": 118,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Ryan Dunn enters the game for Devin Booker"
+    },
+    {
+      "min": 48.0,
+      "home": 119,
+      "away": 107,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 120,
+      "away": 107,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 48.0,
+      "home": 120,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 48.0,
+      "home": 120,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 120,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 16,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 15-foot pullup jump shot"
+    },
+    {
+      "x": 34,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses 25-foot three point jumper"
+    },
+    {
+      "x": 29,
+      "y": 7,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie makes 8-foot step back jumpshot (Devin Booker assists)"
+    },
+    {
+      "x": 43,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort makes 25-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 35,
+      "y": 1,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 10-foot pullup jump shot (Collin Gillespie assists)"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 22-foot three point jumper"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 22-foot three point jumper (Isaiah Hartenstein assists)"
+    },
+    {
+      "x": 31,
+      "y": 5,
+      "made": false,
+      "type": "Pullup Bank Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses 7-foot two point shot"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 14-foot fade away jump shot"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "PHX",
+      "text": "Jalen Green makes running layup (Collin Gillespie assists)"
+    },
+    {
+      "x": 22,
+      "y": 6,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "PHX",
+      "text": "Oso Ighodaro misses 6-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses driving layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein misses tip shot"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie makes 26-foot running jump shot (Devin Booker assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Jalen Williams makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Jalen Williams makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 8,
+      "made": false,
+      "type": "Floating Jump Shot",
+      "team": "PHX",
+      "text": "Oso Ighodaro misses 8-foot floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes two point shot"
+    },
+    {
+      "x": 8,
+      "y": 22,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 27-foot three pointer"
+    },
+    {
+      "x": 26,
+      "y": 6,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Jalen Williams makes 6-foot driving floating jump shot"
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 11-foot fade away jump shot"
+    },
+    {
+      "x": 33,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort makes 25-foot three point jumper (Jalen Williams assists)"
+    },
+    {
+      "x": 40,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 16,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 16-foot pullup jump shot"
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 38,
+      "y": 28,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie misses 30-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Jalen Williams makes driving layup"
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "PHX",
+      "text": "Oso Ighodaro misses layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Jalen Williams misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Jalen Williams misses free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": -1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes driving layup (Alex Caruso assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Devin Booker makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Devin Booker makes free throw 2 of 2"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 20-foot pullup jump shot"
+    },
+    {
+      "x": 30,
+      "y": 18,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 30,
+      "y": 3,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 5-foot two point shot"
+    },
+    {
+      "x": 24,
+      "y": 28,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses 27-foot three point step back jumpshot"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Royce O'Neale makes 22-foot three point jumper (Jalen Green assists)"
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses 16-foot jumper"
+    },
+    {
+      "x": 24,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 26-foot three point jumper"
+    },
+    {
+      "x": 30,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHX",
+      "text": "Jaylin Williams blocks Jalen Green 's 1-foot two point shot"
+    },
+    {
+      "x": 38,
+      "y": 20,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams misses 23-foot running jump shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "PHX",
+      "text": "Khaman Maluach makes 1-foot alley oop dunk (Royce O'Neale assists)"
+    },
+    {
+      "x": 43,
+      "y": 18,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 25-foot three point jumper"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Royce O'Neale makes 26-foot three point jumper (Collin Gillespie assists)"
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "OKC",
+      "text": "Alex Caruso makes running dunk"
+    },
+    {
+      "x": 2,
+      "y": -3,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 23-foot running jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "PHX",
+      "text": "Devin Booker makes free throw 1 of 1"
+    },
+    {
+      "x": 13,
+      "y": -1,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie makes 12-foot pullup jump shot (Royce O'Neale assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "PHX",
+      "text": "Devin Booker makes running layup (Collin Gillespie assists)"
+    },
+    {
+      "x": 5,
+      "y": 59,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses heave jump shot"
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Royce O'Neale makes 24-foot three pointer (Dillon Brooks assists)"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe makes 24-foot three point jumper (Jalen Williams assists)"
+    },
+    {
+      "x": 49,
+      "y": 0,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe makes 23-foot three point jumper (Ajay Mitchell assists)"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "PHX",
+      "text": "Isaiah Hartenstein blocks Jalen Green 's 2-foot driving layup"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "OKC",
+      "text": "Jalen Williams makes running dunk (Ajay Mitchell assists)"
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green makes 15-foot step back jumpshot"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe misses 25-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 6-foot driving floating jump shot (Cason Wallace assists)"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "PHX",
+      "text": "Jalen Green makes driving layup"
+    },
+    {
+      "x": 35,
+      "y": 1,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 10-foot pullup jump shot"
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Khaman Maluach misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses driving layup"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 23-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Royce O'Neale makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Royce O'Neale makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green makes 23-foot three point step back jumpshot"
+    },
+    {
+      "x": 3,
+      "y": -3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses 22-foot three point jumper"
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe misses 25-foot three point jumper"
+    },
+    {
+      "x": 32,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 15-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Layup Running Reverse",
+      "team": "OKC",
+      "text": "Jalen Williams makes two point shot (Cason Wallace assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "OKC",
+      "text": "Jalen Williams makes free throw 1 of 1"
+    },
+    {
+      "x": 40,
+      "y": -1,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 15-foot pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "PHX",
+      "text": "Oso Ighodaro misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "PHX",
+      "text": "Devin Booker makes tip shot"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Jalen Williams makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Jalen Green misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Jalen Green makes free throw 1 of 2"
+    },
+    {
+      "x": 43,
+      "y": 18,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Jalen Williams makes 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Layup Driving Reverse",
+      "team": "PHX",
+      "text": "Jalen Green makes two point shot"
+    },
+    {
+      "x": 35,
+      "y": 24,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Jalen Williams misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses 25-foot three point jumper"
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker misses 5-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": -1,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses running layup"
+    },
+    {
+      "x": 33,
+      "y": 9,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 11-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "PHX",
+      "text": "Devin Booker makes 1-foot layup (Oso Ighodaro assists)"
+    },
+    {
+      "x": 28,
+      "y": 5,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 5-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Jalen Green makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Jalen Green makes free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes driving layup"
+    },
+    {
+      "x": 27,
+      "y": 25,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 25-foot three pointer (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Oso Ighodaro misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Oso Ighodaro makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "PHX",
+      "text": "Oso Ighodaro makes 1-foot dunk (Collin Gillespie assists)"
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "made": false,
+      "type": "Reverse Layup Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 1-foot reverse layup"
+    },
+    {
+      "x": 18,
+      "y": 13,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 15-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Devin Booker makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Devin Booker makes free throw 1 of 2"
+    },
+    {
+      "x": 43,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jalen Williams makes 25-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 41,
+      "y": 21,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "PHX",
+      "text": "Oso Ighodaro makes 2-foot dunk (Collin Gillespie assists)"
+    },
+    {
+      "x": 19,
+      "y": 33,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe misses 32-foot three point pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 16,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie misses 15-foot step back jumpshot"
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Jalen Williams misses driving floating jump shot"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker misses running pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 16,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 15-foot pullup jump shot"
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie misses 20-foot step back jumpshot"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 15-foot step back jumpshot"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses 22-foot three point jumper"
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein misses 8-foot two point shot"
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Jalen Williams misses driving floating jump shot"
+    },
+    {
+      "x": 29,
+      "y": 13,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 13-foot two point shot"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 26-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes running layup (Oso Ighodaro assists)"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 23-foot three point step back jumpshot (Jalen Williams assists)"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "PHX",
+      "text": "Jalen Green makes layup (Oso Ighodaro assists)"
+    },
+    {
+      "x": 26,
+      "y": -1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Oso Ighodaro blocks Shai Gilgeous-Alexander 's 1-foot driving layup"
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 8-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "OKC",
+      "text": "Chet Holmgren makes free throw 1 of 1"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes alley oop dunk (Isaiah Hartenstein assists)"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 25-foot three point jumper"
+    },
+    {
+      "x": 31,
+      "y": 14,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green makes 15-foot pullup jump shot (Devin Booker assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes 1-foot alley oop dunk (Jalen Williams assists)"
+    },
+    {
+      "x": 22,
+      "y": 15,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses 15-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren makes free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "PHX",
+      "text": "Chet Holmgren blocks Oso Ighodaro 's 1-foot layup"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "OKC",
+      "text": "Jalen Williams misses running layup"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses 23-foot running jump shot"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "PHX",
+      "text": "Oso Ighodaro makes two point shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes 1-foot layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 2,
+      "y": -3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 23-foot three point jumper (Oso Ighodaro assists)"
+    },
+    {
+      "x": 13,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses 27-foot three point jumper"
+    },
+    {
+      "x": 28,
+      "y": 0,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses running layup"
+    },
+    {
+      "x": 26,
+      "y": -1,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "PHX",
+      "text": "Chet Holmgren blocks Devin Booker 's 2-foot two point shot"
+    },
+    {
+      "x": 2,
+      "y": -4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": true,
+      "type": "Alley Oop Layup Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes alley oop layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 27,
+      "y": 7,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHX",
+      "text": "Chet Holmgren blocks Jalen Green 's 7-foot two point shot"
+    },
+    {
+      "x": 7,
+      "y": -2,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 18-foot pullup jump shot"
+    },
+    {
+      "x": 37,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Royce O'Neale misses 27-foot three point jumper"
+    },
+    {
+      "x": 22,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 14-foot pullup jump shot"
+    },
+    {
+      "x": 16,
+      "y": 1,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker makes 8-foot pullup jump shot (Royce O'Neale assists)"
+    },
+    {
+      "x": 37,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 36,
+      "y": 23,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 25-foot three point step back jumpshot (Ajay Mitchell assists)"
+    },
+    {
+      "x": 38,
+      "y": 25,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 27-foot three pointer (Oso Ighodaro assists)"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso makes 23-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 33,
+      "y": 12,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker misses 14-foot fade away jump shot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes running layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes technical free throw"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Devin Booker makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Devin Booker makes free throw 2 of 2"
+    },
+    {
+      "x": 17,
+      "y": 14,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 15-foot pullup jump shot (Ajay Mitchell assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "OKC",
+      "text": "Alex Caruso makes running layup (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 33,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Collin Gillespie misses 22-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 27,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 27-foot three point step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Alley Oop Dunk Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes 1-foot alley oop dunk (Ajay Mitchell assists)"
+    },
+    {
+      "x": 28,
+      "y": 3,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green makes 4-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "PHX",
+      "text": "Jalen Green makes free throw 1 of 1"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 3-foot two point shot"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses two point shot"
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses two point shot"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein misses two point shot"
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 25-foot running jump shot (Royce O'Neale assists)"
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses 11-foot fade away jump shot"
+    },
+    {
+      "x": 27,
+      "y": 3,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "PHX",
+      "text": "Chet Holmgren blocks Dillon Brooks 's 3-foot running layup"
+    },
+    {
+      "x": 47,
+      "y": 13,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe misses 25-foot running jump shot"
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 10-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "PHX",
+      "text": "Dillon Brooks makes free throw 1 of 1"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses driving layup"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses 25-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 48,
+      "y": 9,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Joe misses 24-foot running jump shot"
+    },
+    {
+      "x": 42,
+      "y": 18,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 24-foot three point jumper (Jalen Green assists)"
+    },
+    {
+      "x": 38,
+      "y": 0,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 12-foot step back jumpshot (Jaylin Williams assists)"
+    },
+    {
+      "x": 29,
+      "y": 12,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks misses 11-foot fade away jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses running layup"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses driving layup"
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 5-foot pullup jump shot"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams misses 24-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 6,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "PHX",
+      "text": "Dillon Brooks makes 5-foot fade away jump shot"
+    },
+    {
+      "x": 32,
+      "y": 9,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 11-foot pullup jump shot"
+    },
+    {
+      "x": 41,
+      "y": 21,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Jalen Green misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 21,
+      "y": 13,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker makes 12-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "PHX",
+      "text": "Devin Booker misses free throw 1 of 1"
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker makes 7-foot pullup jump shot"
+    },
+    {
+      "x": 15,
+      "y": 14,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 16-foot step back jumpshot"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 23-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHX",
+      "text": "Royce O'Neale makes 23-foot three point jumper (Devin Booker assists)"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell makes 23-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "PHX",
+      "text": "Khaman Maluach makes dunk (Jalen Green assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Devin Booker misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Devin Booker makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 30,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 29-foot three point jumper"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort makes 26-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 17,
+      "y": 20,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker makes 21-foot pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 14,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 14-foot pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHX",
+      "text": "Royce O'Neale makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHX",
+      "text": "Royce O'Neale makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Ajay Mitchell misses 23-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 23-foot three point jumper"
+    },
+    {
+      "x": 45,
+      "y": 18,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "PHX",
+      "text": "Devin Booker misses running pullup jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    }
+  ],
+  "shot_zones": {
+    "OKC": {
+      "at_rim": {
+        "fgm": 16,
+        "fga": 24,
+        "pct": 67
+      },
+      "paint": {
+        "fgm": 9,
+        "fga": 14,
+        "pct": 64
+      },
+      "mid": {
+        "fgm": 24,
+        "fga": 32,
+        "pct": 75
+      },
+      "corner_3": {
+        "fgm": 5,
+        "fga": 18,
+        "pct": 28
+      },
+      "arc_3": {
+        "fgm": 9,
+        "fga": 29,
+        "pct": 31
+      }
+    },
+    "PHX": {
+      "at_rim": {
+        "fgm": 13,
+        "fga": 23,
+        "pct": 57
+      },
+      "paint": {
+        "fgm": 12,
+        "fga": 20,
+        "pct": 60
+      },
+      "mid": {
+        "fgm": 21,
+        "fga": 29,
+        "pct": 72
+      },
+      "corner_3": {
+        "fgm": 5,
+        "fga": 14,
+        "pct": 36
+      },
+      "arc_3": {
+        "fgm": 6,
+        "fga": 21,
+        "pct": 29
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

@@ -1,0 +1,6500 @@
+{
+  "game_id": "21682737",
+  "date": "2026-04-30",
+  "home": "PHI",
+  "away": "BOS",
+  "home_pts": 106,
+  "away_pts": 93,
+  "winner": "PHI",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "PHI": [
+        20,
+        38,
+        24,
+        24
+      ],
+      "BOS": [
+        23,
+        26,
+        14,
+        30
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "41:22",
+    "time_leading_away_fmt": "3:11",
+    "time_tied_fmt": "3:27",
+    "lead_changes": 7,
+    "ties": 3,
+    "best_run_home": {
+      "pts_home": 21,
+      "pts_away": 11,
+      "start_min": 15.82,
+      "end_min": 20.65
+    },
+    "best_run_away": {
+      "pts_away": 15,
+      "pts_home": 6,
+      "start_min": 36.0,
+      "end_min": 40.83
+    },
+    "max_consec_home": 8,
+    "max_consec_away": 11
+  },
+  "four_factors": {
+    "PHI": {
+      "efg": 0.549,
+      "tov": 0.099,
+      "oreb": 0.077,
+      "ftr": 0.236,
+      "opp_efg": 0.47,
+      "opp_tov": 0.151,
+      "opp_oreb": 0.154,
+      "opp_ftr": 0.224
+    },
+    "BOS": {
+      "efg": 0.532,
+      "tov": 0.181,
+      "oreb": 0,
+      "ftr": 0.234,
+      "opp_efg": 0.508,
+      "opp_tov": 0.081,
+      "opp_oreb": 0.182,
+      "opp_ftr": 0.117
+    }
+  },
+  "misc": {
+    "PHI": {
+      "pts_paint": 40,
+      "pts_fb": 16,
+      "pts_2nd_chance": 9,
+      "pts_off_tov": 17
+    },
+    "BOS": {
+      "pts_paint": 42,
+      "pts_fb": 14,
+      "pts_2nd_chance": 10,
+      "pts_off_tov": 14
+    }
+  },
+  "hustle": {
+    "PHI": {
+      "deflections": 10,
+      "charges_drawn": 0,
+      "contested_shots": 38,
+      "contested_2pt": 21,
+      "contested_3pt": 17,
+      "loose_balls_recovered": 3,
+      "screen_assists": 13
+    },
+    "BOS": {
+      "deflections": 17,
+      "charges_drawn": 0,
+      "contested_shots": 40,
+      "contested_2pt": 29,
+      "contested_3pt": 11,
+      "loose_balls_recovered": 2,
+      "screen_assists": 11
+    }
+  },
+  "box_score": {
+    "PHI": [
+      {
+        "name": "K. Oubre Jr.",
+        "minutes": "39",
+        "pos": "G",
+        "starter": true,
+        "pts": 14,
+        "reb": 9,
+        "oreb": 3,
+        "ast": 1,
+        "stl": 2,
+        "blk": 2,
+        "tov": 3,
+        "fgm": 6,
+        "fga": 11,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": 23,
+        "off_rating": 119,
+        "def_rating": 88.8,
+        "ts_pct": 0.589,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "15:13",
+        "mu_fga": 19,
+        "mu_fgm": 10,
+        "mu_fg_pct": 0.526,
+        "mu_3pa": 8,
+        "mu_3pm": 3,
+        "mu_pts": 23,
+        "mu_ast": 3
+      },
+      {
+        "name": "P. George",
+        "minutes": "40",
+        "pos": "F",
+        "starter": true,
+        "pts": 23,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 2,
+        "blk": 1,
+        "tov": 4,
+        "fgm": 8,
+        "fga": 17,
+        "fg3m": 5,
+        "fg3a": 9,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 2,
+        "plus_minus": 11,
+        "off_rating": 107.2,
+        "def_rating": 94,
+        "ts_pct": 0.643,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 10,
+        "mu_min": "14:52",
+        "mu_fga": 10,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 5,
+        "mu_3pm": 2,
+        "mu_pts": 11,
+        "mu_ast": 2
+      },
+      {
+        "name": "J. Embiid",
+        "minutes": "34",
+        "pos": "C",
+        "starter": true,
+        "pts": 19,
+        "reb": 10,
+        "oreb": 1,
+        "ast": 8,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 18,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 6,
+        "fta": 7,
+        "pf": 2,
+        "plus_minus": 7,
+        "off_rating": 105.6,
+        "def_rating": 94.4,
+        "ts_pct": 0.451,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "12:47",
+        "mu_fga": 21,
+        "mu_fgm": 11,
+        "mu_fg_pct": 0.524,
+        "mu_3pa": 7,
+        "mu_3pm": 1,
+        "mu_pts": 24,
+        "mu_ast": 3
+      },
+      {
+        "name": "V. Edgecombe",
+        "minutes": "38",
+        "pos": "G",
+        "starter": true,
+        "pts": 14,
+        "reb": 8,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 0,
+        "blk": 2,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 11,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 3,
+        "fta": 3,
+        "pf": 3,
+        "plus_minus": 18,
+        "off_rating": 116.7,
+        "def_rating": 93.6,
+        "ts_pct": 0.568,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 8,
+        "mu_min": "14:30",
+        "mu_fga": 17,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.412,
+        "mu_3pa": 7,
+        "mu_3pm": 3,
+        "mu_pts": 18,
+        "mu_ast": 4
+      },
+      {
+        "name": "T. Maxey",
+        "minutes": "40",
+        "pos": "G",
+        "starter": true,
+        "pts": 30,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 5,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 11,
+        "fga": 22,
+        "fg3m": 3,
+        "fg3a": 5,
+        "ftm": 5,
+        "fta": 5,
+        "pf": 1,
+        "plus_minus": 15,
+        "off_rating": 110.8,
+        "def_rating": 92.8,
+        "ts_pct": 0.62,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "14:58",
+        "mu_fga": 9,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.444,
+        "mu_3pa": 5,
+        "mu_3pm": 3,
+        "mu_pts": 12,
+        "mu_ast": 4
+      },
+      {
+        "name": "D. Barlow",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Bona",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -4,
+        "off_rating": 0,
+        "def_rating": 133.3,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:33",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. Broome",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Drummond",
+        "minutes": "13",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 7,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 10,
+        "off_rating": 110.7,
+        "def_rating": 80.8,
+        "ts_pct": 1,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "5:03",
+        "mu_fga": 5,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.2,
+        "mu_3pa": 3,
+        "mu_3pm": 1,
+        "mu_pts": 3,
+        "mu_ast": 1
+      },
+      {
+        "name": "J. Edwards",
+        "minutes": "10",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 5,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -5,
+        "off_rating": 60.9,
+        "def_rating": 82.6,
+        "ts_pct": 0.333,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "4:07",
+        "mu_fga": 5,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.2,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "Q. Grimes",
+        "minutes": "22",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 6,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 2,
+        "off_rating": 93.6,
+        "def_rating": 89.4,
+        "ts_pct": 0.167,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "8:15",
+        "mu_fga": 3,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 4,
+        "mu_ast": 2
+      },
+      {
+        "name": "K. Lowry",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -4,
+        "off_rating": 0,
+        "def_rating": 133.3,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:33",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "D. Terry",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -4,
+        "off_rating": 0,
+        "def_rating": 133.3,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "0:33",
+        "mu_fga": 0,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. Walker",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Watford",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -4,
+        "off_rating": 0,
+        "def_rating": 133.3,
+        "ts_pct": 0,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "0:33",
+        "mu_fga": 1,
+        "mu_fgm": 1,
+        "mu_fg_pct": 1,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      }
+    ],
+    "BOS": [
+      {
+        "name": "J. Tatum",
+        "minutes": "29",
+        "pos": "F",
+        "starter": true,
+        "pts": 17,
+        "reb": 11,
+        "oreb": 0,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 3,
+        "fgm": 6,
+        "fga": 13,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 3,
+        "fta": 5,
+        "pf": 1,
+        "plus_minus": -11,
+        "off_rating": 90.5,
+        "def_rating": 109.7,
+        "ts_pct": 0.559,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "11:16",
+        "mu_fga": 9,
+        "mu_fgm": 5,
+        "mu_fg_pct": 0.556,
+        "mu_3pa": 4,
+        "mu_3pm": 3,
+        "mu_pts": 15,
+        "mu_ast": 2
+      },
+      {
+        "name": "S. Hauser",
+        "minutes": "21",
+        "pos": "F",
+        "starter": true,
+        "pts": 5,
+        "reb": 4,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 2,
+        "fga": 6,
+        "fg3m": 1,
+        "fg3a": 5,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": -12,
+        "off_rating": 74.5,
+        "def_rating": 100,
+        "ts_pct": 0.417,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "7:45",
+        "mu_fga": 8,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.375,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 6,
+        "mu_ast": 3
+      },
+      {
+        "name": "N. Queta",
+        "minutes": "20",
+        "pos": "C",
+        "starter": true,
+        "pts": 4,
+        "reb": 11,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 2,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 3,
+        "plus_minus": -14,
+        "off_rating": 75,
+        "def_rating": 104.4,
+        "ts_pct": 0.4,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 14,
+        "mu_min": "7:46",
+        "mu_fga": 20,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.35,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 18,
+        "mu_ast": 4
+      },
+      {
+        "name": "J. Brown",
+        "minutes": "29",
+        "pos": "G",
+        "starter": true,
+        "pts": 18,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 5,
+        "fgm": 7,
+        "fga": 17,
+        "fg3m": 2,
+        "fg3a": 6,
+        "ftm": 2,
+        "fta": 6,
+        "pf": 4,
+        "plus_minus": -24,
+        "off_rating": 74.1,
+        "def_rating": 113.6,
+        "ts_pct": 0.458,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 3,
+        "mu_min": "10:59",
+        "mu_fga": 10,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 1
+      },
+      {
+        "name": "D. White",
+        "minutes": "32",
+        "pos": "G",
+        "starter": true,
+        "pts": 11,
+        "reb": 1,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 3,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 8,
+        "fg3m": 3,
+        "fg3a": 6,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": -25,
+        "off_rating": 77.6,
+        "def_rating": 116.7,
+        "ts_pct": 0.619,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "12:11",
+        "mu_fga": 17,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.412,
+        "mu_3pa": 6,
+        "mu_3pm": 1,
+        "mu_pts": 19,
+        "mu_ast": 3
+      },
+      {
+        "name": "D. Banton",
+        "minutes": "01",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 4,
+        "off_rating": 133.3,
+        "def_rating": 0,
+        "ts_pct": 1,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "0:33",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "L. Garza",
+        "minutes": "14",
+        "pos": "",
+        "starter": false,
+        "pts": 9,
+        "reb": 2,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 5,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 6,
+        "off_rating": 118.5,
+        "def_rating": 100,
+        "ts_pct": 0.9,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": "5:22",
+        "mu_fga": 10,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.6,
+        "mu_3pa": 4,
+        "mu_3pm": 2,
+        "mu_pts": 17,
+        "mu_ast": 1
+      },
+      {
+        "name": "H. Gonz\u00e1lez",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "R. Harper Jr.",
+        "minutes": "10",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 3,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 1,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 10,
+        "off_rating": 140,
+        "def_rating": 94.7,
+        "ts_pct": 0.5,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "4:25",
+        "mu_fga": 2,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 2,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "P. Pritchard",
+        "minutes": "36",
+        "pos": "",
+        "starter": false,
+        "pts": 14,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 5,
+        "stl": 0,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 16,
+        "fg3m": 1,
+        "fg3a": 8,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 0,
+        "plus_minus": -6,
+        "off_rating": 98.6,
+        "def_rating": 105.3,
+        "ts_pct": 0.426,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "14:27",
+        "mu_fga": 10,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 5,
+        "mu_3pm": 1,
+        "mu_pts": 9,
+        "mu_ast": 3
+      },
+      {
+        "name": "B. Scheierman",
+        "minutes": "15",
+        "pos": "",
+        "starter": false,
+        "pts": 5,
+        "reb": 3,
+        "oreb": 0,
+        "ast": 1,
+        "stl": 2,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 2,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 2,
+        "off_rating": 113.3,
+        "def_rating": 106.7,
+        "ts_pct": 0.625,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "6:05",
+        "mu_fga": 2,
+        "mu_fgm": 1,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 3,
+        "mu_ast": 2
+      },
+      {
+        "name": "M. Shulga",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "N. Vucevic",
+        "minutes": "14",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 2,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 5,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -5,
+        "off_rating": 90.3,
+        "def_rating": 110,
+        "ts_pct": 0.2,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "5:41",
+        "mu_fga": 12,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.583,
+        "mu_3pa": 2,
+        "mu_3pm": 1,
+        "mu_pts": 15,
+        "mu_ast": 3
+      },
+      {
+        "name": "J. Walsh",
+        "minutes": "19",
+        "pos": "",
+        "starter": false,
+        "pts": 3,
+        "reb": 5,
+        "oreb": 2,
+        "ast": 3,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 1,
+        "plus_minus": 10,
+        "off_rating": 115,
+        "def_rating": 92.3,
+        "ts_pct": 0.387,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "7:35",
+        "mu_fga": 4,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 5,
+        "mu_ast": 1
+      },
+      {
+        "name": "A. Williams",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Neemias Queta vs. Joel Embiid (VJ Edgecombe gains possession)"
+    },
+    {
+      "min": 0.23,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": true,
+      "text": "Joel Embiid makes 12-foot two point shot (Paul George assists)"
+    },
+    {
+      "min": 0.52,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Hauser misses 26-foot three point jumper"
+    },
+    {
+      "min": 0.55,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 0.85,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid misses 27-foot three point jumper"
+    },
+    {
+      "min": 0.88,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 1.03,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Derrick White vs. Joel Embiid (VJ Edgecombe gains possession)"
+    },
+    {
+      "min": 1.03,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Derrick White lost ball turnover (Joel Embiid steals)"
+    },
+    {
+      "min": 1.17,
+      "home": 2,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George out of bounds lost ball turnover"
+    },
+    {
+      "min": 1.48,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Sam Hauser makes 1-foot two point shot (Jayson Tatum assists)"
+    },
+    {
+      "min": 1.73,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 1.78,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 1.98,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylen Brown misses 29-foot three point pullup jump shot"
+    },
+    {
+      "min": 2.05,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Derrick White offensive rebound"
+    },
+    {
+      "min": 2.08,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Derrick White misses driving floating jump shot"
+    },
+    {
+      "min": 2.12,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 2.22,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey misses running pullup jump shot"
+    },
+    {
+      "min": 2.28,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 2.42,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum misses two point shot"
+    },
+    {
+      "min": 2.45,
+      "home": 2,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 2.57,
+      "home": 4,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Joel Embiid makes 4-foot two point shot"
+    },
+    {
+      "min": 2.57,
+      "home": 4,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Neemias Queta shooting foul"
+    },
+    {
+      "min": 2.57,
+      "home": 5,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Joel Embiid makes free throw 1 of 1"
+    },
+    {
+      "min": 2.82,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Jayson Tatum makes 2-foot two point shot"
+    },
+    {
+      "min": 2.82,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe shooting foul"
+    },
+    {
+      "min": 2.82,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum misses free throw 1 of 1"
+    },
+    {
+      "min": 2.85,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 3.05,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid misses 10-foot pullup jump shot"
+    },
+    {
+      "min": 3.08,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 3.3,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylen Brown misses 7-foot turnaround jump shot"
+    },
+    {
+      "min": 3.35,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 3.43,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George misses 26-foot running jump shot"
+    },
+    {
+      "min": 3.5,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Hauser defensive rebound"
+    },
+    {
+      "min": 3.55,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Derrick White misses running pullup jump shot"
+    },
+    {
+      "min": 3.58,
+      "home": 5,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 3.7,
+      "home": 8,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Paul George makes 26-foot running jump shot (VJ Edgecombe assists)"
+    },
+    {
+      "min": 4.0,
+      "home": 8,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Derrick White double dribble turnover"
+    },
+    {
+      "min": 4.23,
+      "home": 11,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 26-foot three pointer (Joel Embiid assists)"
+    },
+    {
+      "min": 4.53,
+      "home": 11,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylen Brown misses 22-foot step back jumpshot"
+    },
+    {
+      "min": 4.6,
+      "home": 11,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 4.83,
+      "home": 11,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid misses 27-foot three point jumper"
+    },
+    {
+      "min": 4.87,
+      "home": 11,
+      "away": 4,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 4.97,
+      "home": 11,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaylen Brown makes 9-foot pullup jump shot (Jayson Tatum assists)"
+    },
+    {
+      "min": 5.22,
+      "home": 11,
+      "away": 6,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid bad pass\nturnover (Derrick White steals)"
+    },
+    {
+      "min": 5.43,
+      "home": 11,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "Neemias Queta makes 6-foot floating jump shot (Jaylen Brown assists)"
+    },
+    {
+      "min": 5.6,
+      "home": 11,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylen Brown personal foul"
+    },
+    {
+      "min": 5.6,
+      "home": 11,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 5.6,
+      "home": 11,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Payton Pritchard enters the game for Sam Hauser"
+    },
+    {
+      "min": 5.72,
+      "home": 11,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylen Brown personal foul"
+    },
+    {
+      "min": 5.98,
+      "home": 11,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 23-foot three point jumper"
+    },
+    {
+      "min": 6.0,
+      "home": 11,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 6.25,
+      "home": 11,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "VJ Edgecombe shooting foul"
+    },
+    {
+      "min": 6.25,
+      "home": 11,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Jaylen Brown makes free throw 1 of 2"
+    },
+    {
+      "min": 6.25,
+      "home": 11,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylen Brown misses free throw 2 of 2"
+    },
+    {
+      "min": 6.3,
+      "home": 11,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 6.25,
+      "home": 11,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Nikola Vucevic enters the game for Neemias Queta"
+    },
+    {
+      "min": 6.25,
+      "home": 11,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes enters the game for VJ Edgecombe"
+    },
+    {
+      "min": 6.63,
+      "home": 13,
+      "away": 9,
+      "period": 1,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 1-foot two point shot"
+    },
+    {
+      "min": 6.85,
+      "home": 13,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylen Brown out of bounds lost ball turnover"
+    },
+    {
+      "min": 7.08,
+      "home": 13,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid misses 12-foot jumper"
+    },
+    {
+      "min": 7.12,
+      "home": 13,
+      "away": 9,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 7.18,
+      "home": 13,
+      "away": 12,
+      "period": 1,
+      "scoring": true,
+      "text": "Jayson Tatum makes 27-foot running pullup jump shot"
+    },
+    {
+      "min": 7.48,
+      "home": 13,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George misses 14-foot step back jumpshot"
+    },
+    {
+      "min": 7.55,
+      "home": 13,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes offensive rebound"
+    },
+    {
+      "min": 7.6,
+      "home": 13,
+      "away": 12,
+      "period": 1,
+      "scoring": false,
+      "text": "Paul George bad pass\nturnover (Nikola Vucevic steals)"
+    },
+    {
+      "min": 7.67,
+      "home": 13,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Payton Pritchard makes two point shot (Derrick White assists)"
+    },
+    {
+      "min": 7.97,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes dunk (Joel Embiid assists)"
+    },
+    {
+      "min": 7.97,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Celtics Full timeout"
+    },
+    {
+      "min": 7.97,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Hauser enters the game for Derrick White"
+    },
+    {
+      "min": 7.97,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Walsh enters the game for Jaylen Brown"
+    },
+    {
+      "min": 8.23,
+      "home": 15,
+      "away": 14,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum lost ball turnover (Tyrese Maxey steals)"
+    },
+    {
+      "min": 8.32,
+      "home": 17,
+      "away": 14,
+      "period": 1,
+      "scoring": true,
+      "text": "Quentin Grimes makes two point shot (Tyrese Maxey assists)"
+    },
+    {
+      "min": 8.7,
+      "home": 17,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Payton Pritchard makes 9-foot two point shot"
+    },
+    {
+      "min": 9.07,
+      "home": 20,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 26-foot three point jumper (Joel Embiid assists)"
+    },
+    {
+      "min": 9.35,
+      "home": 20,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Payton Pritchard lost ball turnover (Tyrese Maxey steals)"
+    },
+    {
+      "min": 9.55,
+      "home": 20,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses 23-foot three point jumper"
+    },
+    {
+      "min": 9.58,
+      "home": 20,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 9.77,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": true,
+      "text": "Jayson Tatum makes 27-foot three pointer (Payton Pritchard assists)"
+    },
+    {
+      "min": 10.1,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid misses 15-foot step back jumpshot"
+    },
+    {
+      "min": 10.13,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 10.2,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid shooting foul"
+    },
+    {
+      "min": 10.2,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": true,
+      "text": "Jayson Tatum makes free throw 2 of 2"
+    },
+    {
+      "min": 10.2,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Celtics offensive team rebound"
+    },
+    {
+      "min": 10.2,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum misses free throw 1 of 2"
+    },
+    {
+      "min": 10.2,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Neemias Queta enters the game for Nikola Vucevic"
+    },
+    {
+      "min": 10.2,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Justin Edwards enters the game for Kelly Oubre Jr."
+    },
+    {
+      "min": 10.2,
+      "home": 20,
+      "away": 19,
+      "period": 1,
+      "scoring": false,
+      "text": "Andre Drummond enters the game for Joel Embiid"
+    },
+    {
+      "min": 10.4,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 19-foot floating jump shot"
+    },
+    {
+      "min": 10.43,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 10.62,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum misses 11-foot pullup jump shot"
+    },
+    {
+      "min": 10.67,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 10.73,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes misses two point shot"
+    },
+    {
+      "min": 10.78,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Sam Hauser defensive rebound"
+    },
+    {
+      "min": 10.93,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Payton Pritchard misses 29-foot three point jumper"
+    },
+    {
+      "min": 10.98,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Quentin Grimes defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Jordan Walsh blocks Tyrese Maxey 's 4-foot two point shot"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 20,
+      "period": 1,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": true,
+      "text": "Sam Hauser makes 28-foot running jump shot (Jordan Walsh assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 17-foot step back jumpshot"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum misses 29-foot three point jumper"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "76ers defensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Joel Embiid enters the game for Andre Drummond"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Nikola Vucevic enters the game for Neemias Queta"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Tyrese Maxey misses driving layup"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 2,
+      "scoring": false,
+      "text": "Baylor Scheierman enters the game for Jordan Walsh"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. enters the game for Tyrese Maxey"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 2,
+      "scoring": false,
+      "text": "Derrick White enters the game for Sam Hauser"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe enters the game for Paul George"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 2,
+      "scoring": false,
+      "text": "Luka Garza enters the game for Jayson Tatum"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 23,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown enters the game for Nikola Vucevic"
+    },
+    {
+      "min": 12.23,
+      "home": 20,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylen Brown makes 16-foot pullup jump shot (Luka Garza assists)"
+    },
+    {
+      "min": 12.48,
+      "home": 20,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Derrick White shooting foul"
+    },
+    {
+      "min": 12.48,
+      "home": 21,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "VJ Edgecombe makes free throw 1 of 2"
+    },
+    {
+      "min": 12.48,
+      "home": 22,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "VJ Edgecombe makes free throw 2 of 2"
+    },
+    {
+      "min": 12.8,
+      "home": 22,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown misses 17-foot step back jumpshot"
+    },
+    {
+      "min": 12.82,
+      "home": 22,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "76ers defensive team rebound"
+    },
+    {
+      "min": 12.93,
+      "home": 22,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Luka Garza shooting foul"
+    },
+    {
+      "min": 12.93,
+      "home": 22,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Joel Embiid misses free throw 1 of 2"
+    },
+    {
+      "min": 12.93,
+      "home": 22,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 12.93,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "Joel Embiid makes free throw 2 of 2"
+    },
+    {
+      "min": 13.23,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. shooting foul"
+    },
+    {
+      "min": 13.23,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown misses free throw 2 of 2"
+    },
+    {
+      "min": 13.23,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown misses free throw 1 of 2"
+    },
+    {
+      "min": 13.23,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Celtics offensive team rebound"
+    },
+    {
+      "min": 13.33,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 13.37,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Justin Edwards misses 28-foot running jump shot"
+    },
+    {
+      "min": 13.4,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. offensive rebound"
+    },
+    {
+      "min": 13.42,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. out of bounds lost ball turnover"
+    },
+    {
+      "min": 13.53,
+      "home": 23,
+      "away": 25,
+      "period": 2,
+      "scoring": false,
+      "text": "Baylor Scheierman steps out of bounds turnover"
+    },
+    {
+      "min": 13.78,
+      "home": 26,
+      "away": 25,
+      "period": 2,
+      "scoring": true,
+      "text": "Joel Embiid makes 27-foot three point jumper (VJ Edgecombe assists)"
+    },
+    {
+      "min": 14.02,
+      "home": 26,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylen Brown makes 2-foot two point shot"
+    },
+    {
+      "min": 14.35,
+      "home": 26,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Joel Embiid misses 15-foot jumper"
+    },
+    {
+      "min": 14.4,
+      "home": 26,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Baylor Scheierman defensive rebound"
+    },
+    {
+      "min": 14.6,
+      "home": 26,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Payton Pritchard misses 30-foot three point jumper"
+    },
+    {
+      "min": 14.65,
+      "home": 26,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Justin Edwards defensive rebound"
+    },
+    {
+      "min": 14.75,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 1-foot running dunk"
+    },
+    {
+      "min": 15.13,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. blocks Payton Pritchard 's 3-foot two point shot"
+    },
+    {
+      "min": 15.15,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Justin Edwards defensive rebound"
+    },
+    {
+      "min": 15.15,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Neemias Queta enters the game for Luka Garza"
+    },
+    {
+      "min": 15.15,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey enters the game for Justin Edwards"
+    },
+    {
+      "min": 15.15,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Andre Drummond enters the game for Joel Embiid"
+    },
+    {
+      "min": 15.15,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Jayson Tatum enters the game for Baylor Scheierman"
+    },
+    {
+      "min": 15.35,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Neemias Queta blocks VJ Edgecombe 's 2-foot two point shot"
+    },
+    {
+      "min": 15.4,
+      "home": 28,
+      "away": 27,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown defensive rebound"
+    },
+    {
+      "min": 15.45,
+      "home": 28,
+      "away": 29,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylen Brown makes running layup"
+    },
+    {
+      "min": 15.82,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 8-foot driving floating jump shot"
+    },
+    {
+      "min": 15.97,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown lost ball turnover (Kelly Oubre Jr. steals)"
+    },
+    {
+      "min": 16.05,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Quentin Grimes misses running pullup jump shot"
+    },
+    {
+      "min": 16.12,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 16.12,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Celtics Full timeout"
+    },
+    {
+      "min": 16.12,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George enters the game for Quentin Grimes"
+    },
+    {
+      "min": 16.38,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "Neemias Queta misses 13-foot jump bank shot"
+    },
+    {
+      "min": 16.43,
+      "home": 30,
+      "away": 29,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 16.55,
+      "home": 32,
+      "away": 29,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 9-foot driving floating jump shot"
+    },
+    {
+      "min": 16.7,
+      "home": 32,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Derrick White makes 29-foot three point jumper (Jaylen Brown assists)"
+    },
+    {
+      "min": 17.03,
+      "home": 35,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 26-foot three point jumper (Paul George assists)"
+    },
+    {
+      "min": 17.38,
+      "home": 35,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey shooting foul"
+    },
+    {
+      "min": 17.38,
+      "home": 35,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown misses free throw 1 of 2"
+    },
+    {
+      "min": 17.38,
+      "home": 35,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Celtics offensive team rebound"
+    },
+    {
+      "min": 17.38,
+      "home": 35,
+      "away": 33,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylen Brown makes free throw 2 of 2"
+    },
+    {
+      "min": 17.57,
+      "home": 38,
+      "away": 33,
+      "period": 2,
+      "scoring": true,
+      "text": "Paul George makes 26-foot three pointer (Tyrese Maxey assists)"
+    },
+    {
+      "min": 17.9,
+      "home": 38,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylen Brown makes 29-foot three pointer"
+    },
+    {
+      "min": 18.1,
+      "home": 40,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 11-foot pullup jump shot"
+    },
+    {
+      "min": 18.25,
+      "home": 40,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. personal foul"
+    },
+    {
+      "min": 18.43,
+      "home": 40,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George blocks Neemias Queta 's 2-foot layup"
+    },
+    {
+      "min": 18.47,
+      "home": 40,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 18.65,
+      "home": 40,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Neemias Queta shooting foul"
+    },
+    {
+      "min": 18.65,
+      "home": 41,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "min": 18.65,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "min": 18.92,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown offensive foul"
+    },
+    {
+      "min": 18.92,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylen Brown offensive foul turnover"
+    },
+    {
+      "min": 18.92,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Sam Hauser enters the game for Jaylen Brown"
+    },
+    {
+      "min": 19.15,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George misses 27-foot three point jumper"
+    },
+    {
+      "min": 19.18,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 19.23,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Neemias Queta offensive foul turnover"
+    },
+    {
+      "min": 19.23,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Neemias Queta offensive foul"
+    },
+    {
+      "min": 19.23,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Nikola Vucevic enters the game for Neemias Queta"
+    },
+    {
+      "min": 19.57,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 7-foot floating jump shot"
+    },
+    {
+      "min": 19.58,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey offensive rebound"
+    },
+    {
+      "min": 19.62,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 10-foot fade away jump shot"
+    },
+    {
+      "min": 19.63,
+      "home": 42,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Andre Drummond offensive rebound"
+    },
+    {
+      "min": 19.67,
+      "home": 44,
+      "away": 36,
+      "period": 2,
+      "scoring": true,
+      "text": "Andre Drummond makes two point shot"
+    },
+    {
+      "min": 19.88,
+      "home": 44,
+      "away": 36,
+      "period": 2,
+      "scoring": false,
+      "text": "Andre Drummond shooting foul"
+    },
+    {
+      "min": 19.88,
+      "home": 44,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "Jayson Tatum makes free throw 1 of 2"
+    },
+    {
+      "min": 19.88,
+      "home": 44,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Jayson Tatum makes free throw 2 of 2"
+    },
+    {
+      "min": 20.08,
+      "home": 44,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Derrick White shooting foul"
+    },
+    {
+      "min": 20.08,
+      "home": 45,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Paul George makes free throw 1 of 2"
+    },
+    {
+      "min": 20.08,
+      "home": 45,
+      "away": 38,
+      "period": 2,
+      "scoring": false,
+      "text": "Joel Embiid enters the game for Andre Drummond"
+    },
+    {
+      "min": 20.08,
+      "home": 46,
+      "away": 38,
+      "period": 2,
+      "scoring": true,
+      "text": "Paul George makes free throw 2 of 2"
+    },
+    {
+      "min": 20.42,
+      "home": 46,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Jayson Tatum makes driving layup"
+    },
+    {
+      "min": 20.65,
+      "home": 49,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Paul George makes 22-foot three pointer"
+    },
+    {
+      "min": 20.75,
+      "home": 49,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Sam Hauser misses 23-foot three point jumper"
+    },
+    {
+      "min": 20.77,
+      "home": 49,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 20.85,
+      "home": 49,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. lost ball turnover (Derrick White steals)"
+    },
+    {
+      "min": 21.03,
+      "home": 49,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Jayson Tatum makes 1-foot layup (Sam Hauser assists)"
+    },
+    {
+      "min": 21.17,
+      "home": 51,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes driving layup"
+    },
+    {
+      "min": 21.18,
+      "home": 51,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Joel Embiid loose ball foul"
+    },
+    {
+      "min": 21.18,
+      "home": 51,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Celtics Full timeout"
+    },
+    {
+      "min": 21.18,
+      "home": 51,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Walsh enters the game for Sam Hauser"
+    },
+    {
+      "min": 21.18,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Derrick White makes free throw 2 of 2"
+    },
+    {
+      "min": 21.18,
+      "home": 51,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Derrick White makes free throw 1 of 2"
+    },
+    {
+      "min": 21.48,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 27-foot three point jumper"
+    },
+    {
+      "min": 21.53,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Payton Pritchard defensive rebound"
+    },
+    {
+      "min": 21.72,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jayson Tatum misses 11-foot two point shot"
+    },
+    {
+      "min": 21.77,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 21.93,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George misses 16-foot step back jumpshot"
+    },
+    {
+      "min": 21.97,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Nikola Vucevic defensive rebound"
+    },
+    {
+      "min": 22.12,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jayson Tatum misses 30-foot three point pullup jump shot"
+    },
+    {
+      "min": 22.18,
+      "home": 51,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 22.4,
+      "home": 53,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 8-foot fade away jump shot (Joel Embiid assists)"
+    },
+    {
+      "min": 22.67,
+      "home": 53,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Nikola Vucevic misses 29-foot three point jumper"
+    },
+    {
+      "min": 22.73,
+      "home": 53,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 22.87,
+      "home": 56,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 27-foot three pointer"
+    },
+    {
+      "min": 24.0,
+      "home": 56,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Derrick White makes 27-foot three point step back jumpshot (Nikola Vucevic assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 56,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Joel Embiid misses 27-foot three point jumper"
+    },
+    {
+      "min": 24.0,
+      "home": 56,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jordan Walsh defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 56,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Payton Pritchard makes driving layup"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 4-foot driving floating jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Derrick White misses 24-foot three point jumper"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Celtics offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Hauser enters the game for Payton Pritchard"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylen Brown enters the game for Nikola Vucevic"
+    },
+    {
+      "min": 24.0,
+      "home": 58,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta enters the game for Jordan Walsh"
+    },
+    {
+      "min": 24.27,
+      "home": 58,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Jayson Tatum bad pass\nturnover (Kelly Oubre Jr. steals)"
+    },
+    {
+      "min": 24.37,
+      "home": 61,
+      "away": 49,
+      "period": 3,
+      "scoring": true,
+      "text": "Paul George makes 28-foot running jump shot (Kelly Oubre Jr. assists)"
+    },
+    {
+      "min": 24.52,
+      "home": 61,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylen Brown offensive foul turnover"
+    },
+    {
+      "min": 24.52,
+      "home": 61,
+      "away": 49,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylen Brown offensive foul"
+    },
+    {
+      "min": 24.78,
+      "home": 63,
+      "away": 49,
+      "period": 3,
+      "scoring": true,
+      "text": "Joel Embiid makes 20-foot fade away jump shot (Tyrese Maxey assists)"
+    },
+    {
+      "min": 25.03,
+      "home": 63,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Jayson Tatum makes driving dunk"
+    },
+    {
+      "min": 25.4,
+      "home": 63,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Joel Embiid misses 3-foot two point shot"
+    },
+    {
+      "min": 25.42,
+      "home": 63,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Joel Embiid offensive rebound"
+    },
+    {
+      "min": 25.42,
+      "home": 63,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jayson Tatum shooting foul"
+    },
+    {
+      "min": 25.42,
+      "home": 64,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Joel Embiid makes free throw 1 of 2"
+    },
+    {
+      "min": 25.42,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": true,
+      "text": "Joel Embiid makes free throw 2 of 2"
+    },
+    {
+      "min": 25.62,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jayson Tatum lost ball turnover (Paul George steals)"
+    },
+    {
+      "min": 25.88,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta blocks Kelly Oubre Jr. 's 5-foot layup"
+    },
+    {
+      "min": 25.92,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. offensive rebound"
+    },
+    {
+      "min": 25.93,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses two point shot"
+    },
+    {
+      "min": 25.95,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 26.37,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta misses 7-foot two point shot"
+    },
+    {
+      "min": 26.38,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 26.48,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George misses 27-foot three point jumper"
+    },
+    {
+      "min": 26.52,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 26.67,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Jayson Tatum misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 26.68,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "76ers defensive team rebound"
+    },
+    {
+      "min": 26.9,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses 27-foot three point jumper"
+    },
+    {
+      "min": 26.95,
+      "home": 65,
+      "away": 51,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 27.05,
+      "home": 65,
+      "away": 54,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaylen Brown makes 27-foot three point step back jumpshot"
+    },
+    {
+      "min": 27.33,
+      "home": 67,
+      "away": 54,
+      "period": 3,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 2-foot dunk (Joel Embiid assists)"
+    },
+    {
+      "min": 27.5,
+      "home": 67,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. blocks Jaylen Brown 's 2-foot driving layup"
+    },
+    {
+      "min": 27.53,
+      "home": 67,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Tyrese Maxey defensive rebound"
+    },
+    {
+      "min": 27.58,
+      "home": 69,
+      "away": 54,
+      "period": 3,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 2-foot running dunk (Paul George assists)"
+    },
+    {
+      "min": 27.58,
+      "home": 69,
+      "away": 54,
+      "period": 3,
+      "scoring": false,
+      "text": "Celtics Full timeout"
+    },
+    {
+      "min": 27.77,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Derrick White makes 26-foot three point jumper (Jayson Tatum assists)"
+    },
+    {
+      "min": 28.07,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Joel Embiid misses 4-foot two point shot"
+    },
+    {
+      "min": 28.1,
+      "home": 69,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. offensive rebound"
+    },
+    {
+      "min": 28.13,
+      "home": 71,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 14-foot fade away jump shot"
+    },
+    {
+      "min": 28.43,
+      "home": 71,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Derrick White misses 27-foot three point jumper"
+    },
+    {
+      "min": 28.5,
+      "home": 71,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 28.55,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": true,
+      "text": "Paul George makes 27-foot running pullup jump shot"
+    },
+    {
+      "min": 29.0,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylen Brown misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 29.02,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "76ers defensive team rebound"
+    },
+    {
+      "min": 29.02,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Payton Pritchard enters the game for Sam Hauser"
+    },
+    {
+      "min": 29.27,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George misses driving layup"
+    },
+    {
+      "min": 29.3,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 29.37,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Payton Pritchard misses 26-foot running jump shot"
+    },
+    {
+      "min": 29.43,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 29.67,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George bad pass\nturnover (Derrick White steals)"
+    },
+    {
+      "min": 29.85,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jayson Tatum misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 29.9,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 30.1,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 13-foot pullup jump shot"
+    },
+    {
+      "min": 30.12,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta defensive rebound"
+    },
+    {
+      "min": 30.25,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylen Brown misses driving floating jump shot"
+    },
+    {
+      "min": 30.28,
+      "home": 74,
+      "away": 57,
+      "period": 3,
+      "scoring": false,
+      "text": "Neemias Queta offensive rebound"
+    },
+    {
+      "min": 30.28,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": true,
+      "text": "Neemias Queta makes tip in dunk"
+    },
+    {
+      "min": 30.68,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Joel Embiid misses 22-foot jumper"
+    },
+    {
+      "min": 30.72,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Jayson Tatum defensive rebound"
+    },
+    {
+      "min": 30.77,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George personal foul"
+    },
+    {
+      "min": 30.77,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Quentin Grimes enters the game for Joel Embiid"
+    },
+    {
+      "min": 30.77,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond enters the game for Paul George"
+    },
+    {
+      "min": 30.77,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Nikola Vucevic enters the game for Neemias Queta"
+    },
+    {
+      "min": 30.88,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Nikola Vucevic misses 26-foot three point jumper"
+    },
+    {
+      "min": 30.92,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "76ers defensive team rebound"
+    },
+    {
+      "min": 31.2,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 20-foot pullup jump shot"
+    },
+    {
+      "min": 31.23,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Celtics defensive team rebound"
+    },
+    {
+      "min": 31.23,
+      "home": 74,
+      "away": 59,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond loose ball foul"
+    },
+    {
+      "min": 31.48,
+      "home": 74,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaylen Brown makes 17-foot two point shot"
+    },
+    {
+      "min": 31.77,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 3-foot two point shot"
+    },
+    {
+      "min": 31.95,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. personal foul"
+    },
+    {
+      "min": 31.95,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Hauser enters the game for Jayson Tatum"
+    },
+    {
+      "min": 31.98,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe personal foul"
+    },
+    {
+      "min": 32.08,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Hauser misses 26-foot three point jumper"
+    },
+    {
+      "min": 32.13,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 32.35,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Derrick White personal foul"
+    },
+    {
+      "min": 32.57,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Tyrese Maxey misses 29-foot three point step back jumpshot"
+    },
+    {
+      "min": 32.58,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 32.58,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 32.82,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Nikola Vucevic misses 16-foot jumper"
+    },
+    {
+      "min": 32.87,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Nikola Vucevic offensive rebound"
+    },
+    {
+      "min": 32.88,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond blocks Nikola Vucevic 's 1-foot driving layup"
+    },
+    {
+      "min": 32.92,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 32.98,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Hauser personal foul"
+    },
+    {
+      "min": 32.98,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 32.98,
+      "home": 76,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George enters the game for VJ Edgecombe"
+    },
+    {
+      "min": 33.12,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Paul George makes 19-foot step back jumpshot (Quentin Grimes assists)"
+    },
+    {
+      "min": 33.33,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylen Brown misses 13-foot pullup jump shot"
+    },
+    {
+      "min": 33.4,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. defensive rebound"
+    },
+    {
+      "min": 33.43,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses two point shot"
+    },
+    {
+      "min": 33.47,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Hauser defensive rebound"
+    },
+    {
+      "min": 33.57,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Hauser misses 26-foot running jump shot"
+    },
+    {
+      "min": 33.6,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 33.95,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Paul George misses 20-foot jumper"
+    },
+    {
+      "min": 33.98,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Sam Hauser defensive rebound"
+    },
+    {
+      "min": 34.23,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylen Brown misses 26-foot three point jumper"
+    },
+    {
+      "min": 34.3,
+      "home": 78,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Quentin Grimes defensive rebound"
+    },
+    {
+      "min": 34.53,
+      "home": 80,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Paul George makes 17-foot pullup jump shot (Tyrese Maxey assists)"
+    },
+    {
+      "min": 34.85,
+      "home": 80,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Derrick White misses 23-foot three point jumper"
+    },
+    {
+      "min": 34.9,
+      "home": 80,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 61,
+      "period": 3,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 2-foot two point shot"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Payton Pritchard misses 25-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Tyrese Maxey misses running pullup jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Celtics defensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 61,
+      "period": 3,
+      "scoring": false,
+      "text": "Jordan Walsh enters the game for Derrick White"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Nikola Vucevic makes 4-foot driving floating jump shot (Jordan Walsh assists)"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "(00:00) [Celtics] REF-INITIATED REVIEW (CALL OVERTURNED)"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 63,
+      "period": 4,
+      "scoring": false,
+      "text": "Baylor Scheierman enters the game for Sam Hauser"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 63,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards enters the game for Kelly Oubre Jr."
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 63,
+      "period": 4,
+      "scoring": false,
+      "text": "Joel Embiid enters the game for Andre Drummond"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 63,
+      "period": 4,
+      "scoring": false,
+      "text": "Neemias Queta enters the game for Nikola Vucevic"
+    },
+    {
+      "min": 36.0,
+      "home": 82,
+      "away": 63,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe enters the game for Tyrese Maxey"
+    },
+    {
+      "min": 36.27,
+      "home": 82,
+      "away": 63,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George misses 21-foot step back jumpshot"
+    },
+    {
+      "min": 36.33,
+      "home": 82,
+      "away": 63,
+      "period": 4,
+      "scoring": false,
+      "text": "Payton Pritchard defensive rebound"
+    },
+    {
+      "min": 36.38,
+      "home": 82,
+      "away": 65,
+      "period": 4,
+      "scoring": true,
+      "text": "Payton Pritchard makes two point shot"
+    },
+    {
+      "min": 36.63,
+      "home": 84,
+      "away": 65,
+      "period": 4,
+      "scoring": true,
+      "text": "Joel Embiid makes 18-foot jumper (VJ Edgecombe assists)"
+    },
+    {
+      "min": 36.92,
+      "home": 84,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylen Brown lost ball turnover (Paul George steals)"
+    },
+    {
+      "min": 37.05,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": true,
+      "text": "Justin Edwards makes 17-foot pullup jump shot (Joel Embiid assists)"
+    },
+    {
+      "min": 37.33,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylen Brown misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 37.37,
+      "home": 86,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 37.6,
+      "home": 88,
+      "away": 65,
+      "period": 4,
+      "scoring": true,
+      "text": "Paul George makes 1-foot reverse layup (Joel Embiid assists)"
+    },
+    {
+      "min": 37.6,
+      "home": 88,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Celtics Full timeout"
+    },
+    {
+      "min": 37.6,
+      "home": 88,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Ron Harper Jr. enters the game for Neemias Queta"
+    },
+    {
+      "min": 37.6,
+      "home": 88,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Luka Garza enters the game for Jaylen Brown"
+    },
+    {
+      "min": 37.73,
+      "home": 88,
+      "away": 65,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards personal foul"
+    },
+    {
+      "min": 37.85,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": true,
+      "text": "Luka Garza makes 27-foot three point jumper (Payton Pritchard assists)"
+    },
+    {
+      "min": 38.12,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Quentin Grimes misses 25-foot three point jumper"
+    },
+    {
+      "min": 38.17,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Baylor Scheierman defensive rebound"
+    },
+    {
+      "min": 38.23,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Walsh misses 25-foot running jump shot"
+    },
+    {
+      "min": 38.28,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Ron Harper Jr. offensive rebound"
+    },
+    {
+      "min": 38.33,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Ron Harper Jr. misses 26-foot three point jumper"
+    },
+    {
+      "min": 38.42,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards defensive rebound"
+    },
+    {
+      "min": 38.65,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Luka Garza kicked ball violation"
+    },
+    {
+      "min": 38.82,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 28-foot three point jumper"
+    },
+    {
+      "min": 38.87,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards offensive rebound"
+    },
+    {
+      "min": 38.95,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Quentin Grimes misses two point shot"
+    },
+    {
+      "min": 38.98,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Baylor Scheierman defensive rebound"
+    },
+    {
+      "min": 39.03,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe blocks Payton Pritchard's two point shot"
+    },
+    {
+      "min": 39.07,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards defensive rebound"
+    },
+    {
+      "min": 39.13,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards out of bounds lost ball turnover"
+    },
+    {
+      "min": 39.4,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Payton Pritchard misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 39.45,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 39.7,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George lost ball turnover (Ron Harper Jr. steals)"
+    },
+    {
+      "min": 39.78,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Baylor Scheierman misses 26-foot running jump shot"
+    },
+    {
+      "min": 39.82,
+      "home": 88,
+      "away": 70,
+      "period": 4,
+      "scoring": true,
+      "text": "Luka Garza makes tip shot"
+    },
+    {
+      "min": 39.82,
+      "home": 88,
+      "away": 68,
+      "period": 4,
+      "scoring": false,
+      "text": "Luka Garza offensive rebound"
+    },
+    {
+      "min": 39.82,
+      "home": 88,
+      "away": 70,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George technical foul"
+    },
+    {
+      "min": 39.82,
+      "home": 88,
+      "away": 71,
+      "period": 4,
+      "scoring": true,
+      "text": "Payton Pritchard makes technical free throw"
+    },
+    {
+      "min": 39.82,
+      "home": 88,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Tyrese Maxey enters the game for Justin Edwards"
+    },
+    {
+      "min": 40.07,
+      "home": 88,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Joel Embiid misses 7-foot turnaround jump shot"
+    },
+    {
+      "min": 40.12,
+      "home": 88,
+      "away": 71,
+      "period": 4,
+      "scoring": false,
+      "text": "Ron Harper Jr. defensive rebound"
+    },
+    {
+      "min": 40.25,
+      "home": 88,
+      "away": 74,
+      "period": 4,
+      "scoring": true,
+      "text": "Ron Harper Jr. makes 22-foot three point jumper (Payton Pritchard assists)"
+    },
+    {
+      "min": 40.27,
+      "home": 88,
+      "away": 74,
+      "period": 4,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 40.57,
+      "home": 88,
+      "away": 74,
+      "period": 4,
+      "scoring": false,
+      "text": "Quentin Grimes misses 27-foot three point jumper"
+    },
+    {
+      "min": 40.62,
+      "home": 88,
+      "away": 74,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Walsh defensive rebound"
+    },
+    {
+      "min": 40.83,
+      "home": 88,
+      "away": 76,
+      "period": 4,
+      "scoring": true,
+      "text": "Luka Garza makes dunk (Payton Pritchard assists)"
+    },
+    {
+      "min": 41.22,
+      "home": 90,
+      "away": 76,
+      "period": 4,
+      "scoring": true,
+      "text": "Joel Embiid makes 18-foot jumper (Tyrese Maxey assists)"
+    },
+    {
+      "min": 41.43,
+      "home": 90,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Luka Garza misses 26-foot three point jumper"
+    },
+    {
+      "min": 41.47,
+      "home": 90,
+      "away": 76,
+      "period": 4,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 41.7,
+      "home": 92,
+      "away": 76,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyrese Maxey makes 2-foot two point shot"
+    },
+    {
+      "min": 41.92,
+      "home": 92,
+      "away": 78,
+      "period": 4,
+      "scoring": true,
+      "text": "Payton Pritchard makes driving layup"
+    },
+    {
+      "min": 42.23,
+      "home": 92,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Ron Harper Jr. shooting foul"
+    },
+    {
+      "min": 42.23,
+      "home": 93,
+      "away": 78,
+      "period": 4,
+      "scoring": true,
+      "text": "Joel Embiid makes free throw 1 of 2"
+    },
+    {
+      "min": 42.23,
+      "home": 93,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. enters the game for Quentin Grimes"
+    },
+    {
+      "min": 42.23,
+      "home": 94,
+      "away": 78,
+      "period": 4,
+      "scoring": true,
+      "text": "Joel Embiid makes free throw 2 of 2"
+    },
+    {
+      "min": 42.5,
+      "home": 94,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Walsh misses driving dunk"
+    },
+    {
+      "min": 42.55,
+      "home": 94,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe defensive rebound"
+    },
+    {
+      "min": 42.6,
+      "home": 94,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Baylor Scheierman shooting foul"
+    },
+    {
+      "min": 42.6,
+      "home": 95,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. misses free throw 2 of 2"
+    },
+    {
+      "min": 42.6,
+      "home": 95,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 42.6,
+      "home": 95,
+      "away": 78,
+      "period": 4,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes free throw 1 of 2"
+    },
+    {
+      "min": 42.6,
+      "home": 95,
+      "away": 78,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Walsh loose ball foul"
+    },
+    {
+      "min": 42.83,
+      "home": 98,
+      "away": 78,
+      "period": 4,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 23-foot three point jumper (Joel Embiid assists)"
+    },
+    {
+      "min": 43.12,
+      "home": 98,
+      "away": 80,
+      "period": 4,
+      "scoring": true,
+      "text": "Baylor Scheierman makes 2-foot two point shot (Payton Pritchard assists)"
+    },
+    {
+      "min": 43.55,
+      "home": 98,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Joel Embiid misses 28-foot three point step back jumpshot"
+    },
+    {
+      "min": 43.6,
+      "home": 98,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Walsh defensive rebound"
+    },
+    {
+      "min": 43.8,
+      "home": 98,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe blocks Payton Pritchard 's 2-foot reverse layup"
+    },
+    {
+      "min": 43.83,
+      "home": 98,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Walsh offensive rebound"
+    },
+    {
+      "min": 43.83,
+      "home": 98,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George shooting foul"
+    },
+    {
+      "min": 43.83,
+      "home": 98,
+      "away": 81,
+      "period": 4,
+      "scoring": true,
+      "text": "Jordan Walsh makes free throw 1 of 2"
+    },
+    {
+      "min": 43.83,
+      "home": 98,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Walsh misses free throw 2 of 2"
+    },
+    {
+      "min": 43.87,
+      "home": 98,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George defensive rebound"
+    },
+    {
+      "min": 44.23,
+      "home": 98,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Kelly Oubre Jr. lost ball turnover (Baylor Scheierman steals)"
+    },
+    {
+      "min": 44.37,
+      "home": 98,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Payton Pritchard misses 27-foot three point jumper"
+    },
+    {
+      "min": 44.4,
+      "home": 98,
+      "away": 81,
+      "period": 4,
+      "scoring": false,
+      "text": "Luka Garza offensive rebound"
+    },
+    {
+      "min": 44.4,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": true,
+      "text": "Luka Garza makes two point shot"
+    },
+    {
+      "min": 44.48,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "76ers Full timeout"
+    },
+    {
+      "min": 44.8,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "VJ Edgecombe misses 24-foot three point jumper"
+    },
+    {
+      "min": 44.83,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Payton Pritchard defensive rebound"
+    },
+    {
+      "min": 45.07,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Ron Harper Jr. misses 12-foot pullup jump shot"
+    },
+    {
+      "min": 45.13,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Joel Embiid defensive rebound"
+    },
+    {
+      "min": 45.43,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Paul George misses 23-foot three point jumper"
+    },
+    {
+      "min": 45.5,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Ron Harper Jr. defensive rebound"
+    },
+    {
+      "min": 45.57,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Baylor Scheierman misses running pullup jump shot"
+    },
+    {
+      "min": 45.6,
+      "home": 98,
+      "away": 83,
+      "period": 4,
+      "scoring": false,
+      "text": "Jordan Walsh offensive rebound"
+    },
+    {
+      "min": 45.7,
+      "home": 98,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "Baylor Scheierman makes 25-foot three point step back jumpshot (Jordan Walsh assists)"
+    },
+    {
+      "min": 45.95,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "VJ Edgecombe makes 2-foot two point shot"
+    },
+    {
+      "min": 45.95,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Baylor Scheierman shooting foul"
+    },
+    {
+      "min": 45.95,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Andre Drummond enters the game for Joel Embiid"
+    },
+    {
+      "min": 45.95,
+      "home": 100,
+      "away": 86,
+      "period": 4,
+      "scoring": false,
+      "text": "Quentin Grimes enters the game for Paul George"
+    },
+    {
+      "min": 45.95,
+      "home": 101,
+      "away": 86,
+      "period": 4,
+      "scoring": true,
+      "text": "VJ Edgecombe makes free throw 1 of 1"
+    },
+    {
+      "min": 46.07,
+      "home": 101,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Payton Pritchard makes 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 46.42,
+      "home": 103,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Kelly Oubre Jr. makes 2-foot driving dunk (Quentin Grimes assists)"
+    },
+    {
+      "min": 46.63,
+      "home": 103,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Payton Pritchard misses 24-foot three point step back jumpshot"
+    },
+    {
+      "min": 46.68,
+      "home": 103,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Andre Drummond defensive rebound"
+    },
+    {
+      "min": 46.77,
+      "home": 103,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Luka Garza shooting foul"
+    },
+    {
+      "min": 46.77,
+      "home": 103,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "(01:14) [Celtics] REF-INITIATED REVIEW (CALL OVERTURNED)"
+    },
+    {
+      "min": 46.77,
+      "home": 103,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Ron Harper Jr. technical foul"
+    },
+    {
+      "min": 46.77,
+      "home": 103,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Dalano Banton enters the game for Payton Pritchard"
+    },
+    {
+      "min": 46.77,
+      "home": 104,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyrese Maxey makes technical free throw"
+    },
+    {
+      "min": 46.77,
+      "home": 105,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "min": 46.77,
+      "home": 105,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Adem Bona enters the game for VJ Edgecombe"
+    },
+    {
+      "min": 46.77,
+      "home": 105,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards enters the game for Quentin Grimes"
+    },
+    {
+      "min": 46.77,
+      "home": 105,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Trendon Watford enters the game for Andre Drummond"
+    },
+    {
+      "min": 46.77,
+      "home": 105,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Dalen Terry enters the game for Kelly Oubre Jr."
+    },
+    {
+      "min": 46.77,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "min": 46.78,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards personal take foul"
+    },
+    {
+      "min": 46.78,
+      "home": 106,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Kyle Lowry enters the game for Tyrese Maxey"
+    },
+    {
+      "min": 48.0,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": true,
+      "text": "Dalano Banton makes 1-foot two point shot (Baylor Scheierman assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 106,
+      "away": 91,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards lost ball turnover (Baylor Scheierman steals)"
+    },
+    {
+      "min": 48.0,
+      "home": 106,
+      "away": 93,
+      "period": 4,
+      "scoring": true,
+      "text": "Jordan Walsh makes running dunk"
+    },
+    {
+      "min": 48.0,
+      "home": 106,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "Justin Edwards misses 33-foot three point pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 106,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "76ers offensive team rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 106,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 48.0,
+      "home": 106,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 106,
+      "away": 93,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 31,
+      "y": 11,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid makes 12-foot two point shot (Paul George assists)"
+    },
+    {
+      "x": 39,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Sam Hauser misses 26-foot three point jumper"
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 27-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "BOS",
+      "text": "Sam Hauser makes 1-foot two point shot (Jayson Tatum assists)"
+    },
+    {
+      "x": 34,
+      "y": 27,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": 8,
+      "y": 24,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses 29-foot three point pullup jump shot"
+    },
+    {
+      "x": 31,
+      "y": 2,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "BOS",
+      "text": "Derrick White misses driving floating jump shot"
+    },
+    {
+      "x": 36,
+      "y": 7,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses running pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "BOS",
+      "text": "Jayson Tatum misses two point shot"
+    },
+    {
+      "x": 28,
+      "y": 3,
+      "made": true,
+      "type": "Driving Floating Bank Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid makes 4-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "PHI",
+      "text": "Joel Embiid makes free throw 1 of 1"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "BOS",
+      "text": "Jayson Tatum makes 2-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 1",
+      "team": "BOS",
+      "text": "Jayson Tatum misses free throw 1 of 1"
+    },
+    {
+      "x": 29,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 10-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 8,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses 7-foot turnaround jump shot"
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 26-foot running jump shot"
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Derrick White misses running pullup jump shot"
+    },
+    {
+      "x": 37,
+      "y": 24,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 26-foot running jump shot (VJ Edgecombe assists)"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 26-foot three pointer (Joel Embiid assists)"
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses 22-foot step back jumpshot"
+    },
+    {
+      "x": 26,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 27-foot three point jumper"
+    },
+    {
+      "x": 35,
+      "y": 0,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown makes 9-foot pullup jump shot (Jayson Tatum assists)"
+    },
+    {
+      "x": 30,
+      "y": 5,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "BOS",
+      "text": "Neemias Queta makes 6-foot floating jump shot (Jaylen Brown assists)"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 23-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "BOS",
+      "text": "Jaylen Brown makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "BOS",
+      "text": "Jaylen Brown misses free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 1-foot two point shot"
+    },
+    {
+      "x": 25,
+      "y": 13,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 12-foot jumper"
+    },
+    {
+      "x": 2,
+      "y": 16,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum makes 27-foot running pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 14,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 14-foot step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "BOS",
+      "text": "Payton Pritchard makes two point shot (Derrick White assists)"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes dunk (Joel Embiid assists)"
+    },
+    {
+      "x": 29,
+      "y": 1,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "PHI",
+      "text": "Quentin Grimes makes two point shot (Tyrese Maxey assists)"
+    },
+    {
+      "x": 25,
+      "y": 10,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard makes 9-foot two point shot"
+    },
+    {
+      "x": 34,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 26-foot three point jumper (Joel Embiid assists)"
+    },
+    {
+      "x": 49,
+      "y": 3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses 23-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 27,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum makes 27-foot three pointer (Payton Pritchard assists)"
+    },
+    {
+      "x": 31,
+      "y": 14,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 15-foot step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "BOS",
+      "text": "Jayson Tatum makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "BOS",
+      "text": "Jayson Tatum misses free throw 1 of 2"
+    },
+    {
+      "x": 40,
+      "y": 14,
+      "made": false,
+      "type": "Floating Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 19-foot floating jump shot"
+    },
+    {
+      "x": 19,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum misses 11-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Layup Running Reverse",
+      "team": "PHI",
+      "text": "Quentin Grimes misses two point shot"
+    },
+    {
+      "x": 34,
+      "y": 28,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard misses 29-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHI",
+      "text": "Jordan Walsh blocks Tyrese Maxey 's 4-foot two point shot"
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "BOS",
+      "text": "Sam Hauser makes 28-foot running jump shot (Jordan Walsh assists)"
+    },
+    {
+      "x": 43,
+      "y": 1,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 17-foot step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 29,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum misses 29-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses driving layup"
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown makes 16-foot pullup jump shot (Luka Garza assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 18,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses 17-foot step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Joel Embiid misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Joel Embiid makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "BOS",
+      "text": "Jaylen Brown misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "BOS",
+      "text": "Jaylen Brown misses free throw 1 of 2"
+    },
+    {
+      "x": 23,
+      "y": 28,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "PHI",
+      "text": "Justin Edwards misses 28-foot running jump shot"
+    },
+    {
+      "x": 35,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid makes 27-foot three point jumper (VJ Edgecombe assists)"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "BOS",
+      "text": "Jaylen Brown makes 2-foot two point shot"
+    },
+    {
+      "x": 31,
+      "y": 14,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 15-foot jumper"
+    },
+    {
+      "x": 5,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard misses 30-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 1-foot running dunk"
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "BOS",
+      "text": "Kelly Oubre Jr. blocks Payton Pritchard 's 3-foot two point shot"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHI",
+      "text": "Neemias Queta blocks VJ Edgecombe 's 2-foot two point shot"
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown makes running layup"
+    },
+    {
+      "x": 29,
+      "y": 7,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 8-foot driving floating jump shot"
+    },
+    {
+      "x": 42,
+      "y": 21,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Quentin Grimes misses running pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 14,
+      "made": false,
+      "type": "Jump Shot Bank",
+      "team": "BOS",
+      "text": "Neemias Queta misses 13-foot jump bank shot"
+    },
+    {
+      "x": 29,
+      "y": 9,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 9-foot driving floating jump shot"
+    },
+    {
+      "x": 8,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Derrick White makes 29-foot three point jumper (Jaylen Brown assists)"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 26-foot three point jumper (Paul George assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "BOS",
+      "text": "Jaylen Brown misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "BOS",
+      "text": "Jaylen Brown makes free throw 2 of 2"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 26-foot three pointer (Tyrese Maxey assists)"
+    },
+    {
+      "x": 9,
+      "y": 24,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown makes 29-foot three pointer"
+    },
+    {
+      "x": 32,
+      "y": 10,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 11-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "BOS",
+      "text": "Paul George blocks Neemias Queta 's 2-foot layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 27-foot three point jumper"
+    },
+    {
+      "x": 29,
+      "y": 7,
+      "made": false,
+      "type": "Floating Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 7-foot floating jump shot"
+    },
+    {
+      "x": 15,
+      "y": -1,
+      "made": false,
+      "type": "Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 10-foot fade away jump shot"
+    },
+    {
+      "x": 27,
+      "y": 4,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "PHI",
+      "text": "Andre Drummond makes two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "BOS",
+      "text": "Jayson Tatum makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "BOS",
+      "text": "Jayson Tatum makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Paul George makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Paul George makes free throw 2 of 2"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum makes driving layup"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 22-foot three pointer"
+    },
+    {
+      "x": 48,
+      "y": 8,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Sam Hauser misses 23-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Layup Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum makes 1-foot layup (Sam Hauser assists)"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "BOS",
+      "text": "Derrick White makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "BOS",
+      "text": "Derrick White makes free throw 1 of 2"
+    },
+    {
+      "x": 42,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 27-foot three point jumper"
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "made": false,
+      "type": "Turnaround Bank Jump Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum misses 11-foot two point shot"
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 16-foot step back jumpshot"
+    },
+    {
+      "x": 14,
+      "y": 28,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum misses 30-foot three point pullup jump shot"
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 8-foot fade away jump shot (Joel Embiid assists)"
+    },
+    {
+      "x": 27,
+      "y": 30,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Nikola Vucevic misses 29-foot three point jumper"
+    },
+    {
+      "x": 9,
+      "y": 22,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 27-foot three pointer"
+    },
+    {
+      "x": 31,
+      "y": 27,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "BOS",
+      "text": "Derrick White makes 27-foot three point step back jumpshot (Nikola Vucevic assists)"
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 27-foot three point jumper"
+    },
+    {
+      "x": 30,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard makes driving layup"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 4-foot driving floating jump shot"
+    },
+    {
+      "x": 44,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Derrick White misses 24-foot three point jumper"
+    },
+    {
+      "x": 30,
+      "y": 28,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 28-foot running jump shot (Kelly Oubre Jr. assists)"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid makes 20-foot fade away jump shot (Tyrese Maxey assists)"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum makes driving dunk"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 3-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Joel Embiid makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Joel Embiid makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "made": false,
+      "type": "Cutting Layup Shot",
+      "team": "PHI",
+      "text": "Neemias Queta blocks Kelly Oubre Jr. 's 5-foot layup"
+    },
+    {
+      "x": 25,
+      "y": 6,
+      "made": false,
+      "type": "Layup Shot Putback",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 8,
+      "made": false,
+      "type": "Turnaround Hook Shot",
+      "team": "BOS",
+      "text": "Neemias Queta misses 7-foot two point shot"
+    },
+    {
+      "x": 15,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 27-foot three point jumper"
+    },
+    {
+      "x": 29,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 36,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses 27-foot three point jumper"
+    },
+    {
+      "x": 13,
+      "y": 25,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown makes 27-foot three point step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 2-foot dunk (Joel Embiid assists)"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "BOS",
+      "text": "Kelly Oubre Jr. blocks Jaylen Brown 's 2-foot driving layup"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 2-foot running dunk (Paul George assists)"
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Derrick White makes 26-foot three point jumper (Jayson Tatum assists)"
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "made": false,
+      "type": "Driving Hook Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 4-foot two point shot"
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 14-foot fade away jump shot"
+    },
+    {
+      "x": 41,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Derrick White misses 27-foot three point jumper"
+    },
+    {
+      "x": 32,
+      "y": 27,
+      "made": true,
+      "type": "Running Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 27-foot running pullup jump shot"
+    },
+    {
+      "x": 41,
+      "y": 21,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "PHI",
+      "text": "Paul George misses driving layup"
+    },
+    {
+      "x": 41,
+      "y": 21,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard misses 26-foot running jump shot"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jayson Tatum misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 31,
+      "y": 12,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 13-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Dunk Shot",
+      "team": "BOS",
+      "text": "Neemias Queta makes tip in dunk"
+    },
+    {
+      "x": 20,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 22-foot jumper"
+    },
+    {
+      "x": 31,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Nikola Vucevic misses 26-foot three point jumper"
+    },
+    {
+      "x": 30,
+      "y": 21,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 20-foot pullup jump shot"
+    },
+    {
+      "x": 32,
+      "y": 16,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown makes 17-foot two point shot"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 3-foot two point shot"
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Sam Hauser misses 26-foot three point jumper"
+    },
+    {
+      "x": 37,
+      "y": 27,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses 29-foot three point step back jumpshot"
+    },
+    {
+      "x": 40,
+      "y": 6,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Nikola Vucevic misses 16-foot jumper"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "BOS",
+      "text": "Andre Drummond blocks Nikola Vucevic 's 1-foot driving layup"
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 19-foot step back jumpshot (Quentin Grimes assists)"
+    },
+    {
+      "x": 17,
+      "y": 12,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses 13-foot pullup jump shot"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": false,
+      "type": "Running Finger Roll Layup",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses two point shot"
+    },
+    {
+      "x": 16,
+      "y": 25,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "BOS",
+      "text": "Sam Hauser misses 26-foot running jump shot"
+    },
+    {
+      "x": 15,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 20-foot jumper"
+    },
+    {
+      "x": 32,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses 26-foot three point jumper"
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Paul George makes 17-foot pullup jump shot (Tyrese Maxey assists)"
+    },
+    {
+      "x": 48,
+      "y": 4,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Derrick White misses 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 2-foot two point shot"
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard misses 25-foot three point jumper"
+    },
+    {
+      "x": 12,
+      "y": 26,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Tyrese Maxey misses running pullup jump shot"
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "BOS",
+      "text": "Nikola Vucevic makes 4-foot driving floating jump shot (Jordan Walsh assists)"
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 21-foot step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Running Finger Roll Layup",
+      "team": "BOS",
+      "text": "Payton Pritchard makes two point shot"
+    },
+    {
+      "x": 26,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid makes 18-foot jumper (VJ Edgecombe assists)"
+    },
+    {
+      "x": 21,
+      "y": 17,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Justin Edwards makes 17-foot pullup jump shot (Joel Embiid assists)"
+    },
+    {
+      "x": 31,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Jaylen Brown misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Reverse Layup Shot",
+      "team": "PHI",
+      "text": "Paul George makes 1-foot reverse layup (Joel Embiid assists)"
+    },
+    {
+      "x": 29,
+      "y": 27,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Luka Garza makes 27-foot three point jumper (Payton Pritchard assists)"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Quentin Grimes misses 25-foot three point jumper"
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "BOS",
+      "text": "Jordan Walsh misses 25-foot running jump shot"
+    },
+    {
+      "x": 48,
+      "y": 15,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Ron Harper Jr. misses 26-foot three point jumper"
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 28-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHI",
+      "text": "Quentin Grimes misses two point shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Running Finger Roll Layup",
+      "team": "BOS",
+      "text": "VJ Edgecombe blocks Payton Pritchard's two point shot"
+    },
+    {
+      "x": 44,
+      "y": 19,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "BOS",
+      "text": "Baylor Scheierman misses 26-foot running jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "BOS",
+      "text": "Luka Garza makes tip shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "BOS",
+      "text": "Payton Pritchard makes technical free throw"
+    },
+    {
+      "x": 28,
+      "y": 7,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 7-foot turnaround jump shot"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Ron Harper Jr. makes 22-foot three point jumper (Payton Pritchard assists)"
+    },
+    {
+      "x": 40,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Quentin Grimes misses 27-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "BOS",
+      "text": "Luka Garza makes dunk (Payton Pritchard assists)"
+    },
+    {
+      "x": 25,
+      "y": 19,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid makes 18-foot jumper (Tyrese Maxey assists)"
+    },
+    {
+      "x": 27,
+      "y": 27,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Luka Garza misses 26-foot three point jumper"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes 2-foot two point shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard makes driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Joel Embiid makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Joel Embiid makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": false,
+      "type": "Driving Dunk Shot",
+      "team": "BOS",
+      "text": "Jordan Walsh misses driving dunk"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes free throw 1 of 2"
+    },
+    {
+      "x": 47,
+      "y": 7,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 23-foot three point jumper (Joel Embiid assists)"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "BOS",
+      "text": "Baylor Scheierman makes 2-foot two point shot (Payton Pritchard assists)"
+    },
+    {
+      "x": 9,
+      "y": 24,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "PHI",
+      "text": "Joel Embiid misses 28-foot three point step back jumpshot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": false,
+      "type": "Reverse Layup Shot",
+      "team": "BOS",
+      "text": "VJ Edgecombe blocks Payton Pritchard 's 2-foot reverse layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "BOS",
+      "text": "Jordan Walsh makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "BOS",
+      "text": "Jordan Walsh misses free throw 2 of 2"
+    },
+    {
+      "x": 10,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard misses 27-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "BOS",
+      "text": "Luka Garza makes two point shot"
+    },
+    {
+      "x": 47,
+      "y": 11,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "VJ Edgecombe misses 24-foot three point jumper"
+    },
+    {
+      "x": 34,
+      "y": 9,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Ron Harper Jr. misses 12-foot pullup jump shot"
+    },
+    {
+      "x": 47,
+      "y": 7,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "PHI",
+      "text": "Paul George misses 23-foot three point jumper"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": false,
+      "type": "Running Pullup Jump Shot",
+      "team": "BOS",
+      "text": "Baylor Scheierman misses running pullup jump shot"
+    },
+    {
+      "x": 48,
+      "y": 11,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "BOS",
+      "text": "Baylor Scheierman makes 25-foot three point step back jumpshot (Jordan Walsh assists)"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes 2-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "PHI",
+      "text": "VJ Edgecombe makes free throw 1 of 1"
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard makes 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "PHI",
+      "text": "Kelly Oubre Jr. makes 2-foot driving dunk (Quentin Grimes assists)"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "BOS",
+      "text": "Payton Pritchard misses 24-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes technical free throw"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "PHI",
+      "text": "Tyrese Maxey makes free throw 2 of 2"
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "BOS",
+      "text": "Dalano Banton makes 1-foot two point shot (Baylor Scheierman assists)"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "BOS",
+      "text": "Jordan Walsh makes running dunk"
+    },
+    {
+      "x": 24,
+      "y": 33,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "PHI",
+      "text": "Justin Edwards misses 33-foot three point pullup jump shot"
+    }
+  ],
+  "shot_zones": {
+    "PHI": {
+      "at_rim": {
+        "fgm": 11,
+        "fga": 17,
+        "pct": 65
+      },
+      "paint": {
+        "fgm": 10,
+        "fga": 22,
+        "pct": 45
+      },
+      "mid": {
+        "fgm": 24,
+        "fga": 33,
+        "pct": 73
+      },
+      "corner_3": {
+        "fgm": 2,
+        "fga": 8,
+        "pct": 25
+      },
+      "arc_3": {
+        "fgm": 9,
+        "fga": 28,
+        "pct": 32
+      }
+    },
+    "BOS": {
+      "at_rim": {
+        "fgm": 16,
+        "fga": 24,
+        "pct": 67
+      },
+      "paint": {
+        "fgm": 6,
+        "fga": 14,
+        "pct": 43
+      },
+      "mid": {
+        "fgm": 11,
+        "fga": 15,
+        "pct": 73
+      },
+      "corner_3": {
+        "fgm": 1,
+        "fga": 10,
+        "pct": 10
+      },
+      "arc_3": {
+        "fgm": 11,
+        "fga": 39,
+        "pct": 28
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}

@@ -1,0 +1,6820 @@
+{
+  "game_id": "21713534",
+  "date": "2026-05-30",
+  "home": "OKC",
+  "away": "SAS",
+  "home_pts": 103,
+  "away_pts": 111,
+  "winner": "SAS",
+  "source": "balldontlie",
+  "game_flow": {
+    "quarter_scores": {
+      "OKC": [
+        25,
+        28,
+        24,
+        26
+      ],
+      "SAS": [
+        32,
+        24,
+        24,
+        31
+      ]
+    },
+    "num_periods": 4,
+    "time_leading_home_fmt": "2:14",
+    "time_leading_away_fmt": "43:45",
+    "time_tied_fmt": "2:01",
+    "lead_changes": 2,
+    "ties": 2,
+    "best_run_home": {
+      "pts_home": 17,
+      "pts_away": 5,
+      "start_min": 17.92,
+      "end_min": 22.72
+    },
+    "best_run_away": {
+      "pts_away": 21,
+      "pts_home": 9,
+      "start_min": 2.08,
+      "end_min": 6.88
+    },
+    "max_consec_home": 8,
+    "max_consec_away": 9
+  },
+  "four_factors": {
+    "OKC": {
+      "efg": 0.519,
+      "tov": 0.228,
+      "oreb": 0,
+      "ftr": 0.154,
+      "opp_efg": 0.571,
+      "opp_tov": 0.129,
+      "opp_oreb": 0.333,
+      "opp_ftr": 0.321
+    },
+    "SAS": {
+      "efg": 0.462,
+      "tov": 0.119,
+      "oreb": 0.024,
+      "ftr": 0.212,
+      "opp_efg": 0.518,
+      "opp_tov": 0.177,
+      "opp_oreb": 0.259,
+      "opp_ftr": 0.327
+    }
+  },
+  "misc": {
+    "OKC": {
+      "pts_paint": 32,
+      "pts_fb": 7,
+      "pts_2nd_chance": 20,
+      "pts_off_tov": 9
+    },
+    "SAS": {
+      "pts_paint": 34,
+      "pts_fb": 19,
+      "pts_2nd_chance": 17,
+      "pts_off_tov": 19
+    }
+  },
+  "hustle": {
+    "OKC": {
+      "deflections": 14,
+      "charges_drawn": 0,
+      "contested_shots": 48,
+      "contested_2pt": 28,
+      "contested_3pt": 20,
+      "loose_balls_recovered": 6,
+      "screen_assists": 7
+    },
+    "SAS": {
+      "deflections": 17,
+      "charges_drawn": 0,
+      "contested_shots": 51,
+      "contested_2pt": 35,
+      "contested_3pt": 16,
+      "loose_balls_recovered": 4,
+      "screen_assists": 5
+    }
+  },
+  "box_score": {
+    "OKC": [
+      {
+        "name": "L. Dort",
+        "minutes": "16",
+        "pos": "G",
+        "starter": true,
+        "pts": 3,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 2,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -9,
+        "off_rating": 87.9,
+        "def_rating": 118.8,
+        "ts_pct": 0.375,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 2,
+        "mu_min": "6:05",
+        "mu_fga": 4,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.75,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 9,
+        "mu_ast": 3
+      },
+      {
+        "name": "C. Holmgren",
+        "minutes": "33",
+        "pos": "C",
+        "starter": true,
+        "pts": 4,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 2,
+        "blk": 2,
+        "tov": 2,
+        "fgm": 1,
+        "fga": 2,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 4,
+        "pf": 2,
+        "plus_minus": -3,
+        "off_rating": 111.5,
+        "def_rating": 116.4,
+        "ts_pct": 0.532,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 12,
+        "mu_min": "12:19",
+        "mu_fga": 10,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.4,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 12,
+        "mu_ast": 0
+      },
+      {
+        "name": "I. Hartenstein",
+        "minutes": "21",
+        "pos": "C",
+        "starter": true,
+        "pts": 7,
+        "reb": 5,
+        "oreb": 2,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 3,
+        "fga": 7,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 1,
+        "fta": 1,
+        "pf": 2,
+        "plus_minus": -14,
+        "off_rating": 107.1,
+        "def_rating": 140.5,
+        "ts_pct": 0.47,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 8,
+        "mu_min": "8:12",
+        "mu_fga": 12,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.333,
+        "mu_3pa": 5,
+        "mu_3pm": 1,
+        "mu_pts": 9,
+        "mu_ast": 3
+      },
+      {
+        "name": "C. Wallace",
+        "minutes": "36",
+        "pos": "G",
+        "starter": true,
+        "pts": 17,
+        "reb": 7,
+        "oreb": 2,
+        "ast": 4,
+        "stl": 2,
+        "blk": 1,
+        "tov": 2,
+        "fgm": 6,
+        "fga": 10,
+        "fg3m": 5,
+        "fg3a": 9,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -3,
+        "off_rating": 114.3,
+        "def_rating": 120.3,
+        "ts_pct": 0.85,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "13:35",
+        "mu_fga": 19,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.474,
+        "mu_3pa": 7,
+        "mu_3pm": 4,
+        "mu_pts": 22,
+        "mu_ast": 2
+      },
+      {
+        "name": "S. Gilgeous-Alexander",
+        "minutes": "43",
+        "pos": "G",
+        "starter": true,
+        "pts": 35,
+        "reb": 4,
+        "oreb": 1,
+        "ast": 9,
+        "stl": 3,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 12,
+        "fga": 21,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 9,
+        "fta": 11,
+        "pf": 1,
+        "plus_minus": -7,
+        "off_rating": 107,
+        "def_rating": 116.5,
+        "ts_pct": 0.677,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 9,
+        "mu_min": "16:39",
+        "mu_fga": 18,
+        "mu_fgm": 7,
+        "mu_fg_pct": 0.389,
+        "mu_3pa": 9,
+        "mu_3pm": 2,
+        "mu_pts": 17,
+        "mu_ast": 4
+      },
+      {
+        "name": "A. Caruso",
+        "minutes": "39",
+        "pos": "",
+        "starter": false,
+        "pts": 12,
+        "reb": 5,
+        "oreb": 0,
+        "ast": 4,
+        "stl": 0,
+        "blk": 1,
+        "tov": 3,
+        "fgm": 3,
+        "fga": 14,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 5,
+        "fta": 6,
+        "pf": 1,
+        "plus_minus": -5,
+        "off_rating": 114.3,
+        "def_rating": 122.4,
+        "ts_pct": 0.361,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 5,
+        "mu_min": "15:27",
+        "mu_fga": 12,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 5,
+        "mu_3pm": 2,
+        "mu_pts": 15,
+        "mu_ast": 3
+      },
+      {
+        "name": "I. Joe",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. McCain",
+        "minutes": "23",
+        "pos": "",
+        "starter": false,
+        "pts": 12,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 5,
+        "fga": 12,
+        "fg3m": 2,
+        "fg3a": 7,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": -8,
+        "off_rating": 102.1,
+        "def_rating": 119.1,
+        "ts_pct": 0.5,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "9:21",
+        "mu_fga": 6,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 4,
+        "mu_3pm": 3,
+        "mu_pts": 13,
+        "mu_ast": 6
+      },
+      {
+        "name": "N. Topic",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "A. Wiggins",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Williams",
+        "minutes": "25",
+        "pos": "",
+        "starter": false,
+        "pts": 11,
+        "reb": 10,
+        "oreb": 3,
+        "ast": 4,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 5,
+        "fga": 9,
+        "fg3m": 1,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 4,
+        "plus_minus": 10,
+        "off_rating": 116,
+        "def_rating": 102.1,
+        "ts_pct": 0.611,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "9:56",
+        "mu_fga": 12,
+        "mu_fgm": 6,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 3,
+        "mu_3pm": 2,
+        "mu_pts": 17,
+        "mu_ast": 2
+      },
+      {
+        "name": "K. Williams",
+        "minutes": "04",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 1,
+        "oreb": 1,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 4,
+        "fg3m": 0,
+        "fg3a": 2,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -1,
+        "off_rating": 58.3,
+        "def_rating": 80,
+        "ts_pct": 0.25,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:21",
+        "mu_fga": 1,
+        "mu_fgm": 1,
+        "mu_fg_pct": 1,
+        "mu_3pa": 0,
+        "mu_3pm": 0,
+        "mu_pts": 2,
+        "mu_ast": 0
+      },
+      {
+        "name": "A. Mitchell",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "T. Sorber",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "J. Williams",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": null,
+        "def_rating": null,
+        "ts_pct": null,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ],
+    "SAS": [
+      {
+        "name": "D. Vassell",
+        "minutes": "33",
+        "pos": "G",
+        "starter": true,
+        "pts": 11,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 3,
+        "stl": 2,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 14,
+        "fg3m": 1,
+        "fg3a": 6,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 1,
+        "plus_minus": 0,
+        "off_rating": 106,
+        "def_rating": 106,
+        "ts_pct": 0.37,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "13:30",
+        "mu_fga": 10,
+        "mu_fgm": 3,
+        "mu_fg_pct": 0.3,
+        "mu_3pa": 3,
+        "mu_3pm": 0,
+        "mu_pts": 9,
+        "mu_ast": 6
+      },
+      {
+        "name": "J. Champagnie",
+        "minutes": "38",
+        "pos": "F",
+        "starter": true,
+        "pts": 20,
+        "reb": 6,
+        "oreb": 1,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 1,
+        "fgm": 6,
+        "fga": 11,
+        "fg3m": 6,
+        "fg3a": 10,
+        "ftm": 2,
+        "fta": 3,
+        "pf": 2,
+        "plus_minus": 16,
+        "off_rating": 129.2,
+        "def_rating": 108.5,
+        "ts_pct": 0.812,
+        "deflections": 4,
+        "charges_drawn": 0,
+        "contested_shots": 10,
+        "mu_min": "15:33",
+        "mu_fga": 24,
+        "mu_fgm": 14,
+        "mu_fg_pct": 0.583,
+        "mu_3pa": 9,
+        "mu_3pm": 4,
+        "mu_pts": 32,
+        "mu_ast": 7
+      },
+      {
+        "name": "V. Wembanyama",
+        "minutes": "42",
+        "pos": "F",
+        "starter": true,
+        "pts": 22,
+        "reb": 7,
+        "oreb": 1,
+        "ast": 2,
+        "stl": 1,
+        "blk": 1,
+        "tov": 1,
+        "fgm": 7,
+        "fga": 15,
+        "fg3m": 3,
+        "fg3a": 5,
+        "ftm": 5,
+        "fta": 7,
+        "pf": 5,
+        "plus_minus": 7,
+        "off_rating": 117.3,
+        "def_rating": 107.3,
+        "ts_pct": 0.608,
+        "deflections": 5,
+        "charges_drawn": 0,
+        "contested_shots": 13,
+        "mu_min": "17:05",
+        "mu_fga": 21,
+        "mu_fgm": 9,
+        "mu_fg_pct": 0.429,
+        "mu_3pa": 4,
+        "mu_3pm": 0,
+        "mu_pts": 21,
+        "mu_ast": 2
+      },
+      {
+        "name": "S. Castle",
+        "minutes": "36",
+        "pos": "G",
+        "starter": true,
+        "pts": 16,
+        "reb": 6,
+        "oreb": 4,
+        "ast": 6,
+        "stl": 1,
+        "blk": 0,
+        "tov": 6,
+        "fgm": 7,
+        "fga": 15,
+        "fg3m": 0,
+        "fg3a": 3,
+        "ftm": 2,
+        "fta": 3,
+        "pf": 4,
+        "plus_minus": 1,
+        "off_rating": 118.8,
+        "def_rating": 112.5,
+        "ts_pct": 0.49,
+        "deflections": 2,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "14:36",
+        "mu_fga": 8,
+        "mu_fgm": 4,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 13,
+        "mu_ast": 4
+      },
+      {
+        "name": "D. Fox",
+        "minutes": "36",
+        "pos": "G",
+        "starter": true,
+        "pts": 15,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 5,
+        "stl": 3,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 6,
+        "fga": 12,
+        "fg3m": 3,
+        "fg3a": 7,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 2,
+        "plus_minus": 3,
+        "off_rating": 113,
+        "def_rating": 107.1,
+        "ts_pct": 0.625,
+        "deflections": 3,
+        "charges_drawn": 0,
+        "contested_shots": 7,
+        "mu_min": "15:02",
+        "mu_fga": 16,
+        "mu_fgm": 8,
+        "mu_fg_pct": 0.5,
+        "mu_3pa": 7,
+        "mu_3pm": 4,
+        "mu_pts": 20,
+        "mu_ast": 3
+      },
+      {
+        "name": "H. Barnes",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 1,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": -5,
+        "off_rating": 80,
+        "def_rating": 128.6,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": "1:46",
+        "mu_fga": 1,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 0
+      },
+      {
+        "name": "B. Biyombo",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "C. Bryant",
+        "minutes": "03",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 1,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 1,
+        "fga": 1,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 2,
+        "off_rating": 128.6,
+        "def_rating": 100,
+        "ts_pct": 1,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 1,
+        "mu_min": "1:20",
+        "mu_fga": 2,
+        "mu_fgm": 2,
+        "mu_fg_pct": 1,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 5,
+        "mu_ast": 0
+      },
+      {
+        "name": "D. Harper",
+        "minutes": "27",
+        "pos": "",
+        "starter": false,
+        "pts": 12,
+        "reb": 7,
+        "oreb": 3,
+        "ast": 3,
+        "stl": 0,
+        "blk": 0,
+        "tov": 2,
+        "fgm": 5,
+        "fga": 8,
+        "fg3m": 2,
+        "fg3a": 3,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 1,
+        "plus_minus": 9,
+        "off_rating": 120.4,
+        "def_rating": 103.7,
+        "ts_pct": 0.75,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 6,
+        "mu_min": "10:09",
+        "mu_fga": 9,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.222,
+        "mu_3pa": 4,
+        "mu_3pm": 1,
+        "mu_pts": 7,
+        "mu_ast": 1
+      },
+      {
+        "name": "K. Johnson",
+        "minutes": "16",
+        "pos": "",
+        "starter": false,
+        "pts": 11,
+        "reb": 3,
+        "oreb": 2,
+        "ast": 1,
+        "stl": 1,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 4,
+        "fga": 8,
+        "fg3m": 2,
+        "fg3a": 5,
+        "ftm": 1,
+        "fta": 2,
+        "pf": 3,
+        "plus_minus": 6,
+        "off_rating": 120,
+        "def_rating": 109.1,
+        "ts_pct": 0.619,
+        "deflections": 1,
+        "charges_drawn": 0,
+        "contested_shots": 0,
+        "mu_min": "5:40",
+        "mu_fga": 2,
+        "mu_fgm": 0,
+        "mu_fg_pct": 0,
+        "mu_3pa": 1,
+        "mu_3pm": 0,
+        "mu_pts": 0,
+        "mu_ast": 1
+      },
+      {
+        "name": "L. Kornet",
+        "minutes": "06",
+        "pos": "",
+        "starter": false,
+        "pts": 2,
+        "reb": 4,
+        "oreb": 3,
+        "ast": 0,
+        "stl": 0,
+        "blk": 1,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 3,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 2,
+        "fta": 2,
+        "pf": 0,
+        "plus_minus": 1,
+        "off_rating": 114.3,
+        "def_rating": 115.4,
+        "ts_pct": 0.258,
+        "deflections": 0,
+        "charges_drawn": 0,
+        "contested_shots": 4,
+        "mu_min": "2:19",
+        "mu_fga": 3,
+        "mu_fgm": 2,
+        "mu_fg_pct": 0.667,
+        "mu_3pa": 1,
+        "mu_3pm": 1,
+        "mu_pts": 5,
+        "mu_ast": 0
+      },
+      {
+        "name": "J. McLaughlin",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "K. Olynyk",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "M. Plumlee",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      },
+      {
+        "name": "L. Waters III",
+        "minutes": "00",
+        "pos": "",
+        "starter": false,
+        "pts": 0,
+        "reb": 0,
+        "oreb": 0,
+        "ast": 0,
+        "stl": 0,
+        "blk": 0,
+        "tov": 0,
+        "fgm": 0,
+        "fga": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "pf": 0,
+        "plus_minus": 0,
+        "off_rating": 0,
+        "def_rating": 0,
+        "ts_pct": 0,
+        "deflections": null,
+        "charges_drawn": null,
+        "contested_shots": null,
+        "mu_min": null,
+        "mu_fga": null,
+        "mu_fgm": null,
+        "mu_fg_pct": null,
+        "mu_3pa": null,
+        "mu_3pm": null,
+        "mu_pts": null,
+        "mu_ast": null
+      }
+    ]
+  },
+  "score_timeline": [
+    {
+      "min": 0.0,
+      "home": 0,
+      "away": 0,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama vs. Chet Holmgren (Stephon Castle gains possession)"
+    },
+    {
+      "min": 0.35,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 11-foot two point shot"
+    },
+    {
+      "min": 0.65,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren lost ball turnover (Devin Vassell steals)"
+    },
+    {
+      "min": 0.72,
+      "home": 0,
+      "away": 2,
+      "period": 1,
+      "scoring": false,
+      "text": "Luguentz Dort personal foul"
+    },
+    {
+      "min": 1.02,
+      "home": 0,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Vassell makes 14-foot step back jumpshot"
+    },
+    {
+      "min": 1.32,
+      "home": 2,
+      "away": 4,
+      "period": 1,
+      "scoring": true,
+      "text": "Chet Holmgren makes 11-foot step back jumpshot (Cason Wallace assists)"
+    },
+    {
+      "min": 1.45,
+      "home": 2,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes driving layup"
+    },
+    {
+      "min": 1.8,
+      "home": 4,
+      "away": 6,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 18-foot two point shot"
+    },
+    {
+      "min": 2.08,
+      "home": 4,
+      "away": 8,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes layup (Victor Wembanyama assists)"
+    },
+    {
+      "min": 2.35,
+      "home": 4,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren misses driving floating jump shot"
+    },
+    {
+      "min": 2.4,
+      "home": 4,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace offensive rebound"
+    },
+    {
+      "min": 2.5,
+      "home": 4,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Luguentz Dort misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 2.52,
+      "home": 4,
+      "away": 8,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 2.82,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 1-foot dunk (De'Aaron Fox assists)"
+    },
+    {
+      "min": 3.13,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Luguentz Dort misses 25-foot three point jumper"
+    },
+    {
+      "min": 3.2,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 3.3,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell misses 23-foot three point jumper"
+    },
+    {
+      "min": 3.37,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander defensive rebound"
+    },
+    {
+      "min": 3.57,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein lost ball turnover (Victor Wembanyama steals)"
+    },
+    {
+      "min": 3.65,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace personal foul"
+    },
+    {
+      "min": 3.65,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Luguentz Dort"
+    },
+    {
+      "min": 3.8,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses 12-foot pullup jump shot"
+    },
+    {
+      "min": 3.83,
+      "home": 4,
+      "away": 10,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 4.05,
+      "home": 6,
+      "away": 10,
+      "period": 1,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes 8-foot floating jump shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 4.4,
+      "home": 6,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 25-foot three pointer"
+    },
+    {
+      "min": 4.65,
+      "home": 6,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander bad pass\nturnover (De'Aaron Fox steals)"
+    },
+    {
+      "min": 4.77,
+      "home": 6,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell misses 26-foot three point jumper"
+    },
+    {
+      "min": 4.85,
+      "home": 6,
+      "away": 13,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 5.07,
+      "home": 8,
+      "away": 13,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 5-foot driving floating jump shot"
+    },
+    {
+      "min": 5.15,
+      "home": 8,
+      "away": 16,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 27-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 5.37,
+      "home": 8,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso lost ball turnover (De'Aaron Fox steals)"
+    },
+    {
+      "min": 5.43,
+      "home": 8,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell misses running layup"
+    },
+    {
+      "min": 5.45,
+      "home": 8,
+      "away": 16,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle offensive rebound"
+    },
+    {
+      "min": 5.45,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes tip in dunk"
+    },
+    {
+      "min": 5.45,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 5.45,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 5.45,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Chet Holmgren"
+    },
+    {
+      "min": 5.45,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 5.67,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace misses 27-foot three point jumper"
+    },
+    {
+      "min": 5.73,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 5.77,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Jared McCain misses 24-foot three point jumper"
+    },
+    {
+      "min": 5.77,
+      "home": 8,
+      "away": 18,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace offensive rebound"
+    },
+    {
+      "min": 5.93,
+      "home": 11,
+      "away": 18,
+      "period": 1,
+      "scoring": true,
+      "text": "Cason Wallace makes 22-foot three point jumper (Alex Caruso assists)"
+    },
+    {
+      "min": 6.15,
+      "home": 11,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Vassell makes 25-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 6.3,
+      "home": 13,
+      "away": 21,
+      "period": 1,
+      "scoring": true,
+      "text": "Alex Caruso makes 1-foot two point shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 6.5,
+      "home": 13,
+      "away": 23,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes 2-foot two point shot"
+    },
+    {
+      "min": 6.5,
+      "home": 13,
+      "away": 23,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander shooting foul"
+    },
+    {
+      "min": 6.5,
+      "home": 13,
+      "away": 24,
+      "period": 1,
+      "scoring": true,
+      "text": "Stephon Castle makes free throw 1 of 1"
+    },
+    {
+      "min": 6.75,
+      "home": 13,
+      "away": 24,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein bad pass\nturnover (Julian Champagnie steals)"
+    },
+    {
+      "min": 6.88,
+      "home": 13,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Julian Champagnie makes 23-foot three point jumper (Devin Vassell assists)"
+    },
+    {
+      "min": 7.2,
+      "home": 15,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Jared McCain makes 4-foot two point shot"
+    },
+    {
+      "min": 7.45,
+      "home": 15,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses 25-foot three point jumper"
+    },
+    {
+      "min": 7.5,
+      "home": 15,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 7.58,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Jared McCain makes 23-foot running jump shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 7.6,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 7.6,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Cason Wallace"
+    },
+    {
+      "min": 7.6,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 7.6,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 7.6,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Julian Champagnie"
+    },
+    {
+      "min": 7.88,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle misses driving layup"
+    },
+    {
+      "min": 7.92,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 8.0,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren lost ball turnover (Keldon Johnson steals)"
+    },
+    {
+      "min": 8.1,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle lost ball turnover (Jared McCain steals)"
+    },
+    {
+      "min": 8.18,
+      "home": 18,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Dylan Harper shooting foul"
+    },
+    {
+      "min": 8.18,
+      "home": 19,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 8.18,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 8.18,
+      "home": 19,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 8.57,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 22-foot jumper"
+    },
+    {
+      "min": 8.62,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander defensive rebound"
+    },
+    {
+      "min": 8.88,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 8.92,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams offensive rebound"
+    },
+    {
+      "min": 9.07,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams misses 25-foot three point jumper"
+    },
+    {
+      "min": 9.12,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 9.3,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell misses 10-foot pullup jump shot"
+    },
+    {
+      "min": 9.33,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 9.43,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Jared McCain misses 25-foot three point pullup jump shot"
+    },
+    {
+      "min": 9.47,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Chet Holmgren offensive rebound"
+    },
+    {
+      "min": 9.47,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Keldon Johnson personal foul"
+    },
+    {
+      "min": 9.47,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Kenrich Williams enters the game for Jaylin Williams"
+    },
+    {
+      "min": 9.63,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Kenrich Williams misses 25-foot three point jumper"
+    },
+    {
+      "min": 9.7,
+      "home": 20,
+      "away": 27,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 9.88,
+      "home": 20,
+      "away": 29,
+      "period": 1,
+      "scoring": true,
+      "text": "Dylan Harper makes 3-foot two point shot"
+    },
+    {
+      "min": 10.12,
+      "home": 20,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 7-foot two point shot"
+    },
+    {
+      "min": 10.15,
+      "home": 20,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 10.18,
+      "home": 20,
+      "away": 29,
+      "period": 1,
+      "scoring": false,
+      "text": "Jared McCain shooting foul"
+    },
+    {
+      "min": 10.18,
+      "home": 20,
+      "away": 30,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Vassell makes free throw 1 of 2"
+    },
+    {
+      "min": 10.18,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": true,
+      "text": "Devin Vassell makes free throw 2 of 2"
+    },
+    {
+      "min": 10.18,
+      "home": 20,
+      "away": 30,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Dylan Harper"
+    },
+    {
+      "min": 10.58,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso misses 24-foot three point pullup jump shot"
+    },
+    {
+      "min": 10.67,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 10.8,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Julian Champagnie out of bounds bad pass turnover"
+    },
+    {
+      "min": 10.8,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Chet Holmgren"
+    },
+    {
+      "min": 10.8,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Harrison Barnes enters the game for Keldon Johnson"
+    },
+    {
+      "min": 10.8,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Devin Vassell"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Kenrich Williams offensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 20,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Alex Caruso misses 25-foot three point jumper"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 31,
+      "period": 1,
+      "scoring": true,
+      "text": "Kenrich Williams makes tip shot"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive foul turnover"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive foul"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder Coach's Challenge"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "technical foul"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "(00:40.2) [Thunder] COACH'S CHALLENGE (CALL OVERTURNED) [Thunder] retain their timeout"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 31,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Alex Caruso"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "Victor Wembanyama makes technical free throw"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Jared McCain misses driving layup"
+    },
+    {
+      "min": 12.0,
+      "home": 22,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Stephon Castle loose ball foul"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 32,
+      "period": 1,
+      "scoring": true,
+      "text": "Jared McCain makes 26-foot three point jumper (Cason Wallace assists)"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 23-foot three point jumper"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Cason Wallace misses heave jump shot"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 32,
+      "period": 1,
+      "scoring": false,
+      "text": "End of the 1st Quarter"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Kenrich Williams"
+    },
+    {
+      "min": 12.0,
+      "home": 25,
+      "away": 32,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 12.23,
+      "home": 27,
+      "away": 32,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 13-foot step back jumpshot"
+    },
+    {
+      "min": 12.55,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Dylan Harper makes 27-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 12.88,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses 25-foot three point jumper"
+    },
+    {
+      "min": 12.88,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 12.88,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein loose ball foul"
+    },
+    {
+      "min": 12.88,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Shai Gilgeous-Alexander"
+    },
+    {
+      "min": 13.25,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle misses 25-foot three point jumper"
+    },
+    {
+      "min": 13.32,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jared McCain defensive rebound"
+    },
+    {
+      "min": 13.67,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 13.67,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Jared McCain misses 11-foot step back jumpshot"
+    },
+    {
+      "min": 13.67,
+      "home": 27,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama loose ball foul"
+    },
+    {
+      "min": 13.8,
+      "home": 29,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes 5-foot driving floating jump shot (Cason Wallace assists)"
+    },
+    {
+      "min": 14.08,
+      "home": 29,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Harrison Barnes misses 22-foot three point jumper"
+    },
+    {
+      "min": 14.08,
+      "home": 29,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 14.08,
+      "home": 29,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie loose ball foul"
+    },
+    {
+      "min": 14.22,
+      "home": 29,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 14.22,
+      "home": 29,
+      "away": 35,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant enters the game for Harrison Barnes"
+    },
+    {
+      "min": 14.37,
+      "home": 31,
+      "away": 35,
+      "period": 2,
+      "scoring": true,
+      "text": "Jared McCain makes 12-foot pullup jump shot"
+    },
+    {
+      "min": 14.62,
+      "home": 31,
+      "away": 37,
+      "period": 2,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 3-foot driving floating jump shot"
+    },
+    {
+      "min": 14.92,
+      "home": 31,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Isaiah Hartenstein misses driving floating jump shot"
+    },
+    {
+      "min": 14.97,
+      "home": 31,
+      "away": 37,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 15.03,
+      "home": 31,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 26-foot running jump shot (Dylan Harper assists)"
+    },
+    {
+      "min": 15.05,
+      "home": 31,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 15.05,
+      "home": 31,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 15.05,
+      "home": 31,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 15.47,
+      "home": 31,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses two point shot"
+    },
+    {
+      "min": 15.52,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylin Williams makes two point shot"
+    },
+    {
+      "min": 15.5,
+      "home": 31,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams offensive rebound"
+    },
+    {
+      "min": 15.83,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 27-foot three point pullup jump shot"
+    },
+    {
+      "min": 15.88,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 16.02,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Cason Wallace misses 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 16.02,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 16.02,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Julian Champagnie"
+    },
+    {
+      "min": 16.02,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander enters the game for Jared McCain"
+    },
+    {
+      "min": 16.33,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren blocks Dylan Harper 's 2-foot driving dunk"
+    },
+    {
+      "min": 16.37,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 16.45,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses two point shot"
+    },
+    {
+      "min": 16.48,
+      "home": 33,
+      "away": 40,
+      "period": 2,
+      "scoring": false,
+      "text": "Carter Bryant defensive rebound"
+    },
+    {
+      "min": 16.58,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": true,
+      "text": "Carter Bryant makes running layup (De'Aaron Fox assists)"
+    },
+    {
+      "min": 16.75,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox shooting foul"
+    },
+    {
+      "min": 16.75,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Alex Caruso"
+    },
+    {
+      "min": 16.75,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 16.75,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses free throw 1 of 2"
+    },
+    {
+      "min": 16.75,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses free throw 2 of 2"
+    },
+    {
+      "min": 16.75,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Dylan Harper"
+    },
+    {
+      "min": 16.78,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Luke Kornet defensive rebound"
+    },
+    {
+      "min": 16.97,
+      "home": 33,
+      "away": 42,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren shooting foul"
+    },
+    {
+      "min": 16.97,
+      "home": 33,
+      "away": 43,
+      "period": 2,
+      "scoring": true,
+      "text": "Luke Kornet makes free throw 1 of 2"
+    },
+    {
+      "min": 16.97,
+      "home": 33,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Luke Kornet makes free throw 2 of 2"
+    },
+    {
+      "min": 17.15,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 25-foot three pointer (Cason Wallace assists)"
+    },
+    {
+      "min": 17.25,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 17.25,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Carter Bryant"
+    },
+    {
+      "min": 17.25,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 17.47,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "min": 17.5,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 17.67,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams misses 13-foot jumper"
+    },
+    {
+      "min": 17.7,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 17.82,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 15-foot jumper"
+    },
+    {
+      "min": 17.87,
+      "home": 36,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams offensive rebound"
+    },
+    {
+      "min": 17.92,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes driving dunk (Luguentz Dort assists)"
+    },
+    {
+      "min": 18.17,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie misses 28-foot three point jumper"
+    },
+    {
+      "min": 18.18,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 18.5,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Julian Champagnie shooting foul"
+    },
+    {
+      "min": 18.5,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren misses free throw 2 of 2"
+    },
+    {
+      "min": 18.5,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Chet Holmgren misses free throw 1 of 2"
+    },
+    {
+      "min": 18.5,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 18.5,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 18.53,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 18.62,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams personal foul"
+    },
+    {
+      "min": 18.62,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Cason Wallace"
+    },
+    {
+      "min": 18.78,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle misses driving layup"
+    },
+    {
+      "min": 18.78,
+      "home": 38,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 18.97,
+      "home": 40,
+      "away": 44,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 17-foot pullup jump shot"
+    },
+    {
+      "min": 19.3,
+      "home": 40,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell misses two point shot"
+    },
+    {
+      "min": 19.33,
+      "home": 40,
+      "away": 44,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle offensive rebound"
+    },
+    {
+      "min": 19.35,
+      "home": 40,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Stephon Castle makes two point shot"
+    },
+    {
+      "min": 19.47,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylin Williams makes 6-foot floating jump shot (Luguentz Dort assists)"
+    },
+    {
+      "min": 19.77,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 8-foot pullup jump shot"
+    },
+    {
+      "min": 19.8,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 19.83,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 28-foot three point jumper"
+    },
+    {
+      "min": 19.83,
+      "home": 42,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 20.17,
+      "home": 44,
+      "away": 46,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 14-foot step back jumpshot (Jaylin Williams assists)"
+    },
+    {
+      "min": 20.5,
+      "home": 44,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Victor Wembanyama misses driving floating jump shot"
+    },
+    {
+      "min": 20.52,
+      "home": 44,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 20.82,
+      "home": 44,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso bad pass\nturnover (Stephon Castle steals)"
+    },
+    {
+      "min": 20.85,
+      "home": 44,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso shooting foul"
+    },
+    {
+      "min": 20.85,
+      "home": 44,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "(03:09) [Spurs] REF-INITIATED REVIEW (REPLAY SUPPORTS CALL)"
+    },
+    {
+      "min": 20.85,
+      "home": 44,
+      "away": 46,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Dylan Harper"
+    },
+    {
+      "min": 20.85,
+      "home": 44,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Stephon Castle makes free throw 1 of 2"
+    },
+    {
+      "min": 20.85,
+      "home": 44,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Stephon Castle misses free throw 2 of 2"
+    },
+    {
+      "min": 20.85,
+      "home": 44,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Julian Champagnie"
+    },
+    {
+      "min": 20.88,
+      "home": 44,
+      "away": 47,
+      "period": 2,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 21.13,
+      "home": 46,
+      "away": 47,
+      "period": 2,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 16-foot jumper"
+    },
+    {
+      "min": 21.4,
+      "home": 46,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 13-foot turnaround jump shot"
+    },
+    {
+      "min": 21.63,
+      "home": 46,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Luguentz Dort misses 12-foot jumper"
+    },
+    {
+      "min": 21.67,
+      "home": 46,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander offensive rebound"
+    },
+    {
+      "min": 21.72,
+      "home": 49,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Luguentz Dort makes 24-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 22.08,
+      "home": 49,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson misses 23-foot three point jumper"
+    },
+    {
+      "min": 22.12,
+      "home": 49,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander defensive rebound"
+    },
+    {
+      "min": 22.45,
+      "home": 51,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Jaylin Williams makes 14-foot jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 22.72,
+      "home": 51,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "De'Aaron Fox lost ball turnover (Chet Holmgren steals)"
+    },
+    {
+      "min": 22.72,
+      "home": 51,
+      "away": 49,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson personal foul"
+    },
+    {
+      "min": 22.72,
+      "home": 52,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Chet Holmgren makes free throw 1 of 2"
+    },
+    {
+      "min": 22.72,
+      "home": 53,
+      "away": 49,
+      "period": 2,
+      "scoring": true,
+      "text": "Chet Holmgren makes free throw 2 of 2"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 52,
+      "period": 2,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 25-foot three point jumper (Keldon Johnson assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander bad pass\nturnover (Devin Vassell steals)"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander blocks Stephon Castle 's 2-foot running layup"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 52,
+      "period": 2,
+      "scoring": false,
+      "text": "Keldon Johnson offensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 54,
+      "period": 2,
+      "scoring": true,
+      "text": "Keldon Johnson makes 2-foot tip in dunk"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses 8-foot two point shot"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 54,
+      "period": 2,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 56,
+      "period": 2,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 13-foot two point shot (Devin Vassell assists)"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 56,
+      "period": 2,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 56,
+      "period": 2,
+      "scoring": false,
+      "text": "Alex Caruso misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 56,
+      "period": 2,
+      "scoring": false,
+      "text": "End of the 2nd Quarter"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Luguentz Dort"
+    },
+    {
+      "min": 24.0,
+      "home": 53,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Keldon Johnson"
+    },
+    {
+      "min": 24.25,
+      "home": 53,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylin Williams misses 23-foot three point jumper"
+    },
+    {
+      "min": 24.32,
+      "home": 53,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 24.58,
+      "home": 53,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 22-foot three point pullup jump shot"
+    },
+    {
+      "min": 24.65,
+      "home": 53,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 24.93,
+      "home": 53,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso misses 6-foot two point shot"
+    },
+    {
+      "min": 24.97,
+      "home": 53,
+      "away": 56,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 25.15,
+      "home": 53,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Devin Vassell makes 8-foot pullup jump shot (Stephon Castle assists)"
+    },
+    {
+      "min": 25.6,
+      "home": 55,
+      "away": 58,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaylin Williams makes 6-foot floating jump shot (Alex Caruso assists)"
+    },
+    {
+      "min": 25.88,
+      "home": 55,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes dunk (Stephon Castle assists)"
+    },
+    {
+      "min": 26.07,
+      "home": 55,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 26.07,
+      "home": 55,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama blocks Shai Gilgeous-Alexander 's 1-foot two point shot"
+    },
+    {
+      "min": 26.28,
+      "home": 58,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 26.57,
+      "home": 58,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "min": 26.58,
+      "home": 58,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 26.83,
+      "home": 61,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Alex Caruso makes 26-foot three point jumper (Jaylin Williams assists)"
+    },
+    {
+      "min": 27.05,
+      "home": 61,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace blocks Stephon Castle 's 2-foot driving layup"
+    },
+    {
+      "min": 27.1,
+      "home": 61,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 27.35,
+      "home": 61,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle shooting foul"
+    },
+    {
+      "min": 27.35,
+      "home": 62,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 27.35,
+      "home": 62,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Jaylin Williams"
+    },
+    {
+      "min": 27.35,
+      "home": 62,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Chet Holmgren"
+    },
+    {
+      "min": 27.35,
+      "home": 62,
+      "away": 60,
+      "period": 3,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Alex Caruso"
+    },
+    {
+      "min": 27.35,
+      "home": 63,
+      "away": 60,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 27.52,
+      "home": 63,
+      "away": 63,
+      "period": 3,
+      "scoring": true,
+      "text": "Julian Champagnie makes 23-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 27.85,
+      "home": 63,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace bad pass\nturnover (De'Aaron Fox steals)"
+    },
+    {
+      "min": 27.93,
+      "home": 63,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox lost ball turnover (Shai Gilgeous-Alexander steals)"
+    },
+    {
+      "min": 27.95,
+      "home": 63,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 28.17,
+      "home": 63,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama kicked ball violation"
+    },
+    {
+      "min": 28.23,
+      "home": 63,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein misses 13-foot floating jump shot"
+    },
+    {
+      "min": 28.28,
+      "home": 63,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 28.45,
+      "home": 63,
+      "away": 63,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort shooting foul"
+    },
+    {
+      "min": 28.45,
+      "home": 63,
+      "away": 64,
+      "period": 3,
+      "scoring": true,
+      "text": "Julian Champagnie makes free throw 1 of 3"
+    },
+    {
+      "min": 28.45,
+      "home": 63,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie misses free throw 2 of 3"
+    },
+    {
+      "min": 28.45,
+      "home": 63,
+      "away": 64,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 28.45,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": true,
+      "text": "Julian Champagnie makes free throw 3 of 3"
+    },
+    {
+      "min": 28.58,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Jared McCain offensive foul"
+    },
+    {
+      "min": 28.58,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Jared McCain offensive foul turnover"
+    },
+    {
+      "min": 28.58,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Cason Wallace"
+    },
+    {
+      "min": 28.58,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 28.58,
+      "home": 63,
+      "away": 65,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Devin Vassell"
+    },
+    {
+      "min": 28.73,
+      "home": 63,
+      "away": 68,
+      "period": 3,
+      "scoring": true,
+      "text": "Julian Champagnie makes 26-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "min": 28.93,
+      "home": 65,
+      "away": 68,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 13-foot fade away jump shot"
+    },
+    {
+      "min": 29.17,
+      "home": 65,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson misses 23-foot three point jumper"
+    },
+    {
+      "min": 29.23,
+      "home": 65,
+      "away": 68,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie offensive rebound"
+    },
+    {
+      "min": 29.43,
+      "home": 65,
+      "away": 70,
+      "period": 3,
+      "scoring": true,
+      "text": "Dylan Harper makes 18-foot pullup jump shot"
+    },
+    {
+      "min": 29.63,
+      "home": 65,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso misses driving layup"
+    },
+    {
+      "min": 29.7,
+      "home": 65,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 29.7,
+      "home": 65,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein misses tip shot"
+    },
+    {
+      "min": 29.7,
+      "home": 65,
+      "away": 70,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein offensive rebound"
+    },
+    {
+      "min": 29.78,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": true,
+      "text": "Julian Champagnie makes 25-foot three point jumper (Dylan Harper assists)"
+    },
+    {
+      "min": 29.8,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 29.8,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Kenrich Williams enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 29.8,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Jared McCain"
+    },
+    {
+      "min": 29.93,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso out of bounds lost ball turnover"
+    },
+    {
+      "min": 29.93,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Luguentz Dort"
+    },
+    {
+      "min": 30.12,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylin Williams personal foul"
+    },
+    {
+      "min": 30.17,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive foul"
+    },
+    {
+      "min": 30.17,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive foul turnover"
+    },
+    {
+      "min": 30.53,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Kenrich Williams misses driving floating jump shot"
+    },
+    {
+      "min": 30.57,
+      "home": 65,
+      "away": 73,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama defensive rebound"
+    },
+    {
+      "min": 30.65,
+      "home": 65,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 25-foot running jump shot (Dylan Harper assists)"
+    },
+    {
+      "min": 30.95,
+      "home": 65,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 8-foot pullup jump shot"
+    },
+    {
+      "min": 30.97,
+      "home": 65,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 31.13,
+      "home": 65,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie misses 25-foot three point jumper"
+    },
+    {
+      "min": 31.2,
+      "home": 65,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 31.25,
+      "home": 65,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle shooting foul"
+    },
+    {
+      "min": 31.25,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "Alex Caruso makes free throw 2 of 2"
+    },
+    {
+      "min": 31.25,
+      "home": 66,
+      "away": 76,
+      "period": 3,
+      "scoring": true,
+      "text": "Alex Caruso makes free throw 1 of 2"
+    },
+    {
+      "min": 31.25,
+      "home": 66,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 31.25,
+      "home": 66,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Kenrich Williams"
+    },
+    {
+      "min": 31.25,
+      "home": 66,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Julian Champagnie"
+    },
+    {
+      "min": 31.25,
+      "home": 66,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Jaylin Williams"
+    },
+    {
+      "min": 31.25,
+      "home": 66,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Stephon Castle"
+    },
+    {
+      "min": 31.25,
+      "home": 66,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace enters the game for Chet Holmgren"
+    },
+    {
+      "min": 31.52,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson misses driving layup"
+    },
+    {
+      "min": 31.55,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet offensive rebound"
+    },
+    {
+      "min": 31.55,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet misses 1-foot tip shot"
+    },
+    {
+      "min": 31.57,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein defensive rebound"
+    },
+    {
+      "min": 31.63,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander out of bounds bad pass turnover"
+    },
+    {
+      "min": 31.82,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "De'Aaron Fox misses driving floating jump shot"
+    },
+    {
+      "min": 31.87,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet offensive rebound"
+    },
+    {
+      "min": 31.87,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet misses tip shot"
+    },
+    {
+      "min": 31.88,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet offensive rebound"
+    },
+    {
+      "min": 31.88,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 31.88,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Luke Kornet misses tip shot"
+    },
+    {
+      "min": 31.88,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Isaiah Hartenstein loose ball foul"
+    },
+    {
+      "min": 32.0,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell misses 26-foot three point jumper"
+    },
+    {
+      "min": 32.02,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson offensive rebound"
+    },
+    {
+      "min": 32.02,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace shooting foul"
+    },
+    {
+      "min": 32.02,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 32.02,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 32.02,
+      "home": 67,
+      "away": 76,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson misses free throw 1 of 2"
+    },
+    {
+      "min": 32.02,
+      "home": 67,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Keldon Johnson makes free throw 2 of 2"
+    },
+    {
+      "min": 32.2,
+      "home": 67,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama shooting foul"
+    },
+    {
+      "min": 32.2,
+      "home": 68,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "min": 32.2,
+      "home": 69,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "min": 32.4,
+      "home": 69,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson misses 26-foot three point jumper"
+    },
+    {
+      "min": 32.47,
+      "home": 69,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 32.75,
+      "home": 69,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell shooting foul"
+    },
+    {
+      "min": 32.75,
+      "home": 70,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 3"
+    },
+    {
+      "min": 32.75,
+      "home": 71,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 3"
+    },
+    {
+      "min": 32.75,
+      "home": 72,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes free throw 3 of 3"
+    },
+    {
+      "min": 32.93,
+      "home": 72,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell misses 17-foot pullup jump shot"
+    },
+    {
+      "min": 33.02,
+      "home": 72,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama offensive rebound"
+    },
+    {
+      "min": 33.03,
+      "home": 72,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell misses 25-foot three point jumper"
+    },
+    {
+      "min": 33.12,
+      "home": 72,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell offensive rebound"
+    },
+    {
+      "min": 33.18,
+      "home": 72,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 33.23,
+      "home": 72,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 33.23,
+      "home": 72,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Keldon Johnson loose ball foul"
+    },
+    {
+      "min": 33.23,
+      "home": 73,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Dylan Harper"
+    },
+    {
+      "min": 33.23,
+      "home": 73,
+      "away": 77,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Keldon Johnson"
+    },
+    {
+      "min": 33.23,
+      "home": 73,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Alex Caruso makes free throw 1 of 2"
+    },
+    {
+      "min": 33.23,
+      "home": 74,
+      "away": 77,
+      "period": 3,
+      "scoring": true,
+      "text": "Alex Caruso makes free throw 2 of 2"
+    },
+    {
+      "min": 33.52,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 3-foot driving floating jump shot"
+    },
+    {
+      "min": 33.83,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 17-foot pullup jump shot"
+    },
+    {
+      "min": 33.88,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell defensive rebound"
+    },
+    {
+      "min": 34.0,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Alex Caruso blocks De'Aaron Fox 's 1-foot driving layup"
+    },
+    {
+      "min": 34.0,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder defensive team rebound"
+    },
+    {
+      "min": 34.0,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 34.0,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "(02:00) [Thunder] COACH'S CHALLENGE (CALL OVERTURNED) [Thunder] retain their timeout"
+    },
+    {
+      "min": 34.0,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Jared McCain"
+    },
+    {
+      "min": 34.0,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 34.0,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Alex Caruso"
+    },
+    {
+      "min": 34.22,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses driving floating jump shot"
+    },
+    {
+      "min": 34.25,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 34.45,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle misses 22-foot three point jumper"
+    },
+    {
+      "min": 34.48,
+      "home": 74,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Chet Holmgren defensive rebound"
+    },
+    {
+      "min": 34.87,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": true,
+      "text": "Jaylin Williams makes 26-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 34.9,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Devin Vassell misses 23-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Stephon Castle offensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 79,
+      "period": 3,
+      "scoring": false,
+      "text": "Jaylin Williams personal foul"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses free throw 2 of 2"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for Stephon Castle"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Chet Holmgren"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Luguentz Dort defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace misses 26-foot three point jumper"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Victor Wembanyama misses 16-foot turnaround jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Cason Wallace misses heave jump shot"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 3,
+      "scoring": false,
+      "text": "End of the 3rd Quarter"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Shai Gilgeous-Alexander"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Keldon Johnson enters the game for Devin Vassell"
+    },
+    {
+      "min": 36.0,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso enters the game for Luguentz Dort"
+    },
+    {
+      "min": 36.32,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren shooting foul"
+    },
+    {
+      "min": 36.32,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs offensive team rebound"
+    },
+    {
+      "min": 36.32,
+      "home": 77,
+      "away": 80,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama misses free throw 1 of 2"
+    },
+    {
+      "min": 36.32,
+      "home": 77,
+      "away": 81,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 36.5,
+      "home": 79,
+      "away": 81,
+      "period": 4,
+      "scoring": true,
+      "text": "Jared McCain makes 14-foot step back jumpshot (Alex Caruso assists)"
+    },
+    {
+      "min": 36.9,
+      "home": 79,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "Keldon Johnson makes 24-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "min": 37.12,
+      "home": 82,
+      "away": 84,
+      "period": 4,
+      "scoring": true,
+      "text": "Cason Wallace makes 23-foot three point jumper (Jaylin Williams assists)"
+    },
+    {
+      "min": 37.35,
+      "home": 82,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 26-foot three point jumper"
+    },
+    {
+      "min": 37.4,
+      "home": 82,
+      "away": 84,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 37.45,
+      "home": 82,
+      "away": 87,
+      "period": 4,
+      "scoring": true,
+      "text": "Keldon Johnson makes 23-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "min": 37.88,
+      "home": 82,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain misses 22-foot three point step back jumpshot"
+    },
+    {
+      "min": 37.9,
+      "home": 82,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 37.9,
+      "home": 82,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "shot clock turnover "
+    },
+    {
+      "min": 37.9,
+      "home": 82,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander enters the game for Jared McCain"
+    },
+    {
+      "min": 38.13,
+      "home": 82,
+      "away": 87,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylin Williams shooting foul"
+    },
+    {
+      "min": 38.13,
+      "home": 82,
+      "away": 88,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "min": 38.13,
+      "home": 82,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "min": 38.27,
+      "home": 82,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama shooting foul"
+    },
+    {
+      "min": 38.27,
+      "home": 82,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 38.27,
+      "home": 82,
+      "away": 89,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso misses free throw 1 of 2"
+    },
+    {
+      "min": 38.27,
+      "home": 83,
+      "away": 89,
+      "period": 4,
+      "scoring": true,
+      "text": "Alex Caruso makes free throw 2 of 2"
+    },
+    {
+      "min": 38.5,
+      "home": 83,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "De'Aaron Fox makes 25-foot three point step back jumpshot"
+    },
+    {
+      "min": 38.88,
+      "home": 86,
+      "away": 92,
+      "period": 4,
+      "scoring": true,
+      "text": "Cason Wallace makes 25-foot three point jumper (Alex Caruso assists)"
+    },
+    {
+      "min": 39.28,
+      "home": 86,
+      "away": 95,
+      "period": 4,
+      "scoring": true,
+      "text": "Victor Wembanyama makes 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 39.48,
+      "home": 86,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 39.55,
+      "home": 86,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 39.73,
+      "home": 86,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper misses 23-foot three point jumper"
+    },
+    {
+      "min": 39.8,
+      "home": 86,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace defensive rebound"
+    },
+    {
+      "min": 39.87,
+      "home": 86,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso misses running layup"
+    },
+    {
+      "min": 39.93,
+      "home": 86,
+      "away": 95,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 40.0,
+      "home": 86,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Keldon Johnson makes running layup (Julian Champagnie assists)"
+    },
+    {
+      "min": 40.0,
+      "home": 86,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 40.0,
+      "home": 86,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Isaiah Hartenstein enters the game for Chet Holmgren"
+    },
+    {
+      "min": 40.0,
+      "home": 86,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Julian Champagnie"
+    },
+    {
+      "min": 40.0,
+      "home": 86,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Jaylin Williams"
+    },
+    {
+      "min": 40.0,
+      "home": 86,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Dylan Harper"
+    },
+    {
+      "min": 40.17,
+      "home": 88,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes 1-foot dunk (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 40.17,
+      "home": 88,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama shooting foul"
+    },
+    {
+      "min": 40.17,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Isaiah Hartenstein makes free throw 1 of 1"
+    },
+    {
+      "min": 40.42,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox misses 24-foot three point step back jumpshot"
+    },
+    {
+      "min": 40.45,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 40.62,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain misses 23-foot three point jumper"
+    },
+    {
+      "min": 40.65,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Keldon Johnson defensive rebound"
+    },
+    {
+      "min": 40.97,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell misses 13-foot step back jumpshot"
+    },
+    {
+      "min": 41.02,
+      "home": 89,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso defensive rebound"
+    },
+    {
+      "min": 41.18,
+      "home": 91,
+      "away": 97,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 13-foot two point shot"
+    },
+    {
+      "min": 41.2,
+      "home": 91,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 41.2,
+      "home": 91,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for De'Aaron Fox"
+    },
+    {
+      "min": 41.2,
+      "home": 91,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kornet enters the game for Keldon Johnson"
+    },
+    {
+      "min": 41.2,
+      "home": 91,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for Victor Wembanyama"
+    },
+    {
+      "min": 41.43,
+      "home": 91,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper bad pass\nturnover (Isaiah Hartenstein steals)"
+    },
+    {
+      "min": 41.48,
+      "home": 91,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Luke Kornet blocks Isaiah Hartenstein 's 2-foot running dunk"
+    },
+    {
+      "min": 41.53,
+      "home": 91,
+      "away": 97,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper defensive rebound"
+    },
+    {
+      "min": 41.78,
+      "home": 91,
+      "away": 99,
+      "period": 4,
+      "scoring": true,
+      "text": "Stephon Castle makes 15-foot pullup jump shot"
+    },
+    {
+      "min": 42.18,
+      "home": 91,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace out of bounds bad pass turnover"
+    },
+    {
+      "min": 42.18,
+      "home": 91,
+      "away": 99,
+      "period": 4,
+      "scoring": false,
+      "text": "Victor Wembanyama enters the game for Luke Kornet"
+    },
+    {
+      "min": 42.45,
+      "home": 91,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Julian Champagnie makes 25-foot three point step back jumpshot (Devin Vassell assists)"
+    },
+    {
+      "min": 42.73,
+      "home": 93,
+      "away": 102,
+      "period": 4,
+      "scoring": true,
+      "text": "Alex Caruso makes 6-foot two point shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 43.18,
+      "home": 93,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper lost ball turnover (Shai Gilgeous-Alexander steals)"
+    },
+    {
+      "min": 43.27,
+      "home": 93,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain misses 23-foot running jump shot"
+    },
+    {
+      "min": 43.3,
+      "home": 93,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 43.52,
+      "home": 93,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 25-foot three point jumper"
+    },
+    {
+      "min": 43.57,
+      "home": 93,
+      "away": 102,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper offensive rebound"
+    },
+    {
+      "min": 43.57,
+      "home": 93,
+      "away": 104,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes tip shot"
+    },
+    {
+      "min": 43.57,
+      "home": 93,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder Full timeout"
+    },
+    {
+      "min": 43.57,
+      "home": 93,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Jared McCain"
+    },
+    {
+      "min": 43.57,
+      "home": 93,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox enters the game for Stephon Castle"
+    },
+    {
+      "min": 43.57,
+      "home": 93,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren enters the game for Isaiah Hartenstein"
+    },
+    {
+      "min": 43.85,
+      "home": 95,
+      "away": 104,
+      "period": 4,
+      "scoring": true,
+      "text": "Shai Gilgeous-Alexander makes 20-foot step back jumpshot"
+    },
+    {
+      "min": 43.9,
+      "home": 95,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 43.9,
+      "home": 95,
+      "away": 104,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle enters the game for Devin Vassell"
+    },
+    {
+      "min": 44.23,
+      "home": 95,
+      "away": 107,
+      "period": 4,
+      "scoring": true,
+      "text": "Dylan Harper makes 26-foot three point step back jumpshot"
+    },
+    {
+      "min": 44.57,
+      "home": 98,
+      "away": 107,
+      "period": 4,
+      "scoring": true,
+      "text": "Cason Wallace makes 22-foot three point jumper (Jaylin Williams assists)"
+    },
+    {
+      "min": 45.05,
+      "home": 98,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle lost ball turnover (Cason Wallace steals)"
+    },
+    {
+      "min": 45.43,
+      "home": 98,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylin Williams misses 19-foot pullup jump shot"
+    },
+    {
+      "min": 45.48,
+      "home": 98,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 45.73,
+      "home": 98,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Chet Holmgren blocks Dylan Harper 's 2-foot driving dunk"
+    },
+    {
+      "min": 45.78,
+      "home": 98,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylin Williams defensive rebound"
+    },
+    {
+      "min": 45.97,
+      "home": 101,
+      "away": 107,
+      "period": 4,
+      "scoring": true,
+      "text": "Cason Wallace makes 25-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "min": 46.4,
+      "home": 101,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle lost ball turnover (Chet Holmgren steals)"
+    },
+    {
+      "min": 46.58,
+      "home": 101,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Shai Gilgeous-Alexander misses 27-foot three point step back jumpshot"
+    },
+    {
+      "min": 46.62,
+      "home": 101,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs defensive team rebound"
+    },
+    {
+      "min": 46.62,
+      "home": 101,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Devin Vassell enters the game for Dylan Harper"
+    },
+    {
+      "min": 46.62,
+      "home": 101,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Chet Holmgren"
+    },
+    {
+      "min": 46.98,
+      "home": 101,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie misses 19-foot pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 107,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle offensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 101,
+      "away": 109,
+      "period": 4,
+      "scoring": true,
+      "text": "Stephon Castle makes two point shot"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": true,
+      "text": "Cason Wallace makes driving layup"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Spurs Full timeout"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Dylan Harper enters the game for Julian Champagnie"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Luguentz Dort enters the game for Jaylin Williams"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Kenrich Williams enters the game for Jared McCain"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle bad pass\nturnover (Cason Wallace steals)"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Kenrich Williams misses 22-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Stephon Castle lost ball turnover (Shai Gilgeous-Alexander steals)"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "De'Aaron Fox personal foul"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Jaylin Williams enters the game for Luguentz Dort"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Jared McCain enters the game for Kenrich Williams"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie enters the game for Dylan Harper"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Alex Caruso misses 26-foot three point pullup jump shot"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Thunder offensive team rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Cason Wallace misses 29-foot three point jumper"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 109,
+      "period": 4,
+      "scoring": false,
+      "text": "Julian Champagnie defensive rebound"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 111,
+      "period": 4,
+      "scoring": true,
+      "text": "Devin Vassell makes running dunk (De'Aaron Fox assists)"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 111,
+      "period": 4,
+      "scoring": false,
+      "text": "End of the 4th Quarter"
+    },
+    {
+      "min": 48.0,
+      "home": 103,
+      "away": 111,
+      "period": 4,
+      "scoring": false,
+      "text": "End of Game"
+    }
+  ],
+  "shots": [
+    {
+      "x": 36,
+      "y": 4,
+      "made": true,
+      "type": "Step Back Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 11-foot two point shot"
+    },
+    {
+      "x": 39,
+      "y": -1,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 14-foot step back jumpshot"
+    },
+    {
+      "x": 37,
+      "y": 0,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren makes 11-foot step back jumpshot (Cason Wallace assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes driving layup"
+    },
+    {
+      "x": 26,
+      "y": 19,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 18-foot two point shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Layup Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes layup (Victor Wembanyama assists)"
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Chet Holmgren misses driving floating jump shot"
+    },
+    {
+      "x": 36,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 1-foot dunk (De'Aaron Fox assists)"
+    },
+    {
+      "x": 16,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 25-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 23-foot three point jumper"
+    },
+    {
+      "x": 30,
+      "y": 12,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 12-foot pullup jump shot"
+    },
+    {
+      "x": 34,
+      "y": 1,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes 8-foot floating jump shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 40,
+      "y": 21,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 25-foot three pointer"
+    },
+    {
+      "x": 36,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 26-foot three point jumper"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 5-foot driving floating jump shot"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 27-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses running layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Dunk Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes tip in dunk"
+    },
+    {
+      "x": 40,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses 27-foot three point jumper"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 24-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace makes 22-foot three point jumper (Alex Caruso assists)"
+    },
+    {
+      "x": 46,
+      "y": 15,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 25-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "OKC",
+      "text": "Alex Caruso makes 1-foot two point shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": true,
+      "type": "Pullup Bank Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 2-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "SAS",
+      "text": "Stephon Castle makes free throw 1 of 1"
+    },
+    {
+      "x": 48,
+      "y": -3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 23-foot three point jumper (Devin Vassell assists)"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "OKC",
+      "text": "Jared McCain makes 4-foot two point shot"
+    },
+    {
+      "x": 48,
+      "y": 11,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 25-foot three point jumper"
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes 23-foot running jump shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 6,
+      "y": 12,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 22-foot jumper"
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 44,
+      "y": 17,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams misses 25-foot three point jumper"
+    },
+    {
+      "x": 31,
+      "y": 9,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 10-foot pullup jump shot"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 25-foot three point pullup jump shot"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Kenrich Williams misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": true,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "Dylan Harper makes 3-foot two point shot"
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "made": false,
+      "type": "Driving Jump Shot Bank",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 7-foot two point shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Devin Vassell makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Devin Vassell makes free throw 2 of 2"
+    },
+    {
+      "x": 24,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 24-foot three point pullup jump shot"
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "OKC",
+      "text": "Kenrich Williams makes tip shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - Technical",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes technical free throw"
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses driving layup"
+    },
+    {
+      "x": 21,
+      "y": 27,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes 26-foot three point jumper (Cason Wallace assists)"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 43,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses heave jump shot"
+    },
+    {
+      "x": 32,
+      "y": 11,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 13-foot step back jumpshot"
+    },
+    {
+      "x": 26,
+      "y": 27,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 27-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 25-foot three point jumper"
+    },
+    {
+      "x": 36,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 25-foot three point jumper"
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 11-foot step back jumpshot"
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes 5-foot driving floating jump shot (Cason Wallace assists)"
+    },
+    {
+      "x": 48,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Harrison Barnes misses 22-foot three point jumper"
+    },
+    {
+      "x": 31,
+      "y": 11,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes 12-foot pullup jump shot"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 3-foot driving floating jump shot"
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein misses driving floating jump shot"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 26-foot running jump shot (Dylan Harper assists)"
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "OKC",
+      "text": "Alex Caruso misses two point shot"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "OKC",
+      "text": "Jaylin Williams makes two point shot"
+    },
+    {
+      "x": 24,
+      "y": 27,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 27-foot three point pullup jump shot"
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": false,
+      "type": "Driving Dunk Shot",
+      "team": "SAS",
+      "text": "Chet Holmgren blocks Dylan Harper 's 2-foot driving dunk"
+    },
+    {
+      "x": 24,
+      "y": -1,
+      "made": false,
+      "type": "Running Finger Roll Layup",
+      "team": "OKC",
+      "text": "Alex Caruso misses two point shot"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "SAS",
+      "text": "Carter Bryant makes running layup (De'Aaron Fox assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Luke Kornet makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Luke Kornet makes free throw 2 of 2"
+    },
+    {
+      "x": 37,
+      "y": 23,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 25-foot three pointer (Cason Wallace assists)"
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "x": 12,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams misses 13-foot jumper"
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 15-foot jumper"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": true,
+      "type": "Driving Dunk Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes driving dunk (Luguentz Dort assists)"
+    },
+    {
+      "x": 8,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 28-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren misses free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren misses free throw 1 of 2"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses driving layup"
+    },
+    {
+      "x": 36,
+      "y": 14,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 17-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "SAS",
+      "text": "Devin Vassell misses two point shot"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "SAS",
+      "text": "Stephon Castle makes two point shot"
+    },
+    {
+      "x": 30,
+      "y": 4,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams makes 6-foot floating jump shot (Luguentz Dort assists)"
+    },
+    {
+      "x": 31,
+      "y": 6,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 8-foot pullup jump shot"
+    },
+    {
+      "x": 38,
+      "y": 25,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 28-foot three point jumper"
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 14-foot step back jumpshot (Jaylin Williams assists)"
+    },
+    {
+      "x": 24,
+      "y": 10,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses driving floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Stephon Castle makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Stephon Castle misses free throw 2 of 2"
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 16-foot jumper"
+    },
+    {
+      "x": 21,
+      "y": 13,
+      "made": true,
+      "type": "Turnaround Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 13-foot turnaround jump shot"
+    },
+    {
+      "x": 32,
+      "y": 11,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort misses 12-foot jumper"
+    },
+    {
+      "x": 32,
+      "y": 24,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Luguentz Dort makes 24-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 48,
+      "y": 6,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses 23-foot three point jumper"
+    },
+    {
+      "x": 24,
+      "y": 15,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams makes 14-foot jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Chet Holmgren makes free throw 2 of 2"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 25-foot three point jumper (Keldon Johnson assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "SAS",
+      "text": "Shai Gilgeous-Alexander blocks Stephon Castle 's 2-foot running layup"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "made": true,
+      "type": "Tip Dunk Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 2-foot tip in dunk"
+    },
+    {
+      "x": 33,
+      "y": 2,
+      "made": false,
+      "type": "Turnaround Hook Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 8-foot two point shot"
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "made": true,
+      "type": "Turnaround Bank Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 13-foot two point shot (Devin Vassell assists)"
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams misses 23-foot three point jumper"
+    },
+    {
+      "x": 3,
+      "y": -3,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 22-foot three point pullup jump shot"
+    },
+    {
+      "x": 31,
+      "y": -1,
+      "made": false,
+      "type": "Driving Jump Shot Bank",
+      "team": "OKC",
+      "text": "Alex Caruso misses 6-foot two point shot"
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes 8-foot pullup jump shot (Stephon Castle assists)"
+    },
+    {
+      "x": 28,
+      "y": 6,
+      "made": true,
+      "type": "Floating Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams makes 6-foot floating jump shot (Alex Caruso assists)"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "made": true,
+      "type": "Dunk Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes dunk (Stephon Castle assists)"
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "made": false,
+      "type": "Layup Driving Reverse",
+      "team": "OKC",
+      "text": "Victor Wembanyama blocks Shai Gilgeous-Alexander 's 1-foot two point shot"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 25,
+      "y": -1,
+      "made": false,
+      "type": "Driving Finger Roll Layup",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses two point shot"
+    },
+    {
+      "x": 34,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso makes 26-foot three point jumper (Jaylin Williams assists)"
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Cason Wallace blocks Stephon Castle 's 2-foot driving layup"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 2,
+      "y": -3,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 23-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 25,
+      "y": 14,
+      "made": false,
+      "type": "Floating Jump Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein misses 13-foot floating jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 3",
+      "team": "SAS",
+      "text": "Julian Champagnie makes free throw 1 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 3",
+      "team": "SAS",
+      "text": "Julian Champagnie misses free throw 2 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 3 of 3",
+      "team": "SAS",
+      "text": "Julian Champagnie makes free throw 3 of 3"
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 26-foot three point jumper (Stephon Castle assists)"
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "made": true,
+      "type": "Fade Away Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 13-foot fade away jump shot"
+    },
+    {
+      "x": 2,
+      "y": -3,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses 23-foot three point jumper"
+    },
+    {
+      "x": 40,
+      "y": 11,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 18-foot pullup jump shot"
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses driving layup"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein misses tip shot"
+    },
+    {
+      "x": 26,
+      "y": 25,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 25-foot three point jumper (Dylan Harper assists)"
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Kenrich Williams misses driving floating jump shot"
+    },
+    {
+      "x": 41,
+      "y": 21,
+      "made": true,
+      "type": "Running Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 25-foot running jump shot (Dylan Harper assists)"
+    },
+    {
+      "x": 31,
+      "y": 6,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 8-foot pullup jump shot"
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 25-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Alex Caruso makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Alex Caruso makes free throw 1 of 2"
+    },
+    {
+      "x": 26,
+      "y": -1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses driving layup"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Luke Kornet misses 1-foot tip shot"
+    },
+    {
+      "x": 29,
+      "y": 1,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses driving floating jump shot"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Luke Kornet misses tip shot"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "made": false,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Luke Kornet misses tip shot"
+    },
+    {
+      "x": 41,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Keldon Johnson misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Keldon Johnson makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 2"
+    },
+    {
+      "x": 37,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson misses 26-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 3",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 1 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 3",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 2 of 3"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 3 of 3",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes free throw 3 of 3"
+    },
+    {
+      "x": 33,
+      "y": 16,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 17-foot pullup jump shot"
+    },
+    {
+      "x": 43,
+      "y": 19,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 25-foot three point jumper"
+    },
+    {
+      "x": 41,
+      "y": 20,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 25-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Alex Caruso makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Alex Caruso makes free throw 2 of 2"
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "made": true,
+      "type": "Driving Floating Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 3-foot driving floating jump shot"
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 17-foot pullup jump shot"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "made": false,
+      "type": "Driving Layup Shot",
+      "team": "SAS",
+      "text": "Alex Caruso blocks De'Aaron Fox 's 1-foot driving layup"
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "made": false,
+      "type": "Driving Floating Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses driving floating jump shot"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle misses 22-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams makes 26-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 23-foot three point jumper"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses free throw 2 of 2"
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses 26-foot three point jumper"
+    },
+    {
+      "x": 32,
+      "y": 15,
+      "made": false,
+      "type": "Turnaround Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses 16-foot turnaround jump shot"
+    },
+    {
+      "x": 14,
+      "y": 75,
+      "made": false,
+      "type": "Heave Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses heave jump shot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": 31,
+      "y": 14,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain makes 14-foot step back jumpshot (Alex Caruso assists)"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 24-foot three point jumper (De'Aaron Fox assists)"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace makes 23-foot three point jumper (Jaylin Williams assists)"
+    },
+    {
+      "x": 40,
+      "y": 22,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 26-foot three point jumper"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes 23-foot three point jumper (Victor Wembanyama assists)"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 22-foot three point step back jumpshot"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes free throw 2 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": false,
+      "type": "Free Throw - 1 of 2",
+      "team": "OKC",
+      "text": "Alex Caruso misses free throw 1 of 2"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 2 of 2",
+      "team": "OKC",
+      "text": "Alex Caruso makes free throw 2 of 2"
+    },
+    {
+      "x": 29,
+      "y": 25,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox makes 25-foot three point step back jumpshot"
+    },
+    {
+      "x": 23,
+      "y": 26,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace makes 25-foot three point jumper (Alex Caruso assists)"
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Victor Wembanyama makes 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 49,
+      "y": 1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper misses 23-foot three point jumper"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "made": false,
+      "type": "Running Layup Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses running layup"
+    },
+    {
+      "x": 24,
+      "y": -1,
+      "made": true,
+      "type": "Running Layup Shot",
+      "team": "SAS",
+      "text": "Keldon Johnson makes running layup (Julian Champagnie assists)"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "made": true,
+      "type": "Cutting Dunk Shot",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes 1-foot dunk (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": -214748340,
+      "y": -214748365,
+      "made": true,
+      "type": "Free Throw - 1 of 1",
+      "team": "OKC",
+      "text": "Isaiah Hartenstein makes free throw 1 of 1"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "De'Aaron Fox misses 24-foot three point step back jumpshot"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 23-foot three point jumper"
+    },
+    {
+      "x": 38,
+      "y": 1,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Devin Vassell misses 13-foot step back jumpshot"
+    },
+    {
+      "x": 30,
+      "y": 13,
+      "made": true,
+      "type": "Turnaround Fade Away Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 13-foot two point shot"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "made": false,
+      "type": "Running Dunk Shot",
+      "team": "OKC",
+      "text": "Luke Kornet blocks Isaiah Hartenstein 's 2-foot running dunk"
+    },
+    {
+      "x": 23,
+      "y": 15,
+      "made": true,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Stephon Castle makes 15-foot pullup jump shot"
+    },
+    {
+      "x": 46,
+      "y": 14,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie makes 25-foot three point step back jumpshot (Devin Vassell assists)"
+    },
+    {
+      "x": 31,
+      "y": 3,
+      "made": true,
+      "type": "Driving Jump Shot Bank",
+      "team": "OKC",
+      "text": "Alex Caruso makes 6-foot two point shot (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "made": false,
+      "type": "Running Jump Shot",
+      "team": "OKC",
+      "text": "Jared McCain misses 23-foot running jump shot"
+    },
+    {
+      "x": 34,
+      "y": 24,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 25-foot three point jumper"
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "made": true,
+      "type": "Tip Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes tip shot"
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander makes 20-foot step back jumpshot"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": true,
+      "type": "Step Back Jump Shot",
+      "team": "SAS",
+      "text": "Dylan Harper makes 26-foot three point step back jumpshot"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace makes 22-foot three point jumper (Jaylin Williams assists)"
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Jaylin Williams misses 19-foot pullup jump shot"
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "made": false,
+      "type": "Driving Dunk Shot",
+      "team": "SAS",
+      "text": "Chet Holmgren blocks Dylan Harper 's 2-foot driving dunk"
+    },
+    {
+      "x": 42,
+      "y": 20,
+      "made": true,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace makes 25-foot three point jumper (Shai Gilgeous-Alexander assists)"
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "made": false,
+      "type": "Step Back Jump Shot",
+      "team": "OKC",
+      "text": "Shai Gilgeous-Alexander misses 27-foot three point step back jumpshot"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "SAS",
+      "text": "Julian Champagnie misses 19-foot pullup jump shot"
+    },
+    {
+      "x": 26,
+      "y": -1,
+      "made": true,
+      "type": "Layup Shot Putback",
+      "team": "SAS",
+      "text": "Stephon Castle makes two point shot"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "made": true,
+      "type": "Driving Layup Shot",
+      "team": "OKC",
+      "text": "Cason Wallace makes driving layup"
+    },
+    {
+      "x": 48,
+      "y": -1,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Kenrich Williams misses 22-foot three point jumper"
+    },
+    {
+      "x": 35,
+      "y": 25,
+      "made": false,
+      "type": "Pullup Jump Shot",
+      "team": "OKC",
+      "text": "Alex Caruso misses 26-foot three point pullup jump shot"
+    },
+    {
+      "x": 35,
+      "y": 28,
+      "made": false,
+      "type": "Jump Shot",
+      "team": "OKC",
+      "text": "Cason Wallace misses 29-foot three point jumper"
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "made": true,
+      "type": "Running Dunk Shot",
+      "team": "SAS",
+      "text": "Devin Vassell makes running dunk (De'Aaron Fox assists)"
+    }
+  ],
+  "shot_zones": {
+    "OKC": {
+      "at_rim": {
+        "fgm": 5,
+        "fga": 13,
+        "pct": 38
+      },
+      "paint": {
+        "fgm": 13,
+        "fga": 24,
+        "pct": 54
+      },
+      "mid": {
+        "fgm": 24,
+        "fga": 28,
+        "pct": 86
+      },
+      "corner_3": {
+        "fgm": 4,
+        "fga": 14,
+        "pct": 29
+      },
+      "arc_3": {
+        "fgm": 8,
+        "fga": 28,
+        "pct": 29
+      }
+    },
+    "SAS": {
+      "at_rim": {
+        "fgm": 13,
+        "fga": 27,
+        "pct": 48
+      },
+      "paint": {
+        "fgm": 7,
+        "fga": 14,
+        "pct": 50
+      },
+      "mid": {
+        "fgm": 17,
+        "fga": 20,
+        "pct": 85
+      },
+      "corner_3": {
+        "fgm": 3,
+        "fga": 17,
+        "pct": 18
+      },
+      "arc_3": {
+        "fgm": 14,
+        "fga": 29,
+        "pct": 48
+      }
+    }
+  },
+  "matchups": [],
+  "collected": "2026-06-05"
+}
