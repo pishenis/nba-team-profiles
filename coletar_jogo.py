@@ -17,9 +17,9 @@ if not API_KEY:
     print("ERRO: BDL_API_KEY não encontrado no .env")
     sys.exit(1)
 
-HEADERS  = {"Authorization": API_KEY}
-BASE_V1  = "https://api.balldontlie.io/nba/v1"
-BASE_V2  = "https://api.balldontlie.io/nba/v2"
+HEADERS = {"Authorization": API_KEY}
+BASE_V1 = "https://api.balldontlie.io/nba/v1"
+BASE_V2 = "https://api.balldontlie.io/nba/v2"
 
 # ─── helpers de API ──────────────────────────────────────────────────────────
 
@@ -36,7 +36,7 @@ def get(url, params=None, retries=3):
             return r.json()
         except Exception as e:
             if attempt < retries - 1:
-                print(f"  Tentativa {attempt + 1} falhou: {e}, aguardando 5s...")
+                print(f"  Tentativa {attempt+1} falhou: {e}, aguardando 5s...")
                 time.sleep(5)
             else:
                 raise
@@ -64,22 +64,32 @@ def short_name(player):
     ln = (player.get("last_name") or "")
     return f"{fn[0]}. {ln}" if fn else ln
 
-def clock_to_min(clock, period):
-    try:
-        parts = clock.split(":")
-        mins = int(parts[0])
-        secs = int(parts[1]) if len(parts) > 1 else 0
-        remaining = mins + secs / 60
-        dur  = 12 if period <= 4 else 5
-        base = (period - 1) * 12 if period <= 4 else 48 + (period - 5) * 5
-        return round(base + dur - remaining, 2)
-    except Exception:
-        return 0.0
+def parse_clock(clock):
+    """
+    Aceita:
+      'PT03M44.00S' (ISO 8601 do BDL)  → (3, 44)
+      '3:44'                             → (3, 44)
+    Retorna (minutos, segundos) restantes no período.
+    """
+    if not clock:
+        return 0, 0
+    # ISO 8601: PT##M##.##S
+    m = re.match(r"PT(\d+)M([\d.]+)S", clock)
+    if m:
+        return int(m.group(1)), int(float(m.group(2)))
+    # MM:SS
+    m = re.match(r"(\d+):(\d+)", clock)
+    if m:
+        return int(m.group(1)), int(m.group(2))
+    return 0, 0
 
-def fmt_clock(clock, period):
-    labels = {1: "1Q", 2: "2Q", 3: "3Q", 4: "4Q"}
-    lbl = labels.get(period, f"OT{period - 4}")
-    return f"{clock} {lbl}"
+def clock_to_min(clock, period):
+    """Converte clock restante + período em minutos decorridos."""
+    mins, secs = parse_clock(clock)
+    remaining = mins + secs / 60
+    dur  = 12 if period <= 4 else 5
+    base = (period - 1) * 12 if period <= 4 else 48 + (period - 5) * 5
+    return round(base + dur - remaining, 2)
 
 def fmt_min(total_min):
     total_min = max(0, total_min)
@@ -98,17 +108,18 @@ def compute_game_flow(plays, home_abbr, away_abbr):
         if p.get("scoring_play") and p.get("team") and p.get("score_value", 0) > 0
     ]
 
+    # Tempo liderando e empates
     time_home = 0.0
     time_away = 0.0
     time_tied = 0.0
     lead_changes = 0
-    score_ties = 0
+    ties = 0
     prev_leader = None
     prev_min = 0.0
 
     for play in scoring:
-        cur_min = clock_to_min(play.get("clock", "0:00"), play.get("period", 1))
-        diff = cur_min - prev_min
+        cur_min = clock_to_min(play.get("clock", ""), play.get("period", 1))
+        diff = max(0, cur_min - prev_min)
         if prev_leader == "home":   time_home += diff
         elif prev_leader == "away": time_away += diff
         else:                       time_tied += diff
@@ -118,7 +129,7 @@ def compute_game_flow(plays, home_abbr, away_abbr):
         new_leader = "home" if h > a else ("away" if a > h else None)
 
         if new_leader != prev_leader:
-            if new_leader is None:    score_ties   += 1
+            if new_leader is None:        ties        += 1
             elif prev_leader is not None: lead_changes += 1
 
         prev_leader = new_leader
@@ -126,53 +137,75 @@ def compute_game_flow(plays, home_abbr, away_abbr):
 
     max_period = max((p.get("period", 1) for p in plays), default=4)
     total = 48 + max(0, max_period - 4) * 5
-    remaining = total - prev_min
+    remaining = max(0, total - prev_min)
     if prev_leader == "home":   time_home += remaining
     elif prev_leader == "away": time_away += remaining
     else:                       time_tied += remaining
 
-    # Maior sequência
-    best = {home_abbr: (0, 0, "", ""), away_abbr: (0, 0, "", "")}
-    for focal in [home_abbr, away_abbr]:
-        opp = away_abbr if focal == home_abbr else home_abbr
-        cur_f, cur_o = 0, 0
-        started = False
-        start_c, start_p = "", 1
+    # Maiores runs — janela deslizante de 5 minutos
+    WINDOW = 5.0
+    scoring_pts = [
+        (clock_to_min(p.get("clock",""), p.get("period",1)), abbr(p.get("team",{})), p.get("score_value",0))
+        for p in scoring
+    ]
 
-        for play in scoring:
-            team = abbr(play.get("team", {}))
-            val  = play.get("score_value", 0)
-            c, p = play.get("clock", ""), play.get("period", 1)
+    def best_window(focal, opp):
+        best = {"pts_focal": 0, "pts_opp": 0, "start_min": 0, "end_min": 0}
+        n = len(scoring_pts)
+        j = 0
+        for i in range(n):
+            t_start = scoring_pts[i][0]
+            t_end   = t_start + WINDOW
+            fp, op  = 0, 0
+            last_t  = t_start
+            for k in range(i, n):
+                t, team, val = scoring_pts[k]
+                if t > t_end:
+                    break
+                if team == focal: fp += val
+                else:             op += val
+                last_t = t
+            if fp - op > best["pts_focal"] - best["pts_opp"]:
+                best = {"pts_focal": fp, "pts_opp": op, "start_min": t_start, "end_min": last_t}
+        return best
 
+    rh = best_window(home_abbr, away_abbr)
+    ra = best_window(away_abbr, home_abbr)
+
+    # Maior sequência sem resposta (adversário marca 0)
+    def max_consec(focal):
+        cur, best_c = 0, 0
+        for _, team, val in scoring_pts:
             if team == focal:
-                if not started:
-                    start_c, start_p = c, p
-                    started = True
-                cur_f += val
-                if cur_f > best[focal][0]:
-                    best[focal] = (cur_f, cur_o, fmt_clock(start_c, start_p), fmt_clock(c, p))
+                cur += val
+                best_c = max(best_c, cur)
             else:
-                cur_o += val
-                if cur_o >= cur_f and cur_f > 0:
-                    cur_f, cur_o, started = 0, 0, False
+                cur = 0
+        return best_c
 
-    bh, ba = best[home_abbr], best[away_abbr]
-    winner_run = home_abbr if bh[0] >= ba[0] else away_abbr
-    bw = best[winner_run]
+    consec_home = max_consec(home_abbr)
+    consec_away = max_consec(away_abbr)
 
     return {
-        "time_leading": {home_abbr: fmt_min(time_home), away_abbr: fmt_min(time_away)},
-        "time_tied":    fmt_min(time_tied),
-        "lead_changes": lead_changes,
-        "score_ties":   score_ties,
-        "biggest_run": {
-            "team":  winner_run,
-            "run":   f"{bw[0]}-{bw[1]}",
-            "start": bw[2],
-            "end":   bw[3],
-            home_abbr: f"{bh[0]}-{bh[1]}",
-            away_abbr: f"{ba[0]}-{ba[1]}",
+        "time_leading_home_fmt": fmt_min(time_home),
+        "time_leading_away_fmt": fmt_min(time_away),
+        "time_tied_fmt":         fmt_min(time_tied),
+        "lead_changes":          lead_changes,
+        "ties":                  ties,
+        "best_run_home": {
+            "pts_home":  rh["pts_focal"],
+            "pts_away":  rh["pts_opp"],
+            "start_min": rh["start_min"],
+            "end_min":   rh["end_min"],
         },
+        "best_run_away": {
+            "pts_away":  ra["pts_focal"],
+            "pts_home":  ra["pts_opp"],
+            "start_min": ra["start_min"],
+            "end_min":   ra["end_min"],
+        },
+        "max_consec_home": consec_home,
+        "max_consec_away": consec_away,
     }
 
 
@@ -191,10 +224,22 @@ def quarter_scores_from_game(game_data, home_abbr, away_abbr):
 
 
 def build_shot_zones(plays, home_abbr, away_abbr):
+    """
+    BDL: basket em (25, 0), x=0-50 (sideline), y=0-47 (rumo ao meio-campo).
+    3-pointers: score_value=3 (feitos) ou dist>=22 (errados).
+    Zonas esperadas pelo jogo.html: at_rim, paint, mid, corner_3, arc_3
+    """
+    BX, BY = 25.0, 0.0
+
     zones = {
-        t: {"ra": [0,0], "paint_non_ra": [0,0], "mid": [0,0], "corner_3": [0,0], "above_3": [0,0]}
+        t: {"at_rim":   {"fgm":0,"fga":0},
+            "paint":    {"fgm":0,"fga":0},
+            "mid":      {"fgm":0,"fga":0},
+            "corner_3": {"fgm":0,"fga":0},
+            "arc_3":    {"fgm":0,"fga":0}}
         for t in [home_abbr, away_abbr]
     }
+
     for play in plays:
         if not play.get("shooting_play"):
             continue
@@ -203,20 +248,42 @@ def build_shot_zones(plays, home_abbr, away_abbr):
         team = abbr(play.get("team", {}))
         if team not in zones or x is None or y is None:
             continue
-        made = 1 if play.get("scoring_play") else 0
-        is_3 = "3" in (play.get("type") or "")
-        dist = (x**2 + y**2) ** 0.5
-        if dist <= 4:             zone = "ra"
-        elif is_3 and abs(x)>=22: zone = "corner_3"
-        elif is_3:                zone = "above_3"
-        elif dist <= 12:          zone = "paint_non_ra"
-        else:                     zone = "mid"
-        zones[team][zone][0] += made
-        zones[team][zone][1] += 1
+
+        made  = 1 if play.get("scoring_play") else 0
+        val   = play.get("score_value", 0)
+        dist  = ((x - BX)**2 + (y - BY)**2) ** 0.5
+
+        # Determina se é tentativa de 3
+        if made:
+            is_3 = (val == 3)
+        else:
+            is_3 = (dist >= 22.0)
+
+        # Classifica zona
+        if dist < 4.0:
+            zone = "at_rim"
+        elif is_3 and abs(x - BX) >= 20 and y <= 10:
+            zone = "corner_3"
+        elif is_3:
+            zone = "arc_3"
+        elif dist < 14.0:
+            zone = "paint"
+        else:
+            zone = "mid"
+
+        zones[team][zone]["fgm"] += made
+        zones[team][zone]["fga"] += 1
+
+    for t in zones:
+        for z in zones[t]:
+            fgm = zones[t][z]["fgm"]
+            fga = zones[t][z]["fga"]
+            zones[t][z]["pct"] = round(fgm / fga * 100) if fga else 0
+
     return zones
 
 
-def build_players_from_box(team_section, starter_ids, lineup_pos, adv_by_pid):
+def build_players(team_section, starter_ids, lineup_pos, adv_by_pid):
     players = []
     for p in (team_section or {}).get("players", []):
         player = p.get("player", {})
@@ -224,7 +291,7 @@ def build_players_from_box(team_section, starter_ids, lineup_pos, adv_by_pid):
         mins   = p.get("min", "") or ""
         if not mins or mins in ("0", "0:00"):
             continue
-        adv = adv_by_pid.get(pid, {})
+        adv  = adv_by_pid.get(pid, {})
         is_s = pid in starter_ids
         players.append({
             "name":           short_name(player),
@@ -252,11 +319,19 @@ def build_players_from_box(team_section, starter_ids, lineup_pos, adv_by_pid):
             "deflections":    adv.get("deflections"),
             "charges_drawn":  adv.get("charges_drawn"),
             "contested_shots":adv.get("contested_shots"),
+            "mu_min":         adv.get("matchup_minutes"),
+            "mu_fga":         adv.get("matchup_fga"),
+            "mu_fgm":         adv.get("matchup_fgm"),
+            "mu_fg_pct":      adv.get("matchup_fg_pct"),
+            "mu_3pa":         adv.get("matchup_3pa"),
+            "mu_3pm":         adv.get("matchup_3pm"),
+            "mu_pts":         adv.get("matchup_player_points"),
+            "mu_ast":         adv.get("matchup_assists"),
         })
     return players
 
 
-def build_players_from_stats(stats_list, team_a, starter_ids, lineup_pos, adv_by_pid):
+def build_players_from_stats(stats_list, starter_ids, lineup_pos, adv_by_pid):
     players = []
     for s in stats_list:
         player = s.get("player", {})
@@ -264,7 +339,7 @@ def build_players_from_stats(stats_list, team_a, starter_ids, lineup_pos, adv_by
         mins   = s.get("min", "") or ""
         if not mins or mins in ("0", "0:00"):
             continue
-        adv = adv_by_pid.get(pid, {})
+        adv  = adv_by_pid.get(pid, {})
         is_s = pid in starter_ids
         players.append({
             "name":           short_name(player),
@@ -292,10 +367,18 @@ def build_players_from_stats(stats_list, team_a, starter_ids, lineup_pos, adv_by
             "deflections":    adv.get("deflections"),
             "charges_drawn":  adv.get("charges_drawn"),
             "contested_shots":adv.get("contested_shots"),
+            "mu_min":         adv.get("matchup_minutes"),
+            "mu_fga":         adv.get("matchup_fga"),
+            "mu_fgm":         adv.get("matchup_fgm"),
+            "mu_fg_pct":      adv.get("matchup_fg_pct"),
+            "mu_3pa":         adv.get("matchup_3pa"),
+            "mu_3pm":         adv.get("matchup_3pm"),
+            "mu_pts":         adv.get("matchup_player_points"),
+            "mu_ast":         adv.get("matchup_assists"),
         })
     return players
 
-# ─── coleta ───────────────────────────────────────────────────────────────────
+# ─── coleta principal ─────────────────────────────────────────────────────────
 
 arg = sys.argv[1] if len(sys.argv) > 1 else None
 if not arg:
@@ -349,9 +432,9 @@ lineups_raw = all_pages(f"{BASE_V1}/lineups", {"game_ids[]": game_id})
 starter_ids = {lu["player"]["id"] for lu in lineups_raw if lu.get("starter")}
 lineup_pos  = {lu["player"]["id"]: lu.get("position", "") for lu in lineups_raw}
 
-# 4. Advanced stats V2
+# 4. Advanced stats V2 — period=0 para dados do jogo completo
 print("Coletando advanced stats...")
-adv_raw    = all_pages(f"{BASE_V2}/stats/advanced", {"game_ids[]": game_id})
+adv_raw    = all_pages(f"{BASE_V2}/stats/advanced", {"game_ids[]": game_id, "period": 0})
 adv_by_pid = {a["player"]["id"]: a for a in adv_raw}
 
 # 5. Play-by-play
@@ -359,19 +442,19 @@ print("Coletando play-by-play...")
 plays_raw = get(f"{BASE_V1}/plays", {"game_id": game_id}).get("data", [])
 print(f"  {len(plays_raw)} eventos")
 
-# 6. Box score → dict por time
+# 6. Box score por time
 box_score = {}
 if box_score_raw:
-    box_score[home_abbr] = build_players_from_box(box_score_raw.get("home_team",{}), starter_ids, lineup_pos, adv_by_pid)
-    box_score[away_abbr] = build_players_from_box(box_score_raw.get("visitor_team",{}), starter_ids, lineup_pos, adv_by_pid)
+    box_score[home_abbr] = build_players(box_score_raw.get("home_team",{}), starter_ids, lineup_pos, adv_by_pid)
+    box_score[away_abbr] = build_players(box_score_raw.get("visitor_team",{}), starter_ids, lineup_pos, adv_by_pid)
 else:
     print("  Box score via /stats endpoint...")
     stats_raw = all_pages(f"{BASE_V1}/stats", {"game_ids[]": game_id})
     for team_a in [home_abbr, away_abbr]:
         team_stats = [s for s in stats_raw if abbr(s.get("team",{})) == team_a]
-        box_score[team_a] = build_players_from_stats(team_stats, team_a, starter_ids, lineup_pos, adv_by_pid)
+        box_score[team_a] = build_players_from_stats(team_stats, starter_ids, lineup_pos, adv_by_pid)
 
-# Corrige pts zerados
+# Corrige pts zerados pelo box score
 if home_pts == 0 and away_pts == 0:
     home_pts = sum(p.get("pts",0) for p in box_score.get(home_abbr,[]))
     away_pts = sum(p.get("pts",0) for p in box_score.get(away_abbr,[]))
@@ -380,13 +463,13 @@ if home_pts == 0 and away_pts == 0:
 # 7. Quartos
 quarter_scores, num_periods = quarter_scores_from_game(game_data, home_abbr, away_abbr)
 
-# 8. Dinâmica
+# 8. Dinâmica do jogo
 dynamics = compute_game_flow(plays_raw, home_abbr, away_abbr)
 
 # 9. Timeline
 score_timeline = [
     {
-        "min":     clock_to_min(p.get("clock","0:00"), p.get("period",1)),
+        "min":     clock_to_min(p.get("clock",""), p.get("period",1)),
         "home":    p.get("home_score", 0),
         "away":    p.get("away_score", 0),
         "period":  p.get("period", 1),
@@ -396,7 +479,7 @@ score_timeline = [
     for p in plays_raw
 ]
 
-# 10. Shot zones
+# 10. Shot zones — chaves: at_rim, paint, mid, corner_3, arc_3
 shot_zones = build_shot_zones(plays_raw, home_abbr, away_abbr)
 
 # 11. Arremessos individuais
@@ -413,36 +496,40 @@ shots = [
     if p.get("shooting_play") and p.get("coordinate_x") is not None
 ]
 
-# 12. Four factors, misc, hustle por time
+# 12. Four factors, misc, hustle — chaves devem bater com jogo.html
 ff, misc, hustle = {}, {}, {}
 for t in [home_abbr, away_abbr]:
     ta    = [a for a in adv_raw if abbr(a.get("team",{})) == t]
     first = ta[0] if ta else {}
+    # four_factors: efg, tov, oreb, ftr (sem sufixo _pct)
     ff[t] = {
-        "efg_pct":      first.get("four_factors_efg_pct"),
-        "tov_pct":      first.get("team_turnover_pct"),
-        "oreb_pct":     first.get("four_factors_oreb_pct"),
-        "ftr":          first.get("free_throw_attempt_rate"),
-        "opp_efg_pct":  first.get("opp_efg_pct"),
-        "opp_tov_pct":  first.get("opp_turnover_pct"),
-        "opp_oreb_pct": first.get("opp_oreb_pct"),
-        "opp_ftr":      first.get("opp_free_throw_attempt_rate"),
+        "efg":      first.get("four_factors_efg_pct"),
+        "tov":      first.get("team_turnover_pct"),
+        "oreb":     first.get("four_factors_oreb_pct"),
+        "ftr":      first.get("free_throw_attempt_rate"),
+        "opp_efg":  first.get("opp_efg_pct"),
+        "opp_tov":  first.get("opp_turnover_pct"),
+        "opp_oreb": first.get("opp_oreb_pct"),
+        "opp_ftr":  first.get("opp_free_throw_attempt_rate"),
     }
+    # misc: pts_fb (não pts_fastbreak)
     misc[t] = {
         "pts_paint":      agg(ta, "points_paint"),
+        "pts_fb":         agg(ta, "points_fast_break"),
         "pts_2nd_chance": agg(ta, "points_second_chance"),
-        "pts_fastbreak":  agg(ta, "points_fast_break"),
         "pts_off_tov":    agg(ta, "points_off_turnovers"),
     }
     hustle[t] = {
         "deflections":           agg(ta, "deflections"),
         "charges_drawn":         agg(ta, "charges_drawn"),
         "contested_shots":       agg(ta, "contested_shots"),
+        "contested_2pt":         agg(ta, "contested_shots_2pt"),
+        "contested_3pt":         agg(ta, "contested_shots_3pt"),
         "loose_balls_recovered": agg(ta, "loose_balls_recovered_total"),
         "screen_assists":        agg(ta, "screen_assists"),
     }
 
-# 13. Salva
+# 13. Output final
 output = {
     "game_id":       str(game_id),
     "date":          game_date,
