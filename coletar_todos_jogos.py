@@ -27,13 +27,9 @@ for serie_id, game_id, home, away, num in all_games:
                 d = json.load(f)
             tl = len(d.get("score_timeline", []))
             bs = len(d.get("box_score", {}).get(d.get("home",""), []))
-            mu = len(d.get("matchups", []))
             if tl == 0 or bs == 0:
                 needs_collect = True
                 reason = "incompleto"
-            elif mu == 0:
-                needs_collect = True
-                reason = "sem matchups"
         except:
             needs_collect = True
             reason = "erro ao ler"

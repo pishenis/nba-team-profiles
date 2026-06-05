@@ -1,24 +1,34 @@
-import json
-import time
+#!/usr/bin/env python3
+"""
+coletar_head2head.py — BallDontLie edition
+Coleta confrontos da temporada regular entre adversários dos playoffs
+"""
+
+import json, os, time
 from datetime import date
-from nba_api.stats.endpoints import LeagueGameLog
+import requests
+from dotenv import load_dotenv
 
-SEASON = "2025-26"
+load_dotenv()
+API_KEY = os.getenv("BDL_API_KEY")
+if not API_KEY:
+    print("ERRO: BDL_API_KEY não encontrado")
+    exit(1)
 
-NBA_HEADERS = {
-    'Host': 'stats.nba.com',
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'application/json, text/plain, */*',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'x-nba-stats-origin': 'stats',
-    'x-nba-stats-token': 'true',
-    'Connection': 'keep-alive',
-    'Referer': 'https://www.nba.com/',
-    'Origin': 'https://www.nba.com',
+HEADERS = {"Authorization": API_KEY}
+BASE    = "https://api.balldontlie.io/nba/v1"
+SEASON  = 2025
+
+# Mapeamento abreviação → BDL team ID
+TEAM_IDS = {
+    "ATL": 1,  "BOS": 2,  "BKN": 3,  "CHA": 4,  "CHI": 5,
+    "CLE": 6,  "DAL": 7,  "DEN": 8,  "DET": 9,  "GSW": 10,
+    "HOU": 11, "IND": 12, "LAC": 13, "LAL": 14, "MEM": 15,
+    "MIA": 16, "MIL": 17, "MIN": 18, "NOP": 19, "NYK": 20,
+    "OKC": 21, "ORL": 22, "PHI": 23, "PHX": 24, "POR": 25,
+    "SAC": 26, "SAS": 27, "TOR": 28, "UTA": 29, "WAS": 30,
 }
 
-# Séries confirmadas do primeiro round
 SERIES = [
     {"id": "lal_hou", "home": "LAL", "away": "HOU", "home_seed": 4, "away_seed": 5, "conf": "West"},
     {"id": "den_min", "home": "DEN", "away": "MIN", "home_seed": 3, "away_seed": 6, "conf": "West"},
@@ -28,115 +38,88 @@ SERIES = [
     {"id": "bos_phi", "home": "BOS", "away": "PHI", "home_seed": 2, "away_seed": 7, "conf": "East"},
     {"id": "det_orl", "home": "DET", "away": "ORL", "home_seed": 1, "away_seed": 8, "conf": "East"},
     {"id": "okc_phx", "home": "OKC", "away": "PHX", "home_seed": 1, "away_seed": 8, "conf": "West"},
-    # Segundo Round
     {"id": "sas_min", "home": "SAS", "away": "MIN", "home_seed": 2, "away_seed": 6, "conf": "West"},
     {"id": "okc_lal", "home": "OKC", "away": "LAL", "home_seed": 1, "away_seed": 4, "conf": "West"},
     {"id": "nyk_phi", "home": "NYK", "away": "PHI", "home_seed": 3, "away_seed": 7, "conf": "East"},
     {"id": "det_cle", "home": "DET", "away": "CLE", "home_seed": 1, "away_seed": 4, "conf": "East"},
-    # Finais de Conferência
     {"id": "okc_sas", "home": "OKC", "away": "SAS", "home_seed": 1, "away_seed": 2, "conf": "West"},
     {"id": "nyk_cle", "home": "CLE", "away": "NYK", "home_seed": 4, "away_seed": 3, "conf": "East"},
-    # Finais da NBA
-    {"id": "finals", "home": "SAS", "away": "NYK", "home_seed": 2, "away_seed": 3, "conf": "Finals"},
+    {"id": "finals",  "home": "SAS", "away": "NYK", "home_seed": 2, "away_seed": 3, "conf": "Finals"},
 ]
 
-def fetch_gamelog(retries=3):
-    for attempt in range(retries):
-        try:
-            time.sleep(2)
-            df = LeagueGameLog(
-                season=SEASON,
-                season_type_all_star="Regular Season",
-                headers=NBA_HEADERS,
-                timeout=60,
-            ).get_data_frames()[0]
-            return df
-        except Exception as e:
-            if attempt < retries - 1:
-                print(f"  Tentativa {attempt+1} falhou, aguardando 5s...")
-                time.sleep(5)
-            else:
-                raise e
+def get_all_pages(url, params=None):
+    params = dict(params or {})
+    params["per_page"] = 100
+    items = []
+    while True:
+        time.sleep(0.3)
+        r = requests.get(url, headers=HEADERS, params=params, timeout=30)
+        r.raise_for_status()
+        data = r.json()
+        items.extend(data.get("data", []))
+        cursor = data.get("meta", {}).get("next_cursor")
+        if not cursor:
+            break
+        params["cursor"] = cursor
+    return items
 
-print("Coletando game log da temporada...")
-df = fetch_gamelog()
-print(f"  {len(df)} registros encontrados")
-
-# Cada jogo aparece duas vezes no gamelog (uma por time)
-# Filtra só as entradas do time mandante (MATCHUP contém "vs.")
-home_games = df[df["MATCHUP"].str.contains(r"vs\.", regex=True)].copy()
-print(f"  {len(home_games)} jogos do mandante")
-
-output = {"season": SEASON, "updated": str(date.today()), "series": {}}
+output = {"season": "2025-26", "updated": str(date.today()), "series": {}}
 
 for serie in SERIES:
-    t1 = serie["home"]
-    t2 = serie["away"]
+    t1   = serie["home"]
+    t2   = serie["away"]
+    id1  = TEAM_IDS.get(t1)
+    id2  = TEAM_IDS.get(t2)
+    if not id1 or not id2:
+        print(f"  ID não encontrado para {t1} ou {t2}")
+        continue
+
     print(f"\nProcessando {t1} vs {t2}...")
 
-    # Jogos onde t1 jogou em casa contra t2
-    t1_home = home_games[
-        (home_games["TEAM_ABBREVIATION"] == t1) &
-        (home_games["MATCHUP"].str.contains(t2))
-    ].copy()
-
-    # Jogos onde t2 jogou em casa contra t1
-    t2_home = home_games[
-        (home_games["TEAM_ABBREVIATION"] == t2) &
-        (home_games["MATCHUP"].str.contains(t1))
-    ].copy()
+    # BDL retorna jogos de qualquer um dos dois times — filtramos depois
+    games_raw = get_all_pages(f"{BASE}/games", {
+        "seasons[]":  SEASON,
+        "team_ids[]": [id1, id2],
+        "postseason": "false",
+    })
 
     games = []
+    for g in games_raw:
+        ha = g["home_team"]["abbreviation"]
+        aa = g["visitor_team"]["abbreviation"]
+        if {ha, aa} != {t1, t2}:
+            continue  # ignora jogos contra outros times
+        home_pts  = g.get("home_team_score", 0) or 0
+        away_pts  = g.get("visitor_team_score", 0) or 0
+        is_cup    = bool(g.get("ist_stage"))  # jogo da NBA Cup
+        entry = {
+            "game_id":  str(g["id"]),
+            "date":     (g.get("date") or "")[:10],
+            "home":     ha,
+            "away":     aa,
+            "home_pts": home_pts,
+            "away_pts": away_pts,
+            "winner":   ha if home_pts > away_pts else aa,
+        }
+        if is_cup:
+            entry["is_cup"] = True
+        games.append(entry)
 
-    for _, row in t1_home.iterrows():
-        opp_score = df[
-            (df["GAME_ID"] == row["GAME_ID"]) &
-            (df["TEAM_ABBREVIATION"] == t2)
-        ]["PTS"].values
-        opp_pts = int(opp_score[0]) if len(opp_score) > 0 else 0
-        games.append({
-            "game_id": row["GAME_ID"],
-            "date": row["GAME_DATE"],
-            "home": t1,
-            "away": t2,
-            "home_pts": int(row["PTS"]),
-            "away_pts": opp_pts,
-            "winner": t1 if int(row["PTS"]) > opp_pts else t2,
-        })
-
-    for _, row in t2_home.iterrows():
-        opp_score = df[
-            (df["GAME_ID"] == row["GAME_ID"]) &
-            (df["TEAM_ABBREVIATION"] == t1)
-        ]["PTS"].values
-        opp_pts = int(opp_score[0]) if len(opp_score) > 0 else 0
-        games.append({
-            "game_id": row["GAME_ID"],
-            "date": row["GAME_DATE"],
-            "home": t2,
-            "away": t1,
-            "home_pts": int(row["PTS"]),
-            "away_pts": opp_pts,
-            "winner": t2 if int(row["PTS"]) > opp_pts else t1,
-        })
-
-    # Ordena por data
     games.sort(key=lambda x: x["date"])
 
-    # Recorde na temporada regular
-    t1_wins = sum(1 for g in games if g["winner"] == t1)
-    t2_wins = sum(1 for g in games if g["winner"] == t2)
-
-    print(f"  {len(games)} jogos encontrados · {t1} {t1_wins}-{t2_wins} {t2}")
+    # Recorde: exclui jogos da NBA Cup da contagem
+    t1_wins = sum(1 for g in games if g["winner"] == t1 and not g.get("is_cup"))
+    t2_wins = sum(1 for g in games if g["winner"] == t2 and not g.get("is_cup"))
+    print(f"  {len(games)} jogos · {t1} {t1_wins}-{t2_wins} {t2}")
 
     output["series"][serie["id"]] = {
-        "conf": serie["conf"],
-        "home": t1,
-        "away": t2,
-        "home_seed": serie["home_seed"],
-        "away_seed": serie["away_seed"],
-        "regular_season_record": {t1: t1_wins, t2: t2_wins},
-        "games": games,
+        "conf":                   serie["conf"],
+        "home":                   t1,
+        "away":                   t2,
+        "home_seed":              serie["home_seed"],
+        "away_seed":              serie["away_seed"],
+        "regular_season_record":  {t1: t1_wins, t2: t2_wins},
+        "games":                  games,
     }
 
 with open("head2head.json", "w") as f:
