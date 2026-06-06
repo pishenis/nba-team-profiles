@@ -497,20 +497,38 @@ shots = [
 ]
 
 # 12. Four factors, misc, hustle — chaves devem bater com jogo.html
+# Computa OReb% direto do box score (BDL retorna null para esse campo)
+def team_oreb(t):
+    return sum(p.get("oreb", 0) for p in box_score.get(t, []))
+def team_dreb(t):
+    return sum(p.get("reb", 0) - p.get("oreb", 0) for p in box_score.get(t, []))
+
+home_orb = team_oreb(home_abbr)
+away_orb = team_oreb(away_abbr)
+home_drb = team_dreb(home_abbr)
+away_drb = team_dreb(away_abbr)
+
+def oreb_pct(orb, opp_drb):
+    return round(orb / (orb + opp_drb) * 100, 1) if (orb + opp_drb) > 0 else 0
+
 ff, misc, hustle = {}, {}, {}
 for t in [home_abbr, away_abbr]:
     ta    = [a for a in adv_raw if abbr(a.get("team",{})) == t]
     first = ta[0] if ta else {}
+    orb   = home_orb if t == home_abbr else away_orb
+    opp_drb = away_drb if t == home_abbr else home_drb
+    opp_orb = away_orb if t == home_abbr else home_orb
+    my_drb  = home_drb if t == home_abbr else away_drb
     # four_factors: efg, tov, oreb, ftr (sem sufixo _pct)
     ff[t] = {
         "efg":      round((first.get("four_factors_efg_pct") or 0) * 100, 1),
         "tov":      round((first.get("team_turnover_pct") or 0) * 100, 1),
-        "oreb":     round((first.get("four_factors_oreb_pct") or 0) * 100, 1),
-        "ftr":      round(first.get("free_throw_attempt_rate") or 0, 3),
+        "oreb":     oreb_pct(orb, opp_drb),
+        "ftr":      round((first.get("free_throw_attempt_rate") or 0) * 100, 1),
         "opp_efg":  round((first.get("opp_efg_pct") or 0) * 100, 1),
         "opp_tov":  round((first.get("opp_turnover_pct") or 0) * 100, 1),
-        "opp_oreb": round((first.get("opp_oreb_pct") or 0) * 100, 1),
-        "opp_ftr":  round(first.get("opp_free_throw_attempt_rate") or 0, 3),
+        "opp_oreb": oreb_pct(opp_orb, my_drb),
+        "opp_ftr":  round((first.get("opp_free_throw_attempt_rate") or 0) * 100, 1),
     }
     # misc: pts_fb (não pts_fastbreak)
     misc[t] = {
