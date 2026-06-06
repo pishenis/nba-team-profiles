@@ -503,14 +503,14 @@ for t in [home_abbr, away_abbr]:
     first = ta[0] if ta else {}
     # four_factors: efg, tov, oreb, ftr (sem sufixo _pct)
     ff[t] = {
-        "efg":      first.get("four_factors_efg_pct"),
-        "tov":      first.get("team_turnover_pct"),
-        "oreb":     first.get("four_factors_oreb_pct"),
-        "ftr":      first.get("free_throw_attempt_rate"),
-        "opp_efg":  first.get("opp_efg_pct"),
-        "opp_tov":  first.get("opp_turnover_pct"),
-        "opp_oreb": first.get("opp_oreb_pct"),
-        "opp_ftr":  first.get("opp_free_throw_attempt_rate"),
+        "efg":      round((first.get("four_factors_efg_pct") or 0) * 100, 1),
+        "tov":      round((first.get("team_turnover_pct") or 0) * 100, 1),
+        "oreb":     round((first.get("four_factors_oreb_pct") or 0) * 100, 1),
+        "ftr":      round(first.get("free_throw_attempt_rate") or 0, 3),
+        "opp_efg":  round((first.get("opp_efg_pct") or 0) * 100, 1),
+        "opp_tov":  round((first.get("opp_turnover_pct") or 0) * 100, 1),
+        "opp_oreb": round((first.get("opp_oreb_pct") or 0) * 100, 1),
+        "opp_ftr":  round(first.get("opp_free_throw_attempt_rate") or 0, 3),
     }
     # misc: pts_fb (não pts_fastbreak)
     misc[t] = {
