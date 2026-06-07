@@ -52,43 +52,55 @@ table{width:100%;border-collapse:collapse;font-size:12px}
 thead{background:var(--paper)}
 thead th{padding:9px 12px;text-align:left;font-family:var(--mono);font-size:9px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--mute);white-space:nowrap;border-bottom:0.5px solid var(--hair)}
 thead th.r{text-align:right}
+thead th .th-hint{display:block;font-size:8px;color:var(--mute-2);letter-spacing:0.04em;text-transform:none;font-weight:400;margin-top:1px}
 tbody tr{border-bottom:0.5px solid var(--hair);transition:background 0.1s}
 tbody tr:last-child{border-bottom:none}
 tbody tr:hover{background:var(--paper)}
-td{padding:9px 12px;vertical-align:middle;white-space:nowrap}
+td{padding:10px 12px;vertical-align:middle;white-space:nowrap}
 td.r{text-align:right}
 
+/* rank */
 .rk{font-family:var(--mono);font-size:11px;color:var(--mute-2);width:28px;text-align:center}
-.rk.gold{color:#a07800;font-weight:600}
-.rk.silver{color:#707070;font-weight:600}
-.rk.bronze{color:#8b4513;font-weight:600}
+.rk.gold{color:#a07800;font-weight:700}
+.rk.silver{color:#606060;font-weight:700}
+.rk.bronze{color:#8b4513;font-weight:700}
 
+/* jogador */
 .player-cell{display:flex;align-items:center;gap:9px}
-.player-photo{width:30px;height:30px;border-radius:50%;background:var(--hair);flex-shrink:0;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--mute-2)}
+.player-photo{width:34px;height:34px;border-radius:50%;background:var(--hair);flex-shrink:0;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--mute-2);font-weight:500}
 .player-photo img{width:100%;height:100%;object-fit:cover}
 .player-name{font-size:13px;font-weight:500}
-.player-meta{font-family:var(--mono);font-size:9px;color:var(--mute);letter-spacing:0.04em;margin-top:1px}
+.player-meta{font-family:var(--mono);font-size:9px;color:var(--mute);letter-spacing:0.04em;margin-top:2px}
 
+/* time */
 .team-cell{display:flex;align-items:center;gap:5px}
-.team-logo-sm{width:20px;height:20px;object-fit:contain}
+.team-logo-sm{width:22px;height:22px;object-fit:contain;flex-shrink:0}
 .team-abbr{font-family:var(--mono);font-size:10px;color:var(--mute)}
 
-.val{font-family:var(--mono);font-size:12px;font-weight:500}
+/* valores */
+.val{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--ink)}
 .val.blue{color:var(--bp-blue)}
 .val.green{color:var(--green)}
 .val.red{color:var(--red)}
 .val.mute{color:var(--mute);font-weight:400}
+.val-sub{font-family:var(--mono);font-size:9px;color:var(--mute);margin-top:2px}
 
-.mini-bar{height:3px;background:var(--hair);border-radius:2px;margin-top:4px;width:72px;overflow:hidden}
+/* PER badge */
+.per-badge{display:inline-block;font-family:var(--mono);font-size:13px;font-weight:600;min-width:36px;text-align:right}
+.per-elite{color:#0e8a99}
+.per-good{color:var(--ink)}
+.per-avg{color:var(--mute)}
+.per-below{color:var(--red)}
+
+/* barra mini */
+.mini-bar{height:3px;background:var(--hair);border-radius:2px;margin-top:4px;width:64px;overflow:hidden}
 .mini-bar-fill{height:100%;border-radius:2px}
 
-/* pill de posição */
-.pos-pill{display:inline-block;font-family:var(--mono);font-size:8px;font-weight:500;padding:1px 5px;border-radius:3px;background:var(--paper);border:0.5px solid var(--hair);color:var(--mute);letter-spacing:0.04em}
+/* % do cap */
+.cap-pct{font-family:var(--mono);font-size:11px;color:var(--mute)}
 
-/* PIE tooltip */
-.pie-wrap{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
-.pie-val{font-family:var(--mono);font-size:13px;font-weight:500}
-.pie-pct{font-family:var(--mono);font-size:9px;color:var(--mute)}
+/* anos restantes */
+.years-left{font-family:var(--mono);font-size:11px}
 
 /* loading */
 .loading{text-align:center;padding:48px;color:var(--mute);font-size:13px}
@@ -97,7 +109,7 @@ td.r{text-align:right}
 .ld:nth-child(2){animation-delay:0.2s}.ld:nth-child(3){animation-delay:0.4s}
 @keyframes ldp{0%,80%,100%{opacity:0.2;transform:scale(0.8)}40%{opacity:1;transform:scale(1)}}
 
-.footnote{margin-top:16px;font-family:var(--mono);font-size:10px;color:var(--mute-2);line-height:1.6}
+.footnote{margin-top:14px;font-family:var(--mono);font-size:10px;color:var(--mute-2);line-height:1.7}
 .footer-note{margin-top:32px;padding-top:12px;border-top:0.5px solid var(--hair);font-size:11px;color:var(--mute)}
 
 @media(max-width:600px){.site-header{padding:0 16px}.wrap{padding:0 16px 64px}}
@@ -133,7 +145,7 @@ td.r{text-align:right}
     <button class="tab-btn" data-tab="pos-G">Guards</button>
     <button class="tab-btn" data-tab="pos-F">Forwards</button>
     <button class="tab-btn" data-tab="pos-C">Centers</button>
-    <button class="tab-btn" data-tab="pie">Maior PIE</button>
+    <button class="tab-btn" data-tab="per">Maior PER</button>
     <button class="tab-btn" data-tab="value">Melhor custo-benefício</button>
     <button class="tab-btn" data-tab="worst">Piores contratos</button>
   </div>
@@ -158,32 +170,52 @@ const BDL_TO_NBA = {
   26:1610612758,27:1610612759,28:1610612761,29:1610612762,30:1610612764
 };
 
+const CAP_LIMIT = 154647000;
+const SEASON_END = 2026; // ano de término da temporada atual
+
 var NBA_PLAYER_IDS = {};
-var salaryPlayers  = [];   // todos com cap_hit_raw (de salaries JSONs)
-var advancedMap    = {};   // player_id → stats avançadas
+var salaryPlayers  = [];  // todos os jogadores com cap_hit_raw
+var advancedMap    = {};  // player_id → stats avançadas
 var activeTab      = 'top';
 
 function logoUrl(bdlId){ var n=BDL_TO_NBA[bdlId]; return n?'https://cdn.nba.com/logos/nba/'+n+'/global/L/logo.svg':''; }
 function normalizeStr(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,''); }
 function photoUrl(name){ var id=NBA_PLAYER_IDS[name]||NBA_PLAYER_IDS[normalizeStr(name)]; return id?'https://cdn.nba.com/headshots/nba/latest/260x190/'+id+'.png':''; }
 function fmt(n){ if(!n) return '—'; if(n>=1e6) return '$'+(n/1e6).toFixed(1)+'M'; if(n>=1e3) return '$'+(n/1e3).toFixed(0)+'K'; return '$'+n; }
-function fmtCB(n){ return n?'$'+n.toFixed(2)+'M/PIE%':'—'; }
 function rankCls(i){ return i===0?'gold':i===1?'silver':i===2?'bronze':''; }
+
+function perClass(per) {
+  if (!per) return 'per-avg';
+  if (per >= 25) return 'per-elite';
+  if (per >= 18) return 'per-good';
+  if (per >= 13) return 'per-avg';
+  return 'per-below';
+}
+
+function capPct(raw) {
+  return ((raw / CAP_LIMIT) * 100).toFixed(1) + '%';
+}
+
+function yearsLeft(endYear) {
+  if (!endYear) return '—';
+  var left = endYear - SEASON_END;
+  if (left <= 0) return '<span style="color:var(--mute)">Expira</span>';
+  return left + ' ano' + (left > 1 ? 's' : '');
+}
 
 // ── CARGA ────────────────────────────────────────
 async function loadAll() {
   try {
-    // fotos
     try{ var rp=await fetch('data/salaries/nba_player_ids.json'); if(rp.ok) NBA_PLAYER_IDS=await rp.json(); }catch(e){}
 
-    // advanced stats
     var adv = null;
     try{ var ra=await fetch('data/salaries/player_advanced.json'); if(ra.ok) adv=await ra.json(); }catch(e){}
 
-    // salários (índice + todos os JSONs)
     var ri=await fetch('data/salaries/salaries_index.json');
     var index=await ri.json();
-    var promises=index.map(function(t){ return fetch('data/salaries/salaries_'+t.abbreviation.toLowerCase()+'.json').then(function(r){return r.json();}); });
+    var promises=index.map(function(t){
+      return fetch('data/salaries/salaries_'+t.abbreviation.toLowerCase()+'.json').then(function(r){return r.json();});
+    });
     var results=await Promise.all(promises);
 
     salaryPlayers=[];
@@ -191,94 +223,86 @@ async function loadAll() {
       (td.players||[]).forEach(function(p){
         if(!p.cap_hit_raw) return;
         salaryPlayers.push({
-          player_id:   p.player_id,
-          name:        p.name,
-          position:    p.position||'',
-          team_id:     td.team.id,
-          team_abbr:   td.team.abbreviation,
-          cap_hit_raw: p.cap_hit_raw,
-          cap_hit:     p.cap_hit,
+          player_id:     p.player_id,
+          name:          p.name,
+          position:      p.position||'',
+          team_id:       td.team.id,
+          team_abbr:     td.team.abbreviation,
+          cap_hit_raw:   p.cap_hit_raw,
+          cap_hit:       p.cap_hit,
+          end_year:      p.end_year,
+          contract_years: p.contract_years,
         });
       });
     });
 
-    // monta mapa de advanced por player_id
     if (adv && adv.players) {
       adv.players.forEach(function(p){ advancedMap[p.player_id] = p; });
     }
 
-    // Enriquece salaryPlayers com advanced
     salaryPlayers.forEach(function(p){
       var a = advancedMap[p.player_id];
       if (a) {
-        p.pie          = a.pie;
-        p.pie_pct      = a.pie_pct;
+        p.per          = a.per;
+        p.pts          = a.pts;
+        p.reb          = a.reb;
+        p.ast          = a.ast;
+        p.min          = a.min;
+        p.games        = a.games;
         p.ts_pct       = a.ts_pct;
         p.net_rating   = a.net_rating;
-        p.usg_pct      = a.usg_pct;
-        p.efg_pct      = a.efg_pct;
-        p.games        = a.games;
-        p.cost_per_pie = a.cost_per_pie;
+        p.cost_per_per = a.cost_per_per;
       }
     });
 
     renderTab(activeTab);
   } catch(e) {
     document.getElementById('tab-content').innerHTML =
-      '<div style="text-align:center;padding:40px;color:var(--mute);font-size:13px">Erro ao carregar dados. Execute os scripts primeiro.</div>';
+      '<div style="text-align:center;padding:40px;color:var(--mute);font-size:13px">Erro ao carregar dados.</div>';
   }
 }
 
 // ── RENDER ───────────────────────────────────────
 function renderTab(tab) {
   activeTab = tab;
-  var players, title, note='';
+  var players;
 
   if (tab === 'top') {
     players = salaryPlayers.slice().sort(function(a,b){return b.cap_hit_raw-a.cap_hit_raw;}).slice(0,50);
-    title = 'Top 50 maiores cap hits · 2025–26';
-    renderSalaryTable(players, title, note);
-  }
-  else if (tab.startsWith('pos-')) {
+    renderTable(players, 'Top 50 maiores cap hits · 2025–26', 'salary');
+  } else if (tab.startsWith('pos-')) {
     var pos = tab.replace('pos-','');
     var label = {G:'Guards',F:'Forwards',C:'Centers'}[pos]||pos;
     players = salaryPlayers.filter(function(p){ return p.position && p.position.toUpperCase().includes(pos); })
       .sort(function(a,b){return b.cap_hit_raw-a.cap_hit_raw;}).slice(0,30);
-    title = 'Top 30 '+label+' por salário';
-    renderSalaryTable(players, title, note);
-  }
-  else if (tab === 'pie') {
-    players = salaryPlayers.filter(function(p){return p.pie!=null;})
-      .sort(function(a,b){return b.pie-a.pie;}).slice(0,30);
-    title = 'Top 30 · Maior PIE médio da temporada';
-    note = 'PIE (Player Impact Estimate) mede a contribuição estatística do jogador em relação ao total de estatísticas dos jogos em que participa. Calculado como média ponderada por possessões, mínimo '+( advancedMap[Object.keys(advancedMap)[0]]? '20':'20')+' jogos.';
-    renderAdvancedTable(players, title, note, 'pie');
-  }
-  else if (tab === 'value') {
-    players = salaryPlayers.filter(function(p){return p.cost_per_pie!=null && p.pie_pct>=8;})
-      .sort(function(a,b){return a.cost_per_pie-b.cost_per_pie;}).slice(0,30);
-    title = 'Melhor custo-benefício · $ por % de PIE (mín. 8% PIE)';
-    note = 'Custo-benefício = cap hit em milhões ÷ PIE%. Jogadores com menor valor têm melhor retorno por dólar investido.';
-    renderAdvancedTable(players, title, note, 'value');
-  }
-  else if (tab === 'worst') {
-    players = salaryPlayers.filter(function(p){return p.cost_per_pie!=null && p.cap_hit_raw>10000000;})
-      .sort(function(a,b){return b.cost_per_pie-a.cost_per_pie;}).slice(0,30);
-    title = 'Piores contratos · maior custo por % de PIE (mín. $10M de cap hit)';
-    note = 'Contratos com maior custo por unidade de PIE, excluindo salários mínimos. Alto custo por PIE indica baixo retorno por dólar.';
-    renderAdvancedTable(players, title, note, 'worst');
+    renderTable(players, 'Top 30 '+label+' por salário', 'salary');
+  } else if (tab === 'per') {
+    players = salaryPlayers.filter(function(p){return p.per!=null;})
+      .sort(function(a,b){return b.per-a.per;}).slice(0,30);
+    renderTable(players, 'Top 30 · Maior PER · 2025–26', 'per');
+  } else if (tab === 'value') {
+    players = salaryPlayers.filter(function(p){return p.cost_per_per!=null && p.per>=15;})
+      .sort(function(a,b){return a.cost_per_per-b.cost_per_per;}).slice(0,30);
+    renderTable(players, 'Melhor custo-benefício · menor $/PER (mín. PER 15)', 'value');
+  } else if (tab === 'worst') {
+    players = salaryPlayers.filter(function(p){return p.cost_per_per!=null && p.cap_hit_raw>=10000000;})
+      .sort(function(a,b){return b.cost_per_per-a.cost_per_per;}).slice(0,30);
+    renderTable(players, 'Piores contratos · maior $/PER (mín. $10M de cap hit)', 'worst');
   }
 }
 
-function playerRowStart(p, i) {
+function playerStart(p, i) {
   var photo = photoUrl(p.name);
   var logo  = logoUrl(p.team_id);
+  var initial = (p.name||'').charAt(0);
   return '<tr>'+
     '<td><div class="rk '+rankCls(i)+'">'+(i+1)+'</div></td>'+
     '<td><div class="player-cell">'+
-      '<div class="player-photo">'+(photo?'<img src="'+photo+'" alt="'+p.name+'" onerror="this.parentNode.textContent=\''+p.name.charAt(0)+'\'" />':p.name.charAt(0))+'</div>'+
-      '<div><div class="player-name">'+p.name+'</div>'+
-      '<div class="player-meta">'+(p.position||'')+'</div></div>'+
+      '<div class="player-photo">'+(photo?'<img src="'+photo+'" alt="'+p.name+'" onerror="this.parentNode.textContent=\''+initial+'\'" />':initial)+'</div>'+
+      '<div>'+
+        '<div class="player-name">'+p.name+'</div>'+
+        '<div class="player-meta">'+(p.position||'')+'</div>'+
+      '</div>'+
     '</div></td>'+
     '<td><div class="team-cell">'+
       (logo?'<img class="team-logo-sm" src="'+logo+'" onerror="this.style.display=\'none\'" />':'')+
@@ -286,100 +310,90 @@ function playerRowStart(p, i) {
     '</div></td>';
 }
 
-function renderSalaryTable(players, title, note) {
-  if (!players.length) { document.getElementById('tab-content').innerHTML='<div style="padding:32px;text-align:center;color:var(--mute)">Sem dados.</div>'; return; }
-  var maxCap = players[0].cap_hit_raw;
-
-  var rows = players.map(function(p,i){
-    var barW = Math.round(p.cap_hit_raw/maxCap*100);
-    var hasPie = p.pie != null;
-    return playerRowStart(p,i)+
-      '<td class="r">'+
-        '<div class="val blue">'+p.cap_hit+'</div>'+
-        '<div class="mini-bar"><div class="mini-bar-fill" style="width:'+barW+'%;background:var(--bp-blue)"></div></div>'+
-      '</td>'+
-      '<td class="r">'+
-        (hasPie?'<div class="val">'+(p.pie_pct).toFixed(1)+'%</div>':'<div class="val mute">—</div>')+
-      '</td>'+
-      '<td class="r">'+
-        (p.ts_pct!=null?'<div class="val">'+(p.ts_pct*100).toFixed(1)+'%</div>':'<div class="val mute">—</div>')+
-      '</td>'+
-      '<td class="r">'+
-        (p.net_rating!=null?'<div class="val '+(p.net_rating>=0?'green':'red')+'">'+(p.net_rating>=0?'+':'')+p.net_rating.toFixed(1)+'</div>':'<div class="val mute">—</div>')+
-      '</td>'+
-    '</tr>';
-  }).join('');
-
-  document.getElementById('tab-content').innerHTML =
-    '<div style="margin-bottom:10px;font-size:13px;font-weight:500">'+title+'</div>'+
-    '<div class="rank-wrap"><table>'+
-      '<thead><tr>'+
-        '<th style="width:28px">#</th><th>Jogador</th><th>Time</th>'+
-        '<th class="r">Cap Hit</th><th class="r">PIE%</th><th class="r">TS%</th><th class="r">Net Rtg</th>'+
-      '</tr></thead>'+
-      '<tbody>'+rows+'</tbody>'+
-    '</table></div>'+
-    (note?'<div class="footnote">* '+note+'</div>':'')+
-    checkAdvancedNote();
-}
-
-function renderAdvancedTable(players, title, note, mode) {
+function renderTable(players, title, mode) {
   if (!players.length) {
     document.getElementById('tab-content').innerHTML=
-      '<div style="padding:32px;text-align:center;color:var(--mute)">'+
-      'Sem dados. Execute <code>python3 generate_advanced.py</code> primeiro.</div>';
+      '<div style="padding:32px;text-align:center;color:var(--mute)">Sem dados suficientes. Execute <code>python3 generate_advanced.py</code> primeiro.</div>';
     return;
   }
-  var maxPie = Math.max.apply(null, players.map(function(p){return p.pie_pct||0;}));
-  var maxCB  = mode==='worst' ? players[0].cost_per_pie : null;
 
-  var rows = players.map(function(p,i){
-    var pieBarW = Math.round((p.pie_pct||0)/maxPie*100);
-    var cbColor = mode==='value'?'var(--green)':'var(--red)';
-    var cbBarW  = mode==='worst'? Math.round((p.cost_per_pie||0)/(maxCB||1)*100) : Math.round((players[players.length-1].cost_per_pie||0)/(p.cost_per_pie||1)*100);
+  var maxCap = Math.max.apply(null, players.map(function(p){return p.cap_hit_raw||0;}));
+  var maxCB  = mode==='worst' ? players[0].cost_per_per : null;
 
-    return playerRowStart(p,i)+
+  var rows = players.map(function(p, i) {
+    var capBarW = Math.round((p.cap_hit_raw||0)/maxCap*100);
+    var perVal  = p.per != null ? p.per : null;
+    var perHtml = perVal != null
+      ? '<span class="per-badge '+perClass(perVal)+'">'+perVal.toFixed(1)+'</span>'
+      : '<span class="per-badge per-avg">—</span>';
+    var netHtml = p.net_rating != null
+      ? '<span class="val '+(p.net_rating>=0?'green':'red')+'">'+(p.net_rating>=0?'+':'')+p.net_rating.toFixed(1)+'</span>'
+      : '<span class="val mute">—</span>';
+    var statsHtml = (p.pts!=null)
+      ? '<span class="val mute">'+p.pts+' · '+p.reb+' · '+p.ast+'</span>'
+      : '<span class="val mute">—</span>';
+
+    var cbHtml = '';
+    if (mode === 'value' || mode === 'worst') {
+      var cbColor = mode==='value'?'var(--green)':'var(--red)';
+      var cbW = mode==='worst'
+        ? Math.round((p.cost_per_per||0)/(maxCB||1)*100)
+        : Math.round(((players[players.length-1]||{}).cost_per_per||0)/(p.cost_per_per||1)*100);
+      cbHtml = '<td class="r">'+
+        '<div class="val" style="color:'+cbColor+'">$'+((p.cost_per_per)||0).toFixed(2)+'M</div>'+
+        '<div class="val-sub">por ponto de PER</div>'+
+        '<div class="mini-bar"><div class="mini-bar-fill" style="width:'+cbW+'%;background:'+cbColor+'"></div></div>'+
+      '</td>';
+    }
+
+    return playerStart(p, i)+
+      // Cap hit
       '<td class="r">'+
         '<div class="val blue">'+p.cap_hit+'</div>'+
+        '<div class="cap-pct">'+capPct(p.cap_hit_raw)+' do cap</div>'+
+        '<div class="mini-bar"><div class="mini-bar-fill" style="width:'+capBarW+'%;background:var(--bp-blue)"></div></div>'+
       '</td>'+
-      '<td class="r">'+
-        '<div class="pie-wrap">'+
-          '<div class="pie-val" style="color:var(--bp-blue)">'+(p.pie_pct||0).toFixed(1)+'%</div>'+
-          '<div class="mini-bar"><div class="mini-bar-fill" style="width:'+pieBarW+'%;background:var(--bp-blue)"></div></div>'+
-        '</div>'+
-      '</td>'+
-      '<td class="r">'+
-        (p.ts_pct!=null?'<div class="val">'+(p.ts_pct*100).toFixed(1)+'%</div>':'<span class="val mute">—</span>')+
-      '</td>'+
-      '<td class="r">'+
-        (p.net_rating!=null?'<div class="val '+(p.net_rating>=0?'green':'red')+'">'+(p.net_rating>=0?'+':'')+p.net_rating.toFixed(1)+'</div>':'<span class="val mute">—</span>')+
-      '</td>'+
-      '<td class="r">'+
-        '<div class="val '+(mode==='value'?'green':'red')+'">'+fmtCB(p.cost_per_pie)+'</div>'+
-        '<div class="mini-bar"><div class="mini-bar-fill" style="width:'+cbBarW+'%;background:'+cbColor+'"></div></div>'+
-      '</td>'+
-      '<td class="r"><div class="val mute">'+(p.games||'—')+' jgs</div></td>'+
+      // Anos restantes
+      '<td class="r"><span class="years-left">'+yearsLeft(p.end_year)+'</span></td>'+
+      // PER
+      '<td class="r">'+perHtml+'</td>'+
+      // Pts · Reb · Ast
+      '<td class="r">'+statsHtml+'</td>'+
+      // TS%
+      '<td class="r">'+(p.ts_pct!=null?'<span class="val">'+(p.ts_pct*100).toFixed(1)+'%</span>':'<span class="val mute">—</span>')+'</td>'+
+      // Net Rtg
+      '<td class="r">'+netHtml+'</td>'+
+      // Custo-benefício (só nas abas relevantes)
+      cbHtml+
     '</tr>';
   }).join('');
 
-  document.getElementById('tab-content').innerHTML=
-    '<div style="margin-bottom:10px;font-size:13px;font-weight:500">'+title+'</div>'+
+  var hasCB = (mode==='value'||mode==='worst');
+  var thCB  = hasCB ? '<th class="r">$/PER<span class="th-hint">custo-benefício</span></th>' : '';
+
+  var note = '';
+  if (mode==='per') note = '* PER (Player Efficiency Rating) calculado pela fórmula de Hollinger a partir das médias de temporada. Média da liga normalizada para 15. Elite ≥ 25 · Bom ≥ 18 · Médio ≥ 13.';
+  if (mode==='value') note = '* Jogadores com menor custo por ponto de PER — melhor retorno por dólar investido. Filtro: PER ≥ 15.';
+  if (mode==='worst') note = '* Jogadores com maior custo por ponto de PER e cap hit acima de $10M — pior retorno por dólar.';
+
+  document.getElementById('tab-content').innerHTML =
+    '<div style="margin-bottom:10px;font-size:13px;font-weight:500;color:var(--ink)">'+title+'</div>'+
     '<div class="rank-wrap"><table>'+
       '<thead><tr>'+
-        '<th style="width:28px">#</th><th>Jogador</th><th>Time</th>'+
-        '<th class="r">Cap Hit</th><th class="r">PIE%</th><th class="r">TS%</th><th class="r">Net Rtg</th>'+
-        '<th class="r">$/PIE%</th><th class="r">Jogos</th>'+
+        '<th style="width:28px">#</th>'+
+        '<th>Jogador</th>'+
+        '<th>Time</th>'+
+        '<th class="r">Cap Hit<span class="th-hint">% do salary cap</span></th>'+
+        '<th class="r">Contrato<span class="th-hint">anos restantes</span></th>'+
+        '<th class="r">PER</th>'+
+        '<th class="r">Pts · Reb · Ast</th>'+
+        '<th class="r">TS%</th>'+
+        '<th class="r">Net Rtg</th>'+
+        thCB+
       '</tr></thead>'+
       '<tbody>'+rows+'</tbody>'+
     '</table></div>'+
-    '<div class="footnote">* '+note+'</div>';
-}
-
-function checkAdvancedNote() {
-  if (Object.keys(advancedMap).length === 0) {
-    return '<div class="footnote" style="margin-top:10px">⚠ Dados de PIE não disponíveis. Execute <code>python3 generate_advanced.py</code> para calcular os rankings de eficiência.</div>';
-  }
-  return '';
+    (note?'<div class="footnote">'+note+'</div>':'');
 }
 
 // ── EVENTOS ──────────────────────────────────────

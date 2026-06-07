@@ -20386,3 +20386,115 @@ Carregando jogos_playoffs.json...
 Nada a coletar.
 167 arquivos encontrados
 Pronto! 0 arquivos corrigidos.
+[main 20b4545] Atualizacao playoffs 2026-06-07
+ 40 files changed, 20609 insertions(+), 97 deletions(-)
+ create mode 100644 data/nba_player_ids.json
+ create mode 100644 data/salaries/player_advanced.json
+ create mode 100644 data/salaries_atl.json
+ create mode 100644 data/salaries_bkn.json
+ create mode 100644 data/salaries_bos.json
+ create mode 100644 data/salaries_cha.json
+ create mode 100644 data/salaries_chi.json
+ create mode 100644 data/salaries_cle.json
+ create mode 100644 data/salaries_dal.json
+ create mode 100644 data/salaries_den.json
+ create mode 100644 data/salaries_det.json
+ create mode 100644 data/salaries_gsw.json
+ create mode 100644 data/salaries_hou.json
+ create mode 100644 data/salaries_ind.json
+ create mode 100644 data/salaries_index.json
+ create mode 100644 data/salaries_lac.json
+ create mode 100644 data/salaries_lal.json
+ create mode 100644 data/salaries_mem.json
+ create mode 100644 data/salaries_mia.json
+ create mode 100644 data/salaries_mil.json
+ create mode 100644 data/salaries_min.json
+ create mode 100644 data/salaries_nop.json
+ create mode 100644 data/salaries_nyk.json
+ create mode 100644 data/salaries_okc.json
+ create mode 100644 data/salaries_orl.json
+ create mode 100644 data/salaries_phi.json
+ create mode 100644 data/salaries_phx.json
+ create mode 100644 data/salaries_por.json
+ create mode 100644 data/salaries_sac.json
+ create mode 100644 data/salaries_sas.json
+ create mode 100644 data/salaries_tor.json
+ create mode 100644 data/salaries_uta.json
+ create mode 100644 data/salaries_was.json
+ create mode 100644 generate_advanced.py
+ create mode 100644 rankings.html
+To https://github.com/pishenis/nba-team-profiles.git
+   45d0f23..20b4545  main -> main
+Sun Jun  7 08:19:40 -03 2026: Atualizacao concluida.
+Sun Jun  7 14:08:08 -03 2026: Iniciando atualizacao...
+Coletando jogos de playoff via BDL...
+  87 jogos encontrados
+
+Feito! jogos_playoffs.json criado.
+  nyk_atl: NYK 4-2 ATL (6 jogos)
+  cle_tor: TOR 3-4 CLE (7 jogos)
+  den_min: MIN 4-2 DEN (6 jogos)
+  lal_hou: HOU 2-4 LAL (6 jogos)
+  sas_por: SAS 4-1 POR (5 jogos)
+  bos_phi: BOS 3-4 PHI (7 jogos)
+  det_orl: DET 4-3 ORL (7 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+  sas_min: MIN 2-4 SAS (6 jogos)
+  nyk_phi: NYK 4-0 PHI (4 jogos)
+  okc_lal: OKC 4-0 LAL (4 jogos)
+  det_cle: DET 3-4 CLE (7 jogos)
+  okc_sas: OKC 3-4 SAS (7 jogos)
+  nyk_cle: NYK 4-0 CLE (4 jogos)
+  finals: NYK 2-0 SAS (2 jogos)
+
+Processando LAL vs HOU...
+  3 jogos · LAL 2-1 HOU
+
+Processando DEN vs MIN...
+  4 jogos · DEN 3-1 MIN
+
+Processando CLE vs TOR...
+  3 jogos · CLE 0-2 TOR
+
+Processando NYK vs ATL...
+  3 jogos · NYK 2-1 ATL
+
+Processando SAS vs POR...
+  3 jogos · SAS 1-1 POR
+
+Processando BOS vs PHI...
+  4 jogos · BOS 1-2 PHI
+
+Processando DET vs ORL...
+  4 jogos · DET 2-1 ORL
+
+Processando OKC vs PHX...
+  5 jogos · OKC 1-2 PHX
+
+Processando SAS vs MIN...
+  3 jogos · SAS 1-2 MIN
+
+Processando OKC vs LAL...
+  4 jogos · OKC 4-0 LAL
+
+Processando NYK vs PHI...
+  4 jogos · NYK 2-2 PHI
+
+Processando DET vs CLE...
+  4 jogos · DET 2-2 CLE
+
+Processando OKC vs SAS...
+  5 jogos · OKC 1-3 SAS
+
+Processando CLE vs NYK...
+  3 jogos · CLE 1-2 NYK
+
+Processando SAS vs NYK...
+  3 jogos · SAS 1-1 NYK
+
+Feito! head2head.json criado com 15 séries.
+Carregando jogos_playoffs.json...
+  82 jogos no total · 82 OK · 0 para coletar
+Nada a coletar.
+167 arquivos encontrados
+Pronto! 0 arquivos corrigidos.
