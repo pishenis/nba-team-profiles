@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg" />
+<title>Rankings de Salários · Bola Presa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --bp-blue:#14a6b8;--bp-blue-tint:#eaf8fa;
+  --ink:#1d1d1f;--mute:#86868b;--mute-2:#b8b5ad;
+  --hair:#e5e5ea;--paper:#f9f9f9;--white:#ffffff;
+  --green:#1D9E75;--red:#D85A30;
+  --serif:"Newsreader",Georgia,serif;
+  --sans:"Inter Tight",-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--white);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;min-height:100vh}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;border:none;background:none;font:inherit;color:inherit}
+
+.site-header{display:flex;align-items:center;gap:10px;padding:0 32px;height:52px;border-bottom:0.5px solid var(--hair);background:var(--white);position:sticky;top:0;z-index:50}
+.header-logo{font-family:var(--sans);font-weight:600;font-size:14px;color:var(--ink);display:flex;align-items:center;gap:7px}
+.header-logo img{width:22px;height:22px;border-radius:4px;object-fit:cover}
+.header-divider{width:0.5px;height:16px;background:var(--hair)}
+.header-section{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--mute);letter-spacing:0.05em;text-transform:uppercase}
+.header-badge{font-family:var(--mono);font-size:10px;font-weight:500;color:var(--bp-blue);background:var(--bp-blue-tint);padding:3px 9px;border-radius:20px;letter-spacing:0.04em}
+.site-nav{display:flex;align-items:center;gap:2px;margin-left:auto}
+.nav-lnk{font-size:13px;color:var(--mute);padding:5px 10px;border-radius:6px;transition:background 0.15s,color 0.15s}
+.nav-lnk:hover{background:var(--paper);color:var(--ink)}
+
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px 80px}
+
+.hero{padding:36px 0 24px;border-bottom:0.5px solid var(--hair);margin-bottom:24px}
+.hero h1{font-family:var(--serif);font-size:30px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.hero h1 em{font-style:italic;color:var(--bp-blue)}
+.hero p{font-size:13px;color:var(--mute);line-height:1.5}
+
+/* TABS */
+.tabs{display:flex;gap:0;border-bottom:0.5px solid var(--hair);margin-bottom:24px;overflow-x:auto}
+.tab-btn{font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;padding:10px 14px;border:none;background:none;color:var(--mute);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-0.5px;white-space:nowrap;transition:color 0.15s}
+.tab-btn:hover{color:var(--ink)}
+.tab-btn.active{color:var(--bp-blue);border-bottom-color:var(--bp-blue)}
+
+/* TABELA */
+.rank-wrap{border:0.5px solid var(--hair);border-radius:10px;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:12px}
+thead{background:var(--paper)}
+thead th{padding:9px 12px;text-align:left;font-family:var(--mono);font-size:9px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--mute);white-space:nowrap;border-bottom:0.5px solid var(--hair)}
+thead th.r{text-align:right}
+tbody tr{border-bottom:0.5px solid var(--hair);transition:background 0.1s}
+tbody tr:last-child{border-bottom:none}
+tbody tr:hover{background:var(--paper)}
+td{padding:9px 12px;vertical-align:middle;white-space:nowrap}
+td.r{text-align:right}
+
+.rk{font-family:var(--mono);font-size:11px;color:var(--mute-2);width:28px;text-align:center}
+.rk.gold{color:#a07800;font-weight:600}
+.rk.silver{color:#707070;font-weight:600}
+.rk.bronze{color:#8b4513;font-weight:600}
+
+.player-cell{display:flex;align-items:center;gap:9px}
+.player-photo{width:30px;height:30px;border-radius:50%;background:var(--hair);flex-shrink:0;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--mute-2)}
+.player-photo img{width:100%;height:100%;object-fit:cover}
+.player-name{font-size:13px;font-weight:500}
+.player-meta{font-family:var(--mono);font-size:9px;color:var(--mute);letter-spacing:0.04em;margin-top:1px}
+
+.team-cell{display:flex;align-items:center;gap:5px}
+.team-logo-sm{width:20px;height:20px;object-fit:contain}
+.team-abbr{font-family:var(--mono);font-size:10px;color:var(--mute)}
+
+.val{font-family:var(--mono);font-size:12px;font-weight:500}
+.val.blue{color:var(--bp-blue)}
+.val.green{color:var(--green)}
+.val.red{color:var(--red)}
+.val.mute{color:var(--mute);font-weight:400}
+
+.mini-bar{height:3px;background:var(--hair);border-radius:2px;margin-top:4px;width:72px;overflow:hidden}
+.mini-bar-fill{height:100%;border-radius:2px}
+
+/* pill de posição */
+.pos-pill{display:inline-block;font-family:var(--mono);font-size:8px;font-weight:500;padding:1px 5px;border-radius:3px;background:var(--paper);border:0.5px solid var(--hair);color:var(--mute);letter-spacing:0.04em}
+
+/* PIE tooltip */
+.pie-wrap{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.pie-val{font-family:var(--mono);font-size:13px;font-weight:500}
+.pie-pct{font-family:var(--mono);font-size:9px;color:var(--mute)}
+
+/* loading */
+.loading{text-align:center;padding:48px;color:var(--mute);font-size:13px}
+.loading-dots{display:inline-flex;gap:5px;margin-bottom:10px}
+.ld{width:6px;height:6px;background:var(--bp-blue);border-radius:50%;animation:ldp 1.2s ease-in-out infinite}
+.ld:nth-child(2){animation-delay:0.2s}.ld:nth-child(3){animation-delay:0.4s}
+@keyframes ldp{0%,80%,100%{opacity:0.2;transform:scale(0.8)}40%{opacity:1;transform:scale(1)}}
+
+.footnote{margin-top:16px;font-family:var(--mono);font-size:10px;color:var(--mute-2);line-height:1.6}
+.footer-note{margin-top:32px;padding-top:12px;border-top:0.5px solid var(--hair);font-size:11px;color:var(--mute)}
+
+@media(max-width:600px){.site-header{padding:0 16px}.wrap{padding:0 16px 64px}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="header-logo" href="home.html">
+    <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+    Bola Presa
+  </a>
+  <div class="header-divider"></div>
+  <span class="header-section">Rankings</span>
+  <span class="header-badge">2025–26</span>
+  <nav class="site-nav">
+    <a class="nav-lnk" href="home.html">Início</a>
+    <a class="nav-lnk" href="index.html">Times</a>
+    <a class="nav-lnk" href="jogadores.html">Jogadores</a>
+    <a class="nav-lnk" href="salaries.html">Salários</a>
+    <a class="nav-lnk" href="rankings.html">Rankings</a>
+  </nav>
+</header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Rankings <em>Salariais</em></h1>
+    <p>Maiores contratos, distribuição por posição e eficiência por dólar · Temporada 2025–26</p>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button class="tab-btn active" data-tab="top">Maiores salários</button>
+    <button class="tab-btn" data-tab="pos-G">Guards</button>
+    <button class="tab-btn" data-tab="pos-F">Forwards</button>
+    <button class="tab-btn" data-tab="pos-C">Centers</button>
+    <button class="tab-btn" data-tab="pie">Maior PIE</button>
+    <button class="tab-btn" data-tab="value">Melhor custo-benefício</button>
+    <button class="tab-btn" data-tab="worst">Piores contratos</button>
+  </div>
+
+  <div id="tab-content">
+    <div class="loading">
+      <div class="loading-dots"><div class="ld"></div><div class="ld"></div><div class="ld"></div></div>
+      <div>Carregando dados…</div>
+    </div>
+  </div>
+
+  <div class="footer-note">Dados: Ball Don't Lie · NBA 2025–26 · bolapresa.com.br</div>
+</div>
+
+<script>
+const BDL_TO_NBA = {
+  1:1610612737,2:1610612738,3:1610612751,4:1610612766,5:1610612741,
+  6:1610612739,7:1610612742,8:1610612743,9:1610612765,10:1610612744,
+  11:1610612745,12:1610612754,13:1610612746,14:1610612747,15:1610612763,
+  16:1610612748,17:1610612749,18:1610612750,19:1610612740,20:1610612752,
+  21:1610612760,22:1610612753,23:1610612755,24:1610612756,25:1610612757,
+  26:1610612758,27:1610612759,28:1610612761,29:1610612762,30:1610612764
+};
+
+var NBA_PLAYER_IDS = {};
+var salaryPlayers  = [];   // todos com cap_hit_raw (de salaries JSONs)
+var advancedMap    = {};   // player_id → stats avançadas
+var activeTab      = 'top';
+
+function logoUrl(bdlId){ var n=BDL_TO_NBA[bdlId]; return n?'https://cdn.nba.com/logos/nba/'+n+'/global/L/logo.svg':''; }
+function normalizeStr(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,''); }
+function photoUrl(name){ var id=NBA_PLAYER_IDS[name]||NBA_PLAYER_IDS[normalizeStr(name)]; return id?'https://cdn.nba.com/headshots/nba/latest/260x190/'+id+'.png':''; }
+function fmt(n){ if(!n) return '—'; if(n>=1e6) return '$'+(n/1e6).toFixed(1)+'M'; if(n>=1e3) return '$'+(n/1e3).toFixed(0)+'K'; return '$'+n; }
+function fmtCB(n){ return n?'$'+n.toFixed(2)+'M/PIE%':'—'; }
+function rankCls(i){ return i===0?'gold':i===1?'silver':i===2?'bronze':''; }
+
+// ── CARGA ────────────────────────────────────────
+async function loadAll() {
+  try {
+    // fotos
+    try{ var rp=await fetch('data/salaries/nba_player_ids.json'); if(rp.ok) NBA_PLAYER_IDS=await rp.json(); }catch(e){}
+
+    // advanced stats
+    var adv = null;
+    try{ var ra=await fetch('data/salaries/player_advanced.json'); if(ra.ok) adv=await ra.json(); }catch(e){}
+
+    // salários (índice + todos os JSONs)
+    var ri=await fetch('data/salaries/salaries_index.json');
+    var index=await ri.json();
+    var promises=index.map(function(t){ return fetch('data/salaries/salaries_'+t.abbreviation.toLowerCase()+'.json').then(function(r){return r.json();}); });
+    var results=await Promise.all(promises);
+
+    salaryPlayers=[];
+    results.forEach(function(td){
+      (td.players||[]).forEach(function(p){
+        if(!p.cap_hit_raw) return;
+        salaryPlayers.push({
+          player_id:   p.player_id,
+          name:        p.name,
+          position:    p.position||'',
+          team_id:     td.team.id,
+          team_abbr:   td.team.abbreviation,
+          cap_hit_raw: p.cap_hit_raw,
+          cap_hit:     p.cap_hit,
+        });
+      });
+    });
+
+    // monta mapa de advanced por player_id
+    if (adv && adv.players) {
+      adv.players.forEach(function(p){ advancedMap[p.player_id] = p; });
+    }
+
+    // Enriquece salaryPlayers com advanced
+    salaryPlayers.forEach(function(p){
+      var a = advancedMap[p.player_id];
+      if (a) {
+        p.pie          = a.pie;
+        p.pie_pct      = a.pie_pct;
+        p.ts_pct       = a.ts_pct;
+        p.net_rating   = a.net_rating;
+        p.usg_pct      = a.usg_pct;
+        p.efg_pct      = a.efg_pct;
+        p.games        = a.games;
+        p.cost_per_pie = a.cost_per_pie;
+      }
+    });
+
+    renderTab(activeTab);
+  } catch(e) {
+    document.getElementById('tab-content').innerHTML =
+      '<div style="text-align:center;padding:40px;color:var(--mute);font-size:13px">Erro ao carregar dados. Execute os scripts primeiro.</div>';
+  }
+}
+
+// ── RENDER ───────────────────────────────────────
+function renderTab(tab) {
+  activeTab = tab;
+  var players, title, note='';
+
+  if (tab === 'top') {
+    players = salaryPlayers.slice().sort(function(a,b){return b.cap_hit_raw-a.cap_hit_raw;}).slice(0,50);
+    title = 'Top 50 maiores cap hits · 2025–26';
+    renderSalaryTable(players, title, note);
+  }
+  else if (tab.startsWith('pos-')) {
+    var pos = tab.replace('pos-','');
+    var label = {G:'Guards',F:'Forwards',C:'Centers'}[pos]||pos;
+    players = salaryPlayers.filter(function(p){ return p.position && p.position.toUpperCase().includes(pos); })
+      .sort(function(a,b){return b.cap_hit_raw-a.cap_hit_raw;}).slice(0,30);
+    title = 'Top 30 '+label+' por salário';
+    renderSalaryTable(players, title, note);
+  }
+  else if (tab === 'pie') {
+    players = salaryPlayers.filter(function(p){return p.pie!=null;})
+      .sort(function(a,b){return b.pie-a.pie;}).slice(0,30);
+    title = 'Top 30 · Maior PIE médio da temporada';
+    note = 'PIE (Player Impact Estimate) mede a contribuição estatística do jogador em relação ao total de estatísticas dos jogos em que participa. Calculado como média ponderada por possessões, mínimo '+( advancedMap[Object.keys(advancedMap)[0]]? '20':'20')+' jogos.';
+    renderAdvancedTable(players, title, note, 'pie');
+  }
+  else if (tab === 'value') {
+    players = salaryPlayers.filter(function(p){return p.cost_per_pie!=null && p.pie_pct>=8;})
+      .sort(function(a,b){return a.cost_per_pie-b.cost_per_pie;}).slice(0,30);
+    title = 'Melhor custo-benefício · $ por % de PIE (mín. 8% PIE)';
+    note = 'Custo-benefício = cap hit em milhões ÷ PIE%. Jogadores com menor valor têm melhor retorno por dólar investido.';
+    renderAdvancedTable(players, title, note, 'value');
+  }
+  else if (tab === 'worst') {
+    players = salaryPlayers.filter(function(p){return p.cost_per_pie!=null && p.cap_hit_raw>10000000;})
+      .sort(function(a,b){return b.cost_per_pie-a.cost_per_pie;}).slice(0,30);
+    title = 'Piores contratos · maior custo por % de PIE (mín. $10M de cap hit)';
+    note = 'Contratos com maior custo por unidade de PIE, excluindo salários mínimos. Alto custo por PIE indica baixo retorno por dólar.';
+    renderAdvancedTable(players, title, note, 'worst');
+  }
+}
+
+function playerRowStart(p, i) {
+  var photo = photoUrl(p.name);
+  var logo  = logoUrl(p.team_id);
+  return '<tr>'+
+    '<td><div class="rk '+rankCls(i)+'">'+(i+1)+'</div></td>'+
+    '<td><div class="player-cell">'+
+      '<div class="player-photo">'+(photo?'<img src="'+photo+'" alt="'+p.name+'" onerror="this.parentNode.textContent=\''+p.name.charAt(0)+'\'" />':p.name.charAt(0))+'</div>'+
+      '<div><div class="player-name">'+p.name+'</div>'+
+      '<div class="player-meta">'+(p.position||'')+'</div></div>'+
+    '</div></td>'+
+    '<td><div class="team-cell">'+
+      (logo?'<img class="team-logo-sm" src="'+logo+'" onerror="this.style.display=\'none\'" />':'')+
+      '<span class="team-abbr">'+p.team_abbr+'</span>'+
+    '</div></td>';
+}
+
+function renderSalaryTable(players, title, note) {
+  if (!players.length) { document.getElementById('tab-content').innerHTML='<div style="padding:32px;text-align:center;color:var(--mute)">Sem dados.</div>'; return; }
+  var maxCap = players[0].cap_hit_raw;
+
+  var rows = players.map(function(p,i){
+    var barW = Math.round(p.cap_hit_raw/maxCap*100);
+    var hasPie = p.pie != null;
+    return playerRowStart(p,i)+
+      '<td class="r">'+
+        '<div class="val blue">'+p.cap_hit+'</div>'+
+        '<div class="mini-bar"><div class="mini-bar-fill" style="width:'+barW+'%;background:var(--bp-blue)"></div></div>'+
+      '</td>'+
+      '<td class="r">'+
+        (hasPie?'<div class="val">'+(p.pie_pct).toFixed(1)+'%</div>':'<div class="val mute">—</div>')+
+      '</td>'+
+      '<td class="r">'+
+        (p.ts_pct!=null?'<div class="val">'+(p.ts_pct*100).toFixed(1)+'%</div>':'<div class="val mute">—</div>')+
+      '</td>'+
+      '<td class="r">'+
+        (p.net_rating!=null?'<div class="val '+(p.net_rating>=0?'green':'red')+'">'+(p.net_rating>=0?'+':'')+p.net_rating.toFixed(1)+'</div>':'<div class="val mute">—</div>')+
+      '</td>'+
+    '</tr>';
+  }).join('');
+
+  document.getElementById('tab-content').innerHTML =
+    '<div style="margin-bottom:10px;font-size:13px;font-weight:500">'+title+'</div>'+
+    '<div class="rank-wrap"><table>'+
+      '<thead><tr>'+
+        '<th style="width:28px">#</th><th>Jogador</th><th>Time</th>'+
+        '<th class="r">Cap Hit</th><th class="r">PIE%</th><th class="r">TS%</th><th class="r">Net Rtg</th>'+
+      '</tr></thead>'+
+      '<tbody>'+rows+'</tbody>'+
+    '</table></div>'+
+    (note?'<div class="footnote">* '+note+'</div>':'')+
+    checkAdvancedNote();
+}
+
+function renderAdvancedTable(players, title, note, mode) {
+  if (!players.length) {
+    document.getElementById('tab-content').innerHTML=
+      '<div style="padding:32px;text-align:center;color:var(--mute)">'+
+      'Sem dados. Execute <code>python3 generate_advanced.py</code> primeiro.</div>';
+    return;
+  }
+  var maxPie = Math.max.apply(null, players.map(function(p){return p.pie_pct||0;}));
+  var maxCB  = mode==='worst' ? players[0].cost_per_pie : null;
+
+  var rows = players.map(function(p,i){
+    var pieBarW = Math.round((p.pie_pct||0)/maxPie*100);
+    var cbColor = mode==='value'?'var(--green)':'var(--red)';
+    var cbBarW  = mode==='worst'? Math.round((p.cost_per_pie||0)/(maxCB||1)*100) : Math.round((players[players.length-1].cost_per_pie||0)/(p.cost_per_pie||1)*100);
+
+    return playerRowStart(p,i)+
+      '<td class="r">'+
+        '<div class="val blue">'+p.cap_hit+'</div>'+
+      '</td>'+
+      '<td class="r">'+
+        '<div class="pie-wrap">'+
+          '<div class="pie-val" style="color:var(--bp-blue)">'+(p.pie_pct||0).toFixed(1)+'%</div>'+
+          '<div class="mini-bar"><div class="mini-bar-fill" style="width:'+pieBarW+'%;background:var(--bp-blue)"></div></div>'+
+        '</div>'+
+      '</td>'+
+      '<td class="r">'+
+        (p.ts_pct!=null?'<div class="val">'+(p.ts_pct*100).toFixed(1)+'%</div>':'<span class="val mute">—</span>')+
+      '</td>'+
+      '<td class="r">'+
+        (p.net_rating!=null?'<div class="val '+(p.net_rating>=0?'green':'red')+'">'+(p.net_rating>=0?'+':'')+p.net_rating.toFixed(1)+'</div>':'<span class="val mute">—</span>')+
+      '</td>'+
+      '<td class="r">'+
+        '<div class="val '+(mode==='value'?'green':'red')+'">'+fmtCB(p.cost_per_pie)+'</div>'+
+        '<div class="mini-bar"><div class="mini-bar-fill" style="width:'+cbBarW+'%;background:'+cbColor+'"></div></div>'+
+      '</td>'+
+      '<td class="r"><div class="val mute">'+(p.games||'—')+' jgs</div></td>'+
+    '</tr>';
+  }).join('');
+
+  document.getElementById('tab-content').innerHTML=
+    '<div style="margin-bottom:10px;font-size:13px;font-weight:500">'+title+'</div>'+
+    '<div class="rank-wrap"><table>'+
+      '<thead><tr>'+
+        '<th style="width:28px">#</th><th>Jogador</th><th>Time</th>'+
+        '<th class="r">Cap Hit</th><th class="r">PIE%</th><th class="r">TS%</th><th class="r">Net Rtg</th>'+
+        '<th class="r">$/PIE%</th><th class="r">Jogos</th>'+
+      '</tr></thead>'+
+      '<tbody>'+rows+'</tbody>'+
+    '</table></div>'+
+    '<div class="footnote">* '+note+'</div>';
+}
+
+function checkAdvancedNote() {
+  if (Object.keys(advancedMap).length === 0) {
+    return '<div class="footnote" style="margin-top:10px">⚠ Dados de PIE não disponíveis. Execute <code>python3 generate_advanced.py</code> para calcular os rankings de eficiência.</div>';
+  }
+  return '';
+}
+
+// ── EVENTOS ──────────────────────────────────────
+document.getElementById('tabs').addEventListener('click', function(e){
+  var btn=e.target.closest('.tab-btn'); if(!btn) return;
+  document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
+  btn.classList.add('active');
+  renderTab(btn.dataset.tab);
+});
+
+loadAll();
+</script>
+</body>
+</html>
