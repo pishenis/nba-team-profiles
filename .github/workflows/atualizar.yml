@@ -32,6 +32,11 @@ jobs:
           python3 coletar_todos_jogos.py
           python3 corrigir_starter.py
 
+      - name: Atualizar salários
+        run: python3 generate_salaries.py
+        env:
+          BDL_API_KEY: ${{ secrets.BDL_API_KEY }}
+
       - name: Commit e push
         run: |
           git config user.name "github-actions[bot]"
