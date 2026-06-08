@@ -4,277 +4,224 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bola Presa Stats</title>
+<link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="bp-shell.css" />
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:"Inter Tight",-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",sans-serif;background:#fff;color:#1d1d1f;min-height:100vh;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+/* ── Hero ─────────────────────────────────────────────────── */
+.home-hero {
+  padding: 32px 32px 28px;
+  border-bottom: 1px solid var(--hair);
+}
+.home-hero-title {
+  font-family: var(--serif);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.3px;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.home-hero-sub {
+  font-size: 13px;
+  color: var(--mute);
+  margin-bottom: 3px;
+}
+.home-hero-meta {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--mute-2);
+}
 
-.wrap{padding:2.5rem 2rem 2rem;max-width:900px;margin:0 auto;flex:1;width:100%}
+/* ── Grid 2×2 ────────────────────────────────────────────── */
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--hair);
+  border-top: 1px solid var(--hair);
+}
 
-/* HEADER */
-.header{display:flex;align-items:center;gap:10px;margin-bottom:2.5rem}
-.site-name{font-size:18px;font-weight:600;letter-spacing:-0.3px}
-.bp-brand{display:flex;align-items:center;gap:7px;margin-left:auto}
-.bp-logo{width:24px;height:24px;border-radius:5px;object-fit:cover}
-.bp-text{font-size:12px;color:#86868b}
+.home-card {
+  display: block;
+  background: var(--white);
+  color: inherit;
+  text-decoration: none;
+  transition: background 0.15s;
+  position: relative;
+}
+.home-card:hover { background: #fafaf8; }
 
-/* HERO */
-.hero{margin-bottom:2rem}
-.hero-title{font-family:"Newsreader",Georgia,serif;font-size:34px;font-weight:700;line-height:1.15;margin-bottom:8px;letter-spacing:-0.3px}
-.hero-sub{font-size:14px;color:#6e6e73;line-height:1.5;margin-bottom:4px}
-.hero-meta{font-size:11px;color:#86868b;font-family:"JetBrains Mono",ui-monospace,monospace;letter-spacing:0.02em}
+/* imagem */
+.home-card-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.home-card:hover .home-card-img { transform: scale(1.02); }
+.home-card-img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.home-card-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.28) 0%, transparent 55%);
+  pointer-events: none;
+}
 
-/* GRID DE CARDS */
-.cards-grid{display:grid;gap:12px}
-.card-full{grid-column:1/-1}
-.cards-half{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+/* badge */
+.home-card-badge {
+  position: absolute;
+  top: 10px; right: 12px;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #f7c948;
+  background: rgba(247,201,72,0.15);
+  border: 0.5px solid rgba(247,201,72,0.4);
+  border-radius: 20px;
+  padding: 3px 9px;
+}
 
-.card{display:block;border:0.5px solid #e5e5ea;border-radius:14px;text-decoration:none;color:inherit;overflow:hidden;transition:border-color 0.15s,box-shadow 0.15s,transform 0.15s;position:relative;background:#fff}
-.card:hover{border-color:#c8c8cc;transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,0.07)}
+/* corpo */
+.home-card-body {
+  padding: 14px 18px 18px;
+  border-top: 1px solid var(--hair);
+}
+.home-card-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mute-2);
+  margin-bottom: 4px;
+}
+.home-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  margin-bottom: 4px;
+  line-height: 1.2;
+  color: var(--ink);
+}
+.home-card-desc {
+  font-size: 12px;
+  color: var(--mute);
+  line-height: 1.5;
+}
 
-/* VISUAL DOS CARDS */
-.card-visual{height:148px;overflow:hidden;position:relative}
-
-/* Playoffs */
-.cv-playoffs{background:linear-gradient(135deg,#0a0a0f 0%,#161625 50%,#0d1420 100%);display:flex;flex-direction:column;justify-content:center;padding:20px 24px;gap:10px}
-.playoffs-label{font-family:"JetBrains Mono",monospace;font-size:9px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:2px}
-.playoffs-title{font-family:"Newsreader",serif;font-size:22px;font-weight:700;color:#fff;line-height:1}
-.playoffs-matchups{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
-.pm-pair{display:flex;align-items:center;gap:3px;background:rgba(255,255,255,0.07);border-radius:6px;padding:4px 6px}
-.pm-pair img{width:20px;height:20px;object-fit:contain}
-.pm-sep{font-size:9px;color:rgba(255,255,255,0.3);font-weight:500;margin:0 1px}
-.playoffs-badge{position:absolute;top:14px;right:16px;font-family:"JetBrains Mono",monospace;font-size:9px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:#f7c948;background:rgba(247,201,72,0.12);border:0.5px solid rgba(247,201,72,0.25);border-radius:20px;padding:3px 10px}
-
-/* Times */
-.cv-teams{background:linear-gradient(135deg,#f9f9f9 0%,#f0f0f5 100%);position:relative;overflow:hidden}
-.cv-teams-logos{position:absolute;inset:0;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:8px;padding:14px;opacity:0.9}
-.cv-teams-logos img{width:30px;height:30px;object-fit:contain;transition:opacity 0.2s}
-.card:hover .cv-teams-logos img{opacity:1}
-.cv-teams-overlay{position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(to top,rgba(249,249,249,0.95),transparent)}
-
-/* Jogadores */
-.cv-players{background:linear-gradient(135deg,#f9f9f9 0%,#edf5f0 100%);position:relative;overflow:hidden}
-.cv-players-photos{position:absolute;inset:0;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:6px;padding:14px}
-.cv-players-photos img{width:34px;height:34px;border-radius:50%;object-fit:cover;background:#e5e5ea;border:1.5px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.1);transition:transform 0.2s}
-.card:hover .cv-players-photos img{transform:scale(1.05)}
-.cv-players-overlay{position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(to top,rgba(237,245,240,0.95),transparent)}
-
-/* Salários */
-.cv-salaries{background:linear-gradient(135deg,#f9f9f9 0%,#f0f5f9 100%);padding:20px 24px;display:flex;flex-direction:column;justify-content:space-between}
-.sal-numbers{display:flex;gap:20px;align-items:flex-end}
-.sal-num-block{}
-.sal-num-label{font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:#86868b;margin-bottom:3px}
-.sal-num-value{font-family:"JetBrains Mono",monospace;font-size:18px;font-weight:500;color:#1d1d1f;letter-spacing:-0.5px}
-.sal-num-value.blue{color:#14a6b8}
-.sal-num-value.yellow{color:#c49200}
-.sal-num-value.orange{color:#c05a1e}
-.sal-num-value.red{color:#b83228}
-.sal-bars{display:flex;flex-direction:column;gap:5px;margin-top:6px}
-.sal-bar-row{display:flex;align-items:center;gap:8px}
-.sal-bar-label{font-family:"JetBrains Mono",monospace;font-size:9px;color:#86868b;width:70px;letter-spacing:0.02em;flex-shrink:0}
-.sal-bar-track{flex:1;height:4px;background:#e5e5ea;border-radius:2px;overflow:hidden}
-.sal-bar-fill{height:100%;border-radius:2px}
-
-/* BODY DOS CARDS */
-.card-body{padding:14px 18px 18px;border-top:0.5px solid #f0f0f5}
-.card-label{font-family:"JetBrains Mono",monospace;font-size:9px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:#86868b;margin-bottom:5px}
-.card-title{font-size:17px;font-weight:600;letter-spacing:-0.2px;margin-bottom:5px;line-height:1.2}
-.card-desc{font-size:12px;color:#6e6e73;line-height:1.55}
-
-.footer{padding:1.25rem 2rem;text-align:center;font-size:11px;color:#86868b;border-top:0.5px solid #e5e5ea;font-family:"JetBrains Mono",monospace;letter-spacing:0.02em}
+@media (max-width: 580px) {
+  .home-grid { grid-template-columns: 1fr; }
+  .home-hero { padding: 20px 16px 18px; }
+  .home-card-body { padding: 12px 16px 16px; }
+}
 </style>
 </head>
 <body>
-<div class="wrap">
 
-  <div class="header">
-    <span class="site-name">Bola Presa Stats</span>
-    <div class="bp-brand">
-      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'">
-      <span class="bp-text">um projeto Bola Presa</span>
+<div class="bp-paper">
+  <div class="bp-miolo">
+
+    <!-- TOP BAR -->
+    <div class="bp-topbar">
+      <a class="bp-topbar-logo" href="home.html">
+        <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+        Bola Presa Stats
+      </a>
+      <div class="bp-topbar-divider"></div>
+      <span class="bp-topbar-section">NBA 2025–26</span>
+      <nav class="bp-topbar-nav">
+        <a href="playoffs.html">playoffs</a>
+        <a href="index.html">times</a>
+        <a href="jogadores.html">jogadores</a>
+        <a href="salaries.html">salários</a>
+        <a href="rankings.html">rankings</a>
+      </nav>
     </div>
-  </div>
 
-  <div class="hero">
-    <div class="hero-title">Dados da NBA para assinantes do Bola Presa</div>
-    <div class="hero-sub">Organizado por Denis Botana</div>
-    <div class="hero-meta">Temporada 2025–26 · NBA Stats · pbpstats.com · Ball Don't Lie</div>
-  </div>
+    <!-- HERO -->
+    <div class="home-hero">
+      <div class="home-hero-title">Dados da NBA para assinantes do Bola Presa</div>
+      <div class="home-hero-sub">Organizado por Denis Botana</div>
+      <div class="home-hero-meta">Temporada 2025–26 · NBA Stats · pbpstats.com · Ball Don't Lie</div>
+    </div>
 
-  <div class="cards-grid">
+    <!-- GRID 2×2 -->
+    <div class="home-grid">
 
-    <!-- PLAYOFFS — card largo -->
-    <a class="card card-full" href="playoffs.html">
-      <div class="card-visual cv-playoffs">
-        <div>
-          <div class="playoffs-label">Em andamento</div>
-          <div class="playoffs-title">NBA Playoffs 2026</div>
+      <!-- Playoffs -->
+      <a class="home-card" href="playoffs.html">
+        <div class="home-card-img-wrap">
+          <img class="home-card-img" src="Imagens/Playoffs.png" alt="NBA Playoffs 2026" />
+          <div class="home-card-img-overlay"></div>
+          <div class="home-card-badge">Ao vivo</div>
         </div>
-        <div class="playoffs-matchups" id="playoffs-matchups"></div>
-        <div class="playoffs-badge">Ao vivo</div>
-      </div>
-      <div class="card-body">
-        <div class="card-label">Playoffs</div>
-        <div class="card-title">Bracket, estatísticas e fichas de jogo</div>
-        <div class="card-desc">Preview, resultados e box scores detalhados de todos os jogos dos Playoffs e das Finais da NBA</div>
-      </div>
-    </a>
-
-    <!-- TIMES + JOGADORES lado a lado -->
-    <div class="cards-half">
-      <a class="card" href="index.html">
-        <div class="card-visual cv-teams">
-          <div class="cv-teams-logos" id="teams-logos"></div>
-          <div class="cv-teams-overlay"></div>
-        </div>
-        <div class="card-body">
-          <div class="card-label">Estatísticas</div>
-          <div class="card-title">Times</div>
-          <div class="card-desc">Perfil estatístico completo dos 30 times da NBA</div>
+        <div class="home-card-body">
+          <div class="home-card-label">Playoffs 2026</div>
+          <div class="home-card-title">NBA Playoffs</div>
+          <div class="home-card-desc">Bracket, estatísticas e box scores de todos os jogos</div>
         </div>
       </a>
 
-      <a class="card" href="jogadores.html">
-        <div class="card-visual cv-players">
-          <div class="cv-players-photos" id="players-photos"></div>
-          <div class="cv-players-overlay"></div>
+      <!-- Times -->
+      <a class="home-card" href="index.html">
+        <div class="home-card-img-wrap">
+          <img class="home-card-img" src="Imagens/Times.png" alt="Estatísticas dos Times" />
+          <div class="home-card-img-overlay"></div>
         </div>
-        <div class="card-body">
-          <div class="card-label">Estatísticas</div>
-          <div class="card-title">Jogadores</div>
-          <div class="card-desc">Perfil dos jogadores com 14+ minutos por jogo na temporada</div>
+        <div class="home-card-body">
+          <div class="home-card-label">Estatísticas</div>
+          <div class="home-card-title">Times</div>
+          <div class="home-card-desc">Perfil estatístico completo dos 30 times da NBA</div>
         </div>
       </a>
+
+      <!-- Jogadores -->
+      <a class="home-card" href="jogadores.html">
+        <div class="home-card-img-wrap">
+          <img class="home-card-img" src="Imagens/Jogadores.png" alt="Jogadores" />
+          <div class="home-card-img-overlay"></div>
+        </div>
+        <div class="home-card-body">
+          <div class="home-card-label">Estatísticas</div>
+          <div class="home-card-title">Jogadores</div>
+          <div class="home-card-desc">Perfil dos jogadores com 14+ minutos por jogo na temporada</div>
+        </div>
+      </a>
+
+      <!-- Salários -->
+      <a class="home-card" href="salaries.html">
+        <div class="home-card-img-wrap">
+          <img class="home-card-img" src="Imagens/Salarios.png" alt="Salários" />
+          <div class="home-card-img-overlay"></div>
+        </div>
+        <div class="home-card-body">
+          <div class="home-card-label">Contratos · 2025–26</div>
+          <div class="home-card-title">Salários</div>
+          <div class="home-card-desc">Cap hit, contratos e situação de cap dos 30 times · <span style="color:var(--bp-blue)">Rankings →</span></div>
+        </div>
+      </a>
+
     </div>
 
-    <!-- SALÁRIOS — card largo -->
-    <a class="card card-full" href="salaries.html">
-      <div class="card-visual cv-salaries">
-        <div class="sal-numbers" id="sal-numbers">
-          <div class="sal-num-block">
-            <div class="sal-num-label">Salary Cap</div>
-            <div class="sal-num-value blue">$154.6M</div>
-          </div>
-          <div class="sal-num-block">
-            <div class="sal-num-label">Luxury Tax</div>
-            <div class="sal-num-value yellow">$187.9M</div>
-          </div>
-          <div class="sal-num-block">
-            <div class="sal-num-label">1st Apron</div>
-            <div class="sal-num-value orange">$195.9M</div>
-          </div>
-          <div class="sal-num-block">
-            <div class="sal-num-label">2nd Apron</div>
-            <div class="sal-num-value red">$207.8M</div>
-          </div>
-        </div>
-        <div class="sal-bars" id="sal-bars">
-          <!-- preenchido via JS com os top times -->
-        </div>
-      </div>
-      <div class="card-body">
-        <div class="card-label">Contratos · 2025–26</div>
-        <div class="card-title">Salários</div>
-        <div class="card-desc">Cap hit, tipo de contrato, valores garantidos e situação de cap de todos os 30 times · <span style="color:#14a6b8">Rankings salariais →</span></div>
-      </div>
-    </a>
+    <!-- FOOTER -->
+    <div class="bp-foot">
+      <span>Bola Presa Stats · 2025–26</span>
+      <span>bolapresa@gmail.com</span>
+    </div>
 
   </div>
 </div>
 
-<div class="footer">Contato · bolapresa@gmail.com</div>
-
-<script>
-// ── Logos dos times ──────────────────────────────
-const TEAM_IDS=[
-  1610612737,1610612738,1610612751,1610612766,1610612741,
-  1610612739,1610612742,1610612743,1610612765,1610612744,
-  1610612745,1610612754,1610612746,1610612747,1610612763,
-  1610612748,1610612749,1610612750,1610612740,1610612752,
-  1610612760,1610612753,1610612755,1610612756,1610612757,
-  1610612758,1610612759,1610612761,1610612762,1610612764,
-];
-const tl=document.getElementById('teams-logos');
-TEAM_IDS.forEach(function(tid){
-  var img=document.createElement('img');
-  img.src='https://cdn.nba.com/logos/nba/'+tid+'/global/L/logo.svg';
-  img.alt=''; img.style.cssText='width:30px;height:30px;object-fit:contain;opacity:0.85';
-  tl.appendChild(img);
-});
-
-// ── Fotos dos jogadores ──────────────────────────
-const PLAYER_IDS=[
-  2544,201939,203999,1628369,1629029,203507,201142,
-  1630162,1628983,1628378,1630169,1629630,1630595,
-  1631096,1641709,1631094,1628384,1626157,1630163,
-  1628374,1627759,203954,1628389,203081,1627734,
-  1628978,1629028,1630567,1627750,1629027,
-];
-const pp=document.getElementById('players-photos');
-PLAYER_IDS.forEach(function(pid){
-  var img=document.createElement('img');
-  img.src='https://cdn.nba.com/headshots/nba/latest/260x190/'+pid+'.png';
-  img.alt=''; img.onerror=function(){this.style.opacity='0'};
-  pp.appendChild(img);
-});
-
-// ── Matchups dos Playoffs ────────────────────────
-const matchups=[
-  [1610612747,1610612745],[1610612743,1610612750],
-  [1610612759,1610612757],[1610612739,1610612761],
-  [1610612752,1610612737],[1610612765,1610612753],
-];
-const pm=document.getElementById('playoffs-matchups');
-matchups.forEach(function(pair){
-  var div=document.createElement('div'); div.className='pm-pair';
-  var i1=document.createElement('img'); i1.src='https://cdn.nba.com/logos/nba/'+pair[0]+'/global/L/logo.svg'; i1.style.cssText='width:20px;height:20px;object-fit:contain';
-  var sep=document.createElement('span'); sep.className='pm-sep'; sep.textContent='×';
-  var i2=document.createElement('img'); i2.src='https://cdn.nba.com/logos/nba/'+pair[1]+'/global/L/logo.svg'; i2.style.cssText='width:20px;height:20px;object-fit:contain';
-  div.appendChild(i1); div.appendChild(sep); div.appendChild(i2);
-  pm.appendChild(div);
-});
-
-// ── Barras de salários (top 6 times) ────────────
-const CAP=154647000, TAX=187895000, AP1=195945000, AP2=207824000, MAX=220000000;
-const COLORS={below:'#86868b',cap:'#14a6b8',tax:'#c49200',apron1:'#c05a1e',apron2:'#b83228'};
-const BDL_TO_NBA={
-  1:1610612737,2:1610612738,3:1610612751,4:1610612766,5:1610612741,
-  6:1610612739,7:1610612742,8:1610612743,9:1610612765,10:1610612744,
-  11:1610612745,12:1610612754,13:1610612746,14:1610612747,15:1610612763,
-  16:1610612748,17:1610612749,18:1610612750,19:1610612740,20:1610612752,
-  21:1610612760,22:1610612753,23:1610612755,24:1610612756,25:1610612757,
-  26:1610612758,27:1610612759,28:1610612761,29:1610612762,30:1610612764
-};
-function tierColor(raw){
-  if(raw>=AP2) return COLORS.apron2;
-  if(raw>=AP1) return COLORS.apron1;
-  if(raw>=TAX) return COLORS.tax;
-  if(raw>=CAP) return COLORS.cap;
-  return COLORS.below;
-}
-fetch('data/salaries/salaries_index.json').then(function(r){return r.json();}).then(function(data){
-  var top=data.slice(0,6);
-  var sb=document.getElementById('sal-bars');
-  top.forEach(function(t){
-    var raw=t.total_cap_raw||0;
-    var pct=Math.min(100,raw/MAX*100);
-    var color=tierColor(raw);
-    var nbaId=BDL_TO_NBA[t.team_id];
-    var row=document.createElement('div'); row.className='sal-bar-row';
-    row.innerHTML=
-      '<div class="sal-bar-label" style="display:flex;align-items:center;gap:4px">'+
-        (nbaId?'<img src="https://cdn.nba.com/logos/nba/'+nbaId+'/global/L/logo.svg" style="width:14px;height:14px;object-fit:contain" />':'')+
-        '<span>'+t.abbreviation+'</span>'+
-      '</div>'+
-      '<div class="sal-bar-track">'+
-        '<div class="sal-bar-fill" style="width:'+pct+'%;background:'+color+'"></div>'+
-      '</div>'+
-      '<span style="font-family:JetBrains Mono,monospace;font-size:9px;color:'+color+';width:46px;text-align:right;flex-shrink:0">'+t.total_cap+'</span>';
-    sb.appendChild(row);
-  });
-}).catch(function(){});
-</script>
 </body>
 </html>

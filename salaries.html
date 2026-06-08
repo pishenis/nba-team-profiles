@@ -7,6 +7,7 @@
 <title>Salários NBA · Bola Presa</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="bp-shell.css" />
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <style>
 :root {
@@ -32,7 +33,7 @@
   --mono:  "JetBrains Mono", ui-monospace, monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{background:var(--white);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;min-height:100vh}
+html,body{min-height:100vh}
 a{text-decoration:none;color:inherit}
 button{cursor:pointer;border:none;background:none;font:inherit;color:inherit}
 
@@ -176,26 +177,27 @@ td.r{text-align:right}
 </head>
 <body>
 
-<header class="site-header">
-  <a class="header-logo" href="home.html">
+<div class="bp-paper">
+<div class="bp-miolo">
+<div class="bp-topbar">
+  <a class="bp-topbar-logo" href="home.html">
     <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
-    Bola Presa
+    Bola Presa Stats
   </a>
-  <div class="header-divider"></div>
-  <span class="header-section">Salários</span>
-  <span class="header-badge">2025–26</span>
-  <nav class="site-nav">
-    <a class="nav-lnk" href="home.html">Início</a>
-    <a class="nav-lnk" href="index.html">Times</a>
-    <a class="nav-lnk" href="jogadores.html">Jogadores</a>
-    <a class="nav-lnk" href="salaries.html">Salários</a>
-    <a class="nav-lnk" href="rankings.html">Rankings</a>
+  <div class="bp-topbar-divider"></div>
+  <span class="bp-topbar-section">Salários</span>
+  <nav class="bp-topbar-nav">
+    <a href="playoffs.html">playoffs</a>
+    <a href="index.html">times</a>
+    <a href="jogadores.html">jogadores</a>
+    <a href="salaries.html">salários</a>
+    <a href="rankings.html">rankings</a>
   </nav>
-</header>
+</div>
 
 <!-- VISTA: LISTA DE TIMES -->
 <div id="view-teams">
-  <div class="wrap">
+  <div class="bp-inner">
     <div class="hero">
       <h1>Salários <em>2025–26</em></h1>
       <p>Contratos e cap hit de todos os 30 times, do maior ao menor.</p>
@@ -237,7 +239,7 @@ td.r{text-align:right}
 
 <!-- VISTA: DETALHE DO TIME -->
 <div id="view-detail">
-  <div class="wrap">
+  <div class="bp-inner">
     <button class="back-btn" id="btn-back">
       <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M13 4l-7 7 7 7"/></svg>
       Todos os times
@@ -507,5 +509,7 @@ document.getElementById('conf-filters').addEventListener('click', function(e){
 
 loadIndex();
 </script>
+</div><!-- bp-miolo -->
+</div><!-- bp-paper -->
 </body>
 </html>

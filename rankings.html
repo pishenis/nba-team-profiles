@@ -7,6 +7,7 @@
 <title>Rankings de Salários · Bola Presa</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="bp-shell.css" />
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <style>
 :root{
@@ -19,7 +20,7 @@
   --mono:"JetBrains Mono",ui-monospace,monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{background:var(--white);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;min-height:100vh}
+html,body{min-height:100vh}
 a{text-decoration:none;color:inherit}
 button{cursor:pointer;border:none;background:none;font:inherit;color:inherit}
 
@@ -117,24 +118,25 @@ td.r{text-align:right}
 </head>
 <body>
 
-<header class="site-header">
-  <a class="header-logo" href="home.html">
+<div class="bp-paper">
+<div class="bp-miolo">
+<div class="bp-topbar">
+  <a class="bp-topbar-logo" href="home.html">
     <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
-    Bola Presa
+    Bola Presa Stats
   </a>
-  <div class="header-divider"></div>
-  <span class="header-section">Rankings</span>
-  <span class="header-badge">2025–26</span>
-  <nav class="site-nav">
-    <a class="nav-lnk" href="home.html">Início</a>
-    <a class="nav-lnk" href="index.html">Times</a>
-    <a class="nav-lnk" href="jogadores.html">Jogadores</a>
-    <a class="nav-lnk" href="salaries.html">Salários</a>
-    <a class="nav-lnk" href="rankings.html">Rankings</a>
+  <div class="bp-topbar-divider"></div>
+  <span class="bp-topbar-section">Rankings</span>
+  <nav class="bp-topbar-nav">
+    <a href="playoffs.html">playoffs</a>
+    <a href="index.html">times</a>
+    <a href="jogadores.html">jogadores</a>
+    <a href="salaries.html">salários</a>
+    <a href="rankings.html">rankings</a>
   </nav>
-</header>
+</div>
 
-<div class="wrap">
+<div class="bp-inner">
   <div class="hero">
     <h1>Rankings <em>Salariais</em></h1>
     <p>Maiores contratos, distribuição por posição e eficiência por dólar · Temporada 2025–26</p>
@@ -147,7 +149,7 @@ td.r{text-align:right}
     <button class="tab-btn" data-tab="pos-C">Centers</button>
     <button class="tab-btn" data-tab="per">Maior PER</button>
     <button class="tab-btn" data-tab="value">Melhor custo-benefício</button>
-    <button class="tab-btn" data-tab="worst">Piores contratos</button>
+    <button class="tab-btn" data-tab="worst">Maior custo por produção</button>
   </div>
 
   <div id="tab-content">
@@ -285,9 +287,9 @@ function renderTab(tab) {
       .sort(function(a,b){return a.cost_per_per-b.cost_per_per;}).slice(0,30);
     renderTable(players, 'Melhor custo-benefício · menor $/PER (mín. PER 15)', 'value');
   } else if (tab === 'worst') {
-    players = salaryPlayers.filter(function(p){return p.cost_per_per!=null && p.cap_hit_raw>=10000000;})
+    players = salaryPlayers.filter(function(p){return p.cost_per_per!=null && p.cap_hit_raw>=20000000;})
       .sort(function(a,b){return b.cost_per_per-a.cost_per_per;}).slice(0,30);
-    renderTable(players, 'Piores contratos · maior $/PER (mín. $10M de cap hit)', 'worst');
+    renderTable(players, 'Maior custo por produção · $/PER (mín. $20M de cap hit)', 'worst');
   }
 }
 
@@ -326,9 +328,6 @@ function renderTable(players, title, mode) {
     var perHtml = perVal != null
       ? '<span class="per-badge '+perClass(perVal)+'">'+perVal.toFixed(1)+'</span>'
       : '<span class="per-badge per-avg">—</span>';
-    var netHtml = p.net_rating != null
-      ? '<span class="val '+(p.net_rating>=0?'green':'red')+'">'+(p.net_rating>=0?'+':'')+p.net_rating.toFixed(1)+'</span>'
-      : '<span class="val mute">—</span>';
     var statsHtml = (p.pts!=null)
       ? '<span class="val mute">'+p.pts+' · '+p.reb+' · '+p.ast+'</span>'
       : '<span class="val mute">—</span>';
@@ -359,10 +358,7 @@ function renderTable(players, title, mode) {
       '<td class="r">'+perHtml+'</td>'+
       // Pts · Reb · Ast
       '<td class="r">'+statsHtml+'</td>'+
-      // TS%
-      '<td class="r">'+(p.ts_pct!=null?'<span class="val">'+(p.ts_pct*100).toFixed(1)+'%</span>':'<span class="val mute">—</span>')+'</td>'+
-      // Net Rtg
-      '<td class="r">'+netHtml+'</td>'+
+
       // Custo-benefício (só nas abas relevantes)
       cbHtml+
     '</tr>';
@@ -374,7 +370,7 @@ function renderTable(players, title, mode) {
   var note = '';
   if (mode==='per') note = '* PER (Player Efficiency Rating) calculado pela fórmula de Hollinger a partir das médias de temporada. Média da liga normalizada para 15. Elite ≥ 25 · Bom ≥ 18 · Médio ≥ 13.';
   if (mode==='value') note = '* Jogadores com menor custo por ponto de PER — melhor retorno por dólar investido. Filtro: PER ≥ 15.';
-  if (mode==='worst') note = '* Jogadores com maior custo por ponto de PER e cap hit acima de $10M — pior retorno por dólar.';
+  if (mode==='worst') note = '* Jogadores com maior custo por ponto de PER e cap hit acima de $20M. Quanto maior o valor, mais caro é cada ponto de eficiência — mas o julgamento é seu.';
 
   document.getElementById('tab-content').innerHTML =
     '<div style="margin-bottom:10px;font-size:13px;font-weight:500;color:var(--ink)">'+title+'</div>'+
@@ -387,8 +383,7 @@ function renderTable(players, title, mode) {
         '<th class="r">Contrato<span class="th-hint">anos restantes</span></th>'+
         '<th class="r">PER</th>'+
         '<th class="r">Pts · Reb · Ast</th>'+
-        '<th class="r">TS%</th>'+
-        '<th class="r">Net Rtg</th>'+
+
         thCB+
       '</tr></thead>'+
       '<tbody>'+rows+'</tbody>'+
@@ -406,5 +401,7 @@ document.getElementById('tabs').addEventListener('click', function(e){
 
 loadAll();
 </script>
+</div><!-- bp-miolo -->
+</div><!-- bp-paper -->
 </body>
 </html>
