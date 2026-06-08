@@ -5,11 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg">
 <title>NBA Player Profiles · Bola Presa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="bp-shell.css" />
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;background:#fff;color:#1d1d1f}
+body{font-family:var(--sans);color:var(--ink);background:var(--paper)}
 .page{display:none}.page.active{display:block}
-.wrap{padding:2.5rem 2rem 3rem;max-width:900px;margin:0 auto}
+.wrap{padding:1.75rem 2rem 3rem;max-width:980px;margin:0 auto}
 .site-header{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem;flex-wrap:wrap}
 .site-name{font-size:20px;font-weight:600;letter-spacing:-0.4px}
 .bp-sep{font-size:13px;color:#86868b}
@@ -92,21 +96,28 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 </style>
 </head>
 <body>
+<div class="bp-paper">
+<div class="bp-miolo">
+
+<!-- TOPBAR -->
+<div class="bp-topbar">
+  <a class="bp-topbar-logo" href="home.html">
+    <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+    Bola Presa Stats
+  </a>
+  <div class="bp-topbar-divider"></div>
+  <span class="bp-topbar-section">Jogadores</span>
+  <nav class="bp-topbar-nav">
+    <a href="playoffs.html">playoffs</a>
+    <a href="index.html">times</a>
+    <a href="jogadores.html">jogadores</a>
+    <a href="salaries.html">salários</a>
+    <a href="rankings.html">rankings</a>
+  </nav>
+</div>
 
 <div id="home" class="page active">
 <div class="wrap">
-  <div class="site-header">
-    <span class="site-name">NBA Player Profiles</span>
-    <span class="bp-sep">·</span>
-    <div class="bp-brand">
-      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
-      <span class="bp-text">um projeto Bola Presa</span>
-    </div>
-    <div class="site-nav">
-      <a class="nav-lnk" href="home.html">Início</a>
-      <a class="nav-lnk" href="index.html">Times</a>
-    </div>
-  </div>
   <div class="search-wrap">
     <input class="search-input" id="search" type="text" placeholder="Buscar jogador..." autocomplete="off">
     <div class="autocomplete-list" id="ac-list"></div>
@@ -120,10 +131,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 <div class="wrap">
   <div class="profile-topbar">
     <button class="back-btn" onclick="showHome()">‹ Todos os jogadores</button>
-    <div class="site-nav">
-      <a class="nav-lnk" href="home.html">Início</a>
-      <a class="nav-lnk" href="index.html">Times</a>
-    </div>
   </div>
   <div id="profile-content"></div>
 </div>
@@ -464,5 +471,7 @@ function showProfile(pid){
     <div class="footer-note">Dados: NBA Stats · pbpstats.com · Temporada ${DATA.season} · Atualizado em ${DATA.updated}</div>`;
 }
 </script>
+</div><!-- bp-miolo -->
+</div><!-- bp-paper -->
 </body>
 </html>
