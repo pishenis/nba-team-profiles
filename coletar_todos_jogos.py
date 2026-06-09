@@ -2,6 +2,7 @@ import json
 import subprocess
 import sys
 import os
+from datetime import date, timedelta
 
 print("Carregando jogos_playoffs.json...")
 with open("jogos_playoffs.json") as f:
@@ -10,17 +11,25 @@ with open("jogos_playoffs.json") as f:
 all_games = []
 for serie_id, games in data["series"].items():
     for g in games:
-        all_games.append((serie_id, g["game_id"], g["home"], g["away"], g["game_number"]))
+        all_games.append((serie_id, g["game_id"], g["home"], g["away"], g["game_number"], g.get("date","")))
+
+# Jogos das últimas 24h sempre recoletados (para pegar jogos recém-terminados)
+today     = str(date.today())
+yesterday = str(date.today() - timedelta(days=1))
+recent    = {today, yesterday}
 
 # Verifica quais precisam ser coletados ou recoletados
 to_collect = []
-for serie_id, game_id, home, away, num in all_games:
+for serie_id, game_id, home, away, num, game_date in all_games:
     filename = f"jogo_{game_id}.json"
     needs_collect = False
 
     if not os.path.exists(filename):
         needs_collect = True
         reason = "não coletado"
+    elif game_date in recent:
+        needs_collect = True
+        reason = "jogo recente — recoleta"
     else:
         try:
             with open(filename) as f:
