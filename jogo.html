@@ -5,10 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg">
 <title>Ficha do Jogo · Bola Presa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="bp-shell.css" />
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;background:#fff;color:#1d1d1f}
-.wrap{padding:2rem 2rem 3rem;max-width:960px;margin:0 auto}
+body{font-family:var(--sans);color:var(--ink);background:var(--paper)}
+.wrap{padding:1.75rem 2rem 3rem;max-width:980px;margin:0 auto}
 .site-header{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem}
 .site-name{font-size:18px;font-weight:600;letter-spacing:-0.3px}
 .bp-brand{display:flex;align-items:center;gap:6px;margin-left:auto}
@@ -84,19 +88,27 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue'
 </style>
 </head>
 <body>
+<div class="bp-paper">
+<div class="bp-miolo">
+
+<!-- TOPBAR -->
+<div class="bp-topbar">
+  <a class="bp-topbar-logo" href="home.html">
+    <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+    Bola Presa Stats
+  </a>
+  <div class="bp-topbar-divider"></div>
+  <span class="bp-topbar-section">Ficha do Jogo</span>
+  <nav class="bp-topbar-nav">
+    <a href="playoffs.html">playoffs</a>
+    <a href="index.html">times</a>
+    <a href="jogadores.html">jogadores</a>
+    <a href="salaries.html">salários</a>
+    <a href="rankings.html">rankings</a>
+  </nav>
+</div>
+
 <div class="wrap">
-  <div class="site-header">
-    <span class="site-name">Ficha do Jogo</span>
-    <div class="bp-brand">
-      <img class="bp-logo" src="logo_bolapresa.jpg" alt="Bola Presa">
-      <span class="bp-text">Bola Presa</span>
-    </div>
-    <div class="site-nav">
-      <a class="nav-lnk" href="home.html">Início</a>
-      <a class="nav-lnk" href="playoffs.html">Playoffs</a>
-      <a class="nav-lnk" href="index.html">Times</a>
-    </div>
-  </div>
   <div id="content"><div class="loading">Carregando dados do jogo...</div></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
@@ -682,5 +694,7 @@ function render(game,teams){
   });
 }
 </script>
+</div><!-- bp-miolo -->
+</div><!-- bp-paper -->
 </body>
 </html>
