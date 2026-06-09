@@ -2,7 +2,8 @@ name: Atualização diária
 
 on:
   schedule:
-    - cron: '0 11 * * *'
+    - cron: '0 11 * * *'       # 8h Brasília — coleta completa diária
+    - cron: '*/15 0-4 * * *'   # A cada 15min entre 21h-1h Brasília (jogos das Finais)
   workflow_dispatch:
 
 jobs:
@@ -21,7 +22,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependências
-        run: pip install nba_api requests python-dotenv
+        run: pip install requests python-dotenv
 
       - name: Rodar scripts de coleta
         env:
@@ -32,15 +33,10 @@ jobs:
           python3 coletar_todos_jogos.py
           python3 corrigir_starter.py
 
-      - name: Atualizar salários
-        run: python3 generate_salaries.py
-        env:
-          BDL_API_KEY: ${{ secrets.BDL_API_KEY }}
-
       - name: Commit e push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --staged --quiet || git commit -m "Atualização automática $(date '+%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "Atualização $(date '+%Y-%m-%d %H:%M')"
           git push
