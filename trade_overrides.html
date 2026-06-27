@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Overrides de Trocas · Bola Presa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="bp-shell.css" />
+<style>
+.admin-hero{padding:32px 32px 24px;border-bottom:1px solid var(--hair)}
+.admin-hero h1{font-family:var(--serif);font-size:28px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.admin-hero p{font-size:13px;color:var(--mute);line-height:1.5}
+
+.admin-body{padding:28px 32px 48px}
+
+/* form de adicionar override */
+.add-form{
+  display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;
+  background:var(--paper);border:1px solid var(--hair);border-radius:10px;
+  padding:18px;margin-bottom:24px;
+}
+.field{display:flex;flex-direction:column;gap:5px;flex:1;min-width:160px;position:relative}
+.field label{font-family:var(--mono);font-size:9px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--mute)}
+.field input,.field select{
+  font-family:var(--sans);font-size:13px;padding:8px 10px;
+  border:1px solid var(--hair);border-radius:6px;background:var(--white);
+  color:var(--ink);outline:none;transition:border-color 0.15s;
+}
+.field input:focus,.field select:focus{border-color:var(--bp-blue)}
+
+.player-search-wrap{position:relative}
+.player-suggestions{
+  position:absolute;top:100%;left:0;right:0;margin-top:4px;
+  background:var(--white);border:1px solid var(--hair);border-radius:8px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.1);max-height:220px;overflow-y:auto;
+  z-index:20;display:none;
+}
+.player-suggestions.visible{display:block}
+.suggestion-item{
+  padding:8px 12px;cursor:pointer;font-size:13px;
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  border-bottom:1px solid var(--hair);
+}
+.suggestion-item:last-child{border-bottom:none}
+.suggestion-item:hover{background:var(--bp-blue-tint)}
+.suggestion-item .sname{font-weight:500;color:var(--ink)}
+.suggestion-item .steam{font-family:var(--mono);font-size:10px;color:var(--mute)}
+
+.btn-add{
+  font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:0.05em;
+  text-transform:uppercase;background:var(--bp-blue);color:#fff;
+  border:none;border-radius:6px;padding:9px 18px;cursor:pointer;
+  transition:background 0.15s;flex-shrink:0;
+}
+.btn-add:hover{background:var(--bp-blue-dark)}
+.btn-add:disabled{background:var(--mute-2);cursor:not-allowed}
+
+/* lista de overrides ativos */
+.sec-head{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.sec-line{width:3px;height:14px;border-radius:2px;background:var(--bp-blue);flex-shrink:0}
+.sec-name{font-size:13px;font-weight:500;color:var(--ink)}
+.sec-count{font-family:var(--mono);font-size:10px;color:var(--mute);margin-left:auto}
+
+.overrides-list{border:1px solid var(--hair);border-radius:10px;overflow:hidden;margin-bottom:24px}
+.override-row{
+  display:flex;align-items:center;gap:12px;padding:12px 16px;
+  border-bottom:1px solid var(--hair);background:var(--white);
+}
+.override-row:last-child{border-bottom:none}
+.override-row:hover{background:var(--paper)}
+
+.ov-player{flex:1;min-width:0}
+.ov-name{font-size:13px;font-weight:500;color:var(--ink)}
+.ov-meta{font-family:var(--mono);font-size:10px;color:var(--mute);margin-top:2px}
+
+.ov-arrow{color:var(--mute-2);font-size:14px;flex-shrink:0}
+
+.ov-team{
+  display:flex;align-items:center;gap:6px;
+  font-size:13px;font-weight:500;color:var(--bp-blue);flex-shrink:0;min-width:140px;
+}
+.ov-team img{width:18px;height:18px;object-fit:contain}
+
+.ov-date{font-family:var(--mono);font-size:10px;color:var(--mute-2);flex-shrink:0;min-width:70px}
+
+.btn-remove{
+  font-family:var(--mono);font-size:10px;color:var(--mute);
+  border:1px solid var(--hair);border-radius:6px;padding:5px 10px;
+  background:var(--white);cursor:pointer;transition:all 0.15s;flex-shrink:0;
+}
+.btn-remove:hover{border-color:#D85A30;color:#D85A30;background:rgba(216,90,48,0.05)}
+
+.empty-state{padding:40px 20px;text-align:center;color:var(--mute);font-size:13px}
+
+/* export */
+.export-bar{
+  display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  padding:16px;background:var(--paper);border:1px solid var(--hair);border-radius:10px;
+}
+.export-bar p{font-size:12px;color:var(--mute);flex:1;min-width:200px}
+.btn-export{
+  font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:0.05em;
+  text-transform:uppercase;background:var(--ink);color:#fff;
+  border:none;border-radius:6px;padding:9px 16px;cursor:pointer;
+  transition:opacity 0.15s;white-space:nowrap;
+}
+.btn-export:hover{opacity:0.85}
+
+.toast{
+  position:fixed;bottom:24px;right:24px;
+  background:var(--ink);color:#fff;padding:12px 18px;border-radius:8px;
+  font-size:13px;box-shadow:0 8px 24px rgba(0,0,0,0.2);
+  opacity:0;transform:translateY(8px);transition:all 0.25s;z-index:100;
+  pointer-events:none;
+}
+.toast.visible{opacity:1;transform:translateY(0)}
+
+.note{font-size:11px;color:var(--mute-2);margin-top:10px;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="bp-paper">
+<div class="bp-miolo">
+
+<div class="bp-topbar">
+  <a class="bp-topbar-logo" href="home.html">
+    <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+    Bola Presa Stats
+  </a>
+  <div class="bp-topbar-divider"></div>
+  <span class="bp-topbar-section">Admin · Overrides de Trocas</span>
+  <nav class="bp-topbar-nav">
+    <a href="home.html">stats</a>
+    <a href="salaries.html">salários</a>
+    <a href="rankings.html">rankings</a>
+  </nav>
+</div>
+
+<div class="admin-hero">
+  <h1>Overrides de Trocas</h1>
+  <p>Force manualmente o time de um jogador quando a Ball Don't Lie ainda não refletiu uma troca. Os overrides ficam salvos aqui e você exporta o JSON para o projeto quando quiser atualizar.</p>
+</div>
+
+<div class="admin-body">
+
+  <!-- FORM DE ADIÇÃO -->
+  <div class="add-form">
+    <div class="field player-search-wrap" style="flex:2">
+      <label>Jogador</label>
+      <input type="text" id="player-search" placeholder="Digite o nome..." autocomplete="off" />
+      <div class="player-suggestions" id="player-suggestions"></div>
+    </div>
+    <div class="field">
+      <label>Novo time</label>
+      <select id="team-select">
+        <option value="">Selecione...</option>
+      </select>
+    </div>
+    <button class="btn-add" id="btn-add" disabled>Adicionar</button>
+  </div>
+
+  <!-- LISTA DE OVERRIDES -->
+  <div class="sec-head">
+    <div class="sec-line"></div>
+    <span class="sec-name">Overrides ativos</span>
+    <span class="sec-count" id="ov-count">0</span>
+  </div>
+
+  <div class="overrides-list" id="overrides-list">
+    <div class="empty-state" id="empty-state">Nenhum override adicionado ainda.</div>
+  </div>
+
+  <!-- EXPORT -->
+  <div class="export-bar">
+    <p>Baixe o JSON e salve em <code>data/salaries/trade_overrides.json</code> no projeto, depois rode o <code>generate_salaries.py</code> novamente.</p>
+    <button class="btn-export" id="btn-export">Baixar trade_overrides.json</button>
+  </div>
+
+  <p class="note">* Os dados ficam salvos neste navegador. Se limpar o cache, os overrides somem — exporte sempre após adicionar.</p>
+
+</div>
+
+</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Times NBA: id BDL → abreviação, nome completo, NBA ID (logo) ──
+const TEAMS = [
+  {abbr:"ATL",name:"Atlanta Hawks",bdl:1,nba:1610612737},
+  {abbr:"BOS",name:"Boston Celtics",bdl:2,nba:1610612738},
+  {abbr:"BKN",name:"Brooklyn Nets",bdl:3,nba:1610612751},
+  {abbr:"CHA",name:"Charlotte Hornets",bdl:4,nba:1610612766},
+  {abbr:"CHI",name:"Chicago Bulls",bdl:5,nba:1610612741},
+  {abbr:"CLE",name:"Cleveland Cavaliers",bdl:6,nba:1610612739},
+  {abbr:"DAL",name:"Dallas Mavericks",bdl:7,nba:1610612742},
+  {abbr:"DEN",name:"Denver Nuggets",bdl:8,nba:1610612743},
+  {abbr:"DET",name:"Detroit Pistons",bdl:9,nba:1610612765},
+  {abbr:"GSW",name:"Golden State Warriors",bdl:10,nba:1610612744},
+  {abbr:"HOU",name:"Houston Rockets",bdl:11,nba:1610612745},
+  {abbr:"IND",name:"Indiana Pacers",bdl:12,nba:1610612754},
+  {abbr:"LAC",name:"LA Clippers",bdl:13,nba:1610612746},
+  {abbr:"LAL",name:"Los Angeles Lakers",bdl:14,nba:1610612747},
+  {abbr:"MEM",name:"Memphis Grizzlies",bdl:15,nba:1610612763},
+  {abbr:"MIA",name:"Miami Heat",bdl:16,nba:1610612748},
+  {abbr:"MIL",name:"Milwaukee Bucks",bdl:17,nba:1610612749},
+  {abbr:"MIN",name:"Minnesota Timberwolves",bdl:18,nba:1610612750},
+  {abbr:"NOP",name:"New Orleans Pelicans",bdl:19,nba:1610612740},
+  {abbr:"NYK",name:"New York Knicks",bdl:20,nba:1610612752},
+  {abbr:"OKC",name:"Oklahoma City Thunder",bdl:21,nba:1610612760},
+  {abbr:"ORL",name:"Orlando Magic",bdl:22,nba:1610612753},
+  {abbr:"PHI",name:"Philadelphia 76ers",bdl:23,nba:1610612755},
+  {abbr:"PHX",name:"Phoenix Suns",bdl:24,nba:1610612756},
+  {abbr:"POR",name:"Portland Trail Blazers",bdl:25,nba:1610612757},
+  {abbr:"SAC",name:"Sacramento Kings",bdl:26,nba:1610612758},
+  {abbr:"SAS",name:"San Antonio Spurs",bdl:27,nba:1610612759},
+  {abbr:"TOR",name:"Toronto Raptors",bdl:28,nba:1610612761},
+  {abbr:"UTA",name:"Utah Jazz",bdl:29,nba:1610612762},
+  {abbr:"WAS",name:"Washington Wizards",bdl:30,nba:1610612764},
+];
+
+const STORAGE_KEY = "trade_overrides_v1";
+let overrides = [];
+let nbaPlayerIds = {}; // nome → nba_id (para fotos, opcional)
+let selectedPlayer = null;
+
+// ── Inicialização ──────────────────────────────────────────
+function populateTeamSelect() {
+  const sel = document.getElementById('team-select');
+  TEAMS.slice().sort((a,b) => a.name.localeCompare(b.name,'pt')).forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t.abbr;
+    opt.textContent = t.name + ' (' + t.abbr + ')';
+    sel.appendChild(opt);
+  });
+}
+
+function teamByAbbr(abbr) {
+  return TEAMS.find(t => t.abbr === abbr);
+}
+
+// ── Storage local (persiste no navegador) ──────────────────
+function loadOverrides() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    overrides = raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    overrides = [];
+  }
+  renderList();
+}
+
+function saveOverrides() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(overrides));
+  } catch (e) {
+    showToast('Erro ao salvar — tente exportar manualmente');
+  }
+}
+
+// ── Busca de jogadores via BDL ─────────────────────────────
+let searchTimeout = null;
+const BDL_KEY_HINT = null; // a busca usa fetch direto à BDL pelo navegador do usuário
+
+async function searchPlayers(query) {
+  if (!query || query.length < 3) {
+    hideSuggestions();
+    return;
+  }
+  // Usamos o salaries_index + arquivos de time já existentes no projeto
+  // como base de busca, em vez de chamar a BDL diretamente (evita expor API key no client)
+  try {
+    const idxRes = await fetch('data/salaries/salaries_index.json');
+    const idx = await idxRes.json();
+    const q = query.toLowerCase();
+    let matches = [];
+
+    for (const team of idx) {
+      const r = await fetch('data/salaries/salaries_' + team.abbreviation.toLowerCase() + '.json');
+      const data = await r.json();
+      (data.players || []).forEach(p => {
+        if (p.name.toLowerCase().includes(q)) {
+          matches.push({
+            player_id: p.player_id,
+            name: p.name,
+            current_team: data.team.abbreviation,
+          });
+        }
+      });
+      if (matches.length >= 8) break;
+    }
+    renderSuggestions(matches.slice(0, 8));
+  } catch (e) {
+    hideSuggestions();
+  }
+}
+
+function renderSuggestions(matches) {
+  const box = document.getElementById('player-suggestions');
+  if (!matches.length) {
+    box.innerHTML = '<div class="suggestion-item" style="color:var(--mute)">Nenhum jogador encontrado</div>';
+    box.classList.add('visible');
+    return;
+  }
+  box.innerHTML = matches.map(m =>
+    '<div class="suggestion-item" data-id="' + m.player_id + '" data-name="' + m.name + '" data-team="' + m.current_team + '">' +
+      '<span class="sname">' + m.name + '</span>' +
+      '<span class="steam">' + m.current_team + '</span>' +
+    '</div>'
+  ).join('');
+  box.classList.add('visible');
+
+  box.querySelectorAll('.suggestion-item[data-id]').forEach(el => {
+    el.addEventListener('click', () => {
+      selectedPlayer = {
+        player_id: parseInt(el.dataset.id),
+        name: el.dataset.name,
+        current_team: el.dataset.team,
+      };
+      document.getElementById('player-search').value = el.dataset.name + ' (' + el.dataset.team + ')';
+      hideSuggestions();
+      updateAddButton();
+    });
+  });
+}
+
+function hideSuggestions() {
+  document.getElementById('player-suggestions').classList.remove('visible');
+}
+
+function updateAddButton() {
+  const teamSel = document.getElementById('team-select').value;
+  document.getElementById('btn-add').disabled = !(selectedPlayer && teamSel);
+}
+
+// ── Lista de overrides ──────────────────────────────────────
+function renderList() {
+  const list = document.getElementById('overrides-list');
+  const empty = document.getElementById('empty-state');
+  document.getElementById('ov-count').textContent = overrides.length;
+
+  if (!overrides.length) {
+    list.innerHTML = '<div class="empty-state">Nenhum override adicionado ainda.</div>';
+    return;
+  }
+
+  list.innerHTML = overrides.map((ov, i) => {
+    const team = teamByAbbr(ov.new_team_abbr);
+    const logo = team ? 'https://cdn.nba.com/logos/nba/' + team.nba + '/global/L/logo.svg' : '';
+    return '<div class="override-row">' +
+      '<div class="ov-player">' +
+        '<div class="ov-name">' + ov.player_name + '</div>' +
+        '<div class="ov-meta">era ' + (ov.old_team_abbr || '—') + ' · ID ' + ov.player_id + '</div>' +
+      '</div>' +
+      '<span class="ov-arrow">→</span>' +
+      '<div class="ov-team">' +
+        (logo ? '<img src="' + logo + '" alt="" onerror="this.style.display=\'none\'" />' : '') +
+        (team ? team.abbr : ov.new_team_abbr) +
+      '</div>' +
+      '<span class="ov-date">' + ov.added_at + '</span>' +
+      '<button class="btn-remove" data-idx="' + i + '">Remover</button>' +
+    '</div>';
+  }).join('');
+
+  list.querySelectorAll('.btn-remove').forEach(btn => {
+    btn.addEventListener('click', () => {
+      overrides.splice(parseInt(btn.dataset.idx), 1);
+      saveOverrides();
+      renderList();
+      showToast('Override removido');
+    });
+  });
+}
+
+// ── Toast ───────────────────────────────────────────────────
+let toastTimeout = null;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('visible');
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => t.classList.remove('visible'), 2400);
+}
+
+// ── Eventos ─────────────────────────────────────────────────
+document.getElementById('player-search').addEventListener('input', (e) => {
+  selectedPlayer = null;
+  updateAddButton();
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => searchPlayers(e.target.value), 300);
+});
+
+document.getElementById('team-select').addEventListener('change', updateAddButton);
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.player-search-wrap')) hideSuggestions();
+});
+
+document.getElementById('btn-add').addEventListener('click', () => {
+  if (!selectedPlayer) return;
+  const newTeam = document.getElementById('team-select').value;
+  if (!newTeam) return;
+
+  // Evita duplicar override do mesmo jogador
+  overrides = overrides.filter(o => o.player_id !== selectedPlayer.player_id);
+
+  overrides.push({
+    player_id: selectedPlayer.player_id,
+    player_name: selectedPlayer.name,
+    old_team_abbr: selectedPlayer.current_team,
+    new_team_abbr: newTeam,
+    added_at: new Date().toISOString().slice(0, 10),
+  });
+
+  saveOverrides();
+  renderList();
+  showToast('Override adicionado — ' + selectedPlayer.name + ' → ' + newTeam);
+
+  // Reset form
+  document.getElementById('player-search').value = '';
+  document.getElementById('team-select').value = '';
+  selectedPlayer = null;
+  updateAddButton();
+});
+
+document.getElementById('btn-export').addEventListener('click', () => {
+  const payload = {
+    generated_at: new Date().toISOString(),
+    overrides: overrides,
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'trade_overrides.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast('Arquivo baixado');
+});
+
+// ── Init ────────────────────────────────────────────────────
+populateTeamSelect();
+loadOverrides();
+</script>
+</body>
+</html>

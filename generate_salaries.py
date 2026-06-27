@@ -3,12 +3,16 @@ Bola Presa Stats — Gerador de Salários por Time
 Usa a API Ball Don't Lie (tier GOAT) para buscar contratos e gerar JSONs estáticos.
 
 Endpoints utilizados:
-  GET /v1/contracts/team    → salários por temporada por time
-  GET /v1/contracts/players → detalhes do contrato agregado (tipo, signed_using, etc.)
+  GET /v1/contracts/teams    → salários por temporada por time
+  GET /v1/contracts/players/aggregate → detalhes do contrato agregado
+
+Overrides manuais de troca:
+  Lê data/salaries/trade_overrides.json (gerado via trade_overrides.html)
+  e força o jogador para o novo time quando a BDL ainda não atualizou.
 
 Uso:
-    python generate_salaries.py --api-key SUA_KEY
-    python generate_salaries.py  # usa variável de ambiente BDL_API_KEY
+    python3 generate_salaries.py --api-key SUA_KEY
+    python3 generate_salaries.py  # usa variável de ambiente BDL_API_KEY
 """
 
 import os
@@ -18,30 +22,39 @@ import time
 import argparse
 import requests
 from pathlib import Path
+from _env_loader import require_env
 
 # ---------------------------------------------------------------------------
 # Configuração
 # ---------------------------------------------------------------------------
 
 BASE_URL = "https://api.balldontlie.io/v1"
-SEASON = 2025          # temporada atual (2025-26)
+SEASON = 2025
 OUTPUT_DIR = Path("data/salaries")
-REQUEST_DELAY = 0.12   # ~500 req/min seguro para GOAT (600 req/min)
+REQUEST_DELAY = 0.12
 
-# IDs dos 30 times na Ball Don't Lie
 TEAM_IDS = list(range(1, 31))
+
+# BDL team_id → abreviação (para aplicar overrides por abbr)
+BDL_TEAM_ABBR = {
+    1: "ATL", 2: "BOS", 3: "BKN", 4: "CHA", 5: "CHI",
+    6: "CLE", 7: "DAL", 8: "DEN", 9: "DET", 10: "GSW",
+    11: "HOU", 12: "IND", 13: "LAC", 14: "LAL", 15: "MEM",
+    16: "MIA", 17: "MIL", 18: "MIN", 19: "NOP", 20: "NYK",
+    21: "OKC", 22: "ORL", 23: "PHI", 24: "PHX", 25: "POR",
+    26: "SAC", 27: "SAS", 28: "TOR", 29: "UTA", 30: "WAS",
+}
+ABBR_TO_BDL_ID = {v: k for k, v in BDL_TEAM_ABBR.items()}
 
 
 def get_api_key(args_key: str) -> str:
-    key = args_key or os.environ.get("BDL_API_KEY", "")
-    if not key:
-        print("ERRO: Informe a API key via --api-key ou variável BDL_API_KEY")
-        sys.exit(1)
-    return key
+    if args_key:
+        return args_key
+    env = require_env("BDL_API_KEY")
+    return env["BDL_API_KEY"]
 
 
 def bdl_get(endpoint: str, params: dict, headers: dict) -> dict:
-    """Faz GET com retry simples em caso de rate limit."""
     url = f"{BASE_URL}{endpoint}"
     for attempt in range(3):
         resp = requests.get(url, headers=headers, params=params, timeout=30)
@@ -58,7 +71,6 @@ def bdl_get(endpoint: str, params: dict, headers: dict) -> dict:
 
 
 def fetch_all_pages(endpoint: str, params: dict, headers: dict) -> list:
-    """Busca todas as páginas de um endpoint paginado por cursor."""
     results = []
     cursor = None
     while True:
@@ -76,7 +88,6 @@ def fetch_all_pages(endpoint: str, params: dict, headers: dict) -> list:
 
 
 def fetch_team_contracts(team_id: int, headers: dict) -> list:
-    """Busca contratos por temporada de um time."""
     return fetch_all_pages(
         "/contracts/teams",
         {"team_id": team_id, "seasons[]": SEASON},
@@ -85,17 +96,11 @@ def fetch_team_contracts(team_id: int, headers: dict) -> list:
 
 
 def fetch_player_contract_aggregates(player_ids: list, headers: dict) -> dict:
-    """
-    Busca aggregates (tipo de contrato, signed_using, etc.) para uma lista de jogadores.
-    Retorna dict: player_id → aggregate mais recente com status CURRENT.
-    O endpoint /contracts/players/aggregate aceita um player_id por vez.
-    """
     result = {}
     for pid in player_ids:
         data = bdl_get("/contracts/players/aggregate", {"player_id": pid}, headers)
         for item in data.get("data", []):
             status = (item.get("contract_status") or "").upper()
-            # Pega o CURRENT; se não tiver, guarda o primeiro como fallback
             if pid not in result or status == "CURRENT":
                 result[pid] = item
         time.sleep(REQUEST_DELAY)
@@ -103,7 +108,6 @@ def fetch_player_contract_aggregates(player_ids: list, headers: dict) -> dict:
 
 
 def format_salary(value) -> str:
-    """Formata valor inteiro em dólares → '$59.6M'."""
     if value is None:
         return "—"
     v = int(value)
@@ -116,30 +120,20 @@ def format_salary(value) -> str:
 
 def translate_contract_type(ct: str) -> str:
     mapping = {
-        "Rookie": "Rookies",
-        "Free Agent": "Agente Livre",
-        "Extension": "Extensão",
-        "Two-Way": "Two-Way",
-        "10-Day": "10 Dias",
-        "Exhibit 10": "Exhibit 10",
-        "Minimum": "Mínimo",
-        "G League": "G League",
+        "Rookie": "Rookies", "Free Agent": "Agente Livre", "Extension": "Extensão",
+        "Two-Way": "Two-Way", "10-Day": "10 Dias", "Exhibit 10": "Exhibit 10",
+        "Minimum": "Mínimo", "G League": "G League",
     }
     return mapping.get(ct, ct or "—")
 
 
 def translate_signed_using(su: str) -> str:
     mapping = {
-        "Bird Rights": "Bird Rights",
-        "Cap Space": "Espaço no Cap",
-        "Non-Bird Rights": "Non-Bird Rights",
-        "Early Bird Rights": "Early Bird Rights",
-        "Mid-Level Exception": "Exceção MLE",
-        "Bi-Annual Exception": "Exceção Bi-anual",
-        "Rookie Scale": "Contrato de Rookie",
-        "Traded": "Troca",
-        "Minimum Salary Exception": "Salário Mínimo",
-        "Two-Way Contract": "Two-Way",
+        "Bird Rights": "Bird Rights", "Cap Space": "Espaço no Cap",
+        "Non-Bird Rights": "Non-Bird Rights", "Early Bird Rights": "Early Bird Rights",
+        "Mid-Level Exception": "Exceção MLE", "Bi-Annual Exception": "Exceção Bi-anual",
+        "Rookie Scale": "Contrato de Rookie", "Traded": "Troca",
+        "Minimum Salary Exception": "Salário Mínimo", "Two-Way Contract": "Two-Way",
     }
     for k, v in mapping.items():
         if su and k.lower() in su.lower():
@@ -158,19 +152,59 @@ def translate_fa_status(status: str) -> str:
     return status
 
 
-def build_team_payload(team_id: int, headers: dict):
-    """Monta o payload completo de um time."""
+def load_trade_overrides() -> dict:
+    """
+    Lê data/salaries/trade_overrides.json gerado pela interface trade_overrides.html.
+    Retorna dict: player_id → {new_team_abbr, player_name, ...}
+    """
+    f = OUTPUT_DIR / "trade_overrides.json"
+    if not f.exists():
+        return {}
+    try:
+        data = json.loads(f.read_text())
+        overrides = {}
+        for ov in data.get("overrides", []):
+            pid = ov.get("player_id")
+            if pid:
+                overrides[pid] = ov
+        if overrides:
+            print(f"\n📋 {len(overrides)} override(s) de troca carregado(s) de trade_overrides.json")
+            for pid, ov in overrides.items():
+                print(f"   {ov['player_name']}: {ov.get('old_team_abbr','?')} → {ov['new_team_abbr']}")
+        return overrides
+    except (json.JSONDecodeError, KeyError) as e:
+        print(f"  Aviso: erro ao ler trade_overrides.json ({e}) — ignorando")
+        return {}
+
+
+def build_team_payload(team_id: int, headers: dict, overrides: dict, all_team_contracts: dict):
+    """Monta o payload completo de um time, aplicando overrides de troca."""
     print(f"  Buscando contratos do time {team_id}...")
     contracts = fetch_team_contracts(team_id, headers)
+
+    # Remove jogadores que têm override SAINDO deste time
+    contracts = [
+        c for c in contracts
+        if not (c.get("player_id") in overrides and overrides[c["player_id"]]["new_team_abbr"] != BDL_TEAM_ABBR.get(team_id))
+    ]
+
+    # Adiciona jogadores que têm override ENTRANDO neste time
+    # (o contrato original deles está armazenado em all_team_contracts por player_id)
+    target_abbr = BDL_TEAM_ABBR.get(team_id)
+    for pid, ov in overrides.items():
+        if ov["new_team_abbr"] == target_abbr:
+            original_contract = all_team_contracts.get(pid)
+            if original_contract:
+                contracts.append(original_contract)
+
     if not contracts:
         print(f"  Sem dados para team_id={team_id}")
         return None
 
-    # Dados do time a partir do primeiro contrato
+    # Dados do time — usa o nome oficial do BDL_TEAM_ABBR como fallback se vier de override
     sample = contracts[0]
     team_info = sample.get("team", {})
 
-    # Busca aggregates para todos os jogadores deste time
     player_ids = list({c["player_id"] for c in contracts if c.get("player_id")})
     print(f"  Buscando aggregates de {len(player_ids)} jogadores...")
     aggregates = fetch_player_contract_aggregates(player_ids, headers)
@@ -191,13 +225,14 @@ def build_team_payload(team_id: int, headers: dict):
 
         agg = aggregates.get(pid, {})
 
-        # Extrai notas de opções do campo contract_notes
         notes = agg.get("contract_notes") or {}
         options_text = []
         if isinstance(notes, dict):
             for k, v in notes.items():
                 if v:
                     options_text.append(f"{k}: {v}")
+
+        is_overridden = pid in overrides and overrides[pid]["new_team_abbr"] == target_abbr
 
         players.append({
             "player_id": pid,
@@ -209,7 +244,6 @@ def build_team_payload(team_id: int, headers: dict):
             "base_salary": format_salary(base_salary),
             "total_cash": format_salary(total_cash),
             "salary_rank": rank,
-            # Do aggregate
             "contract_type": translate_contract_type(agg.get("contract_type", "")),
             "contract_type_raw": agg.get("contract_type", ""),
             "start_year": agg.get("start_year"),
@@ -225,16 +259,16 @@ def build_team_payload(team_id: int, headers: dict):
             "free_agent_status": translate_fa_status(agg.get("free_agent_status", "")),
             "contract_status": agg.get("contract_status", ""),
             "contract_notes": options_text,
+            "traded_via_override": is_overridden,
         })
 
-    # Ordena por cap_hit decrescente (None vai para o fim)
     players.sort(key=lambda p: p["cap_hit_raw"] or 0, reverse=True)
 
     return {
         "team": {
             "id": team_info.get("id", team_id),
             "full_name": team_info.get("full_name", ""),
-            "abbreviation": team_info.get("abbreviation", ""),
+            "abbreviation": team_info.get("abbreviation", BDL_TEAM_ABBR.get(team_id, "")),
             "city": team_info.get("city", ""),
             "name": team_info.get("name", ""),
             "conference": team_info.get("conference", ""),
@@ -248,51 +282,6 @@ def build_team_payload(team_id: int, headers: dict):
     }
 
 
-def fetch_nba_player_ids() -> dict:
-    """
-    Busca o mapa nome → nba_player_id direto da API pública da NBA.
-    Funciona localmente; o GitHub Actions é bloqueado mas o JSON gerado
-    fica salvo em data/salaries/nba_player_ids.json para uso do HTML.
-    """
-    import unicodedata
-
-    def normalize(s):
-        return unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode("ascii")
-
-    url = "https://stats.nba.com/stats/commonallplayers"
-    params = {
-        "LeagueID": "00",
-        "Season": "2025-26",
-        "IsOnlyCurrentSeason": "1",
-    }
-    headers_nba = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-        "Referer": "https://www.nba.com/",
-        "Accept": "application/json",
-    }
-    try:
-        resp = requests.get(url, params=params, headers=headers_nba, timeout=20)
-        resp.raise_for_status()
-        data = resp.json()
-        headers_row = data["resultSets"][0]["headers"]
-        rows = data["resultSets"][0]["rowSet"]
-        id_idx   = headers_row.index("PERSON_ID")
-        name_idx = headers_row.index("DISPLAY_FIRST_LAST")
-        mapa = {}
-        for row in rows:
-            nba_id = str(row[id_idx])
-            name   = str(row[name_idx]).strip()
-            mapa[name] = nba_id
-            norm = normalize(name)
-            if norm != name:
-                mapa[norm] = nba_id
-        print(f"  → {len(mapa)} entradas de jogadores da NBA")
-        return mapa
-    except Exception as e:
-        print(f"  Aviso: não foi possível buscar IDs da NBA ({e})")
-        return {}
-
-
 def main():
     parser = argparse.ArgumentParser(description="Gera JSONs de salários por time")
     parser.add_argument("--api-key", default="", help="Ball Don't Lie API key")
@@ -304,21 +293,29 @@ def main():
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Gera mapa nome → NBA player_id para fotos
-    print("\nBuscando IDs de jogadores da NBA...")
-    nba_ids = fetch_nba_player_ids()
-    if nba_ids:
-        ids_file = OUTPUT_DIR / "nba_player_ids.json"
-        ids_file.write_text(json.dumps(nba_ids, ensure_ascii=False, indent=2))
-        print(f"  → Salvo: {ids_file}")
+    overrides = load_trade_overrides()
 
     team_ids = [args.team_id] if args.team_id else TEAM_IDS
 
-    index = []  # para salaries_index.json
+    # Pré-busca: para aplicar overrides corretamente, precisamos do contrato
+    # original de CADA jogador com override, vindo do time ONDE ELE ESTÁ HOJE na BDL.
+    # Buscamos isso uma vez no início, escaneando todos os 30 times.
+    all_team_contracts = {}
+    if overrides:
+        print("\nPré-carregando contratos originais para aplicar overrides...")
+        for team_id in TEAM_IDS:
+            contracts = fetch_team_contracts(team_id, headers)
+            for c in contracts:
+                pid = c.get("player_id")
+                if pid in overrides:
+                    all_team_contracts[pid] = c
+        print(f"  → {len(all_team_contracts)}/{len(overrides)} contratos originais localizados")
+
+    index = []
 
     for team_id in team_ids:
         print(f"\n[Time {team_id}/{len(team_ids) if not args.team_id else 1}]")
-        payload = build_team_payload(team_id, headers)
+        payload = build_team_payload(team_id, headers, overrides, all_team_contracts)
         if not payload:
             continue
 
@@ -338,7 +335,6 @@ def main():
             "file": f"data/salaries/salaries_{abbr}.json",
         })
 
-    # Salva índice global
     index.sort(key=lambda t: t["total_cap_raw"] or 0, reverse=True)
     index_file = OUTPUT_DIR / "salaries_index.json"
     index_file.write_text(json.dumps(index, ensure_ascii=False, indent=2))
