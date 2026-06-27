@@ -1,5 +1,15 @@
 [
   {
+    "team_id": 16,
+    "full_name": "Miami Heat",
+    "abbreviation": "MIA",
+    "conference": "East",
+    "total_cap": "$213.5M",
+    "total_cap_raw": 213458006,
+    "player_count": 15,
+    "file": "data/salaries/salaries_mia.json"
+  },
+  {
     "team_id": 6,
     "full_name": "Cleveland Cavaliers",
     "abbreviation": "CLE",
@@ -30,6 +40,16 @@
     "file": "data/salaries/salaries_gsw.json"
   },
   {
+    "team_id": 5,
+    "full_name": "Chicago Bulls",
+    "abbreviation": "CHI",
+    "conference": "East",
+    "total_cap": "$201.8M",
+    "total_cap_raw": 201812959,
+    "player_count": 17,
+    "file": "data/salaries/salaries_chi.json"
+  },
+  {
     "team_id": 14,
     "full_name": "Los Angeles Lakers",
     "abbreviation": "LAL",
@@ -54,8 +74,8 @@
     "full_name": "Minnesota Timberwolves",
     "abbreviation": "MIN",
     "conference": "West",
-    "total_cap": "$194.0M",
-    "total_cap_raw": 194042641,
+    "total_cap": "$193.3M",
+    "total_cap_raw": 193252146,
     "player_count": 15,
     "file": "data/salaries/salaries_min.json"
   },
@@ -98,16 +118,6 @@
     "total_cap_raw": 188910815,
     "player_count": 20,
     "file": "data/salaries/salaries_atl.json"
-  },
-  {
-    "team_id": 16,
-    "full_name": "Miami Heat",
-    "abbreviation": "MIA",
-    "conference": "East",
-    "total_cap": "$188.8M",
-    "total_cap_raw": 188849562,
-    "player_count": 17,
-    "file": "data/salaries/salaries_mia.json"
   },
   {
     "team_id": 22,
@@ -210,16 +220,6 @@
     "file": "data/salaries/salaries_dal.json"
   },
   {
-    "team_id": 5,
-    "full_name": "Chicago Bulls",
-    "abbreviation": "CHI",
-    "conference": "East",
-    "total_cap": "$176.3M",
-    "total_cap_raw": 176271199,
-    "player_count": 16,
-    "file": "data/salaries/salaries_chi.json"
-  },
-  {
     "team_id": 24,
     "full_name": "Phoenix Suns",
     "abbreviation": "PHX",
@@ -260,26 +260,6 @@
     "file": "data/salaries/salaries_uta.json"
   },
   {
-    "team_id": 4,
-    "full_name": "Charlotte Hornets",
-    "abbreviation": "CHA",
-    "conference": "East",
-    "total_cap": "$159.5M",
-    "total_cap_raw": 159459301,
-    "player_count": 16,
-    "file": "data/salaries/salaries_cha.json"
-  },
-  {
-    "team_id": 17,
-    "full_name": "Milwaukee Bucks",
-    "abbreviation": "MIL",
-    "conference": "East",
-    "total_cap": "$152.6M",
-    "total_cap_raw": 152616582,
-    "player_count": 16,
-    "file": "data/salaries/salaries_mil.json"
-  },
-  {
     "team_id": 15,
     "full_name": "Memphis Grizzlies",
     "abbreviation": "MEM",
@@ -294,9 +274,29 @@
     "full_name": "Brooklyn Nets",
     "abbreviation": "BKN",
     "conference": "East",
-    "total_cap": "$130.7M",
-    "total_cap_raw": 130686657,
+    "total_cap": "$136.0M",
+    "total_cap_raw": 136009095,
     "player_count": 19,
     "file": "data/salaries/salaries_bkn.json"
+  },
+  {
+    "team_id": 4,
+    "full_name": "Charlotte Hornets",
+    "abbreviation": "CHA",
+    "conference": "East",
+    "total_cap": "$129.4M",
+    "total_cap_raw": 129385598,
+    "player_count": 15,
+    "file": "data/salaries/salaries_cha.json"
+  },
+  {
+    "team_id": 17,
+    "full_name": "Milwaukee Bucks",
+    "abbreviation": "MIL",
+    "conference": "East",
+    "total_cap": "$128.0M",
+    "total_cap_raw": 128008138,
+    "player_count": 18,
+    "file": "data/salaries/salaries_mil.json"
   }
 ]
