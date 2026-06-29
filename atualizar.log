@@ -21593,3 +21593,105 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Sun Jun 28 17:27:58 -03 2026: Atualizacao concluida.
+Mon Jun 29 08:58:46 -03 2026: Iniciando atualizacao...
+Coletando jogos de playoff via BDL...
+  85 jogos encontrados
+
+Feito! jogos_playoffs.json criado.
+  nyk_atl: ATL 2-4 NYK (6 jogos)
+  cle_tor: CLE 4-3 TOR (7 jogos)
+  den_min: MIN 4-2 DEN (6 jogos)
+  lal_hou: LAL 4-2 HOU (6 jogos)
+  sas_por: POR 1-4 SAS (5 jogos)
+  bos_phi: PHI 4-3 BOS (7 jogos)
+  det_orl: ORL 3-4 DET (7 jogos)
+  okc_phx: OKC 4-0 PHX (4 jogos)
+  sas_min: MIN 2-4 SAS (6 jogos)
+  nyk_phi: PHI 0-4 NYK (4 jogos)
+  okc_lal: LAL 0-4 OKC (4 jogos)
+  det_cle: CLE 4-3 DET (7 jogos)
+  okc_sas: OKC 3-4 SAS (7 jogos)
+  nyk_cle: CLE 0-4 NYK (4 jogos)
+  finals: NYK 4-1 SAS (5 jogos)
+
+Processando LAL vs HOU...
+  3 jogos · LAL 2-1 HOU
+
+Processando DEN vs MIN...
+  4 jogos · DEN 3-1 MIN
+
+Processando CLE vs TOR...
+  3 jogos · CLE 0-2 TOR
+
+Processando NYK vs ATL...
+  3 jogos · NYK 2-1 ATL
+
+Processando SAS vs POR...
+  3 jogos · SAS 1-1 POR
+
+Processando BOS vs PHI...
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 730, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 909, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 469, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 513, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1091: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.balldontlie.io', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/coletar_head2head.py", line 80, in <module>
+    games_raw = get_all_pages(f"{BASE}/games", {
+  File "/Users/macintoshhd/nba-team-profiles/coletar_head2head.py", line 56, in get_all_pages
+    r = requests.get(url, headers=HEADERS, params=params, timeout=30)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.balldontlie.io', port=443): Read timed out. (read timeout=30)
+Carregando jogos_playoffs.json...
+  85 jogos no total · 85 OK · 0 para coletar
+Nada a coletar.
+167 arquivos encontrados
+Pronto! 0 arquivos corrigidos.
