@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Assinaturas Manuais · Bola Presa Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="bp-shell.css" />
+<style>
+.admin-hero { padding: 32px 32px 24px; border-bottom: 1px solid var(--hair); }
+.admin-hero h1 { font-family: var(--serif); font-size: 28px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+.admin-hero p { font-size: 13px; color: var(--mute); line-height: 1.5; }
+
+.admin-body { padding: 28px 32px 48px; }
+
+.add-form {
+  background: var(--paper); border: 1px solid var(--hair); border-radius: 10px;
+  padding: 20px; margin-bottom: 28px; display: flex; flex-direction: column; gap: 16px;
+}
+.form-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.field { display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 160px; position: relative; }
+.field.flex2 { flex: 2; }
+.field label { font-family: var(--mono); font-size: 9px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); }
+.field input, .field select {
+  font-family: var(--sans); font-size: 13px; padding: 8px 10px;
+  border: 1px solid var(--hair); border-radius: 6px; background: var(--white);
+  color: var(--ink); outline: none; transition: border-color 0.15s;
+}
+.field input:focus, .field select:focus { border-color: var(--bp-blue); }
+.field input[readonly] { background: var(--paper); color: var(--mute); cursor: default; }
+.field input[type="url"] { font-family: var(--mono); font-size: 12px; }
+.field .computed { font-family: var(--mono); font-size: 13px; padding: 8px 10px; border: 1px solid var(--hair); border-radius: 6px; background: var(--paper); color: var(--green); font-weight: 500; min-height: 37px; }
+
+/* player autocomplete */
+.player-suggestions {
+  position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px;
+  background: var(--white); border: 1px solid var(--hair); border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1); max-height: 240px; overflow-y: auto;
+  z-index: 20; display: none;
+}
+.player-suggestions.visible { display: block; }
+.suggestion-item {
+  padding: 9px 12px; cursor: pointer; font-size: 13px;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  border-bottom: 1px solid var(--hair);
+}
+.suggestion-item:last-child { border-bottom: none; }
+.suggestion-item:hover { background: var(--bp-blue-tint); }
+.suggestion-item .sname { font-weight: 500; color: var(--ink); }
+.suggestion-item .smeta { font-family: var(--mono); font-size: 10px; color: var(--mute); }
+
+.form-actions { display: flex; gap: 10px; align-items: center; padding-top: 4px; }
+.btn-add {
+  font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 0.05em;
+  text-transform: uppercase; background: var(--bp-blue); color: #fff;
+  border: none; border-radius: 6px; padding: 10px 22px; cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-add:hover { background: var(--bp-blue-dark); }
+.btn-add:disabled { background: var(--mute-2); cursor: not-allowed; }
+.form-error { font-size: 12px; color: #D85A30; font-family: var(--mono); }
+
+/* lista de registros */
+.sec-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.sec-line { width: 3px; height: 14px; border-radius: 2px; background: var(--bp-blue); flex-shrink: 0; }
+.sec-name { font-size: 13px; font-weight: 500; color: var(--ink); }
+.sec-count { font-family: var(--mono); font-size: 10px; color: var(--mute); margin-left: auto; }
+
+.registros-list { border: 1px solid var(--hair); border-radius: 10px; overflow: hidden; margin-bottom: 24px; }
+.registro-row {
+  display: flex; align-items: center; gap: 12px; padding: 13px 16px;
+  border-bottom: 1px solid var(--hair); background: var(--white);
+}
+.registro-row:last-child { border-bottom: none; }
+.registro-row:hover { background: var(--paper); }
+
+.reg-player { flex: 1; min-width: 0; }
+.reg-name { font-size: 13px; font-weight: 500; color: var(--ink); }
+.reg-meta { font-family: var(--mono); font-size: 10px; color: var(--mute); margin-top: 2px; }
+
+.reg-transfer { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+.reg-arrow { color: var(--mute-2); }
+.reg-team { font-family: var(--mono); font-size: 12px; font-weight: 600; color: var(--bp-blue); }
+
+.reg-deal { font-family: var(--mono); font-size: 11px; color: var(--green); font-weight: 500; flex-shrink: 0; min-width: 90px; text-align: right; }
+
+.reg-fonte { font-size: 10px; color: var(--mute-2); font-family: var(--mono); flex-shrink: 0; max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.reg-fonte a { color: var(--bp-blue); }
+
+.btn-remove {
+  font-family: var(--mono); font-size: 10px; color: var(--mute);
+  border: 1px solid var(--hair); border-radius: 6px; padding: 5px 10px;
+  background: var(--white); cursor: pointer; transition: all 0.15s; flex-shrink: 0;
+}
+.btn-remove:hover { border-color: #D85A30; color: #D85A30; background: rgba(216,90,48,0.05); }
+
+.empty-state { padding: 40px 20px; text-align: center; color: var(--mute); font-size: 13px; }
+
+/* export */
+.export-bar {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 16px; background: var(--paper); border: 1px solid var(--hair); border-radius: 10px;
+}
+.export-bar p { font-size: 12px; color: var(--mute); flex: 1; min-width: 200px; }
+.export-bar p code { font-family: var(--mono); background: var(--white); padding: 1px 4px; border-radius: 3px; border: 0.5px solid var(--hair); }
+.btn-export {
+  font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 0.05em;
+  text-transform: uppercase; background: var(--ink); color: #fff;
+  border: none; border-radius: 6px; padding: 10px 18px; cursor: pointer;
+  transition: opacity 0.15s; white-space: nowrap;
+}
+.btn-export:hover { opacity: 0.85; }
+
+.note { font-size: 11px; color: var(--mute-2); margin-top: 12px; line-height: 1.6; }
+
+/* toast */
+.toast {
+  position: fixed; bottom: 24px; right: 24px;
+  background: var(--ink); color: #fff; padding: 12px 18px; border-radius: 8px;
+  font-size: 13px; box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  opacity: 0; transform: translateY(8px); transition: all 0.25s; z-index: 100;
+  pointer-events: none;
+}
+.toast.visible { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+<div class="bp-paper">
+<div class="bp-miolo">
+
+<div class="bp-topbar">
+  <a class="bp-topbar-logo" href="home.html">
+    <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+    Bola Presa Stats
+  </a>
+  <div class="bp-topbar-divider"></div>
+  <span class="bp-topbar-section">Admin · Assinaturas Manuais</span>
+  <nav class="bp-topbar-nav">
+    <a href="home.html">home</a>
+    <a href="free-agents.html">free agents</a>
+  </nav>
+</div>
+
+<div class="admin-hero">
+  <h1>Assinaturas Manuais</h1>
+  <p>Registre assinaturas confirmadas por Woj, Shams ou outra fonte antes da BDL atualizar. Exporte o JSON e commite em <code>data/free-agents/assinaturas_manuais.json</code>. Quando a BDL confirmar oficialmente, os números dela sobrescrevem os manuais automaticamente.</p>
+</div>
+
+<div class="admin-body">
+
+  <!-- FORMULÁRIO -->
+  <div class="add-form">
+    <div class="form-row">
+      <!-- Jogador (autocomplete) -->
+      <div class="field flex2" style="position:relative">
+        <label>Jogador</label>
+        <input type="text" id="player-search" placeholder="Digite o nome do free agent…" autocomplete="off" />
+        <div class="player-suggestions" id="player-suggestions"></div>
+      </div>
+      <!-- Time anterior (readonly, preenchido ao selecionar) -->
+      <div class="field">
+        <label>Time anterior</label>
+        <input type="text" id="time-anterior" readonly placeholder="— auto" />
+      </div>
+    </div>
+    <div class="form-row">
+      <!-- Novo time -->
+      <div class="field flex2">
+        <label>Novo time</label>
+        <select id="novo-time">
+          <option value="">Selecione o time…</option>
+        </select>
+      </div>
+      <!-- Anos -->
+      <div class="field">
+        <label>Anos</label>
+        <input type="number" id="anos" min="1" max="5" step="1" placeholder="Ex: 3" />
+      </div>
+      <!-- Valor total -->
+      <div class="field">
+        <label>Valor total ($)</label>
+        <input type="number" id="valor-total" min="0" step="100000" placeholder="Ex: 90000000" />
+      </div>
+      <!-- Média anual (calculada) -->
+      <div class="field">
+        <label>Média / ano</label>
+        <div class="computed" id="media-anual">—</div>
+      </div>
+    </div>
+    <div class="form-row">
+      <!-- Fonte -->
+      <div class="field flex2">
+        <label>Link da fonte <span style="color:#D85A30">*</span></label>
+        <input type="url" id="fonte-url" placeholder="https://twitter.com/wojespn/…" />
+      </div>
+    </div>
+    <div class="form-actions">
+      <button class="btn-add" id="btn-add" disabled>Registrar assinatura</button>
+      <span class="form-error" id="form-error"></span>
+    </div>
+  </div>
+
+  <!-- LISTA DE REGISTROS -->
+  <div class="sec-head">
+    <div class="sec-line"></div>
+    <span class="sec-name">Assinaturas registradas</span>
+    <span class="sec-count" id="reg-count">0</span>
+  </div>
+  <div class="registros-list" id="registros-list">
+    <div class="empty-state">Nenhuma assinatura registrada ainda.</div>
+  </div>
+
+  <!-- EXPORT -->
+  <div class="export-bar">
+    <p>Baixe o JSON e salve em <code>data/free-agents/assinaturas_manuais.json</code> no projeto, depois commite.</p>
+    <button class="btn-export" id="btn-export">Baixar assinaturas_manuais.json</button>
+  </div>
+
+  <p class="note">* Os dados ficam salvos neste navegador (localStorage). Exporte sempre após adicionar registros.</p>
+
+</div>
+</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const STORAGE_KEY = 'assinaturas_manuais_v1';
+const TEAMS = [
+  {abbr:'ATL',name:'Atlanta Hawks'},{abbr:'BOS',name:'Boston Celtics'},
+  {abbr:'BKN',name:'Brooklyn Nets'},{abbr:'CHA',name:'Charlotte Hornets'},
+  {abbr:'CHI',name:'Chicago Bulls'},{abbr:'CLE',name:'Cleveland Cavaliers'},
+  {abbr:'DAL',name:'Dallas Mavericks'},{abbr:'DEN',name:'Denver Nuggets'},
+  {abbr:'DET',name:'Detroit Pistons'},{abbr:'GSW',name:'Golden State Warriors'},
+  {abbr:'HOU',name:'Houston Rockets'},{abbr:'IND',name:'Indiana Pacers'},
+  {abbr:'LAC',name:'LA Clippers'},{abbr:'LAL',name:'Los Angeles Lakers'},
+  {abbr:'MEM',name:'Memphis Grizzlies'},{abbr:'MIA',name:'Miami Heat'},
+  {abbr:'MIL',name:'Milwaukee Bucks'},{abbr:'MIN',name:'Minnesota Timberwolves'},
+  {abbr:'NOP',name:'New Orleans Pelicans'},{abbr:'NYK',name:'New York Knicks'},
+  {abbr:'OKC',name:'Oklahoma City Thunder'},{abbr:'ORL',name:'Orlando Magic'},
+  {abbr:'PHI',name:'Philadelphia 76ers'},{abbr:'PHX',name:'Phoenix Suns'},
+  {abbr:'POR',name:'Portland Trail Blazers'},{abbr:'SAC',name:'Sacramento Kings'},
+  {abbr:'SAS',name:'San Antonio Spurs'},{abbr:'TOR',name:'Toronto Raptors'},
+  {abbr:'UTA',name:'Utah Jazz'},{abbr:'WAS',name:'Washington Wizards'},
+];
+
+let registros = [];
+let allFAs = [];     // lista de free agents carregada do JSON
+let selectedPlayer = null;
+
+// ── Init ────────────────────────────────────────────────────────
+function populateTeams() {
+  const sel = document.getElementById('novo-time');
+  TEAMS.slice().sort((a,b) => a.name.localeCompare(b.name,'pt')).forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t.abbr;
+    opt.textContent = `${t.name} (${t.abbr})`;
+    sel.appendChild(opt);
+  });
+}
+
+async function loadFAs() {
+  try {
+    const r = await fetch('data/free-agents/free_agents_2026_final.json');
+    allFAs = await r.json();
+  } catch(e) {
+    allFAs = [];
+  }
+}
+
+function loadRegistros() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    registros = raw ? JSON.parse(raw) : [];
+  } catch(e) {
+    registros = [];
+  }
+  renderList();
+}
+
+function saveRegistros() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(registros));
+  } catch(e) {
+    showToast('Erro ao salvar — exporte manualmente');
+  }
+}
+
+// ── Autocomplete de jogadores ───────────────────────────────────
+let searchTimeout = null;
+
+document.getElementById('player-search').addEventListener('input', e => {
+  selectedPlayer = null;
+  document.getElementById('time-anterior').value = '';
+  updateAddButton();
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => searchFAs(e.target.value), 200);
+});
+
+function searchFAs(query) {
+  const box = document.getElementById('player-suggestions');
+  if (!query || query.length < 2) { box.classList.remove('visible'); return; }
+
+  const q = query.toLowerCase();
+  const matches = allFAs.filter(fa => {
+    const p = fa.player || {};
+    const name = `${p.first_name || ''} ${p.last_name || ''}`.toLowerCase();
+    return name.includes(q);
+  }).slice(0, 10);
+
+  if (!matches.length) {
+    box.innerHTML = '<div class="suggestion-item" style="color:var(--mute)">Nenhum free agent encontrado</div>';
+    box.classList.add('visible');
+    return;
+  }
+
+  box.innerHTML = matches.map(fa => {
+    const p = fa.player || {};
+    const pid = p.id || fa.player_id;
+    const name = `${p.first_name || ''} ${p.last_name || ''}`;
+    const team = (fa.team || {}).abbreviation || '?';
+    const status = fa.free_agent_status || '';
+    return `<div class="suggestion-item" data-pid="${pid}" data-name="${name}" data-team="${team}" data-status="${status}">
+      <span class="sname">${name}</span>
+      <span class="smeta">${status} · ex-${team}</span>
+    </div>`;
+  }).join('');
+  box.classList.add('visible');
+
+  box.querySelectorAll('.suggestion-item[data-pid]').forEach(el => {
+    el.addEventListener('click', () => {
+      selectedPlayer = {
+        player_id: parseInt(el.dataset.pid),
+        player_name: el.dataset.name,
+        time_anterior: el.dataset.team,
+        status_anterior: el.dataset.status,
+      };
+      document.getElementById('player-search').value = el.dataset.name;
+      document.getElementById('time-anterior').value = el.dataset.team;
+      box.classList.remove('visible');
+      updateAddButton();
+    });
+  });
+}
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('#player-search') && !e.target.closest('#player-suggestions')) {
+    document.getElementById('player-suggestions').classList.remove('visible');
+  }
+});
+
+// ── Cálculo de média anual ──────────────────────────────────────
+function fmtSal(v) {
+  if (!v || isNaN(v)) return '—';
+  const m = v / 1e6;
+  return m >= 1 ? `$${m.toFixed(1)}M` : `$${(v/1000).toFixed(0)}K`;
+}
+
+function updateMedia() {
+  const anos = parseFloat(document.getElementById('anos').value);
+  const total = parseFloat(document.getElementById('valor-total').value);
+  const el = document.getElementById('media-anual');
+  if (anos > 0 && total > 0) {
+    el.textContent = fmtSal(total / anos);
+  } else {
+    el.textContent = '—';
+  }
+  updateAddButton();
+}
+
+document.getElementById('anos').addEventListener('input', updateMedia);
+document.getElementById('valor-total').addEventListener('input', updateMedia);
+
+// ── Validação do botão ──────────────────────────────────────────
+function updateAddButton() {
+  const btn = document.getElementById('btn-add');
+  const anos = parseFloat(document.getElementById('anos').value);
+  const total = parseFloat(document.getElementById('valor-total').value);
+  const novoTime = document.getElementById('novo-time').value;
+  const fonte = document.getElementById('fonte-url').value.trim();
+  const valid = selectedPlayer && novoTime && anos > 0 && total > 0 && fonte.length > 0;
+  btn.disabled = !valid;
+}
+
+document.getElementById('novo-time').addEventListener('change', updateAddButton);
+document.getElementById('fonte-url').addEventListener('input', updateAddButton);
+
+// ── Adicionar registro ──────────────────────────────────────────
+document.getElementById('btn-add').addEventListener('click', () => {
+  if (!selectedPlayer) return;
+  const novoTime = document.getElementById('novo-time').value;
+  const anos = parseInt(document.getElementById('anos').value);
+  const total = parseFloat(document.getElementById('valor-total').value);
+  const fonte = document.getElementById('fonte-url').value.trim();
+
+  if (!novoTime || !anos || !total || !fonte) return;
+
+  // Validar URL minimamente
+  try { new URL(fonte); } catch(e) {
+    document.getElementById('form-error').textContent = 'URL da fonte inválida.';
+    return;
+  }
+  document.getElementById('form-error').textContent = '';
+
+  // Remove duplicata do mesmo jogador se existir
+  registros = registros.filter(r => r.player_id !== selectedPlayer.player_id);
+
+  registros.push({
+    player_id: selectedPlayer.player_id,
+    player_name: selectedPlayer.player_name,
+    status_anterior: selectedPlayer.status_anterior,
+    time_anterior: selectedPlayer.time_anterior,
+    novo_time: novoTime,
+    anos_contrato: anos,
+    valor_total: total,
+    salario_medio: Math.round(total / anos),
+    fonte_url: fonte,
+    registrado_em: new Date().toISOString(),
+  });
+
+  saveRegistros();
+  renderList();
+  showToast(`Assinatura registrada: ${selectedPlayer.player_name} → ${novoTime}`);
+
+  // Reset form
+  document.getElementById('player-search').value = '';
+  document.getElementById('time-anterior').value = '';
+  document.getElementById('novo-time').value = '';
+  document.getElementById('anos').value = '';
+  document.getElementById('valor-total').value = '';
+  document.getElementById('fonte-url').value = '';
+  document.getElementById('media-anual').textContent = '—';
+  selectedPlayer = null;
+  updateAddButton();
+});
+
+// ── Render lista ────────────────────────────────────────────────
+function renderList() {
+  const list = document.getElementById('registros-list');
+  document.getElementById('reg-count').textContent = registros.length;
+
+  if (!registros.length) {
+    list.innerHTML = '<div class="empty-state">Nenhuma assinatura registrada ainda.</div>';
+    return;
+  }
+
+  list.innerHTML = registros.map((r, i) => {
+    let hostname = r.fonte_url || '';
+    try { hostname = new URL(r.fonte_url).hostname.replace(/^www\./, ''); } catch(e) {}
+    const data = r.registrado_em ? r.registrado_em.slice(0, 10) : '—';
+
+    return `<div class="registro-row">
+      <div class="reg-player">
+        <div class="reg-name">${r.player_name}</div>
+        <div class="reg-meta">${r.status_anterior || ''} · ID ${r.player_id} · ${data}</div>
+      </div>
+      <div class="reg-transfer">
+        <span style="font-family:var(--mono);font-size:11px;color:var(--mute)">${r.time_anterior || '?'}</span>
+        <span class="reg-arrow">→</span>
+        <span class="reg-team">${r.novo_time}</span>
+      </div>
+      <div class="reg-deal">${r.anos_contrato}a · ${fmtSal(r.valor_total)}</div>
+      <div class="reg-fonte">${r.fonte_url ? `<a href="${r.fonte_url}" target="_blank" rel="noopener">${hostname}</a>` : '—'}</div>
+      <button class="btn-remove" data-idx="${i}">Remover</button>
+    </div>`;
+  }).join('');
+
+  list.querySelectorAll('.btn-remove').forEach(btn => {
+    btn.addEventListener('click', () => {
+      registros.splice(parseInt(btn.dataset.idx), 1);
+      saveRegistros();
+      renderList();
+      showToast('Registro removido');
+    });
+  });
+}
+
+// ── Export ──────────────────────────────────────────────────────
+document.getElementById('btn-export').addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(registros, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'assinaturas_manuais.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast('Arquivo baixado');
+});
+
+// ── Toast ───────────────────────────────────────────────────────
+let toastTimeout = null;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('visible');
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => t.classList.remove('visible'), 2600);
+}
+
+// ── Startup ─────────────────────────────────────────────────────
+populateTeams();
+loadRegistros();
+loadFAs();
+</script>
+</body>
+</html>
