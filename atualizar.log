@@ -21905,3 +21905,122 @@ Carregando jogos_playoffs.json...
 Nada a coletar.
 167 arquivos encontrados
 Pronto! 0 arquivos corrigidos.
+Tue Jun 30 14:00:39 -03 2026: Iniciando atualizacao...
+Coletando jogos de playoff via BDL...
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7fd0f08fb8b0>: Failed to resolve 'api.balldontlie.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.balldontlie.io', port=443): Max retries exceeded with url: /nba/v1/games?seasons%5B%5D=2025&postseason=true&per_page=100 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fd0f08fb8b0>: Failed to resolve 'api.balldontlie.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/coletar_playoffs.py", line 57, in <module>
+    games_raw = get_all_pages(f"{BASE}/games", {"seasons[]": SEASON, "postseason": "true"})
+  File "/Users/macintoshhd/nba-team-profiles/coletar_playoffs.py", line 46, in get_all_pages
+    r = requests.get(url, headers=HEADERS, params=params, timeout=30)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.balldontlie.io', port=443): Max retries exceeded with url: /nba/v1/games?seasons%5B%5D=2025&postseason=true&per_page=100 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fd0f08fb8b0>: Failed to resolve 'api.balldontlie.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+Processando LAL vs HOU...
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7fd138282880>: Failed to resolve 'api.balldontlie.io' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.balldontlie.io', port=443): Max retries exceeded with url: /nba/v1/games?seasons%5B%5D=2025&team_ids%5B%5D=14&team_ids%5B%5D=11&postseason=false&per_page=100 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fd138282880>: Failed to resolve 'api.balldontlie.io' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macintoshhd/nba-team-profiles/coletar_head2head.py", line 80, in <module>
+    games_raw = get_all_pages(f"{BASE}/games", {
+  File "/Users/macintoshhd/nba-team-profiles/coletar_head2head.py", line 56, in get_all_pages
+    r = requests.get(url, headers=HEADERS, params=params, timeout=30)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/macintoshhd/nba-team-profiles/venv/lib/python3.8/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.balldontlie.io', port=443): Max retries exceeded with url: /nba/v1/games?seasons%5B%5D=2025&team_ids%5B%5D=14&team_ids%5B%5D=11&postseason=false&per_page=100 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fd138282880>: Failed to resolve 'api.balldontlie.io' ([Errno 8] nodename nor servname provided, or not known)"))
+Carregando jogos_playoffs.json...
+  85 jogos no total · 85 OK · 0 para coletar
+Nada a coletar.
+167 arquivos encontrados
+Pronto! 0 arquivos corrigidos.
