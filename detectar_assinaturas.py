@@ -67,6 +67,7 @@ def main():
                 agregados_por_jogador[c["player_id"]].append(c)
 
     novos = 0
+    ignorados = 0
     for pid, fa_ant in saiu.items():
         if pid in ids_ja_registrados:
             continue  # já registrado em ciclo anterior, não duplica
@@ -76,8 +77,10 @@ def main():
         if entradas:
             # Entrada com start_year mais recente = o contrato que o fez sair da lista
             mais_recente = max(entradas, key=lambda e: (e["start_year"], e.get("end_year") or 0))
-            # Só considera contrato novo se start_year >= 2026
-            if mais_recente.get("start_year", 0) >= 2026:
+            team_anterior_id = (fa_ant.get("team") or {}).get("id")
+            # Só registra se: contrato com start_year == 2026 E time diferente do anterior
+            if (mais_recente.get("start_year") == 2026
+                    and mais_recente.get("team_id") != team_anterior_id):
                 nc = mais_recente
                 contrato_novo = {
                     "team": nc.get("team"),
@@ -88,6 +91,14 @@ def main():
                     "end_year": nc.get("end_year"),
                     "contract_type": nc.get("contract_type"),
                 }
+
+        # Sem contrato novo confirmado = reclassificação interna, ignora silenciosamente
+        if contrato_novo is None:
+            p = fa_ant.get("player", {})
+            nome = f"{p.get('first_name', '')} {p.get('last_name', '')}".strip()
+            print(f"  IGNORADO (sem contrato 2026 confirmado): {nome}")
+            ignorados += 1
+            continue
 
         p = fa_ant.get("player", {})
         nome = f"{p.get('first_name', '')} {p.get('last_name', '')}".strip()
@@ -109,7 +120,7 @@ def main():
         sal_fmt = f"${sal:,.0f}" if sal else "?"
         print(f"  NOVO: {nome} ({fa_ant.get('free_agent_status')}) → {abb} {sal_fmt}")
 
-    print(f"\n{novos} novo(s) detectado(s). Total acumulado: {len(assinaturas)}")
+    print(f"\n{novos} novo(s) detectado(s), {ignorados} ignorado(s) (sem contrato 2026). Total acumulado: {len(assinaturas)}")
 
     ASSINATURAS_PATH.write_text(
         json.dumps(assinaturas, indent=2, ensure_ascii=False), encoding="utf-8"
