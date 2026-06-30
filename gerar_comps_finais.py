@@ -44,7 +44,7 @@ def distancia(stats_a, pos_score_a, stats_b, pos_score_b):
 
 def main():
     fa_path = Path("free_agents_2026_enriched.json")
-    comps_path = Path("comps_free_agency_2025.json")
+    comps_path = Path("data/free-agents/comps_free_agency_2025.json")
 
     free_agents = json.loads(fa_path.read_text(encoding="utf-8"))
     comps_pool = json.loads(comps_path.read_text(encoding="utf-8"))

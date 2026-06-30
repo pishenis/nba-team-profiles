@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg" />
+<title>Free Agents 2026 · Bola Presa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="bp-shell.css" />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --red:    #D85A30;
+  --green:  #1D9E75;
+  --purple: #5A2D81;
+  --warn:   #B8860B;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { min-height: 100vh; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; background: none; font: inherit; color: inherit; }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px 80px; }
+
+/* HERO */
+.hero { padding: 36px 0 24px; border-bottom: 1px solid var(--hair); margin-bottom: 28px; }
+.hero h1 { font-family: var(--serif); font-size: 28px; font-weight: 700; line-height: 1.2; color: var(--ink); margin-bottom: 6px; }
+.hero h1 em { font-style: italic; color: var(--bp-blue); }
+.hero-desc { font-size: 13px; color: var(--mute); line-height: 1.5; margin-bottom: 14px; }
+.hero-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.meta-pill { display: inline-flex; align-items: center; gap: 5px; font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--mute); background: var(--paper); border: 0.5px solid var(--hair); border-radius: 6px; padding: 5px 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+.meta-pill.ufa { color: var(--red); background: rgba(216,90,48,0.07); border-color: rgba(216,90,48,0.2); }
+.meta-pill.rfa { color: var(--bp-blue); background: var(--bp-blue-tint); border-color: rgba(20,166,184,0.25); }
+.meta-updated { margin-left: auto; font-family: var(--mono); font-size: 10px; color: var(--mute-2); letter-spacing: 0.04em; }
+
+/* SEÇÃO HEADER */
+.sec-head { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+.sec-line { width: 3px; height: 14px; border-radius: 2px; background: var(--bp-blue); flex-shrink: 0; }
+.sec-name { font-size: 14px; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
+.sec-count { font-family: var(--mono); font-size: 11px; color: var(--mute); margin-left: auto; }
+
+/* ASSINARAM RECENTEMENTE */
+.signed-section { margin-bottom: 36px; }
+.signed-rail { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+.signed-card { flex-shrink: 0; width: 260px; background: var(--white); border: 1px solid var(--hair); border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; transition: border-color 0.15s; }
+.signed-card:hover { border-color: var(--bp-blue); }
+.signed-photo { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; background: var(--paper); flex-shrink: 0; overflow: hidden; }
+.signed-photo img { width: 100%; height: 100%; object-fit: cover; }
+.signed-info { flex: 1; min-width: 0; }
+.signed-name { font-size: 13px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.signed-from { font-family: var(--mono); font-size: 10px; color: var(--mute); letter-spacing: 0.04em; margin-top: 2px; }
+.signed-from .status-ufa { color: var(--red); font-weight: 500; }
+.signed-from .status-rfa { color: var(--bp-blue); font-weight: 500; }
+.signed-deal { font-family: var(--mono); font-size: 11px; color: var(--green); font-weight: 500; margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.signed-empty { font-size: 13px; color: var(--mute-2); padding: 16px 0; font-style: italic; }
+
+/* CONTROLES */
+.controls { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.search-wrap { position: relative; flex: 1; min-width: 160px; max-width: 240px; }
+.search-wrap svg { position: absolute; left: 9px; top: 50%; transform: translateY(-50%); color: var(--mute-2); pointer-events: none; }
+.search-input { width: 100%; background: var(--white); border: 0.5px solid var(--hair); border-radius: 7px; color: var(--ink); padding: 7px 9px 7px 30px; font-family: var(--sans); font-size: 13px; outline: none; transition: border-color 0.15s, box-shadow 0.15s; }
+.search-input:focus { border-color: var(--bp-blue); box-shadow: 0 0 0 3px var(--bp-blue-tint); }
+.search-input::placeholder { color: var(--mute-2); }
+.filter-group { display: flex; gap: 4px; }
+.filter-btn { font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; padding: 6px 12px; border-radius: 6px; border: 0.5px solid var(--hair); background: var(--white); color: var(--mute); transition: all 0.12s; }
+.filter-btn:hover { border-color: var(--bp-blue); color: var(--bp-blue); }
+.filter-btn.active { background: var(--bp-blue); color: #fff; border-color: var(--bp-blue); }
+.filter-btn.active-red { background: var(--red); color: #fff; border-color: var(--red); }
+.filter-btn.active-blue { background: var(--bp-blue); color: #fff; border-color: var(--bp-blue); }
+.filter-sep { width: 1px; height: 28px; background: var(--hair); align-self: center; }
+.result-count { font-family: var(--mono); font-size: 11px; color: var(--mute); margin-left: auto; }
+
+/* GRID DE CARDS */
+.fa-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.fa-empty { grid-column: 1/-1; padding: 48px 20px; text-align: center; font-size: 13px; color: var(--mute-2); }
+.fa-loading { padding: 48px 20px; text-align: center; color: var(--mute); font-size: 13px; }
+
+/* CARD DE FREE AGENT */
+.fa-card { background: var(--white); border: 1px solid var(--hair); border-radius: 10px; overflow: hidden; transition: border-color 0.15s, box-shadow 0.15s; }
+.fa-card:hover { border-color: var(--bp-blue); box-shadow: 0 4px 16px rgba(20,166,184,0.1); }
+.fa-card-header { display: flex; align-items: center; gap: 11px; padding: 14px 14px 10px; }
+.fa-photo-wrap { width: 52px; height: 52px; border-radius: 50%; overflow: hidden; background: var(--paper); flex-shrink: 0; }
+.fa-photo-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fa-player-info { flex: 1; min-width: 0; }
+.fa-player-name { font-size: 14px; font-weight: 600; color: var(--ink); line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fa-player-sub { display: flex; align-items: center; gap: 6px; margin-top: 3px; flex-wrap: wrap; }
+.fa-pos { font-family: var(--mono); font-size: 9px; font-weight: 500; color: var(--mute); letter-spacing: 0.07em; text-transform: uppercase; }
+.fa-team { font-family: var(--mono); font-size: 9px; color: var(--mute-2); letter-spacing: 0.04em; }
+.fa-status { display: inline-block; font-family: var(--mono); font-size: 9px; font-weight: 600; letter-spacing: 0.05em; padding: 2px 7px; border-radius: 3px; white-space: nowrap; }
+.fa-status.ufa { background: rgba(216,90,48,0.1); color: var(--red); }
+.fa-status.rfa { background: var(--bp-blue-tint); color: var(--bp-blue-dark); }
+
+/* STATS */
+.fa-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); }
+.fa-stat { padding: 8px 4px; text-align: center; }
+.fa-stat + .fa-stat { border-left: 1px solid var(--hair); }
+.fa-stat-val { font-family: var(--mono); font-size: 15px; font-weight: 500; color: var(--ink); line-height: 1; }
+.fa-stat-lbl { font-family: var(--mono); font-size: 8px; color: var(--mute-2); letter-spacing: 0.07em; text-transform: uppercase; margin-top: 2px; }
+.fa-stat-na { font-family: var(--mono); font-size: 11px; color: var(--mute-2); }
+
+/* CONTRATO ANTERIOR */
+.fa-contract { padding: 8px 14px; display: flex; align-items: center; justify-content: space-between; }
+.fa-contract-label { font-family: var(--mono); font-size: 9px; color: var(--mute); letter-spacing: 0.06em; text-transform: uppercase; }
+.fa-contract-val { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--mute); }
+.fa-contract-gp { font-family: var(--mono); font-size: 9px; color: var(--mute-2); }
+
+/* COMPARÁVEIS */
+.fa-comps { border-top: 1px solid var(--hair); padding: 8px 14px 12px; }
+.fa-comps-title { font-family: var(--mono); font-size: 9px; color: var(--mute-2); letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 6px; }
+.fa-comp-row { display: flex; align-items: center; gap: 6px; padding: 3px 0; font-size: 11px; }
+.fa-comp-name { color: var(--ink); font-weight: 500; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.fa-comp-deal { font-family: var(--mono); font-size: 10px; color: var(--mute); white-space: nowrap; }
+.fa-comp-qual { font-family: var(--mono); font-size: 9px; padding: 1px 5px; border-radius: 3px; white-space: nowrap; flex-shrink: 0; }
+.qual-great  { background: rgba(29,158,117,0.1); color: var(--green); }
+.qual-good   { background: var(--bp-blue-tint); color: var(--bp-blue-dark); }
+.qual-far    { background: var(--paper); color: var(--mute); border: 0.5px solid var(--hair); }
+.qual-poor   { background: var(--paper); color: var(--mute-2); border: 0.5px solid var(--hair); }
+.fa-comp-none { font-size: 11px; color: var(--mute-2); font-style: italic; }
+
+/* OPÇÕES PENDENTES */
+.options-section { margin-top: 48px; }
+.tab-bar { display: flex; gap: 0; border-bottom: 1px solid var(--hair); margin-bottom: 20px; }
+.tab-btn { font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; padding: 10px 20px; color: var(--mute); border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.15s, border-color 0.15s; }
+.tab-btn.active { color: var(--bp-blue); border-bottom-color: var(--bp-blue); }
+.tab-btn:hover:not(.active) { color: var(--ink); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; animation: fadeIn 0.15s ease; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--hair); border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; }
+thead { background: var(--paper); }
+thead th { padding: 9px 12px; text-align: left; font-family: var(--mono); font-size: 9px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); white-space: nowrap; border-bottom: 1px solid var(--hair); }
+thead th.r { text-align: right; }
+tbody tr { border-bottom: 1px solid var(--hair); transition: background 0.1s; }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: var(--paper); }
+td { padding: 10px 12px; vertical-align: middle; white-space: nowrap; }
+td.r { text-align: right; }
+.player-cell { display: flex; align-items: center; gap: 9px; }
+.player-photo { width: 32px; height: 32px; border-radius: 50%; background: var(--paper); flex-shrink: 0; overflow: hidden; }
+.player-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.player-name { font-size: 13px; font-weight: 500; color: var(--ink); }
+.player-pos { font-family: var(--mono); font-size: 9px; color: var(--mute); letter-spacing: 0.05em; text-transform: uppercase; margin-top: 1px; }
+.sal-val { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--ink); }
+.date-val { font-family: var(--mono); font-size: 12px; color: var(--ink); }
+.date-warn { font-family: var(--mono); font-size: 10px; color: var(--warn); display: flex; align-items: center; gap: 4px; }
+.badge { display: inline-block; padding: 2px 7px; border-radius: 3px; font-family: var(--mono); font-size: 9px; font-weight: 500; letter-spacing: 0.04em; white-space: nowrap; }
+.badge-ufa { background: rgba(216,90,48,0.1); color: var(--red); }
+.badge-rfa { background: var(--bp-blue-tint); color: var(--bp-blue-dark); }
+.team-abb { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--mute); }
+
+/* LOADING DOTS */
+.loading-dots { display: inline-flex; gap: 5px; margin-right: 8px; }
+.ld { width: 5px; height: 5px; background: var(--bp-blue); border-radius: 50%; animation: ldpulse 1.2s ease-in-out infinite; }
+.ld:nth-child(2) { animation-delay: 0.2s; }
+.ld:nth-child(3) { animation-delay: 0.4s; }
+@keyframes ldpulse { 0%,80%,100%{opacity:0.2;transform:scale(0.8)} 40%{opacity:1;transform:scale(1)} }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .fa-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 580px) {
+  .wrap { padding: 0 14px 64px; }
+  .fa-grid { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 22px; }
+  .controls { gap: 6px; }
+  .filter-group { flex-wrap: wrap; }
+}
+</style>
+</head>
+<body>
+
+<div class="bp-paper">
+  <div class="bp-miolo">
+
+    <!-- TOP BAR -->
+    <div class="bp-topbar">
+      <a class="bp-topbar-logo" href="home.html">
+        <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+        Bola Presa Stats
+      </a>
+      <div class="bp-topbar-divider"></div>
+      <span class="bp-topbar-section">Free Agents 2026</span>
+      <nav class="bp-topbar-nav">
+        <a href="playoffs.html">playoffs</a>
+        <a href="index.html">times</a>
+        <a href="jogadores.html">jogadores</a>
+        <a href="salaries.html">salários</a>
+        <a href="rankings.html">rankings</a>
+        <a href="free-agents.html" style="background:rgba(255,255,255,0.2);color:#fff">free agents</a>
+      </nav>
+    </div>
+
+    <div class="wrap">
+
+      <!-- HERO -->
+      <div class="hero">
+        <h1>Free Agency <em>2026</em></h1>
+        <p class="hero-desc">UFA e RFA do verão 2026 com stats da temporada 2025–26, salário anterior e comparáveis de mercado da free agency de 2025.</p>
+        <div class="hero-meta">
+          <span class="meta-pill ufa" id="pill-ufa">— UFA</span>
+          <span class="meta-pill rfa" id="pill-rfa">— RFA</span>
+          <span class="meta-pill" id="pill-total">carregando…</span>
+          <span class="meta-updated" id="meta-updated"></span>
+        </div>
+      </div>
+
+      <!-- ASSINARAM RECENTEMENTE -->
+      <div class="signed-section" id="signed-section" style="display:none">
+        <div class="sec-head">
+          <div class="sec-line"></div>
+          <span class="sec-name">Assinaram recentemente</span>
+          <span class="sec-count" id="signed-count"></span>
+        </div>
+        <div class="signed-rail" id="signed-rail"></div>
+      </div>
+
+      <!-- FILTROS -->
+      <div class="controls">
+        <div class="search-wrap">
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M17 17l-4-4"/></svg>
+          <input class="search-input" type="text" id="search" placeholder="Buscar jogador…" autocomplete="off" />
+        </div>
+        <div class="filter-sep"></div>
+        <div class="filter-group" id="pos-filters">
+          <button class="filter-btn active" data-pos="">Todos</button>
+          <button class="filter-btn" data-pos="G">G</button>
+          <button class="filter-btn" data-pos="F">F</button>
+          <button class="filter-btn" data-pos="C">C</button>
+        </div>
+        <div class="filter-sep"></div>
+        <div class="filter-group" id="type-filters">
+          <button class="filter-btn active" data-type="">UFA + RFA</button>
+          <button class="filter-btn" data-type="UFA">só UFA</button>
+          <button class="filter-btn" data-type="RFA">só RFA</button>
+        </div>
+        <span class="result-count" id="result-count"></span>
+      </div>
+
+      <!-- GRID -->
+      <div class="fa-grid" id="fa-grid">
+        <div class="fa-loading">
+          <div class="loading-dots"><span class="ld"></span><span class="ld"></span><span class="ld"></span></div>
+          Carregando free agents…
+        </div>
+      </div>
+
+      <!-- OPÇÕES PENDENTES -->
+      <div class="options-section">
+        <div class="sec-head">
+          <div class="sec-line"></div>
+          <span class="sec-name">Decisões de opção pendentes</span>
+          <span class="sec-count" id="opts-count"></span>
+        </div>
+        <div class="tab-bar">
+          <button class="tab-btn active" data-tab="jogador">Jogador decide</button>
+          <button class="tab-btn" data-tab="equipe">Equipe decide</button>
+        </div>
+        <div class="tab-panel active" id="tab-jogador">
+          <div class="tbl-wrap"><table id="tbl-jogador"><thead><tr>
+            <th>Jogador</th><th>Time</th><th class="r">Salário 26-27</th><th>Prazo</th><th>Nota</th>
+          </tr></thead><tbody></tbody></table></div>
+        </div>
+        <div class="tab-panel" id="tab-equipe">
+          <div class="tbl-wrap"><table id="tbl-equipe"><thead><tr>
+            <th>Jogador</th><th>Time</th><th class="r">Salário 26-27</th><th>Prazo</th><th>Se recusada</th>
+          </tr></thead><tbody></tbody></table></div>
+        </div>
+      </div>
+
+    </div><!-- /wrap -->
+
+    <div class="bp-foot">
+      <span>Bola Presa Stats · Free Agency 2026</span>
+      <span>bolapresa@gmail.com</span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const BASE = 'data/free-agents/';
+
+function photoUrl(id) {
+  return `https://cdn.nba.com/headshots/nba/latest/260x190/${id}.png`;
+}
+
+function fmtSal(v) {
+  if (!v) return '—';
+  const m = v / 1e6;
+  return m >= 1 ? `$${m.toFixed(1)}M` : `$${(v/1000).toFixed(0)}K`;
+}
+
+function fmtStat(v) {
+  if (v === null || v === undefined) return null;
+  const n = parseFloat(v);
+  return isNaN(n) ? null : n % 1 === 0 ? n.toFixed(0) : n.toFixed(1);
+}
+
+function posMatch(playerPos, filter) {
+  if (!filter) return true;
+  if (!playerPos) return false;
+  return playerPos.toUpperCase().split('-').some(p => p.trim() === filter);
+}
+
+function qualClass(q) {
+  if (q === 'muito parecido') return 'qual-great';
+  if (q === 'parecido') return 'qual-good';
+  if (q === 'referência distante') return 'qual-far';
+  return 'qual-poor';
+}
+
+function qualLabel(q) {
+  if (q === 'muito parecido') return '≈≈';
+  if (q === 'parecido') return '≈';
+  if (q === 'referência distante') return '~';
+  return '?';
+}
+
+let allFAs = [];
+let filterPos = '';
+let filterType = '';
+let searchQ = '';
+
+function renderGrid() {
+  const grid = document.getElementById('fa-grid');
+  const filtered = allFAs.filter(fa => {
+    const p = fa.player || {};
+    const name = `${p.first_name || ''} ${p.last_name || ''}`.toLowerCase();
+    const team = ((fa.team || {}).abbreviation || '').toLowerCase();
+    const q = searchQ.toLowerCase();
+    if (q && !name.includes(q) && !team.includes(q)) return false;
+    if (filterPos && !posMatch(p.position, filterPos)) return false;
+    if (filterType && fa.free_agent_status !== filterType) return false;
+    return true;
+  });
+
+  document.getElementById('result-count').textContent =
+    filtered.length === allFAs.length
+      ? `${allFAs.length} jogadores`
+      : `${filtered.length} de ${allFAs.length}`;
+
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="fa-empty">Nenhum jogador encontrado com esses filtros.</div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map(fa => {
+    const p = fa.player || {};
+    const team = fa.team || {};
+    const stats = fa.stats_2025_26;
+    const status = fa.free_agent_status || '';
+    const pid = p.id || fa.player_id;
+    const comps = fa.comparaveis || [];
+
+    const statsHtml = stats
+      ? ['pts','reb','ast','min'].map(k => {
+          const v = fmtStat(stats[k]);
+          return `<div class="fa-stat"><div class="fa-stat-val">${v ?? '<span class="fa-stat-na">—</span>'}</div><div class="fa-stat-lbl">${k.toUpperCase()}</div></div>`;
+        }).join('')
+      : '<div class="fa-stat" style="grid-column:1/-1;padding:10px;text-align:center"><span class="fa-stat-na" style="font-size:11px;color:var(--mute-2)">sem stats 2025–26</span></div>';
+
+    const compsHtml = comps.length
+      ? comps.slice(0,3).map(c => {
+          const deal = c.salario_medio ? `${c.anos_contrato ?? '?'}a/${fmtSal(c.salario_medio)}` : '—';
+          return `<div class="fa-comp-row">
+            <span class="fa-comp-qual ${qualClass(c.qualidade)}">${qualLabel(c.qualidade)}</span>
+            <span class="fa-comp-name">${c.nome}</span>
+            <span class="fa-comp-deal">${c.assinou_com ? c.assinou_com + ' ' : ''}${deal}</span>
+          </div>`;
+        }).join('')
+      : '<div class="fa-comp-none">sem comparável</div>';
+
+    const gpTxt = stats && stats.gp ? `${stats.gp} jog` : '';
+
+    return `<div class="fa-card">
+      <div class="fa-card-header">
+        <div class="fa-photo-wrap">
+          <img src="${photoUrl(pid)}" alt="${p.first_name} ${p.last_name}" onerror="this.style.display='none'" />
+        </div>
+        <div class="fa-player-info">
+          <div class="fa-player-name">${p.first_name || ''} ${p.last_name || ''}</div>
+          <div class="fa-player-sub">
+            <span class="fa-pos">${p.position || '—'}</span>
+            <span class="fa-team">${team.abbreviation || '?'}</span>
+            <span class="fa-status ${status === 'UFA' ? 'ufa' : 'rfa'}">${status}</span>
+          </div>
+        </div>
+      </div>
+      <div class="fa-stats" style="${stats ? '' : 'grid-template-columns:1fr'}">${statsHtml}</div>
+      <div class="fa-contract">
+        <span class="fa-contract-label">Contrato anterior</span>
+        <span>
+          <span class="fa-contract-val">${fmtSal(fa.average_salary)}</span>
+          ${gpTxt ? `<span class="fa-contract-gp"> · ${gpTxt}</span>` : ''}
+        </span>
+      </div>
+      <div class="fa-comps">
+        <div class="fa-comps-title">Comp. 2025</div>
+        ${compsHtml}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderSigned(data) {
+  if (!data || !data.length) return;
+  const section = document.getElementById('signed-section');
+  const rail = document.getElementById('signed-rail');
+  document.getElementById('signed-count').textContent = `${data.length} jogador${data.length !== 1 ? 'es' : ''}`;
+  section.style.display = '';
+
+  rail.innerHTML = data.map(s => {
+    const p = s.player || {};
+    const nc = s.novo_contrato || {};
+    const teamNovo = nc.team || {};
+    const abb = typeof teamNovo === 'object' ? (teamNovo.abbreviation || '?') : '?';
+    const dealStr = nc.average_salary
+      ? `→ ${abb} · ${fmtSal(nc.average_salary)}/a${nc.contract_years ? ` · ${nc.contract_years}a` : ''}`
+      : `→ ${abb || '?'}`;
+    const pid = p.id || s.player_id;
+    const st = s.status_anterior || '';
+    const stClass = st === 'UFA' ? 'status-ufa' : 'status-rfa';
+
+    return `<div class="signed-card">
+      <div class="signed-photo">
+        <img src="${photoUrl(pid)}" alt="${p.first_name} ${p.last_name}" onerror="this.style.display='none'" />
+      </div>
+      <div class="signed-info">
+        <div class="signed-name">${p.first_name || ''} ${p.last_name || ''}</div>
+        <div class="signed-from"><span class="${stClass}">${st}</span> ex-${s.time_anterior || '?'}</div>
+        <div class="signed-deal">${dealStr}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderOptions(data) {
+  const jogador = data.filter(d => d.tipo_opcao === 'Jogador');
+  const equipe  = data.filter(d => d.tipo_opcao === 'Equipe');
+
+  document.getElementById('opts-count').textContent =
+    `${jogador.length} jogador · ${equipe.length} equipe`;
+
+  function buildRow(d, tipoCol) {
+    const p = d.player || {};
+    const team = d.team || {};
+    const pid = p.id || d.player_id;
+    const dateHtml = d.data_decisao
+      ? d.data_confiavel === false
+        ? `<div class="date-val">${d.data_decisao}</div><div class="date-warn">⚠ data incerta</div>`
+        : `<div class="date-val">${d.data_decisao}</div>`
+      : '<span style="color:var(--mute-2);font-family:var(--mono);font-size:11px">—</span>';
+    const faStr = tipoCol === 'equipe' && d.tipo_fa_se_recusado
+      ? `<span class="badge ${d.tipo_fa_se_recusado === 'UFA' ? 'badge-ufa' : 'badge-rfa'}">${d.tipo_fa_se_recusado}</span>`
+      : '';
+
+    return `<tr>
+      <td><div class="player-cell">
+        <div class="player-photo"><img src="${photoUrl(pid)}" alt="${p.first_name} ${p.last_name}" onerror="this.style.display='none'" /></div>
+        <div><div class="player-name">${p.first_name || ''} ${p.last_name || ''}</div><div class="player-pos">${p.position || ''}</div></div>
+      </div></td>
+      <td><span class="team-abb">${team.abbreviation || '?'}</span></td>
+      <td class="r"><span class="sal-val">${fmtSal(d.average_salary)}</span></td>
+      <td>${dateHtml}</td>
+      <td>${tipoCol === 'equipe' ? (faStr || '—') : (d.confirmado_manualmente ? '<span style="font-family:var(--mono);font-size:10px;color:var(--green)">✓ confirmado</span>' : '')}</td>
+    </tr>`;
+  }
+
+  document.querySelector('#tbl-jogador tbody').innerHTML =
+    jogador.length ? jogador.map(d => buildRow(d, 'jogador')).join('') : '<tr><td colspan="5" style="text-align:center;color:var(--mute-2);padding:24px">Nenhum registro</td></tr>';
+  document.querySelector('#tbl-equipe tbody').innerHTML =
+    equipe.length ? equipe.map(d => buildRow(d, 'equipe')).join('') : '<tr><td colspan="5" style="text-align:center;color:var(--mute-2);padding:24px">Nenhum registro</td></tr>';
+}
+
+async function loadAll() {
+  try {
+    const [faData, optsData, signedData, tsData] = await Promise.all([
+      fetch(BASE + 'free_agents_2026_final.json').then(r => r.json()),
+      fetch(BASE + 'opcoes_pendentes_2026_parsed.json').then(r => r.json()),
+      fetch(BASE + 'assinaturas_recentes.json').then(r => r.json()).catch(() => []),
+      fetch(BASE + 'ultima_atualizacao.json').then(r => r.json()).catch(() => null),
+    ]);
+
+    allFAs = faData;
+
+    const ufa = faData.filter(f => f.free_agent_status === 'UFA').length;
+    const rfa = faData.filter(f => f.free_agent_status === 'RFA').length;
+    document.getElementById('pill-ufa').textContent = `${ufa} UFA`;
+    document.getElementById('pill-rfa').textContent = `${rfa} RFA`;
+    document.getElementById('pill-total').textContent = `${faData.length} total`;
+
+    if (tsData && tsData.timestamp) {
+      const d = new Date(tsData.timestamp);
+      const fmt = d.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', timeZone: 'America/Sao_Paulo' })
+        + ' ' + d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' });
+      document.getElementById('meta-updated').textContent = `atualizado ${fmt}`;
+    }
+
+    renderGrid();
+    renderSigned(signedData);
+    renderOptions(optsData);
+  } catch(e) {
+    document.getElementById('fa-grid').innerHTML = `<div class="fa-empty">Erro ao carregar dados: ${e.message}</div>`;
+  }
+}
+
+// Filtros
+document.getElementById('pos-filters').addEventListener('click', e => {
+  const btn = e.target.closest('[data-pos]');
+  if (!btn) return;
+  document.querySelectorAll('#pos-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterPos = btn.dataset.pos;
+  renderGrid();
+});
+
+document.getElementById('type-filters').addEventListener('click', e => {
+  const btn = e.target.closest('[data-type]');
+  if (!btn) return;
+  document.querySelectorAll('#type-filters .filter-btn').forEach(b => b.classList.remove('active', 'active-red', 'active-blue'));
+  btn.classList.add('active');
+  filterType = btn.dataset.type;
+  renderGrid();
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  searchQ = e.target.value;
+  renderGrid();
+});
+
+// Tabs
+document.querySelector('.tab-bar').addEventListener('click', e => {
+  const btn = e.target.closest('[data-tab]');
+  if (!btn) return;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+});
+
+loadAll();
+</script>
+</body>
+</html>

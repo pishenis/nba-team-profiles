@@ -126,7 +126,7 @@ def nome_jogador(p):
 def main():
     finais = json.loads(Path("free_agents_2026_final.json").read_text(encoding="utf-8"))
     pendentes = json.loads(Path("opcoes_pendentes_2026_parsed.json").read_text(encoding="utf-8"))
-    comps_pool = json.loads(Path("comps_free_agency_2025.json").read_text(encoding="utf-8"))
+    comps_pool = json.loads(Path("data/free-agents/comps_free_agency_2025.json").read_text(encoding="utf-8"))
     agregados = json.loads(Path("contratos_agregados_raw.json").read_text(encoding="utf-8"))
 
     # evita duplicar se o script for rodado de novo

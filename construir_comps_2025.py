@@ -118,7 +118,7 @@ def main():
         ]
         print(f"Sem stats em 2024-25 (provavelmente não jogaram nos EUA/lesão): {nomes}")
 
-    out_path = Path("comps_free_agency_2025.json")
+    out_path = Path("data/free-agents/comps_free_agency_2025.json")
     out_path.write_text(
         json.dumps(assinaturas, indent=2, ensure_ascii=False), encoding="utf-8"
     )
