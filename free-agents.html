@@ -300,6 +300,9 @@ td.r { text-align: right; }
 <script>
 const BASE = 'data/free-agents/';
 
+// Mapa nome → NBA ID para fotos (carregado de nba_player_ids.json)
+let nbaPlayerIds = {};
+
 // Times NBA: abreviação → NBA ID para logos
 const TEAMS = [
   {abbr:'ATL',nba:1610612737},{abbr:'BOS',nba:1610612738},{abbr:'BKN',nba:1610612751},
@@ -320,8 +323,10 @@ function teamLogoUrl(abbr) {
   return t ? `https://cdn.nba.com/logos/nba/${t.nba}/global/L/logo.svg` : null;
 }
 
-function photoUrl(id) {
-  return `https://cdn.nba.com/headshots/nba/latest/260x190/${id}.png`;
+function photoUrl(firstName, lastName) {
+  const name = `${firstName} ${lastName}`.trim();
+  const nbaId = nbaPlayerIds[name];
+  return nbaId ? `https://cdn.nba.com/headshots/nba/latest/260x190/${nbaId}.png` : '';
 }
 
 function fmtSal(v) {
@@ -389,7 +394,6 @@ function renderGrid() {
     const team = fa.team || {};
     const stats = fa.stats_2025_26;
     const status = fa.free_agent_status || '';
-    const pid = p.id || fa.player_id;
     const comps = fa.comparaveis || [];
 
     const statsHtml = stats
@@ -415,7 +419,7 @@ function renderGrid() {
     return `<div class="fa-card">
       <div class="fa-card-header">
         <div class="fa-photo-wrap">
-          <img src="${photoUrl(pid)}" alt="${p.first_name} ${p.last_name}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />
+          <img src="${photoUrl(p.first_name, p.last_name)}" alt="${p.first_name} ${p.last_name}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />
         </div>
         <div class="fa-player-info">
           <div class="fa-player-name">${p.first_name || ''} ${p.last_name || ''}</div>
@@ -522,7 +526,6 @@ function renderSigned(mergedList) {
 
   grid.innerHTML = mergedList.map(s => {
     const p = s.player || {};
-    const pid = p.id || s.player_id;
     const firstName = p.first_name || '';
     const lastName = p.last_name || '';
     const status = s.status_anterior || '';
@@ -546,7 +549,7 @@ function renderSigned(mergedList) {
     return `<div class="signed-card-new">
       <div class="signed-card-header">
         <div class="signed-photo-lg">
-          <img src="${photoUrl(pid)}" alt="${firstName} ${lastName}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />
+          <img src="${photoUrl(firstName, lastName)}" alt="${firstName} ${lastName}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />
         </div>
         <div>
           <div class="signed-player-name-lg">${firstName} ${lastName}</div>
@@ -583,7 +586,6 @@ function renderOptions(data) {
   function buildRow(d, tipoCol) {
     const p = d.player || {};
     const team = d.team || {};
-    const pid = p.id || d.player_id;
     const dateHtml = d.data_decisao
       ? d.data_confiavel === false
         ? `<div class="date-val">${d.data_decisao}</div><div class="date-warn">⚠ data incerta</div>`
@@ -595,7 +597,7 @@ function renderOptions(data) {
 
     return `<tr>
       <td><div class="player-cell">
-        <div class="player-photo"><img src="${photoUrl(pid)}" alt="${p.first_name} ${p.last_name}" referrerpolicy="no-referrer" onerror="this.style.display='none'" /></div>
+        <div class="player-photo"><img src="${photoUrl(p.first_name, p.last_name)}" alt="${p.first_name} ${p.last_name}" referrerpolicy="no-referrer" onerror="this.style.display='none'" /></div>
         <div><div class="player-name">${p.first_name || ''} ${p.last_name || ''}</div><div class="player-pos">${p.position || ''}</div></div>
       </div></td>
       <td><span class="team-abb">${team.abbreviation || '?'}</span></td>
@@ -614,13 +616,15 @@ function renderOptions(data) {
 async function loadAll() {
   try {
     const NC = {cache: 'no-cache'};
-    const [faData, optsData, signedData, tsData, manualData] = await Promise.all([
+    const [faData, optsData, signedData, tsData, manualData, idsData] = await Promise.all([
       fetch(BASE + 'free_agents_2026_final.json', NC).then(r => r.json()),
       fetch(BASE + 'opcoes_pendentes_2026_parsed.json', NC).then(r => r.json()),
       fetch(BASE + 'assinaturas_recentes.json', NC).then(r => r.json()).catch(() => []),
       fetch(BASE + 'ultima_atualizacao.json', NC).then(r => r.json()).catch(() => null),
       fetch(BASE + 'assinaturas_manuais.json', NC).then(r => r.json()).catch(() => []),
+      fetch('data/salaries/nba_player_ids.json', NC).then(r => r.json()).catch(() => ({})),
     ]);
+    nbaPlayerIds = idsData;
 
     // Mescla assinaturas manuais e automáticas; exclui assinados do grid principal
     const { signedIds, mergedSigned } = mergeSigned(manualData, signedData, faData);
