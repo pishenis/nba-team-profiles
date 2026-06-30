@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Opções Decididas · Bola Presa Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="bp-shell.css" />
+<style>
+.admin-hero { padding: 32px 32px 24px; border-bottom: 1px solid var(--hair); }
+.admin-hero h1 { font-family: var(--serif); font-size: 28px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+.admin-hero p { font-size: 13px; color: var(--mute); line-height: 1.5; }
+.admin-hero p code { font-family: var(--mono); background: var(--paper); padding: 1px 4px; border-radius: 3px; border: 0.5px solid var(--hair); }
+
+.admin-body { padding: 28px 32px 48px; }
+
+.add-form {
+  background: var(--paper); border: 1px solid var(--hair); border-radius: 10px;
+  padding: 20px; margin-bottom: 28px; display: flex; flex-direction: column; gap: 14px;
+}
+.form-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.field { display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 140px; position: relative; }
+.field.flex2 { flex: 2; }
+.field label { font-family: var(--mono); font-size: 9px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); }
+.field input, .field select {
+  font-family: var(--sans); font-size: 13px; padding: 8px 10px;
+  border: 1px solid var(--hair); border-radius: 6px; background: var(--white);
+  color: var(--ink); outline: none; transition: border-color 0.15s;
+}
+.field input:focus, .field select:focus { border-color: var(--bp-blue); }
+.field input[readonly] { background: var(--paper); color: var(--mute); cursor: default; }
+.field input[type="url"] { font-family: var(--mono); font-size: 12px; }
+.field .computed { font-family: var(--mono); font-size: 13px; padding: 8px 10px; border: 1px solid var(--hair); border-radius: 6px; background: var(--paper); color: var(--green); font-weight: 500; min-height: 37px; }
+.section-divider { border: none; border-top: 1px dashed var(--hair); margin: 2px 0; }
+
+/* autocomplete */
+.player-suggestions {
+  position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px;
+  background: var(--white); border: 1px solid var(--hair); border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1); max-height: 240px; overflow-y: auto;
+  z-index: 20; display: none;
+}
+.player-suggestions.visible { display: block; }
+.suggestion-item {
+  padding: 9px 12px; cursor: pointer; font-size: 13px;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  border-bottom: 1px solid var(--hair);
+}
+.suggestion-item:last-child { border-bottom: none; }
+.suggestion-item:hover { background: var(--bp-blue-tint); }
+.suggestion-item .sname { font-weight: 500; color: var(--ink); }
+.suggestion-item .smeta { font-family: var(--mono); font-size: 10px; color: var(--mute); }
+
+/* decisão radio visual */
+.decisao-group { display: flex; gap: 8px; }
+.decisao-btn {
+  flex: 1; padding: 9px 12px; border: 1px solid var(--hair); border-radius: 7px;
+  background: var(--white); font-family: var(--mono); font-size: 11px; font-weight: 500;
+  letter-spacing: 0.05em; text-transform: uppercase; color: var(--mute);
+  cursor: pointer; transition: all 0.13s; text-align: center;
+}
+.decisao-btn:hover { border-color: var(--bp-blue); color: var(--bp-blue); }
+.decisao-btn.active-exercida { background: var(--green); color: #fff; border-color: var(--green); }
+.decisao-btn.active-recusada { background: #D85A30; color: #fff; border-color: #D85A30; }
+
+/* assinou radio */
+.radio-group { display: flex; gap: 8px; }
+.radio-btn {
+  flex: 1; padding: 8px 10px; border: 1px solid var(--hair); border-radius: 6px;
+  background: var(--white); font-family: var(--mono); font-size: 11px; font-weight: 500;
+  letter-spacing: 0.04em; color: var(--mute); cursor: pointer; transition: all 0.13s; text-align: center;
+}
+.radio-btn:hover { border-color: var(--bp-blue); }
+.radio-btn.active { background: var(--bp-blue); color: #fff; border-color: var(--bp-blue); }
+
+/* hidden rows */
+.cond-row { display: none; }
+.cond-row.visible { display: flex; }
+
+.form-actions { display: flex; gap: 10px; align-items: center; padding-top: 4px; }
+.btn-add {
+  font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 0.05em;
+  text-transform: uppercase; background: var(--bp-blue); color: #fff;
+  border: none; border-radius: 6px; padding: 10px 22px; cursor: pointer; transition: background 0.15s;
+}
+.btn-add:hover { background: var(--bp-blue-dark); }
+.btn-add:disabled { background: var(--mute-2); cursor: not-allowed; }
+.form-error { font-size: 12px; color: #D85A30; font-family: var(--mono); }
+
+/* lista */
+.sec-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.sec-line { width: 3px; height: 14px; border-radius: 2px; background: var(--bp-blue); flex-shrink: 0; }
+.sec-name { font-size: 13px; font-weight: 500; color: var(--ink); }
+.sec-count { font-family: var(--mono); font-size: 10px; color: var(--mute); margin-left: auto; }
+
+.registros-list { border: 1px solid var(--hair); border-radius: 10px; overflow: hidden; margin-bottom: 24px; }
+.registro-row {
+  display: flex; align-items: center; gap: 12px; padding: 13px 16px;
+  border-bottom: 1px solid var(--hair); background: var(--white);
+}
+.registro-row:last-child { border-bottom: none; }
+.registro-row:hover { background: var(--paper); }
+
+.reg-player { flex: 1; min-width: 0; }
+.reg-name { font-size: 13px; font-weight: 500; color: var(--ink); }
+.reg-meta { font-family: var(--mono); font-size: 10px; color: var(--mute); margin-top: 2px; }
+
+.decisao-badge {
+  font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: 0.04em;
+  padding: 3px 9px; border-radius: 4px; white-space: nowrap; flex-shrink: 0;
+}
+.decisao-exercida { background: rgba(29,158,117,0.1); color: var(--green); }
+.decisao-recusada { background: rgba(216,90,48,0.1); color: #D85A30; }
+
+.reg-deal { font-family: var(--mono); font-size: 11px; color: var(--green); font-weight: 500; flex-shrink: 0; }
+.reg-fonte { font-size: 10px; color: var(--mute-2); font-family: var(--mono); flex-shrink: 0; max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.reg-fonte a { color: var(--bp-blue); }
+
+.btn-remove {
+  font-family: var(--mono); font-size: 10px; color: var(--mute);
+  border: 1px solid var(--hair); border-radius: 6px; padding: 5px 10px;
+  background: var(--white); cursor: pointer; transition: all 0.15s; flex-shrink: 0;
+}
+.btn-remove:hover { border-color: #D85A30; color: #D85A30; background: rgba(216,90,48,0.05); }
+
+.empty-state { padding: 40px 20px; text-align: center; color: var(--mute); font-size: 13px; }
+
+.export-bar {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 16px; background: var(--paper); border: 1px solid var(--hair); border-radius: 10px;
+}
+.export-bar p { font-size: 12px; color: var(--mute); flex: 1; min-width: 200px; }
+.export-bar p code { font-family: var(--mono); background: var(--white); padding: 1px 4px; border-radius: 3px; border: 0.5px solid var(--hair); }
+.btn-export {
+  font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 0.05em;
+  text-transform: uppercase; background: var(--ink); color: #fff;
+  border: none; border-radius: 6px; padding: 10px 18px; cursor: pointer; transition: opacity 0.15s; white-space: nowrap;
+}
+.btn-export:hover { opacity: 0.85; }
+
+.note { font-size: 11px; color: var(--mute-2); margin-top: 12px; line-height: 1.6; }
+
+.toast {
+  position: fixed; bottom: 24px; right: 24px;
+  background: var(--ink); color: #fff; padding: 12px 18px; border-radius: 8px;
+  font-size: 13px; box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  opacity: 0; transform: translateY(8px); transition: all 0.25s; z-index: 100; pointer-events: none;
+}
+.toast.visible { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+<div class="bp-paper">
+<div class="bp-miolo">
+
+<div class="bp-topbar">
+  <a class="bp-topbar-logo" href="home.html">
+    <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+    Bola Presa Stats
+  </a>
+  <div class="bp-topbar-divider"></div>
+  <span class="bp-topbar-section">Admin · Opções Decididas</span>
+  <nav class="bp-topbar-nav">
+    <a href="home.html">home</a>
+    <a href="free-agents.html">free agents</a>
+  </nav>
+</div>
+
+<div class="admin-hero">
+  <h1>Opções Decididas</h1>
+  <p>Registre manualmente quando um jogador exerceu ou recusou sua opção antes da BDL atualizar. Exporte o JSON e commite em <code>data/free-agents/opcoes_decididas.json</code>. A free-agents.html aplica as regras automaticamente ao carregar.</p>
+</div>
+
+<div class="admin-body">
+
+  <div class="add-form">
+    <!-- Row 1: Jogador + info auto-preenchida -->
+    <div class="form-row">
+      <div class="field flex2" style="position:relative">
+        <label>Jogador</label>
+        <input type="text" id="player-search" placeholder="Digite o nome…" autocomplete="off" />
+        <div class="player-suggestions" id="player-suggestions"></div>
+      </div>
+      <div class="field">
+        <label>Time atual</label>
+        <input type="text" id="time-atual" readonly placeholder="— auto" />
+      </div>
+      <div class="field">
+        <label>Tipo de opção</label>
+        <input type="text" id="tipo-opcao" readonly placeholder="— auto" />
+      </div>
+      <div class="field">
+        <label>Prazo original</label>
+        <input type="text" id="prazo-original" readonly placeholder="— auto" />
+      </div>
+    </div>
+
+    <!-- Row 2: Decisão -->
+    <div class="form-row">
+      <div class="field flex2">
+        <label>Decisão</label>
+        <div class="decisao-group">
+          <button class="decisao-btn" id="btn-exercida" data-dec="exercida">✓ Exercida</button>
+          <button class="decisao-btn" id="btn-recusada" data-dec="recusada">✗ Recusada</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 3 (só se recusada): assinou com outro time? -->
+    <div class="form-row cond-row" id="row-assinou">
+      <div class="field flex2">
+        <label>Assinou com outro time?</label>
+        <div class="radio-group">
+          <button class="radio-btn" id="btn-assinou-sim" data-assinou="true">Sim, assinou</button>
+          <button class="radio-btn" id="btn-assinou-nao" data-assinou="false">Não, ainda FA</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 4 (recusada + assinou): dados do contrato -->
+    <div class="form-row cond-row" id="row-contrato">
+      <div class="field flex2">
+        <label>Novo time</label>
+        <select id="novo-time">
+          <option value="">Selecione o time…</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Anos</label>
+        <input type="number" id="anos" min="1" max="5" step="1" placeholder="Ex: 3" />
+      </div>
+      <div class="field">
+        <label>Valor total ($)</label>
+        <input type="number" id="valor-total" min="0" step="100000" placeholder="Ex: 40000000" />
+      </div>
+      <div class="field">
+        <label>Média / ano</label>
+        <div class="computed" id="media-anual">—</div>
+      </div>
+    </div>
+
+    <!-- Row 5: fonte (exercida ou recusada+assinou) -->
+    <div class="form-row cond-row" id="row-fonte">
+      <div class="field flex2">
+        <label>Link da fonte <span style="color:#D85A30">*</span></label>
+        <input type="url" id="fonte-url" placeholder="https://twitter.com/wojespn/…" />
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button class="btn-add" id="btn-add" disabled>Registrar decisão</button>
+      <span class="form-error" id="form-error"></span>
+    </div>
+  </div>
+
+  <!-- LISTA -->
+  <div class="sec-head">
+    <div class="sec-line"></div>
+    <span class="sec-name">Decisões registradas</span>
+    <span class="sec-count" id="reg-count">0</span>
+  </div>
+  <div class="registros-list" id="registros-list">
+    <div class="empty-state">Nenhuma decisão registrada ainda.</div>
+  </div>
+
+  <!-- EXPORT -->
+  <div class="export-bar">
+    <p>Baixe o JSON e salve em <code>data/free-agents/opcoes_decididas.json</code>, depois commite.</p>
+    <button class="btn-export" id="btn-export">Baixar opcoes_decididas.json</button>
+  </div>
+  <p class="note">* Os dados ficam salvos neste navegador (localStorage). Exporte sempre após registrar decisões.</p>
+
+</div>
+</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const STORAGE_KEY = 'opcoes_decididas_v1';
+const TEAMS = [
+  {abbr:'ATL',name:'Atlanta Hawks'},{abbr:'BOS',name:'Boston Celtics'},
+  {abbr:'BKN',name:'Brooklyn Nets'},{abbr:'CHA',name:'Charlotte Hornets'},
+  {abbr:'CHI',name:'Chicago Bulls'},{abbr:'CLE',name:'Cleveland Cavaliers'},
+  {abbr:'DAL',name:'Dallas Mavericks'},{abbr:'DEN',name:'Denver Nuggets'},
+  {abbr:'DET',name:'Detroit Pistons'},{abbr:'GSW',name:'Golden State Warriors'},
+  {abbr:'HOU',name:'Houston Rockets'},{abbr:'IND',name:'Indiana Pacers'},
+  {abbr:'LAC',name:'LA Clippers'},{abbr:'LAL',name:'Los Angeles Lakers'},
+  {abbr:'MEM',name:'Memphis Grizzlies'},{abbr:'MIA',name:'Miami Heat'},
+  {abbr:'MIL',name:'Milwaukee Bucks'},{abbr:'MIN',name:'Minnesota Timberwolves'},
+  {abbr:'NOP',name:'New Orleans Pelicans'},{abbr:'NYK',name:'New York Knicks'},
+  {abbr:'OKC',name:'Oklahoma City Thunder'},{abbr:'ORL',name:'Orlando Magic'},
+  {abbr:'PHI',name:'Philadelphia 76ers'},{abbr:'PHX',name:'Phoenix Suns'},
+  {abbr:'POR',name:'Portland Trail Blazers'},{abbr:'SAC',name:'Sacramento Kings'},
+  {abbr:'SAS',name:'San Antonio Spurs'},{abbr:'TOR',name:'Toronto Raptors'},
+  {abbr:'UTA',name:'Utah Jazz'},{abbr:'WAS',name:'Washington Wizards'},
+];
+
+let registros = [];
+let allOpts = [];  // opcoes_pendentes_2026_parsed.json
+let selectedPlayer = null;  // full option record
+let currentDecisao = null;  // 'exercida' | 'recusada'
+let currentAssinou = null;  // true | false | null
+
+// ── Init ────────────────────────────────────────────────────────
+function populateTeams() {
+  const sel = document.getElementById('novo-time');
+  TEAMS.slice().sort((a,b) => a.name.localeCompare(b.name,'pt')).forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t.abbr;
+    opt.textContent = `${t.name} (${t.abbr})`;
+    sel.appendChild(opt);
+  });
+}
+
+async function loadOpts() {
+  try {
+    const r = await fetch('data/free-agents/opcoes_pendentes_2026_parsed.json');
+    allOpts = await r.json();
+  } catch(e) { allOpts = []; }
+}
+
+function loadRegistros() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    registros = raw ? JSON.parse(raw) : [];
+  } catch(e) { registros = []; }
+  renderList();
+}
+
+function saveRegistros() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(registros)); }
+  catch(e) { showToast('Erro ao salvar — exporte manualmente'); }
+}
+
+// ── Autocomplete ────────────────────────────────────────────────
+let searchTimeout = null;
+const alreadyRegistered = () => new Set(registros.map(r => r.player_id));
+
+document.getElementById('player-search').addEventListener('input', e => {
+  selectedPlayer = null;
+  clearAutoFill();
+  updateAddButton();
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(() => searchOpts(e.target.value), 180);
+});
+
+function searchOpts(query) {
+  const box = document.getElementById('player-suggestions');
+  if (!query || query.length < 2) { box.classList.remove('visible'); return; }
+  const q = query.toLowerCase();
+  const done = alreadyRegistered();
+  const matches = allOpts.filter(d => {
+    if (done.has(d.player_id)) return false;
+    const name = `${d.player.first_name} ${d.player.last_name}`.toLowerCase();
+    return name.includes(q);
+  }).slice(0, 10);
+
+  if (!matches.length) {
+    box.innerHTML = '<div class="suggestion-item" style="color:var(--mute)">Nenhum resultado (já registrado ou não encontrado)</div>';
+    box.classList.add('visible'); return;
+  }
+  box.innerHTML = matches.map(d => {
+    const name = `${d.player.first_name} ${d.player.last_name}`;
+    return `<div class="suggestion-item" data-pid="${d.player_id}">
+      <span class="sname">${name}</span>
+      <span class="smeta">${d.tipo_opcao} Option · ${d.team.abbreviation}</span>
+    </div>`;
+  }).join('');
+  box.classList.add('visible');
+
+  box.querySelectorAll('.suggestion-item[data-pid]').forEach(el => {
+    el.addEventListener('click', () => {
+      const opt = allOpts.find(d => d.player_id === parseInt(el.dataset.pid));
+      if (!opt) return;
+      selectedPlayer = opt;
+      document.getElementById('player-search').value = `${opt.player.first_name} ${opt.player.last_name}`;
+      document.getElementById('time-atual').value = opt.team.abbreviation;
+      document.getElementById('tipo-opcao').value = opt.tipo_opcao + ' Option';
+      document.getElementById('prazo-original').value = opt.data_decisao || '—';
+      box.classList.remove('visible');
+      updateAddButton();
+    });
+  });
+}
+
+function clearAutoFill() {
+  ['time-atual','tipo-opcao','prazo-original'].forEach(id => { document.getElementById(id).value = ''; });
+}
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('#player-search') && !e.target.closest('#player-suggestions'))
+    document.getElementById('player-suggestions').classList.remove('visible');
+});
+
+// ── Decisão ─────────────────────────────────────────────────────
+document.querySelectorAll('.decisao-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentDecisao = btn.dataset.dec;
+    document.querySelectorAll('.decisao-btn').forEach(b => b.className = 'decisao-btn');
+    btn.classList.add(currentDecisao === 'exercida' ? 'active-exercida' : 'active-recusada');
+    // Reset sub-state
+    currentAssinou = null;
+    document.querySelectorAll('.radio-btn').forEach(b => b.classList.remove('active'));
+    updateConditionalRows();
+    updateAddButton();
+  });
+});
+
+// ── Assinou ─────────────────────────────────────────────────────
+document.querySelectorAll('.radio-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentAssinou = btn.dataset.assinou === 'true';
+    document.querySelectorAll('.radio-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    updateConditionalRows();
+    updateAddButton();
+  });
+});
+
+function updateConditionalRows() {
+  const showAssinou = currentDecisao === 'recusada';
+  const showContrato = currentDecisao === 'recusada' && currentAssinou === true;
+  const showFonte = currentDecisao === 'exercida' || (currentDecisao === 'recusada' && currentAssinou === true);
+
+  document.getElementById('row-assinou').className = 'form-row cond-row' + (showAssinou ? ' visible' : '');
+  document.getElementById('row-contrato').className = 'form-row cond-row' + (showContrato ? ' visible' : '');
+  document.getElementById('row-fonte').className = 'form-row cond-row' + (showFonte ? ' visible' : '');
+
+  if (!showFonte) document.getElementById('fonte-url').value = '';
+  if (!showContrato) {
+    document.getElementById('novo-time').value = '';
+    document.getElementById('anos').value = '';
+    document.getElementById('valor-total').value = '';
+    document.getElementById('media-anual').textContent = '—';
+  }
+}
+
+// ── Média anual ─────────────────────────────────────────────────
+function fmtSal(v) {
+  if (!v || isNaN(v)) return '—';
+  const m = v / 1e6;
+  return m >= 1 ? `$${m.toFixed(1)}M` : `$${(v/1000).toFixed(0)}K`;
+}
+
+['anos','valor-total'].forEach(id => {
+  document.getElementById(id).addEventListener('input', () => {
+    const a = parseFloat(document.getElementById('anos').value);
+    const t = parseFloat(document.getElementById('valor-total').value);
+    document.getElementById('media-anual').textContent = (a > 0 && t > 0) ? fmtSal(t / a) : '—';
+    updateAddButton();
+  });
+});
+
+document.getElementById('novo-time').addEventListener('change', updateAddButton);
+document.getElementById('fonte-url').addEventListener('input', updateAddButton);
+
+// ── Validação ───────────────────────────────────────────────────
+function updateAddButton() {
+  const btn = document.getElementById('btn-add');
+  if (!selectedPlayer || !currentDecisao) { btn.disabled = true; return; }
+
+  if (currentDecisao === 'exercida') {
+    const fonte = document.getElementById('fonte-url').value.trim();
+    btn.disabled = !fonte;
+    return;
+  }
+
+  // recusada
+  if (currentAssinou === null) { btn.disabled = true; return; }
+  if (currentAssinou === false) { btn.disabled = false; return; }
+
+  // recusada + assinou sim
+  const novoTime = document.getElementById('novo-time').value;
+  const anos = parseFloat(document.getElementById('anos').value);
+  const total = parseFloat(document.getElementById('valor-total').value);
+  const fonte = document.getElementById('fonte-url').value.trim();
+  btn.disabled = !(novoTime && anos > 0 && total > 0 && fonte.length > 0);
+}
+
+// ── Adicionar ───────────────────────────────────────────────────
+document.getElementById('btn-add').addEventListener('click', () => {
+  if (!selectedPlayer || !currentDecisao) return;
+  document.getElementById('form-error').textContent = '';
+
+  const fonte = document.getElementById('fonte-url').value.trim();
+  const novoTime = document.getElementById('novo-time').value;
+  const anos = parseInt(document.getElementById('anos').value) || null;
+  const total = parseFloat(document.getElementById('valor-total').value) || null;
+
+  if ((currentDecisao === 'exercida' || (currentDecisao === 'recusada' && currentAssinou)) && fonte) {
+    try { new URL(fonte); } catch(e) {
+      document.getElementById('form-error').textContent = 'URL da fonte inválida.';
+      return;
+    }
+  }
+
+  registros = registros.filter(r => r.player_id !== selectedPlayer.player_id);
+
+  const entry = {
+    player_id: selectedPlayer.player_id,
+    player: selectedPlayer.player,
+    tipo_opcao: selectedPlayer.tipo_opcao,
+    tipo_fa_se_recusado: selectedPlayer.tipo_fa_se_recusado || null,
+    decisao: currentDecisao,
+    assinou_novo_time: currentDecisao === 'recusada' ? (currentAssinou === true) : false,
+    novo_time: (currentDecisao === 'recusada' && currentAssinou) ? novoTime : null,
+    anos_contrato: (currentDecisao === 'recusada' && currentAssinou) ? anos : null,
+    valor_total: (currentDecisao === 'recusada' && currentAssinou) ? total : null,
+    salario_medio: (currentDecisao === 'recusada' && currentAssinou && anos && total) ? Math.round(total / anos) : null,
+    fonte: fonte || null,
+    time_anterior_abbr: selectedPlayer.team?.abbreviation || null,
+    average_salary_anterior: selectedPlayer.average_salary || null,
+    registrado_em: new Date().toISOString(),
+  };
+
+  registros.push(entry);
+  saveRegistros();
+  renderList();
+
+  const pName = `${selectedPlayer.player.first_name} ${selectedPlayer.player.last_name}`;
+  showToast(`${currentDecisao === 'exercida' ? 'Opção exercida' : 'Opção recusada'}: ${pName}`);
+  resetForm();
+});
+
+function resetForm() {
+  document.getElementById('player-search').value = '';
+  clearAutoFill();
+  document.querySelectorAll('.decisao-btn').forEach(b => b.className = 'decisao-btn');
+  document.querySelectorAll('.radio-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('fonte-url').value = '';
+  document.getElementById('novo-time').value = '';
+  document.getElementById('anos').value = '';
+  document.getElementById('valor-total').value = '';
+  document.getElementById('media-anual').textContent = '—';
+  selectedPlayer = null; currentDecisao = null; currentAssinou = null;
+  updateConditionalRows();
+  updateAddButton();
+}
+
+// ── Render lista ────────────────────────────────────────────────
+function renderList() {
+  const list = document.getElementById('registros-list');
+  document.getElementById('reg-count').textContent = registros.length;
+
+  if (!registros.length) {
+    list.innerHTML = '<div class="empty-state">Nenhuma decisão registrada ainda.</div>';
+    return;
+  }
+
+  list.innerHTML = registros.map((r, i) => {
+    const name = `${r.player.first_name} ${r.player.last_name}`;
+    const data = r.registrado_em ? r.registrado_em.slice(0,10) : '—';
+    const badgeClass = r.decisao === 'exercida' ? 'decisao-exercida' : 'decisao-recusada';
+    const badgeText = r.decisao === 'exercida' ? 'Exercida' : 'Recusada';
+
+    let detail = '';
+    if (r.decisao === 'recusada') {
+      if (r.assinou_novo_time && r.novo_time) {
+        detail = `→ ${r.novo_time} · ${r.anos_contrato}a / ${fmtSal(r.valor_total)}`;
+      } else {
+        detail = '→ ainda FA';
+      }
+    }
+
+    let fonteHtml = '—';
+    if (r.fonte) {
+      let h = r.fonte;
+      try { h = new URL(r.fonte).hostname.replace(/^www\./,''); } catch(e){}
+      fonteHtml = `<a href="${r.fonte}" target="_blank" rel="noopener">${h}</a>`;
+    }
+
+    return `<div class="registro-row">
+      <div class="reg-player">
+        <div class="reg-name">${name}</div>
+        <div class="reg-meta">${r.tipo_opcao} Option · ${r.time_anterior_abbr || '?'} · ${data}</div>
+      </div>
+      <span class="decisao-badge ${badgeClass}">${badgeText}</span>
+      ${detail ? `<div class="reg-deal">${detail}</div>` : '<div></div>'}
+      <div class="reg-fonte">${fonteHtml}</div>
+      <button class="btn-remove" data-idx="${i}">Remover</button>
+    </div>`;
+  }).join('');
+
+  list.querySelectorAll('.btn-remove').forEach(btn => {
+    btn.addEventListener('click', () => {
+      registros.splice(parseInt(btn.dataset.idx), 1);
+      saveRegistros(); renderList();
+      showToast('Registro removido');
+    });
+  });
+}
+
+// ── Export ──────────────────────────────────────────────────────
+document.getElementById('btn-export').addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(registros, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'opcoes_decididas.json';
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+  showToast('Arquivo baixado');
+});
+
+// ── Toast ───────────────────────────────────────────────────────
+let toastTimeout = null;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('visible');
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => t.classList.remove('visible'), 2600);
+}
+
+// ── Startup ─────────────────────────────────────────────────────
+populateTeams();
+loadRegistros();
+loadOpts();
+</script>
+</body>
+</html>

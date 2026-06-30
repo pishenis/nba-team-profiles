@@ -104,6 +104,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; color: 
 .fa-status { display: inline-block; font-family: var(--mono); font-size: 9px; font-weight: 600; letter-spacing: 0.05em; padding: 2px 7px; border-radius: 3px; white-space: nowrap; }
 .fa-status.ufa { background: rgba(216,90,48,0.1); color: var(--red); }
 .fa-status.rfa { background: var(--bp-blue-tint); color: var(--bp-blue-dark); }
+.fa-badge-recusou { display: inline-block; font-family: var(--mono); font-size: 9px; font-weight: 600; letter-spacing: 0.05em; padding: 2px 7px; border-radius: 3px; white-space: nowrap; background: rgba(184,134,11,0.1); color: var(--warn); border: 0.5px solid rgba(184,134,11,0.25); }
 
 /* STATS */
 .fa-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); }
@@ -427,6 +428,7 @@ function renderGrid() {
             <span class="fa-pos">${p.position || '—'}</span>
             <span class="fa-team">${team.abbreviation || '?'}</span>
             <span class="fa-status ${status === 'UFA' ? 'ufa' : 'rfa'}">${status}</span>
+            ${fa._recusou_opcao ? '<span class="fa-badge-recusou">recusou opção</span>' : ''}
           </div>
         </div>
       </div>
@@ -616,19 +618,67 @@ function renderOptions(data) {
 async function loadAll() {
   try {
     const NC = {cache: 'no-cache'};
-    const [faData, optsData, signedData, tsData, manualData, idsData] = await Promise.all([
+    const [faData, optsData, signedData, tsData, manualData, idsData, decidedData] = await Promise.all([
       fetch(BASE + 'free_agents_2026_final.json', NC).then(r => r.json()),
       fetch(BASE + 'opcoes_pendentes_2026_parsed.json', NC).then(r => r.json()),
       fetch(BASE + 'assinaturas_recentes.json', NC).then(r => r.json()).catch(() => []),
       fetch(BASE + 'ultima_atualizacao.json', NC).then(r => r.json()).catch(() => null),
       fetch(BASE + 'assinaturas_manuais.json', NC).then(r => r.json()).catch(() => []),
       fetch('data/salaries/nba_player_ids.json', NC).then(r => r.json()).catch(() => ({})),
+      fetch(BASE + 'opcoes_decididas.json', NC).then(r => r.json()).catch(() => []),
     ]);
     nbaPlayerIds = idsData;
 
+    // Processar decisões de opções registradas manualmente
+    const decidedIds = new Set();
+    const fromOpcoesAsManual = [];
+    const fromOpcoesAsFas = [];
+
+    const optsByPid = {};
+    (optsData || []).forEach(d => { optsByPid[d.player_id] = d; });
+
+    (decidedData || []).forEach(d => {
+      decidedIds.add(d.player_id);
+      const opt = optsByPid[d.player_id];
+
+      if (d.decisao === 'recusada' && d.assinou_novo_time) {
+        // Trata como assinatura manual — entra em mergeSigned()
+        fromOpcoesAsManual.push({
+          player_id: d.player_id,
+          player_name: `${d.player.first_name || ''} ${d.player.last_name || ''}`.trim(),
+          status_anterior: 'OPÇÃO RECUSADA',
+          time_anterior: d.time_anterior_abbr || opt?.team?.abbreviation || '?',
+          novo_time: d.novo_time,
+          anos_contrato: d.anos_contrato,
+          valor_total: d.valor_total,
+          salario_medio: d.salario_medio,
+          fonte_url: d.fonte || null,
+        });
+      } else if (d.decisao === 'recusada' && !d.assinou_novo_time) {
+        // Entra no grid principal com badge "recusou opção"
+        const tipoFa = d.tipo_fa_se_recusado || opt?.tipo_fa_se_recusado || 'UFA';
+        fromOpcoesAsFas.push({
+          player: d.player,
+          team: opt?.team || { abbreviation: d.time_anterior_abbr || '?' },
+          free_agent_status: tipoFa,
+          average_salary: d.average_salary_anterior || opt?.average_salary || null,
+          stats_2025_26: null,
+          comparaveis: [],
+          _recusou_opcao: true,
+        });
+      }
+      // 'exercida': apenas remove das pendentes via decidedIds
+    });
+
+    // Combina assinaturas manuais (Denis + opções recusadas+assinadas)
+    const allManuais = [...(manualData || []), ...fromOpcoesAsManual];
+
     // Mescla assinaturas manuais e automáticas; exclui assinados do grid principal
-    const { signedIds, mergedSigned } = mergeSigned(manualData, signedData, faData);
-    allFAs = faData.filter(fa => !signedIds.has(fa.player?.id || fa.player_id));
+    const { signedIds, mergedSigned } = mergeSigned(allManuais, signedData, faData);
+    allFAs = [
+      ...faData.filter(fa => !signedIds.has(fa.player?.id || fa.player_id)),
+      ...fromOpcoesAsFas.filter(fa => !signedIds.has(fa.player?.id)),
+    ];
 
     const ufa = allFAs.filter(f => f.free_agent_status === 'UFA').length;
     const rfa = allFAs.filter(f => f.free_agent_status === 'RFA').length;
@@ -643,9 +693,12 @@ async function loadAll() {
       document.getElementById('meta-updated').textContent = `atualizado ${fmt}`;
     }
 
+    // Filtra opções já decididas antes de renderizar
+    const filteredOpts = (optsData || []).filter(d => !decidedIds.has(d.player_id));
+
     renderGrid();
     renderSigned(mergedSigned);
-    renderOptions(optsData);
+    renderOptions(filteredOpts);
   } catch(e) {
     document.getElementById('fa-grid').innerHTML = `<div class="fa-empty">Erro ao carregar dados: ${e.message}</div>`;
   }
