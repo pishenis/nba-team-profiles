@@ -133,15 +133,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; color: 
 .qual-poor   { background: var(--paper); color: var(--mute-2); border: 0.5px solid var(--hair); }
 .fa-comp-none { font-size: 11px; color: var(--mute-2); font-style: italic; }
 
-/* OPÇÕES PENDENTES */
-.options-section { margin-top: 48px; }
-.tab-bar { display: flex; gap: 0; border-bottom: 1px solid var(--hair); margin-bottom: 20px; }
-.tab-btn { font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; padding: 10px 20px; color: var(--mute); border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.15s, border-color 0.15s; }
-.tab-btn.active { color: var(--bp-blue); border-bottom-color: var(--bp-blue); }
-.tab-btn:hover:not(.active) { color: var(--ink); }
-.tab-panel { display: none; }
-.tab-panel.active { display: block; animation: fadeIn 0.15s ease; }
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
 .tbl-wrap { overflow-x: auto; border: 1px solid var(--hair); border-radius: 10px; }
 table { width: 100%; border-collapse: collapse; font-size: 12px; }
@@ -266,28 +257,6 @@ td.r { text-align: right; }
         </div>
       </div>
 
-      <!-- OPÇÕES PENDENTES -->
-      <div class="options-section">
-        <div class="sec-head">
-          <div class="sec-line"></div>
-          <span class="sec-name">Decisões de opção pendentes</span>
-          <span class="sec-count" id="opts-count"></span>
-        </div>
-        <div class="tab-bar">
-          <button class="tab-btn active" data-tab="jogador">Jogador decide</button>
-          <button class="tab-btn" data-tab="equipe">Equipe decide</button>
-        </div>
-        <div class="tab-panel active" id="tab-jogador">
-          <div class="tbl-wrap"><table id="tbl-jogador"><thead><tr>
-            <th>Jogador</th><th>Time</th><th class="r">Salário 26-27</th><th>Prazo</th><th>Nota</th>
-          </tr></thead><tbody></tbody></table></div>
-        </div>
-        <div class="tab-panel" id="tab-equipe">
-          <div class="tbl-wrap"><table id="tbl-equipe"><thead><tr>
-            <th>Jogador</th><th>Time</th><th class="r">Salário 26-27</th><th>Prazo</th><th>Se recusada</th>
-          </tr></thead><tbody></tbody></table></div>
-        </div>
-      </div>
 
     </div><!-- /wrap -->
 
@@ -579,49 +548,12 @@ function renderSigned(mergedList) {
   }).join('');
 }
 
-function renderOptions(data) {
-  const jogador = data.filter(d => d.tipo_opcao === 'Jogador');
-  const equipe  = data.filter(d => d.tipo_opcao === 'Equipe');
-
-  document.getElementById('opts-count').textContent =
-    `${jogador.length} jogador · ${equipe.length} equipe`;
-
-  function buildRow(d, tipoCol) {
-    const p = d.player || {};
-    const team = d.team || {};
-    const dateHtml = d.data_decisao
-      ? d.data_confiavel === false
-        ? `<div class="date-val">${d.data_decisao}</div><div class="date-warn">⚠ data incerta</div>`
-        : `<div class="date-val">${d.data_decisao}</div>`
-      : '<span style="color:var(--mute-2);font-family:var(--mono);font-size:11px">—</span>';
-    const faStr = tipoCol === 'equipe' && d.tipo_fa_se_recusado
-      ? `<span class="badge ${d.tipo_fa_se_recusado === 'UFA' ? 'badge-ufa' : 'badge-rfa'}">${d.tipo_fa_se_recusado}</span>`
-      : '';
-
-    return `<tr>
-      <td><div class="player-cell">
-        <div class="player-photo"><img src="${photoUrl(p.first_name, p.last_name)}" alt="${p.first_name} ${p.last_name}" referrerpolicy="no-referrer" onerror="this.style.display='none'" /></div>
-        <div><div class="player-name">${p.first_name || ''} ${p.last_name || ''}</div><div class="player-pos">${p.position || ''}</div></div>
-      </div></td>
-      <td><span class="team-abb">${team.abbreviation || '?'}</span></td>
-      <td class="r"><span class="sal-val">${fmtSal(d.average_salary)}</span></td>
-      <td>${dateHtml}</td>
-      <td>${tipoCol === 'equipe' ? (faStr || '—') : (d.confirmado_manualmente ? '<span style="font-family:var(--mono);font-size:10px;color:var(--green)">✓ confirmado</span>' : '')}</td>
-    </tr>`;
-  }
-
-  document.querySelector('#tbl-jogador tbody').innerHTML =
-    jogador.length ? jogador.map(d => buildRow(d, 'jogador')).join('') : '<tr><td colspan="5" style="text-align:center;color:var(--mute-2);padding:24px">Nenhum registro</td></tr>';
-  document.querySelector('#tbl-equipe tbody').innerHTML =
-    equipe.length ? equipe.map(d => buildRow(d, 'equipe')).join('') : '<tr><td colspan="5" style="text-align:center;color:var(--mute-2);padding:24px">Nenhum registro</td></tr>';
-}
 
 async function loadAll() {
   try {
     const NC = {cache: 'no-cache'};
-    const [faData, optsData, signedData, tsData, manualData, idsData, decidedData] = await Promise.all([
+    const [faData, signedData, tsData, manualData, idsData, decidedData] = await Promise.all([
       fetch(BASE + 'free_agents_2026_final.json', NC).then(r => r.json()),
-      fetch(BASE + 'opcoes_pendentes_2026_parsed.json', NC).then(r => r.json()),
       fetch(BASE + 'assinaturas_recentes.json', NC).then(r => r.json()).catch(() => []),
       fetch(BASE + 'ultima_atualizacao.json', NC).then(r => r.json()).catch(() => null),
       fetch(BASE + 'assinaturas_manuais.json', NC).then(r => r.json()).catch(() => []),
@@ -635,12 +567,8 @@ async function loadAll() {
     const fromOpcoesAsManual = [];
     const fromOpcoesAsFas = [];
 
-    const optsByPid = {};
-    (optsData || []).forEach(d => { optsByPid[d.player_id] = d; });
-
     (decidedData || []).forEach(d => {
       decidedIds.add(d.player_id);
-      const opt = optsByPid[d.player_id];
 
       if (d.decisao === 'recusada' && d.assinou_novo_time) {
         // Trata como assinatura manual — entra em mergeSigned()
@@ -648,7 +576,7 @@ async function loadAll() {
           player_id: d.player_id,
           player_name: `${d.player.first_name || ''} ${d.player.last_name || ''}`.trim(),
           status_anterior: 'OPÇÃO RECUSADA',
-          time_anterior: d.time_anterior_abbr || opt?.team?.abbreviation || '?',
+          time_anterior: d.time_anterior_abbr || '?',
           novo_time: d.novo_time,
           anos_contrato: d.anos_contrato,
           valor_total: d.valor_total,
@@ -657,18 +585,18 @@ async function loadAll() {
         });
       } else if (d.decisao === 'recusada' && !d.assinou_novo_time) {
         // Entra no grid principal com badge "recusou opção"
-        const tipoFa = d.tipo_fa_se_recusado || opt?.tipo_fa_se_recusado || 'UFA';
+        const tipoFa = d.tipo_fa_se_recusado || 'UFA';
         fromOpcoesAsFas.push({
           player: d.player,
-          team: opt?.team || { abbreviation: d.time_anterior_abbr || '?' },
+          team: { abbreviation: d.time_anterior_abbr || '?' },
           free_agent_status: tipoFa,
-          average_salary: d.average_salary_anterior || opt?.average_salary || null,
+          average_salary: d.average_salary_anterior || null,
           stats_2025_26: null,
           comparaveis: [],
           _recusou_opcao: true,
         });
       }
-      // 'exercida': apenas remove das pendentes via decidedIds
+      // 'exercida': apenas remove via decidedIds
     });
 
     // Combina assinaturas manuais (Denis + opções recusadas+assinadas)
@@ -694,12 +622,8 @@ async function loadAll() {
       document.getElementById('meta-updated').textContent = `atualizado ${fmt}`;
     }
 
-    // Filtra opções já decididas antes de renderizar
-    const filteredOpts = (optsData || []).filter(d => !decidedIds.has(d.player_id));
-
     renderGrid();
     renderSigned(mergedSigned);
-    renderOptions(filteredOpts);
   } catch(e) {
     document.getElementById('fa-grid').innerHTML = `<div class="fa-empty">Erro ao carregar dados: ${e.message}</div>`;
   }
@@ -729,15 +653,6 @@ document.getElementById('search').addEventListener('input', e => {
   renderGrid();
 });
 
-// Tabs
-document.querySelector('.tab-bar').addEventListener('click', e => {
-  const btn = e.target.closest('[data-tab]');
-  if (!btn) return;
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
-});
 
 loadAll();
 </script>
