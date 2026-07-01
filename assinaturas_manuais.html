@@ -30,6 +30,17 @@
 }
 .field input:focus, .field select:focus { border-color: var(--bp-blue); }
 .field input[readonly] { background: var(--paper); color: var(--mute); cursor: default; }
+.btn-sem-valor {
+  font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.04em;
+  text-transform: uppercase; padding: 5px 11px; border-radius: 6px;
+  border: 1px solid var(--hair); background: var(--white); color: var(--mute);
+  cursor: pointer; transition: all 0.15s; white-space: nowrap; align-self: flex-end;
+  margin-bottom: 1px;
+}
+.btn-sem-valor:hover { border-color: var(--warn); color: var(--warn); }
+.btn-sem-valor.active { background: rgba(184,134,11,0.1); border-color: rgba(184,134,11,0.4); color: var(--warn); font-weight: 600; }
+.field input:disabled { background: var(--paper); color: var(--mute-2); cursor: not-allowed; opacity: 0.6; }
+.computed.nao-reportado { color: var(--warn); font-size: 11px; }
 .field input[type="url"] { font-family: var(--mono); font-size: 12px; }
 .field .computed { font-family: var(--mono); font-size: 13px; padding: 8px 10px; border: 1px solid var(--hair); border-radius: 6px; background: var(--paper); color: var(--green); font-weight: 500; min-height: 37px; }
 
@@ -159,10 +170,12 @@
         <input type="text" id="player-search" placeholder="Digite o nome do free agent…" autocomplete="off" />
         <div class="player-suggestions" id="player-suggestions"></div>
       </div>
-      <!-- Time anterior (readonly, preenchido ao selecionar) -->
+      <!-- Time anterior (pré-selecionado ao escolher jogador, mas editável) -->
       <div class="field">
         <label>Time anterior</label>
-        <input type="text" id="time-anterior" readonly placeholder="— auto" />
+        <select id="time-anterior">
+          <option value="">— selecione</option>
+        </select>
       </div>
     </div>
     <div class="form-row">
@@ -183,6 +196,8 @@
         <label>Valor total ($)</label>
         <input type="number" id="valor-total" min="0" step="100000" placeholder="Ex: 90000000" />
       </div>
+      <!-- Botão não reportado -->
+      <button class="btn-sem-valor" id="btn-sem-valor" type="button">Não reportado</button>
       <!-- Média anual (calculada) -->
       <div class="field">
         <label>Média / ano</label>
@@ -247,17 +262,20 @@ const TEAMS = [
 ];
 
 let registros = [];
-let allFAs = [];     // lista de free agents carregada do JSON
+let allFAs = [];
 let selectedPlayer = null;
+let valorNaoReportado = false;
 
 // ── Init ────────────────────────────────────────────────────────
 function populateTeams() {
-  const sel = document.getElementById('novo-time');
-  TEAMS.slice().sort((a,b) => a.name.localeCompare(b.name,'pt')).forEach(t => {
-    const opt = document.createElement('option');
-    opt.value = t.abbr;
-    opt.textContent = `${t.name} (${t.abbr})`;
-    sel.appendChild(opt);
+  const sorted = TEAMS.slice().sort((a,b) => a.name.localeCompare(b.name,'pt'));
+  [document.getElementById('novo-time'), document.getElementById('time-anterior')].forEach(sel => {
+    sorted.forEach(t => {
+      const opt = document.createElement('option');
+      opt.value = t.abbr;
+      opt.textContent = `${t.name} (${t.abbr})`;
+      sel.appendChild(opt);
+    });
   });
 }
 
@@ -295,6 +313,7 @@ document.getElementById('player-search').addEventListener('input', e => {
   selectedPlayer = null;
   document.getElementById('time-anterior').value = '';
   updateAddButton();
+
   clearTimeout(searchTimeout);
   searchTimeout = setTimeout(() => searchFAs(e.target.value), 200);
 });
@@ -351,6 +370,32 @@ document.addEventListener('click', e => {
   }
 });
 
+// ── Não reportado toggle ────────────────────────────────────────
+document.getElementById('btn-sem-valor').addEventListener('click', () => {
+  valorNaoReportado = !valorNaoReportado;
+  const btn = document.getElementById('btn-sem-valor');
+  const inputValor = document.getElementById('valor-total');
+  const inputAnos = document.getElementById('anos');
+  if (valorNaoReportado) {
+    btn.classList.add('active');
+    inputValor.disabled = true;
+    inputValor.value = '';
+    inputAnos.disabled = true;
+    inputAnos.value = '';
+    const el = document.getElementById('media-anual');
+    el.textContent = 'não reportado';
+    el.classList.add('nao-reportado');
+  } else {
+    btn.classList.remove('active');
+    inputValor.disabled = false;
+    inputAnos.disabled = false;
+    const el = document.getElementById('media-anual');
+    el.textContent = '—';
+    el.classList.remove('nao-reportado');
+  }
+  updateAddButton();
+});
+
 // ── Cálculo de média anual ──────────────────────────────────────
 function fmtSal(v) {
   if (!v || isNaN(v)) return '—';
@@ -359,6 +404,7 @@ function fmtSal(v) {
 }
 
 function updateMedia() {
+  if (valorNaoReportado) return;
   const anos = parseFloat(document.getElementById('anos').value);
   const total = parseFloat(document.getElementById('valor-total').value);
   const el = document.getElementById('media-anual');
@@ -380,7 +426,8 @@ function updateAddButton() {
   const total = parseFloat(document.getElementById('valor-total').value);
   const novoTime = document.getElementById('novo-time').value;
   const fonte = document.getElementById('fonte-url').value.trim();
-  const valid = selectedPlayer && novoTime && anos > 0 && total > 0 && fonte.length > 0;
+  const valoresOk = valorNaoReportado || (anos > 0 && total > 0);
+  const valid = selectedPlayer && novoTime && valoresOk && fonte.length > 0;
   btn.disabled = !valid;
 }
 
@@ -391,11 +438,13 @@ document.getElementById('fonte-url').addEventListener('input', updateAddButton);
 document.getElementById('btn-add').addEventListener('click', () => {
   if (!selectedPlayer) return;
   const novoTime = document.getElementById('novo-time').value;
-  const anos = parseInt(document.getElementById('anos').value);
-  const total = parseFloat(document.getElementById('valor-total').value);
+  const timeAnterior = document.getElementById('time-anterior').value || selectedPlayer.time_anterior;
+  const anos = parseInt(document.getElementById('anos').value) || null;
+  const total = valorNaoReportado ? null : parseFloat(document.getElementById('valor-total').value);
   const fonte = document.getElementById('fonte-url').value.trim();
 
-  if (!novoTime || !anos || !total || !fonte) return;
+  if (!novoTime || !fonte) return;
+  if (!valorNaoReportado && (!anos || !total)) return;
 
   // Validar URL minimamente
   try { new URL(fonte); } catch(e) {
@@ -411,11 +460,11 @@ document.getElementById('btn-add').addEventListener('click', () => {
     player_id: selectedPlayer.player_id,
     player_name: selectedPlayer.player_name,
     status_anterior: selectedPlayer.status_anterior,
-    time_anterior: selectedPlayer.time_anterior,
+    time_anterior: timeAnterior,
     novo_time: novoTime,
     anos_contrato: anos,
     valor_total: total,
-    salario_medio: Math.round(total / anos),
+    salario_medio: (anos && total) ? Math.round(total / anos) : null,
     fonte_url: fonte,
     registrado_em: new Date().toISOString(),
   });
@@ -432,7 +481,12 @@ document.getElementById('btn-add').addEventListener('click', () => {
   document.getElementById('valor-total').value = '';
   document.getElementById('fonte-url').value = '';
   document.getElementById('media-anual').textContent = '—';
+  document.getElementById('media-anual').classList.remove('nao-reportado');
+  document.getElementById('btn-sem-valor').classList.remove('active');
+  document.getElementById('anos').disabled = false;
+  document.getElementById('valor-total').disabled = false;
   selectedPlayer = null;
+  valorNaoReportado = false;
   updateAddButton();
 });
 
@@ -461,7 +515,7 @@ function renderList() {
         <span class="reg-arrow">→</span>
         <span class="reg-team">${r.novo_time}</span>
       </div>
-      <div class="reg-deal">${r.anos_contrato}a · ${fmtSal(r.valor_total)}</div>
+      <div class="reg-deal">${r.anos_contrato ? r.anos_contrato + 'a' : '?'} · ${r.valor_total ? fmtSal(r.valor_total) : '<span style="color:var(--warn);font-size:10px">não reportado</span>'}</div>
       <div class="reg-fonte">${r.fonte_url ? `<a href="${r.fonte_url}" target="_blank" rel="noopener">${hostname}</a>` : '—'}</div>
       <button class="btn-remove" data-idx="${i}">Remover</button>
     </div>`;
