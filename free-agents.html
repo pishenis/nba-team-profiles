@@ -444,6 +444,7 @@ function mergeSigned(manual, recent, allFAsPool) {
       valor_total: m.valor_total,
       salario_medio: m.salario_medio,
       fonte_url: m.fonte_url || null,
+      registrado_em: m.registrado_em || null,
       bdl_override: false,
     };
   });
@@ -466,6 +467,7 @@ function mergeSigned(manual, recent, allFAsPool) {
         anos_contrato: nc.contract_years || prev.anos_contrato,
         valor_total: nc.total_value || prev.valor_total,
         salario_medio: nc.average_salary || prev.salario_medio,
+        detectado_em: r.detectado_em || null,
         bdl_override: true,
       };
     } else {
@@ -480,6 +482,7 @@ function mergeSigned(manual, recent, allFAsPool) {
         valor_total: nc.total_value || null,
         salario_medio: nc.average_salary || null,
         fonte_url: null,
+        detectado_em: r.detectado_em || null,
         bdl_override: false,
       };
     }
