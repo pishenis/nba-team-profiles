@@ -554,14 +554,14 @@ function renderSigned(mergedList) {
 
 async function loadAll() {
   try {
-    const NC = {cache: 'no-cache'};
+    const T = '?t=' + Date.now();
     const [faData, signedData, tsData, manualData, idsData, decidedData] = await Promise.all([
-      fetch(BASE + 'free_agents_2026_final.json', NC).then(r => r.json()),
-      fetch(BASE + 'assinaturas_recentes.json', NC).then(r => r.json()).catch(() => []),
-      fetch(BASE + 'ultima_atualizacao.json', NC).then(r => r.json()).catch(() => null),
-      fetch(BASE + 'assinaturas_manuais.json', NC).then(r => r.json()).catch(() => []),
-      fetch('data/salaries/nba_player_ids.json', NC).then(r => r.json()).catch(() => ({})),
-      fetch(BASE + 'opcoes_decididas.json', NC).then(r => r.json()).catch(() => []),
+      fetch(BASE + 'free_agents_2026_final.json' + T).then(r => r.json()),
+      fetch(BASE + 'assinaturas_recentes.json' + T).then(r => r.json()).catch(() => []),
+      fetch(BASE + 'ultima_atualizacao.json' + T).then(r => r.json()).catch(() => null),
+      fetch(BASE + 'assinaturas_manuais.json' + T).then(r => r.json()).catch(() => []),
+      fetch('data/salaries/nba_player_ids.json' + T).then(r => r.json()).catch(() => ({})),
+      fetch(BASE + 'opcoes_decididas.json' + T).then(r => r.json()).catch(() => []),
     ]);
     nbaPlayerIds = idsData;
 
