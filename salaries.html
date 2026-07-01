@@ -192,8 +192,6 @@ td.r{text-align:right}
     <a href="jogadores.html">jogadores</a>
     <a href="salaries.html">salários</a>
     <a href="rankings.html">rankings</a>
-    <a href="free-agents.html">free agents</a>
-    <a href="redraft.html">redrafts</a>
   </nav>
 </div>
 
@@ -204,11 +202,11 @@ td.r{text-align:right}
       <h1>Salários <em>2025–26</em></h1>
       <p>Contratos e cap hit de todos os 30 times, do maior ao menor.</p>
       <div class="hero-meta">
-        <span class="meta-pill blue">⬤ Temporada 2025–26</span>
-        <span class="meta-pill" style="color:var(--c-cap);background:rgba(20,166,184,0.07);border-color:rgba(20,166,184,0.2)">Cap: $154.6M</span>
-        <span class="meta-pill" style="color:var(--c-tax);background:rgba(230,172,0,0.07);border-color:rgba(230,172,0,0.2)">Luxury Tax: $187.9M</span>
-        <span class="meta-pill" style="color:var(--c-apron1);background:rgba(216,90,48,0.07);border-color:rgba(216,90,48,0.2)">1st Apron: $195.9M</span>
-        <span class="meta-pill" style="color:var(--c-apron2);background:rgba(124,58,237,0.07);border-color:rgba(124,58,237,0.2)">2nd Apron: $207.8M</span>
+        <span class="meta-pill blue">⬤ Temporada 2026–27</span>
+        <span class="meta-pill" style="color:var(--c-cap);background:rgba(20,166,184,0.07);border-color:rgba(20,166,184,0.2)">Cap: $165.0M</span>
+        <span class="meta-pill" style="color:var(--c-tax);background:rgba(230,172,0,0.07);border-color:rgba(230,172,0,0.2)">Luxury Tax: $200.4M</span>
+        <span class="meta-pill" style="color:var(--c-apron1);background:rgba(216,90,48,0.07);border-color:rgba(216,90,48,0.2)">1st Apron: $209.0M</span>
+        <span class="meta-pill" style="color:var(--c-apron2);background:rgba(124,58,237,0.07);border-color:rgba(124,58,237,0.2)">2nd Apron: $221.7M</span>
       </div>
     </div>
 
@@ -262,10 +260,10 @@ const BDL_TO_NBA_TEAM = {
 };
 
 // Thresholds 2025-26 (oficial NBA)
-const CAP_LIMIT = 154647000;
-const LUX_TAX   = 187895000;
-const APRON1    = 195945000;
-const APRON2    = 207824000;
+const CAP_LIMIT = 164961000;
+const LUX_TAX   = 200428000;
+const APRON1    = 209015000;
+const APRON2    = 221686000;
 const BAR_MAX   = 220000000; // máximo visual da barra
 
 var NBA_PLAYER_IDS = {};
@@ -489,7 +487,7 @@ function renderDetail(data) {
         '<span style="display:flex;align-items:center;gap:5px"><div style="width:7px;height:7px;border-radius:50%;background:var(--c-apron2)"></div>2nd Apron '+fmt(APRON2)+'</span>'+
       '</div>'+
     '</div>'+
-    '<div class="footer-note">Dados: Ball Don\'t Lie · NBA 2025–26 · bolapresa.com.br</div>';
+    '<div class="footer-note">Dados: Ball Don\'t Lie · NBA 2026–27 · bolapresa.com.br</div>';
 }
 
 function closeTeam() {

@@ -29,7 +29,7 @@ from _env_loader import require_env
 # ---------------------------------------------------------------------------
 
 BASE_URL = "https://api.balldontlie.io/v1"
-SEASON = 2025
+SEASON = 2026
 OUTPUT_DIR = Path("data/salaries")
 REQUEST_DELAY = 0.12
 
