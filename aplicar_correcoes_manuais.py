@@ -35,9 +35,8 @@ CORRECOES = [
     },
     {
         "nome": "Neemias Queta",
-        "acao": "mover_para_confirmado",
-        "novo_status": "UFA",
-        "motivo": "Confirmado UFA no tracker oficial da NBA.com",
+        "acao": "remover_pendente",
+        "motivo": "Celtics exerceram Team Option — jogador permanece no time, não é free agent",
     },
     {
         "nome": "Pelle Larsson",
