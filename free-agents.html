@@ -623,6 +623,7 @@ async function loadAll() {
     }
 
     renderGrid();
+    mergedSigned.sort((a, b) => new Date(b.registrado_em || b.detectado_em || 0) - new Date(a.registrado_em || a.detectado_em || 0));
     renderSigned(mergedSigned);
   } catch(e) {
     document.getElementById('fa-grid').innerHTML = `<div class="fa-empty">Erro ao carregar dados: ${e.message}</div>`;
