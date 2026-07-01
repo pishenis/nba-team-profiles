@@ -268,8 +268,77 @@ const BAR_MAX   = 220000000; // máximo visual da barra
 
 var NBA_PLAYER_IDS = {};
 var allTeams = [];
+var faSignings = [];
 var activeConf = 'ALL';
 var searchQ = '';
+
+// ─── FA SIGNINGS ──────────────────────────────────
+function applySigningsToIndex() {
+  if (!faSignings.length) return;
+  var byAbbr = {};
+  allTeams.forEach(function(t) { byAbbr[t.abbreviation] = t; });
+  faSignings.forEach(function(s) {
+    var sal = s.salario_medio;
+    if (!sal || s.novo_time === s.time_anterior) return;
+    var novoT = byAbbr[s.novo_time];
+    var antT  = byAbbr[s.time_anterior];
+    if (novoT) {
+      novoT.total_cap_raw = (novoT.total_cap_raw || 0) + sal;
+      novoT.total_cap = fmt(novoT.total_cap_raw);
+      novoT.player_count = (novoT.player_count || 0) + 1;
+    }
+    if (antT) {
+      antT.total_cap_raw = Math.max(0, (antT.total_cap_raw || 0) - sal);
+      antT.total_cap = fmt(antT.total_cap_raw);
+      antT.player_count = Math.max(0, (antT.player_count || 0) - 1);
+    }
+  });
+  allTeams.sort(function(a,b){return (b.total_cap_raw||0)-(a.total_cap_raw||0);});
+}
+
+function applySigningsToTeam(data) {
+  if (!faSignings.length) return data;
+  var abbr = data.team && data.team.abbreviation;
+  if (!abbr) return data;
+  var existingIds = new Set(data.players.map(function(p) { return p.player_id; }));
+  // Departures
+  faSignings.forEach(function(s) {
+    if (s.time_anterior !== abbr || s.novo_time === abbr) return;
+    data.players = data.players.filter(function(p) { return p.player_id !== s.player_id; });
+  });
+  // Arrivals
+  faSignings.forEach(function(s) {
+    if (s.novo_time !== abbr) return;
+    var sal = s.salario_medio;
+    if (!sal) return;
+    if (existingIds.has(s.player_id)) return; // BDL já confirmou
+    var anos = s.anos_contrato || 1;
+    var total = s.valor_total || sal * anos;
+    data.players.push({
+      player_id: s.player_id,
+      name: s.player_name,
+      position: '',
+      jersey_number: null,
+      cap_hit_raw: sal,
+      cap_hit: fmt(sal),
+      base_salary: fmt(sal),
+      contract_type: 'Free Agent',
+      signed_using: 'Free Agency',
+      start_year: 2026,
+      end_year: 2026 + anos - 1,
+      contract_years: anos,
+      total_value: fmt(total),
+      total_guaranteed: '—',
+      free_agent_year: 2026 + anos,
+      free_agent_status: 'UFA',
+    });
+  });
+  data.players.sort(function(a,b){ return (b.cap_hit_raw||0)-(a.cap_hit_raw||0); });
+  data.total_cap_raw = data.players.reduce(function(s,p){ return s+(p.cap_hit_raw||0); },0);
+  data.total_cap = fmt(data.total_cap_raw);
+  data.player_count = data.players.length;
+  return data;
+}
 
 function logoUrl(bdlId) {
   var nbaId = BDL_TO_NBA_TEAM[bdlId];
@@ -338,8 +407,11 @@ async function loadIndex() {
     var r = await fetch('data/salaries/salaries_index.json');
     if (!r.ok) throw new Error();
     allTeams = await r.json();
-    // garante ordenação por cap decrescente
-    allTeams.sort(function(a,b){return (b.total_cap_raw||0)-(a.total_cap_raw||0);});
+    try {
+      var rs = await fetch('data/free-agents/assinaturas_manuais.json', {cache:'no-cache'});
+      if (rs.ok) faSignings = await rs.json();
+    } catch(e) {}
+    applySigningsToIndex();
     renderList();
   } catch(e) {
     document.getElementById('teams-list').innerHTML =
@@ -415,7 +487,7 @@ async function openTeam(abbr, teamId) {
   window.scrollTo({top:0});
   var data = await loadTeam(abbr);
   if (!data) { document.getElementById('detail-content').innerHTML='<div style="padding:40px;text-align:center;color:var(--mute)">Erro ao carregar.</div>'; return; }
-  renderDetail(data);
+  renderDetail(applySigningsToTeam(data));
   setTimeout(function(){vd.classList.add('visible');},10);
 }
 
