@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpeg" href="logo_bolapresa.jpg">
+<title>ReDrafts NBA · Bola Presa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="bp-shell.css" />
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);color:var(--ink);background:var(--paper)}
+
+/* ── Header da página ─────────────────────────────────────── */
+.rd-header{padding-bottom:1.25rem;border-bottom:0.5px solid #e5e5ea;margin-bottom:1.5rem}
+.rd-title{font-family:var(--serif);font-size:26px;font-weight:700;letter-spacing:-0.3px;color:var(--ink);margin-bottom:6px}
+.rd-sub{font-size:13px;color:#6e6e73;line-height:1.55;max-width:640px}
+
+/* ── Legenda de colunas ───────────────────────────────────── */
+.rd-legend{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0 0}
+.rd-legend-item{display:flex;align-items:center;gap:6px;font-size:11px;color:#86868b}
+.rd-legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+
+/* ── Abas ─────────────────────────────────────────────────── */
+.rd-tabs{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:1.5rem;border-bottom:0.5px solid #e5e5ea;padding-bottom:10px}
+.rd-tab{font-family:var(--mono);font-size:12px;letter-spacing:0.02em;color:#86868b;padding:6px 12px;border-radius:8px;border:0.5px solid transparent;transition:background 0.12s,color 0.12s,border-color 0.12s}
+.rd-tab:hover{background:#f5f5f7;color:#1d1d1f}
+.rd-tab.active{background:var(--bp-blue-tint);color:var(--bp-blue-dark);border-color:var(--bp-blue);font-weight:500}
+
+/* ── Painel / tabela ──────────────────────────────────────── */
+.rd-panel{display:none}
+.rd-panel.active{display:block}
+.rd-panel-empty{padding:3rem 1rem;text-align:center;font-size:13px;color:#86868b}
+
+.rd-table-wrap{overflow-x:auto}
+table.rd-table{width:100%;border-collapse:collapse;font-size:13px}
+table.rd-table thead th{text-align:left;font-size:11px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:#86868b;padding:8px 10px;border-bottom:0.5px solid #d2d2d7;white-space:nowrap}
+table.rd-table thead th.col-ordem{text-align:center;width:40px}
+table.rd-table tbody td{padding:8px 10px;border-bottom:0.5px solid #e5e5ea;vertical-align:middle}
+table.rd-table tbody tr:last-child td{border-bottom:none}
+table.rd-table tbody td.col-ordem{text-align:center;font-family:var(--mono);font-size:12px;color:#86868b}
+table.rd-table tbody tr:hover{background:#f5f5f7}
+
+td.col-time{color:#6e6e73;font-size:12.5px}
+td.col-real{color:#1d1d1f}
+td.col-denis{color:var(--bp-blue-dark);font-weight:500}
+td.col-danilo{color:#b5651d;font-weight:500}
+
+@media (max-width: 640px){
+  table.rd-table{font-size:12px}
+  .rd-tabs{gap:3px}
+  .rd-tab{padding:5px 9px;font-size:11px}
+}
+</style>
+</head>
+<body>
+<div class="bp-paper">
+<div class="bp-miolo">
+
+<!-- TOPBAR -->
+<div class="bp-topbar">
+  <a class="bp-topbar-logo" href="home.html">
+    <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
+    Bola Presa Stats
+  </a>
+  <div class="bp-topbar-divider"></div>
+  <span class="bp-topbar-section">ReDrafts</span>
+  <nav class="bp-topbar-nav">
+    <a href="playoffs.html">playoffs</a>
+    <a href="index.html">times</a>
+    <a href="jogadores.html">jogadores</a>
+    <a href="salaries.html">salários</a>
+    <a href="rankings.html">rankings</a>
+    <a href="free-agents.html">free agents</a>
+    <a href="redraft.html">redrafts</a>
+  </nav>
+</div>
+
+<div class="bp-inner">
+
+  <div class="rd-header">
+    <div class="rd-title">ReDrafts NBA</div>
+    <div class="rd-sub">Sempre que um Draft da NBA completa 10 anos, Denis e Danilo refazem a ordem de escolha com base no que se sabe hoje sobre a carreira de cada jogador — e discutem no podcast Bola Presa. Compare a escolha real de cada time com o que cada um deles faria de novo.</div>
+    <div class="rd-legend">
+      <span class="rd-legend-item"><span class="rd-legend-dot" style="background:#86868b"></span>Escolha real</span>
+      <span class="rd-legend-item"><span class="rd-legend-dot" style="background:var(--bp-blue)"></span>Denis</span>
+      <span class="rd-legend-item"><span class="rd-legend-dot" style="background:#b5651d"></span>Danilo</span>
+    </div>
+  </div>
+
+  <div class="rd-tabs" id="rd-tabs" role="tablist"></div>
+  <div id="rd-content"></div>
+
+  <div class="footer-note" style="margin-top:2.5rem;padding-top:1rem;border-top:0.5px solid #e5e5ea;font-size:11px;color:#86868b">
+    ReDrafts Bola Presa · baseados no conhecimento atual sobre as carreiras dos jogadores
+  </div>
+
+</div>
+
+</div><!-- bp-miolo -->
+</div><!-- bp-paper -->
+
+<script>
+const REDRAFT_DATA_URL = "data/redrafts.json";
+
+function ordenarAnos(anos) {
+  return anos.slice().sort((a, b) => Number(a) - Number(b));
+}
+
+function criarTabela(picks) {
+  if (!picks || picks.length === 0) {
+    const vazio = document.createElement("div");
+    vazio.className = "rd-panel-empty";
+    vazio.textContent = "Lista ainda não publicada para este ano.";
+    return vazio;
+  }
+
+  const wrap = document.createElement("div");
+  wrap.className = "rd-table-wrap";
+
+  const table = document.createElement("table");
+  table.className = "rd-table";
+
+  const thead = document.createElement("thead");
+  thead.innerHTML = `
+    <tr>
+      <th class="col-ordem">#</th>
+      <th class="col-time">Time</th>
+      <th class="col-real">Escolha real</th>
+      <th class="col-denis">Denis</th>
+      <th class="col-danilo">Danilo</th>
+    </tr>
+  `;
+  table.appendChild(thead);
+
+  const tbody = document.createElement("tbody");
+  picks
+    .slice()
+    .sort((a, b) => a.ordem - b.ordem)
+    .forEach((pick) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td class="col-ordem">${pick.ordem}</td>
+        <td class="col-time">${pick.time ?? "—"}</td>
+        <td class="col-real">${pick.real ?? "—"}</td>
+        <td class="col-denis">${pick.denis ?? "—"}</td>
+        <td class="col-danilo">${pick.danilo ?? "—"}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  table.appendChild(tbody);
+
+  wrap.appendChild(table);
+  return wrap;
+}
+
+function ativarAno(ano) {
+  document.querySelectorAll(".rd-tab").forEach((el) => {
+    el.classList.toggle("active", el.getAttribute("data-ano") === ano);
+  });
+  document.querySelectorAll(".rd-panel").forEach((el) => {
+    el.classList.toggle("active", el.id === `rd-panel-${ano}`);
+  });
+  history.replaceState(null, "", `#${ano}`);
+}
+
+function montarPagina(data) {
+  const tabsEl = document.getElementById("rd-tabs");
+  const contentEl = document.getElementById("rd-content");
+
+  const anos = ordenarAnos(Object.keys(data));
+
+  anos.forEach((ano, idx) => {
+    const anoInfo = data[ano];
+
+    const tab = document.createElement("button");
+    tab.className = "rd-tab" + (idx === 0 ? " active" : "");
+    tab.type = "button";
+    tab.textContent = ano;
+    tab.setAttribute("role", "tab");
+    tab.setAttribute("data-ano", ano);
+    tab.addEventListener("click", () => ativarAno(ano));
+    tabsEl.appendChild(tab);
+
+    const panel = document.createElement("section");
+    panel.className = "rd-panel" + (idx === 0 ? " active" : "");
+    panel.id = `rd-panel-${ano}`;
+    panel.setAttribute("role", "tabpanel");
+    panel.appendChild(criarTabela(anoInfo.picks));
+    contentEl.appendChild(panel);
+  });
+
+  const hashAno = window.location.hash.replace("#", "");
+  if (hashAno && data[hashAno]) {
+    ativarAno(hashAno);
+  }
+}
+
+async function init() {
+  try {
+    const resp = await fetch(REDRAFT_DATA_URL);
+    if (!resp.ok) throw new Error(`Falha ao carregar ${REDRAFT_DATA_URL}: ${resp.status}`);
+    const data = await resp.json();
+    montarPagina(data);
+  } catch (err) {
+    console.error(err);
+    document.getElementById("rd-content").innerHTML =
+      `<div class="rd-panel-empty">Não foi possível carregar os dados dos ReDrafts. Verifique se o arquivo <code>data/redrafts.json</code> existe.</div>`;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", init);
+</script>
+</body>
+</html>
