@@ -39,6 +39,12 @@ button { cursor: pointer; border: none; background: none; font: inherit; color: 
 .sec-line { width: 3px; height: 14px; border-radius: 2px; background: var(--bp-blue); flex-shrink: 0; }
 .sec-name { font-size: 14px; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
 .sec-count { font-family: var(--mono); font-size: 11px; color: var(--mute); margin-left: auto; }
+.team-filter-select { font-family: var(--mono); font-size: 11px; color: var(--ink); background: var(--paper); border: 1px solid var(--hair); border-radius: 6px; padding: 4px 8px; cursor: pointer; outline: none; }
+.team-filter-select:focus { border-color: var(--bp-blue); }
+.signed-section-label { grid-column: 1 / -1; font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 0 10px; margin-top: 4px; border-bottom: 1px solid var(--hair); color: var(--mute); }
+.signed-section-label:first-child { margin-top: 0; }
+.signed-section-label.label-chegadas { color: var(--green); }
+.signed-section-label.label-saidas { color: var(--warn); }
 
 /* ASSINARAM RECENTEMENTE — cards maiores em grid */
 .signed-section { margin-bottom: 40px; }
@@ -223,6 +229,9 @@ td.r { text-align: right; }
           <div class="sec-line"></div>
           <span class="sec-name">Assinaram recentemente</span>
           <span class="sec-count" id="signed-count"></span>
+          <select id="signed-team-filter" class="team-filter-select">
+            <option value="">Todos os times</option>
+          </select>
         </div>
         <div class="signed-grid" id="signed-grid"></div>
       </div>
@@ -491,64 +500,101 @@ function mergeSigned(manual, recent, allFAsPool) {
   return { signedIds, mergedSigned: Object.values(merged) };
 }
 
+let allSignedList = [];
+
+function signedCardHtml(s) {
+  const p = s.player || {};
+  const firstName = p.first_name || '';
+  const lastName = p.last_name || '';
+  const status = s.status_anterior || '';
+  const stClass = status === 'UFA' ? 'status-ufa' : 'status-rfa';
+  const fromLogo = teamLogoUrl(s.time_anterior);
+  const toLogo = teamLogoUrl(s.novo_time);
+  const anosStr = s.anos_contrato ? `${s.anos_contrato}a` : '?';
+  const totalStr = s.valor_total ? fmtSal(s.valor_total) : '—';
+  const avgStr = s.salario_medio ? `${fmtSal(s.salario_medio)} / ano` : '';
+  let sourceHtml = '';
+  if (s.fonte_url) {
+    let hostname = s.fonte_url;
+    try { hostname = new URL(s.fonte_url).hostname.replace(/^www\./, ''); } catch(e) {}
+    const label = s.bdl_override ? 'Noticiado primeiro:' : 'Fonte:';
+    sourceHtml = `<div class="signed-source-footer">${label} <a href="${s.fonte_url}" target="_blank" rel="noopener noreferrer">${hostname}</a></div>`;
+  }
+  return `<div class="signed-card-new">
+    <div class="signed-card-header">
+      <div class="signed-photo-lg">
+        <img src="${photoUrl(firstName, lastName)}" alt="${firstName} ${lastName}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />
+      </div>
+      <div>
+        <div class="signed-player-name-lg">${firstName} ${lastName}</div>
+        <div class="signed-player-type"><span class="${stClass}">${status}</span> · ex-${s.time_anterior || '?'}</div>
+      </div>
+    </div>
+    <div class="signed-transfer-bar">
+      <div class="signed-transfer-team">
+        ${fromLogo ? `<img src="${fromLogo}" alt="${s.time_anterior}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />` : '<div style="width:36px;height:36px"></div>'}
+        <span class="signed-transfer-abbr">${s.time_anterior || '?'}</span>
+      </div>
+      <span class="signed-transfer-arrow">→</span>
+      <div class="signed-transfer-team">
+        ${toLogo ? `<img src="${toLogo}" alt="${s.novo_time}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />` : '<div style="width:36px;height:36px"></div>'}
+        <span class="signed-transfer-abbr">${s.novo_time || '?'}</span>
+      </div>
+    </div>
+    <div class="signed-contract-body">
+      <div class="signed-contract-main">${anosStr} · ${totalStr}</div>
+      ${avgStr ? `<div class="signed-contract-sub">${avgStr}</div>` : ''}
+    </div>
+    ${sourceHtml}
+  </div>`;
+}
+
+const byDate = (a, b) => new Date(b.registrado_em || b.detectado_em || 0) - new Date(a.registrado_em || a.detectado_em || 0);
+
+function applySignedFilter() {
+  const team = document.getElementById('signed-team-filter').value;
+  const grid = document.getElementById('signed-grid');
+  const countEl = document.getElementById('signed-count');
+
+  if (!team) {
+    const list = [...allSignedList].sort(byDate);
+    countEl.textContent = `${list.length} jogador${list.length !== 1 ? 'es' : ''}`;
+    grid.innerHTML = list.map(signedCardHtml).join('');
+    return;
+  }
+
+  const chegadas = allSignedList.filter(s => s.novo_time === team).sort(byDate);
+  const saidas   = allSignedList.filter(s => s.time_anterior === team && s.novo_time !== team).sort(byDate);
+  const total = chegadas.length + saidas.length;
+  countEl.textContent = `${total} transaç${total !== 1 ? 'ões' : 'ão'}`;
+
+  let html = '';
+  if (chegadas.length) {
+    html += `<div class="signed-section-label label-chegadas">Chegadas · ${chegadas.length}</div>`;
+    html += chegadas.map(signedCardHtml).join('');
+  }
+  if (saidas.length) {
+    html += `<div class="signed-section-label label-saidas">Saídas · ${saidas.length}</div>`;
+    html += saidas.map(signedCardHtml).join('');
+  }
+  if (!html) {
+    html = '<div style="grid-column:1/-1;color:var(--mute-2);font-size:13px;padding:8px 0">Nenhuma transação para este time.</div>';
+  }
+  grid.innerHTML = html;
+}
+
 function renderSigned(mergedList) {
   if (!mergedList || !mergedList.length) return;
-  const section = document.getElementById('signed-section');
-  const grid = document.getElementById('signed-grid');
-  const count = mergedList.length;
-  document.getElementById('signed-count').textContent = `${count} jogador${count !== 1 ? 'es' : ''}`;
-  section.style.display = '';
+  allSignedList = mergedList;
+  document.getElementById('signed-section').style.display = '';
 
-  grid.innerHTML = mergedList.map(s => {
-    const p = s.player || {};
-    const firstName = p.first_name || '';
-    const lastName = p.last_name || '';
-    const status = s.status_anterior || '';
-    const stClass = status === 'UFA' ? 'status-ufa' : 'status-rfa';
+  const sel = document.getElementById('signed-team-filter');
+  const teams = [...new Set([...mergedList.map(s => s.novo_time), ...mergedList.map(s => s.time_anterior)])]
+    .filter(Boolean).sort();
+  sel.innerHTML = '<option value="">Todos os times</option>' +
+    teams.map(t => `<option value="${t}">${t}</option>`).join('');
 
-    const fromLogo = teamLogoUrl(s.time_anterior);
-    const toLogo = teamLogoUrl(s.novo_time);
-
-    const anosStr = s.anos_contrato ? `${s.anos_contrato}a` : '?';
-    const totalStr = s.valor_total ? fmtSal(s.valor_total) : '—';
-    const avgStr = s.salario_medio ? `${fmtSal(s.salario_medio)} / ano` : '';
-
-    let sourceHtml = '';
-    if (s.fonte_url) {
-      let hostname = s.fonte_url;
-      try { hostname = new URL(s.fonte_url).hostname.replace(/^www\./, ''); } catch(e) {}
-      const label = s.bdl_override ? 'Noticiado primeiro:' : 'Fonte:';
-      sourceHtml = `<div class="signed-source-footer">${label} <a href="${s.fonte_url}" target="_blank" rel="noopener noreferrer">${hostname}</a></div>`;
-    }
-
-    return `<div class="signed-card-new">
-      <div class="signed-card-header">
-        <div class="signed-photo-lg">
-          <img src="${photoUrl(firstName, lastName)}" alt="${firstName} ${lastName}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />
-        </div>
-        <div>
-          <div class="signed-player-name-lg">${firstName} ${lastName}</div>
-          <div class="signed-player-type"><span class="${stClass}">${status}</span> · ex-${s.time_anterior || '?'}</div>
-        </div>
-      </div>
-      <div class="signed-transfer-bar">
-        <div class="signed-transfer-team">
-          ${fromLogo ? `<img src="${fromLogo}" alt="${s.time_anterior}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />` : '<div style="width:36px;height:36px"></div>'}
-          <span class="signed-transfer-abbr">${s.time_anterior || '?'}</span>
-        </div>
-        <span class="signed-transfer-arrow">→</span>
-        <div class="signed-transfer-team">
-          ${toLogo ? `<img src="${toLogo}" alt="${s.novo_time}" referrerpolicy="no-referrer" onerror="this.style.display='none'" />` : '<div style="width:36px;height:36px"></div>'}
-          <span class="signed-transfer-abbr">${s.novo_time || '?'}</span>
-        </div>
-      </div>
-      <div class="signed-contract-body">
-        <div class="signed-contract-main">${anosStr} · ${totalStr}</div>
-        ${avgStr ? `<div class="signed-contract-sub">${avgStr}</div>` : ''}
-      </div>
-      ${sourceHtml}
-    </div>`;
-  }).join('');
+  applySignedFilter();
 }
 
 
@@ -657,6 +703,7 @@ document.getElementById('search').addEventListener('input', e => {
   renderGrid();
 });
 
+document.getElementById('signed-team-filter').addEventListener('change', applySignedFilter);
 
 loadAll();
 </script>
