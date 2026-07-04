@@ -40,11 +40,6 @@ CORRECOES = [
     },
     # ── Team/Player Option EXERCIDA → jogador fica no time, não é FA ─────────
     {
-        "nome": "Neemias Queta",
-        "acao": "remover_pendente",
-        "motivo": "Celtics exerceram Team Option — permanece no time (NBA.com 30/06/2026)",
-    },
-    {
         "nome": "Pelle Larsson",
         "acao": "remover_pendente",
         "motivo": "Heat exerceram Team Option — permanece no time (NBA.com 30/06/2026)",
