@@ -45,18 +45,8 @@ read -p "Quer commitar e enviar para o GitHub agora? (s/n) " RESP
 
 if [ "$RESP" = "s" ] || [ "$RESP" = "S" ]; then
   git add data/salaries/
-  git commit -m "Atualização de salários $(date +%Y-%m-%d_%H:%M)"
-
-  echo "📤 Enviando para o GitHub..."
-  if ! git push; then
-    echo ""
-    echo "⚠️  Push rejeitado — provavelmente o GitHub Actions commitou algo antes."
-    echo "    Resolvendo automaticamente..."
-    git pull --rebase
-    git push
-  fi
-  echo "✅ Publicado!"
+  ./publicar.sh "Atualização de salários $(date +%Y-%m-%d_%H:%M)"
 else
   echo "Ok, os dados ficaram só localmente. Para publicar depois, rode:"
-  echo "  git add data/salaries/ && git commit -m 'atualização' && git push"
+  echo "  ./publicar.sh \"Atualização de salários\""
 fi
