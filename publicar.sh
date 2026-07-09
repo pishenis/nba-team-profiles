@@ -16,6 +16,44 @@ AUTO_RESOLVE_THEIRS=(
   "atualizar.log"
 )
 
+# Resolve todos os conflitos conhecidos e continua o rebase até o fim.
+# Suporta múltiplos commits conflitantes em sequência.
+resolve_and_continue() {
+  while [ -d ".git/rebase-merge" ] || [ -d ".git/rebase-apply" ]; do
+    UNRESOLVED=$(git diff --name-only --diff-filter=U 2>/dev/null || true)
+
+    if [ -n "$UNRESOLVED" ]; then
+      echo "🔧 Conflito detectado — resolvendo arquivos conhecidos..."
+      UNKNOWN=""
+      for f in $UNRESOLVED; do
+        KNOWN=0
+        for auto in "${AUTO_RESOLVE_THEIRS[@]}"; do
+          if [ "$f" = "$auto" ]; then
+            git checkout --theirs "$f" 2>/dev/null && git add "$f"
+            KNOWN=1
+            break
+          fi
+        done
+        [ "$KNOWN" = "0" ] && UNKNOWN="$UNKNOWN $f"
+      done
+
+      if [ -n "$UNKNOWN" ]; then
+        echo ""
+        echo "❌ Conflitos em arquivos não previstos:$UNKNOWN"
+        echo ""
+        echo "Resolva manualmente com:"
+        echo "  git checkout --theirs ARQUIVO   (ou --ours)"
+        echo "  git add ARQUIVO"
+        echo "  git rebase --continue"
+        exit 1
+      fi
+    fi
+
+    # Tenta continuar; se houver novo conflito no próximo commit, o loop volta
+    GIT_EDITOR=true git rebase --continue 2>/dev/null || true
+  done
+}
+
 echo "🏀 Publicando mudanças..."
 echo "─────────────────────────"
 
@@ -37,30 +75,7 @@ if [ -n "$(git status --porcelain)" ]; then
 fi
 
 echo "⬇️  Sincronizando com o GitHub..."
-if ! git pull --rebase; then
-  echo "🔧 Conflito detectado — resolvendo arquivos conhecidos automaticamente..."
-
-  for f in "${AUTO_RESOLVE_THEIRS[@]}"; do
-    if [ -f "$f" ]; then
-      git checkout --theirs "$f" 2>/dev/null && git add "$f" || true
-    fi
-  done
-
-  if [ -n "$(git diff --name-only --diff-filter=U)" ]; then
-    echo ""
-    echo "❌ Ainda há conflitos em arquivos não previstos:"
-    git diff --name-only --diff-filter=U
-    echo ""
-    echo "Resolva manualmente com:"
-    echo "  git checkout --theirs NOME_DO_ARQUIVO   (ou --ours, se for seu)"
-    echo "  git add NOME_DO_ARQUIVO"
-    echo "  git rebase --continue"
-    exit 1
-  fi
-
-  GIT_EDITOR=true git rebase --continue
-  echo "✅ Conflito resolvido automaticamente."
-fi
+git pull --rebase || resolve_and_continue
 
 if [ "$STASHED" = "1" ]; then
   git stash pop
@@ -75,8 +90,8 @@ fi
 
 echo "📤 Enviando para o GitHub..."
 if ! git push; then
-  echo "⚠️  Push falhou de novo — rodando mais uma vez a sincronização..."
-  git pull --rebase
+  echo "⚠️  Push rejeitado — sincronizando de novo..."
+  git pull --rebase || resolve_and_continue
   git push
 fi
 
