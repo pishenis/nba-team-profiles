@@ -28,8 +28,9 @@ jobs:
         env:
           BDL_API_KEY: ${{ secrets.BDL_API_KEY }}
         run: |
-          python3 coletar_playoffs.py
-          python3 coletar_head2head.py
+          # Playoffs 2025-26 encerrados — reativar em abril de 2027
+          # python3 coletar_playoffs.py
+          # python3 coletar_head2head.py
           python3 coletar_todos_jogos.py
           python3 corrigir_starter.py
 
