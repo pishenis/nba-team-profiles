@@ -4,8 +4,10 @@
 #
 # Uso: ./cron_stats.sh <diario|jogos|free-agents|playoffs>
 #
-#   diario       coletar_todos_jogos.py + corrigir_starter.py (cadência diária)
-#   jogos        os mesmos coletores acima, em alta frequência no horário de jogos
+#   diario       coletar_todos_jogos.py + corrigir_starter.py + generate_salaries.py +
+#                generate_advanced.py (cadência diária)
+#   jogos        coletar_todos_jogos.py + corrigir_starter.py, em alta frequência
+#                no horário de jogos (sem os passos de salário/advanced)
 #   free-agents  pipeline completa de free agents (atualizar_free_agents.sh)
 #   playoffs     coletar_playoffs.py + coletar_head2head.py — playoffs 2025-26
 #                encerrados; este modo NÃO entra no crontab. Reativar manualmente
@@ -158,7 +160,13 @@ PYTHON="$REPO_DIR/venv/bin/python3"
 
 run_collectors() {
   case "$MODE" in
-    diario|jogos)
+    diario)
+      "$PYTHON" coletar_todos_jogos.py
+      "$PYTHON" corrigir_starter.py
+      "$PYTHON" generate_salaries.py
+      "$PYTHON" generate_advanced.py
+      ;;
+    jogos)
       "$PYTHON" coletar_todos_jogos.py
       "$PYTHON" corrigir_starter.py
       ;;

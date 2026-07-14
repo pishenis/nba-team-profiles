@@ -13,6 +13,7 @@ Uso:
 
 import os, sys, json, time, argparse, requests
 from pathlib import Path
+from _env_loader import load_env
 
 BASE_URL   = "https://api.balldontlie.io"
 SEASON     = 2025
@@ -30,6 +31,7 @@ LEAGUE_AVG_PER = 15.0
 
 
 def get_key(args_key):
+    load_env()
     key = args_key or os.environ.get("BDL_API_KEY", "")
     if not key:
         print("ERRO: informe a API key via --api-key ou BDL_API_KEY")
