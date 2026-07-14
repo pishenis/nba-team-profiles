@@ -10,7 +10,13 @@ MSG="${1:-Atualização $(date +%Y-%m-%d_%H:%M)}"
 
 # Arquivos que SEMPRE devem ficar com a versão do GitHub em caso de conflito
 # (são gerados pelo GitHub Actions, não editados localmente)
-AUTO_RESOLVE_THEIRS=(
+#
+# ATENÇÃO — pegadinha do rebase:
+# Durante `git rebase`, --ours e --theirs ficam INVERTIDOS em relação ao merge:
+#   --ours   = o branch de destino (origin/main) = versão do GitHub  ← queremos esta
+#   --theirs = os commits locais sendo reaplicados                    ← NÃO queremos esta
+# Em merge normal seria o contrário. Por isso usamos --ours aqui.
+AUTO_RESOLVE_OURS=(
   "head2head.json"
   "jogos_playoffs.json"
   "atualizar.log"
@@ -27,9 +33,9 @@ resolve_and_continue() {
       UNKNOWN=""
       for f in $UNRESOLVED; do
         KNOWN=0
-        for auto in "${AUTO_RESOLVE_THEIRS[@]}"; do
+        for auto in "${AUTO_RESOLVE_OURS[@]}"; do
           if [ "$f" = "$auto" ]; then
-            git checkout --theirs "$f" 2>/dev/null && git add "$f"
+            git checkout --ours "$f" 2>/dev/null && git add "$f"
             KNOWN=1
             break
           fi
