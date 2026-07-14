@@ -14,7 +14,7 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
-ENV_PATH = Path.home() / "nba-team-profiles" / ".env"
+ENV_PATH = Path(__file__).resolve().parent / ".env"
 load_dotenv(ENV_PATH)
 
 API_KEY = os.getenv("BDL_API_KEY")
