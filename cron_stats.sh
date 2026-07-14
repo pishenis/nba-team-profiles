@@ -61,55 +61,82 @@ AUTO_RESOLVE_THEIRS=(
   "atualizar.log"
 )
 
-resolve_and_continue() {
-  while [ -d ".git/rebase-merge" ] || [ -d ".git/rebase-apply" ]; do
-    UNRESOLVED=$(git diff --name-only --diff-filter=U 2>/dev/null || true)
-    if [ -n "$UNRESOLVED" ]; then
-      UNKNOWN=""
-      for f in $UNRESOLVED; do
-        KNOWN=0
-        for auto in "${AUTO_RESOLVE_THEIRS[@]}"; do
-          if [ "$f" = "$auto" ]; then
-            git checkout --theirs "$f" 2>/dev/null && git add "$f"
-            KNOWN=1
-            break
-          fi
-        done
-        [ "$KNOWN" = "0" ] && UNKNOWN="$UNKNOWN $f"
-      done
-      if [ -n "$UNKNOWN" ]; then
-        log "conflitos em arquivos não previstos:$UNKNOWN"
-        return 1
+# Verifica se estamos em rebase (conflito de commit sendo reaplicado)
+in_rebase() {
+  [ -d ".git/rebase-merge" ] || [ -d ".git/rebase-apply" ]
+}
+
+# Resolve os arquivos conhecidos do conflito atual usando a versão do GitHub.
+# IMPORTANTE: tanto num conflito de rebase quanto num conflito de reaplicação
+# do autostash, "--ours" é a versão já pulada do GitHub e "--theirs" é a
+# versão local (confirmado empiricamente; no rebase o rótulo é contraintuitivo
+# porque HEAD, durante a repetição de cada commit, é o próprio upstream).
+# Retorna 1 se sobrar algum arquivo não previsto em conflito.
+resolve_known_conflicts() {
+  local unresolved="$1"
+  local unknown=""
+  local f known auto
+  while IFS= read -r f; do
+    [ -z "$f" ] && continue
+    known=0
+    for auto in "${AUTO_RESOLVE_THEIRS[@]}"; do
+      if [ "$f" = "$auto" ]; then
+        git checkout --ours "$f" 2>/dev/null && git add "$f"
+        known=1
+        break
       fi
-    fi
-    GIT_EDITOR=true git rebase --continue >> "$LOG_FILE" 2>&1 || true
-  done
+    done
+    [ "$known" = "0" ] && unknown="$unknown $f"
+  done <<< "$unresolved"
+  if [ -n "$unknown" ]; then
+    log "conflitos em arquivos não previstos:$unknown"
+    return 1
+  fi
   return 0
 }
 
-# git pull --rebase --autostash, resolvendo conflitos conhecidos.
-# Retorna 1 em falha real (conflito não resolvido ou erro de rede/auth).
+# git pull --rebase --autostash, resolvendo conflitos conhecidos — cobre tanto
+# conflito de rebase de commit (fica em .git/rebase-merge|apply) quanto
+# conflito na reaplicação do autostash (não fica em nenhum diretório de
+# rebase, mas deixa "unmerged paths" na árvore — precisa de "git stash drop"
+# no final). Retorna 1 em falha real (conflito não resolvido ou erro de rede/auth).
 pull_rebase() {
   git pull --rebase --autostash >> "$LOG_FILE" 2>&1
-  local status=$?
-  if [ $status -ne 0 ]; then
-    if [ -d ".git/rebase-merge" ] || [ -d ".git/rebase-apply" ]; then
-      log "conflito no pull — resolvendo arquivos conhecidos"
-      if ! resolve_and_continue; then
-        git rebase --abort 2>/dev/null || true
+  local pull_status=$?
+
+  local rebasing=0
+  in_rebase && rebasing=1
+  local unresolved
+  unresolved=$(git diff --name-only --diff-filter=U 2>/dev/null || true)
+
+  if [ $pull_status -ne 0 ] && [ "$rebasing" = "0" ] && [ -z "$unresolved" ]; then
+    log "ERRO: git pull --rebase falhou sem conflito (rede/auth?) — abortando"
+    return 1
+  fi
+
+  while [ "$rebasing" = "1" ] || [ -n "$unresolved" ]; do
+    if [ -n "$unresolved" ]; then
+      if ! resolve_known_conflicts "$unresolved"; then
+        if [ "$rebasing" = "1" ]; then
+          git rebase --abort 2>/dev/null || true
+        fi
         log "ERRO: conflito não resolvido automaticamente — abortando"
         return 1
       fi
-      if [ -d ".git/rebase-merge" ] || [ -d ".git/rebase-apply" ]; then
-        git rebase --abort 2>/dev/null || true
-        log "ERRO: rebase não terminou de resolver — abortando"
-        return 1
-      fi
-    else
-      log "ERRO: git pull --rebase falhou sem conflito (rede/auth?) — abortando"
-      return 1
     fi
-  fi
+
+    if [ "$rebasing" = "1" ]; then
+      GIT_EDITOR=true git rebase --continue >> "$LOG_FILE" 2>&1 || true
+    else
+      # conflito era da reaplicação do autostash — já resolvido e staged acima
+      git stash drop >> "$LOG_FILE" 2>&1 || true
+    fi
+
+    rebasing=0
+    in_rebase && rebasing=1
+    unresolved=$(git diff --name-only --diff-filter=U 2>/dev/null || true)
+  done
+
   return 0
 }
 
