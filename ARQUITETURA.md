@@ -57,6 +57,16 @@ O Bola Presa (podcast brasileiro de NBA, de Denis Botana e Danilo) mantém um ec
 - `nba_player_ids.json` (fotos): testado em jul/2026 e **o Hetzner NÃO é bloqueado** pelo stats.nba.com (chamadas via `nba_api` responderam normalmente) — ainda gerado manualmente no Mac de Denis 1x por temporada e commitado, mas dá pra automatizar no servidor se algum dia valer a pena
 - Desenvolvimento no Mac: pasta `~/nba-team-profiles`, publicação com `./publicar.sh` (resolve conflitos conhecidos automaticamente)
 
+## Jogos (jogos.bolapresa.com.br)
+
+- Hub de jogos para assinantes; cada jogo vive num prefixo próprio (`/bingo`, futuros `/quiz` etc.). Raiz = página-índice estática em `/var/www/jogos/index.html`
+- **Bingo Bola Presa** (`/bingo`): Flask + SQLite + gunicorn, porta **5002**, diretório `/opt/bingo`, systemd `bingo.service` (gunicorn `-w 1 -k gthread --threads 4`, padrão do servidor). Código-fonte no Mac: `~/bingo`
+  - Jogo mensal: cartela de 16 eventos por período (meses da regular + fases dos playoffs); pontuação por dificuldade (1/2/4), +15 cartela cheia, +8/+5 velocidade; scoring sempre recalculado de cartelas + ocorrências
+  - DB `bingo.db` em `/opt/bingo` (schema via `init_db.py`, idempotente); admins na tabela `admins` (seed: `denis`); painel em `/bingo/admin`
+  - Identidade: decodifica o cookie JWT `bp_sessao` (verifica assinatura se `JWT_SECRET` estiver em `/opt/bingo/.env`); aceita também header `X-BP-Usuario` se o nginx repassar. nginx protege o subdomínio inteiro com o `bp-auth.conf`
+  - Deploy: arquivos prontos em `~/bingo/deploy/` (systemd unit, server block do nginx com o location `/bingo`, default server 444 anti-IP-direto, índice de jogos e passo a passo em `DEPLOY.md`)
+  - **Status: app pronto e testado localmente; deploy no servidor PENDENTE** (ver `~/bingo/deploy/DEPLOY.md`)
+
 ## Site principal (Netlify)
 
 - Repo `pishenis/bolapresa-site` (Next.js 14, Pages Router). Push no GitHub = deploy automático
@@ -80,7 +90,7 @@ Regra: cada `.env` vive ao lado do código que o usa e nunca vai para o Git.
 1. **Fechar acesso ao Oráculo por IP direto** (porta lateral sem login) — após confirmar que ninguém mais usa
 2. **Desativar GitHub Pages do Stats** (versão sem proteção do mesmo conteúdo) — após validar o subdomínio
 3. **Migrar login do site Netlify** (`auth.js`/`useAuth`) para o serviço central — aposenta o login duplicado
-4. **Bingo novo** em `jogos.bolapresa.com.br` (hoje: placeholder "Em breve")
+4. **Deploy do Bingo** em `jogos.bolapresa.com.br` — app pronto em `~/bingo` (Mac), falta subir para `/opt/bingo` no servidor seguindo `~/bingo/deploy/DEPLOY.md` (hoje o subdomínio ainda é placeholder "Em breve")
 5. `.gitignore` do `bolapresa-site` (commitado, conferir push)
 6. **Desativar os `schedule:` do GitHub Actions** (`atualizar.yml` e `atualizar_free_agents.yml`, mantendo `workflow_dispatch:`) — só depois de confirmar 48h de cron rodando limpo no servidor (ver logs em `/var/log/bp-stats/`)
 7. **Reativar coleta de playoffs** (`cron_stats.sh playoffs` no crontab) a partir de abril/2027, quando a temporada 2026-27 entrar em playoffs
