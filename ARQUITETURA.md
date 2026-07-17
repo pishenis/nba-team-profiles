@@ -63,7 +63,7 @@ O Bola Presa (podcast brasileiro de NBA, de Denis Botana e Danilo) mantém um ec
 - **Bingo Bola Presa** (`/bingo`): Flask + SQLite + gunicorn, porta **5002**, diretório `/opt/bingo`, systemd `bingo.service` (gunicorn `-w 1 -k gthread --threads 4`, padrão do servidor). Código-fonte no Mac: `~/bingo`
   - Jogo mensal: cartela de 16 eventos por período (meses da regular + fases dos playoffs); pontuação por dificuldade (1/2/4), +15 cartela cheia, +8/+5 velocidade; scoring sempre recalculado de cartelas + ocorrências
   - DB `bingo.db` em `/opt/bingo` (schema via `init_db.py`, idempotente); admins na tabela `admins` (seed: `denis`); painel em `/bingo/admin`
-  - Identidade: decodifica o cookie JWT `bp_sessao` (verifica assinatura se `JWT_SECRET` estiver em `/opt/bingo/.env`); aceita também header `X-BP-Usuario` se o nginx repassar. nginx protege o subdomínio inteiro com o `bp-auth.conf`
+  - Identidade: verifica assinatura do `bp_sessao` (HS256, claim `sub`) com o `JWT_SECRET` lido de `/root/bolapresa-auth/.env` (fonte única; sem o segredo o app não sobe). Não aceita header de identidade — headers vêm do cliente e permitiriam personificação. nginx protege o subdomínio inteiro com o `bp-auth.conf`
   - nginx: server block `jogos` com `auth_request /_bp_verificar` por location (padrão do Oráculo); HTTPS pelo cert da `conta.` (o SAN já cobre `jogos.`); backup do placeholder antigo em `/root/nginx-backup-jogos-placeholder.conf`
   - **Status: EM PRODUÇÃO desde 16/07/2026** (testado de ponta a ponta com token real: login redirect com `next=/bingo/`, identidade via claim `sub`, admin OK). Redeploy: `~/bingo/deploy/DEPLOY.md`
 - **Acesso por IP direto: FECHADO** (16/07/2026) — `default-444` em sites-enabled (HTTP 444 + `ssl_reject_handshake` no 443) e o site legado `oracle` (porta lateral do Oráculo por `http://5.78.86.87`, sem login) foi desativado (arquivo preservado em `/etc/nginx/sites-available/oracle` para reverter)
@@ -80,7 +80,7 @@ O Bola Presa (podcast brasileiro de NBA, de Denis Botana e Danilo) mantém um ec
 |---|---|
 | `BDL_API_KEY` | `~/nba-team-profiles/.env` (Mac) + `/var/www/bolapresa-stats/.env` (servidor, `chmod 600`) + Secrets do repo no GitHub (enquanto Actions com schedule existir) |
 | `APOIASE_API_KEY` + `APOIASE_API_SECRET` | `/root/bolapresa-auth/.env` (servidor) + painel Netlify (login antigo) |
-| `JWT_SECRET` | **3 lugares**: `/root/bolapresa-auth/.env` (emite/valida as sessões) + `/opt/bingo/.env` (Bingo verifica a assinatura do cookie) + painel Netlify (login antigo, sai quando a pendência 3 for concluída) — NUNCA trocar sem planejar: invalida todas as sessões E a rotação precisa tocar os três pontos de uma vez (com `systemctl restart bingo`), senão o Bingo passa a rejeitar todas as sessões silenciosamente (401 em tudo) |
+| `JWT_SECRET` | `/root/bolapresa-auth/.env` — **fonte única**. O Bingo (`/opt/bingo`) carrega deste mesmo arquivo (caminho explícito no código) — não duplicar. Rotação: trocar aqui + `systemctl restart bolapresa-auth bingo` (invalida todas as sessões — planejar) |
 | `ANTHROPIC_API_KEY` (Oráculo) | `.env` do Oráculo no servidor |
 | Deploy key do Stats (push, write access) | `/root/.ssh/bp_stats_deploy` (+ `/root/.ssh/config`) do servidor + Deploy Keys do repo `nba-team-profiles` no GitHub |
 
