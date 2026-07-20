@@ -143,6 +143,24 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
   .bp-paper { padding: 0 0 48px; }
   .bp-miolo { border-left: none; border-right: none; border-radius: 0; }
   .bp-inner { padding: 20px 16px 32px; }
-  .bp-topbar { padding: 0 16px; }
+
+  /* Topbar responsiva: quebra em duas linhas em vez de cortar.
+     Logo + secao em cima; nav embaixo, com rolagem lateral propria. */
+  .bp-topbar {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 44px;
+    padding: 8px 12px;
+    row-gap: 4px;
+  }
+  .bp-topbar-nav {
+    margin-left: 0;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 2px;
+  }
+  .bp-topbar-nav a { flex-shrink: 0; }
+
   .bp-foot { padding: 12px 16px; flex-direction: column; gap: 6px; }
 }
