@@ -201,6 +201,24 @@ def build_team_payload(team_id: int, headers: dict, overrides: dict, all_team_co
         print(f"  Sem dados para team_id={team_id}")
         return None
 
+    # Deduplica por player_id: se o BDL retornar contrato expirado + novo pro mesmo
+    # jogador (comum no início da temporada), fica só com o CURRENT; se não houver
+    # CURRENT, fica com o mais recente (maior cap_hit como desempate).
+    by_pid: dict = {}
+    for c in contracts:
+        pid = c.get("player_id")
+        if not pid:
+            continue
+        existing = by_pid.get(pid)
+        if existing is None:
+            by_pid[pid] = c
+        elif (c.get("contract_status") or "").upper() == "CURRENT":
+            by_pid[pid] = c
+        elif (existing.get("contract_status") or "").upper() != "CURRENT":
+            if (c.get("cap_hit") or 0) > (existing.get("cap_hit") or 0):
+                by_pid[pid] = c
+    contracts = list(by_pid.values())
+
     # Dados do time — usa o nome oficial do BDL_TEAM_ABBR como fallback se vier de override
     sample = contracts[0]
     team_info = sample.get("team", {})
