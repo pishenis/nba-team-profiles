@@ -387,6 +387,7 @@ def main():
             "total_cap": payload["total_cap"],
             "total_cap_raw": payload["total_cap_raw"],
             "player_count": payload["player_count"],
+            "player_ids": [p["player_id"] for p in payload["players"]],
             "file": f"data/salaries/salaries_{abbr}.json",
         })
 

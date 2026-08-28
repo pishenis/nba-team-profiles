@@ -282,6 +282,10 @@ function applySigningsToIndex() {
     if (!sal || s.novo_time === s.time_anterior) return;
     var novoT = byAbbr[s.novo_time];
     var antT  = byAbbr[s.time_anterior];
+    // Se o BDL já confirmou a chegada (player_id já está no JSON do novo time),
+    // o total_cap_raw do índice já o inclui — não somar de novo.
+    var bdlConfirmed = novoT && Array.isArray(novoT.player_ids) && novoT.player_ids.indexOf(s.player_id) !== -1;
+    if (bdlConfirmed) return;
     if (novoT) {
       novoT.total_cap_raw = (novoT.total_cap_raw || 0) + sal;
       novoT.total_cap = fmt(novoT.total_cap_raw);
