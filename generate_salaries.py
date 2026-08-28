@@ -219,6 +219,27 @@ def build_team_payload(team_id: int, headers: dict, overrides: dict, all_team_co
                 by_pid[pid] = c
     contracts = list(by_pid.values())
 
+    # Segundo dedup: por nome completo — o BDL às vezes cria dois player_id distintos
+    # para o mesmo jogador (ex: Luka Doncic: 132 e 1093968488). Mesma lógica de desempate.
+    def _player_name(c):
+        p = c.get("player", {})
+        return (p.get("first_name", "") + " " + p.get("last_name", "")).strip().lower()
+
+    by_name: dict = {}
+    for c in contracts:
+        name = _player_name(c)
+        if not name:
+            continue
+        existing = by_name.get(name)
+        if existing is None:
+            by_name[name] = c
+        elif (c.get("contract_status") or "").upper() == "CURRENT":
+            by_name[name] = c
+        elif (existing.get("contract_status") or "").upper() != "CURRENT":
+            if (c.get("cap_hit") or 0) > (existing.get("cap_hit") or 0):
+                by_name[name] = c
+    contracts = list(by_name.values())
+
     # Remove contratos expirados — são jogadores que saíram do time; o BDL ainda retorna
     # o contrato antigo deles quando consultamos por time, mas não faz sentido exibi-los
     # na página atual (ex: LeBron aparecia no LAL depois de assinar com o PHI).
