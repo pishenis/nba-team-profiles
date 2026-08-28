@@ -219,6 +219,15 @@ def build_team_payload(team_id: int, headers: dict, overrides: dict, all_team_co
                 by_pid[pid] = c
     contracts = list(by_pid.values())
 
+    # Remove contratos expirados — são jogadores que saíram do time; o BDL ainda retorna
+    # o contrato antigo deles quando consultamos por time, mas não faz sentido exibi-los
+    # na página atual (ex: LeBron aparecia no LAL depois de assinar com o PHI).
+    contracts = [c for c in contracts if (c.get("contract_status") or "").upper() != "EXPIRED"]
+
+    if not contracts:
+        print(f"  Sem contratos ativos para team_id={team_id}")
+        return None
+
     # Dados do time — usa o nome oficial do BDL_TEAM_ABBR como fallback se vier de override
     sample = contracts[0]
     team_info = sample.get("team", {})
