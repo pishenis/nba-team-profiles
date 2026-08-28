@@ -122,10 +122,12 @@ def main():
         if comps:
             print(f"  {nome} ({p.get('position')}):")
             for comp in comps:
+                sal = comp['salario_medio']
+                sal_fmt = f"${sal:,.0f}" if sal is not None else "?"
                 print(
                     f"      [{comp['qualidade']:18s} d={comp['distancia']}] {comp['nome']} "
                     f"({comp['posicao']}) -> {comp['anos_contrato']}a/"
-                    f"${comp['salario_medio']:,.0f} com {comp['assinou_com']}"
+                    f"{sal_fmt} com {comp['assinou_com']}"
                 )
         else:
             print(f"  {nome} -> sem comparável (sem stats)")
