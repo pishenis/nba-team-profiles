@@ -1,9 +1,10 @@
 name: Atualização diária
 
 on:
-  schedule:
-    - cron: '0 11 * * *'       # 8h Brasília — coleta completa diária
-    - cron: '*/15 0-4 * * *'   # A cada 15min entre 21h-1h Brasília (jogos das Finais)
+  # schedules removidos em 2026-08-27 — substituídos pelo cron do servidor:
+  #   diario:  cron_stats.sh diario  (11:00 UTC)
+  #   jogos:   cron_stats.sh jogos   (a cada 15min entre 0-4h UTC, horário de jogos)
+  # Manter workflow_dispatch como plano B manual.
   workflow_dispatch:
 
 jobs:

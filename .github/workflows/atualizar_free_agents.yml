@@ -1,11 +1,9 @@
 name: Atualização Free Agents
 
 on:
-  # schedule pausado em 2026-08-27 — bug em investigação no pipeline Python.
-  # Substituído pelo cron do servidor (cron_stats.sh free-agents).
-  # Reativar só se o cron do servidor for desativado (emergência).
-  # schedule:
-  #   - cron: '*/30 * * * *'   # a cada 30 minutos
+  # schedule removido em 2026-08-27 — substituído pelo cron do servidor
+  # (cron_stats.sh free-agents, a cada 30 min). Manter workflow_dispatch como
+  # plano B manual caso o cron do servidor precise ser desativado por emergência.
   workflow_dispatch:
 
 jobs:
