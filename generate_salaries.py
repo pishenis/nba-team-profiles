@@ -252,6 +252,13 @@ def build_team_payload(team_id: int, headers: dict, overrides: dict, all_team_co
 
         agg = aggregates.get(pid, {})
 
+        # Segundo filtro: o endpoint de aggregates pode confirmar "expired" mesmo quando
+        # o endpoint de times não sinalizou — jogador sem contrato ativo neste time.
+        if (agg.get("contract_status") or "").upper() == "EXPIRED":
+            if cap_hit:
+                total_cap -= cap_hit
+            continue
+
         notes = agg.get("contract_notes") or {}
         options_text = []
         if isinstance(notes, dict):
