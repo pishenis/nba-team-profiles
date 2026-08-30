@@ -1,5 +1,35 @@
 [
   {
+    "team_id": 18,
+    "full_name": "Minnesota Timberwolves",
+    "abbreviation": "MIN",
+    "conference": "West",
+    "total_cap": "$238.9M",
+    "total_cap_raw": 238933723,
+    "player_count": 18,
+    "player_ids": [
+      3547238,
+      3547239,
+      176,
+      3547259,
+      17895983,
+      3547258,
+      131,
+      666703,
+      17553979,
+      1028029291,
+      1057271099,
+      56677851,
+      17896031,
+      1028028501,
+      290,
+      377705601,
+      56677857,
+      1091463885
+    ],
+    "file": "data/salaries/salaries_min.json"
+  },
+  {
     "team_id": 8,
     "full_name": "Denver Nuggets",
     "abbreviation": "DEN",
@@ -26,34 +56,6 @@
       17895740
     ],
     "file": "data/salaries/salaries_den.json"
-  },
-  {
-    "team_id": 18,
-    "full_name": "Minnesota Timberwolves",
-    "abbreviation": "MIN",
-    "conference": "West",
-    "total_cap": "$226.8M",
-    "total_cap_raw": 226753123,
-    "player_count": 16,
-    "player_ids": [
-      3547238,
-      3547239,
-      176,
-      3547259,
-      17895983,
-      3547258,
-      131,
-      17553979,
-      1057271099,
-      56677851,
-      17896031,
-      1028028501,
-      290,
-      377705601,
-      56677857,
-      1091463885
-    ],
-    "file": "data/salaries/salaries_min.json"
   },
   {
     "team_id": 20,
@@ -179,8 +181,8 @@
       1028025497,
       1057279571,
       38017734,
-      460,
       87,
+      460,
       229,
       1057385481
     ],
@@ -377,9 +379,9 @@
       83,
       420,
       38017707,
+      1028203948,
       1093961514,
       3547301,
-      1028203948,
       1091467104
     ],
     "file": "data/salaries/salaries_hou.json"
@@ -600,35 +602,6 @@
     "file": "data/salaries/salaries_por.json"
   },
   {
-    "team_id": 29,
-    "full_name": "Utah Jazz",
-    "abbreviation": "UTA",
-    "conference": "West",
-    "total_cap": "$182.3M",
-    "total_cap_raw": 182319102,
-    "player_count": 17,
-    "player_ids": [
-      231,
-      297,
-      1091342427,
-      349,
-      1057260888,
-      56677834,
-      666703,
-      1028029291,
-      666626,
-      356,
-      56677842,
-      338,
-      28,
-      1028035794,
-      1028025362,
-      1059992972,
-      1081266162
-    ],
-    "file": "data/salaries/salaries_uta.json"
-  },
-  {
     "team_id": 4,
     "full_name": "Charlotte Hornets",
     "abbreviation": "CHA",
@@ -714,6 +687,33 @@
       1057394921
     ],
     "file": "data/salaries/salaries_mil.json"
+  },
+  {
+    "team_id": 29,
+    "full_name": "Utah Jazz",
+    "abbreviation": "UTA",
+    "conference": "West",
+    "total_cap": "$170.1M",
+    "total_cap_raw": 170138502,
+    "player_count": 15,
+    "player_ids": [
+      231,
+      297,
+      1091342427,
+      349,
+      1057260888,
+      56677834,
+      666626,
+      356,
+      56677842,
+      338,
+      28,
+      1028035794,
+      1028025362,
+      1059992972,
+      1081266162
+    ],
+    "file": "data/salaries/salaries_uta.json"
   },
   {
     "team_id": 3,
