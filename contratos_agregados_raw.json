@@ -12117,6 +12117,48 @@
     }
   },
   {
+    "id": 5984,
+    "player_id": 173,
+    "start_year": 2023,
+    "end_year": 2023,
+    "contract_type": "ten-day (1)",
+    "contract_status": "expired",
+    "contract_years": 10,
+    "total_value": 183704,
+    "average_salary": 18370,
+    "guaranteed_at_signing": 183704,
+    "total_guaranteed": 183704,
+    "signed_using": "Minimum",
+    "free_agent_year": null,
+    "free_agent_status": null,
+    "contract_notes": null,
+    "team_id": 20,
+    "player": {
+      "id": 173,
+      "first_name": "Taj",
+      "last_name": "Gibson",
+      "position": "F",
+      "height": "6-9",
+      "weight": "232",
+      "jersey_number": "67",
+      "college": "Southern California",
+      "country": "USA",
+      "draft_year": 2009,
+      "draft_round": 1,
+      "draft_number": 26,
+      "team_id": 15
+    },
+    "team": {
+      "id": 20,
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "New York",
+      "name": "Knicks",
+      "full_name": "New York Knicks",
+      "abbreviation": "NYK"
+    }
+  },
+  {
     "id": 5986,
     "player_id": 173,
     "start_year": 2023,
@@ -12282,48 +12324,6 @@
       "name": "Pistons",
       "full_name": "Detroit Pistons",
       "abbreviation": "DET"
-    }
-  },
-  {
-    "id": 5984,
-    "player_id": 173,
-    "start_year": 2023,
-    "end_year": 2023,
-    "contract_type": "ten-day (1)",
-    "contract_status": "expired",
-    "contract_years": 10,
-    "total_value": 183704,
-    "average_salary": 18370,
-    "guaranteed_at_signing": 183704,
-    "total_guaranteed": 183704,
-    "signed_using": "Minimum",
-    "free_agent_year": null,
-    "free_agent_status": null,
-    "contract_notes": null,
-    "team_id": 20,
-    "player": {
-      "id": 173,
-      "first_name": "Taj",
-      "last_name": "Gibson",
-      "position": "F",
-      "height": "6-9",
-      "weight": "232",
-      "jersey_number": "67",
-      "college": "Southern California",
-      "country": "USA",
-      "draft_year": 2009,
-      "draft_round": 1,
-      "draft_number": 26,
-      "team_id": 15
-    },
-    "team": {
-      "id": 20,
-      "conference": "East",
-      "division": "Atlantic",
-      "city": "New York",
-      "name": "Knicks",
-      "full_name": "New York Knicks",
-      "abbreviation": "NYK"
     }
   },
   {
@@ -34691,7 +34691,9 @@
     "signed_using": "Minimum",
     "free_agent_year": 2027,
     "free_agent_status": "UFA",
-    "contract_notes": null,
+    "contract_notes": [
+      "2026-27: Non-guaranteed, $1,400,000 guaranteed opening night, fully guaranteed 1/10/27"
+    ],
     "team_id": 10,
     "player": {
       "id": 1145,
@@ -35393,20 +35395,20 @@
     }
   },
   {
-    "id": 8479,
+    "id": 8477,
     "player_id": 2189,
     "start_year": 2020,
-    "end_year": 2020,
-    "contract_type": "ten-day (1)",
+    "end_year": 2021,
+    "contract_type": "rest-of-season",
     "contract_status": "expired",
-    "contract_years": 10,
-    "total_value": 118983,
-    "average_salary": 11898,
-    "guaranteed_at_signing": 118983,
-    "total_guaranteed": 118983,
+    "contract_years": 2,
+    "total_value": 1988909,
+    "average_salary": 994455,
+    "guaranteed_at_signing": 11898,
+    "total_guaranteed": 11898,
     "signed_using": "Minimum",
-    "free_agent_year": null,
-    "free_agent_status": null,
+    "free_agent_year": 2022,
+    "free_agent_status": "UFA",
     "contract_notes": null,
     "team_id": 10,
     "player": {
@@ -35435,20 +35437,20 @@
     }
   },
   {
-    "id": 8477,
+    "id": 8479,
     "player_id": 2189,
     "start_year": 2020,
-    "end_year": 2021,
-    "contract_type": "rest-of-season",
+    "end_year": 2020,
+    "contract_type": "ten-day (1)",
     "contract_status": "expired",
-    "contract_years": 2,
-    "total_value": 1988909,
-    "average_salary": 994455,
-    "guaranteed_at_signing": 11898,
-    "total_guaranteed": 11898,
+    "contract_years": 10,
+    "total_value": 118983,
+    "average_salary": 11898,
+    "guaranteed_at_signing": 118983,
+    "total_guaranteed": 118983,
     "signed_using": "Minimum",
-    "free_agent_year": 2022,
-    "free_agent_status": "UFA",
+    "free_agent_year": null,
+    "free_agent_status": null,
     "contract_notes": null,
     "team_id": 10,
     "player": {
@@ -35645,48 +35647,6 @@
     }
   },
   {
-    "id": 8483,
-    "player_id": 2189,
-    "start_year": 2017,
-    "end_year": 2017,
-    "contract_type": "two-way",
-    "contract_status": "expired",
-    "contract_years": 1,
-    "total_value": null,
-    "average_salary": null,
-    "guaranteed_at_signing": null,
-    "total_guaranteed": null,
-    "signed_using": null,
-    "free_agent_year": null,
-    "free_agent_status": null,
-    "contract_notes": null,
-    "team_id": 14,
-    "player": {
-      "id": 2189,
-      "first_name": "Gary",
-      "last_name": "Payton II",
-      "position": "G",
-      "height": "6-2",
-      "weight": "195",
-      "jersey_number": "0",
-      "college": "Oregon State",
-      "country": "USA",
-      "draft_year": null,
-      "draft_round": null,
-      "draft_number": null,
-      "team_id": 10
-    },
-    "team": {
-      "id": 14,
-      "conference": "West",
-      "division": "Pacific",
-      "city": "Los Angeles",
-      "name": "Lakers",
-      "full_name": "Los Angeles Lakers",
-      "abbreviation": "LAL"
-    }
-  },
-  {
     "id": 8484,
     "player_id": 2189,
     "start_year": 2017,
@@ -35729,22 +35689,22 @@
     }
   },
   {
-    "id": 8485,
+    "id": 8483,
     "player_id": 2189,
-    "start_year": 2016,
+    "start_year": 2017,
     "end_year": 2017,
-    "contract_type": "Unknown",
+    "contract_type": "two-way",
     "contract_status": "expired",
-    "contract_years": 2,
-    "total_value": 1347777,
-    "average_salary": 673889,
-    "guaranteed_at_signing": 35166,
-    "total_guaranteed": 35166,
-    "signed_using": "Minimum",
-    "free_agent_year": 2018,
-    "free_agent_status": "RFA",
+    "contract_years": 1,
+    "total_value": null,
+    "average_salary": null,
+    "guaranteed_at_signing": null,
+    "total_guaranteed": null,
+    "signed_using": null,
+    "free_agent_year": null,
+    "free_agent_status": null,
     "contract_notes": null,
-    "team_id": 17,
+    "team_id": 14,
     "player": {
       "id": 2189,
       "first_name": "Gary",
@@ -35761,13 +35721,13 @@
       "team_id": 10
     },
     "team": {
-      "id": 17,
-      "conference": "East",
-      "division": "Central",
-      "city": "Milwaukee",
-      "name": "Bucks",
-      "full_name": "Milwaukee Bucks",
-      "abbreviation": "MIL"
+      "id": 14,
+      "conference": "West",
+      "division": "Pacific",
+      "city": "Los Angeles",
+      "name": "Lakers",
+      "full_name": "Los Angeles Lakers",
+      "abbreviation": "LAL"
     }
   },
   {
@@ -35810,6 +35770,48 @@
       "name": "Rockets",
       "full_name": "Houston Rockets",
       "abbreviation": "HOU"
+    }
+  },
+  {
+    "id": 8485,
+    "player_id": 2189,
+    "start_year": 2016,
+    "end_year": 2017,
+    "contract_type": "Unknown",
+    "contract_status": "expired",
+    "contract_years": 2,
+    "total_value": 1347777,
+    "average_salary": 673889,
+    "guaranteed_at_signing": 35166,
+    "total_guaranteed": 35166,
+    "signed_using": "Minimum",
+    "free_agent_year": 2018,
+    "free_agent_status": "RFA",
+    "contract_notes": null,
+    "team_id": 17,
+    "player": {
+      "id": 2189,
+      "first_name": "Gary",
+      "last_name": "Payton II",
+      "position": "G",
+      "height": "6-2",
+      "weight": "195",
+      "jersey_number": "0",
+      "college": "Oregon State",
+      "country": "USA",
+      "draft_year": null,
+      "draft_round": null,
+      "draft_number": null,
+      "team_id": 10
+    },
+    "team": {
+      "id": 17,
+      "conference": "East",
+      "division": "Central",
+      "city": "Milwaukee",
+      "name": "Bucks",
+      "full_name": "Milwaukee Bucks",
+      "abbreviation": "MIL"
     }
   },
   {
@@ -44692,7 +44694,7 @@
       "draft_year": 2020,
       "draft_round": 1,
       "draft_number": 18,
-      "team_id": 18
+      "team_id": 29
     },
     "team": {
       "id": 7,
@@ -44734,7 +44736,7 @@
       "draft_year": 2020,
       "draft_round": 1,
       "draft_number": 18,
-      "team_id": 18
+      "team_id": 29
     },
     "team": {
       "id": 7,
@@ -45779,6 +45781,50 @@
     }
   },
   {
+    "id": 423332,
+    "player_id": 3547282,
+    "start_year": 2026,
+    "end_year": 2026,
+    "contract_type": "Free Agent",
+    "contract_status": "CURRENT",
+    "contract_years": 1,
+    "total_value": 3066143,
+    "average_salary": 3066143,
+    "guaranteed_at_signing": null,
+    "total_guaranteed": null,
+    "signed_using": "Minimum",
+    "free_agent_year": 2027,
+    "free_agent_status": "UFA",
+    "contract_notes": [
+      "2026-27: Non-guaranteed, fully guaranteed opening night"
+    ],
+    "team_id": 16,
+    "player": {
+      "id": 3547282,
+      "first_name": "Nick",
+      "last_name": "Richards",
+      "position": "C",
+      "height": "6-11",
+      "weight": "245",
+      "jersey_number": "13",
+      "college": "Kentucky",
+      "country": "Jamaica",
+      "draft_year": 2020,
+      "draft_round": 2,
+      "draft_number": 42,
+      "team_id": 16
+    },
+    "team": {
+      "id": 16,
+      "conference": "East",
+      "division": "Southeast",
+      "city": "Miami",
+      "name": "Heat",
+      "full_name": "Miami Heat",
+      "abbreviation": "MIA"
+    }
+  },
+  {
     "id": 9663,
     "player_id": 3547282,
     "start_year": 2023,
@@ -45793,9 +45839,7 @@
     "signed_using": "Early Bird Rights",
     "free_agent_year": 2026,
     "free_agent_status": "UFA",
-    "contract_notes": [
-      "2025-26: non-guaranteed, fully guaranteed on 6/29/25"
-    ],
+    "contract_notes": null,
     "team_id": 4,
     "player": {
       "id": 3547282,
@@ -48195,7 +48239,49 @@
       "draft_year": 2021,
       "draft_round": 1,
       "draft_number": 7,
-      "team_id": 1
+      "team_id": 18
+    },
+    "team": {
+      "id": 18,
+      "conference": "West",
+      "division": "Northwest",
+      "city": "Minnesota",
+      "name": "Timberwolves",
+      "full_name": "Minnesota Timberwolves",
+      "abbreviation": "MIN"
+    }
+  },
+  {
+    "id": 434991,
+    "player_id": 17553979,
+    "start_year": 2026,
+    "end_year": 2027,
+    "contract_type": "Free Agent",
+    "contract_status": "CURRENT",
+    "contract_years": 2,
+    "total_value": 12431200,
+    "average_salary": 6215600,
+    "guaranteed_at_signing": 12431200,
+    "total_guaranteed": 12431200,
+    "signed_using": "Taxpayer MLE",
+    "free_agent_year": 2028,
+    "free_agent_status": "UFA",
+    "contract_notes": null,
+    "team_id": 18,
+    "player": {
+      "id": 17553979,
+      "first_name": "Jonathan",
+      "last_name": "Kuminga",
+      "position": "F",
+      "height": "6-7",
+      "weight": "225",
+      "jersey_number": "0",
+      "college": "NBA G League Ignite",
+      "country": "DRC",
+      "draft_year": 2021,
+      "draft_round": 1,
+      "draft_number": 7,
+      "team_id": 18
     },
     "team": {
       "id": 18,
@@ -48241,7 +48327,7 @@
       "draft_year": 2021,
       "draft_round": 1,
       "draft_number": 7,
-      "team_id": 1
+      "team_id": 18
     },
     "team": {
       "id": 10,
@@ -48283,7 +48369,7 @@
       "draft_year": 2021,
       "draft_round": 1,
       "draft_number": 7,
-      "team_id": 1
+      "team_id": 18
     },
     "team": {
       "id": 10,
@@ -58335,7 +58421,7 @@
       "draft_year": 2022,
       "draft_round": 1,
       "draft_number": 20,
-      "team_id": 30
+      "team_id": 22
     },
     "team": {
       "id": 27,
@@ -59611,7 +59697,7 @@
       "draft_year": 2022,
       "draft_round": 2,
       "draft_number": 53,
-      "team_id": 11
+      "team_id": 22
     },
     "team": {
       "id": 11,
@@ -59653,7 +59739,7 @@
       "draft_year": 2022,
       "draft_round": 2,
       "draft_number": 53,
-      "team_id": 11
+      "team_id": 22
     },
     "team": {
       "id": 11,
@@ -59695,7 +59781,7 @@
       "draft_year": 2022,
       "draft_round": 2,
       "draft_number": 53,
-      "team_id": 11
+      "team_id": 22
     },
     "team": {
       "id": 2,
@@ -59737,7 +59823,7 @@
       "draft_year": 2022,
       "draft_round": 2,
       "draft_number": 53,
-      "team_id": 11
+      "team_id": 22
     },
     "team": {
       "id": 2,
@@ -59779,7 +59865,7 @@
       "draft_year": 2022,
       "draft_round": 2,
       "draft_number": 53,
-      "team_id": 11
+      "team_id": 22
     },
     "team": {
       "id": 2,
@@ -59821,7 +59907,7 @@
       "draft_year": 2022,
       "draft_round": 2,
       "draft_number": 53,
-      "team_id": 11
+      "team_id": 22
     },
     "team": {
       "id": 2,
@@ -65416,6 +65502,50 @@
     }
   },
   {
+    "id": 434774,
+    "player_id": 56677825,
+    "start_year": 2027,
+    "end_year": 2031,
+    "contract_type": "Extension",
+    "contract_status": "UPCOMING EXTENSION",
+    "contract_years": 5,
+    "total_value": 208000000,
+    "average_salary": 41600000,
+    "guaranteed_at_signing": 208000000,
+    "total_guaranteed": 208000000,
+    "signed_using": "Bird Rights",
+    "free_agent_year": 2032,
+    "free_agent_status": "UFA",
+    "contract_notes": [
+      "Trade Bonus: 10%"
+    ],
+    "team_id": 11,
+    "player": {
+      "id": 56677825,
+      "first_name": "Amen",
+      "last_name": "Thompson",
+      "position": "G-F",
+      "height": "6-7",
+      "weight": "200",
+      "jersey_number": "1",
+      "college": "Overtime Elite",
+      "country": "USA",
+      "draft_year": 2023,
+      "draft_round": 1,
+      "draft_number": 4,
+      "team_id": 11
+    },
+    "team": {
+      "id": 11,
+      "conference": "West",
+      "division": "Southwest",
+      "city": "Houston",
+      "name": "Rockets",
+      "full_name": "Houston Rockets",
+      "abbreviation": "HOU"
+    }
+  },
+  {
     "id": 10254,
     "player_id": 56677825,
     "start_year": 2023,
@@ -65840,7 +65970,7 @@
       "draft_year": 2023,
       "draft_round": 1,
       "draft_number": 20,
-      "team_id": 6
+      "team_id": 30
     },
     "team": {
       "id": 11,
@@ -70246,7 +70376,7 @@
       "draft_year": 2024,
       "draft_round": 1,
       "draft_number": 10,
-      "team_id": 29
+      "team_id": 18
     },
     "team": {
       "id": 29,
@@ -75351,7 +75481,7 @@
       "height": "6-7",
       "weight": "215",
       "jersey_number": null,
-      "college": "Villanova",
+      "college": "Richmond",
       "country": "USA",
       "draft_year": null,
       "draft_round": null,
@@ -75393,7 +75523,7 @@
       "height": "6-7",
       "weight": "215",
       "jersey_number": null,
-      "college": "Villanova",
+      "college": "Richmond",
       "country": "USA",
       "draft_year": null,
       "draft_round": null,
@@ -75435,7 +75565,7 @@
       "height": "6-7",
       "weight": "215",
       "jersey_number": null,
-      "college": "Villanova",
+      "college": "Richmond",
       "country": "USA",
       "draft_year": null,
       "draft_round": null,
@@ -75991,7 +76121,7 @@
       "height": "6-6",
       "weight": "205",
       "jersey_number": null,
-      "college": "Syracuse",
+      "college": "St. John's, N.Y.",
       "country": "USA",
       "draft_year": null,
       "draft_round": null,
