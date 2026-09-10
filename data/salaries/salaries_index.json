@@ -472,40 +472,13 @@
     "file": "data/salaries/salaries_sas.json"
   },
   {
-    "team_id": 19,
-    "full_name": "New Orleans Pelicans",
-    "abbreviation": "NOP",
-    "conference": "West",
-    "total_cap": "$194.7M",
-    "total_cap_raw": 194656741,
-    "player_count": 15,
-    "player_ids": [
-      666969,
-      666848,
-      334,
-      18677986,
-      17896024,
-      1057267077,
-      56677837,
-      3547256,
-      1057274415,
-      250,
-      1028027567,
-      38017708,
-      17896058,
-      1028245777,
-      1057390538
-    ],
-    "file": "data/salaries/salaries_nop.json"
-  },
-  {
     "team_id": 26,
     "full_name": "Sacramento Kings",
     "abbreviation": "SAC",
     "conference": "West",
-    "total_cap": "$194.5M",
-    "total_cap_raw": 194515562,
-    "player_count": 14,
+    "total_cap": "$197.0M",
+    "total_cap_raw": 196964983,
+    "player_count": 15,
     "player_ids": [
       268,
       406,
@@ -517,6 +490,7 @@
       1057276634,
       3547241,
       1091361855,
+      417,
       1028246478,
       1057390745,
       1057845274,
@@ -603,6 +577,32 @@
       1028218679
     ],
     "file": "data/salaries/salaries_por.json"
+  },
+  {
+    "team_id": 19,
+    "full_name": "New Orleans Pelicans",
+    "abbreviation": "NOP",
+    "conference": "West",
+    "total_cap": "$189.3M",
+    "total_cap_raw": 189299790,
+    "player_count": 14,
+    "player_ids": [
+      666969,
+      666848,
+      334,
+      18677986,
+      17896024,
+      1057267077,
+      3547256,
+      1057274415,
+      250,
+      173,
+      1028027567,
+      38017708,
+      17896058,
+      1028245777
+    ],
+    "file": "data/salaries/salaries_nop.json"
   },
   {
     "team_id": 4,
@@ -772,6 +772,39 @@
     "file": "data/salaries/salaries_chi.json"
   },
   {
+    "team_id": 15,
+    "full_name": "Memphis Grizzlies",
+    "abbreviation": "MEM",
+    "conference": "West",
+    "total_cap": "$155.6M",
+    "total_cap_raw": 155620754,
+    "player_count": 21,
+    "player_ids": [
+      182,
+      3547267,
+      666505,
+      1091339280,
+      666676,
+      1028047928,
+      56677824,
+      56677837,
+      1028025754,
+      1057266649,
+      405,
+      56677791,
+      1057271583,
+      1093991201,
+      1028026717,
+      56677859,
+      38017656,
+      1028048549,
+      56677830,
+      1028039105,
+      1057390538
+    ],
+    "file": "data/salaries/salaries_mem.json"
+  },
+  {
     "team_id": 9,
     "full_name": "Detroit Pistons",
     "abbreviation": "DET",
@@ -797,37 +830,5 @@
       1057389625
     ],
     "file": "data/salaries/salaries_det.json"
-  },
-  {
-    "team_id": 15,
-    "full_name": "Memphis Grizzlies",
-    "abbreviation": "MEM",
-    "conference": "West",
-    "total_cap": "$150.3M",
-    "total_cap_raw": 150263803,
-    "player_count": 20,
-    "player_ids": [
-      182,
-      3547267,
-      666505,
-      1091339280,
-      666676,
-      1028047928,
-      56677824,
-      1028025754,
-      1057266649,
-      405,
-      56677791,
-      1057271583,
-      173,
-      1093991201,
-      1028026717,
-      56677859,
-      38017656,
-      1028048549,
-      56677830,
-      1028039105
-    ],
-    "file": "data/salaries/salaries_mem.json"
   }
 ]
