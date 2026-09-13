@@ -2,7 +2,7 @@
 
 Documento de referência. Qualquer sessão de Claude Code (ou humano) deve ler isto antes de mexer em qualquer parte do sistema. Atualizar este arquivo sempre que a arquitetura mudar.
 
-Última atualização: julho/2026 (pós-migração da coleta do Stats para cron no servidor).
+Última atualização: setembro/2026 (rota pública `/r/` do Oráculo).
 
 ---
 
@@ -15,7 +15,7 @@ O Bola Presa (podcast brasileiro de NBA, de Denis Botana e Danilo) mantém um ec
 | `bolapresa.com.br` (+ `www`) | Site principal (Next.js) | Netlify | Público (área de assinantes própria — ver Pendências) |
 | `conta.bolapresa.com.br` | Serviço de conta: cadastro, login, sessão, painel de perguntas | Hetzner | Público (painel: só admin) |
 | `stats.bolapresa.com.br` | Bola Presa Stats (site estático de estatísticas NBA) | Hetzner | Só assinantes |
-| `oraculo.bolapresa.com.br` | Oráculo NBA (Q&A histórico) | Hetzner | Só assinantes |
+| `oraculo.bolapresa.com.br` | Oráculo NBA (Q&A histórico) | Hetzner | Só assinantes — **exceto `/r/<token>`**, que é público (ver Autenticação) |
 | `jogos.bolapresa.com.br` | Bingo e jogos (em construção) | Hetzner | Só assinantes |
 
 **DNS:** os quatro subdomínios são CNAMEs para `claude.bolapresa.com.br`, que aponta (registro A) para o IP do servidor. Para trocar de servidor, basta mudar esse único registro A. **Não apagar o registro `claude`** — tudo depende dele. O domínio raiz e `www` apontam para o Netlify.
@@ -33,6 +33,7 @@ O Bola Presa (podcast brasileiro de NBA, de Denis Botana e Danilo) mantém um ec
 
 - Fluxo: assinante cria conta em `conta.bolapresa.com.br` (usuário + senha + e-mail do Apoia-se) → serviço confere na API do Apoia-se se o apoio do mês está pago → emite cookie JWT `bp_sessao` com `Domain=.bolapresa.com.br` (vale em todos os subdomínios), HttpOnly/Secure/SameSite=Lax, 7 dias
 - nginx protege `stats.` / `oraculo.` / `jogos.` via `auth_request` → `GET /api/verificar` no serviço de conta (valida JWT **e** `ativo=1` no SQLite; nunca chama o Apoia-se — rápido)
+- **Exceção pública (13/09/2026): `oraculo.bolapresa.com.br/r/<token>`.** Página de respostas compartilhadas, aberta a não-assinantes como divulgação. No nginx é um `location /r/` **sem** `auth_request`, colocado no server block do Oráculo. Todo o resto do subdomínio segue protegido, inclusive o `POST /compartilhar` que gera o link (só assinante compartilha). Detalhe que confunde: o snippet `bp-auth.conf` **não protege nada sozinho** — ele só define o `location = /_bp_verificar` interno e o `error_page 401 = @bp_login`; quem protege é a linha `auth_request /_bp_verificar;` *dentro* de cada location. Para abrir uma rota, basta omitir essa linha. A ordem no arquivo é irrelevante: nginx casa o prefixo mais longo, então `/r/` vence `/` em qualquer posição
 - Sem login → redirect 302 para `conta.bolapresa.com.br/login?next=...`
 - `revalidar.py` (cron diário) reconsulta o Apoia-se para todos os usuários; apoio atrasado corta acesso em até 24h
 - Banco: SQLite `usuarios.db` em `/root/bolapresa-auth` (tabelas `usuarios` — com `is_admin` — e `perguntas`)
