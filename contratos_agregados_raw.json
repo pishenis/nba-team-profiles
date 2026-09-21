@@ -3393,12 +3393,54 @@
     "team": null
   },
   {
+    "id": 468512,
+    "player_id": 53,
+    "start_year": 2026,
+    "end_year": 2026,
+    "contract_type": "Free Agent",
+    "contract_status": "CURRENT",
+    "contract_years": 1,
+    "total_value": 3524115,
+    "average_salary": 3524115,
+    "guaranteed_at_signing": 3524115,
+    "total_guaranteed": 3524115,
+    "signed_using": "Minimum",
+    "free_agent_year": 2027,
+    "free_agent_status": "UFA",
+    "contract_notes": null,
+    "team_id": 11,
+    "player": {
+      "id": 53,
+      "first_name": "Bogdan",
+      "last_name": "Bogdanovic",
+      "position": "G",
+      "height": "6-5",
+      "weight": "225",
+      "jersey_number": "31",
+      "college": "Fenerbahce",
+      "country": "Serbia",
+      "draft_year": 2014,
+      "draft_round": 1,
+      "draft_number": 27,
+      "team_id": 11
+    },
+    "team": {
+      "id": 11,
+      "conference": "West",
+      "division": "Southwest",
+      "city": "Houston",
+      "name": "Rockets",
+      "full_name": "Houston Rockets",
+      "abbreviation": "HOU"
+    }
+  },
+  {
     "id": 8507,
     "player_id": 53,
     "start_year": 2023,
     "end_year": 2026,
     "contract_type": "Veteran Extension",
-    "contract_status": "CURRENT",
+    "contract_status": "expired",
     "contract_years": 4,
     "total_value": 68000000,
     "average_salary": 17000000,
@@ -3407,9 +3449,7 @@
     "signed_using": "Bird Rights",
     "free_agent_year": 2027,
     "free_agent_status": "UFA",
-    "contract_notes": [
-      "2026-27: Club Option (deadline 6/26/26)"
-    ],
+    "contract_notes": null,
     "team_id": 1,
     "player": {
       "id": 53,
@@ -3528,15 +3568,15 @@
     "contract_type": "Maximum Veteran Extension",
     "contract_status": "UPCOMING EXTENSION",
     "contract_years": 2,
-    "total_value": 132432664,
-    "average_salary": 66216332,
-    "guaranteed_at_signing": 132432664,
-    "total_guaranteed": 132432664,
+    "total_value": 132594000,
+    "average_salary": 66297000,
+    "guaranteed_at_signing": 132594000,
+    "total_guaranteed": 132594000,
     "signed_using": "Bird Rights",
     "free_agent_year": 2030,
     "free_agent_status": "UFA",
     "contract_notes": [
-      "Salaries are 105% of 2027-28 salary due to $182,433,000 projected cap which 35% is lesser",
+      "Salaries are 105% of 2027-28 salary due to $182,433,000 projected cap which 35% is lesser",
       "2029-30: Player Option (deadline 6/29/30)"
     ],
     "team_id": 24,
@@ -4867,7 +4907,7 @@
       "draft_year": 2018,
       "draft_round": 2,
       "draft_number": 42,
-      "team_id": 8
+      "team_id": 20
     },
     "team": {
       "id": 8,
@@ -4909,7 +4949,7 @@
       "draft_year": 2018,
       "draft_round": 2,
       "draft_number": 42,
-      "team_id": 8
+      "team_id": 20
     },
     "team": {
       "id": 12,
@@ -4951,7 +4991,7 @@
       "draft_year": 2018,
       "draft_round": 2,
       "draft_number": 42,
-      "team_id": 8
+      "team_id": 20
     },
     "team": {
       "id": 8,
@@ -4993,7 +5033,7 @@
       "draft_year": 2018,
       "draft_round": 2,
       "draft_number": 42,
-      "team_id": 8
+      "team_id": 20
     },
     "team": {
       "id": 3,
@@ -5035,7 +5075,7 @@
       "draft_year": 2018,
       "draft_round": 2,
       "draft_number": 42,
-      "team_id": 8
+      "team_id": 20
     },
     "team": {
       "id": 9,
@@ -8938,6 +8978,48 @@
     }
   },
   {
+    "id": 447696,
+    "player_id": 125,
+    "start_year": 2026,
+    "end_year": 2026,
+    "contract_type": "Free Agent",
+    "contract_status": "CURRENT",
+    "contract_years": 1,
+    "total_value": 3876529,
+    "average_salary": 3876529,
+    "guaranteed_at_signing": 3876529,
+    "total_guaranteed": 3876529,
+    "signed_using": "Minimum",
+    "free_agent_year": 2027,
+    "free_agent_status": "UFA",
+    "contract_notes": null,
+    "team_id": 8,
+    "player": {
+      "id": 125,
+      "first_name": "DeMar",
+      "last_name": "DeRozan",
+      "position": "G",
+      "height": "6-6",
+      "weight": "220",
+      "jersey_number": "10",
+      "college": "Southern California",
+      "country": "USA",
+      "draft_year": 2009,
+      "draft_round": 1,
+      "draft_number": 9,
+      "team_id": 8
+    },
+    "team": {
+      "id": 8,
+      "conference": "West",
+      "division": "Northwest",
+      "city": "Denver",
+      "name": "Nuggets",
+      "full_name": "Denver Nuggets",
+      "abbreviation": "DEN"
+    }
+  },
+  {
     "id": 418474,
     "player_id": 125,
     "start_year": 2026,
@@ -8962,12 +9044,12 @@
       "height": "6-6",
       "weight": "220",
       "jersey_number": "10",
-      "college": "USC",
+      "college": "Southern California",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
       "draft_number": 9,
-      "team_id": 26
+      "team_id": 8
     },
     "team": {
       "id": 8,
@@ -9004,12 +9086,12 @@
       "height": "6-6",
       "weight": "220",
       "jersey_number": "10",
-      "college": "USC",
+      "college": "Southern California",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
       "draft_number": 9,
-      "team_id": 26
+      "team_id": 8
     },
     "team": {
       "id": 5,
@@ -9046,12 +9128,12 @@
       "height": "6-6",
       "weight": "220",
       "jersey_number": "10",
-      "college": "USC",
+      "college": "Southern California",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
       "draft_number": 9,
-      "team_id": 26
+      "team_id": 8
     },
     "team": {
       "id": 5,
@@ -9088,12 +9170,12 @@
       "height": "6-6",
       "weight": "220",
       "jersey_number": "10",
-      "college": "USC",
+      "college": "Southern California",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
       "draft_number": 9,
-      "team_id": 26
+      "team_id": 8
     },
     "team": {
       "id": 28,
@@ -9130,12 +9212,12 @@
       "height": "6-6",
       "weight": "220",
       "jersey_number": "10",
-      "college": "USC",
+      "college": "Southern California",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
       "draft_number": 9,
-      "team_id": 26
+      "team_id": 8
     },
     "team": {
       "id": 28,
@@ -9172,12 +9254,12 @@
       "height": "6-6",
       "weight": "220",
       "jersey_number": "10",
-      "college": "USC",
+      "college": "Southern California",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
       "draft_number": 9,
-      "team_id": 26
+      "team_id": 8
     },
     "team": {
       "id": 28,
@@ -10667,7 +10749,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 26,
@@ -10709,7 +10791,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 29,
@@ -10751,7 +10833,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 24,
@@ -10793,7 +10875,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 25,
@@ -10835,7 +10917,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 25,
@@ -10877,7 +10959,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 25,
@@ -10919,7 +11001,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 25,
@@ -10961,7 +11043,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 25,
@@ -11003,7 +11085,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 25,
@@ -11045,7 +11127,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 27,
@@ -11087,7 +11169,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 26
+      "team_id": 20
     },
     "team": {
       "id": 27,
@@ -11999,12 +12081,12 @@
     "total_value": 4776614,
     "average_salary": 2388307,
     "guaranteed_at_signing": 960753,
-    "total_guaranteed": 960753,
+    "total_guaranteed": 1109581,
     "signed_using": "Minimum",
     "free_agent_year": 2027,
     "free_agent_status": "UFA",
     "contract_notes": [
-      "2026-27: Non-guaranteed, fully guaranteed 1/10/27"
+      "2026-27: Non-guaranteed, fully guaranteed 1/10/27 ($148,828 guaranteed due to MEM-NOP trade)"
     ],
     "team_id": 15,
     "player": {
@@ -12015,7 +12097,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12057,7 +12139,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12099,7 +12181,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12141,7 +12223,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12183,7 +12265,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12225,7 +12307,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12267,7 +12349,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12309,7 +12391,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12351,7 +12433,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12393,7 +12475,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12435,7 +12517,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12477,7 +12559,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12519,7 +12601,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12561,7 +12643,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12603,7 +12685,7 @@
       "height": "6-9",
       "weight": "232",
       "jersey_number": "67",
-      "college": "Southern California",
+      "college": "USC",
       "country": "USA",
       "draft_year": 2009,
       "draft_round": 1,
@@ -12628,15 +12710,15 @@
     "contract_type": "Designated Veteran Extension",
     "contract_status": "UPCOMING EXTENSION",
     "contract_years": 4,
-    "total_value": 271656000,
-    "average_salary": 67914000,
-    "guaranteed_at_signing": 271656000,
-    "total_guaranteed": 271656000,
+    "total_value": 275968000,
+    "average_salary": 68992000,
+    "guaranteed_at_signing": 275968000,
+    "total_guaranteed": 275968000,
     "signed_using": "Bird Rights",
     "free_agent_year": 2031,
     "free_agent_status": "UFA",
     "contract_notes": [
-      "Contract is based on $173,250,000 cap in 2027-28 season",
+      "Contract is based on $173,250,000 cap in 2027-28 season",
       "2030-31: Player Option (deadline 6/29/30)"
     ],
     "team_id": 21,
@@ -14531,6 +14613,51 @@
     }
   },
   {
+    "id": 443991,
+    "player_id": 192,
+    "start_year": 2026,
+    "end_year": 2028,
+    "contract_type": "Free Agent",
+    "contract_status": "CURRENT",
+    "contract_years": 3,
+    "total_value": 96540000,
+    "average_salary": 32180000,
+    "guaranteed_at_signing": 96540000,
+    "total_guaranteed": 96540000,
+    "signed_using": "Bird Rights",
+    "free_agent_year": 2029,
+    "free_agent_status": "UFA",
+    "contract_notes": [
+      "2028-29: Player Option (deadline 6/29/28)",
+      "Trade Bonus: 15%"
+    ],
+    "team_id": 6,
+    "player": {
+      "id": 192,
+      "first_name": "James",
+      "last_name": "Harden",
+      "position": "G",
+      "height": "6-5",
+      "weight": "220",
+      "jersey_number": "1",
+      "college": "Arizona State",
+      "country": "USA",
+      "draft_year": 2009,
+      "draft_round": 1,
+      "draft_number": 3,
+      "team_id": 6
+    },
+    "team": {
+      "id": 6,
+      "conference": "East",
+      "division": "Central",
+      "city": "Cleveland",
+      "name": "Cavaliers",
+      "full_name": "Cleveland Cavaliers",
+      "abbreviation": "CLE"
+    }
+  },
+  {
     "id": 417511,
     "player_id": 192,
     "start_year": 2026,
@@ -14588,8 +14715,8 @@
     "free_agent_year": 2026,
     "free_agent_status": "UFA",
     "contract_notes": [
-      "2026-27: Player Option/$13,317,307 guaranteed (deadline 6/29/25, declined 6/29/26), fully guaranteed 7/11/26",
-      "15% Trade Bonus  [triggered via LAC-CLE trade, $263,397]"
+      "2026-27: Player Option/$13,317,307 guaranteed (deadline 6/29/25, declined 6/29/26), fully guaranteed 7/11/26",
+      "15% Trade Bonus [triggered via LAC-CLE trade, $263,397]"
     ],
     "team_id": 13,
     "player": {
@@ -17019,7 +17146,7 @@
       "draft_year": 2016,
       "draft_round": 1,
       "draft_number": 2,
-      "team_id": 28
+      "team_id": 13
     },
     "team": {
       "id": 28,
@@ -17063,7 +17190,7 @@
       "draft_year": 2016,
       "draft_round": 1,
       "draft_number": 2,
-      "team_id": 28
+      "team_id": 13
     },
     "team": {
       "id": 19,
@@ -17105,7 +17232,7 @@
       "draft_year": 2016,
       "draft_round": 1,
       "draft_number": 2,
-      "team_id": 28
+      "team_id": 13
     },
     "team": {
       "id": 14,
@@ -20736,7 +20863,7 @@
     "free_agent_status": "UFA",
     "contract_notes": [
       "2024-25: $52,368,085 (maximum that can be acheived if 2024-25 cap rises enough)",
-      "Trade Bonus: 15%"
+      "Trade Bonus: 15% [waived via LAC-TOR trade]"
     ],
     "team_id": 13,
     "player": {
@@ -20752,7 +20879,7 @@
       "draft_year": 2011,
       "draft_round": 1,
       "draft_number": 15,
-      "team_id": 13
+      "team_id": 28
     },
     "team": {
       "id": 13,
@@ -20794,7 +20921,7 @@
       "draft_year": 2011,
       "draft_round": 1,
       "draft_number": 15,
-      "team_id": 13
+      "team_id": 28
     },
     "team": {
       "id": 13,
@@ -20836,7 +20963,7 @@
       "draft_year": 2011,
       "draft_round": 1,
       "draft_number": 15,
-      "team_id": 13
+      "team_id": 28
     },
     "team": {
       "id": 13,
@@ -20878,7 +21005,7 @@
       "draft_year": 2011,
       "draft_round": 1,
       "draft_number": 15,
-      "team_id": 13
+      "team_id": 28
     },
     "team": {
       "id": 27,
@@ -20920,7 +21047,7 @@
       "draft_year": 2011,
       "draft_round": 1,
       "draft_number": 15,
-      "team_id": 13
+      "team_id": 28
     },
     "team": {
       "id": 27,
@@ -23698,16 +23825,16 @@
     "contract_type": "Maximum Veteran Extension",
     "contract_status": "UPCOMING EXTENSION",
     "contract_years": 4,
-    "total_value": 272885312,
-    "average_salary": 68221328,
-    "guaranteed_at_signing": 272885312,
-    "total_guaranteed": 272885312,
+    "total_value": 275968000,
+    "average_salary": 68992000,
+    "guaranteed_at_signing": 275968000,
+    "total_guaranteed": 275968000,
     "signed_using": "Bird Rights",
     "free_agent_year": 2031,
     "free_agent_status": "UFA",
     "contract_notes": [
       "2030-31: Player Option (deadline 6/29/30)",
-      "Trade Bonus: 15%"
+      "Trade Bonus: 15%"
     ],
     "team_id": 6,
     "player": {
@@ -33056,6 +33183,50 @@
     }
   },
   {
+    "id": 446543,
+    "player_id": 462,
+    "start_year": 2026,
+    "end_year": 2027,
+    "contract_type": "Free Agent",
+    "contract_status": "CURRENT",
+    "contract_years": 2,
+    "total_value": 18450000,
+    "average_salary": 9225000,
+    "guaranteed_at_signing": 18450000,
+    "total_guaranteed": 18450000,
+    "signed_using": "cap-space",
+    "free_agent_year": 2028,
+    "free_agent_status": "UFA",
+    "contract_notes": [
+      "2027-28: Mutual Option"
+    ],
+    "team_id": 3,
+    "player": {
+      "id": 462,
+      "first_name": "Moritz",
+      "last_name": "Wagner",
+      "position": "C",
+      "height": "6-11",
+      "weight": "245",
+      "jersey_number": "21",
+      "college": "Michigan",
+      "country": "Germany",
+      "draft_year": 2018,
+      "draft_round": 1,
+      "draft_number": 25,
+      "team_id": 3
+    },
+    "team": {
+      "id": 3,
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "Brooklyn",
+      "name": "Nets",
+      "full_name": "Brooklyn Nets",
+      "abbreviation": "BKN"
+    }
+  },
+  {
     "id": 8906,
     "player_id": 462,
     "start_year": 2025,
@@ -33070,9 +33241,7 @@
     "signed_using": "Bird Rights",
     "free_agent_year": 2026,
     "free_agent_status": "UFA",
-    "contract_notes": [
-      "Implicit No-Trade Clause"
-    ],
+    "contract_notes": null,
     "team_id": 22,
     "player": {
       "id": 462,
@@ -36082,6 +36251,7 @@
     "free_agent_year": 2027,
     "free_agent_status": "UFA",
     "contract_notes": [
+      "Implicit No-Trade Clause",
       "2026-27: Non-guaranteed, fully guaranteed 1/10/27"
     ],
     "team_id": 24,
@@ -39536,12 +39706,54 @@
     }
   },
   {
+    "id": 461908,
+    "player_id": 666703,
+    "start_year": 2026,
+    "end_year": 2026,
+    "contract_type": "exhibit-9    (PENDING)",
+    "contract_status": "expired",
+    "contract_years": 1,
+    "total_value": 3286399,
+    "average_salary": 3286399,
+    "guaranteed_at_signing": null,
+    "total_guaranteed": null,
+    "signed_using": "Minimum",
+    "free_agent_year": 2027,
+    "free_agent_status": "UFA",
+    "contract_notes": null,
+    "team_id": 20,
+    "player": {
+      "id": 666703,
+      "first_name": "John",
+      "last_name": "Konchar",
+      "position": "G-F",
+      "height": "6-5",
+      "weight": "210",
+      "jersey_number": "55",
+      "college": "Indiana-Purdue Fort Wayne",
+      "country": "USA",
+      "draft_year": null,
+      "draft_round": null,
+      "draft_number": null,
+      "team_id": 20
+    },
+    "team": {
+      "id": 20,
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "New York",
+      "name": "Knicks",
+      "full_name": "New York Knicks",
+      "abbreviation": "NYK"
+    }
+  },
+  {
     "id": 9566,
     "player_id": 666703,
     "start_year": 2024,
     "end_year": 2026,
     "contract_type": "Veteran Extension",
-    "contract_status": "CURRENT",
+    "contract_status": "expired",
     "contract_years": 3,
     "total_value": 18495000,
     "average_salary": 6165000,
@@ -39565,7 +39777,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 20
     },
     "team": {
       "id": 15,
@@ -39607,7 +39819,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 20
     },
     "team": {
       "id": 15,
@@ -39649,7 +39861,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 20
     },
     "team": {
       "id": 15,
@@ -42979,7 +43191,7 @@
       "draft_year": 2020,
       "draft_round": 1,
       "draft_number": 2,
-      "team_id": 12
+      "team_id": 20
     },
     "team": {
       "id": 12,
@@ -43021,7 +43233,7 @@
       "draft_year": 2020,
       "draft_round": 1,
       "draft_number": 2,
-      "team_id": 12
+      "team_id": 20
     },
     "team": {
       "id": 12,
@@ -43063,7 +43275,7 @@
       "draft_year": 2020,
       "draft_round": 1,
       "draft_number": 2,
-      "team_id": 12
+      "team_id": 20
     },
     "team": {
       "id": 12,
@@ -43105,7 +43317,7 @@
       "draft_year": 2020,
       "draft_round": 1,
       "draft_number": 2,
-      "team_id": 12
+      "team_id": 20
     },
     "team": {
       "id": 10,
@@ -44576,6 +44788,48 @@
     }
   },
   {
+    "id": 462716,
+    "player_id": 3547256,
+    "start_year": 2027,
+    "end_year": 2029,
+    "contract_type": "Extension",
+    "contract_status": "UPCOMING EXTENSION",
+    "contract_years": 3,
+    "total_value": 55500000,
+    "average_salary": 18500000,
+    "guaranteed_at_signing": 55500000,
+    "total_guaranteed": 55500000,
+    "signed_using": "Bird Rights",
+    "free_agent_year": 2030,
+    "free_agent_status": null,
+    "contract_notes": null,
+    "team_id": 19,
+    "player": {
+      "id": 3547256,
+      "first_name": "Saddiq",
+      "last_name": "Bey",
+      "position": "F",
+      "height": "6-8",
+      "weight": "215",
+      "jersey_number": "41",
+      "college": "Villanova",
+      "country": "USA",
+      "draft_year": 2020,
+      "draft_round": 1,
+      "draft_number": 19,
+      "team_id": 19
+    },
+    "team": {
+      "id": 19,
+      "conference": "West",
+      "division": "Southwest",
+      "city": "New Orleans",
+      "name": "Pelicans",
+      "full_name": "New Orleans Pelicans",
+      "abbreviation": "NOP"
+    }
+  },
+  {
     "id": 9550,
     "player_id": 3547256,
     "start_year": 2024,
@@ -44592,8 +44846,8 @@
     "free_agent_status": "UFA",
     "contract_notes": [
       "Total incentives: $1,000,000",
-      "2024-25: LTBE: $0; ULTBE: $317,461",
-      "2025-26: LTBE: $0; ULTBE: $333,333 (earned $111,111)",
+      "2024-25: LTBE: $0; ULTBE: $317,461",
+      "2025-26: LTBE: $0; ULTBE: $333,333 (earned $111,111)",
       "2026-27: LTBE: $116,402; ULTBE: $232,804"
     ],
     "team_id": 30,
@@ -46641,6 +46895,90 @@
     }
   },
   {
+    "id": 463221,
+    "player_id": 3547302,
+    "start_year": 2026,
+    "end_year": 2026,
+    "contract_type": "exhibit-9",
+    "contract_status": "CURRENT",
+    "contract_years": 1,
+    "total_value": 3066143,
+    "average_salary": 3066143,
+    "guaranteed_at_signing": null,
+    "total_guaranteed": null,
+    "signed_using": "Minimum",
+    "free_agent_year": null,
+    "free_agent_status": null,
+    "contract_notes": null,
+    "team_id": 30,
+    "player": {
+      "id": 3547302,
+      "first_name": "Anthony",
+      "last_name": "Gill",
+      "position": "F",
+      "height": "6-7",
+      "weight": "230",
+      "jersey_number": "16",
+      "college": "Virginia",
+      "country": "USA",
+      "draft_year": null,
+      "draft_round": null,
+      "draft_number": null,
+      "team_id": 30
+    },
+    "team": {
+      "id": 30,
+      "conference": "East",
+      "division": "Southeast",
+      "city": "Washington",
+      "name": "Wizards",
+      "full_name": "Washington Wizards",
+      "abbreviation": "WAS"
+    }
+  },
+  {
+    "id": 461878,
+    "player_id": 3547302,
+    "start_year": 2026,
+    "end_year": 2026,
+    "contract_type": "Free Agent",
+    "contract_status": "CURRENT",
+    "contract_years": 1,
+    "total_value": 3066143,
+    "average_salary": 3066143,
+    "guaranteed_at_signing": null,
+    "total_guaranteed": null,
+    "signed_using": "Minimum",
+    "free_agent_year": null,
+    "free_agent_status": null,
+    "contract_notes": null,
+    "team_id": 30,
+    "player": {
+      "id": 3547302,
+      "first_name": "Anthony",
+      "last_name": "Gill",
+      "position": "F",
+      "height": "6-7",
+      "weight": "230",
+      "jersey_number": "16",
+      "college": "Virginia",
+      "country": "USA",
+      "draft_year": null,
+      "draft_round": null,
+      "draft_number": null,
+      "team_id": 30
+    },
+    "team": {
+      "id": 30,
+      "conference": "East",
+      "division": "Southeast",
+      "city": "Washington",
+      "name": "Wizards",
+      "full_name": "Washington Wizards",
+      "abbreviation": "WAS"
+    }
+  },
+  {
     "id": 9667,
     "player_id": 3547302,
     "start_year": 2025,
@@ -46655,9 +46993,7 @@
     "signed_using": "Minimum",
     "free_agent_year": 2026,
     "free_agent_status": "UFA",
-    "contract_notes": [
-      "Waived Implicit No-Trade Clause"
-    ],
+    "contract_notes": null,
     "team_id": 30,
     "player": {
       "id": 3547302,
@@ -55501,48 +55837,6 @@
     }
   },
   {
-    "id": 10183,
-    "player_id": 18678058,
-    "start_year": 2024,
-    "end_year": 2024,
-    "contract_type": "exhibit-10",
-    "contract_status": "expired",
-    "contract_years": 1,
-    "total_value": 2162606,
-    "average_salary": 2162606,
-    "guaranteed_at_signing": null,
-    "total_guaranteed": null,
-    "signed_using": "Minimum",
-    "free_agent_year": 2025,
-    "free_agent_status": "UFA",
-    "contract_notes": null,
-    "team_id": 14,
-    "player": {
-      "id": 18678058,
-      "first_name": "Jordan",
-      "last_name": "Goodwin",
-      "position": "G",
-      "height": "6-3",
-      "weight": "215",
-      "jersey_number": "23",
-      "college": "St. Louis",
-      "country": "USA",
-      "draft_year": null,
-      "draft_round": null,
-      "draft_number": null,
-      "team_id": 24
-    },
-    "team": {
-      "id": 14,
-      "conference": "West",
-      "division": "Pacific",
-      "city": "Los Angeles",
-      "name": "Lakers",
-      "full_name": "Los Angeles Lakers",
-      "abbreviation": "LAL"
-    }
-  },
-  {
     "id": 10181,
     "player_id": 18678058,
     "start_year": 2024,
@@ -55627,20 +55921,62 @@
     }
   },
   {
-    "id": 10185,
+    "id": 10183,
+    "player_id": 18678058,
+    "start_year": 2024,
+    "end_year": 2024,
+    "contract_type": "exhibit-10",
+    "contract_status": "expired",
+    "contract_years": 1,
+    "total_value": 2162606,
+    "average_salary": 2162606,
+    "guaranteed_at_signing": null,
+    "total_guaranteed": null,
+    "signed_using": "Minimum",
+    "free_agent_year": 2025,
+    "free_agent_status": "UFA",
+    "contract_notes": null,
+    "team_id": 14,
+    "player": {
+      "id": 18678058,
+      "first_name": "Jordan",
+      "last_name": "Goodwin",
+      "position": "G",
+      "height": "6-3",
+      "weight": "215",
+      "jersey_number": "23",
+      "college": "St. Louis",
+      "country": "USA",
+      "draft_year": null,
+      "draft_round": null,
+      "draft_number": null,
+      "team_id": 24
+    },
+    "team": {
+      "id": 14,
+      "conference": "West",
+      "division": "Pacific",
+      "city": "Los Angeles",
+      "name": "Lakers",
+      "full_name": "Los Angeles Lakers",
+      "abbreviation": "LAL"
+    }
+  },
+  {
+    "id": 10184,
     "player_id": 18678058,
     "start_year": 2023,
     "end_year": 2023,
-    "contract_type": "ten-day",
+    "contract_type": "two-way",
     "contract_status": "expired",
-    "contract_years": 10,
-    "total_value": 116075,
-    "average_salary": 11608,
-    "guaranteed_at_signing": 116075,
-    "total_guaranteed": 116075,
-    "signed_using": "Minimum",
-    "free_agent_year": null,
-    "free_agent_status": null,
+    "contract_years": 1,
+    "total_value": null,
+    "average_salary": null,
+    "guaranteed_at_signing": null,
+    "total_guaranteed": null,
+    "signed_using": null,
+    "free_agent_year": 2024,
+    "free_agent_status": "UFA",
     "contract_notes": null,
     "team_id": 15,
     "player": {
@@ -55669,20 +56005,20 @@
     }
   },
   {
-    "id": 10184,
+    "id": 10185,
     "player_id": 18678058,
     "start_year": 2023,
     "end_year": 2023,
-    "contract_type": "two-way",
+    "contract_type": "ten-day",
     "contract_status": "expired",
-    "contract_years": 1,
-    "total_value": null,
-    "average_salary": null,
-    "guaranteed_at_signing": null,
-    "total_guaranteed": null,
-    "signed_using": null,
-    "free_agent_year": 2024,
-    "free_agent_status": "UFA",
+    "contract_years": 10,
+    "total_value": 116075,
+    "average_salary": 11608,
+    "guaranteed_at_signing": 116075,
+    "total_guaranteed": 116075,
+    "signed_using": "Minimum",
+    "free_agent_year": null,
+    "free_agent_status": null,
     "contract_notes": null,
     "team_id": 15,
     "player": {
@@ -57350,7 +57686,7 @@
       "draft_year": 2022,
       "draft_round": 1,
       "draft_number": 14,
-      "team_id": 3
+      "team_id": 20
     },
     "team": {
       "id": 6,
@@ -58163,7 +58499,51 @@
       "draft_year": 2022,
       "draft_round": 1,
       "draft_number": 6,
-      "team_id": 13
+      "team_id": 19
+    },
+    "team": {
+      "id": 19,
+      "conference": "West",
+      "division": "Southwest",
+      "city": "New Orleans",
+      "name": "Pelicans",
+      "full_name": "New Orleans Pelicans",
+      "abbreviation": "NOP"
+    }
+  },
+  {
+    "id": 449851,
+    "player_id": 38017686,
+    "start_year": 2026,
+    "end_year": 2027,
+    "contract_type": "Free Agent",
+    "contract_status": "CURRENT",
+    "contract_years": 2,
+    "total_value": 15375000,
+    "average_salary": 7687500,
+    "guaranteed_at_signing": 15375000,
+    "total_guaranteed": 15375000,
+    "signed_using": "Non-Taxpayer MLE",
+    "free_agent_year": 2028,
+    "free_agent_status": "UFA",
+    "contract_notes": [
+      "2027-28: Player Option (deadline 6/29/27)"
+    ],
+    "team_id": 19,
+    "player": {
+      "id": 38017686,
+      "first_name": "Bennedict",
+      "last_name": "Mathurin",
+      "position": "G-F",
+      "height": "6-5",
+      "weight": "210",
+      "jersey_number": "9",
+      "college": "Arizona",
+      "country": "Canada",
+      "draft_year": 2022,
+      "draft_round": 1,
+      "draft_number": 6,
+      "team_id": 19
     },
     "team": {
       "id": 19,
@@ -58190,10 +58570,7 @@
     "signed_using": "rookie-scale-exception",
     "free_agent_year": 2026,
     "free_agent_status": "RFA",
-    "contract_notes": [
-      "2024-25: Club Option (deadline 10/31/23, exercised 10/13/23)",
-      "2025-26: Club Option (deadline 10/31/24, exercised 10/18/24)"
-    ],
+    "contract_notes": null,
     "team_id": 12,
     "player": {
       "id": 38017686,
@@ -58208,7 +58585,7 @@
       "draft_year": 2022,
       "draft_round": 1,
       "draft_number": 6,
-      "team_id": 13
+      "team_id": 19
     },
     "team": {
       "id": 12,
@@ -65329,10 +65706,10 @@
     "contract_type": "Rookie Extension",
     "contract_status": "UPCOMING EXTENSION",
     "contract_years": 5,
-    "total_value": 252300000,
-    "average_salary": 50460000,
-    "guaranteed_at_signing": 252300000,
-    "total_guaranteed": 252300000,
+    "total_value": 255200000,
+    "average_salary": 51040000,
+    "guaranteed_at_signing": 255200000,
+    "total_guaranteed": 255200000,
     "signed_using": "Bird Rights",
     "free_agent_year": 2032,
     "free_agent_status": "UFA",
@@ -65591,6 +65968,48 @@
     }
   },
   {
+    "id": 463879,
+    "player_id": 56677826,
+    "start_year": 2027,
+    "end_year": 2031,
+    "contract_type": "Extension",
+    "contract_status": "UPCOMING EXTENSION",
+    "contract_years": 5,
+    "total_value": 155000000,
+    "average_salary": 31000000,
+    "guaranteed_at_signing": 155000000,
+    "total_guaranteed": 155000000,
+    "signed_using": "Bird Rights",
+    "free_agent_year": 2032,
+    "free_agent_status": "UFA",
+    "contract_notes": null,
+    "team_id": 9,
+    "player": {
+      "id": 56677826,
+      "first_name": "Ausar",
+      "last_name": "Thompson",
+      "position": "G-F",
+      "height": "6-7",
+      "weight": "205",
+      "jersey_number": "9",
+      "college": "Overtime Elite",
+      "country": "USA",
+      "draft_year": 2023,
+      "draft_round": 1,
+      "draft_number": 5,
+      "team_id": 9
+    },
+    "team": {
+      "id": 9,
+      "conference": "East",
+      "division": "Central",
+      "city": "Detroit",
+      "name": "Pistons",
+      "full_name": "Detroit Pistons",
+      "abbreviation": "DET"
+    }
+  },
+  {
     "id": 10255,
     "player_id": 56677826,
     "start_year": 2023,
@@ -65603,8 +66022,8 @@
     "guaranteed_at_signing": 16353480,
     "total_guaranteed": 36246405,
     "signed_using": "rookie-scale-exception",
-    "free_agent_year": 2027,
-    "free_agent_status": "RFA",
+    "free_agent_year": null,
+    "free_agent_status": null,
     "contract_notes": [
       "2025-26: Club Option (deadline 10/31/24, exercised 10/21/24)",
       "2026-27: Club Option (deadline 10/31/25, exercised 10/21/25)"
@@ -65713,7 +66132,7 @@
       "draft_year": 2023,
       "draft_round": 1,
       "draft_number": 13,
-      "team_id": 28
+      "team_id": 13
     },
     "team": {
       "id": 28,
@@ -65970,7 +66389,7 @@
       "draft_year": 2023,
       "draft_round": 1,
       "draft_number": 20,
-      "team_id": 30
+      "team_id": 8
     },
     "team": {
       "id": 11,
@@ -66073,6 +66492,48 @@
     }
   },
   {
+    "id": 464059,
+    "player_id": 56677834,
+    "start_year": 2027,
+    "end_year": 2031,
+    "contract_type": "Extension",
+    "contract_status": "UPCOMING EXTENSION",
+    "contract_years": 5,
+    "total_value": 157500000,
+    "average_salary": 31500000,
+    "guaranteed_at_signing": 157500000,
+    "total_guaranteed": 157500000,
+    "signed_using": "Bird Rights",
+    "free_agent_year": 2032,
+    "free_agent_status": "UFA",
+    "contract_notes": null,
+    "team_id": 29,
+    "player": {
+      "id": 56677834,
+      "first_name": "Keyonte",
+      "last_name": "George",
+      "position": "G",
+      "height": "6-4",
+      "weight": "185",
+      "jersey_number": "3",
+      "college": "Baylor",
+      "country": "USA",
+      "draft_year": 2023,
+      "draft_round": 1,
+      "draft_number": 16,
+      "team_id": 29
+    },
+    "team": {
+      "id": 29,
+      "conference": "West",
+      "division": "Northwest",
+      "city": "Utah",
+      "name": "Jazz",
+      "full_name": "Utah Jazz",
+      "abbreviation": "UTA"
+    }
+  },
+  {
     "id": 10268,
     "player_id": 56677834,
     "start_year": 2023,
@@ -66086,7 +66547,7 @@
     "total_guaranteed": 18816885,
     "signed_using": "rookie-scale-exception",
     "free_agent_year": 2027,
-    "free_agent_status": "RFA",
+    "free_agent_status": null,
     "contract_notes": [
       "2025-26: Club Option (deadline 10/31/24, exercised 10/21/24)",
       "2026-27: Club Option (deadline 10/31/25, exercised 10/30/25)"
@@ -66150,7 +66611,7 @@
       "draft_year": 2023,
       "draft_round": 1,
       "draft_number": 14,
-      "team_id": 19
+      "team_id": 15
     },
     "team": {
       "id": 19,
@@ -69204,7 +69665,7 @@
       "draft_year": 2024,
       "draft_round": 1,
       "draft_number": 13,
-      "team_id": 1
+      "team_id": 2
     },
     "team": {
       "id": 26,
@@ -69746,7 +70207,7 @@
       "draft_year": 2024,
       "draft_round": 1,
       "draft_number": 23,
-      "team_id": 15
+      "team_id": 19
     },
     "team": {
       "id": 17,
@@ -70739,6 +71200,50 @@
     }
   },
   {
+    "id": 464709,
+    "player_id": 1028036986,
+    "start_year": 2027,
+    "end_year": 2030,
+    "contract_type": "Extension",
+    "contract_status": "UPCOMING EXTENSION",
+    "contract_years": 4,
+    "total_value": 60000000,
+    "average_salary": 15000000,
+    "guaranteed_at_signing": 60000000,
+    "total_guaranteed": 60000000,
+    "signed_using": "Bird Rights",
+    "free_agent_year": 2031,
+    "free_agent_status": "UFA",
+    "contract_notes": [
+      "2030-31: Mutual Option (deadline 6/29/30)"
+    ],
+    "team_id": 16,
+    "player": {
+      "id": 1028036986,
+      "first_name": "Pelle",
+      "last_name": "Larsson",
+      "position": "G",
+      "height": "6-5",
+      "weight": "215",
+      "jersey_number": "9",
+      "college": "Arizona",
+      "country": "Sweden",
+      "draft_year": 2024,
+      "draft_round": 2,
+      "draft_number": 44,
+      "team_id": 16
+    },
+    "team": {
+      "id": 16,
+      "conference": "East",
+      "division": "Southeast",
+      "city": "Miami",
+      "name": "Heat",
+      "full_name": "Miami Heat",
+      "abbreviation": "MIA"
+    }
+  },
+  {
     "id": 10478,
     "player_id": 1028036986,
     "start_year": 2024,
@@ -70751,8 +71256,8 @@
     "guaranteed_at_signing": 2154841,
     "total_guaranteed": 3112530,
     "signed_using": "second-round-exception",
-    "free_agent_year": 2027,
-    "free_agent_status": "RFA",
+    "free_agent_year": null,
+    "free_agent_status": null,
     "contract_notes": [
       "2025-26: $977,689 guaranteed, fully guaranteed Opening Night",
       "2026-27: Club Option/non-guaranteed (deadline 6/29/26, exercised 6/24/26), fully guaranteed Opening Night"
@@ -74752,7 +75257,7 @@
       "draft_year": 2025,
       "draft_round": 2,
       "draft_number": 40,
-      "team_id": 19
+      "team_id": 15
     },
     "team": {
       "id": 19,
@@ -76466,7 +76971,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 4
     },
     "team": {
       "id": 29,
@@ -76508,7 +77013,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 4
     },
     "team": {
       "id": 29,
@@ -76550,7 +77055,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 4
     },
     "team": {
       "id": 29,
@@ -76592,7 +77097,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 4
     },
     "team": {
       "id": 16,
