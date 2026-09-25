@@ -9411,15 +9411,14 @@
     "contract_type": "Maximum Veteran Extension",
     "contract_status": "CURRENT",
     "contract_years": 3,
-    "total_value": 160380000,
-    "average_salary": 53460000,
-    "guaranteed_at_signing": 160380000,
-    "total_guaranteed": 160380000,
+    "total_value": 160342092,
+    "average_salary": 53447364,
+    "guaranteed_at_signing": 160342092,
+    "total_guaranteed": 160342092,
     "signed_using": "Bird Rights",
     "free_agent_year": 2029,
     "free_agent_status": "UFA",
     "contract_notes": [
-      "Salaries based on 30% of $166,000,000 cap",
       "2028-29: Player Option (deadline 6/29/28)"
     ],
     "team_id": 14,
@@ -9454,7 +9453,7 @@
     "start_year": 2022,
     "end_year": 2026,
     "contract_type": "Designated Rookie Extension",
-    "contract_status": "CURRENT",
+    "contract_status": "expired",
     "contract_years": 5,
     "total_value": 215159700,
     "average_salary": 43031940,
@@ -9463,11 +9462,7 @@
     "signed_using": "Bird Rights",
     "free_agent_year": null,
     "free_agent_status": null,
-    "contract_notes": [
-      "All-NBA: $207.06M (30% of cap, triggered during rookie season)",
-      "2026-27: Player Option",
-      "15% Trade Kicker [waived by being over the max salary]"
-    ],
+    "contract_notes": null,
     "team_id": 7,
     "player": {
       "id": 132,
@@ -11423,7 +11418,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 4
+      "team_id": 1
     },
     "team": {
       "id": 11,
@@ -11465,7 +11460,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 4
+      "team_id": 1
     },
     "team": {
       "id": 7,
@@ -11507,7 +11502,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 4
+      "team_id": 1
     },
     "team": {
       "id": 7,
@@ -11549,7 +11544,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 4
+      "team_id": 1
     },
     "team": {
       "id": 7,
@@ -15818,7 +15813,7 @@
     "free_agent_status": "UFA",
     "contract_notes": [
       "Sign-and-Trade via Bird rights",
-      "2026-27: $3,000,000 guaranteed, fully guaranteed one day after 2026 NBA Draft, 6/25/26 moved back to 6/28/26",
+      "2026-27: $3,000,000 guaranteed, fully guaranteed one day after 2026 NBA Draft, 6/25/26 moved back to 6/28/26",
       "2027-28: Player Option (deadline 6/29/27), $3,136,364 guaranteed (if option exercised, fully guaranteed one day after 2027 NBA Draft"
     ],
     "team_id": 23,
@@ -15835,7 +15830,7 @@
       "draft_year": 2016,
       "draft_round": 1,
       "draft_number": 6,
-      "team_id": 1
+      "team_id": 4
     },
     "team": {
       "id": 23,
@@ -15877,7 +15872,7 @@
       "draft_year": 2016,
       "draft_round": 1,
       "draft_number": 6,
-      "team_id": 1
+      "team_id": 4
     },
     "team": {
       "id": 26,
@@ -15919,7 +15914,7 @@
       "draft_year": 2016,
       "draft_round": 1,
       "draft_number": 6,
-      "team_id": 1
+      "team_id": 4
     },
     "team": {
       "id": 19,
@@ -20847,6 +20842,50 @@
     }
   },
   {
+    "id": 471277,
+    "player_id": 274,
+    "start_year": 2027,
+    "end_year": 2028,
+    "contract_type": "Extension",
+    "contract_status": "UPCOMING EXTENSION",
+    "contract_years": 2,
+    "total_value": 115000000,
+    "average_salary": 57500000,
+    "guaranteed_at_signing": 115000000,
+    "total_guaranteed": 115000000,
+    "signed_using": "Bird Rights",
+    "free_agent_year": 2029,
+    "free_agent_status": "UFA",
+    "contract_notes": [
+      "2028-29: Player Option (deadline 6/29/28)"
+    ],
+    "team_id": 28,
+    "player": {
+      "id": 274,
+      "first_name": "Kawhi",
+      "last_name": "Leonard",
+      "position": "F",
+      "height": "6-6",
+      "weight": "225",
+      "jersey_number": "2",
+      "college": "San Diego State",
+      "country": "USA",
+      "draft_year": 2011,
+      "draft_round": 1,
+      "draft_number": 15,
+      "team_id": 28
+    },
+    "team": {
+      "id": 28,
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "Toronto",
+      "name": "Raptors",
+      "full_name": "Toronto Raptors",
+      "abbreviation": "TOR"
+    }
+  },
+  {
     "id": 5707,
     "player_id": 274,
     "start_year": 2024,
@@ -20859,8 +20898,8 @@
     "guaranteed_at_signing": 149505800,
     "total_guaranteed": 149505800,
     "signed_using": "Bird Rights",
-    "free_agent_year": 2027,
-    "free_agent_status": "UFA",
+    "free_agent_year": null,
+    "free_agent_status": null,
     "contract_notes": [
       "2024-25: $52,368,085 (maximum that can be acheived if 2024-25 cap rises enough)",
       "Trade Bonus: 15% [waived via LAC-TOR trade]"
@@ -66499,14 +66538,21 @@
     "contract_type": "Extension",
     "contract_status": "UPCOMING EXTENSION",
     "contract_years": 5,
-    "total_value": 157500000,
-    "average_salary": 31500000,
-    "guaranteed_at_signing": 157500000,
-    "total_guaranteed": 157500000,
+    "total_value": 155000000,
+    "average_salary": 31000000,
+    "guaranteed_at_signing": 155000000,
+    "total_guaranteed": 155000000,
     "signed_using": "Bird Rights",
     "free_agent_year": 2032,
     "free_agent_status": "UFA",
-    "contract_notes": null,
+    "contract_notes": [
+      "Total Incentives: $2,500,000",
+      "2027-28: ULTBE: $500,000",
+      "2028-29: ULTBE: $500,000",
+      "2029-30: ULTBE: $500,000",
+      "2030-31: ULTBE: $500,000",
+      "2031-32: ULTBE: $500,000"
+    ],
     "team_id": 29,
     "player": {
       "id": 56677834,
@@ -72873,7 +72919,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 12
+      "team_id": 2
     },
     "team": {
       "id": 12,
@@ -72915,7 +72961,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 12
+      "team_id": 2
     },
     "team": {
       "id": 12,
@@ -72957,7 +73003,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 12
+      "team_id": 2
     },
     "team": {
       "id": 8,
@@ -76545,7 +76591,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 1
+      "team_id": 4
     },
     "team": {
       "id": 7,
@@ -76589,7 +76635,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 1
+      "team_id": 4
     },
     "team": {
       "id": 7,
@@ -76626,12 +76672,12 @@
       "height": "6-6",
       "weight": "205",
       "jersey_number": null,
-      "college": "St. John's, N.Y.",
+      "college": "St. John's",
       "country": "USA",
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 30
+      "team_id": 6
     },
     "team": {
       "id": 30,
@@ -76971,7 +77017,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 4
+      "team_id": 16
     },
     "team": {
       "id": 29,
@@ -77013,7 +77059,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 4
+      "team_id": 16
     },
     "team": {
       "id": 29,
@@ -77055,7 +77101,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 4
+      "team_id": 16
     },
     "team": {
       "id": 29,
@@ -77097,7 +77143,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 4
+      "team_id": 16
     },
     "team": {
       "id": 16,
@@ -77477,7 +77523,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 2
     },
     "team": {
       "id": 29,
@@ -77519,7 +77565,7 @@
       "draft_year": null,
       "draft_round": null,
       "draft_number": null,
-      "team_id": 29
+      "team_id": 2
     },
     "team": {
       "id": 2,
