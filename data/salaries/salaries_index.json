@@ -51,8 +51,8 @@
       24,
       249,
       56677582,
-      1092288834,
-      1091463040
+      1091463040,
+      1092288834
     ],
     "file": "data/salaries/salaries_den.json"
   },
@@ -542,37 +542,6 @@
     "file": "data/salaries/salaries_por.json"
   },
   {
-    "team_id": 4,
-    "full_name": "Charlotte Hornets",
-    "abbreviation": "CHA",
-    "conference": "East",
-    "total_cap": "$191.5M",
-    "total_cap_raw": 191514161,
-    "player_count": 19,
-    "player_ids": [
-      666956,
-      667378,
-      8,
-      56677823,
-      409,
-      666965,
-      158,
-      351,
-      1057263194,
-      210,
-      1028028379,
-      1091353463,
-      1091349204,
-      105,
-      1057278805,
-      38017725,
-      1057384156,
-      1057384362,
-      1057847894
-    ],
-    "file": "data/salaries/salaries_cha.json"
-  },
-  {
     "team_id": 13,
     "full_name": "LA Clippers",
     "abbreviation": "LAC",
@@ -601,6 +570,37 @@
       1091465658
     ],
     "file": "data/salaries/salaries_lac.json"
+  },
+  {
+    "team_id": 4,
+    "full_name": "Charlotte Hornets",
+    "abbreviation": "CHA",
+    "conference": "East",
+    "total_cap": "$188.7M",
+    "total_cap_raw": 188744945,
+    "player_count": 19,
+    "player_ids": [
+      666956,
+      667378,
+      8,
+      56677823,
+      409,
+      666965,
+      158,
+      351,
+      1057263194,
+      1028028379,
+      1028025639,
+      1091353463,
+      1091349204,
+      105,
+      1057278805,
+      38017725,
+      1057384156,
+      1057384362,
+      1057847894
+    ],
+    "file": "data/salaries/salaries_cha.json"
   },
   {
     "team_id": 1,
@@ -634,9 +634,9 @@
     "full_name": "Dallas Mavericks",
     "abbreviation": "DAL",
     "conference": "West",
-    "total_cap": "$177.2M",
-    "total_cap_raw": 177194562,
-    "player_count": 15,
+    "total_cap": "$179.6M",
+    "total_cap_raw": 179643983,
+    "player_count": 16,
     "player_ids": [
       228,
       666950,
@@ -652,6 +652,7 @@
       56677792,
       1091350193,
       1092199635,
+      379,
       1057845382
     ],
     "file": "data/salaries/salaries_dal.json"
@@ -714,6 +715,32 @@
     "file": "data/salaries/salaries_uta.json"
   },
   {
+    "team_id": 5,
+    "full_name": "Chicago Bulls",
+    "abbreviation": "CHI",
+    "conference": "East",
+    "total_cap": "$164.7M",
+    "total_cap_raw": 164694624,
+    "player_count": 14,
+    "player_ids": [
+      17896065,
+      666508,
+      380,
+      3547248,
+      3547247,
+      1091343852,
+      210,
+      3547264,
+      102,
+      3547274,
+      1028025177,
+      1057272081,
+      1091353537,
+      56677782
+    ],
+    "file": "data/salaries/salaries_chi.json"
+  },
+  {
     "team_id": 3,
     "full_name": "Brooklyn Nets",
     "abbreviation": "BKN",
@@ -740,32 +767,6 @@
       1059753274
     ],
     "file": "data/salaries/salaries_bkn.json"
-  },
-  {
-    "team_id": 5,
-    "full_name": "Chicago Bulls",
-    "abbreviation": "CHI",
-    "conference": "East",
-    "total_cap": "$161.9M",
-    "total_cap_raw": 161925408,
-    "player_count": 14,
-    "player_ids": [
-      17896065,
-      666508,
-      380,
-      3547248,
-      3547247,
-      1091343852,
-      3547264,
-      102,
-      3547274,
-      1028025639,
-      1028025177,
-      1057272081,
-      1091353537,
-      56677782
-    ],
-    "file": "data/salaries/salaries_chi.json"
   },
   {
     "team_id": 9,
