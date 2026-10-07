@@ -40,6 +40,25 @@ O Bola Presa (podcast brasileiro de NBA, de Denis Botana e Danilo) mantém um ec
 - Administração: `cd /root/bolapresa-auth && venv/bin/python3 admin.py <comando>` (usar o python do venv!) — comandos: `listar`, `revalidar`, `ativar`, `desativar`, `resetar-senha`, `promover`, `rebaixar`
 - API do Apoia-se exige **chave + segredo** (headers `x-api-key` + `authorization: Bearer <segredo>`)
 
+ Contas cortesia. Além das contas de assinante (validadas contra o Apoia-se),
+  ▎ existe a conta cortesia: usuarios.cortesia = 1, com validade opcional em 
+  ▎ usuarios.cortesia_ate (data AAAA-MM-DD, fuso America/Sao_Paulo; NULL = 
+  ▎ permanente). Uma cortesia está vigente quando cortesia = 1 e (cortesia_ate 
+  ▎ nula ou hoje ≤ cortesia_ate) — regra centralizada em cortesia_vigente() 
+  ▎ (db.py), usada em todos os pontos de checagem.
+  ▎
+  ▎ - R3. Para cortesia vigente, /login não consulta o Apoia-se: entra com senha
+  ▎ correta e ativo = 1.
+  ▎ - R4. Para cortesia vigente, ativo é a única fonte de verdade — desativar no
+  ▎ painel é definitivo; não é revertido no próximo login.
+  ▎ - R5. Quando cortesia_ate passa, a conta volta à regra normal de assinante 
+  ▎ na próxima execução do revalidar.py (que zera cortesia, preserva 
+  ▎ cortesia_ate para histórico e grava no admin_log) ou na próxima tentativa de
+  ▎ login.
+  ▎
+  ▎ Contas cortesia só são criadas pelo admin (painel /admin/usuarios ou CLI 
+  ▎ admin.py criar-cortesia/cortesia/remover-cortesia), nunca por autocadastro.
+
 ## Caixa de perguntas anônimas
 
 - Formulário na homepage do site (Netlify) → `POST https://conta.bolapresa.com.br/api/pergunta` (CORS restrito às origens do site)
