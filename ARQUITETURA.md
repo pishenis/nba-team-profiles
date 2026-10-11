@@ -1,3 +1,6 @@
+> **Repositório congelado em 11/out/2026 (tag `temporada-2025-26`).**
+> O documento vivo agora é `pishenis/bolapresa-stats/ARQUITETURA.md`.
+
 # Arquitetura do Ecossistema Bola Presa
 
 Documento de referência. Qualquer sessão de Claude Code (ou humano) deve ler isto antes de mexer em qualquer parte do sistema. Atualizar este arquivo sempre que a arquitetura mudar.
