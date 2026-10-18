@@ -4,9 +4,9 @@
     "full_name": "Minnesota Timberwolves",
     "abbreviation": "MIN",
     "conference": "West",
-    "total_cap": "$232.4M",
-    "total_cap_raw": 232372261,
-    "player_count": 17,
+    "total_cap": "$230.0M",
+    "total_cap_raw": 229966056,
+    "player_count": 21,
     "player_ids": [
       3547238,
       3547239,
@@ -23,8 +23,12 @@
       17896031,
       290,
       377705601,
-      56677857,
-      1091463885
+      1091463885,
+      1028045812,
+      3547294,
+      1028038100,
+      1046672580,
+      1057848025
     ],
     "file": "data/salaries/salaries_min.json"
   },
@@ -33,9 +37,9 @@
     "full_name": "Denver Nuggets",
     "abbreviation": "DEN",
     "conference": "West",
-    "total_cap": "$229.9M",
-    "total_cap_raw": 229866717,
-    "player_count": 16,
+    "total_cap": "$227.5M",
+    "total_cap_raw": 227460512,
+    "player_count": 21,
     "player_ids": [
       246,
       335,
@@ -50,9 +54,14 @@
       125,
       24,
       249,
-      56677582,
       1091463040,
-      1092288834
+      1092288834,
+      56677831,
+      1028245974,
+      1057847894,
+      1093990814,
+      1059021996,
+      1091464608
     ],
     "file": "data/salaries/salaries_den.json"
   },
@@ -63,7 +72,7 @@
     "conference": "West",
     "total_cap": "$220.8M",
     "total_cap_raw": 220838432,
-    "player_count": 15,
+    "player_count": 19,
     "player_ids": [
       115,
       79,
@@ -79,7 +88,11 @@
       24489167,
       17895854,
       2189,
-      1057395872
+      1057395872,
+      38017719,
+      1057845216,
+      1057396605,
+      1097894227
     ],
     "file": "data/salaries/salaries_gsw.json"
   },
@@ -90,7 +103,7 @@
     "conference": "East",
     "total_cap": "$218.4M",
     "total_cap_raw": 218412232,
-    "player_count": 13,
+    "player_count": 18,
     "player_ids": [
       447,
       18,
@@ -104,7 +117,12 @@
       1057393207,
       100,
       137,
-      1028036898
+      1028036898,
+      1059276748,
+      1028047255,
+      1091465898,
+      69,
+      3547240
     ],
     "file": "data/salaries/salaries_nyk.json"
   },
@@ -115,7 +133,7 @@
     "conference": "West",
     "total_cap": "$214.3M",
     "total_cap_raw": 214279492,
-    "player_count": 14,
+    "player_count": 21,
     "player_ids": [
       38017685,
       38017703,
@@ -130,36 +148,16 @@
       1057274983,
       1091353486,
       1028027372,
-      1028037477
+      1028037477,
+      1057392335,
+      1102443520,
+      1091466034,
+      38017718,
+      1102440799,
+      1097033907,
+      1091904395
     ],
     "file": "data/salaries/salaries_okc.json"
-  },
-  {
-    "team_id": 6,
-    "full_name": "Cleveland Cavaliers",
-    "abbreviation": "CLE",
-    "conference": "East",
-    "total_cap": "$212.2M",
-    "total_cap_raw": 212184156,
-    "player_count": 15,
-    "player_ids": [
-      322,
-      17896076,
-      192,
-      9,
-      38017721,
-      3547299,
-      56677831,
-      1028028993,
-      74,
-      208,
-      1042560902,
-      56677872,
-      1057395754,
-      1095497363,
-      1091467074
-    ],
-    "file": "data/salaries/salaries_cle.json"
   },
   {
     "team_id": 22,
@@ -168,7 +166,7 @@
     "conference": "East",
     "total_cap": "$209.9M",
     "total_cap_raw": 209865321,
-    "player_count": 14,
+    "player_count": 16,
     "player_ids": [
       17896026,
       38017683,
@@ -183,36 +181,11 @@
       87,
       460,
       229,
-      1057385481
+      1057385481,
+      56677738,
+      1091465870
     ],
     "file": "data/salaries/salaries_orl.json"
-  },
-  {
-    "team_id": 23,
-    "full_name": "Philadelphia 76ers",
-    "abbreviation": "PHI",
-    "conference": "East",
-    "total_cap": "$209.8M",
-    "total_cap_raw": 209771011,
-    "player_count": 15,
-    "player_ids": [
-      145,
-      70,
-      3547254,
-      1057261935,
-      666940,
-      419,
-      237,
-      1091352730,
-      38017730,
-      1028046422,
-      38017711,
-      38017719,
-      81,
-      1028214238,
-      1028034846
-    ],
-    "file": "data/salaries/salaries_phi.json"
   },
   {
     "team_id": 16,
@@ -221,7 +194,7 @@
     "conference": "East",
     "total_cap": "$208.6M",
     "total_cap_raw": 208600346,
-    "player_count": 15,
+    "player_count": 18,
     "player_ids": [
       15,
       4,
@@ -237,18 +210,81 @@
       1028257937,
       1028036986,
       1057846109,
-      1091463429
+      1091463429,
+      1057846206,
+      1028125584,
+      1091904403
     ],
     "file": "data/salaries/salaries_mia.json"
+  },
+  {
+    "team_id": 23,
+    "full_name": "Philadelphia 76ers",
+    "abbreviation": "PHI",
+    "conference": "East",
+    "total_cap": "$207.2M",
+    "total_cap_raw": 207186472,
+    "player_count": 17,
+    "player_ids": [
+      145,
+      70,
+      3547254,
+      1057261935,
+      666940,
+      419,
+      237,
+      1091352730,
+      38017730,
+      1028046422,
+      38017711,
+      81,
+      1028214238,
+      1028034846,
+      1057847330,
+      56677829,
+      666560
+    ],
+    "file": "data/salaries/salaries_phi.json"
+  },
+  {
+    "team_id": 6,
+    "full_name": "Cleveland Cavaliers",
+    "abbreviation": "CLE",
+    "conference": "East",
+    "total_cap": "$206.7M",
+    "total_cap_raw": 206725846,
+    "player_count": 19,
+    "player_ids": [
+      322,
+      17896076,
+      192,
+      9,
+      38017721,
+      3547299,
+      1028028993,
+      74,
+      208,
+      1042560902,
+      56677872,
+      1057395754,
+      1095497363,
+      1091467074,
+      1100711711,
+      1091907917,
+      1098116773,
+      1057844738,
+      1102442916
+    ],
+    "file": "data/salaries/salaries_cle.json"
   },
   {
     "team_id": 12,
     "full_name": "Indiana Pacers",
     "abbreviation": "IND",
     "conference": "East",
-    "total_cap": "$208.5M",
-    "total_cap_raw": 208450851,
-    "player_count": 15,
+    "total_cap": "$206.3M",
+    "total_cap_raw": 206299934,
+    "player_count": 17,
     "player_ids": [
       3547245,
       416,
@@ -264,48 +300,20 @@
       44477085,
       340,
       1028035897,
-      1057389374
+      56677849,
+      56677862,
+      1091466792
     ],
     "file": "data/salaries/salaries_ind.json"
-  },
-  {
-    "team_id": 14,
-    "full_name": "Los Angeles Lakers",
-    "abbreviation": "LAL",
-    "conference": "West",
-    "total_cap": "$205.9M",
-    "total_cap_raw": 205892946,
-    "player_count": 18,
-    "player_ids": [
-      132,
-      17553995,
-      38017705,
-      17895858,
-      17896059,
-      457,
-      413,
-      38017728,
-      38017679,
-      1028026974,
-      1091349831,
-      56677838,
-      56677846,
-      17896027,
-      666923,
-      282,
-      1028046517,
-      1057386376
-    ],
-    "file": "data/salaries/salaries_lal.json"
   },
   {
     "team_id": 2,
     "full_name": "Boston Celtics",
     "abbreviation": "BOS",
     "conference": "East",
-    "total_cap": "$205.8M",
-    "total_cap_raw": 205825586,
-    "player_count": 17,
+    "total_cap": "$203.7M",
+    "total_cap_raw": 203674669,
+    "player_count": 23,
     "player_ids": [
       434,
       172,
@@ -322,37 +330,49 @@
       17553967,
       104,
       56677864,
+      1057396191,
+      1092292401,
       1057396966,
-      1057396191
+      1091465698,
+      1081266162,
+      1028255881,
+      1092288797,
+      1028025242
     ],
     "file": "data/salaries/salaries_bos.json"
   },
   {
-    "team_id": 28,
-    "full_name": "Toronto Raptors",
-    "abbreviation": "TOR",
-    "conference": "East",
-    "total_cap": "$203.5M",
-    "total_cap_raw": 203485159,
-    "player_count": 15,
+    "team_id": 14,
+    "full_name": "Los Angeles Lakers",
+    "abbreviation": "LAL",
+    "conference": "West",
+    "total_cap": "$203.4M",
+    "total_cap_raw": 203395134,
+    "player_count": 21,
     "player_ids": [
-      274,
-      17896055,
-      3547269,
-      666423,
-      373,
-      1057268940,
-      1091350801,
-      1028029111,
-      12,
-      56677799,
-      1028038426,
-      1028243201,
-      1028037494,
-      1057389862,
-      1091463018
+      132,
+      17553995,
+      38017705,
+      17895858,
+      17896059,
+      457,
+      413,
+      38017728,
+      38017679,
+      1028026974,
+      1091349831,
+      56677846,
+      17896027,
+      666923,
+      282,
+      1028046517,
+      1057386376,
+      1057847504,
+      1091906694,
+      1098710762,
+      1092732494
     ],
-    "file": "data/salaries/salaries_tor.json"
+    "file": "data/salaries/salaries_lal.json"
   },
   {
     "team_id": 11,
@@ -361,7 +381,7 @@
     "conference": "West",
     "total_cap": "$203.0M",
     "total_cap_raw": 202998462,
-    "player_count": 15,
+    "player_count": 22,
     "player_ids": [
       140,
       17896062,
@@ -377,9 +397,44 @@
       1028203948,
       53,
       3547301,
-      1091467104
+      1091467104,
+      56677857,
+      1092195008,
+      1058921044,
+      56677778,
+      1102303008,
+      1057847482,
+      1093990636
     ],
     "file": "data/salaries/salaries_hou.json"
+  },
+  {
+    "team_id": 28,
+    "full_name": "Toronto Raptors",
+    "abbreviation": "TOR",
+    "conference": "East",
+    "total_cap": "$201.2M",
+    "total_cap_raw": 201188888,
+    "player_count": 16,
+    "player_ids": [
+      274,
+      17896055,
+      3547269,
+      666423,
+      373,
+      1057268940,
+      1091350801,
+      1028029111,
+      12,
+      56677799,
+      1028038426,
+      1028243201,
+      1057389862,
+      1091463018,
+      1059753274,
+      1092199652
+    ],
+    "file": "data/salaries/salaries_tor.json"
   },
   {
     "team_id": 27,
@@ -388,7 +443,7 @@
     "conference": "West",
     "total_cap": "$198.3M",
     "total_cap_raw": 198279967,
-    "player_count": 14,
+    "player_count": 17,
     "player_ids": [
       161,
       3547246,
@@ -403,7 +458,10 @@
       1057271360,
       1091352835,
       1091363216,
-      666767
+      666767,
+      1091463115,
+      1091464155,
+      1028245237
     ],
     "file": "data/salaries/salaries_sas.json"
   },
@@ -414,7 +472,7 @@
     "conference": "West",
     "total_cap": "$197.0M",
     "total_cap_raw": 196964983,
-    "player_count": 15,
+    "player_count": 21,
     "player_ids": [
       268,
       406,
@@ -430,18 +488,85 @@
       1028246478,
       1057390745,
       1057845274,
-      1091466685
+      1091466685,
+      56677866,
+      369,
+      1028047609,
+      1059510388,
+      436846673,
+      1028037494
     ],
     "file": "data/salaries/salaries_sac.json"
+  },
+  {
+    "team_id": 24,
+    "full_name": "Phoenix Suns",
+    "abbreviation": "PHX",
+    "conference": "West",
+    "total_cap": "$193.0M",
+    "total_cap_raw": 193028455,
+    "player_count": 18,
+    "player_ids": [
+      57,
+      17895966,
+      62,
+      66,
+      38017698,
+      38017727,
+      1057268513,
+      254,
+      18678058,
+      1091362981,
+      1028025723,
+      44477062,
+      3092,
+      1028036515,
+      1057383369,
+      1057387526,
+      795959473,
+      56783340
+    ],
+    "file": "data/salaries/salaries_phx.json"
+  },
+  {
+    "team_id": 19,
+    "full_name": "New Orleans Pelicans",
+    "abbreviation": "NOP",
+    "conference": "West",
+    "total_cap": "$193.0M",
+    "total_cap_raw": 192983929,
+    "player_count": 19,
+    "player_ids": [
+      666969,
+      666848,
+      334,
+      18677986,
+      17896024,
+      1057267077,
+      38017686,
+      3547256,
+      1057274415,
+      250,
+      1028027567,
+      38017708,
+      17896058,
+      1028245777,
+      56677838,
+      1091481720,
+      1060111739,
+      1101320635,
+      1094002723
+    ],
+    "file": "data/salaries/salaries_nop.json"
   },
   {
     "team_id": 30,
     "full_name": "Washington Wizards",
     "abbreviation": "WAS",
     "conference": "East",
-    "total_cap": "$196.6M",
-    "total_cap_raw": 196613442,
-    "player_count": 16,
+    "total_cap": "$192.0M",
+    "total_cap_raw": 192013104,
+    "player_count": 21,
     "player_ids": [
       117,
       490,
@@ -458,62 +583,14 @@
       1016384149,
       17896039,
       3547302,
-      1057391756
+      1091465991,
+      38017723,
+      56677854,
+      38017720,
+      1057391756,
+      1028203324
     ],
     "file": "data/salaries/salaries_was.json"
-  },
-  {
-    "team_id": 24,
-    "full_name": "Phoenix Suns",
-    "abbreviation": "PHX",
-    "conference": "West",
-    "total_cap": "$193.0M",
-    "total_cap_raw": 193028455,
-    "player_count": 15,
-    "player_ids": [
-      57,
-      17895966,
-      62,
-      66,
-      38017698,
-      38017727,
-      1057268513,
-      254,
-      18678058,
-      1091362981,
-      1028025723,
-      44477062,
-      3092,
-      1028036515,
-      1057383369
-    ],
-    "file": "data/salaries/salaries_phx.json"
-  },
-  {
-    "team_id": 19,
-    "full_name": "New Orleans Pelicans",
-    "abbreviation": "NOP",
-    "conference": "West",
-    "total_cap": "$193.0M",
-    "total_cap_raw": 192983929,
-    "player_count": 14,
-    "player_ids": [
-      666969,
-      666848,
-      334,
-      18677986,
-      17896024,
-      1057267077,
-      38017686,
-      3547256,
-      1057274415,
-      250,
-      1028027567,
-      38017708,
-      17896058,
-      1028245777
-    ],
-    "file": "data/salaries/salaries_nop.json"
   },
   {
     "team_id": 25,
@@ -522,7 +599,7 @@
     "conference": "West",
     "total_cap": "$191.8M",
     "total_cap_raw": 191825441,
-    "player_count": 14,
+    "player_count": 16,
     "player_ids": [
       666786,
       214,
@@ -537,18 +614,51 @@
       19465584,
       4197387,
       56677817,
-      1028218679
+      1028218679,
+      1057396603,
+      38017699
     ],
     "file": "data/salaries/salaries_por.json"
+  },
+  {
+    "team_id": 9,
+    "full_name": "Detroit Pistons",
+    "abbreviation": "DET",
+    "conference": "East",
+    "total_cap": "$190.7M",
+    "total_cap_raw": 190682317,
+    "player_count": 19,
+    "player_ids": [
+      17896075,
+      38017694,
+      101,
+      397,
+      3547272,
+      56677826,
+      221,
+      1028026508,
+      3547270,
+      1091352549,
+      1028240128,
+      666604,
+      383,
+      1028267166,
+      1057389625,
+      1057849497,
+      1091476372,
+      1098712849,
+      1028264794
+    ],
+    "file": "data/salaries/salaries_det.json"
   },
   {
     "team_id": 13,
     "full_name": "LA Clippers",
     "abbreviation": "LAC",
     "conference": "West",
-    "total_cap": "$191.2M",
-    "total_cap_raw": 191244504,
-    "player_count": 18,
+    "total_cap": "$186.8M",
+    "total_cap_raw": 186797316,
+    "player_count": 23,
     "player_ids": [
       666581,
       227,
@@ -565,74 +675,25 @@
       56677856,
       1057279105,
       1057396055,
+      1091465658,
       1028035215,
-      1057382509,
-      1091465658
+      1091475805,
+      56677582,
+      38017693,
+      666824,
+      64269817,
+      1057849029
     ],
     "file": "data/salaries/salaries_lac.json"
-  },
-  {
-    "team_id": 9,
-    "full_name": "Detroit Pistons",
-    "abbreviation": "DET",
-    "conference": "East",
-    "total_cap": "$190.7M",
-    "total_cap_raw": 190682317,
-    "player_count": 15,
-    "player_ids": [
-      17896075,
-      38017694,
-      101,
-      397,
-      3547272,
-      56677826,
-      221,
-      1028026508,
-      3547270,
-      1091352549,
-      1028240128,
-      666604,
-      383,
-      1028267166,
-      1057389625
-    ],
-    "file": "data/salaries/salaries_det.json"
-  },
-  {
-    "team_id": 1,
-    "full_name": "Atlanta Hawks",
-    "abbreviation": "ATL",
-    "conference": "East",
-    "total_cap": "$184.5M",
-    "total_cap_raw": 184472538,
-    "player_count": 15,
-    "player_ids": [
-      17896040,
-      38017677,
-      303,
-      666541,
-      3547244,
-      666400,
-      19465326,
-      17896045,
-      17896078,
-      1091340263,
-      1028025242,
-      1091350401,
-      1057279093,
-      56677806,
-      1091477603
-    ],
-    "file": "data/salaries/salaries_atl.json"
   },
   {
     "team_id": 4,
     "full_name": "Charlotte Hornets",
     "abbreviation": "CHA",
     "conference": "East",
-    "total_cap": "$181.9M",
-    "total_cap_raw": 181855625,
-    "player_count": 18,
+    "total_cap": "$179.7M",
+    "total_cap_raw": 179704708,
+    "player_count": 21,
     "player_ids": [
       666956,
       667378,
@@ -651,7 +712,10 @@
       38017725,
       1057384156,
       1057384362,
-      1057847894
+      1092116264,
+      1092116681,
+      1102160633,
+      1095634078
     ],
     "file": "data/salaries/salaries_cha.json"
   },
@@ -662,7 +726,7 @@
     "conference": "West",
     "total_cap": "$179.6M",
     "total_cap_raw": 179643983,
-    "player_count": 16,
+    "player_count": 19,
     "player_ids": [
       228,
       666950,
@@ -679,9 +743,41 @@
       1091350193,
       1092199635,
       379,
-      1057845382
+      1057845382,
+      56677855,
+      56677839,
+      1091465199
     ],
     "file": "data/salaries/salaries_dal.json"
+  },
+  {
+    "team_id": 1,
+    "full_name": "Atlanta Hawks",
+    "abbreviation": "ATL",
+    "conference": "East",
+    "total_cap": "$179.3M",
+    "total_cap_raw": 179314458,
+    "player_count": 17,
+    "player_ids": [
+      17896040,
+      38017677,
+      303,
+      666541,
+      3547244,
+      666400,
+      19465326,
+      17896045,
+      17896078,
+      1091340263,
+      1091350401,
+      1057279093,
+      56677806,
+      1091477603,
+      56677722,
+      1098740515,
+      1057846878
+    ],
+    "file": "data/salaries/salaries_atl.json"
   },
   {
     "team_id": 17,
@@ -690,7 +786,7 @@
     "conference": "East",
     "total_cap": "$170.7M",
     "total_cap_raw": 170726801,
-    "player_count": 18,
+    "player_count": 21,
     "player_ids": [
       666633,
       452,
@@ -709,7 +805,10 @@
       17896063,
       64270026,
       56677852,
-      1057394921
+      1057394921,
+      1057389374,
+      1057382509,
+      1093990816
     ],
     "file": "data/salaries/salaries_mil.json"
   },
@@ -718,9 +817,9 @@
     "full_name": "Utah Jazz",
     "abbreviation": "UTA",
     "conference": "West",
-    "total_cap": "$170.1M",
-    "total_cap_raw": 170138502,
-    "player_count": 15,
+    "total_cap": "$168.0M",
+    "total_cap_raw": 167987585,
+    "player_count": 19,
     "player_ids": [
       231,
       297,
@@ -736,7 +835,11 @@
       1028035794,
       1028025362,
       1059992972,
-      1081266162
+      1028203085,
+      1057844839,
+      1059872205,
+      1028046464,
+      60
     ],
     "file": "data/salaries/salaries_uta.json"
   },
@@ -747,7 +850,7 @@
     "conference": "East",
     "total_cap": "$164.7M",
     "total_cap_raw": 164694624,
-    "player_count": 14,
+    "player_count": 17,
     "player_ids": [
       17896065,
       666508,
@@ -762,7 +865,10 @@
       1028025177,
       1057272081,
       1091353537,
-      56677782
+      56677782,
+      1091903404,
+      1091907371,
+      56677837
     ],
     "file": "data/salaries/salaries_chi.json"
   },
@@ -771,9 +877,9 @@
     "full_name": "Brooklyn Nets",
     "abbreviation": "BKN",
     "conference": "East",
-    "total_cap": "$162.2M",
-    "total_cap_raw": 162207275,
-    "player_count": 16,
+    "total_cap": "$160.1M",
+    "total_cap_raw": 160056358,
+    "player_count": 18,
     "player_ids": [
       375,
       387,
@@ -790,7 +896,9 @@
       1057279760,
       1091361657,
       1057280779,
-      1059753274
+      1057846840,
+      1091462892,
+      1059875475
     ],
     "file": "data/salaries/salaries_bkn.json"
   },
@@ -799,9 +907,9 @@
     "full_name": "Memphis Grizzlies",
     "abbreviation": "MEM",
     "conference": "West",
-    "total_cap": "$143.1M",
-    "total_cap_raw": 143120754,
-    "player_count": 20,
+    "total_cap": "$136.1M",
+    "total_cap_raw": 136098859,
+    "player_count": 21,
     "player_ids": [
       182,
       3547267,
@@ -809,7 +917,6 @@
       666676,
       1028047928,
       56677824,
-      56677837,
       1028025754,
       1057266649,
       405,
@@ -822,7 +929,9 @@
       1028048549,
       56677830,
       1028039105,
-      1057390538
+      1057390538,
+      1098740501,
+      1057396260
     ],
     "file": "data/salaries/salaries_mem.json"
   }
