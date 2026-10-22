@@ -417,6 +417,10 @@ async function loadIndex() {
     } catch(e) {}
     applySigningsToIndex();
     renderList();
+    // ?time=NYK abre o time direto (link "Salários do time" das páginas de times)
+    var pedido = (new URLSearchParams(location.search).get('time') || '').toUpperCase();
+    var alvo = allTeams.filter(function(t){return t.abbreviation===pedido;})[0];
+    if (alvo) openTeam(alvo.abbreviation, alvo.team_id);
   } catch(e) {
     document.getElementById('teams-list').innerHTML =
       '<div style="text-align:center;padding:40px;color:var(--mute);font-size:13px">Dados não encontrados. Execute <code>python3 generate_salaries.py</code> primeiro.</div>';
