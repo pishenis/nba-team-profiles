@@ -49,42 +49,36 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
   min-height: calc(100vh - 108px);
 }
 
-/* ── Top blue bar ─────────────────────────────────────────── */
+/* ── Barra comum + barra interna ─────────────────────────────
+   A barra azul do topo é a mesma de todos os sites do Bola Presa
+   (<bp-barra>, script em conta.bolapresa.com.br/static/barra.js).
+   Logo abaixo, .bp-topbar é a navegação interna do Stats. */
+bp-barra { display: block; min-height: 44px; background: var(--bp-blue); }
+
 .bp-topbar {
-  background: var(--bp-blue);
-  color: #fff;
+  background: var(--bp-blue-tint);
+  color: var(--ink);
+  border-bottom: 1px solid var(--hair);
   padding: 0 24px;
   display: flex;
   align-items: center;
-  height: 44px;
+  height: 40px;
   gap: 0;
 }
 
 .bp-topbar-logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: -0.01em;
-  color: #fff;
+  color: var(--bp-blue-dark);
   flex-shrink: 0;
-}
-
-.bp-topbar-logo img {
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  background: #fff;
-  padding: 2px;
-  object-fit: contain;
 }
 
 .bp-topbar-divider {
   width: 1px;
-  height: 18px;
-  background: rgba(255,255,255,0.3);
-  margin: 0 16px;
+  height: 16px;
+  background: var(--mute-2);
+  margin: 0 14px;
   flex-shrink: 0;
 }
 
@@ -93,7 +87,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
   font-size: 11px;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  opacity: 0.85;
+  color: var(--mute);
   flex-shrink: 0;
 }
 
@@ -102,24 +96,27 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
   align-items: center;
   gap: 2px;
   margin-left: auto;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+.bp-topbar-nav::-webkit-scrollbar { display: none; }
 
 .bp-topbar-nav a {
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: 0.05em;
   text-transform: lowercase;
-  color: rgba(255,255,255,0.85);
+  white-space: nowrap;
+  flex-shrink: 0;
+  color: var(--ink-2);
   padding: 5px 10px;
   border-radius: 4px;
-  transition: background 0.15s, opacity 0.15s;
+  transition: background 0.15s;
 }
 
-.bp-topbar-nav a:hover {
-  background: rgba(255,255,255,0.15);
-  opacity: 1;
-  color: #fff;
-}
+.bp-topbar-nav a:hover { background: rgba(20,166,184,0.12); }
+.bp-topbar-nav a.ativo { background: rgba(20,166,184,0.18); color: var(--bp-blue-dark); }
 
 /* ── Conteúdo interno ─────────────────────────────────────── */
 .bp-inner {
@@ -149,7 +146,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
   .bp-topbar {
     flex-wrap: wrap;
     height: auto;
-    min-height: 44px;
+    min-height: 40px;
     padding: 8px 12px;
     row-gap: 4px;
   }
@@ -160,7 +157,6 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; pad
     -webkit-overflow-scrolling: touch;
     padding-bottom: 2px;
   }
-  .bp-topbar-nav a { flex-shrink: 0; }
 
   .bp-foot { padding: 12px 16px; flex-direction: column; gap: 6px; }
 }

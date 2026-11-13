@@ -94,23 +94,22 @@ body{font-family:var(--sans);color:var(--ink);background:var(--paper)}
 .scoring-bar-val{font-family:ui-monospace,monospace;font-size:12px;color:#1d1d1f;width:36px;text-align:right;flex-shrink:0}
 .tov-grid{display:grid;grid-template-columns:1fr 60px 60px;gap:4px;align-items:center}
 </style>
+<script src="https://conta.bolapresa.com.br/static/barra.js" defer></script>
 </head>
 <body>
 <div class="bp-paper">
 <div class="bp-miolo">
 
 <!-- TOPBAR -->
+<bp-barra></bp-barra>
 <div class="bp-topbar">
-  <a class="bp-topbar-logo" href="home.html">
-    <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
-    Bola Presa Stats
-  </a>
+  <a class="bp-topbar-logo" href="home.html">Stats</a>
   <div class="bp-topbar-divider"></div>
   <span class="bp-topbar-section">Jogadores</span>
   <nav class="bp-topbar-nav">
     <a href="playoffs.html">playoffs</a>
     <a href="index.html">times</a>
-    <a href="jogadores.html">jogadores</a>
+    <a href="jogadores.html" class="ativo">jogadores</a>
     <a href="salaries.html">salários</a>
     <a href="rankings.html">rankings</a>
     <a href="free-agents.html">free agents</a>

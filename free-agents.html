@@ -184,6 +184,7 @@ td.r { text-align: right; }
   .filter-group { flex-wrap: wrap; }
 }
 </style>
+<script src="https://conta.bolapresa.com.br/static/barra.js" defer></script>
 </head>
 <body>
 
@@ -191,11 +192,9 @@ td.r { text-align: right; }
   <div class="bp-miolo">
 
     <!-- TOP BAR -->
+    <bp-barra></bp-barra>
     <div class="bp-topbar">
-      <a class="bp-topbar-logo" href="home.html">
-        <img src="logo_bolapresa.jpg" alt="Bola Presa" onerror="this.style.display='none'" />
-        Bola Presa Stats
-      </a>
+      <a class="bp-topbar-logo" href="home.html">Stats</a>
       <div class="bp-topbar-divider"></div>
       <span class="bp-topbar-section">Free Agents 2026</span>
       <nav class="bp-topbar-nav">
@@ -204,7 +203,7 @@ td.r { text-align: right; }
         <a href="jogadores.html">jogadores</a>
         <a href="salaries.html">salários</a>
         <a href="rankings.html">rankings</a>
-        <a href="free-agents.html" style="background:rgba(255,255,255,0.2);color:#fff">free agents</a>
+        <a href="free-agents.html" class="ativo">free agents</a>
         <a href="redraft.html">redrafts</a>
       </nav>
     </div>
